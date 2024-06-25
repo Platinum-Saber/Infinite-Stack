@@ -1,0 +1,192 @@
+{
+  "main": {
+    "id": "dd4e7abe5948aacc",
+    "type": "split",
+    "children": [
+      {
+        "id": "08af04b1b32c8ccc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3e3507fb04a7448c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SEM-3/CS2053-Computer Architecture/Computer Architecture Introduction.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "9872c1ad4ab1392c",
+    "type": "split",
+    "children": [
+      {
+        "id": "024df58184f486fd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "671fcfcc9244e77e",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "54cc69cb6e429c75",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "bf235a5714ab8d82",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "b2aa869acde22062",
+    "type": "split",
+    "children": [
+      {
+        "id": "c879833fe0793969",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4f739faa228e9935",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "SEM-3/CS2053-Computer Architecture/Computer Architecture Introduction.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "e1493370f925b016",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "59929c929f7b902d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "SEM-3/CS2053-Computer Architecture/Computer Architecture Introduction.md"
+              }
+            }
+          },
+          {
+            "id": "0459fa110490a006",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "effc7e98367e3900",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "SEM-3/CS2053-Computer Architecture/Computer Architecture Introduction.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 249.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "markdown-table-editor:Open Markdown Table Editor": false
+    }
+  },
+  "active": "3e3507fb04a7448c",
+  "lastOpenFiles": [
+    "SEM-3/CS2053-Computer Architecture/Computer Architecture.md",
+    "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Basic Concepts of Thermodynamics.md",
+    "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Thermodynamics.md",
+    "SEM-3/SEM-3.md",
+    "Infinite Stack.md",
+    "In Class Activity.md",
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/AI Introduction.md",
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/Artificial Intelligence.md",
+    "Work Space.canvas",
+    "SEM-3/CS2053-Computer Architecture/Computer Architecture Introduction.md",
+    "Images/Pasted image 20240624105841.png",
+    "Images",
+    "Images/Pasted image 20240624102848.png",
+    "Untitled.canvas",
+    "SEM-3/CS2033-Data Communication and Networking/Data Communication & Networking.md",
+    "SEM-3/CS3043-Database Systems/Database systems.md",
+    "SEM-3/MA3014-Applied Statistics/Applied Statistics.md",
+    "SEM-3/MA2014-Differential Equations/Differential Equations.md",
+    "SEM-3/CS2043-Operating Systems/Operating Systems.md",
+    "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications",
+    "SEM-3/MA3014-Applied Statistics",
+    "SEM-3/MA2014-Differential Equations",
+    "SEM-3/CS3613-Introduction to Artificial Intelligence",
+    "SEM-3/CS3043-Database Systems",
+    "SEM-3/CS2053-Computer Architecture",
+    "SEM-3/CS2043-Operating Systems",
+    "SEM-3/CS2033-Data Communication and Networking",
+    "SEM-3"
+  ]
+}
