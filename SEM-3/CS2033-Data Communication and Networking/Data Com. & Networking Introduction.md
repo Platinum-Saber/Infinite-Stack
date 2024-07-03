@@ -84,4 +84,23 @@
 >>Operation of cables, connectors, wireless radio transceivers
 
 >[!info]- Data Link Layer
->>[!abstract]- Purppose
+>>[!abstract]- Purpose
+>> Provide error free transmission across a single link
+>
+>>[!abstract]- Functions
+>>- Data framing
+>>- Error detection and handling
+>>- Flow control
+>>- Addressing - hardware level
+
+>[!info]- Network Layer
+>>[!abstract]- Purpose
+>>- deliver packets (`datagrams`) from sender to the receiver (`host-to-host`) across a communication network.
+>>- Shields higher layers from the details of how the packets got to their destination.
+>
+>>[!abstract]- Functions
+>>- Logical addressing  :  which machine to send the packets to
+>>- Routing  : How to get there
+>>- Datagram encapsulation
+>>- Congestion control  : manage lots of packets in the network core
+>>- Quality of Service  : Guarantee levels of service
