@@ -19,6 +19,7 @@
 >>- Two-party
 >>- Multi-party
 
+<br>
 
 ### Network
 >[!FAQ]- What is a Network
@@ -62,6 +63,7 @@
 >- `OSI` reference model
 >- `TCP/IP` model
 
+<br>
 
 ### OSI (Open System Interconnect) Model
 >[!note]- Functionality of OSI model
@@ -69,9 +71,9 @@
 >- Has 7 layers which have well defined  functions.
 >- Boundaries between the layers minimizes the information flow across.
 >
->![[Pasted image 20240703210655.png]]
+>![[Pasted image 20240703210655.png]] ![[Pasted image 20240703214541.png]]
 
->[!info]- Physical Layer
+1. >[!info]- Physical Layer
 >>[!abstract]- Purpose
 >>Accept a raw string of bits and deliver it across a link
 >
@@ -83,7 +85,7 @@
 >>[!abstract]- Hardware Specifications
 >>Operation of cables, connectors, wireless radio transceivers
 
->[!info]- Data Link Layer
+2. >[!info]- Data Link Layer
 >>[!abstract]- Purpose
 >> Provide error free transmission across a single link
 >
@@ -93,7 +95,7 @@
 >>- Flow control
 >>- Addressing - hardware level
 
->[!info]- Network Layer
+3. >[!info]- Network Layer
 >>[!abstract]- Purpose
 >>- deliver packets (`datagrams`) from sender to the receiver (`host-to-host`) across a communication network.
 >>- Shields higher layers from the details of how the packets got to their destination.
@@ -105,7 +107,7 @@
 >>- Congestion control  : manage lots of packets in the network core
 >>- Quality of Service  : Guarantee levels of service
 
->[!info]- Transport Layer
+4. >[!info]- Transport Layer
 >>[!abstract]- Purpose
 >> Provides end-to-end delivery from one host to the other
 >
@@ -116,7 +118,7 @@
 >>- Flow control
 >>- Quality service
 
->[!info]- Session Layer
+5. >[!info]- Session Layer
 >>[!abstract]- Purpose
 >> Provide a means of controlling the dialog between two end-to-end users (applications)
 >
@@ -128,6 +130,30 @@
 >
 >>[!warning] Not often implemented in real systems
 
->[!info]- Presentation 
+6. >[!info]- Presentation Layer
+>>[!abstract]- Purpose
+>> Formatting data for transmission
+>
+>>[!abstract]- Functions
+>>- Translation
+>>- Compression
+>>- Encryption
+>
+>>[!warning] In practice not implemented in a separate layer but included else where (in the applications)
+
+7. >[!info]- Application Layer
+>>[!abstract]- Purpose
+>>Provide network based applications for users
+>
+>>[!abstract]- Functional Applications
+>>- File transfer
+>>- Electronic mail
+>>- World wide web
+>>- Instant messaging
+>>- Directory services
+>>- Remote file systems
+>
+>>[!warning] Some widely used applications are standardized
+
 
 
