@@ -40,3 +40,13 @@
 >- Different languages
 >- Different data formats
 >- Different communication rates
+
+>[!success]- Solutions
+>- Modularization
+>- Layering
+>- Standardization
+
+<br>
+
+### Layered Architecture
+>[!note]- 
