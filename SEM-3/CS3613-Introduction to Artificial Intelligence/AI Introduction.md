@@ -5,39 +5,35 @@
 
 <br>
 
-## Acting humanly (The Turing test approach)
+### Acting humanly (The Turing test approach)
 
->[!note]- What is 'Turing test' ?
+>[!faq]-  What is 'Turing test' ?
 >
 A method to evaluate the intelligence of a machine.
 If a series of questions are answered by a human and a machine, when the interrogator can not distinguish between the responses, the machine is said to be intelligent. 
 
-<br>
-
->[!note]- Drawbacks of the test
+>[!warning]- Drawbacks of the test
 >- Doesn't really indicate if the machine has intelligence.
 >- Mimicking human behavior doesn't make machines intelligence.
 >- Human intelligence isn't the only form of intelligence.
 >![[Pasted image 20240624105841.png]]
 
-#### Major components of AI
-- Natural language processing (to communicate)
-- Knowledge representation (to store what it learns)
-- Automated reasoning (to answer Qs & draw new conclusions)
-- Machine learning (to adapt to new circumstances and to detect and extrapolate patterns)
-- Computer vision (to perceive the world)
-- Robotics (for mobility)
-
+>[!example]- Major components of AI
+>- Natural language processing (to communicate)
+>- Knowledge representation (to store what it learns)
+>- Automated reasoning (to answer Qs & draw new conclusions)
+>- Machine learning (to adapt to new circumstances and to detect and extrapolate patterns)
+>- Computer vision (to perceive the world)
+>- Robotics (for mobility)
 <br>
 
-## Thinking humanly (The cognitive modeling approach)
+### Thinking humanly (The cognitive modeling approach)
 
->[!note]- What is Thinking humanly ?
+>[!FAQ]- What is Thinking humanly ?
 >Machines that think like humans.
 >For this a sufficiently precise theory of how the mind works is required.
 
-
->[!tip]- Possible ways to achieve this is by
+>[!info]- Possible ways to achieve this is by
 >- Introspection - catch your own thoughts as they go by
 >- Psychological experiments - observe a person in action
 >- brain imaging - observing the brain activity
@@ -45,18 +41,17 @@ If a series of questions are answered by a human and a machine, when the interro
 >Then if the program's IO behavior matches corresponding human behavior it can be said that the machine thinks like a human. 
 
 <br>
-
-## Thinking Rationally (The "Law of Thought" approach)
->[!note]- What is rational thinking?
+### Thinking Rationally (The "Law of Thought" approach)
+>[!FAQ]- What is rational thinking?
 >Ideal or correct way of reasoning or thinking.
 
->[!note]- Drawbacks of this approach
+>[!error]- Drawbacks of this approach
 > - Difficult to take informal knowledge and express it in a formal logical terms
 > - Computationally intensive (Even a problem with a few dozen facts can exhaust any computer unless it’s guided as to which reasoning steps to try first.)
 
 <br>
 
-## Acting Rationally (The rational agent approach)
+### Acting Rationally (The rational agent approach)
 >[!note]- What is an Agent ?
 >An entity that perceives and acts.
 
@@ -109,5 +104,3 @@ If a series of questions are answered by a human and a machine, when the interro
 	- Design systems that maximize an objective function over time
 - ##### Linguistics
 	- Knowledge representation, grammar
-
-what :
