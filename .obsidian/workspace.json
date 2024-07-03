@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM-3/CS2053-Computer Architecture/Computer Architecture Introduction.md",
+                "file": "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Basic Concepts of Thermodynamics.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SEM-3/CS2053-Computer Architecture/Computer Architecture Introduction.md",
+                "file": "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Basic Concepts of Thermodynamics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM-3/CS2053-Computer Architecture/Computer Architecture Introduction.md"
+                "file": "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Basic Concepts of Thermodynamics.md"
               }
             }
           },
@@ -131,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM-3/CS2053-Computer Architecture/Computer Architecture Introduction.md",
+                "file": "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Basic Concepts of Thermodynamics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,31 +154,30 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "markdown-table-editor:Open Markdown Table Editor": false
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "3e3507fb04a7448c",
+  "active": "671fcfcc9244e77e",
   "lastOpenFiles": [
-    "SEM-3/CS2053-Computer Architecture/Computer Architecture.md",
-    "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Basic Concepts of Thermodynamics.md",
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Thermodynamics.md",
+    "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Basic Concepts of Thermodynamics.md",
+    "SEM-3/MA2014-Differential Equations/Differential Equations.md",
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/Artificial Intelligence.md",
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/AI Introduction.md",
+    "SEM-3/CS3043-Database Systems/Database systems.md",
+    "SEM-3/CS2053-Computer Architecture/Computer Architecture Introduction.md",
+    "SEM-3/CS2053-Computer Architecture/Computer Architecture.md",
+    "SEM-3/CS2043-Operating Systems/Operating Systems.md",
+    "SEM-3/CS2033-Data Communication and Networking/Data Communication & Networking.md",
     "SEM-3/SEM-3.md",
     "Infinite Stack.md",
     "In Class Activity.md",
-    "SEM-3/CS3613-Introduction to Artificial Intelligence/AI Introduction.md",
-    "SEM-3/CS3613-Introduction to Artificial Intelligence/Artificial Intelligence.md",
     "Work Space.canvas",
-    "SEM-3/CS2053-Computer Architecture/Computer Architecture Introduction.md",
     "Images/Pasted image 20240624105841.png",
     "Images",
     "Images/Pasted image 20240624102848.png",
     "Untitled.canvas",
-    "SEM-3/CS2033-Data Communication and Networking/Data Communication & Networking.md",
-    "SEM-3/CS3043-Database Systems/Database systems.md",
     "SEM-3/MA3014-Applied Statistics/Applied Statistics.md",
-    "SEM-3/MA2014-Differential Equations/Differential Equations.md",
-    "SEM-3/CS2043-Operating Systems/Operating Systems.md",
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications",
     "SEM-3/MA3014-Applied Statistics",
     "SEM-3/MA2014-Differential Equations",
