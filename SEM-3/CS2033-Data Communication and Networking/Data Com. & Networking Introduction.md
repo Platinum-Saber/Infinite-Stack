@@ -71,4 +71,14 @@
 >
 >![[Pasted image 20240703210655.png]]
 
->[!info ]
+>[!info]- Physical Layer
+>>[!abstract]- Purpose
+>>Accept a raw string of bits and deliver it across a link
+>
+>>[!abstract]- Functions
+>>- Encoding signals
+>>- Data transmission and reception
+>>- Topology and physical network design
+>
+>>[!abstract]- Hardware Specifications
+>>Operation of cables, connectors, wireless radio transceivers
