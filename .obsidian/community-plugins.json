@@ -8,5 +8,10 @@
   "markdown-table-editor",
   "note-refactor-obsidian",
   "obsidian-icon-folder",
-  "callout-manager"
+  "callout-manager",
+  "obsidian-admonition",
+  "obsidian-icon-shortcodes",
+  "obsidian-emoji-toolbar",
+  "obsidian-icons-plugin",
+  "mermaid-tools"
 ]

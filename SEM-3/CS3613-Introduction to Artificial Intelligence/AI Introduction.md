@@ -1,4 +1,4 @@
->[!note]  What is AI?
+>[!note]-  What is AI?
 >It concerns with understanding and building intelligent entities.
 >There are 4 potential definitions of AI
 >![[Pasted image 20240624102848.png]]
@@ -32,12 +32,12 @@ If a series of questions are answered by a human and a machine, when the interro
 
 ## Thinking humanly (The cognitive modeling approach)
 
->[!note] What is Thinking humanly ?
+>[!note]- What is Thinking humanly ?
 >Machines that think like humans.
 >For this a sufficiently precise theory of how the mind works is required.
 
 
->[!tip] Possible ways to achieve this is by
+>[!tip]- Possible ways to achieve this is by
 >- Introspection - catch your own thoughts as they go by
 >- Psychological experiments - observe a person in action
 >- brain imaging - observing the brain activity
@@ -47,17 +47,17 @@ If a series of questions are answered by a human and a machine, when the interro
 <br>
 
 ## Thinking Rationally (The "Law of Thought" approach)
->[!note] What is rational thinking?
+>[!note]- What is rational thinking?
 >Ideal or correct way of reasoning or thinking.
 
->[!note] Drawbacks of this approach
+>[!note]- Drawbacks of this approach
 > - Difficult to take informal knowledge and express it in a formal logical terms
 > - Computationally intensive (Even a problem with a few dozen facts can exhaust any computer unless it’s guided as to which reasoning steps to try first.)
 
 <br>
 
 ## Acting Rationally (The rational agent approach)
->[!note] What is an Agent ?
+>[!note]- What is an Agent ?
 >An entity that perceives and acts.
 
 #### Computer agents are expected to
@@ -68,7 +68,7 @@ If a series of questions are answered by a human and a machine, when the interro
 - Create and pursue goals 
  <br>
 
->[!note] What is a ***Rational agent*** ?
+>[!note]- What is a ***Rational agent*** ?
 >An entity that acts so as to achieve the best outcome or when there is uncertainty, the best-expected outcome. 
 
 #### Qualities of rational agents
@@ -110,5 +110,4 @@ If a series of questions are answered by a human and a machine, when the interro
 - ##### Linguistics
 	- Knowledge representation, grammar
 
-
-
+what :
