@@ -49,4 +49,7 @@
 <br>
 
 ### Layered Architecture
->[!note]- 
+>[!FAQ]- What is Layered Architecture
+>Dividing the entire network process into abstract separate functional layers
+>
+
