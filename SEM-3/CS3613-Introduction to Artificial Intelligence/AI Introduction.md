@@ -90,20 +90,27 @@ If a series of questions are answered by a human and a machine, when the interro
 <br>
 <br>
 
-### Foundations of AI
--  Philosophy 
-	- Logic, methods of reasoning, mind as physical system foundations of learning, language, rationality
-- ##### Mathematics
-	- Formal representation and proof algorithms, computation, (un)decidability, (in)tractability, probability
-- ##### Economics
-	- Utility, decision theory
-- ##### Neuroscience
-	- Study of the nervous system, particularly, the brain
-- ##### Psychology
-	- Study how humans and animals think
-- ##### Computer engineering
-	- Building fast computers
-- ##### Control theory
-	- Design systems that maximize an objective function over time
-- ##### Linguistics
-	- Knowledge representation, grammar
+#### Foundations of AI
+>[!check]-  philosophy 
+>-Logic, methods of reasoning, mind as physical system foundations of learning, language, rationality
+
+>[!check]- Mathematics
+>- Formal representation and proof algorithms, computation, (un)decidability, (in)tractability, probability
+
+>[!check]- Economics
+>- Utility, decision theory
+ 
+ >[!check]- Neuroscience
+>- Study of the nervous system, particularly, the brain
+
+ >[!check]- Psychology
+>- Study how humans and animals think
+
+>[!check]- Computer engineering
+>- Building fast computers
+
+ >[!check]- Control theory
+>- Design systems that maximize an objective function over time
+
+ >[!check]- Linguistics
+>- Knowledge representation, grammar
