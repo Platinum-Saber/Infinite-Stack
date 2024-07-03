@@ -7,14 +7,14 @@
 
 ## Acting humanly (The Turing test approach)
 
->[!note] What is 'Turing test' ?
+>[!note]- What is 'Turing test' ?
 >
 A method to evaluate the intelligence of a machine.
 If a series of questions are answered by a human and a machine, when the interrogator can not distinguish between the responses, the machine is said to be intelligent. 
 
 <br>
 
->[!note] Drawbacks of the test
+>[!note]- Drawbacks of the test
 >- Doesn't really indicate if the machine has intelligence.
 >- Mimicking human behavior doesn't make machines intelligence.
 >- Human intelligence isn't the only form of intelligence.
