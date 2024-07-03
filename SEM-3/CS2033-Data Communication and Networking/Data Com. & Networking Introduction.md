@@ -82,3 +82,6 @@
 >
 >>[!abstract]- Hardware Specifications
 >>Operation of cables, connectors, wireless radio transceivers
+
+>[!info]- Data Link Layer
+>>[!abstract]- Purppose
