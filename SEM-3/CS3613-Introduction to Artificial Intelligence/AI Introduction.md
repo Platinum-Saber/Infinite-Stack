@@ -109,3 +109,6 @@ If a series of questions are answered by a human and a machine, when the interro
 	- Design systems that maximize an objective function over time
 - ##### Linguistics
 	- Knowledge representation, grammar
+
+
+
