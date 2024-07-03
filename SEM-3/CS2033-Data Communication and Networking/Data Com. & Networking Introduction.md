@@ -104,3 +104,30 @@
 >>- Datagram encapsulation
 >>- Congestion control  : manage lots of packets in the network core
 >>- Quality of Service  : Guarantee levels of service
+
+>[!info]- Transport Layer
+>>[!abstract]- Purpose
+>> Provides end-to-end delivery from one host to the other
+>
+>>[!abstract]- Functions
+>>- Connection establishment, management and termination
+>>- Multiplexing and demultiplexing
+>>- Error detection and correction
+>>- Flow control
+>>- Quality service
+
+>[!info]- Session Layer
+>>[!abstract]- Purpose
+>> Provide a means of controlling the dialog between two end-to-end users (applications)
+>
+>>[!abstract]- Functions
+>>- Dialog control (full 🆚 half duplex)
+>>- Token management
+>>- Synchronization
+>>- Recovery management
+>
+>>[!warning] Not often implemented in real systems
+
+>[!info]- Presentation 
+
+
