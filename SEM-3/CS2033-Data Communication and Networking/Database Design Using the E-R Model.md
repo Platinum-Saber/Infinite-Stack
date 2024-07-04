@@ -3,8 +3,7 @@
 
 ```mermaid
 flowchart LR
-Start --> Stop
-
+Requirements --> Conceptual_design --> Logical_design --> Physical_design
 
 ```
 
@@ -23,7 +22,7 @@ Start --> Stop
 >>- Logical design (Deciding the database schema)
 >>- Physical design (Deciding the physical layout of the database)
 
->[!war]- Major pitfalls to avoid in designing a database schema
+>[!warning]- Major pitfalls to avoid in designing a database schema
 >>[!error]- Redundancy
 >
 >>[!error]- Incompleteness
@@ -35,3 +34,5 @@ Start --> Stop
 >
 >>[!info]- Normalization
 >>Formalize what designs are bad and test for them
+
+### ER Model
