@@ -64,3 +64,7 @@ Requirements --> Conceptual_design --> Logical_design --> Physical_design
 >[!FAQ]- what is an `Entity Set`
 >A set of entities of the same type that share the same properties
 
+>[!note]- Attributes
+>An entity is represented by a set of **attributes** (descriptive properties possessed by all members of an entity set).
+>A subset of the attributes form a **`primary key`** of the entity set. (uniquely identifying each member of the set)
+
