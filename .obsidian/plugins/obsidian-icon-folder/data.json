@@ -81,5 +81,8 @@
     "iconName": "RiStackFill",
     "iconColor": "#d2ff70"
   },
-  "SEM-3/SEM-3.md": "FiHome"
+  "SEM-3.md": {
+    "iconName": "FiHome",
+    "iconColor": "#fcb069"
+  }
 }
