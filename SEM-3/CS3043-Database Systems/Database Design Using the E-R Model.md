@@ -1,4 +1,8 @@
 ## Design Process
+
+<br>
+<br>
+
 ### Design Phases
 
 ```mermaid
@@ -6,6 +10,8 @@ flowchart LR
 Requirements --> Conceptual_design --> Logical_design --> Physical_design
 
 ```
+
+<br>
 
 >[!abstract]- Design phases
 >>[!info]- Initial phase
@@ -34,6 +40,8 @@ Requirements --> Conceptual_design --> Logical_design --> Physical_design
 >
 >>[!info]- Normalization
 >>Formalize what designs are bad and test for them
+
+<br>
 
 ### ER Model
 >[!FAQ]- Why was the ER data model developed
