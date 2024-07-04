@@ -1,4 +1,4 @@
-## Design Process
+# Design Process
 
 <br>
 <br>
@@ -43,7 +43,7 @@ Requirements --> Conceptual_design --> Logical_design --> Physical_design
 
 <br>
 
-### ER Model
+# ER Model
 >[!FAQ]- Why was the ER data model developed
 >To facilitate database design by allowing specification of an `enterprise schema` that represents the overall logical structure of the database
 
@@ -52,4 +52,15 @@ Requirements --> Conceptual_design --> Logical_design --> Physical_design
 >- relationship sets
 >- attributes
 
->[!info] The ER model also has
+>[!tip] The ER model also has an associated diagrammatic representation, the `ER diagram` which can express the overall logical structure of a database graphically
+
+<br>
+<br>
+
+### Entity Sets
+>[!FAQ]- What is an `entity`
+>An object that exists and is distinguishable from other objects
+
+>[!FAQ]- what is an `Entity Set`
+>A set of entities of the same type that share the same properties
+
