@@ -7,9 +7,22 @@
 
 >[!example]- Examples for Database Applications
 >- Banking transactions
->- Airlines
->- Universities
->- Sales
->- Manufacturing
->- Online retailers
->- Human resources  : employee records
+>- Airlines  : reservations, schedules
+>- Universities  : registration, grades
+>- Sales  : customers, products
+>- Manufacturing  : inventory, supply chain
+>- Online retailers  : order tracking
+>- Human resources  : employee records, salaries
+
+>[!warning]- Drawbacks of using file systems to store data
+>- **Data redundancy and inconsistency** (multiple file formats, duplication of information)
+>- **Difficulty in increasing data** (Need to write a new program to carry out each new task)
+>- **Data isolation** (multiple file formats)
+>- **Integrity problems**
+>	- Integrity constraints become buried in program code rather than being stated explicitly 
+>	- Hard to add new constraints or change existing ones
+>- **Atomicity of updates**
+>	- Failures may leave database in an inconsistent state with partial updates carried out
+>- Concurrent access by multiple users
+>	- Concurrent access by multiple 
+>	
