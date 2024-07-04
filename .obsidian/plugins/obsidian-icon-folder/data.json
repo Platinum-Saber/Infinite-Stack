@@ -5,7 +5,18 @@
     "fontSize": 16,
     "emojiStyle": "native",
     "iconColor": null,
-    "recentlyUsedIcons": [],
+    "recentlyUsedIcons": [
+      "RaFire",
+      "LiLineChart",
+      "RiInfinityLine",
+      "RiRobot2Line",
+      "FasDatabase",
+      "LiCircuitBoard",
+      "🐧",
+      "LiNetwork",
+      "LiLibraryBig",
+      "FarImages"
+    ],
     "recentlyUsedIconsSize": 10,
     "rules": [],
     "extraMargin": {
@@ -25,5 +36,33 @@
     "iconsInLinksEnabled": true,
     "iconIdentifier": ":",
     "debugMode": false
+  },
+  "Images": "FarImages",
+  "SEM-3": "LiLibraryBig",
+  "SEM-3/CS2033-Data Communication and Networking": {
+    "iconName": "LiNetwork",
+    "iconColor": "#5145fc"
+  },
+  "SEM-3/CS2043-Operating Systems": "🐧",
+  "SEM-3/CS2053-Computer Architecture": {
+    "iconName": "LiCircuitBoard",
+    "iconColor": "#61dfff"
+  },
+  "SEM-3/CS3043-Database Systems": {
+    "iconName": "FasDatabase",
+    "iconColor": "#66ff8c"
+  },
+  "SEM-3/CS3613-Introduction to Artificial Intelligence": {
+    "iconName": "RiRobot2Line",
+    "iconColor": "#e0ff70"
+  },
+  "SEM-3/MA2014-Differential Equations": {
+    "iconName": "RiInfinityLine",
+    "iconColor": "#f9a939"
+  },
+  "SEM-3/MA3014-Applied Statistics": "LiLineChart",
+  "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications": {
+    "iconName": "RaFire",
+    "iconColor": "#ff5252"
   }
 }
