@@ -36,3 +36,12 @@ Requirements --> Conceptual_design --> Logical_design --> Physical_design
 >>Formalize what designs are bad and test for them
 
 ### ER Model
+>[!FAQ]- Why was the ER data model developed
+>To facilitate database design by allowing specification of an `enterprise schema` that represents the overall logical structure of the database
+
+>[!abstract]- Basic concepts used in ER-data model
+>- entity sets
+>- relationship sets
+>- attributes
+
+>[!info] The ER model also has

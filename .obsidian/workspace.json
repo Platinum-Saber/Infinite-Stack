@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "b2aa869acde22062",
@@ -171,11 +170,11 @@
   },
   "active": "fa9a352e6971d1b5",
   "lastOpenFiles": [
-    "SEM-3/CS2033-Data Communication and Networking/Data Communication & Networking.md",
-    "SEM-3/CS2033-Data Communication and Networking/Database Design Using the E-R Model.md",
     "SEM-3/CS2033-Data Communication and Networking/Data Com. & Networking Introduction.md",
-    "SEM-3/CS3043-Database Systems/Database Systems Introduction.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/AI Introduction.md",
+    "SEM-3/CS2033-Data Communication and Networking/Database Design Using the E-R Model.md",
+    "SEM-3/CS2033-Data Communication and Networking/Data Communication & Networking.md",
+    "SEM-3/CS3043-Database Systems/Database Systems Introduction.md",
     "SEM-3/CS3043-Database Systems/Database systems.md",
     "SEM-3.md",
     "Infinite Stack.md",
