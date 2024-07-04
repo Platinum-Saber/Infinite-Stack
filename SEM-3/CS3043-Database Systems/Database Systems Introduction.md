@@ -31,5 +31,13 @@
 >- **Security problems** (Hard to provide user access to some, but not all data)
 
 ### Levels of Abstraction of a DBMS
->[!info]- Levels of Abstraction
->[!info]
+>[!abstract]- Levels of Abstraction
+>>[!info]- Physical level
+>>Describes data stored in database, and the relationships among the data.
+>
+>>[!info]- Logical level
+>>Describes data stored in database, and the relationships among data.
+>
+>>[!info]- View level
+>>Application programs hide details of data types. Views can also hide information for security purposes.
+
