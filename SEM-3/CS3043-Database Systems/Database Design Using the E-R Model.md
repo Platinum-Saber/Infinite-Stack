@@ -66,5 +66,15 @@ Requirements --> Conceptual_design --> Logical_design --> Physical_design
 
 >[!note]- Attributes
 >An entity is represented by a set of **attributes** (descriptive properties possessed by all members of an entity set).
->A subset of the attributes form a **`primary key`** of the entity set. (uniquely identifying each member of the set)
+>A subset of the attributes form a **`primary key`** 🔑 of the entity set. (uniquely identifying each member of the set)
+
+<br>
+
+#### Representing Entity Sets
+>[!tip]- How to represent **entity sets** graphically
+>- Rectangles represents entity sets
+>- Attributes are listed inside the entity rectangle
+>- Underline indicates **primary key 🗝 ** attribute
+>
+>![[Pasted image 20240704100409.png]]
 
