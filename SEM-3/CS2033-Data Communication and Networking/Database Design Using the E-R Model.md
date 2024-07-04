@@ -23,3 +23,15 @@ Start --> Stop
 >>- Logical design (Deciding the database schema)
 >>- Physical design (Deciding the physical layout of the database)
 
+>[!war]- Major pitfalls to avoid in designing a database schema
+>>[!error]- Redundancy
+>
+>>[!error]- Incompleteness
+
+>[!abstract]- Design Approaches
+>>[!info]- Entity relationship Model
+>>- Models that enterprise as a collection of `entities` and `relationships`
+>>- Represented diagrammatically by an *entity-relationship diagram*
+>
+>>[!info]- Normalization
+>>Formalize what designs are bad and test for them
