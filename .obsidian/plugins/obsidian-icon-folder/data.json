@@ -6,16 +6,16 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "FiHome",
+      "LiFolders",
+      "FiDatabase",
+      "SiLinux",
+      "RiStackFill",
       "RaFire",
       "LiLineChart",
       "RiInfinityLine",
       "RiRobot2Line",
-      "FasDatabase",
-      "LiCircuitBoard",
-      "🐧",
-      "LiNetwork",
-      "LiLibraryBig",
-      "FarImages"
+      "FasDatabase"
     ],
     "recentlyUsedIconsSize": 10,
     "rules": [],
@@ -37,20 +37,29 @@
     "iconIdentifier": ":",
     "debugMode": false
   },
-  "Images": "FarImages",
-  "SEM-3": "LiLibraryBig",
+  "Images": {
+    "iconName": "FarImages",
+    "iconColor": "#6e6bff"
+  },
+  "SEM-3": {
+    "iconName": "LiLibraryBig",
+    "iconColor": "#73f7d6"
+  },
   "SEM-3/CS2033-Data Communication and Networking": {
     "iconName": "LiNetwork",
     "iconColor": "#5145fc"
   },
-  "SEM-3/CS2043-Operating Systems": "🐧",
+  "SEM-3/CS2043-Operating Systems": {
+    "iconName": "SiLinux",
+    "iconColor": "#89affb"
+  },
   "SEM-3/CS2053-Computer Architecture": {
     "iconName": "LiCircuitBoard",
     "iconColor": "#61dfff"
   },
   "SEM-3/CS3043-Database Systems": {
-    "iconName": "FasDatabase",
-    "iconColor": "#66ff8c"
+    "iconName": "FiDatabase",
+    "iconColor": "#66ffa1"
   },
   "SEM-3/CS3613-Introduction to Artificial Intelligence": {
     "iconName": "RiRobot2Line",
@@ -60,9 +69,17 @@
     "iconName": "RiInfinityLine",
     "iconColor": "#f9a939"
   },
-  "SEM-3/MA3014-Applied Statistics": "LiLineChart",
+  "SEM-3/MA3014-Applied Statistics": {
+    "iconName": "LiLineChart",
+    "iconColor": "#b862fe"
+  },
   "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications": {
     "iconName": "RaFire",
     "iconColor": "#ff5252"
-  }
+  },
+  "Infinite Stack.md": {
+    "iconName": "RiStackFill",
+    "iconColor": "#d2ff70"
+  },
+  "SEM-3/SEM-3.md": "FiHome"
 }
