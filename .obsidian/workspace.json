@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM-3/CS2033-Data Communication and Networking/Data Com. & Networking Introduction.md",
+                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/AI Introduction.md",
                 "mode": "preview",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "b2aa869acde22062",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SEM-3/CS2033-Data Communication and Networking/Data Com. & Networking Introduction.md",
+                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/AI Introduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM-3/CS2033-Data Communication and Networking/Data Com. & Networking Introduction.md"
+                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/AI Introduction.md"
               }
             }
           },
@@ -132,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM-3/CS2033-Data Communication and Networking/Data Com. & Networking Introduction.md",
+                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/AI Introduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,16 +162,17 @@
   },
   "active": "3e3507fb04a7448c",
   "lastOpenFiles": [
-    "Pasted image 20240703214541.png",
-    "Pasted image 20240703210655.png",
-    "SEM-3/CS2033-Data Communication and Networking/Data Communication & Networking.md",
-    "SEM-3/CS2033-Data Communication and Networking/Data Com. & Networking Introduction.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Artificial Intelligence.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/AI Introduction.md",
     "SEM-3/CS3043-Database Systems/Database systems.md",
     "SEM-3/CS2053-Computer Architecture/Computer Architecture Introduction.md",
     "SEM-3/CS2053-Computer Architecture/Computer Architecture.md",
+    "SEM-3/CS2043-Operating Systems/OS Introduction.md",
     "SEM-3/CS2043-Operating Systems/Operating Systems.md",
+    "SEM-3/CS2033-Data Communication and Networking/Data Com. & Networking Introduction.md",
+    "Images/Pasted image 20240703214541.png",
+    "Images/Pasted image 20240703210655.png",
+    "SEM-3/CS2033-Data Communication and Networking/Data Communication & Networking.md",
     "SEM-3/SEM-3.md",
     "Infinite Stack.md",
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Basic Concepts of Thermodynamics.md",
