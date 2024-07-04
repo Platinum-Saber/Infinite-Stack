@@ -31,3 +31,5 @@
 >- **Security problems** (Hard to provide user access to some, but not all data)
 
 ### Levels of Abstraction of a DBMS
+>[!info]- Levels of Abstraction
+>[!info]
