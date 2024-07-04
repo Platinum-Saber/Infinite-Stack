@@ -70,7 +70,6 @@ Requirements --> Conceptual_design --> Logical_design --> Physical_design
 
 <br>
 
-#### Representing Entity Sets
 >[!tip]- How to represent **entity sets** graphically
 >- Rectangles represents entity sets
 >- Attributes are listed inside the entity rectangle
@@ -78,3 +77,11 @@ Requirements --> Conceptual_design --> Logical_design --> Physical_design
 >
 >![[Pasted image 20240704100409.png]]
 
+<br>
+<br>
+
+### Relationship Sets
+>[!info] A **relationship** is an association among several entities.
+
+>[!info]- A **relationship set** is a mathematical relation among 2 or more entities each taken from entity sets
+> {$(e_1, e_2, ... e_n) | $}
