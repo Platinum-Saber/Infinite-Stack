@@ -32,4 +32,14 @@
 ## Registers
 >[!note]- Functionality of a register
 >It's a type of memory located inside the CPU
->It can hold a single piece of data
+>It can hold a single piece of data (useful in both data processing & control functionalities)
+
+>[!example]- Examples for **Special Purpose Registers**
+>- Program counter
+>- Instruction register
+>- Accumulator or working register
+>- Flag/Status register
+
+>[!abstract]- **Special Purpose Registers**
+>![[Pasted image 20240705091030.png]]
+>![[Pasted image 20240705091103.png]]

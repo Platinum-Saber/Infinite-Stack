@@ -152,19 +152,19 @@
             }
           },
           {
-            "id": "71a6e091981d45b3",
+            "id": "8cf7348db3e7da3a",
             "type": "leaf",
             "state": {
               "type": "mermaid-toolbar-view",
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 249.5,
-    "collapsed": true
+    "width": 249.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -181,8 +181,10 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "767ceede171d38fb",
+  "active": "8cf7348db3e7da3a",
   "lastOpenFiles": [
+    "Pasted image 20240705091103.png",
+    "Pasted image 20240705091030.png",
     "Pasted image 20240705090046.png",
     "SEM-3/CS2053-Computer Architecture/Instruction Set Architecture-RV.md",
     "SEM-3/CS3043-Database Systems/Database Design Using the E-R Model.md",
