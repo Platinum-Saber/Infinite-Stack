@@ -22,7 +22,14 @@
 >- Ex :- Intel & AMD both support x86 with different organizations
 
 >[!FAQ]- What is **Computer Design**
->
+>- It maps a given organization to a logic design, logic design to a silicon layout & chip packaging.
+>- This is the view of the hardware designer.
+>- Design decisions are based on constraints like circuit level delays, silicon real estate, heat generation & cost.
 
+>[!info]- $\ 3^{rd}$ Level view of a computer
+>![[Pasted image 20240705090046.png]]
 
-
+## Registers
+>[!note]- Functionality of a register
+>It's a type of memory located inside the CPU
+>It can hold a single piece of data
