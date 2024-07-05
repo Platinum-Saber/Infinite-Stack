@@ -1,2 +1,2 @@
 ## Index
-1. [[SEM-3]]
+1. [[SEM-3 INDEX]]

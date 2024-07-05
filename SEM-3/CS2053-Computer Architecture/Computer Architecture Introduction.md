@@ -1,9 +1,9 @@
-### Classes Of Computers
-- Desktop 🖥 
-- Personal 🖥 
-- Servers
-- Embedded 🖥 
-- Cloud 🖥 
+>[!example] Classes Of Computers
+>- Desktop 🖥 
+>- Personal 🖥 
+>- Servers
+>- Embedded 🖥 
+>- Cloud 🖥 
 
 ### Performance Metrics
 - Reliability
