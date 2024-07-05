@@ -1,3 +1,8 @@
+
+# Computer Architecture
+
+<br>
+
 >[!abstract]- Classes Of Computers
 >- Desktop 🖥 
 >- Personal 🖥 
@@ -29,6 +34,9 @@
 >[!info]- $\ 3^{rd}$ Level view of a computer
 >![[Pasted image 20240705090046.png]]
 
+<br>
+<br>
+
 ## Registers
 >[!note]- Functionality of a register
 >It's a type of memory located inside the CPU
@@ -44,34 +52,44 @@
 >![[Pasted image 20240705091030.png]]
 >![[Pasted image 20240705091103.png]]
 
-```mermaid
-classDiagram
-	class Problem_Statement{
-	- Algorithms, RTL
-	- Flowcharts
-	- State transition diagrams
-	}
-	
-	class Behavioral_Description{
-	- Logic equations
-	- Circuit schematics
-	}
-	
-	class Boolean_Logic_and_State{
-	- TTL Gates
-	- Programmable Logic
-	- Custom ASICs
-	- FPGAs
-	- MCs, DSPs
-	}
-	
-	class Hardware_Implementation{
-	- Verilog or VHDL code
-	- Assembler
-	- C, C++
-	}
-	Problem_Statement --> Behavioral_Description --> Boolean_Logic_and_State --> Hardware_Implementation
-	
-	
+> [!tip]- Building Design Solutions to Computational Problems
+> ```mermaid
+> classDiagram
+> 	class Problem_Statement{
+> 	- Algorithms, RTL
+> 	- Flowcharts
+> 	- State transition diagrams
+> 	}
+> 	
+> 	class Behavioral_Description{
+> 	- Logic equations
+> 	- Circuit schematics
+> 	}
+> 	
+> 	class Boolean_Logic_and_State{
+> 	- TTL Gates
+> 	- Programmable Logic
+> 	- Custom ASICs
+> 	- FPGAs
+> 	- MCs, DSPs
+> 	}
+> 	
+> 	class Hardware_Implementation{
+> 	- Verilog or VHDL code
+> 	- Assembler
+> 	- C, C++
+> 	}
+> 	Problem_Statement --> Behavioral_Description
+> 	Behavioral_Description --> Boolean_Logic_and_State
+> 	Boolean_Logic_and_State --> Hardware_Implementation
+> ```
 
-```
+<br>
+
+## Architectural Differences
+>[!abstract]- Commonly identifiable differences
+>- Length of microprocessors' data word (4, 8,16, 32, 64,128 bit)
+>- Speed of instruction execution (clock rate determines processor speed)
+>- Instruction set ( `x86, ARM, SPARC, PIC, RISCV`)
+>- CPU architecture (`RISC 🆚 CISC`)
+>- 
