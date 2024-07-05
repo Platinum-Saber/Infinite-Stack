@@ -164,7 +164,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 249.5
+    "width": 249.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -181,7 +182,7 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "8cf7348db3e7da3a",
+  "active": "767ceede171d38fb",
   "lastOpenFiles": [
     "Pasted image 20240705091103.png",
     "Pasted image 20240705091030.png",

@@ -43,3 +43,35 @@
 >[!abstract]- **Special Purpose Registers**
 >![[Pasted image 20240705091030.png]]
 >![[Pasted image 20240705091103.png]]
+
+```mermaid
+classDiagram
+	class Problem_Statement{
+	- Algorithms, RTL
+	- Flowcharts
+	- State transition diagrams
+	}
+	
+	class Behavioral_Description{
+	- Logic equations
+	- Circuit schematics
+	}
+	
+	class Boolean_Logic_and_State{
+	- TTL Gates
+	- Programmable Logic
+	- Custom ASICs
+	- FPGAs
+	- MCs, DSPs
+	}
+	
+	class Hardware_Implementation{
+	- Verilog or VHDL code
+	- Assembler
+	- C, C++
+	}
+	Problem_Statement --> Behavioral_Description --> Boolean_Logic_and_State --> Hardware_Implementation
+	
+	
+
+```
