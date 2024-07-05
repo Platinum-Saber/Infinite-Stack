@@ -104,3 +104,17 @@
 >>[!info]- Microcontroller
 >>Most IO functions are integrated into the same package with CPU
 
+<br>
+
+## Processor Design to Program
+>[!info]- **Programming Hierarchies**
+>![[Pasted image 20240705095649.png]]
+
+>[!warning]- Shortcomings of a **nano-processor**
+>>[!error]- Lack of stages of instructions
+>>Nano processor is single cycled not multi cycled
+>
+>>[!error] No **Pipelining**
+>
+>>[!error]- Missing Peripherals
+>>- Mem
