@@ -92,4 +92,15 @@
 >- Speed of instruction execution (clock rate determines processor speed)
 >- Instruction set ( `x86, ARM, SPARC, PIC, RISCV`)
 >- CPU architecture (`RISC 🆚 CISC`)
->- 
+>- Size of direct addressable memory
+>- Number and types of registers
+>- Support Circuit performance
+>- Comparability with existing software and hardware
+
+>[!abstract]- Microprocessor 🆚 Microcontroller
+>> [!info]- Microprocessor
+>> CPU & various IO functions are packed as separate ICs
+>
+>>[!info]- Microcontroller
+>>Most IO functions are integrated into the same package with CPU
+
