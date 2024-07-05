@@ -117,4 +117,10 @@
 >>[!error] No **Pipelining**
 >
 >>[!error]- Missing Peripherals
->>- Mem
+>>- Memory : RAM
+>>- Input Output methods (Memory mapped inputs/outputs)
+>
+>>[!error]- No way to program it
+>
+>>[!error]- Not Efficient/ Power
+
