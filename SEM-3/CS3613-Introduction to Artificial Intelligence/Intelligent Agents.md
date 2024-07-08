@@ -6,3 +6,9 @@
 >![[Pasted image 20240708102646.png]]
 >![[Pasted image 20240708102703.png]]
 
+### The Agent Function
+>[!FAQ]- What is an **Agent Function**
+>The function of mapping the agent's ***perception sequence*** to an action.
+
+>[!info]- **Perception Sequence**
+>The complete 
