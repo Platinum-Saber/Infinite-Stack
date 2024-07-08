@@ -65,5 +65,22 @@
 >
 >![[Pasted image 20240708111359.png]]
 
->[!note]- **Learning Agents**
->>[!info]- P
+<br>
+
+#### Learning Agents
+>[!abstract]- Components  of **Learning Agents**
+>>[!info]- Performance Element
+>>Takes in percepts and decides on actions
+>
+>>[!info]- Critic
+>>Evaluates how the agent is performing and gives feedback 
+>
+>>[!info]- Learning Element
+>>Takes feedback from the *Critic* and modifies the *performance element* to do better in the future.
+>
+>>[!info]- Problem Generator
+>>Suggests exploratory actions leading to new and informative experiences. (learn through mistakes)
+>
+>![[Pasted image 20240708112427.png]]
+
+
