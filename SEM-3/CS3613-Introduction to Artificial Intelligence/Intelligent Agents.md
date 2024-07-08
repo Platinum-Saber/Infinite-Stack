@@ -6,6 +6,9 @@
 >![[Pasted image 20240708102646.png]]
 >![[Pasted image 20240708102703.png]]
 
+<br>
+<br>
+
 ### The Agent Function
 >[!FAQ]- What is an **Agent Function**
 >The function of mapping the agent's ***perception sequence*** to an action.
@@ -16,6 +19,8 @@
 >[!info]- **Agent Program**
 >The implementation of the agent function
 
+<br>
+<br>
 
 ### Agent Program 
 >[!abstract]- Agent Program Types
@@ -47,3 +52,18 @@
 >[!note]- **Goal-based Agents**
 >- Combines **prior knowledge** and **perceptions** and takes actions to **achieve a goal** 🥅 
 >- More flexible than reflex agents. (Changing the goal will change the actions appropriately)
+>
+>![[Pasted image 20240708110747.png]]
+
+>[!note]- **Utility-based Agents**
+>>[!warning] Maps a state or sequence of states onto a real number
+>
+>- Describes the **degree of happiness**.
+>- Is used in cases where goals are inadequate.
+>	- Conflicting goals (utility function specifies a tradeoff)
+>	- Choosing a best fit out of many options
+>
+>![[Pasted image 20240708111359.png]]
+
+>[!note]- **Learning Agents**
+>>[!info]- P
