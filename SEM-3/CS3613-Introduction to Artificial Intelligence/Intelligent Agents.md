@@ -24,3 +24,17 @@
 >- Goal - based agents
 >- Utility - based agents
 
+>[!note]- **Simple Reflex Agent**
+>- Simplest kind of agent.
+>>[!warning] Actions depend only on **present percepts**. Ignores the **history**.
+>- Has limited intelligence.
+>- Works best in an **observable environment.**
+>
+>![[Pasted image 20240708105128.png]]
+
+>[!note]- **Model-based Reflex Agent**
+>>[!warning] Maintains an **internal state** that depends on the **perception history.**
+>
+>- Useful in a **partially observable environments**
+>- 
+
