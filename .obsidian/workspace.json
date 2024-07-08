@@ -13,26 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Intelligent Agents.md",
+                "file": "SEM-3/CS2053-Computer Architecture/Computer Architecture Introduction.md",
                 "mode": "preview",
                 "source": false
               }
             }
-          },
-          {
-            "id": "d48b296081f5f893",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Searching Algorithms.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Searching Algorithms.md",
+                "file": "SEM-3/CS2053-Computer Architecture/Computer Architecture Introduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Searching Algorithms.md"
+                "file": "SEM-3/CS2053-Computer Architecture/Computer Architecture Introduction.md"
               }
             }
           },
@@ -144,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Searching Algorithms.md",
+                "file": "SEM-3/CS2053-Computer Architecture/Computer Architecture Introduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -181,10 +168,12 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "d48b296081f5f893",
+  "active": "94500f4673345b56",
   "lastOpenFiles": [
-    "SEM-3/CS3613-Introduction to Artificial Intelligence/Intelligent Agents.md",
+    "SEM-3/CS2053-Computer Architecture/Computer Architecture.md",
+    "SEM-3 INDEX.md",
     "Searching Algorithms.md",
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/Intelligent Agents.md",
     "Images/Pasted image 20240708112427.png",
     "Images/Pasted image 20240708111359.png",
     "Images/Pasted image 20240708110747.png",
@@ -196,13 +185,11 @@
     "Images/Pasted image 20240708102646.png",
     "Images/Pasted image 20240708102629.png",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Artificial Intelligence.md",
-    "SEM-3 INDEX.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/AI Introduction.md",
     "SEM-3/CS2053-Computer Architecture/Instruction Set Architecture-RV.md",
     "Images/Pasted image 20240705095649.png",
     "Images/Pasted image 20240705091103.png",
     "SEM-3/CS3043-Database Systems/Database Design Using the E-R Model.md",
-    "SEM-3/CS2053-Computer Architecture/Computer Architecture.md",
     "SEM-3/CS3043-Database Systems/Database systems.md",
     "SEM-3/CS2033-Data Communication and Networking/Data Communication & Networking.md",
     "SEM-3/CS3043-Database Systems/Database Systems Introduction.md",
