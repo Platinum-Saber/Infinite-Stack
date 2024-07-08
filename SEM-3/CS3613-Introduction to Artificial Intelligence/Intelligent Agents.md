@@ -11,4 +11,16 @@
 >The function of mapping the agent's ***perception sequence*** to an action.
 
 >[!info]- **Perception Sequence**
->The complete 
+>The complete history of everything an agent has perceived so far.
+
+>[!info]- **Agent Program**
+>The implementation of the agent function
+
+
+### Agent Program 
+>[!abstract]- Agent Program Types
+>- Simple Reflex agents
+>- Model - based agents
+>- Goal - based agents
+>- Utility - based agents
+
