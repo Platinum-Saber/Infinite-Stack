@@ -24,6 +24,8 @@
 >- Goal - based agents
 >- Utility - based agents
 
+<br>
+
 >[!note]- **Simple Reflex Agent**
 >- Simplest kind of agent.
 >>[!warning] Actions depend only on **present percepts**. Ignores the **history**.
@@ -36,5 +38,12 @@
 >>[!warning] Maintains an **internal state** that depends on the **perception history.**
 >
 >- Useful in a **partially observable environments**
->- 
+>- Requires to store 2 kinds of knowledge to maintain the internal state
+>	- `Transition model` of the world. (how the world works)
+>	- `Sensor model` (how the state of the world is reflected in the agent's percepts)
+>
+>![[Pasted image 20240708110207.png]]
 
+>[!note]- **Goal-based Agents**
+>- Combines **prior knowledge** and **perceptions** and takes actions to **achieve a goal** 🥅 
+>- More flexible than reflex agents. (Changing the goal will change the actions appropriately)
