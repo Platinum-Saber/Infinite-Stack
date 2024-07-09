@@ -7,8 +7,12 @@
 
 <br>
 
->[!note]- The System Concept
->
+### The System Concept
+
+>[!FAQ]- What is a `System`
+>____
+>The system must be simple and comprehensive.
+>![[Pasted image 20240709161443.png]]
 
 >[!abstract]- Different Types of Systems
 >>[!info]- Open System
@@ -20,6 +24,8 @@
 >
 >>[!info]- Isolated System
 >>![[Pasted image 20240709153608.png]]
+
+<br>
 
 >[!note]- **Thermodynamic Properties**
 >- Properties are known as point functions.
@@ -73,4 +79,8 @@
 >
 
 >[!note]- **Quasi-Equilibrium Process**
-> A process whose all intermediate states are equilibrium states.
+>- A process whose all intermediate states are equilibrium states.
+>- These processes are done extremely slowly
+
+>[!note]- Reversible Process
+>- It's a process that can be reversed without leaving any trace on the surrounding
