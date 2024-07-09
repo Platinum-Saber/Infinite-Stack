@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM-3/CS2053-Computer Architecture/Computer Architecture Introduction.md",
+                "file": "SEM-3/CS3043-Database Systems/Database Systems Introduction.md",
                 "mode": "preview",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SEM-3/CS2053-Computer Architecture/Computer Architecture Introduction.md",
+                "file": "SEM-3/CS3043-Database Systems/Database Systems Introduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM-3/CS2053-Computer Architecture/Computer Architecture Introduction.md"
+                "file": "SEM-3/CS3043-Database Systems/Database Systems Introduction.md"
               }
             }
           },
@@ -131,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM-3/CS2053-Computer Architecture/Computer Architecture Introduction.md",
+                "file": "SEM-3/CS3043-Database Systems/Database Systems Introduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,10 +170,11 @@
   },
   "active": "94500f4673345b56",
   "lastOpenFiles": [
+    "SEM-3/CS3043-Database Systems/Database systems.md",
+    "SEM-3 INDEX.md",
+    "SEM-3/CS2053-Computer Architecture/Computer Architecture Introduction.md",
     "SEM-3/CS2053-Computer Architecture/Instruction Set Architecture-RV.md",
     "SEM-3/CS2053-Computer Architecture/Computer Architecture.md",
-    "SEM-3/CS2053-Computer Architecture/Computer Architecture Introduction.md",
-    "SEM-3 INDEX.md",
     "Searching Algorithms.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Intelligent Agents.md",
     "Images/Pasted image 20240708112427.png",
@@ -190,7 +191,6 @@
     "Images/Pasted image 20240705095649.png",
     "Images/Pasted image 20240705091103.png",
     "SEM-3/CS3043-Database Systems/Database Design Using the E-R Model.md",
-    "SEM-3/CS3043-Database Systems/Database systems.md",
     "SEM-3/CS2033-Data Communication and Networking/Data Communication & Networking.md",
     "SEM-3/CS3043-Database Systems/Database Systems Introduction.md",
     "Infinite Stack.md",

@@ -1,4 +1,9 @@
+
+<br>
+
 # Database Management Systems
+
+<br>
 
 >[!note]- Database Management System
 >DBMS contains information about a particular enterprise
@@ -29,6 +34,9 @@
 >	- Concurrent access needed for performance
 >	- uncontrolled concurrent access can lead to inconsistencies
 >- **Security problems** (Hard to provide user access to some, but not all data)
+
+<br>
+<br>
 
 ### Levels of Abstraction of a DBMS
 >[!abstract]- Levels of Abstraction
