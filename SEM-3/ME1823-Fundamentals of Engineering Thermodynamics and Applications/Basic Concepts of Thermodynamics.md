@@ -3,7 +3,7 @@
 
 <br>
 
-# Basic 
+# Basic Concepts
 
 >[!note]- The System Concept
 >
@@ -37,3 +37,18 @@
 >>[!warning] All mass normalized properties are intensive properties
 >
 >![[Pasted image 20240709154957.png]]
+
+<br>
+
+>[!FAQ]- What is a **Thermodynamic State**
+>- It's an instance of a system defined by properties.
+>- Properties are `state variables`
+
+>[!FAQ]- What is **Thermodynamic Equilibrium**
+>It's a state of a system that experiences no change.
+>>[!abstract] Conditions to satisfy for `Thermodynamic Equilibrium`
+>>- Mechanical Equilibrium
+>>- Chemical Equilibrium
+>>- Phase Equilibrium
+>>- Thermal Equilibrium
+
