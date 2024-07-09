@@ -105,4 +105,16 @@
 >
 >>[!info]- Microscopic Energy
 >>- Energy related to the random movement of the molecular structure of a system and the degree of molecular activity.
->>- 
+>>- Sum of all the microscopic energies are called the `internal energy` of a system.
+>>>[!warning] Independent of outside reference frames.
+>>
+>>>[!example] Examples
+>>>- Translational kinetic energy
+>>>- Vibrational kinetic energy
+>>>- Rotational kinetic energy
+>>>- Spin energy
+
+>[!note] Total Energy (E)
+>$$E =\ U +\ E_k +\ E_p$$
+>$$E =\ U +\ \frac{1}{2}\ m\ C^2\ +\ mgz$$
+>>[!]
