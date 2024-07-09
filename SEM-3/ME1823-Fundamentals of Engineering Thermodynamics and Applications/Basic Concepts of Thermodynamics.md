@@ -5,6 +5,8 @@
 
 # Basic Concepts
 
+<br>
+
 >[!note]- The System Concept
 >
 
@@ -52,3 +54,23 @@
 >>- Phase Equilibrium
 >>- Thermal Equilibrium
 
+<br>
+<br>
+
+### Processes/ Cycles
+>[!abstract]- Common Thermodynamic Process
+>>[!info]- Isobaric Process
+>
+>>[!info]- Isochoric Process
+>
+>>[!info]- Isothermal Process
+>
+>>[!info]- Isentropic Process
+>
+>>[!info]- Polytrophic Process
+>
+>>[!info]- Adiabatic Process
+>
+
+>[!note]- **Quasi-Equilibrium Process**
+> A process whose all intermediate states are equilibrium states.
