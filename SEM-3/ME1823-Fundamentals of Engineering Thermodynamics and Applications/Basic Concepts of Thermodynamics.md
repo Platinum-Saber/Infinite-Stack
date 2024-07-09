@@ -10,8 +10,9 @@
 ### The System Concept
 
 >[!FAQ]- What is a `System`
->- It's a region of space enclosed by a distinguishable boundary 
->The system must be simple and comprehensive.
+>- It's a region of space enclosed by a distinguishable boundary (can be imaginary) and contains matter inside it. 
+>- The system must be simple and comprehensive.
+>
 >![[Pasted image 20240709161443.png]]
 
 >[!abstract]- Different Types of Systems
@@ -97,4 +98,11 @@
 
 >[!abstract]- Energy Types
 >>[!info]- Microscopic Energy
->>
+>>- Energies which a system possesses as a whole with respect to some outside reference frame.
+>>>[!example] Examples
+>>>- Potential energy
+>>>- Kinetic energy
+>
+>>[!info]- Microscopic Energy
+>>- Energy related to the random movement of the molecular structure of a system and the degree of molecular activity.
+>>- 
