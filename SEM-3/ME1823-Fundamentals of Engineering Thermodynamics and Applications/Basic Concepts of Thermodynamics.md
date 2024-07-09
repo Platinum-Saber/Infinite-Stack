@@ -128,7 +128,10 @@
 
 >[!note]- Work
 >>[!tip] Electrical Work
->>$$W_{elect} = \int {V I}\ dt$$
+>>$$W_{elect}\ = \int {V I}\ dt$$
 >
->>[!tip]- Mechanical Work
->>$$W_{mech} = \int {F$$
+>>[!tip] Mechanical Work
+>>$$W_{mech}\ = \int {F}\ ds$$
+>
+>>[!tip] Moving Boundary Work
+>>$$W_b\ = \int{P}\ dV$$
