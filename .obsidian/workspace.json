@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "b2aa869acde22062",
@@ -171,11 +170,11 @@
   },
   "active": "94500f4673345b56",
   "lastOpenFiles": [
-    "Pasted image 20240709161443.png",
-    "Pasted image 20240709154957.png",
-    "Pasted image 20240709153608.png",
-    "Pasted image 20240709153551.png",
-    "Pasted image 20240709153436.png",
+    "Images/Pasted image 20240709161443.png",
+    "Images/Pasted image 20240709154957.png",
+    "Images/Pasted image 20240709153608.png",
+    "Images/Pasted image 20240709153551.png",
+    "Images/Pasted image 20240709153436.png",
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Thermodynamics.md",
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Basic Concepts of Thermodynamics.md",
     "SEM-3/CS3043-Database Systems/Database Systems Introduction.md",

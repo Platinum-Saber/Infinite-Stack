@@ -78,9 +78,13 @@
 >>[!info]- Adiabatic Process
 >
 
->[!note]- **Quasi-Equilibrium Process**
+>[!note]- **Quasi-Equilibrium** Process
 >- A process whose all intermediate states are equilibrium states.
 >- These processes are done extremely slowly
+>- This is a hypothetical process & can't be found in real life.
+>- Therefore most of the practical processes will be depicted by dotted lines(-----)
 
->[!note]- Reversible Process
+>[!note]- **Reversible** Process
 >- It's a process that can be reversed without leaving any trace on the surrounding
+>- System and the surrounding both revert to their original states.
+>>[!warning] Reversible 
