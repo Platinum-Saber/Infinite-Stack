@@ -114,7 +114,21 @@
 >>>- Rotational kinetic energy
 >>>- Spin energy
 
->[!note] Total Energy (E)
+>[!note]- Total Energy (E)
 >$$E =\ U +\ E_k +\ E_p$$
 >$$E =\ U +\ \frac{1}{2}\ m\ C^2\ +\ mgz$$
->>[!]
+>>[!tip] Specific total energy
+>>$$e =\ u\ +\ \frac{1}{2}\ m\ C^2 +\ gz$$
+
+>[!note]- Heat & Work
+>- Both are transitional forms of energies
+>- Both can be identified as they cross the boundary (`boundary phenomina)
+>- Due to heat & work transfer, the `intrinsic energy` of a system changes.
+>- Both depend on the path they follow in a process. (`path functions`)
+
+>[!note]- Work
+>>[!tip] Electrical Work
+>>$$W_{elect} = \int {V I}\ dt$$
+>
+>>[!tip]- Mechanical Work
+>>$$W_{mech} = \int {F$$
