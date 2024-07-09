@@ -10,7 +10,7 @@
 ### The System Concept
 
 >[!FAQ]- What is a `System`
->____
+>- It's a region of space enclosed by a distinguishable boundary 
 >The system must be simple and comprehensive.
 >![[Pasted image 20240709161443.png]]
 
@@ -87,4 +87,14 @@
 >[!note]- **Reversible** Process
 >- It's a process that can be reversed without leaving any trace on the surrounding
 >- System and the surrounding both revert to their original states.
->>[!warning] Reversible 
+>>[!warning] Reversible process is only an idealization. Thermodynamic cycles aren't always reversible. 
+
+<br>
+
+### Energy
+>[!FAQ]- What is **Energy**
+>The capacity to work or the ability to cause changes
+
+>[!abstract]- Energy Types
+>>[!info]- Microscopic Energy
+>>
