@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Thermodynamics.md",
-                "mode": "preview",
+                "file": "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Basic Concepts of Thermodynamics.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "b2aa869acde22062",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Thermodynamics.md",
+                "file": "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Basic Concepts of Thermodynamics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +114,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Thermodynamics.md"
+                "file": "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Basic Concepts of Thermodynamics.md"
               }
             }
           },
@@ -131,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Thermodynamics.md",
+                "file": "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Basic Concepts of Thermodynamics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,6 +171,7 @@
   },
   "active": "94500f4673345b56",
   "lastOpenFiles": [
+    "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Thermodynamics.md",
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Basic Concepts of Thermodynamics.md",
     "SEM-3/CS3043-Database Systems/Database Systems Introduction.md",
     "SEM-3/CS3043-Database Systems/Database systems.md",
@@ -198,7 +200,6 @@
     "In Class Activity.md",
     "SEM-3/CS2043-Operating Systems/OS Introduction.md",
     "SEM-3/CS2043-Operating Systems/Operating Systems.md",
-    "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Thermodynamics.md",
     "SEM-3/MA2014-Differential Equations/Differential Equations.md",
     "Work Space.canvas",
     "Images",
