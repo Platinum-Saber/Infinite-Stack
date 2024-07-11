@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM-3 INDEX.md",
+                "file": "SEM-3/CS2033-Data Communication and Networking/Data Com. & Networking Introduction.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SEM-3 INDEX.md",
+                "file": "SEM-3/CS2033-Data Communication and Networking/Data Com. & Networking Introduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM-3 INDEX.md"
+                "file": "SEM-3/CS2033-Data Communication and Networking/Data Com. & Networking Introduction.md"
               }
             }
           },
@@ -132,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM-3 INDEX.md",
+                "file": "SEM-3/CS2033-Data Communication and Networking/Data Com. & Networking Introduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,8 +169,10 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "671fcfcc9244e77e",
+  "active": "56080c84b39f13c0",
   "lastOpenFiles": [
+    "SEM-3/CS2033-Data Communication and Networking/Data Communication & Networking.md",
+    "SEM-3 INDEX.md",
     "Infinite Stack.md",
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Thermodynamics.md",
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Basic Concepts of Thermodynamics.md",
@@ -183,7 +185,6 @@
     "Images/Pasted image 20240709153608.png",
     "Images/Pasted image 20240709153551.png",
     "Images/Pasted image 20240709153436.png",
-    "SEM-3 INDEX.md",
     "SEM-3/CS2053-Computer Architecture/Computer Architecture Introduction.md",
     "SEM-3/CS2053-Computer Architecture/Instruction Set Architecture-RV.md",
     "SEM-3/CS2053-Computer Architecture/Computer Architecture.md",
@@ -197,7 +198,6 @@
     "SEM-3/CS2033-Data Communication and Networking/Data Com. & Networking Introduction.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Artificial Intelligence.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/AI Introduction.md",
-    "SEM-3/CS2033-Data Communication and Networking/Data Communication & Networking.md",
     "In Class Activity.md",
     "SEM-3/CS2043-Operating Systems/OS Introduction.md",
     "SEM-3/CS2043-Operating Systems/Operating Systems.md",
