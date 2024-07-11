@@ -17,3 +17,13 @@
 >- `smallint` : Small integer.
 >- `numeric(p,d)` : Fixed point number with user specified precision of '*p*' digits, with '*d*' digits to the right of the decimal point.
 >- `real, double precision` : Floating point and double precision floating point numbers
+>- `float(n)` : Floating point number with user specified precision of at least '*n*' digits.
+
+<br>
+
+## CREATE TABLE Construct
+>[!note]- An `sql` relation is defined using **CREATE TABLE** construct
+
+```sql
+CREATE TABLE r{$$}
+```
