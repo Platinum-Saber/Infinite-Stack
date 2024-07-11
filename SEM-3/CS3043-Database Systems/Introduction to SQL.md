@@ -24,6 +24,24 @@
 ## CREATE TABLE Construct
 >[!note]- An `sql` relation is defined using **CREATE TABLE** construct
 
-```sql
-CREATE TABLE r{$$}
-```
+> [!tip] How to create a table 
+> ```sql
+> CREATE TABLE r(A_1 D_1, A_2, D_2,...., A_n D_n
+> 				(integrity constraint_1),
+> 				...,
+> 				(integrity constrain_n)
+> )
+> ```
+>`r` - name of the relation
+>`A_1` - Attribute name in the schema of the relation
+> `D_1` - Data type of values in the domain of attribute A_1
+
+> [!example] Example
+> ```sql
+> CREATE TABLE instructor (
+> 	ID char(5),
+> 	name varchar(20) not null,
+> 	dept_name varchar(20),
+> 	salary numeric(8.2)
+> )
+> ```
