@@ -35,13 +35,24 @@
 >`r` - name of the relation
 >`A_1` - Attribute name in the schema of the relation
 > `D_1` - Data type of values in the domain of attribute A_1
+> 
+> > [!example] Example
+> > ```sql
+> > CREATE TABLE instructor (
+> >	ID char(5),
+> > 	name varchar(20) not null,
+> >	dept_name varchar(20),
+> > 	salary numeric(8,2)
+> >)
+>> ```
 
-> [!example] Example
-> ```sql
-> CREATE TABLE instructor (
-> 	ID char(5),
-> 	name varchar(20) not null,
-> 	dept_name varchar(20),
-> 	salary numeric(8.2)
-> )
-> ```
+### Integrity constraints
+>[!abstract] Available integrity constraints in CREATE TABLE
+>- `not null`
+>- `primary key(A_1, A_2, ...)`
+>- `foreign key (A_k, A_j, ...)`
+>
+>>[!warning] `primary key` declaration on an attribute automatically ensures `not null`
+>
+>
+ >>[!example] Example
