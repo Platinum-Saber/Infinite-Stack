@@ -56,3 +56,14 @@
 >
 >
  >>[!example] Example
+ >>```sql
+ >>	CREATE TABLE instructor (
+ >>		ID char(5),
+ >>		name varcahr(20) not null,
+ >>		dept_name varcahr(20),			
+ >>		salary numeric(8,2),
+ >>		primary key (ID),
+ >>		foreign key (dept_name)
+ >>			references department(dept_name)
+ >>	)
+ >>```
