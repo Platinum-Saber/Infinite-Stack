@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM-3/CS3043-Database Systems/Introduction to SQL.md",
+                "file": "SEM-3/CS3043-Database Systems/Database Design Using the E-R Model.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SEM-3/CS3043-Database Systems/Introduction to SQL.md",
+                "file": "SEM-3/CS3043-Database Systems/Database Design Using the E-R Model.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM-3/CS3043-Database Systems/Introduction to SQL.md"
+                "file": "SEM-3/CS3043-Database Systems/Database Design Using the E-R Model.md"
               }
             }
           },
@@ -131,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM-3/CS3043-Database Systems/Introduction to SQL.md",
+                "file": "SEM-3/CS3043-Database Systems/Database Design Using the E-R Model.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,13 +171,13 @@
   "active": "56080c84b39f13c0",
   "lastOpenFiles": [
     "SEM-3/CS3043-Database Systems/Database systems.md",
+    "SEM-3/CS3043-Database Systems/Introduction to SQL.md",
     "SEM-3 INDEX.md",
     "SEM-3/CS2033-Data Communication and Networking/Data Com. & Networking Introduction.md",
     "SEM-3/CS2033-Data Communication and Networking/Data Communication & Networking.md",
     "Infinite Stack.md",
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Thermodynamics.md",
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Basic Concepts of Thermodynamics.md",
-    "SEM-3/CS3043-Database Systems/Introduction to SQL.md",
     "SEM-3/CS3043-Database Systems/Database Design Using the E-R Model.md",
     "SEM-3/CS3043-Database Systems/Database Systems Introduction.md",
     "Images/Pasted image 20240709161443.png",
