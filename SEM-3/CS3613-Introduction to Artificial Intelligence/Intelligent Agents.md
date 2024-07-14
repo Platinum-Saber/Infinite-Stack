@@ -67,7 +67,28 @@
 >  
 >  >[!tip] This requires a rational agent to gather information and learn from perceptions.
 
->[!tip] Agent's actions depend more on its o
+>[!tip] If an agent's actions depend more on its own experience it's **More autonomous**
+
+>[!tip] If an agents actions depend more on knowledge of the environment that has been built in by the designer is **Less autonomous **
+
+<br>
+<br>
+
+### Task Environment
+>[!FAQ]- What is a **Task Environment**
+>It defines the problems to which the rational agents attempt to provide solutions.
+
+>[!abstract]- **PEAS** of a Task Environment
+>- Performance Measure
+>- Environment
+>- Actuators
+>- Sensors
+
+>[!tip] The first step of designing an agent must always be to specify the task environment as 
+
+<br>
+<br>
+
 ### Agent Program 
 >[!abstract]- Agent Program Types
 >- Simple Reflex agents
