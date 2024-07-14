@@ -21,11 +21,13 @@
 
 >[!tip] The effectiveness of the agent program is measured through a **performance measure**
 
-
-
 <br>
 <br>
 
+### Performance Measures
+>[!FAQ]- What is a **Performance Measure**
+>It's the criteria used to evaluate the agent's success/effectiveness in achieving its goals or completing its tasks.
+>- `Consequentialism`  : Evaluating an agent
 ### Agent Program 
 >[!abstract]- Agent Program Types
 >- Simple Reflex agents
