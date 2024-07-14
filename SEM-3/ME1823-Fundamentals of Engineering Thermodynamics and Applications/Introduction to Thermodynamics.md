@@ -2,7 +2,7 @@
 # Ideal Gasses
 <br>
 
->[!abstract] Characteristics of Ideal Gases
+>[!abstract]- Characteristics of Ideal Gases
 >- No intermolecular forces
 >- Occupies no space (massless & point like particles)
 >- Perform perfectly elastic collisions 
@@ -15,7 +15,7 @@
 
 <br>
 
->[!note] Characteristic Equation
+>[!note]- Characteristic Equation
 > $$\frac{P\ V}{T}\ =\ k$$
 > P - pressure
 > V - Volume
@@ -30,6 +30,12 @@
 >>##### $R = \frac{R_u}{M}$
 >> $$\therefore \ P\ V\ =\ n\ R_u\ T$$
 
+<br>
+
 ### Specific Heat Capacity
 >[!FAQ] What is **Specific Heat Capacity**
-> The amount of energy r
+> The amount of energy required to raise the temperature of Unit mass of a substance by one degree.
+> >[!error] Definition is **valid** only for `reversible` processes.
+
+>[!info]- Heating at constant volume
+>![[Pasted image 20240714202210.png]]
