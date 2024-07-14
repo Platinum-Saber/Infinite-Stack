@@ -36,7 +36,26 @@
 
 ### Rational Agent
 >[!note]- Definition
->For each possible percept sequence, a rational agent should select an action that is expected to maximize its performance measure, given the evidence provided by the p
+>For each possible percept sequence, a rational agent should select an action that is expected to maximize its performance measure, given the evidence provided by the percept sequence and whatever built in knowledge an agent has. 
+
+>[!info]- **Perfect Rationality**
+>- Assumes the agent knows everything.
+>- Will always take the action that *maximizes its utility*
+
+>[!info]- **Bounded Rationality**
+>- Proposed by Herbert Simon in 1958.
+>- Limited by the information it has
+>- Uses **approximate** methods to handle many tasks 
+>- Similar to how the human mind works
+
+>[!info]- **Rational Action**
+>The action 
+
+>[!tip] A rational agent always does the *right thing*
+
+<br>
+<br>
+
 
 ### Agent Program 
 >[!abstract]- Agent Program Types
