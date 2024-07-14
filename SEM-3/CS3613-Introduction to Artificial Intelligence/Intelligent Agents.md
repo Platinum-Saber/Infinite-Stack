@@ -19,6 +19,10 @@
 >[!info]- **Agent Program**
 >The implementation of the agent function
 
+>[!tip] The effectiveness of the agent program is measured through a **performance measure**
+
+
+
 <br>
 <br>
 
