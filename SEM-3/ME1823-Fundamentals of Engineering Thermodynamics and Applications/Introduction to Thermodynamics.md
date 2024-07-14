@@ -16,4 +16,16 @@
 <br>
 
 >[!note] Characteristic Equation
-> $\frac{PV}{T} = k$
+>#### $$\frac{P\ V}{T}\ =\ k$$
+> P - pressure
+> V - Volume
+> T - Absolute temperature
+> 
+> For a given mas of `m` , 
+>> $k\ =\ m\ R$
+>> $\therefore \ P\ V\ =\ m\ R\ T$
+>> Where R is `Gas Constant` 
+>> >[!warning] not the **universal** one
+>>
+>>For 
+>> $$P\ V\ =\ n\ R_u\ T$$
