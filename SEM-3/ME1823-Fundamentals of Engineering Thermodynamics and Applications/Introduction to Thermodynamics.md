@@ -37,5 +37,9 @@
 > The amount of energy required to raise the temperature of Unit mass of a substance by one degree.
 > >[!error] Definition is **valid** only for `reversible` processes.
 
->[!info]- Heating at constant volume
->![[Pasted image 20240714202210.png]]
+>[!info]- Heating at **constant volume** & **constant pressure** 
+>![[Pasted image 20240714202505.png]] ![[Pasted image 20240714202532.png]]
+
+>[!note]- Constant Volume Heat Capacity ($C_V$)
+> Consider a fixed volume of gas is being heated reversibly at constant volume.
+> $\Delta Q - \Delta W $
