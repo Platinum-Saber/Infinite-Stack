@@ -40,6 +40,19 @@
 >[!info]- Heating at **constant volume** & **constant pressure** 
 >![[Pasted image 20240714202505.png]] ![[Pasted image 20240714202532.png]]
 
->[!note]- Constant Volume Heat Capacity ($C_V$)
+>[!note]- **Constant Volume Heat Capacity** ($C_V$)
 > Consider a fixed volume of gas is being heated reversibly at constant volume.
-> $\Delta Q - \Delta W $
+> 
+>>$\Delta Q - \Delta W = \Delta U$
+>> 
+>>Since boundary work is Zero, $\Delta W = 0$
+>>$$\therefore \ \ \Delta Q =\ \Delta U$$
+> 
+> > From the definition of Spec.Heat Capacity
+> > $$\Delta Q\ =\ m\ C_v\ \Delta T$$
+> 
+> > From the two equations,
+> > $m\ C_v\ dT\ =\ dU$
+> > $du\ = C_v\ dT$
+> > 
+> > $\int du\ =\ \int$
