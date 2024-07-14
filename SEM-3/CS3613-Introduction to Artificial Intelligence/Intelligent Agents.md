@@ -27,7 +27,17 @@
 ### Performance Measures
 >[!FAQ]- What is a **Performance Measure**
 >It's the criteria used to evaluate the agent's success/effectiveness in achieving its goals or completing its tasks.
->- `Consequentialism`  : Evaluating an agent
+>- `Consequentialism`  : Evaluating an agent's behavior by it's consequences.
+
+>[!tip] Design the performance measure according to **What we want in the environment** and not *how we think the agent should behave*
+
+<br>
+<br>
+
+### Rational Agent
+>[!note]- Definition
+>For each possible percept sequence, a rational agent should select an action that is expected to maximize its performance measure, given the evidence provided by the p
+
 ### Agent Program 
 >[!abstract]- Agent Program Types
 >- Simple Reflex agents
