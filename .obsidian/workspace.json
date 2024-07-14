@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "185dd8aa6ceb8719",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Intelligent Agents.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -99,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Introduction to Thermodynamics.md",
+                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Intelligent Agents.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Introduction to Thermodynamics.md"
+                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Intelligent Agents.md"
               }
             }
           },
@@ -145,7 +157,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Introduction to Thermodynamics.md",
+                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Intelligent Agents.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,10 +194,12 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "6a94284fd496216f",
+  "active": "185dd8aa6ceb8719",
   "lastOpenFiles": [
-    "SRS.md",
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/Artificial Intelligence.md",
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/AI Introduction.md",
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Introduction to Thermodynamics.md",
+    "SRS.md",
     "Pasted image 20240714202532.png",
     "Pasted image 20240714202505.png",
     "Pasted image 20240714202332.png",
@@ -212,8 +226,6 @@
     "Searching Algorithms.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Intelligent Agents.md",
     "Images/Pasted image 20240708112427.png",
-    "SEM-3/CS3613-Introduction to Artificial Intelligence/Artificial Intelligence.md",
-    "SEM-3/CS3613-Introduction to Artificial Intelligence/AI Introduction.md",
     "In Class Activity.md",
     "SEM-3/CS2043-Operating Systems/Operating Systems.md",
     "SEM-3/MA2014-Differential Equations/Differential Equations.md",
