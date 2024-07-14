@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "ccbfd2bae5952623",
+        "id": "09ec928f4f2d88a4",
         "type": "tabs",
         "children": [
           {
-            "id": "56080c84b39f13c0",
+            "id": "be128d535e9f3cc5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Introduction to Thermodynamics.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "96a10a14f63e1c7a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Introduction to Thermodynamics.md",
-                "mode": "preview",
+                "file": "SRS.md",
+                "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -99,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Introduction to Thermodynamics.md",
+                "file": "SRS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +114,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Introduction to Thermodynamics.md"
+                "file": "SRS.md"
               }
             }
           },
@@ -145,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Introduction to Thermodynamics.md",
+                "file": "SRS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,13 +169,14 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "96a10a14f63e1c7a",
+  "active": "be128d535e9f3cc5",
   "lastOpenFiles": [
+    "SRS.md",
+    "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Introduction to Thermodynamics.md",
     "Pasted image 20240714202532.png",
     "Pasted image 20240714202505.png",
     "Pasted image 20240714202332.png",
     "Pasted image 20240714202210.png",
-    "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Introduction to Thermodynamics.md",
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Basic Concepts of Thermodynamics.md",
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Thermodynamics.md",
     "SEM-3/CS2053-Computer Architecture/Instruction Set Architecture-RV.md",
@@ -211,7 +199,6 @@
     "Searching Algorithms.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Intelligent Agents.md",
     "Images/Pasted image 20240708112427.png",
-    "Images/Pasted image 20240708111359.png",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Artificial Intelligence.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/AI Introduction.md",
     "In Class Activity.md",
