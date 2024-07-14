@@ -40,7 +40,7 @@
 >[!info]- Heating at **constant volume** & **constant pressure** 
 >![[Pasted image 20240714202505.png]] ![[Pasted image 20240714202532.png]]
 
->[!note]- **Constant Volume Heat Capacity** ($C_V$)
+>[!note]- **Constant Volume Heat Capacity** ($C_v$)
 > Consider a fixed volume of gas is being heated reversibly at constant volume.
 > 
 >>$\Delta Q - \Delta W = \Delta U$
@@ -53,6 +53,13 @@
 > 
 > > From the two equations,
 > > $m\ C_v\ dT\ =\ dU$
-> > $du\ = C_v\ dT$
+> > $du\ = C_v\ dT\ \ \ \ \ ;where\ u\ is\ the\ specific\ internal\ energy$
 > > 
-> > $\int du\ =\ \int$
+> > $\int du\ =\ \int {C_v\ dT}$
+> > $u\ =\ C_v\ T\ +\ K\ \ \ \ ;where\ K\ is\ a\ constant\ of\ integration$
+> > 
+> > For ideal gases when `T=0` , `u=0`  $\ \ \ \therefore$ `k=0`
+> > $$\therefore \ \ u\ =\ C_v\ T$$
+> This is a property function. 
+> Hence it can be used regardless if the process is `reversible` or `irreversible`
+> 
