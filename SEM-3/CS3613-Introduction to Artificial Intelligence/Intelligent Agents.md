@@ -38,25 +38,36 @@
 >[!note]- Definition
 >For each possible percept sequence, a rational agent should select an action that is expected to maximize its performance measure, given the evidence provided by the percept sequence and whatever built in knowledge an agent has. 
 
->[!info]- **Perfect Rationality**
+>[!note]- Perfect Rationality
 >- Assumes the agent knows everything.
 >- Will always take the action that *maximizes its utility*
 
->[!info]- **Bounded Rationality**
+>[!note]- Bounded Rationality
 >- Proposed by Herbert Simon in 1958.
 >- Limited by the information it has
 >- Uses **approximate** methods to handle many tasks 
 >- Similar to how the human mind works
 
 >[!info]- **Rational Action**
->The action 
+>The action that maximizes the expected value of the performance measure given the percept sequence to date.
 
 >[!tip] A rational agent always does the *right thing*
 
 <br>
 <br>
 
+### Omniscience, Learning, and Autonomy
+>[!info]- Omniscience
+>The agent who knows about the ACTUAL outcome of its actions and acts accordingly.
 
+>[!note]- Rationality
+>- The agent who maximizes the EXPECTED outcome
+>- Doesn't have to be omniscient
+>- The rational choice depends only on the percept sequence to date
+>  
+>  >[!tip] This requires a rational agent to gather information and learn from perceptions.
+
+>[!tip] Agent's actions depend more on its o
 ### Agent Program 
 >[!abstract]- Agent Program Types
 >- Simple Reflex agents
