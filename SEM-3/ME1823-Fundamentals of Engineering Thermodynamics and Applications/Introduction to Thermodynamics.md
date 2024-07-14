@@ -52,6 +52,7 @@
 > > $$\Delta Q\ =\ m\ C_v\ \Delta T$$
 > 
 > > From the two equations,
+> > 
 > > $m\ C_v\ dT\ =\ dU$
 > > $du\ = C_v\ dT\ \ \ \ \ ;where\ u\ is\ the\ specific\ internal\ energy$
 > > 
@@ -62,4 +63,3 @@
 > > $$\therefore \ \ u\ =\ C_v\ T$$
 > This is a property function. 
 > Hence it can be used regardless if the process is `reversible` or `irreversible`
-> 
