@@ -131,7 +131,13 @@
 >[!FAQ]- What is an **Agent Program**
 >The mapping of the percepts to action.
 
->[]
+>[!FAQ]- What is **Agent Architecture**
+>The computing device with physical sensors and actuators on which the agent program runs.
+
+>[!tip] Agent = Architecture + Program
+
+<br>
+
 ### Agent Program 
 >[!abstract]- Agent Program Types
 >- Simple Reflex agents
@@ -193,4 +199,5 @@
 >
 >![[Pasted image 20240708112427.png]]
 
+>[!FAQ]- How 
 
