@@ -90,6 +90,12 @@
 >[!tip] The first step of designing an agent must always be to specify the task environment as fully as possible.
 
 #### Properties of Task Environments
+>[!note]- Single Agent 🆚 Multi Agent
+>- `Single-agent` :   If a task is done solely by one agent. (ex:- an agent solving a crossword puzzle)
+>- `Multi-agent` :  If a task is handled by more than one agent. (automated taxi driving)
+>	- **Multi-agent Environments**
+>		- *Competitive* (one agent trying to maximize its performance measure causes to minimize another agent)
+>		- *Cooperative* (one agent trying to maximize its performance also causes to maximize an
 
 <br>
 <br>
