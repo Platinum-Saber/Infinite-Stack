@@ -1,5 +1,5 @@
 ## Problem Solving Agents
->[!abstract] Functionality of a **Problem-Solving Agent**
+>[!abstract] Functionality of a **Problem-Solving Agent** 👨‍💼
 >Its an agent that plans ahead. It considers a sequence of actions that form a path to a goal.
 >`Search` :  The computational process undertaken by a problem-solving agent.
 >>[!example]- Search Algorithms
@@ -38,16 +38,23 @@
 >>[!info] Action cost function 💰 
 >>The numeric cost of applying action `a` in state `s` to reach `s'`, then `ACTION_COST(s,a,s')`
 >
->>[!info] Path
+>>[!info] Path :RiRoadMapLine:
 >>A sequence of states connected by a sequence of actions.
 >
->>[!info] Solution
+>>[!info] Solution :FiCheck:
 >>A path from the initial state to a goal state.
 >
->>[!info] Optimal solution
+>>[!info] Optimal solution ✅ 
 >>The path with the lowest cost among all the solutions.
 >
->>[!info] Graph 
+>>[!info] Graph :FasDiagramProject:
 >>A representation of state space in which vertices are states and the directed edges between them are actions.
+>
+>>[!info] Model :SiGraphql:
+>>An abstract mathematical description.
+>
+>>[!info] Abstraction :SiGrapheneos:
+>>Removing details from the representation
+>>Real world is complex and a good problem formulation has the right amount 
 
 
