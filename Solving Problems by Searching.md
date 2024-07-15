@@ -12,6 +12,7 @@
 >- Episodic, single agent, fully observable, deterministic, static, and discrete.
 
 <br>
+<br>
 
 ### Problem Solving Process
 >[!abstract] Components of a ***Problem Solving Process***
@@ -24,6 +25,14 @@
 >>[!info] Search 🔎 
 >>Before taking any actions in the real world :RiEarthLine: the agent simulates sequences of actions in its model, searching until it finds a sequence of actions that reaches the goal.
 >
->>[!info] Execution :right
+>>[!info] Execution ✅ 
 >>The agent can now execute the actions in the solution, one at a time
 
+>[!example]- Example 
+>![[Pasted image 20240715104211.png]]
+
+<br>
+
+### Search Problems and Solutions
+>[!abstract] components of a **Search** problem
+>
