@@ -68,5 +68,13 @@
 >[!info]- General terms used
 >![[Pasted image 20240715113613.png]]
 
+>[!tip] ***State Space*** :  All possible transitions among all the states.
+
 >[!note] Redundant Paths
->
+> If along the path of progression an action leads to meeting a top node (a previous state) again its a **Redundant Path**.
+> Eliminating redundant paths leads to faster solutions.
+
+### Measuring Problem-Solving Performance
+>[!abstract]- Evaluation Criteria 
+>>[!info]- Completeness
+>>
