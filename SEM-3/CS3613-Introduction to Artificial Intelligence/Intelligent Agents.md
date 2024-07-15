@@ -199,8 +199,10 @@
 >
 >![[Pasted image 20240708112427.png]]
 
+<br>
+
 #### How does the components of an **agent program** work
->[!info]- The representation in the order of increasing complexity and expressive power are *atomic < factored < structured*
+>[!tip]- The representation in the order of increasing complexity and expressive power are *atomic < factored < structured*
 >![[Pasted image 20240715154311.png]]
 
 >[!note]- Atomic representation
@@ -226,4 +228,5 @@
 >- A state includes *objects* , each of which may have attributes of its own as well as relationships to other objects.
 >- Algorithms
 >	- First-order logic
->	- First-order probabil
+>	- First-order probability models
+

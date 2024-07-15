@@ -25,8 +25,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Intelligent Agents.md",
-                "mode": "source",
+                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Solving Problems by Searching.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Intelligent Agents.md",
+                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Solving Problems by Searching.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Intelligent Agents.md"
+                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Solving Problems by Searching.md"
               }
             }
           },
@@ -145,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Intelligent Agents.md",
+                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Solving Problems by Searching.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,28 +182,27 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "185dd8aa6ceb8719",
+  "active": "671fcfcc9244e77e",
   "lastOpenFiles": [
-    "Pasted image 20240715154653.png",
-    "Pasted image 20240715154311.png",
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/Uniform-cost Search.md",
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/Solving Problems by Searching.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Breadth-first Search.md",
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/Intelligent Agents.md",
+    "Images/Pasted image 20240715154653.png",
+    "Images/Pasted image 20240715154311.png",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Artificial Intelligence.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/AI Introduction.md",
-    "SEM-3/CS3613-Introduction to Artificial Intelligence/Solving Problems by Searching.md",
-    "Depth-first Search.md",
-    "Uniform-cost Search.md",
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/Depth-first Search.md",
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Introduction to Thermodynamics.md",
     "Images/Pasted image 20240715113613.png",
     "Images/Pasted image 20240715112409.png",
     "Images/Pasted image 20240715112326.png",
     "Images/Pasted image 20240715112241.png",
     "Images/Pasted image 20240715104211.png",
-    "SEM-3/CS3613-Introduction to Artificial Intelligence/Intelligent Agents.md",
     "Images/Pasted image 20240714234830.png",
     "SRS.md",
     "Images/Pasted image 20240714202532.png",
     "Images/Pasted image 20240714202505.png",
-    "Pasted image 20240714202332.png",
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Basic Concepts of Thermodynamics.md",
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Thermodynamics.md",
     "SEM-3/CS2053-Computer Architecture/Instruction Set Architecture-RV.md",
