@@ -35,8 +35,19 @@
 
 ### Search Problems and Solutions
 >[!abstract] components of a **Search** problem
->>[!info] Action cost function
+>>[!info] Action cost function 💰 
 >>The numeric cost of applying action `a` in state `s` to reach `s'`, then `ACTION_COST(s,a,s')`
 >
 >>[!info] Path
->>
+>>A sequence of states connected by a sequence of actions.
+>
+>>[!info] Solution
+>>A path from the initial state to a goal state.
+>
+>>[!info] Optimal solution
+>>The path with the lowest cost among all the solutions.
+>
+>>[!info] Graph 
+>>A representation of state space in which vertices are states and the directed edges between them are actions.
+
+
