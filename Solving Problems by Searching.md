@@ -35,4 +35,8 @@
 
 ### Search Problems and Solutions
 >[!abstract] components of a **Search** problem
+>>[!info] Action cost function
+>>The numeric cost of applying action `a` in state `s` to reach `s'`, then `ACTION_COST(s,a,s')`
 >
+>>[!info] Path
+>>
