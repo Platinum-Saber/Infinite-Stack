@@ -106,13 +106,28 @@
 >- Algorithms differ based on which node they expand first
 
 >[!example]- Algorithm Examples 
+>>[!info]- [[Breadth-first Search]]
+>>- Expands the shallowest nodes first.
+>>- Complete.
+>>- Optimal for unit action costs.
+>>- Exponential space complexity.
+>
+>>[!info]- Uniform-cost Search 
+>>- Expands the node with the lowest path cost.
+>>- Optimal for general action costs.
+>
 >>[!info]- Depth-first Search
 >>- Expands the deepest unexpanded node first. 
 >>- Neither complete nor optimal.
 >>- Linear time complexity.
 >
->>[!info] Iterative Deepening Search
+>>[!info]- Iterative Deepening Search
 >>- Calls DFS with increasing depth limits until a goal is found.
 >>- Complete when full cycle checking is done.
 >>- Optimal for unit action costs.
->>- 
+>>- Time complexity is comparable to BFS.
+>>- Space complexity is linear.
+>
+>>[!info]- Bidirectional Search
+>>- Expands two frontiers, one around the initial state and one around the goal, stopping when the two frontiers meet.
+

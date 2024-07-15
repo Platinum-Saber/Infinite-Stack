@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "be128d535e9f3cc5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SRS.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "6a94284fd496216f",
             "type": "leaf",
             "state": {
@@ -37,14 +25,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Solving Problems by Searching.md",
+                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Solving Problems by Searching.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -94,8 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "b2aa869acde22062",
@@ -111,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Solving Problems by Searching.md",
+                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Solving Problems by Searching.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Solving Problems by Searching.md"
+                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Solving Problems by Searching.md"
               }
             }
           },
@@ -157,7 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Solving Problems by Searching.md",
+                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Solving Problems by Searching.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -196,20 +183,21 @@
   },
   "active": "185dd8aa6ceb8719",
   "lastOpenFiles": [
-    "Pasted image 20240715113613.png",
-    "Pasted image 20240715112409.png",
-    "Pasted image 20240715112326.png",
-    "Pasted image 20240715112241.png",
-    "Pasted image 20240715104211.png",
+    "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Introduction to Thermodynamics.md",
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/Solving Problems by Searching.md",
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/Breadth-first Search.md",
+    "Images/Pasted image 20240715113613.png",
+    "Images/Pasted image 20240715112409.png",
+    "Images/Pasted image 20240715112326.png",
+    "Images/Pasted image 20240715112241.png",
+    "Images/Pasted image 20240715104211.png",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Artificial Intelligence.md",
-    "Solving Problems by Searching.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/AI Introduction.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Intelligent Agents.md",
-    "Pasted image 20240714234830.png",
-    "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Introduction to Thermodynamics.md",
+    "Images/Pasted image 20240714234830.png",
     "SRS.md",
-    "Pasted image 20240714202532.png",
-    "Pasted image 20240714202505.png",
+    "Images/Pasted image 20240714202532.png",
+    "Images/Pasted image 20240714202505.png",
     "Pasted image 20240714202332.png",
     "Pasted image 20240714202210.png",
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Basic Concepts of Thermodynamics.md",
@@ -226,7 +214,6 @@
     "SEM-3/CS2033-Data Communication and Networking/Data Communication & Networking.md",
     "Infinite Stack.md",
     "SEM-3/CS3043-Database Systems/Database Systems Introduction.md",
-    "Images/Pasted image 20240709161443.png",
     "Searching Algorithms.md",
     "In Class Activity.md",
     "SEM-3/CS2043-Operating Systems/Operating Systems.md",
