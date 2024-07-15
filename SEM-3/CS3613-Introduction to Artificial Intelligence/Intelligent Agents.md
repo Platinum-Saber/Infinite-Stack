@@ -203,7 +203,7 @@
 >[!info]- The representation in the order of increasing complexity and expressive power are *atomic < factored < structured*
 >![[Pasted image 20240715154311.png]]
 
->[!abstract]- Atomic representation
+>[!note]- Atomic representation
 >- A state is a black box with no internal structure
 >- Algorithms
 >	- Standard searching algorithm
@@ -212,4 +212,18 @@
 >
 > ![[Pasted image 20240715154653.png]]
 
+>[!note]- Factored representation
+>- A state consists of a set of `variables` or `attributes`, each which can have a value.
+>- Two different factored states can share some attributes and not others.
+>- Makes it easier to work out how to turn one state to another
+>- Algorithms
+>	- Constraint satisfaction algorithm
+>	- Propositional logic
+>	- Bayesian networks
+>	- Various machine learning algorithms
 
+>[!note]- Structured representation
+>- A state includes *objects* , each of which may have attributes of its own as well as relationships to other objects.
+>- Algorithms
+>	- First-order logic
+>	- First-order probabil
