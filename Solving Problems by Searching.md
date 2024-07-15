@@ -15,11 +15,15 @@
 
 ### Problem Solving Process
 >[!abstract] Components of a ***Problem Solving Process***
->>[!info] Goal Formation
+>>[!info] Goal Formation 🥅
 >>Goals organize the behavior by limiting the objectives and hence the actions to be considered.
 >
->>[!info] Problem Formation
+>>[!info] Problem Formation :FasPersonCircleQuestion:
 >>The agent devises a description of states and actions necessary to reach the goal.
 >
->>[!Search]
->>Before taking any actions 
+>>[!info] Search 🔎 
+>>Before taking any actions in the real world :RiEarthLine: the agent simulates sequences of actions in its model, searching until it finds a sequence of actions that reaches the goal.
+>
+>>[!info] Execution :right
+>>The agent can now execute the actions in the solution, one at a time
+
