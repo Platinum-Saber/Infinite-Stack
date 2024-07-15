@@ -99,4 +99,20 @@
 <br>
 
 ### Uninformed Search Algorithms
->[]
+>[!abstract]- Characteristics
+>- Have access only to the problem definition.
+>- No clue about how close a state is close to the goal.
+>- Builds a search tree to find a solution :IbTreeMapDown1:
+>- Algorithms differ based on which node they expand first
+
+>[!example]- Algorithm Examples 
+>>[!info]- Depth-first Search
+>>- Expands the deepest unexpanded node first. 
+>>- Neither complete nor optimal.
+>>- Linear time complexity.
+>
+>>[!info] Iterative Deepening Search
+>>- Calls DFS with increasing depth limits until a goal is found.
+>>- Complete when full cycle checking is done.
+>>- Optimal for unit action costs.
+>>- 
