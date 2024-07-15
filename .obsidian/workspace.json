@@ -23,8 +23,12 @@
             "id": "185dd8aa6ceb8719",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Intelligent Agents.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
@@ -94,6 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Intelligent Agents.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Intelligent Agents.md"
+              }
             }
           },
           {
@@ -137,6 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Intelligent Agents.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,18 +183,18 @@
   },
   "active": "185dd8aa6ceb8719",
   "lastOpenFiles": [
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/Breadth-first Search.md",
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/Artificial Intelligence.md",
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/AI Introduction.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Solving Problems by Searching.md",
     "Depth-first Search.md",
     "Uniform-cost Search.md",
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Introduction to Thermodynamics.md",
-    "SEM-3/CS3613-Introduction to Artificial Intelligence/Breadth-first Search.md",
     "Images/Pasted image 20240715113613.png",
     "Images/Pasted image 20240715112409.png",
     "Images/Pasted image 20240715112326.png",
     "Images/Pasted image 20240715112241.png",
     "Images/Pasted image 20240715104211.png",
-    "SEM-3/CS3613-Introduction to Artificial Intelligence/Artificial Intelligence.md",
-    "SEM-3/CS3613-Introduction to Artificial Intelligence/AI Introduction.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Intelligent Agents.md",
     "Images/Pasted image 20240714234830.png",
     "SRS.md",
