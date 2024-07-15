@@ -199,5 +199,17 @@
 >
 >![[Pasted image 20240708112427.png]]
 
->[!FAQ]- How 
+#### How does the components of an **agent program** work
+>[!info]- The representation in the order of increasing complexity and expressive power are *atomic < factored < structured*
+>![[Pasted image 20240715154311.png]]
+
+>[!abstract]- Atomic representation
+>- A state is a black box with no internal structure
+>- Algorithms
+>	- Standard searching algorithm
+>	- Hidden Markov Models
+>	- Markov Decision processes.
+>
+> ![[Pasted image 20240715154653.png]]
+
 
