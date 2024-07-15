@@ -74,16 +74,29 @@
 > If along the path of progression an action leads to meeting a top node (a previous state) again its a **Redundant Path**.
 > Eliminating redundant paths leads to faster solutions.
 
+<br>
+<br>
+
 ### Measuring Problem-Solving Performance
 >[!abstract]- Evaluation Criteria 
 >>[!info]- Completeness :RiGalleryView:
 >> Guaranteed to find a solution when there is one, and correctly reports failure when no solution exists.
 >
->>[!info]- Cost optimality (admissibility) :dolla
+>>[!info]- Cost optimality (admissibility) :FiDollarSign:
 >>Ability to find the path with the lowest cost among all solutions.
 >
->>[!info]- Time complexity
+>>[!info]- Time complexity :RiTimerLine:
 >>The time taken to find a solution.
 >
->>[!info]- Space complexity
+>>[!info]- Space complexity :RiSpace:
 >>The amount of memory required to perform the search 
+
+>[!note]- Terms used in Time & Space complexity
+>- `b`  : maximum branching factor of the search tree (number of successors of a node that needs to be considered)
+>- `d`  : depth of the least cost solution
+>- `m`  : maximum number of actions in any path
+
+<br>
+
+### Uninformed Search Algorithms
+>[]
