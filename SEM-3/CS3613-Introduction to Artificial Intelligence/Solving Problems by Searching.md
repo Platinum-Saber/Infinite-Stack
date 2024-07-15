@@ -112,11 +112,11 @@
 >>- Optimal for unit action costs.
 >>- Exponential space complexity.
 >
->>[!info]- Uniform-cost Search 
+>>[!info]- [[Uniform-cost Search]]
 >>- Expands the node with the lowest path cost.
 >>- Optimal for general action costs.
 >
->>[!info]- Depth-first Search
+>>[!info]- [[Depth-first Search]]
 >>- Expands the deepest unexpanded node first. 
 >>- Neither complete nor optimal.
 >>- Linear time complexity.
