@@ -64,4 +64,9 @@
 <br>
 <br>
 
-### Search Algorithms
+## Search Algorithms
+>[!info]- General terms used
+>![[Pasted image 20240715113613.png]]
+
+>[!note] Redundant Paths
+>
