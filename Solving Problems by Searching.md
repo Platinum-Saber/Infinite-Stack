@@ -16,16 +16,16 @@
 
 ### Problem Solving Process
 >[!abstract] Components of a ***Problem Solving Process***
->>[!info] Goal Formation 🥅
+>>[!info]- Goal Formation 🥅
 >>Goals organize the behavior by limiting the objectives and hence the actions to be considered.
 >
->>[!info] Problem Formation :FasPersonCircleQuestion:
+>>[!info]- Problem Formation :FasPersonCircleQuestion:
 >>The agent devises a description of states and actions necessary to reach the goal.
 >
->>[!info] Search 🔎 
+>>[!info]- Search 🔎 
 >>Before taking any actions in the real world :RiEarthLine: the agent simulates sequences of actions in its model, searching until it finds a sequence of actions that reaches the goal.
 >
->>[!info] Execution ✅ 
+>>[!info]- Execution ✅ 
 >>The agent can now execute the actions in the solution, one at a time
 
 >[!example]- Example 
@@ -35,26 +35,33 @@
 
 ### Search Problems and Solutions
 >[!abstract] components of a **Search** problem
->>[!info] Action cost function 💰 
+>>[!info]- Action cost function 💰 
 >>The numeric cost of applying action `a` in state `s` to reach `s'`, then `ACTION_COST(s,a,s')`
 >
->>[!info] Path :RiRoadMapLine:
+>>[!info]- Path :RiRoadMapLine:
 >>A sequence of states connected by a sequence of actions.
 >
->>[!info] Solution :FiCheck:
+>>[!info]- Solution :FiCheck:
 >>A path from the initial state to a goal state.
 >
->>[!info] Optimal solution ✅ 
+>>[!info]- Optimal solution ✅ 
 >>The path with the lowest cost among all the solutions.
 >
->>[!info] Graph :FasDiagramProject:
+>>[!info]- Graph :FasDiagramProject:
 >>A representation of state space in which vertices are states and the directed edges between them are actions.
 >
->>[!info] Model :SiGraphql:
+>>[!info]- Model :SiGraphql:
 >>An abstract mathematical description.
 >
->>[!info] Abstraction :SiGrapheneos:
+>>[!info]- Abstraction :SiGrapheneos:
 >>Removing details from the representation
->>Real world is complex and a good problem formulation has the right amount 
+>>Real world is complex and a good problem formulation has the right level of detail.
 
+>[!example]- Example Problems
+> ![[Pasted image 20240715112326.png]]
+>![[Pasted image 20240715112409.png]]
 
+<br>
+<br>
+
+### Search Algorithms
