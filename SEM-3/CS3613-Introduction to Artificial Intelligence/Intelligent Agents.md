@@ -92,18 +92,18 @@
 <br>
 
 #### Properties of Task Environments
->[!note]- Single Agent 🆚 Multi Agent
+1. >[!note]- Single Agent 🆚 Multi Agent
 >- `Single-agent` :   If a task is done solely by one agent. (ex:- an agent solving a crossword puzzle)
 >- `Multi-agent` :  If a task is handled by more than one agent. (automated taxi driving)
 >	- **Multi-agent Environments**
 >		- *Competitive* (one agent trying to maximize its performance measure causes to minimize another agent)
 >		- *Cooperative* (one agent trying to maximize its performance also causes to maximize another)
 
->[!note]- Deterministic 🆚 Nondeterministic 🆚 Stochastic
+2. >[!note]- Deterministic 🆚 Nondeterministic 🆚 Stochastic
 >- Whether the next state of the environment is completely determined by the current state and the actions executed by the agents or not.
 >- *Stochastic* :  When the environment explicitly deals with probabilities.
 
->[!note]- Episodic 🆚 Sequential
+3. >[!note]- Episodic 🆚 Sequential
 >- `Episodic environment`
 >	- Agent's experience is divided into atomic episodes.
 >	- Each episode consists of the agent perceiving and performing a single action.
@@ -114,14 +114,24 @@
 >	- The current decision could affect all future decisions.
 >	- ex :- chess, taxi driving
 
->[!note]- Dynamic 🆚 Static
+4. >[!note]- Dynamic 🆚 Static
 >- Whether the environment can change while the agent's deliberating or not.
->- 
+>- Dynamic --> Taxi driving
+>- Static --> Crossword puzzle
+
+5. >[!note]- Discrete 🆚 Continuous
+>- Apply to the state of the environment, the way time is handled, and the percepts and actions of the agent
+
 
 
 <br>
 <br>
 
+# The Structure of Agents
+>[!FAQ]- What is an **Agent Program**
+>The mapping of the percepts to action.
+
+>[]
 ### Agent Program 
 >[!abstract]- Agent Program Types
 >- Simple Reflex agents
