@@ -89,6 +89,8 @@
 
 >[!tip] The first step of designing an agent must always be to specify the task environment as fully as possible.
 
+<br>
+
 #### Properties of Task Environments
 >[!note]- Single Agent 🆚 Multi Agent
 >- `Single-agent` :   If a task is done solely by one agent. (ex:- an agent solving a crossword puzzle)
@@ -104,7 +106,18 @@
 >[!note]- Episodic 🆚 Sequential
 >- `Episodic environment`
 >	- Agent's experience is divided into atomic episodes.
->	- Each episode consists of the agent 
+>	- Each episode consists of the agent perceiving and performing a single action.
+>	- Episodic actions are simpler because the agent doesn't **think ahead**
+>	>[!warning] Next episode doesn't depend on the actions taken in the previous.
+>	
+>- `Sequential environment` 
+>	- The current decision could affect all future decisions.
+>	- ex :- chess, taxi driving
+
+>[!note]- Dynamic 🆚 Static
+>- Whether the environment can change while the agent's deliberating or not.
+>- 
+
 
 <br>
 <br>
