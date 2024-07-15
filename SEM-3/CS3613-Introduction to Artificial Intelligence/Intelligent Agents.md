@@ -83,8 +83,13 @@
 >- Environment
 >- Actuators
 >- Sensors
+>
+>>[!example]- Example (Automated Taxi Driver)
+>>![[Pasted image 20240714234830.png]]
 
->[!tip] The first step of designing an agent must always be to specify the task environment as 
+>[!tip] The first step of designing an agent must always be to specify the task environment as fully as possible.
+
+#### Properties of Task Environments
 
 <br>
 <br>
