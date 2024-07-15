@@ -95,7 +95,16 @@
 >- `Multi-agent` :  If a task is handled by more than one agent. (automated taxi driving)
 >	- **Multi-agent Environments**
 >		- *Competitive* (one agent trying to maximize its performance measure causes to minimize another agent)
->		- *Cooperative* (one agent trying to maximize its performance also causes to maximize an
+>		- *Cooperative* (one agent trying to maximize its performance also causes to maximize another)
+
+>[!note]- Deterministic 🆚 Nondeterministic 🆚 Stochastic
+>- Whether the next state of the environment is completely determined by the current state and the actions executed by the agents or not.
+>- *Stochastic* :  When the environment explicitly deals with probabilities.
+
+>[!note]- Episodic 🆚 Sequential
+>- `Episodic environment`
+>	- Agent's experience is divided into atomic episodes.
+>	- Each episode consists of the agent 
 
 <br>
 <br>
