@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Intelligent Agents.md",
+                "file": "Solving Problems by Searching.md",
                 "mode": "source",
                 "source": false
               }
@@ -111,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Intelligent Agents.md",
+                "file": "Solving Problems by Searching.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Intelligent Agents.md"
+                "file": "Solving Problems by Searching.md"
               }
             }
           },
@@ -157,7 +157,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Intelligent Agents.md",
+                "file": "Solving Problems by Searching.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -196,9 +196,11 @@
   },
   "active": "185dd8aa6ceb8719",
   "lastOpenFiles": [
-    "Pasted image 20240714234830.png",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Artificial Intelligence.md",
+    "Solving Problems by Searching.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/AI Introduction.md",
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/Intelligent Agents.md",
+    "Pasted image 20240714234830.png",
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Introduction to Thermodynamics.md",
     "SRS.md",
     "Pasted image 20240714202532.png",
@@ -225,8 +227,6 @@
     "Images/Pasted image 20240709153551.png",
     "Images/Pasted image 20240709153436.png",
     "Searching Algorithms.md",
-    "SEM-3/CS3613-Introduction to Artificial Intelligence/Intelligent Agents.md",
-    "Images/Pasted image 20240708112427.png",
     "In Class Activity.md",
     "SEM-3/CS2043-Operating Systems/Operating Systems.md",
     "SEM-3/MA2014-Differential Equations/Differential Equations.md",
