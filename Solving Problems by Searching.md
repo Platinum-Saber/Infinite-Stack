@@ -76,5 +76,14 @@
 
 ### Measuring Problem-Solving Performance
 >[!abstract]- Evaluation Criteria 
->>[!info]- Completeness
->>
+>>[!info]- Completeness :RiGalleryView:
+>> Guaranteed to find a solution when there is one, and correctly reports failure when no solution exists.
+>
+>>[!info]- Cost optimality (admissibility) :dolla
+>>Ability to find the path with the lowest cost among all solutions.
+>
+>>[!info]- Time complexity
+>>The time taken to find a solution.
+>
+>>[!info]- Space complexity
+>>The amount of memory required to perform the search 
