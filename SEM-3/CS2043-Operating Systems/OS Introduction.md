@@ -45,4 +45,13 @@
 >- Each device controller has a `local buffer`
 >- Each device controller type has an operating system `device driver` to manage it.
 >- CPUs move data from/to main memory to/from local buffers
->- I/O is from device to local buffer of c
+>- I/O is from device to local buffer of controller
+>- Device controller informs CPU that it has finished its operation by causing an `interrupt`
+>- The operating system preserves the state of the CPU by storing the registers and the program counter
+>- Determines which type of interrupt has occurred
+>- Separate segments of code determine what action should be taken for each type of interrupt
+
+## I/O Structure
+>[!info]- Interrupt drive I/O Cycle
+>![[Pasted image 20240717134458.png]]
+
