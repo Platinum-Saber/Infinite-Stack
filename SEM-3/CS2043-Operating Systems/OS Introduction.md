@@ -32,5 +32,12 @@
 >>[!info]- Users
 >>People, machines, other computers
 
->[!note]- Overview of *Computer system operation* :RiStickyNoteFill:
+>[!note]- Overview of *Computer system organization* :RiStickyNoteFill:
+> One or more CPUs, and device controllers connect through common `bus` providing access to shared memory.
+> Concurrent execution of CPUs and devices competing for memory cycles
 > 
+> ![[Pasted image 20240717121021.png]]
+
+
+>[!EXAMPLE]- Computer system operations 
+>- I/O devices and the CPUs can execut
