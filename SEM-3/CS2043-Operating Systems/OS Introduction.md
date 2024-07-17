@@ -55,3 +55,10 @@
 >[!info]- Interrupt drive I/O Cycle
 >![[Pasted image 20240717134458.png]]
 
+>[!abstract]- Methods of handling I/O
+>>[!info]- After I/O starts, control returns to user program only upon I/O completion
+>>- Wait instruction idles the CPU until the next interrupt 
+>>- Wait loop (contention for memory access)
+>>- At most one I/O request is outstanding at a time, no simultaneous I/O processing
+>
+>>[!info]- After I/O starts, control returns to user program only upon I/O completion
