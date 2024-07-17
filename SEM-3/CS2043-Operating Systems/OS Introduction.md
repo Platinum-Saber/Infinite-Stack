@@ -57,7 +57,7 @@
 >- Determines which type of interrupt has occurred
 >- Separate segments of code determine what action should be taken for each type of interrupt
 
-### I/O Structure
+## I/O Structure
 >[!info]- Interrupt drive I/O Cycle
 >![[Pasted image 20240717134458.png]]
 
@@ -72,7 +72,7 @@
 >>- `Device status table` contains entry for each I/O device indicating its type, address and state
 >>- OS indexes into I/O device table to determine device status and to modify table entry to include interrupt
 
-### Storage Structure
+## Storage Structure
 > [!note]- Main Memory :FasNoteSticky:
 >Only large storage media that the CPU can access directly
 >- Random access
@@ -88,3 +88,13 @@
 >
 >>###### :RiHardDrive3Line: Non volatile Memory (NVM) devices
 >>- Faster than hard disks
+
+### Storage Hierarchy
+>[!info] **Caching**  :  copying information into faster storage system; main memory can be viewed as a cache for secondary storage
+
+>[!info]- **Device Driver**  :  Manage I/O for each device controller
+>Provides uniform interface between controller and kernel
+
+>[!info]- Storage Device Hierarchy
+>![[Pasted image 20240717144601.png]]
+
