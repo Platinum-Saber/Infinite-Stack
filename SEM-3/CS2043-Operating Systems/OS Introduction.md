@@ -38,6 +38,12 @@
 > 
 > ![[Pasted image 20240717121021.png]]
 
+>[!note]- Computer Startup
+>- `Bootstrap program` is loaded at power up or reboot
+>	- Typically stored in ROM or EPROM generally known as `firmware`
+>	- Initializes all aspects of system
+>	- Loads operating system kernel and starts execution
+
 
 >[!EXAMPLE]- Computer system operations 
 >- I/O devices and the CPUs can execute concurrently
@@ -51,7 +57,7 @@
 >- Determines which type of interrupt has occurred
 >- Separate segments of code determine what action should be taken for each type of interrupt
 
-## I/O Structure
+### I/O Structure
 >[!info]- Interrupt drive I/O Cycle
 >![[Pasted image 20240717134458.png]]
 
@@ -63,4 +69,9 @@
 >
 >>[!info]- After I/O starts, control returns to user program without waiting for I/O completion
 >>- `system call` - request to the OS to allow user to wait for I/O completion
->>- `Device status table` contains entry for each I/O device indicating its
+>>- `Device status table` contains entry for each I/O device indicating its type, address and state
+>>- OS indexes into I/O device table to determine device status and to modify table entry to include interrupt
+
+### Storage Structure
+- > [!note]- Main Memory
+- 
