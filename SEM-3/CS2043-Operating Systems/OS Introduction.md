@@ -42,5 +42,7 @@
 >[!EXAMPLE]- Computer system operations 
 >- I/O devices and the CPUs can execute concurrently
 >- Each device controller is in charge of a particular type
->- Each device controller has a local buffer
->- Each device controller 
+>- Each device controller has a `local buffer`
+>- Each device controller type has an operating system `device driver` to manage it.
+>- CPUs move data from/to main memory to/from local buffers
+>- I/O is from device to local buffer of c
