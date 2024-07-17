@@ -73,5 +73,13 @@
 >>- OS indexes into I/O device table to determine device status and to modify table entry to include interrupt
 
 ### Storage Structure
-- > [!note]- Main Memory
-- 
+> [!note]- Main Memory :FasNoteSticky:
+>Only large storage media that the CPU can access directly
+>- Random access
+>- Typically volatile 
+>- Typically random access memory in the form of Dynamic Random Access Memory (DRAM)
+
+>[!note]- Secondary storage
+>An extension of main memory that provides large nonvolatile storage capacity
+>> :FiHardDrive: Hard Disk Drive (HDD)
+>> - Rigid metal or glass 
