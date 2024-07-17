@@ -40,4 +40,7 @@
 
 
 >[!EXAMPLE]- Computer system operations 
->- I/O devices and the CPUs can execut
+>- I/O devices and the CPUs can execute concurrently
+>- Each device controller is in charge of a particular type
+>- Each device controller has a local buffer
+>- Each device controller 
