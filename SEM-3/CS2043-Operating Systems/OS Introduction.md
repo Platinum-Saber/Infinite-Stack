@@ -37,6 +37,9 @@
 > Concurrent execution of CPUs and devices competing for memory cycles
 > 
 > ![[Pasted image 20240717121021.png]]
+> **********************************************************************
+> >[!info]- How a modern computer works
+> >![[Pasted image 20240717144912.png]]
 
 >[!note]- Computer Startup
 >- `Bootstrap program` is loaded at power up or reboot
@@ -96,5 +99,5 @@
 >Provides uniform interface between controller and kernel
 
 >[!info]- Storage Device Hierarchy
->![[Pasted image 20240717144601.png]]
+>![[Pasted image 20240717144728.png]]
 

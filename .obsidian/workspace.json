@@ -8,19 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "6a94284fd496216f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Introduction to Thermodynamics.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "185dd8aa6ceb8719",
+            "id": "2e9eeffbdc99160d",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -31,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -182,15 +169,18 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "185dd8aa6ceb8719",
+  "active": "2e9eeffbdc99160d",
   "lastOpenFiles": [
-    "Pasted image 20240717144601.png",
-    "Pasted image 20240717134458.png",
-    "Pasted image 20240717121021.png",
-    "Pasted image 20240717110629.png",
-    "Pasted image 20240717104857.png",
+    "Pasted image 20240717144912.png",
+    "Pasted image 20240717144728.png",
     "SEM-3/CS2043-Operating Systems/Operating Systems.md",
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Introduction to Thermodynamics.md",
+    "Images/Pasted image 20240717134458.png",
+    "Pasted image 20240717144601.png",
+    "Images/Pasted image 20240717104857.png",
+    "Images/Pasted image 20240717110629.png",
+    "SEM-3/CS2043-Operating Systems/OS Introduction.md",
+    "Images/Pasted image 20240717121021.png",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Uniform-cost Search.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Solving Problems by Searching.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Breadth-first Search.md",
@@ -202,15 +192,12 @@
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Depth-first Search.md",
     "Images/Pasted image 20240715113613.png",
     "Images/Pasted image 20240715112409.png",
-    "Images/Pasted image 20240715112326.png",
-    "Images/Pasted image 20240715112241.png",
     "SRS.md",
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Basic Concepts of Thermodynamics.md",
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Thermodynamics.md",
     "SEM-3/CS2053-Computer Architecture/Instruction Set Architecture-RV.md",
     "SEM-3/CS2053-Computer Architecture/Computer Architecture Introduction.md",
     "SEM-3/CS2053-Computer Architecture/Computer Architecture.md",
-    "SEM-3/CS2043-Operating Systems/OS Introduction.md",
     "SEM-3/CS2033-Data Communication and Networking/Data Com. & Networking Introduction.md",
     "SEM-3/CS3043-Database Systems/Database Design Using the E-R Model.md",
     "SEM-3/CS3043-Database Systems/Database systems.md",
