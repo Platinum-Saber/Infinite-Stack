@@ -79,7 +79,12 @@
 >- Typically volatile 
 >- Typically random access memory in the form of Dynamic Random Access Memory (DRAM)
 
->[!note]- Secondary storage
+>[!note]- Secondary storage :FasNoteSticky:
 >An extension of main memory that provides large nonvolatile storage capacity
->> :FiHardDrive: Hard Disk Drive (HDD)
->> - Rigid metal or glass 
+>>###### :FiHardDrive: Hard Disk Drive (HDD)
+>> - Rigid metal or glass platters covered with magnetic recording material
+>> - Disk surface is logically divided into `tracks` which are subdivided into `sectors`
+>> - The `disk controller` determines the logical interaction between the device and the computer
+>
+>>###### :RiHardDrive3Line: Non volatile Memory (NVM) devices
+>>- Faster than hard disks
