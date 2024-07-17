@@ -32,5 +32,5 @@
 >>[!info]- Users
 >>People, machines, other computers
 
->[!note]- Overview of *Computer system operation* :note
->
+>[!note]- Overview of *Computer system operation* :RiStickyNoteFill:
+> 
