@@ -61,4 +61,6 @@
 >>- Wait loop (contention for memory access)
 >>- At most one I/O request is outstanding at a time, no simultaneous I/O processing
 >
->>[!info]- After I/O starts, control returns to user program only upon I/O completion
+>>[!info]- After I/O starts, control returns to user program without waiting for I/O completion
+>>- `system call` - request to the OS to allow user to wait for I/O completion
+>>- `Device status table` contains entry for each I/O device indicating its
