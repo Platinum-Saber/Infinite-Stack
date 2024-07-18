@@ -86,3 +86,6 @@
 >>> [!warning] Many databases do not support this functionality
 
 ## Basic Query Structure
+>[!note] SQL Query :FasNoteSticky:
+>- SQL is also a data manipulation language
+>>[!info]
