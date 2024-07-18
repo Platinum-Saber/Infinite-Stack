@@ -76,4 +76,13 @@
 
 >[!info] **DELETE FROM (table_name)** ::  Deletes all the content of the table but retains the table.
 
->[!info] ALTER TABLE
+>[!note]- **ALTER TABLE**
+>>[!info] **ALTER TABLE** r **ADD** A D
+>>- where `A` is the name of the attribute to be added to relation `r`and `D` is the domain/data type of `A`.
+>>- All tuples in the relation are assigned `null` as the value of the new attribute.
+>
+>>[!info] **ALTER TABLE** r **DROP** A
+>>- where A is the name of an attribute in relation r.
+>>> [!warning] Many databases do not support this functionality
+
+## Basic Query Structure
