@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM-3/CS2043-Operating Systems/OS Introduction.md",
+                "file": "SEM-3/CS3043-Database Systems/Relational Database Design.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "b2aa869acde22062",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SEM-3/CS2043-Operating Systems/OS Introduction.md",
+                "file": "SEM-3/CS3043-Database Systems/Relational Database Design.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +113,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM-3/CS2043-Operating Systems/OS Introduction.md"
+                "file": "SEM-3/CS3043-Database Systems/Relational Database Design.md"
               }
             }
           },
@@ -132,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM-3/CS2043-Operating Systems/OS Introduction.md",
+                "file": "SEM-3/CS3043-Database Systems/Relational Database Design.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,17 +168,23 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "2e9eeffbdc99160d",
+  "active": "671fcfcc9244e77e",
   "lastOpenFiles": [
-    "Pasted image 20240717144912.png",
-    "Pasted image 20240717144728.png",
+    "SEM-3/CS3043-Database Systems/Database systems.md",
+    "SEM-3/CS3043-Database Systems/Relational Database Design.md",
+    "SEM-3/CS3043-Database Systems/Database Design Using the E-R Model.md",
+    "SEM-3/CS3043-Database Systems/Introduction to SQL.md",
+    "SEM-3/CS3043-Database Systems/Database Systems Introduction.md",
+    "Images/Pasted image 20240718082934.png",
+    "SEM-3/CS2043-Operating Systems/OS Introduction.md",
+    "Images/Pasted image 20240717144912.png",
+    "Images/Pasted image 20240717144728.png",
     "SEM-3/CS2043-Operating Systems/Operating Systems.md",
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Introduction to Thermodynamics.md",
     "Images/Pasted image 20240717134458.png",
     "Pasted image 20240717144601.png",
     "Images/Pasted image 20240717104857.png",
     "Images/Pasted image 20240717110629.png",
-    "SEM-3/CS2043-Operating Systems/OS Introduction.md",
     "Images/Pasted image 20240717121021.png",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Uniform-cost Search.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Solving Problems by Searching.md",
@@ -190,8 +195,6 @@
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Artificial Intelligence.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/AI Introduction.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Depth-first Search.md",
-    "Images/Pasted image 20240715113613.png",
-    "Images/Pasted image 20240715112409.png",
     "SRS.md",
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Basic Concepts of Thermodynamics.md",
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Thermodynamics.md",
@@ -199,13 +202,9 @@
     "SEM-3/CS2053-Computer Architecture/Computer Architecture Introduction.md",
     "SEM-3/CS2053-Computer Architecture/Computer Architecture.md",
     "SEM-3/CS2033-Data Communication and Networking/Data Com. & Networking Introduction.md",
-    "SEM-3/CS3043-Database Systems/Database Design Using the E-R Model.md",
-    "SEM-3/CS3043-Database Systems/Database systems.md",
-    "SEM-3/CS3043-Database Systems/Introduction to SQL.md",
     "SEM-3 INDEX.md",
     "SEM-3/CS2033-Data Communication and Networking/Data Communication & Networking.md",
     "Infinite Stack.md",
-    "SEM-3/CS3043-Database Systems/Database Systems Introduction.md",
     "Searching Algorithms.md",
     "Work Space.canvas",
     "Images",
