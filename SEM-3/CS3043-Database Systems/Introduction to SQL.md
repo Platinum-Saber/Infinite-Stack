@@ -67,3 +67,13 @@
  >>			references department(dept_name)
  >>	)
  >>```
+
+<br>
+<br>
+
+## DROP and ALTER TABLE Constructs
+>[!info] **DROP TABLE (table_name)** ::  Deletes the table and its content
+
+>[!info] **DELETE FROM (table_name)** ::  Deletes all the content of the table but retains the table.
+
+>[!info] ALTER TABLE
