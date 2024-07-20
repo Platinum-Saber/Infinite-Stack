@@ -36,7 +36,7 @@
 >`A_1` - Attribute name in the schema of the relation
 > `D_1` - Data type of values in the domain of attribute A_1
 > 
-> > [!example] Example
+> > [!example]- Example
 > > ```sql
 > > CREATE TABLE instructor (
 > >	ID char(5),
@@ -45,6 +45,8 @@
 > > 	salary numeric(8,2)
 > >)
 >> ```
+
+<br>
 
 ### Integrity constraints
 >[!abstract] Available integrity constraints in CREATE TABLE
@@ -55,7 +57,7 @@
 >>[!warning] `primary key` declaration on an attribute automatically ensures `not null`
 >
 >
- >>[!example] Example
+ >>[!example]- Example
  >>```sql
  >>	CREATE TABLE instructor (
  >>		ID char(5),
@@ -84,6 +86,9 @@
 >>[!info] **ALTER TABLE** r **DROP** A
 >>- where A is the name of an attribute in relation r.
 >>> [!warning] Many databases do not support this functionality
+
+<br>
+<br>
 
 ## Basic Query Structure
 >[!note] SQL Query :FasNoteSticky:
