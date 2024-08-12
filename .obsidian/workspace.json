@@ -23,9 +23,11 @@
             "id": "27b6b37477b54f9c",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.6.7"
+                "file": "SEM-3/CS2033-Data Communication and Networking/Data Com. & Networking Introduction.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -96,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SEM-3/CS3043-Database Systems/Introduction to SQL.md",
+                "file": "SEM-3/CS2033-Data Communication and Networking/Data Com. & Networking Introduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM-3/CS3043-Database Systems/Introduction to SQL.md"
+                "file": "SEM-3/CS2033-Data Communication and Networking/Data Com. & Networking Introduction.md"
               }
             }
           },
@@ -142,7 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM-3/CS3043-Database Systems/Introduction to SQL.md",
+                "file": "SEM-3/CS2033-Data Communication and Networking/Data Com. & Networking Introduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
