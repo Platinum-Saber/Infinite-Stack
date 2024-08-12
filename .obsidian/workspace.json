@@ -25,8 +25,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM-3/CS3043-Database Systems/Introduction to SQL.md",
-                "mode": "source",
+                "file": "SEM-3/CS3043-Database Systems/Database Systems Introduction.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -82,8 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "b2aa869acde22062",
@@ -99,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SEM-3/CS3043-Database Systems/Introduction to SQL.md",
+                "file": "SEM-3/CS3043-Database Systems/Database Systems Introduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM-3/CS3043-Database Systems/Introduction to SQL.md"
+                "file": "SEM-3/CS3043-Database Systems/Database Systems Introduction.md"
               }
             }
           },
@@ -145,7 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM-3/CS3043-Database Systems/Introduction to SQL.md",
+                "file": "SEM-3/CS3043-Database Systems/Database Systems Introduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,8 +163,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 249.5,
-    "collapsed": true
+    "width": 249.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -184,11 +182,12 @@
   },
   "active": "27b6b37477b54f9c",
   "lastOpenFiles": [
-    "SEM-3/CS3043-Database Systems/Relational Database Design.md",
     "SEM-3/CS3043-Database Systems/Database systems.md",
+    "SEM-3 INDEX.md",
+    "SEM-3/CS3043-Database Systems/Introduction to SQL.md",
+    "SEM-3/CS3043-Database Systems/Relational Database Design.md",
     "SEM-3/CS3043-Database Systems/Database Design Using the E-R Model.md",
     "SEM-3/CS2033-Data Communication and Networking/Data Com. & Networking Introduction.md",
-    "SEM-3/CS3043-Database Systems/Introduction to SQL.md",
     "SEM-3/CS3043-Database Systems/Database Systems Introduction.md",
     "Images/Pasted image 20240718082934.png",
     "SEM-3/CS2043-Operating Systems/OS Introduction.md",
@@ -216,7 +215,6 @@
     "SEM-3/CS2053-Computer Architecture/Instruction Set Architecture-RV.md",
     "SEM-3/CS2053-Computer Architecture/Computer Architecture Introduction.md",
     "SEM-3/CS2053-Computer Architecture/Computer Architecture.md",
-    "SEM-3 INDEX.md",
     "SEM-3/CS2033-Data Communication and Networking/Data Communication & Networking.md",
     "Infinite Stack.md",
     "Searching Algorithms.md",

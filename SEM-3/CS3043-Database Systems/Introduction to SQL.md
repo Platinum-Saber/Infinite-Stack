@@ -91,7 +91,9 @@
 <br>
 
 ## Basic Query Structure
->[!note] SQL Query :FasNoteSticky:
+
+>[!note] 🗒 SQL Query
+>
 >- SQL is also a data manipulation language
 >>[!info] Typical SQL structure
 >>```SQL
