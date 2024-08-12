@@ -93,4 +93,18 @@
 ## Basic Query Structure
 >[!note] SQL Query :FasNoteSticky:
 >- SQL is also a data manipulation language
->>[!info]
+>>[!info] Typical SQL structure
+>>```SQL
+>>SELECT A1, A2, A3
+>>FROM r1, r2, r3
+>>WHERE P
+>>```
+>>A => attribute
+>>r => relation
+>>P => Predicate
+>
+>**Result of a query is another relation**
+
+<br>
+
+## SELECT Clause
