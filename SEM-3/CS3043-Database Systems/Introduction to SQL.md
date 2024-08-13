@@ -74,9 +74,10 @@
 <br>
 
 ## DROP and ALTER TABLE Constructs
-![ ] **DROP TABLE (table_name)** ::  Deletes the table and its content
 
->[!info] **DELETE FROM (table_name)** ::  Deletes all the content of the table but retains the table.
+**DROP TABLE (table_name)** ::  Deletes the table and its content
+
+**DELETE FROM (table_name)** ::  Deletes all the content of the table but retains the table.
 
 >[!note]- **ALTER TABLE**
 >>[!info] **ALTER TABLE** r **ADD** A D
@@ -109,5 +110,5 @@
 
 [?]
 <br>
-
+waht  [?]
 ## SELECT Clause
