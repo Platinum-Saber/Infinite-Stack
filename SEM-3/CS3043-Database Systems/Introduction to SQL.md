@@ -71,6 +71,8 @@
  >>```
 
 <br>
+
+>[!note] que
 <br>
 
 ## DROP and ALTER TABLE Constructs
@@ -108,7 +110,6 @@
 >
 >**Result of a query is another relation**
 
-[ ]> re
 <br>
 
 ## SELECT Clause
