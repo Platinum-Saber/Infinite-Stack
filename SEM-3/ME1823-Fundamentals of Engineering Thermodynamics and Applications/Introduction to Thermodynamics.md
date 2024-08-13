@@ -66,4 +66,10 @@ Related : #Thermo #Thermo/1
 
 <br>
 
+>[!note]- **Constant Pressure Specific Heat Capacity ** ($C_p$)
+>Consider a fixed volume of gas being heated at constant pressure
+>>Since the process is *irreversible*, the only work is the moving boundary work.
+>> $\Delta Q - \Delta W = \Delta U$
+
+
 **Up Next** : [[Basic Concepts of Thermodynamics]]
