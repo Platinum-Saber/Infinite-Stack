@@ -33,7 +33,10 @@ Related : #Thermo #Thermo/1
 <br>
 
 ### Specific Heat Capacity
->[!FAQ] What is **Specific Heat Capacity**
+
+<br>
+
+>[!FAQ]- What is **Specific Heat Capacity**
 > The amount of energy required to raise the temperature of Unit mass of a substance by one degree.
 > >[!error] Definition is **valid** only for `reversible` processes.
 
@@ -60,11 +63,9 @@ Related : #Thermo #Thermo/1
 > > $u\ =\ C_v\ T\ +\ K\ \ \ \ ;where\ K\ is\ a\ constant\ of\ integration$
 > > 
 > > For ideal gases when `T=0` , `u=0`  $\ \ \ \therefore$ `k=0`
-> > $$\therefore \ \ u\ =\ C_v\ T$$
+> > ### $$\therefore \ \ u\ =\ C_v\ T$$
 > This is a **property function** .
 > Hence it can be used regardless if the process is *reversible* or *irreversible*
-
-<br>
 
 >[!note]- **Constant Pressure Specific Heat Capacity ** ($C_p$)
 >Consider a fixed volume of gas being heated at constant pressure
@@ -88,8 +89,14 @@ Related : #Thermo #Thermo/1
 >> **This is a property function**
 >> Hence it can be used regardless if the process is _reversible_ or _irreversible_
 
+<br>
+<br>
+
 ### Specific Heat Capacity Relations for Ideal Gases
->[!note] Relation between $C_p$ and $C_v$
+
+<br>
+
+>[!note]- Relation between $C_p$ and $C_v$
 >> For ideal gases
 >> $P\ \nu =\ R\ T$ (R is the gas constant)
 >
@@ -98,7 +105,13 @@ Related : #Thermo #Thermo/1
 >
 >>By substitution
 >>$C_p\ T\ =\ C_v\ T\ +\ R\ T$
->>$$$$
+>>### $$C_p\ =\ C_v\ +\ R$$
 
+>[!note]- Specific Heat Capacity Ratio
+>#### $$\gamma =\ \frac {C_p}{C_v}$$
+>Usually $\gamma = 1.4$ for most *diatomic* gases.
+
+<br>
+<br>
 
 **Up Next** : [[Basic Concepts of Thermodynamics]]
