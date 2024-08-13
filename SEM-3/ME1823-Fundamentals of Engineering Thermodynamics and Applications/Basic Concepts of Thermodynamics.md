@@ -8,7 +8,7 @@ Related : #Thermo #Thermo/2
 # Basic Concepts
 
 <br>
-**
+
 ### The System Concept
 
 >[!FAQ]- What is a `System`
@@ -69,16 +69,24 @@ Related : #Thermo #Thermo/2
 ### Processes/ Cycles
 >[!abstract]- Common Thermodynamic Process
 >>[!info]- Isobaric Process
+>>Pressure remains constant
 >
 >>[!info]- Isochoric Process
+>>Volume remains constant
+>>
 >
 >>[!info]- Isothermal Process
+>>Temperature remains constant
 >
 >>[!info]- Isentropic Process
+>>The entropy remains constant
 >
 >>[!info]- Polytrophic Process
+>> Processes that obey the equation $P\ V^n\ =\ Constant$ 
+>> *n* is the **polytrophic** index.
 >
 >>[!info]- Adiabatic Process
+>>No heat transfer tacking place
 >
 
 >[!note]- **Quasi-Equilibrium** Process
