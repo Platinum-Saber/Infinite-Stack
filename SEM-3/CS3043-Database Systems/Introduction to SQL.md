@@ -108,7 +108,7 @@
 >
 >**Result of a query is another relation**
 
-[?]
+[ ]> re
 <br>
-waht  [?]
+
 ## SELECT Clause
