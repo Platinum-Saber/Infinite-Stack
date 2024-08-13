@@ -69,7 +69,18 @@ Related : #Thermo #Thermo/1
 >[!note]- **Constant Pressure Specific Heat Capacity ** ($C_p$)
 >Consider a fixed volume of gas being heated at constant pressure
 >>Since the process is *irreversible*, the only work is the moving boundary work.
->> $\Delta Q - \Delta W = \Delta U$
+>> $$\Delta Q - \Delta W = \Delta U$$
+>
+>>From the definition of Spec.Heat Capacity
+>>$$\Delta Q = m\ C_p \Delta T$$
+>
+>>From the two equations
+>>
+>> $m\ C_p\ dT\ -\ P\ dV\ =\ dU$
+>> Since --> $P\ dV\ +\ dU\ =\ dH$
+>> $m\ C_p\ dT\ =\ dH$
+>> $C_p\ dT\ =\ dh$
+>> $\int dh\ = $
 
 
 **Up Next** : [[Basic Concepts of Thermodynamics]]
