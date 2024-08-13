@@ -15,6 +15,7 @@
               "state": {
                 "file": "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Basic Concepts of Thermodynamics.md",
                 "mode": "preview",
+                "backlinks": true,
                 "source": false
               }
             }
@@ -27,6 +28,7 @@
               "state": {
                 "file": "SEM-3/CS3043-Database Systems/Database Systems Introduction.md",
                 "mode": "preview",
+                "backlinks": true,
                 "source": false
               }
             }
