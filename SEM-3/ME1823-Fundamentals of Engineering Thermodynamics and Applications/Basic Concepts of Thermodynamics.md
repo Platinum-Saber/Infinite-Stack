@@ -8,7 +8,7 @@ Related : #Thermo #Thermo/2
 # Basic Concepts
 
 <br>
-
+**
 ### The System Concept
 
 >[!FAQ]- What is a `System`
@@ -123,8 +123,8 @@ Related : #Thermo #Thermo/2
 >>$$e =\ u\ +\ \frac{1}{2}\ m\ C^2 +\ gz$$
 
 >[!note]- Heat & Work
->- Both are transitional forms of energies
->- Both can be identified as they cross the boundary (`boundary phenomina)
+>- Both are *transitional forms* of energies (Heat has meaning only in transition)
+>- Both can be identified as they cross the boundary (`boundary phenomina`)
 >- Due to heat & work transfer, the `intrinsic energy` of a system changes.
 >- Both depend on the path they follow in a process. (`path functions`)
 

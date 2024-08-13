@@ -79,7 +79,7 @@
   "things-style@@no-kanban-styles": false,
   "things-style@@default-font-color": true,
   "anuppuccin-theme-settings@@anp-active-line": "anp-current-line",
-  "anuppuccin-theme-settings@@anp-callout-select": "anp-callout-vanilla-plus",
+  "anuppuccin-theme-settings@@anp-callout-select": "none",
   "anuppuccin-theme-settings@@anp-callout-color-toggle": false,
   "anuppuccin-theme-settings@@callout-title-opacity": 0.15,
   "anuppuccin-theme-settings@@anp-speech-bubble": true,
