@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Basic Concepts of Thermodynamics.md",
+                "file": "SEM-3/CS2033-Data Communication and Networking/Data Communication & Networking.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -97,7 +97,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Basic Concepts of Thermodynamics.md"
+                "file": "SEM-3/CS2033-Data Communication and Networking/Data Communication & Networking.md"
               }
             }
           },
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Basic Concepts of Thermodynamics.md",
+                "file": "SEM-3/CS2033-Data Communication and Networking/Data Communication & Networking.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,21 +154,23 @@
   },
   "active": "2e9eeffbdc99160d",
   "lastOpenFiles": [
-    "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Introduction to Thermodynamics.md",
+    "SEM-3/CS2033-Data Communication and Networking/Data Com. & Networking Introduction.md",
+    "SEM-3/CS2043-Operating Systems/OS Introduction.md",
+    "SEM-3/CS2043-Operating Systems/Operating Systems.md",
+    "SEM-3/CS2053-Computer Architecture/Computer Architecture.md",
+    "SEM-3/CS3043-Database Systems/Database Design Using the E-R Model.md",
+    "SEM-3/CS3043-Database Systems/Database systems.md",
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/Artificial Intelligence.md",
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Basic Concepts of Thermodynamics.md",
+    "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Introduction to Thermodynamics.md",
     "SEM-3/CS3043-Database Systems/Introduction to SQL.md",
     "SEM-3/CS3043-Database Systems/Database Systems Introduction.md",
-    "SEM-3/CS3043-Database Systems/Database systems.md",
-    "SEM-3/CS3043-Database Systems/Database Design Using the E-R Model.md",
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Thermodynamics.md",
     "SEM-3 INDEX.md",
     "SEM-3/CS3043-Database Systems/Relational Database Design.md",
-    "SEM-3/CS2033-Data Communication and Networking/Data Com. & Networking Introduction.md",
     "Images/Pasted image 20240718082934.png",
-    "SEM-3/CS2043-Operating Systems/OS Introduction.md",
     "Images/Pasted image 20240717144912.png",
     "Images/Pasted image 20240717144728.png",
-    "SEM-3/CS2043-Operating Systems/Operating Systems.md",
     "Images/Pasted image 20240717134458.png",
     "Pasted image 20240717144601.png",
     "Images/Pasted image 20240717104857.png",
@@ -180,13 +182,11 @@
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Intelligent Agents.md",
     "Images/Pasted image 20240715154653.png",
     "Images/Pasted image 20240715154311.png",
-    "SEM-3/CS3613-Introduction to Artificial Intelligence/Artificial Intelligence.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/AI Introduction.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Depth-first Search.md",
     "SRS.md",
     "SEM-3/CS2053-Computer Architecture/Instruction Set Architecture-RV.md",
     "SEM-3/CS2053-Computer Architecture/Computer Architecture Introduction.md",
-    "SEM-3/CS2053-Computer Architecture/Computer Architecture.md",
     "SEM-3/CS2033-Data Communication and Networking/Data Communication & Networking.md",
     "Infinite Stack.md",
     "Searching Algorithms.md",

@@ -6,6 +6,8 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "SiHubspot",
+      "FiFile",
       "FiHome",
       "LiFolders",
       "FiDatabase",
@@ -13,9 +15,7 @@
       "RiStackFill",
       "RaFire",
       "LiLineChart",
-      "RiInfinityLine",
-      "RiRobot2Line",
-      "FasDatabase"
+      "RiInfinityLine"
     ],
     "recentlyUsedIconsSize": 10,
     "rules": [],
@@ -84,5 +84,45 @@
   "SEM-3 INDEX.md": {
     "iconName": "FiHome",
     "iconColor": "#fcb069"
-  }
+  },
+  "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Basic Concepts of Thermodynamics.md": "FiFile",
+  "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Introduction to Thermodynamics.md": "FiFile",
+  "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Thermodynamics.md": {
+    "iconName": "SiHubspot",
+    "iconColor": "#db2929"
+  },
+  "SEM-3/CS3613-Introduction to Artificial Intelligence/Artificial Intelligence.md": {
+    "iconName": "SiHubspot",
+    "iconColor": "#bbc760"
+  },
+  "SEM-3/CS3613-Introduction to Artificial Intelligence/AI Introduction.md": "FiFile",
+  "SEM-3/CS3613-Introduction to Artificial Intelligence/Breadth-first Search.md": "FiFile",
+  "SEM-3/CS3613-Introduction to Artificial Intelligence/Depth-first Search.md": "FiFile",
+  "SEM-3/CS3613-Introduction to Artificial Intelligence/Intelligent Agents.md": "FiFile",
+  "SEM-3/CS3613-Introduction to Artificial Intelligence/Solving Problems by Searching.md": "FiFile",
+  "SEM-3/CS3613-Introduction to Artificial Intelligence/Uniform-cost Search.md": "FiFile",
+  "SEM-3/CS3043-Database Systems/Database systems.md": {
+    "iconName": "SiHubspot",
+    "iconColor": "#5dac63"
+  },
+  "SEM-3/CS3043-Database Systems/Database Design Using the E-R Model.md": "FiFile",
+  "SEM-3/CS3043-Database Systems/Database Systems Introduction.md": "FiFile",
+  "SEM-3/CS3043-Database Systems/Introduction to SQL.md": "FiFile",
+  "SEM-3/CS3043-Database Systems/Relational Database Design.md": "FiFile",
+  "SEM-3/CS2053-Computer Architecture/Computer Architecture.md": {
+    "iconName": "SiHubspot",
+    "iconColor": "#58b2d0"
+  },
+  "SEM-3/CS2053-Computer Architecture/Computer Architecture Introduction.md": "FiFile",
+  "SEM-3/CS2053-Computer Architecture/Instruction Set Architecture-RV.md": "FiFile",
+  "SEM-3/CS2043-Operating Systems/Operating Systems.md": {
+    "iconName": "SiHubspot",
+    "iconColor": "#7284df"
+  },
+  "SEM-3/CS2043-Operating Systems/OS Introduction.md": "FiFile",
+  "SEM-3/CS2033-Data Communication and Networking/Data Communication & Networking.md": {
+    "iconName": "SiHubspot",
+    "iconColor": "#3656d9"
+  },
+  "SEM-3/CS2033-Data Communication and Networking/Data Com. & Networking Introduction.md": "FiFile"
 }
