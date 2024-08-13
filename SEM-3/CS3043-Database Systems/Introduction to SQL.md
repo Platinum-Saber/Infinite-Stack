@@ -71,11 +71,12 @@
  >>```
 
 <br>
-
->[!note] que
 <br>
 
 ## DROP and ALTER TABLE Constructs
+
+<br>
+
 
 **DROP TABLE (table_name)** ::  Deletes the table and its content
 
