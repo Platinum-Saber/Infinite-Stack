@@ -63,3 +63,7 @@
 > > $$\therefore \ \ u\ =\ C_v\ T$$
 > This is a property function. 
 > Hence it can be used regardless if the process is `reversible` or `irreversible`
+
+<br>
+
+Up Next : [[Basic Concepts of Thermodynamics]]
