@@ -92,7 +92,7 @@
 
 ## Basic Query Structure
 
->[!note] 🗒 SQL Query
+>[!note] SQL Query
 >
 >- SQL is also a data manipulation language
 >>[!info] Typical SQL structure
@@ -107,6 +107,7 @@
 >
 >**Result of a query is another relation**
 
+[?]
 <br>
 
 ## SELECT Clause
