@@ -62,7 +62,7 @@ Related : #Thermo #Thermo/1
 > > For ideal gases when `T=0` , `u=0`  $\ \ \ \therefore$ `k=0`
 > > $$\therefore \ \ u\ =\ C_v\ T$$
 > This is a **property function** .
-> Hence it can be used regardless if the process is `reversible` or `irreversible`
+> Hence it can be used regardless if the process is *reversible* or *irreversible*
 
 <br>
 
@@ -84,8 +84,21 @@ Related : #Thermo #Thermo/1
 >> $h\ =\ C_p\ T\ +\ k$
 >> For ideal gases when T=0 , u=0 $\therefore k=0$
 >> ### $$\therefore h\ =\ C_p\ T$$
->> ****
+>> 
 >> **This is a property function**
+>> Hence it can be used regardless if the process is _reversible_ or _irreversible_
+
+### Specific Heat Capacity Relations for Ideal Gases
+>[!note] Relation between $C_p$ and $C_v$
+>> For ideal gases
+>> $P\ \nu =\ R\ T$ (R is the gas constant)
+>
+>>From the definition of enthalpy 
+>> $h\ =\ u\ +\ P\ \nu$
+>
+>>By substitution
+>>$C_p\ T\ =\ C_v\ T\ +\ R\ T$
+>>$$$$
 
 
 **Up Next** : [[Basic Concepts of Thermodynamics]]
