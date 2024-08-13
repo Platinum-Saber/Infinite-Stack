@@ -1,4 +1,4 @@
-
+Related : #Thermo #Thermo/1 
 # Ideal Gasses
 <br>
 
@@ -66,4 +66,4 @@
 
 <br>
 
-Up Next : [[Basic Concepts of Thermodynamics]]
+**Up Next** : [[Basic Concepts of Thermodynamics]]
