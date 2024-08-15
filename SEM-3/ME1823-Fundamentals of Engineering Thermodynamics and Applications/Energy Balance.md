@@ -57,5 +57,17 @@ Related : #Thermo #Thermo/3 #Thermo/3/energy
 >Fluid properties **may change** *from one point to another* within the control volume, but *at any fixed point* they **remain the same** during the entire process.
 
 >[!warning]  Energy balance equation for open systems at steady state
->- **Net change in energy of the control volume becomes 0.**
->- 
+>- *Net change* in *energy* of the *control volume* becomes **0**.
+> $$Q\ -\ W\ =\ \sum {m_e\ \theta_e}\ -\ \sum {m_i\ \theta_i}$$
+> 
+> By differentiating once with respect to time
+> ![[Pasted image 20240815125000.png]]
+> 
+> In most cases there is only an identical single inlet and single outlet.
+> Hence,
+>  ![[Pasted image 20240815125406.png]]
+> 
+> For specific 
+
+
+
