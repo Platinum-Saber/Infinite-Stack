@@ -44,3 +44,13 @@ Related : #Thermo #Thermo/3 #Thermo/3/energy
 >
 >>#### $$Q\ -\ W\ +\ \sum {m_i\ \theta_i}\ -\ \sum {m_e\ \theta_e}\ =\ \Delta E_{CV}$$
 
+>[!info]- Transient State vs Steady State
+**Transient state** : properties change with time
+**Steady state** : properties **don't** change with time.
+>![[Pasted image 20240815123056.png]]
+
+### Steady State Flow Process
+- Properties at the boundaries don't change with time.
+- Heat and work interaction between the system and the surroundings don't change with time.
+>[!note]- **Definition**
+>
