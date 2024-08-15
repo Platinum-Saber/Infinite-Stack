@@ -50,7 +50,12 @@ Related : #Thermo #Thermo/3 #Thermo/3/energy
 >![[Pasted image 20240815123056.png]]
 
 ### Steady State Flow Process
-- Properties at the boundaries don't change with time.
-- Heat and work interaction between the system and the surroundings don't change with time.
+- *Properties* at the *boundaries* **don't** change with time.
+- *Heat* and *work* interaction between the *system* and the *surroundings* **don't** change with time.
+
 >[!note]- **Definition**
->
+>Fluid properties **may change** *from one point to another* within the control volume, but *at any fixed point* they **remain the same** during the entire process.
+
+>[!warning]  Energy balance equation for open systems at steady state
+>- **Net change in energy of the control volume becomes 0.**
+>- 
