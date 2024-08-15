@@ -146,4 +146,4 @@ Related : #Thermo #Thermo/2
 >>[!tip] Moving Boundary Work
 >>$$W_b\ = \int{P}\ dV$$
 
-Up Next : [[]]
+Up Next : [[Laws of Thermodynamics ]]
