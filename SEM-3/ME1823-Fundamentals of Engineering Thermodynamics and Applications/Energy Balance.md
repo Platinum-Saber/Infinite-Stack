@@ -15,6 +15,9 @@ Related : #Thermo #Thermo/3 #Thermo/3/energy
 
 # Energy Balance for Open Systems
 - Has both *mass transfer* & *Energy transfer*
+- **CV** : *Control Volume*
+
+<br>
 
 >[!abstract]- How to calculate the total specific energy of a flow system
 >![[Pasted image 20240815115511.png]]
@@ -34,6 +37,10 @@ Related : #Thermo #Thermo/3 #Thermo/3/energy
 >
 >>#### $$\therefore \ \ \ \ \ \ \theta =\ h\ +\ 1/2\ C^2\ +\ g\ z$$
 
+<br>
 
 >[!note]- Specific Equation
->$$Total\ Energy\ crossing\ CV\ boundary\ as\ heat\ and\ wo$$
+>$$Total\ Energy\ crossing\ CV\ boundary\ as\ heat\ and\ work\ +\ Total\ Energy\ of\ the\ mass\ entering\ the\ CV\ -\ Total\ energy\ of\ the\ mass\ leaving\ the\ CV\ =\ Net\ Change\ in\ energy\ of\ the\ CV$$
+>
+>>#### $$Q\ -\ W\ +\ \sum {m_i\ \theta_i}\ -\ \sum {m_e\ \theta_e}\ =\ \Delta E_{CV}$$
+
