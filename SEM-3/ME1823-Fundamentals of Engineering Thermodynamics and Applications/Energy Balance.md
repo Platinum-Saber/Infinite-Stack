@@ -1,5 +1,7 @@
 Related : #Thermo #Thermo/3 #Thermo/3/energy
 
+<br>
+
 # Energy Balance for Closed Systems
 - There is **no** *mass transfer*
 - There is **energy transfer** in the form of *heat* or *work*.
@@ -10,6 +12,7 @@ Related : #Thermo #Thermo/3 #Thermo/3/energy
 >$Q\ -\ W\ =\ \Delta E$
 >$Q\ -\ W\ =\ \Delta U\ +\ \Delta KE\ +\ \Delta PE$
 
+<br>
 <br>
 <br>
 
@@ -37,7 +40,6 @@ Related : #Thermo #Thermo/3 #Thermo/3/energy
 >
 >>#### $$\therefore \ \ \ \ \ \ \theta =\ h\ +\ 1/2\ C^2\ +\ g\ z$$
 
-<br>
 
 >[!note]- Specific Equation
 >$$Total\ Energy\ crossing\ CV\ boundary\ as\ heat\ and\ work\ +\ Total\ Energy\ of\ the\ mass\ entering\ the\ CV\ -\ Total\ energy\ of\ the\ mass\ leaving\ the\ CV\ =\ Net\ Change\ in\ energy\ of\ the\ CV$$
@@ -49,14 +51,16 @@ Related : #Thermo #Thermo/3 #Thermo/3/energy
 **Steady state** : properties **don't** change with time.
 >![[Pasted image 20240815123056.png]]
 
-### Steady State Flow Process
-- *Properties* at the *boundaries* **don't** change with time.
+<br>
+
+## Steady State Flow Process
+- Properties at the *boundaries* **don't** change with time.
 - *Heat* and *work* interaction between the *system* and the *surroundings* **don't** change with time.
 
 >[!note]- **Definition**
 >Fluid properties **may change** *from one point to another* within the control volume, but *at any fixed point* they **remain the same** during the entire process.
 
->[!warning]  Energy balance equation for open systems at steady state
+>[!warning]-  Energy balance equation for open systems at steady state
 >- *Net change* in *energy* of the *control volume* becomes **0**.
 > $$Q\ -\ W\ =\ \sum {m_e\ \theta_e}\ -\ \sum {m_i\ \theta_i}$$
 > 
@@ -67,7 +71,11 @@ Related : #Thermo #Thermo/3 #Thermo/3/energy
 > Hence,
 >  ![[Pasted image 20240815125406.png]]
 > 
-> For specific 
+>> For specific conditions (per kilogram),
+>>#### $$q\ -\ w\ =\ (\ h_e\ -\ h_i\ +\ \frac {{C_e}^2\ -\ {C_i}^2}{2}\ +\ g\ (\ Z_e\ -\ Z_i\ )\ )\ \ \ kJ/kg$$
+>>This equation is known as the *Steady flow energy equation* (SFEE)
+
+
 
 
 
