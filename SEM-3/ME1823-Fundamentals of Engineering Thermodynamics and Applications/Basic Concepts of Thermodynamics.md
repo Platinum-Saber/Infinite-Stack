@@ -1,5 +1,8 @@
 Related : #Thermo #Thermo/2
 
+<br>
+
+****
 >[!FAQ]- What is **Thermodynamics**
 >The branch of physics concerned with the interaction of energy and work, and transformation of energy from one form to another.
 
@@ -146,4 +149,7 @@ Related : #Thermo #Thermo/2
 >>[!tip] Moving Boundary Work
 >>$$W_b\ = \int{P}\ dV$$
 
+<br>
+
+****
 Up Next : [[Laws of Thermodynamics ]]

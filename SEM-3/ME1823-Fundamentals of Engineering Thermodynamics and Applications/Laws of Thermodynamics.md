@@ -1,4 +1,8 @@
 Related : #Thermo #Thermo/3 #Thermo/Laws 
+
+<br>
+
+****
 # Laws of Thermodynamics
 >[!faq] What are laws of thermodynamics
 >Laws of thermodynamics can not be proven mathematically.
@@ -10,4 +14,5 @@ Related : #Thermo #Thermo/3 #Thermo/Laws
 ### [[4. The Third Law of Thermodynamics]]
 <br>
 
+****
 Up Next : [[Energy Balance]]

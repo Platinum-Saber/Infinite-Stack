@@ -2,6 +2,7 @@ Related : #Thermo #Thermo/3 #Thermo/3/energy
 
 <br>
 
+****
 # Energy Balance for Closed Systems
 - There is **no** *mass transfer*
 - There is **energy transfer** in the form of *heat* or *work*.
@@ -15,7 +16,7 @@ Related : #Thermo #Thermo/3 #Thermo/3/energy
 <br>
 <br>
 
-
+****
 # Energy Balance for Open Systems
 - Has both *mass transfer* & *Energy transfer*
 - **CV** : *Control Volume*
@@ -77,6 +78,7 @@ Related : #Thermo #Thermo/3 #Thermo/3/energy
 
 <br>
 
+****
 Up Next : [[3. The Second Law of Thermodynamics]]
 
 
