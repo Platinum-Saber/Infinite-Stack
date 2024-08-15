@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Laws of Thermodynamics.md",
-                "mode": "preview",
+                "file": "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/3. The Second Law of Thermodynamics.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Laws of Thermodynamics.md"
+                "file": "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/3. The Second Law of Thermodynamics.md"
               }
             }
           },
@@ -128,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Laws of Thermodynamics.md",
+                "file": "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/3. The Second Law of Thermodynamics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,20 +167,20 @@
   },
   "active": "2e9eeffbdc99160d",
   "lastOpenFiles": [
-    "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Introduction to Thermodynamics.md",
-    "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Energy Balance.md",
-    "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Basic Concepts of Thermodynamics.md",
-    "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/4. The Third Law of Thermodynamics.md",
-    "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/3. The Second Law of Thermodynamics.md",
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/2. The First Law of Thermodynamics.md",
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/1. The Zeroth Law of Thermodynamics.md",
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Laws of Thermodynamics.md",
+    "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Thermodynamics.md",
+    "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Energy Balance.md",
+    "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Introduction to Thermodynamics.md",
+    "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Basic Concepts of Thermodynamics.md",
+    "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/4. The Third Law of Thermodynamics.md",
+    "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/3. The Second Law of Thermodynamics.md",
     "Images/Pasted image 20240815125406.png",
     "Images/Pasted image 20240815125000.png",
     "Untitled.md",
     "Images/Pasted image 20240815123056.png",
     "Images/Pasted image 20240815115511.png",
-    "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Thermodynamics.md",
     "Images/Pasted image 20240815105116.png",
     "Images/Pasted image 20240815103517.png",
     "SEM-3/CS2033-Data Communication and Networking/Data Communication & Networking.md",
