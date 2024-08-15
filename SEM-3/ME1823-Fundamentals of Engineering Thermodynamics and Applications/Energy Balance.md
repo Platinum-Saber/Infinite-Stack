@@ -10,10 +10,13 @@ Related : #Thermo #Thermo/3 #Thermo/3/energy
 >$Q\ -\ W\ =\ \Delta E$
 >$Q\ -\ W\ =\ \Delta U\ +\ \Delta KE\ +\ \Delta PE$
 
+<br>
+<br>
+
 # Energy Balance for Open Systems
 - Has both *mass transfer* & *Energy transfer*
 
->[!faq]- How to calculate
+>[!abstract]- How to calculate the total specific energy of a flow system
 >![[Pasted image 20240815115511.png]]
 >> Work done to enable mass flow $=\ F\ *\ L$
 >
@@ -26,7 +29,11 @@ Related : #Thermo #Thermo/3 #Thermo/3/energy
 >
 >>Total specific energy of a flow system ($\theta$)
 >>$\theta =\ e\ +\ W_{flow}$
->>$\theta =\ u\ +\ 1/2\ C^2\ +\ g\ z W_{flow}$
+>>$\theta =\ u\ +\ 1/2\ C^2\ +\ g\ z\ +\ P \nu$
+>>$h\ =\ u\ +\ P\ \nu$
+>
+>>#### $$\therefore \ \ \ \ \ \ \theta =\ h\ +\ 1/2\ C^2\ +\ g\ z$$
 
 
-
+>[!note]- Specific Equation
+>$$Total\ Energy\ crossing\ CV\ boundary\ as\ heat\ and\ wo$$
