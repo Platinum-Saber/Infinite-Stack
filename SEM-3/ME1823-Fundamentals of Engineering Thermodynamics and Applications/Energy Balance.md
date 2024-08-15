@@ -14,7 +14,7 @@ Related : #Thermo #Thermo/3 #Thermo/3/energy
 
 <br>
 <br>
-<br>
+
 
 # Energy Balance for Open Systems
 - Has both *mass transfer* & *Energy transfer*
@@ -75,6 +75,9 @@ Related : #Thermo #Thermo/3 #Thermo/3/energy
 >>#### $$q\ -\ w\ =\ (\ h_e\ -\ h_i\ +\ \frac {{C_e}^2\ -\ {C_i}^2}{2}\ +\ g\ (\ Z_e\ -\ Z_i\ )\ )\ \ \ kJ/kg$$
 >>This equation is known as the *Steady flow energy equation* (SFEE)
 
+<br>
+
+Up Next : [[3. The Second Law of Thermodynamics]]
 
 
 
