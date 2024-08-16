@@ -13,6 +13,7 @@
 - Has solid, liquid & gas states.
 - Substance may have several phases within a principal phase.
 	- Carbon : graphite or diamond in solid phase.
+
 >[!note]- Characteristics of Phases
 >- Solid
 >	- Rigid
@@ -37,6 +38,7 @@ More info on [Phase Diagrams](https://www.youtube.com/watch?v=-5oq5CZlY8k).
 
 >[!info]- Diagram
 >![[Pasted image 20240816120137.png]]
+>![[Pasted image 20240816150600.png]]
 
 >[!note]- Fusion Line
 >- Also known as the *melting curve* or **solid-liquid phase boundary**.
@@ -64,13 +66,15 @@ More info on [Phase Diagrams](https://www.youtube.com/watch?v=-5oq5CZlY8k).
 ****
 
 ### Phase Changing Process
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/iZbnY0QWHe8?si=yU3-g5bnYq1FwG_I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 >[!info]- T-V diagram
 > ![[Pasted image 20240816145740.png]]
 > ![[Pasted image 20240816145814.png]]
 
-
+>[!info]- P-V diagram
+>![[Pasted image 20240816145931.png]]
 
 >[!note]- Saturation Temperature
 > At a given pressure the temperature at which a pure substance changes phase.
@@ -79,9 +83,5 @@ More info on [Phase Diagrams](https://www.youtube.com/watch?v=-5oq5CZlY8k).
 >At a given Temperature the pressure at which a pure substance changes phase.
 
 <br>
-
->[!info]- P-V diagram
->![[Pasted image 20240816145931.png]]
-
 
 

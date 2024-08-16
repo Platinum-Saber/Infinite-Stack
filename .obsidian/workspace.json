@@ -70,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "b2aa869acde22062",
@@ -154,6 +155,7 @@
   },
   "active": "2e9eeffbdc99160d",
   "lastOpenFiles": [
+    "Images/Pasted image 20240816150600.png",
     "Images/Pasted image 20240816145931.png",
     "Images/Pasted image 20240816145519.png",
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Properties Of Pure Substances.md",
@@ -176,7 +178,6 @@
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/4. The Third Law of Thermodynamics.md",
     "Images/Pasted image 20240815232356.png",
     "Images/Pasted image 20240815230421.png",
-    "Images/Pasted image 20240815225221.png",
     "Untitled.md",
     "SEM-3/CS2033-Data Communication and Networking/Data Communication & Networking.md",
     "SEM-3/CS2033-Data Communication and Networking/Data Com. & Networking Introduction.md",
