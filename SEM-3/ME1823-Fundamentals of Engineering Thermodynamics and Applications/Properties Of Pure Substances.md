@@ -28,3 +28,13 @@
 >
 >![[Pasted image 20240816115628.png]]
 
+<br>
+
+### Phase Changing Diagram
+>[!info]- Diagram
+>![[Pasted image 20240816120137.png]]
+
+>[!note]- Fusion Line
+>- Also known as the *melting curve* or **solid-liquid phase boundary**.
+>- Typically a straight line with a positive slope. (melting point increases with pressure for most substances)
+**
