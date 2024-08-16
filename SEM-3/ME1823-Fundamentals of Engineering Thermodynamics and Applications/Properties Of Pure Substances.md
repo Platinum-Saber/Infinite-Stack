@@ -49,4 +49,9 @@
 
 >[!note]- Triple Point
 >The intersection between Fusion, Sublimation and evaporation lines.
->A specific point where solid, liquid and gas s
+>A specific point where solid, liquid and gas phases of a substance coexist in equilibrium.
+>Represents the unique temperature and pressure conditions required for the above equilibrium.
+
+>[!note]- Critical Point
+>
+>
