@@ -1,5 +1,7 @@
 Related : #Thermo #Thermo/3 #Thermo/Laws 
 
+[Reference Lecture](file:///E:%5CAcademics%5CSEM%203%5CME1823-Fundamentals%20of%20Engineering%20Thermodynamics%20and%20Applications%5CLecture%20Video%5CLec%2003%20-%20Laws%20of%20Thermodynamics%20-%20Intro.mp4)
+
 <br>
 
 ****

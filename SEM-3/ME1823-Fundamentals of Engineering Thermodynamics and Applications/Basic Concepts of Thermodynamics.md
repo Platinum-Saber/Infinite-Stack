@@ -1,5 +1,7 @@
 Related : #Thermo #Thermo/2
 
+[Reference Lecture](file:///E:%5CAcademics%5CSEM%203%5CME1823-Fundamentals%20of%20Engineering%20Thermodynamics%20and%20Applications%5CLecture%20Video%5CLec%2002%20-%20Basic%20Concepts%20of%20Thermodynamics.mp4)
+
 <br>
 
 ****
