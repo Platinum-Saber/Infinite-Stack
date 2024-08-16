@@ -64,3 +64,7 @@ More info on [Phase Diagrams](https://www.youtube.com/watch?v=-5oq5CZlY8k).
 ****
 
 ### Phase Changing Process
+<iframe width="560" height="315" src="https://www.youtube.com/embed/iZbnY0QWHe8?si=yU3-g5bnYq1FwG_I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+>[!note]- Vapor Dome diagram
+> ![[Pasted image 20240816143154.png]]
