@@ -70,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "b2aa869acde22062",
@@ -152,8 +153,9 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "2e9eeffbdc99160d",
+  "active": "671fcfcc9244e77e",
   "lastOpenFiles": [
+    "Images/Pasted image 20240816144807.png",
     "Images/Pasted image 20240816143154.png",
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/3. The Second Law of Thermodynamics.md",
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Energy Balance.md",
@@ -176,7 +178,6 @@
     "Images/Pasted image 20240815215416.png",
     "Images/Pasted image 20240815150238.png",
     "Images/Pasted image 20240815145117.png",
-    "Images/Pasted image 20240815142934.png",
     "Untitled.md",
     "SEM-3/CS2033-Data Communication and Networking/Data Communication & Networking.md",
     "SEM-3/CS2033-Data Communication and Networking/Data Com. & Networking Introduction.md",
