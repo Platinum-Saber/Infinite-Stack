@@ -1,3 +1,8 @@
+
+Related : #AI #AI/02 #Agents
+
+<br>
+
 >[!FAQ]- What is an **Agent**
 >An entity that can **Perceives** its'  **Environment** through **Sensors** and acts upon the environment through **Actuators**
 
@@ -230,3 +235,10 @@
 >	- First-order logic
 >	- First-order probability models
 
+<br>
+
+****
+
+<br>
+
+Up Next : [[Solving Problems by Searching]]

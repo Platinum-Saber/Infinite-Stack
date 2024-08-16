@@ -90,3 +90,11 @@ Requirements --> Conceptual_design --> Logical_design --> Physical_design
 
 >[!info]- A **relationship set** is a mathematical relation among 2 or more entities each taken from entity sets
 > { $(\ e_1 ,\ e_2,\ ... \ e_n\ ) |\ e_1 \ \in \ E_1,\ e_2 \ \in \ E_2,\ ...\ e_n\  \in \ E_n$ }
+
+<br>
+
+****
+
+<br>
+
+Up Next : [[Introduction to SQL]]

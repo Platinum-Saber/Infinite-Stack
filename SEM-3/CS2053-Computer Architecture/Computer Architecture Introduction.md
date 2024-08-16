@@ -127,3 +127,10 @@ Related : #ComputerArchitecture #CA #CA/01
 >
 >>[!error]- Not Efficient/ Power
 
+<br>
+
+****
+
+<br>
+
+Up Next : [[Instruction Set Architecture-RV]]

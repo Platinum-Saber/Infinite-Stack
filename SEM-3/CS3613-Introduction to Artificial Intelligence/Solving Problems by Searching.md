@@ -1,3 +1,8 @@
+
+Related : #AI #AI/03 #SearchAlgorithms
+
+<br>
+
 ## Problem Solving Agents
 >[!abstract] Functionality of a **Problem-Solving Agent** 👨‍💼
 >Its an agent that plans ahead. It considers a sequence of actions that form a path to a goal.
@@ -131,3 +136,10 @@
 >>[!info]- Bidirectional Search
 >>- Expands two frontiers, one around the initial state and one around the goal, stopping when the two frontiers meet.
 
+<br>
+
+****
+
+<br>
+
+Up Next : [[]]

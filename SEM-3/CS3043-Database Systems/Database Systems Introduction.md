@@ -52,3 +52,12 @@ Related : #DatabaseSystems #DB #DB/01
 
 >[!info]- Architecture for a database system
 >![[Pasted image 20240718082934.png]]
+
+<br>
+
+****
+
+<br>
+
+Up Next : [[Database Design Using the E-R Model]]
+

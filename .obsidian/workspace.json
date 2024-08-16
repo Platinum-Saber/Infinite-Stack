@@ -26,8 +26,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM-3/CS3043-Database Systems/Database Systems Introduction.md",
-                "mode": "source",
+                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Solving Problems by Searching.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -111,7 +111,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM-3/CS3043-Database Systems/Database Systems Introduction.md"
+                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Solving Problems by Searching.md"
               }
             }
           },
@@ -129,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM-3/CS3043-Database Systems/Database Systems Introduction.md",
+                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Solving Problems by Searching.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,14 +168,24 @@
   },
   "active": "2ac07ee7a8d95fe7",
   "lastOpenFiles": [
-    "SEM-3/CS3043-Database Systems/Introduction to SQL.md",
-    "SEM-3/CS3043-Database Systems/Relational Database Design.md",
-    "SEM-3/CS3043-Database Systems/Database Systems Introduction.md",
-    "SEM-3/CS3043-Database Systems/Database Design Using the E-R Model.md",
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/Intelligent Agents.md",
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/AI Introduction.md",
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/Artificial Intelligence.md",
     "SEM-3/CS3043-Database Systems/Database systems.md",
-    "SEM-3/CS2053-Computer Architecture/Instruction Set Architecture-RV.md",
+    "SEM-3/CS3043-Database Systems/Relational Database Design.md",
+    "SEM-3/CS3043-Database Systems/Database Design Using the E-R Model.md",
+    "SEM-3/CS3043-Database Systems/Introduction to SQL.md",
+    "SEM-3/CS3043-Database Systems/Database Systems Introduction.md",
     "SEM-3/CS2053-Computer Architecture/Computer Architecture Introduction.md",
+    "SEM-3/CS2053-Computer Architecture/Instruction Set Architecture-RV.md",
     "SEM-3/CS2033-Data Communication and Networking/Data Com. & Networking Introduction.md",
+    "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/1. The Zeroth Law of Thermodynamics.md",
+    "SEM-3/MA3014-Applied Statistics/Applied Statistics.md",
+    "SEM-3/MA2014-Differential Equations/Differential Equations.md",
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/Uniform-cost Search.md",
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/Solving Problems by Searching.md",
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/Depth-first Search.md",
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/Breadth-first Search.md",
     "SEM-3/CS2043-Operating Systems/OS Introduction.md",
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Introduction to Thermodynamics.md",
     "SEM-3/CS2033-Data Communication and Networking/Data Communication & Networking.md",
@@ -191,21 +201,11 @@
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Energy Balance.md",
     "Lec 04 - Laws of Thermodynamics - Episode 1.mp4",
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/2. The First Law of Thermodynamics.md",
-    "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/1. The Zeroth Law of Thermodynamics.md",
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Laws of Thermodynamics.md",
-    "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Basic Concepts of Thermodynamics.md",
     "Lec 02 - Basic Concepts of Thermodynamics.mp4",
-    "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Thermodynamics.md",
     "Images/Pasted image 20240816120137.png",
     "Images/Pasted image 20240816115628.png",
-    "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/4. The Third Law of Thermodynamics.md",
     "Images/Pasted image 20240815232356.png",
-    "Untitled.md",
-    "SEM-3/CS2043-Operating Systems/Operating Systems.md",
-    "SEM-3/CS2053-Computer Architecture/Computer Architecture.md",
-    "SEM-3/CS3613-Introduction to Artificial Intelligence/Artificial Intelligence.md",
-    "SEM-3 INDEX.md",
-    "SEM-3/CS3613-Introduction to Artificial Intelligence/Uniform-cost Search.md",
     "Work Space.canvas",
     "Images",
     "Untitled.canvas",

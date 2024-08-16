@@ -1,3 +1,8 @@
+
+Related : #AI #AI/01
+
+<br>
+
 >[!note]-  What is AI?
 >It concerns with understanding and building intelligent entities.
 >There are 4 potential definitions of AI
@@ -114,3 +119,11 @@ If a series of questions are answered by a human and a machine, when the interro
 
  >[!check]- Linguistics
 >- Knowledge representation, grammar
+
+<br>
+
+****
+
+<br>
+
+Up Next : [[Intelligent Agents]]
