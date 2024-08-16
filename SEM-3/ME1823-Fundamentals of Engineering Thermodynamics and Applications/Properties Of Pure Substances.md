@@ -42,7 +42,6 @@ More info on [Phase Diagrams](https://www.youtube.com/watch?v=-5oq5CZlY8k).
 >- Also known as the *melting curve* or **solid-liquid phase boundary**.
 >- Typically a straight line with a *positive slope*. (melting point increases with pressure for most substances)
 
-
 >[!note]- Sublimation Line
 >**Boundary between solid and gas** regions.
 >Represents the transition *from solid* **directly** *to a gas* without passing through the liquid phase.
