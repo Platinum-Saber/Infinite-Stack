@@ -52,10 +52,15 @@ More info on [Phase Diagrams](https://www.youtube.com/watch?v=-5oq5CZlY8k).
 
 >[!note]- Triple Point
 >The intersection between Fusion, Sublimation and evaporation lines.
->A specific point where solid, liquid and gas phases of a substance coexist in equilibrium.
+>A specific point where *solid, liquid and gas phases* of a substance **coexist in equilibrium**.
 >Represents the unique temperature and pressure conditions required for the above equilibrium.
 
 >[!note]- Critical Point
 >The end point of the phase equilibrium curve between liquid and gas.
 >Beyond this point the *liquid and gas become indistinguishable* and forms a **super critical fluid**.
 
+<br>
+
+****
+
+### Phase Changing Process
