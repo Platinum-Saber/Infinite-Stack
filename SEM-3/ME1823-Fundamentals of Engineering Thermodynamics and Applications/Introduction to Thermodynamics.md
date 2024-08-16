@@ -1,5 +1,7 @@
 Related : #Thermo #Thermo/1 
 
+[Reference](file:///E:%5CAcademics%5CSEM%203%5CME1823-Fundamentals%20of%20Engineering%20Thermodynamics%20and%20Applications%5CLecture%20Video%5CLec%2001-%20Review%20of%20Ideal%20Gases%20%20Specific%20Heat%20Capacity.mp4)
+
 <br>
 
 ****

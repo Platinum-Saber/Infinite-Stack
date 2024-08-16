@@ -1,5 +1,6 @@
  Related : #Thermo #Thermo/4 #PureSubstance
-
+ 
+[Reference Lecture](file:///E:%5CAcademics%5CSEM%203%5CME1823-Fundamentals%20of%20Engineering%20Thermodynamics%20and%20Applications%5CLecture%20Video%5CLec%2006%20-%20Properties%20of%20Pure%20Substances-part%202.mp4)
 <br>
 
 ****
@@ -56,5 +57,6 @@ More info on [Phase Diagrams](https://www.youtube.com/watch?v=-5oq5CZlY8k).
 >Represents the unique temperature and pressure conditions required for the above equilibrium.
 
 >[!note]- Critical Point
+>The end point of the phase equilibrium curve between liquid and gas.
+>Beyond this point the *liquid and gas become indistinguishable* and forms a **super critical fluid**.
 
-[]()
