@@ -1,3 +1,6 @@
+Related : #ComputerArchitecture #CA #CA/01
+
+<br>
 
 # Computer Architecture
 

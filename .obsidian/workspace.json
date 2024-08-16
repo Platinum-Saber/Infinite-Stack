@@ -13,14 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Properties Of Pure Substances.md",
+                "file": "SEM-3/CS2033-Data Communication and Networking/Data Com. & Networking Introduction.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2ac07ee7a8d95fe7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SEM-3/CS3043-Database Systems/Database Systems Introduction.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -70,8 +84,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "b2aa869acde22062",
@@ -98,7 +111,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Properties Of Pure Substances.md"
+                "file": "SEM-3/CS3043-Database Systems/Database Systems Introduction.md"
               }
             }
           },
@@ -116,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Properties Of Pure Substances.md",
+                "file": "SEM-3/CS3043-Database Systems/Database Systems Introduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,19 +166,29 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "2e9eeffbdc99160d",
+  "active": "2ac07ee7a8d95fe7",
   "lastOpenFiles": [
+    "SEM-3/CS3043-Database Systems/Introduction to SQL.md",
+    "SEM-3/CS3043-Database Systems/Relational Database Design.md",
+    "SEM-3/CS3043-Database Systems/Database Systems Introduction.md",
+    "SEM-3/CS3043-Database Systems/Database Design Using the E-R Model.md",
+    "SEM-3/CS3043-Database Systems/Database systems.md",
+    "SEM-3/CS2053-Computer Architecture/Instruction Set Architecture-RV.md",
+    "SEM-3/CS2053-Computer Architecture/Computer Architecture Introduction.md",
+    "SEM-3/CS2033-Data Communication and Networking/Data Com. & Networking Introduction.md",
+    "SEM-3/CS2043-Operating Systems/OS Introduction.md",
+    "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Introduction to Thermodynamics.md",
+    "SEM-3/CS2033-Data Communication and Networking/Data Communication & Networking.md",
+    "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Properties Of Pure Substances.md",
     "Images/Pasted image 20240816150600.png",
     "Images/Pasted image 20240816145931.png",
     "Images/Pasted image 20240816145519.png",
-    "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Properties Of Pure Substances.md",
     "Images/Pasted image 20240816145814.png",
     "Images/Pasted image 20240816145740.png",
     "Images/Pasted image 20240816143154.png",
     "Images/Pasted image 20240816144807.png",
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/3. The Second Law of Thermodynamics.md",
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Energy Balance.md",
-    "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Introduction to Thermodynamics.md",
     "Lec 04 - Laws of Thermodynamics - Episode 1.mp4",
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/2. The First Law of Thermodynamics.md",
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/1. The Zeroth Law of Thermodynamics.md",
@@ -177,22 +200,12 @@
     "Images/Pasted image 20240816115628.png",
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/4. The Third Law of Thermodynamics.md",
     "Images/Pasted image 20240815232356.png",
-    "Images/Pasted image 20240815230421.png",
     "Untitled.md",
-    "SEM-3/CS2033-Data Communication and Networking/Data Communication & Networking.md",
-    "SEM-3/CS2033-Data Communication and Networking/Data Com. & Networking Introduction.md",
-    "SEM-3/CS2043-Operating Systems/OS Introduction.md",
     "SEM-3/CS2043-Operating Systems/Operating Systems.md",
     "SEM-3/CS2053-Computer Architecture/Computer Architecture.md",
-    "SEM-3/CS3043-Database Systems/Database Design Using the E-R Model.md",
-    "SEM-3/CS3043-Database Systems/Database systems.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Artificial Intelligence.md",
-    "SEM-3/CS3043-Database Systems/Introduction to SQL.md",
-    "SEM-3/CS3043-Database Systems/Database Systems Introduction.md",
     "SEM-3 INDEX.md",
-    "SEM-3/CS3043-Database Systems/Relational Database Design.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Uniform-cost Search.md",
-    "SEM-3/CS3613-Introduction to Artificial Intelligence/Solving Problems by Searching.md",
     "Work Space.canvas",
     "Images",
     "Untitled.canvas",

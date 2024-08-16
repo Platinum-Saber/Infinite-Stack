@@ -1,3 +1,6 @@
+
+Related : #DatabaseSystems #DB #DB/03 #SQL
+
 # History
 >[!note] Brief History of SQL
 >- IBM Sequel Language was developed as a  part of System R project at IBM San Jose Research Lab.

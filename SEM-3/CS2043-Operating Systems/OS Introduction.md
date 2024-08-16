@@ -1,3 +1,6 @@
+Related : #OperatingSystems #OS #OS/01
+
+<br>
 
 >[!example]- Components of a modern computer
 >- One or more processors
