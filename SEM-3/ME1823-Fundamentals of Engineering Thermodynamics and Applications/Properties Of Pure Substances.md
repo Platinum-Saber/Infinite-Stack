@@ -31,6 +31,9 @@
 <br>
 
 ### Phase Changing Diagram
+
+More info on Phase Diagrams []()
+
 >[!info]- Diagram
 >![[Pasted image 20240816120137.png]]
 
@@ -53,5 +56,5 @@
 >Represents the unique temperature and pressure conditions required for the above equilibrium.
 
 >[!note]- Critical Point
->
->
+
+[]()
