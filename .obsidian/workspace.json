@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "EE",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -153,8 +153,9 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "54cc69cb6e429c75",
+  "active": "2e9eeffbdc99160d",
   "lastOpenFiles": [
+    "Pasted image 20240816115628.png",
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/3. The Second Law of Thermodynamics.md",
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/4. The Third Law of Thermodynamics.md",
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Thermodynamics.md",
@@ -190,7 +191,6 @@
     "SEM-3/CS3043-Database Systems/Relational Database Design.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Uniform-cost Search.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Solving Problems by Searching.md",
-    "SEM-3/CS3613-Introduction to Artificial Intelligence/Breadth-first Search.md",
     "Work Space.canvas",
     "Images",
     "Untitled.canvas",
