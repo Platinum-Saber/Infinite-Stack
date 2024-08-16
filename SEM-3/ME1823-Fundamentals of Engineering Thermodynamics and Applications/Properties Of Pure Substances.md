@@ -32,7 +32,7 @@
 
 ### Phase Changing Diagram
 
-More info on Phase Diagrams []()
+More info on [Phase Diagrams](https://www.youtube.com/watch?v=-5oq5CZlY8k).
 
 >[!info]- Diagram
 >![[Pasted image 20240816120137.png]]
