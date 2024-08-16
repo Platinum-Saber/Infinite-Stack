@@ -66,12 +66,22 @@ More info on [Phase Diagrams](https://www.youtube.com/watch?v=-5oq5CZlY8k).
 ### Phase Changing Process
 <iframe width="560" height="315" src="https://www.youtube.com/embed/iZbnY0QWHe8?si=yU3-g5bnYq1FwG_I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
->[!info]- Vapor Dome diagram
-> ![[Pasted image 20240816144807.png]]
+>[!info]- T-V diagram
+> ![[Pasted image 20240816145740.png]]
+> ![[Pasted image 20240816145814.png]]
+
+
 
 >[!note]- Saturation Temperature
 > At a given pressure the temperature at which a pure substance changes phase.
 
 >[!note]- Saturation Pressure
 >At a given Temperature the pressure at which a pure substance changes phase.
+
+<br>
+
+>[!info]- P-V diagram
+>![[Pasted image 20240816145931.png]]
+
+
 
