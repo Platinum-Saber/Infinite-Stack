@@ -117,3 +117,14 @@ Related : #DatabaseSystems #DB #DB/03 #SQL
 <br>
 
 ## SELECT Clause
+- The `SELECT` clause list the attributes desired in the result of a query. (corresponds to the projection operation of the relational algebra)
+
+>[!info] SQL Query
+>```SQL
+>SELECT dept_name
+>FROM instructor
+>```
+>
+>>[!warning] SQL names are case **insensitive**.
+
+- To force the elimination of duplicates, insert the keyword `DISTINCT` after `SELECT`
