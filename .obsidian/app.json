@@ -1,5 +1,6 @@
 {
   "defaultViewMode": "source",
   "alwaysUpdateLinks": true,
-  "strictLineBreaks": false
+  "strictLineBreaks": false,
+  "attachmentFolderPath": "Images"
 }
