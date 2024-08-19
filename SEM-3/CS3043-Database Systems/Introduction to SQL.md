@@ -345,3 +345,23 @@ Related : #DatabaseSystems #DB #DB/03 #SQL
 > ```
 
 #### NULL Values
+- *All aggregate operations* **except** `COUNT(*)` *ignore tuples with* **null values** on the aggregated attributes.
+	- If all collections have null values then 
+		- `COUNT` returns `0`
+		- All other aggregates return `null`
+
+> [!info] SQL Query
+> ```SQL
+> SELECT SUM(salary)
+> FROM instructor
+> 
+> // statement ignores all the null values but the result becomes null if there are only null values in the salary column
+> ```
+
+<br>
+
+## Nested Subqueries
+- `subquery` is a **select-from-where** expression nested within another query.
+- 
+
+
