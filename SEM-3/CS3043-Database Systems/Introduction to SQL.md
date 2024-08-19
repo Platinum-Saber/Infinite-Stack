@@ -314,5 +314,14 @@ Related : #DatabaseSystems #DB #DB/03 #SQL
 > SELECT AVG(salary)
 > FROM instructor
 > WHERE dept_name = 'Comp. Sci.'
+> 
+> SELECT COUNT(DISTINCT ID)
+> FROM teaches 
+> WHERE semester = 'Spring' AND year = 2010
+> 
+> SELECT COUNT (*)
+> FROM course
 > ```
 
+#### GROUP BY Clause
+- Attributes in `SELECT` clause outside of the aggregate functions must appear in `GROUP BY` list.
