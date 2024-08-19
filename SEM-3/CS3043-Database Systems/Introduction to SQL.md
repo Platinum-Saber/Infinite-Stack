@@ -324,4 +324,24 @@ Related : #DatabaseSystems #DB #DB/03 #SQL
 > ```
 
 #### GROUP BY Clause
-- Attributes in `SELECT` clause outside of the aggregate functions must appear in `GROUP BY` list.
+- Attributes in `SELECT` clause *outside* of the **aggregate functions** *must appear in* `GROUP BY` list.
+
+> [!info] SQL Query
+> ```SQL
+> SELECT dept_name, AVG(salary)
+> FROM instruntor`
+> GROUP BY dept_name
+> ```
+
+#### HAVING Clause
+- Predicates in the `HAVING` clause are *applied* **after** *the formation of groups* where as predicates in the `WHERE` clause are *applied* **before** *forming groups*.
+
+> [!info] SQL Query
+> ```SQL
+> SELECT dept_name, AVG(salary)
+> FROM instructor
+> GROUP BY dept_name
+> HAVING AVG(salary) > 42000
+> ```
+
+#### NULL Values
