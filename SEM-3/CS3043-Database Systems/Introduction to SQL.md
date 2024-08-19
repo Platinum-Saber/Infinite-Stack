@@ -236,4 +236,20 @@ Related : #DatabaseSystems #DB #DB/03 #SQL
 >FROM instructor 
 >```
 
-- Keyword `AS` is optional & can be omited.
+- Keyword `AS` is **optional** & *can be omitted*.
+
+> [!info] SQL Query
+> ```SQL
+>SELECT ID, name, salary/12 monthly_salary
+>FROM instructor 
+>```
+
+<br>
+
+## Ordering The Results
+- List in alphabetic order.
+- **Ascending** order is the *default*.
+- Can specify descending order using `DESC` and ascending order using `ASC` for each attribute.
+
+> [!info] SQL Query
+> 
