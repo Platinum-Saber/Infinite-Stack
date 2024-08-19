@@ -3,6 +3,11 @@ Related : #DatabaseSystems #DB #DB/03 #SQL
 
 <br>
 
+Content
+1. [[#History]]
+2. [[#SQL]]
+	1. [[#]]
+
 ****
 # History
 >[!note] Brief History of SQL
@@ -362,6 +367,28 @@ Related : #DatabaseSystems #DB #DB/03 #SQL
 
 ## Nested Subqueries
 - `subquery` is a **select-from-where** expression nested within another query.
-- 
+- common uses of **subqueries** is to perform tests for *set membership*, *set comparison*, and *set cardinality*.
+
+> [!info] SQL Query
+> ```SQL
+> // Find courses offered in Fall 2009 and in Spring 2010
+> 
+> SELECT DISTINCT course_id
+> FROM section
+> WHERE semester = 'Fall' AND year = 2009 AND
+> 		course_id IN (SELECT course_id
+> 						FROM section
+> 						WHERE semester = 'Spring' AND year = 2010)
+> 						
+> 						
+>// Find courses offered in Fall 2009 but not in Spring 2010
+>
+> SELECT DISTINCT course_id
+> FROM section
+> WHERE semester = 'Fall' AND year = 2009 AND
+> 		course_id NOT IN (SELECT course_id
+> 						FROM section
+> 						WHERE semester = 'Spring' AND year = 2010)
+> ```
 
 
