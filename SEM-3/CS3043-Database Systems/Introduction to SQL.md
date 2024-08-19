@@ -165,7 +165,7 @@ Related : #DatabaseSystems #DB #DB/03 #SQL
 - Comparison *results can be combined* using the logical connectives **and, or, not**.
 - **Comparisons** can be applied to *results of arithmetic expressions.*
 
->[!note] SQL Query
+>[!info] SQL Query
 >```SQL
 >SELECT name
 >FROM instructor
@@ -178,5 +178,18 @@ Related : #DatabaseSystems #DB #DB/03 #SQL
 - `FROM` clause **lists the relations** involved in the query.
 	- Corresponds to the *cartesian product operation* of the relational algebra.
 
-> [!info]
-> 
+> [!info] SQL Query
+> ```SQL
+> SELECT *
+> FROM instructor, teaches
+> ```
+> Generates every possible **instructor - teaches pair**, *with all attributes from both relations*.
+
+<br>
+
+## JOINS 
+#### NATURAL JOIN
+- Lists the names of the i
+
+
+
