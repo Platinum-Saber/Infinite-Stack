@@ -12,6 +12,7 @@ Related : #DatabaseSystems #DB #DB/03 #SQL
 <br>
 <br>
 
+****
 # SQL
 >[!FAQ]- What is **SQL**
 >It's a **very high level** language used for **Data Definition** and **Data Manipulation**
@@ -249,7 +250,21 @@ Related : #DatabaseSystems #DB #DB/03 #SQL
 ## Ordering The Results
 - List in alphabetic order.
 - **Ascending** order is the *default*.
-- Can specify descending order using `DESC` and ascending order using `ASC` for each attribute.
+- Can *specify descending* order using `DESC` and *ascending* order using `ASC` for each attribute.
+- Can sort multiple attributes.
 
 > [!info] SQL Query
-> 
+> ```SQL
+> SELECT DISTINCT name
+> FROM instructor
+> ORDER BY name ASC
+>```
+
+<br>
+
+## String Operations
+
+- `LIKE` operator can be used for *string matching*.
+- *Patterns* are **case sensitive**.
+- SQL supports a variety of string operations such as,
+	- 
