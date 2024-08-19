@@ -189,8 +189,6 @@ Related : #DatabaseSystems #DB #DB/03 #SQL
 
 ## JOINS 
 #### NATURAL JOIN
-> [!warning] Dangers in **NATURAL JOIN**
-> Unrelated attributes with the same name can get equated incorrectly.
 
 > [!example] 
 > > [!info] Without `NATURAL JOIN`
@@ -205,6 +203,25 @@ Related : #DatabaseSystems #DB #DB/03 #SQL
 > > SELECT name, course_id
 > > FROM instructor NATURAL JOIN teaches
 > > ```
+
+> [!warning] Dangers in **NATURAL JOIN**
+> Unrelated attributes with the same name can get equated incorrectly.
+> > [!example] 
+> > > [!info] Incorrect version (`makes course.dept_name = instructor.dept_name`)
+> > > ```SQL
+> > > SELECT name, title
+> > > FROM instructor NATURAL JOIN teaches NATURAL JOIN course
+> > > ```
+> > 
+> > > [!info] Correct version 1,2
+> > > ```SQL
+> > > SELECT name, title
+> > > FROM instructor NATURAL JOIN teaches, course
+> > > WHERE teaches.course_id = course.course_id
+> > > 
+> > > SELECT name, title
+> > > FROM (instructor NATURAL JOIN teaches) JOIN course USING (course_id)
+> > > ```
 
 
 
