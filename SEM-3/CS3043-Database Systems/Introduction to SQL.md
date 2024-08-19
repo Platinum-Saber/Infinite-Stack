@@ -117,7 +117,7 @@ Related : #DatabaseSystems #DB #DB/03 #SQL
 <br>
 
 ## SELECT Clause
-- The `SELECT` clause list the attributes desired in the result of a query. (corresponds to the projection operation of the relational algebra)
+- The `SELECT` clause *list the attributes* desired in the result of a query. (corresponds to the projection operation of the relational algebra)
 
 >[!info] SQL Query
 >```SQL
@@ -127,4 +127,25 @@ Related : #DatabaseSystems #DB #DB/03 #SQL
 >
 >>[!warning] SQL names are case **insensitive**.
 
-- To force the elimination of duplicates, insert the keyword `DISTINCT` after `SELECT`
+<br>
+
+- To force the *elimination of duplicates*, insert the **keyword** `DISTINCT` after `SELECT`
+
+>[!info] SQL Query
+>```SQL
+>SELECT DISTINCT dept_name
+>FROM instructor
+>```
+
+<br>
+
+- An  asterisk ✳ in the `SELECT` clause denotes **All Attributes**
+
+>[!info] SQL Query
+>```SQL
+>SELECT * FROM instructor
+>```
+
+<br>
+
+- The `SELECT`
