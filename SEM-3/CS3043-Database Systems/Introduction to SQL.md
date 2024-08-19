@@ -1,6 +1,8 @@
 
 Related : #DatabaseSystems #DB #DB/03 #SQL
 
+[Reference video](https://www.youtube.com/watch?v=7S_tz1z_5bA)
+
 <br>
 
 # Content
@@ -218,7 +220,8 @@ Related : #DatabaseSystems #DB #DB/03 #SQL
 > WHERE (instructor.ID, dept_name) = (teaches.ID, 'Biology')
 > ```
 
-
+<br>
+<br>
 
 ## FROM Clause
 - `FROM` clause **lists the relations** involved in the query.
@@ -231,6 +234,7 @@ Related : #DatabaseSystems #DB #DB/03 #SQL
 > ```
 > Generates every possible **instructor - teaches pair**, *with all attributes from both relations*.
 
+<br>
 <br>
 
 ## JOINS 
@@ -272,6 +276,7 @@ Related : #DatabaseSystems #DB #DB/03 #SQL
 > > ```
 
 <br>
+<br>
 
 ## Rename Operation
 - SQL allows **renaming relations and attributes** using the `AS` clause.
@@ -291,6 +296,7 @@ Related : #DatabaseSystems #DB #DB/03 #SQL
 >```
 
 <br>
+<br>
 
 ## Ordering The Results
 - List in alphabetic order.
@@ -305,6 +311,7 @@ Related : #DatabaseSystems #DB #DB/03 #SQL
 > ORDER BY name ASC
 >```
 
+<br>
 <br>
 
 ## String Operations
@@ -324,7 +331,7 @@ Related : #DatabaseSystems #DB #DB/03 #SQL
 > WHERE name LIKE "%dar%"
 > ```
 
-<br>
+<br><br>
 ## Aggregate functions
 - Operates on the *multiset of values* of a **column** of a **relation**, and *return a value*.
 	- `AVG` : average value
@@ -347,6 +354,8 @@ Related : #DatabaseSystems #DB #DB/03 #SQL
 > FROM course
 > ```
 
+<br>
+
 #### GROUP BY Clause
 - Attributes in `SELECT` clause *outside* of the **aggregate functions** *must appear in* `GROUP BY` list.
 
@@ -356,6 +365,8 @@ Related : #DatabaseSystems #DB #DB/03 #SQL
 > FROM instruntor`
 > GROUP BY dept_name
 > ```
+
+<br>
 
 #### HAVING Clause
 - Predicates in the `HAVING` clause are *applied* **after** *the formation of groups* where as predicates in the `WHERE` clause are *applied* **before** *forming groups*.
@@ -367,6 +378,8 @@ Related : #DatabaseSystems #DB #DB/03 #SQL
 > GROUP BY dept_name
 > HAVING AVG(salary) > 42000
 > ```
+
+<br>
 
 #### NULL Values
 - *All aggregate operations* **except** `COUNT(*)` *ignore tuples with* **null values** on the aggregated attributes.
@@ -382,6 +395,7 @@ Related : #DatabaseSystems #DB #DB/03 #SQL
 > // statement ignores all the null values but the result becomes null if there are only null values in the salary column
 > ```
 
+<br>
 <br>
 
 ## Nested Subqueries
