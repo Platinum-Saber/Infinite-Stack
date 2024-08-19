@@ -267,4 +267,8 @@ Related : #DatabaseSystems #DB #DB/03 #SQL
 - `LIKE` operator can be used for *string matching*.
 - *Patterns* are **case sensitive**.
 - SQL supports a variety of string operations such as,
+	- concatenation using `||`
+	- match any substring using `%`
+	- match any character using `_`
+	- escape character for `%` or `_ `using `\`
 	- 
