@@ -4,6 +4,14 @@ Related : #Thermo #Thermo/3 #Thermo/3/energy
 
 <br>
 
+---
+# Content
+1. [[#Energy Balance for Closed Systems]]
+2. [[#Energy Balance for Open Systems]]
+	- [[#Steady State Flow Process]]
+
+<br>
+
 ****
 # Energy Balance for Closed Systems
 - There is **no** *mass transfer*
@@ -18,7 +26,6 @@ Related : #Thermo #Thermo/3 #Thermo/3/energy
 <br>
 <br>
 
-****
 # Energy Balance for Open Systems
 - Has both *mass transfer* & *Energy transfer*
 - **CV** : *Control Volume*

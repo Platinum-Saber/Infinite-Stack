@@ -4,6 +4,14 @@ Related : #Thermo #Thermo/1
 
 <br>
 
+---
+# Content
+1. [[#Ideal Gasses]]
+2. [[#Specific Heat Capacity]]
+3. [[#Specific Heat Capacity Relations for Ideal Gases]]
+
+<br>
+
 ****
 # Ideal Gasses
 <br>
