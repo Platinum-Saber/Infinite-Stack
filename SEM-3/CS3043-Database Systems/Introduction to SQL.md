@@ -301,3 +301,18 @@ Related : #DatabaseSystems #DB #DB/03 #SQL
 > ```
 
 <br>
+## Aggregate functions
+- Operates on the *multiset of values* of a **column** of a **relation**, and *return a value*.
+	- `AVG` : average value
+	- `MIN` : minimum value 
+	- `MAX` : maximum value
+	- `SUM` : sum of values
+	- `COUNT` : number of values
+
+> [!info] SQL Query
+> ```SQL
+> SELECT AVG(salary)
+> FROM instructor
+> WHERE dept_name = 'Comp. Sci.'
+> ```
+
