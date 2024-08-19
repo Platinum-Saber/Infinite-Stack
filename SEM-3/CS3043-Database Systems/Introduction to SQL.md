@@ -189,7 +189,22 @@ Related : #DatabaseSystems #DB #DB/03 #SQL
 
 ## JOINS 
 #### NATURAL JOIN
-- Lists the names of the i
+> [!warning] Dangers in **NATURAL JOIN**
+> Unrelated attributes with the same name can get equated incorrectly.
+
+> [!example] 
+> > [!info] Without `NATURAL JOIN`
+> > ```SQL
+> > SELECT name, course_id
+> > FROM instructor, teaches
+> > WHERE instructor.id = teaches.id
+> > ```
+> 
+> > [!info] With `NATURAL JOIN`
+> > ```SQL
+> > SELECT name, course_id
+> > FROM instructor NATURAL JOIN teaches
+> > ```
 
 
 
