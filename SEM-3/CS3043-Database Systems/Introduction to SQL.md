@@ -177,6 +177,27 @@ Related : #DatabaseSystems #DB #DB/03 #SQL
 
 <br>
 
+#### WHERE Clause Predicates
+- `BETWEEN` comparison operator
+
+> [!info] SQL Query
+> ```SQL
+> SELECT name
+> FROM instructor
+> WHERE salary BETWEEN 90000 AND 100000
+> ```
+
+- Tuple comparison
+
+> [!info] SQL Query
+> ```SQL
+> SELECT name
+> FROM instructor
+> WHERE (instructor.ID, dept_name) = (teaches.ID, 'Biology')
+> ```
+
+
+
 ## FROM Clause
 - `FROM` clause **lists the relations** involved in the query.
 	- Corresponds to the *cartesian product operation* of the relational algebra.
@@ -270,5 +291,13 @@ Related : #DatabaseSystems #DB #DB/03 #SQL
 	- concatenation using `||`
 	- match any substring using `%`
 	- match any character using `_`
-	- escape character for `%` or `_ `using `\`
-	- 
+	- escape character for `%` or `_`using `\`
+
+> [!info] SQL Query
+> ```SQL
+> SELECT name 
+> FROM instructor
+> WHERE name LIKE "%dar%"
+> ```
+
+<br>
