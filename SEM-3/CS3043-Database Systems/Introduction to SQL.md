@@ -3,10 +3,26 @@ Related : #DatabaseSystems #DB #DB/03 #SQL
 
 <br>
 
-Content
+# Content
+
 1. [[#History]]
 2. [[#SQL]]
-	1. [[#]]
+	- [[#CREATE TABLE Construct]]
+	- [[#DROP and ALTER TABLE Constructs]]
+	- [[#Basic Query Structure]]
+	- [[#SELECT Clause]]
+	- [[#WHERE Clause]]
+	- [[#FROM Clause]]
+	- [[#JOINS]]
+	- [[#Rename Operation]]
+	- [[#Ordering The Results]]
+	- [[#String Operations]]
+	- [[#GROUP BY Clause]]
+	- [[#HAVING Clause]]
+	- [[#NULL Values]]
+	- [[#Nested Subqueries]]
+
+<br>
 
 ****
 # History
@@ -123,6 +139,7 @@ Content
 >**Result of a query is another relation**
 
 <br>
+<br>
 
 ## SELECT Clause
 - The `SELECT` clause *list the attributes* desired in the result of a query. (corresponds to the projection operation of the relational algebra)
@@ -233,24 +250,26 @@ Content
 > > FROM instructor NATURAL JOIN teaches
 > > ```
 
+<br>
+
 > [!warning] Dangers in **NATURAL JOIN**
-> Unrelated attributes with the same name can get equated incorrectly.
-> > [!example] 
-> > > [!info] Incorrect version (`makes course.dept_name = instructor.dept_name`)
-> > > ```SQL
-> > > SELECT name, title
-> > > FROM instructor NATURAL JOIN teaches NATURAL JOIN course
-> > > ```
+> *Unrelated attributes* with the **same name** can get *equated incorrectly*.
+> 
+> > [!info] Incorrect version (`makes course.dept_name = instructor.dept_name`)
+> > ```SQL
+> > SELECT name, title
+> > FROM instructor NATURAL JOIN teaches NATURAL JOIN course
+> > ```
+>  
+> > [!info] Correct version 1,2
+> > ```SQL
+> > SELECT name, title
+> > FROM instructor NATURAL JOIN teaches, course
+> > WHERE teaches.course_id = course.course_id
 > > 
-> > > [!info] Correct version 1,2
-> > > ```SQL
-> > > SELECT name, title
-> > > FROM instructor NATURAL JOIN teaches, course
-> > > WHERE teaches.course_id = course.course_id
-> > > 
-> > > SELECT name, title
-> > > FROM (instructor NATURAL JOIN teaches) JOIN course USING (course_id)
-> > > ```
+> > SELECT name, title
+> > FROM (instructor NATURAL JOIN teaches) JOIN course USING (course_id)
+> > ```
 
 <br>
 
