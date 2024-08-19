@@ -139,7 +139,7 @@ Related : #DatabaseSystems #DB #DB/03 #SQL
 
 <br>
 
-- An  asterisk ✳ in the `SELECT` clause denotes **All Attributes**
+- An  *asterisk* ✳ in the `SELECT` clause denotes **All Attributes**
 
 >[!info] SQL Query
 >```SQL
@@ -148,4 +148,15 @@ Related : #DatabaseSystems #DB #DB/03 #SQL
 
 <br>
 
-- The `SELECT`
+- The `SELECT` clause can contain *arithmetic expressions* involving the operators **+, -,  /,** and operating on **constants or attributes of tuples.**
+
+>[!info] SQL Query
+>```SQL
+>SELECT ID, name, salary/12
+>FROM instructor
+>```
+
+<br>
+<br>
+
+## WHERE C
