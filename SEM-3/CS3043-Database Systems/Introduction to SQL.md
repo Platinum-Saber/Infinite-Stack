@@ -160,14 +160,23 @@ Related : #DatabaseSystems #DB #DB/03 #SQL
 <br>
 
 ## WHERE Clause
-- `WHERE` clause specifies the condition that the results must satisfy.
-	- corresponds to the selection predicate of the relational algebra.
-- Comparison results can be combined using the logical connectives **and, or, not**.
-- Comparisons can be applied to results of arithmetic expressions.
+- `WHERE` clause specifies the **condition** that the *results must satisfy*.
+	- corresponds to the **selection predicate** of the relational algebra.
+- Comparison *results can be combined* using the logical connectives **and, or, not**.
+- **Comparisons** can be applied to *results of arithmetic expressions.*
 
 >[!note] SQL Query
 >```SQL
 >SELECT name
 >FROM instructor
->WHERE dept_name = 
+>WHERE dept_name = 'Comp. Sci.' AND salary > 80000
 >```
+
+<br>
+
+## FROM Clause
+- `FROM` clause **lists the relations** involved in the query.
+	- Corresponds to the *cartesian product operation* of the relational algebra.
+
+> [!info]
+> 

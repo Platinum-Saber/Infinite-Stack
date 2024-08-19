@@ -1,7 +1,15 @@
 {
   "callouts": {
     "custom": [],
-    "settings": {}
+    "settings": {
+      "info": [
+        {
+          "changes": {
+            "color": "82, 139, 212"
+          }
+        }
+      ]
+    }
   },
   "calloutDetection": {
     "obsidian": true,
