@@ -1,6 +1,9 @@
 
 Related : #DatabaseSystems #DB #DB/03 #SQL
 
+<br>
+
+****
 # History
 >[!note] Brief History of SQL
 >- IBM Sequel Language was developed as a  part of System R project at IBM San Jose Research Lab.
@@ -79,7 +82,6 @@ Related : #DatabaseSystems #DB #DB/03 #SQL
 ## DROP and ALTER TABLE Constructs
 
 <br>
-
 
 **DROP TABLE (table_name)** ::  Deletes the table and its content
 
@@ -223,5 +225,15 @@ Related : #DatabaseSystems #DB #DB/03 #SQL
 > > > FROM (instructor NATURAL JOIN teaches) JOIN course USING (course_id)
 > > > ```
 
+<br>
 
+## Rename Operation
+- SQL allows **renaming relations and attributes** using the `AS` clause.
 
+> [!info] SQL Query
+> ```SQL
+>SELECT ID, name, salary/12 AS monthly_salary
+>FROM instructor 
+>```
+
+- Keyword `AS` is optional & can be omited.
