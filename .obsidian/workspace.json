@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Properties Of Pure Substances.md",
-                "mode": "preview",
+                "file": "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/1. The Zeroth Law of Thermodynamics.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -32,8 +32,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "455bc806d570f4cf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SEM-3/CS2043-Operating Systems/OS Introduction.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -110,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Properties Of Pure Substances.md"
+                "file": "SEM-3/CS2043-Operating Systems/OS Introduction.md"
               }
             }
           },
@@ -128,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Properties Of Pure Substances.md",
+                "file": "SEM-3/CS2043-Operating Systems/OS Introduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,14 +179,15 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "0cec004f21c46d74",
+  "active": "455bc806d570f4cf",
   "lastOpenFiles": [
-    "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/2. The First Law of Thermodynamics.md",
-    "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/1. The Zeroth Law of Thermodynamics.md",
-    "SEM-3/CS3043-Database Systems/Intermediate SQL.md",
-    "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Properties Of Pure Substances.md",
-    "SRS.md",
     "SEM-3/CS3043-Database Systems/Introduction to SQL.md",
+    "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/1. The Zeroth Law of Thermodynamics.md",
+    "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Properties Of Pure Substances.md",
+    "SEM-3/CS2043-Operating Systems/OS Introduction.md",
+    "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/2. The First Law of Thermodynamics.md",
+    "SEM-3/CS3043-Database Systems/Intermediate SQL.md",
+    "SRS.md",
     "Images/Pasted image 20240820113127.png",
     "Images/Pasted image 20240820112332.png",
     "Images/Pasted image 20240820112041.png",
@@ -200,7 +215,6 @@
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Artificial Intelligence.md",
     "SEM-3/CS2053-Computer Architecture/Computer Architecture Introduction.md",
     "SEM-3/CS2053-Computer Architecture/Instruction Set Architecture-RV.md",
-    "SEM-3/MA3014-Applied Statistics/Applied Statistics.md",
     "Images/Pasted image 20240816150600.png",
     "Images/Pasted image 20240816145931.png",
     "Lec 04 - Laws of Thermodynamics - Episode 1.mp4",

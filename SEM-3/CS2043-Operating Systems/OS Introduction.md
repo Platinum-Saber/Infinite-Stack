@@ -1,5 +1,7 @@
 Related : #OperatingSystems #OS #OS/01
 
+[Reference Lecture]("E:\Academics\SEM 3\CS2043-Operating Systems\Lecture Video\lecture 1.mp4")
+
 <br>
 
 >[!example]- Components of a modern computer
