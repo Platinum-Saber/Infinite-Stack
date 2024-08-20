@@ -118,4 +118,12 @@
 > 
 
 # Views
-- Provides a mechanism to **hide** *certain data* from the view of certain users.
+- Provides a mechanism to **hide** *certain data* from the *view of certain users*.
+- Abstract / conceptual model created on top of the actual database.
+
+## VIEW Definition
+> [!note] Definition
+> - Defined using the `CREATE VIEW` statement which has the form below,
+> ```SQL
+> CREATE VIEW v AS <query expression
+> ```
