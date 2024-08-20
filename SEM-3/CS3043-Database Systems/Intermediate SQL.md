@@ -19,3 +19,24 @@
 - Returns **all the rows from the left table** with matching rows from the right table.
 - If there is **no match** *in the right table* those values will be **null**.
 - ![[Pasted image 20240820105725.png]]
+
+> [!info] SQL Query
+> > [!info]- INPUT
+> > ![[Pasted image 20240820110725.png]]
+> 
+> 
+> > [!info]
+> > ```SQL
+> > SELECT *
+> > FROM course LEFT OUTER JOIN prereq
+> > ON course.course_id = prereq.course_id
+> > 
+> > //Different method
+> > SELECT *
+> > FROM course LEFT OUTER JOIN prereq
+> > USING (course_id)
+> > ```
+> > [!info]- OUTPUT
+> > ![[Pasted image 20240820110759.png]]
+
+
