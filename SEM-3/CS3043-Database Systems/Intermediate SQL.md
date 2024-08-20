@@ -96,6 +96,7 @@
 
 ## INNER JOIN
 - Returns the rows when there is a **match in both tables.**
+- ![[Pasted image 20240820113127.png]]
 
 
 > [!example] 
@@ -108,11 +109,13 @@
 > > SELECT *
 > > FROM course INNER JOIN prereq
 > > ON course.course_id = prereq.course_id
-> > -
+> > 
 > > //method 2
 > > SELECT *
-> > FROM course I
-> > 
+> > FROM course INNER JOIN prereq
+> > USING (course_id)
 > > ```
 > 
-> 
+
+# Views
+- Provides a mechanism to **hide** *certain data* from the view of certain users.

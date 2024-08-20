@@ -19,6 +19,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "eb273e9d1643ef03",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SEM-3/CS3043-Database Systems/Introduction to SQL.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ]
       }
@@ -49,7 +62,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#SQL  ",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -155,6 +168,9 @@
   },
   "active": "0cec004f21c46d74",
   "lastOpenFiles": [
+    "SEM-3/CS3043-Database Systems/Introduction to SQL.md",
+    "SEM-3/CS3043-Database Systems/Intermediate SQL.md",
+    "Images/Pasted image 20240820113127.png",
     "Images/Pasted image 20240820112332.png",
     "Images/Pasted image 20240820112041.png",
     "Images/Pasted image 20240820111951.png",
@@ -163,8 +179,6 @@
     "Images/Pasted image 20240820110725.png",
     "Images/Pasted image 20240820105725.png",
     "SEM-3/CS3043-Database Systems/Database systems.md",
-    "SEM-3/CS3043-Database Systems/Intermediate SQL.md",
-    "SEM-3/CS3043-Database Systems/Introduction to SQL.md",
     "SEM-3/CS3043-Database Systems/Relational Database Design.md",
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Properties Of Pure Substances.md",
     "SEM-3/MA2014-Differential Equations/Differential Equations.md",
@@ -189,8 +203,6 @@
     "SEM-3/MA3014-Applied Statistics/Applied Statistics.md",
     "Images/Pasted image 20240816150600.png",
     "Images/Pasted image 20240816145931.png",
-    "Images/Pasted image 20240816145519.png",
-    "Images/Pasted image 20240816145814.png",
     "Lec 04 - Laws of Thermodynamics - Episode 1.mp4",
     "Lec 02 - Basic Concepts of Thermodynamics.mp4",
     "Work Space.canvas",
