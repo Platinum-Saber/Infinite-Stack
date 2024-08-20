@@ -122,6 +122,10 @@
 - Abstract / conceptual model created on top of the actual database.
 
 ## VIEW Definition
+- Once a view is defined the **view** can be used to *refer to the virtual relation* that the view generates.
+-  View definition is **not the same** *as creating a new relation* by evaluating the query expression.
+- The view definition causes the **saving of an expression**. The **expression** *is substituted into queries* **using the view**.
+
 > [!note] Definition
 > - Defined using the `CREATE VIEW` statement which has the form below,
 > ```SQL
@@ -145,7 +149,10 @@
 > > GROUP BY dept_name
 > > ```
 
+<br>
 
+## View Dependencies
+- One view may be used in the expression defining another view.
 
 
 
