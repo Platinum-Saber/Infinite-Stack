@@ -6,7 +6,17 @@ Related : #OperatingSystems #OS #OS/01
 
 ---
 # Content
-1. [[#]]
+1. [[#Computer System Structure]]
+	- [[#I/O Structure]]
+	- [[#Storage Structure]]
+		- [[#Storage Hierarchy]]
+		- [[#Direct Memory Access Structure]]
+	- [[#Operating System Operations]]
+
+<br>
+
+---
+
 
 >[!example]- Components of a modern computer
 >- One or more processors
@@ -25,6 +35,8 @@ Related : #OperatingSystems #OS #OS/01
 >A program that acts as an intermediary between a user and the computer hardware.
 >
 >![[Pasted image 20240717104857.png]]
+
+<br>
 
 # Computer System Structure
 
@@ -69,6 +81,8 @@ Related : #OperatingSystems #OS #OS/01
 >- Determines which type of interrupt has occurred
 >- Separate segments of code determine what action should be taken for each type of interrupt
 
+<br>
+
 ## I/O Structure
 >[!info]- Interrupt drive I/O Cycle
 >![[Pasted image 20240717134458.png]]
@@ -83,6 +97,9 @@ Related : #OperatingSystems #OS #OS/01
 >>- `system call` - request to the OS to allow user to wait for I/O completion
 >>- `Device status table` contains entry for each I/O device indicating its type, address and state
 >>- OS indexes into I/O device table to determine device status and to modify table entry to include interrupt
+
+<br>
+<br>
 
 ## Storage Structure
 > [!note]- Main Memory :FasNoteSticky:
@@ -100,6 +117,8 @@ Related : #OperatingSystems #OS #OS/01
 >
 >>###### :RiHardDrive3Line: Non volatile Memory (NVM) devices
 >>- Faster than hard disks
+
+<br>
 
 ### Storage Hierarchy
 >[!info] **Caching**  :  copying information into faster storage system; main memory can be viewed as a cache for secondary storage
@@ -120,4 +139,13 @@ Related : #OperatingSystems #OS #OS/01
 - **Device controller** transfers blocks of data *from buffer storage directly to main memory* **without CPU intervention**.
 - Only **one interrupt** is generated *per block* , *rather than the one interrupt* **per byte**.
 
+<br>
+<br>
+
 ## Operating System Operations
+- **Bootstrap program** :  Simple code to initialize the system. Loads the `kernel`
+- Kernel loads
+- Starts [[#System Daemons]] (services provided outside of the kernel)
+- Kernel interrupt driven hardware and software
+	- Hardware interrupt by one of the devices.
+	- Software interrupt ()
