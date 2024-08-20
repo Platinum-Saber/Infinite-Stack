@@ -20,12 +20,12 @@
 - If there is **no match** *in the right table* those values will be **null**.
 - ![[Pasted image 20240820105725.png]]
 
-> [!info] SQL Query
+> [!example] 
 > > [!info]- INPUT
 > > ![[Pasted image 20240820110725.png]]
 > 
 > 
-> > [!info]
+> > [!info] SQL Query
 > > ```SQL
 > > SELECT *
 > > FROM course LEFT OUTER JOIN prereq
@@ -36,7 +36,36 @@
 > > FROM course LEFT OUTER JOIN prereq
 > > USING (course_id)
 > > ```
+> 
+> 
 > > [!info]- OUTPUT
 > > ![[Pasted image 20240820110759.png]]
 
+<br>
+
+#### RIGHT OUTER JOIN
+- Returns **all the rows from the right table** with matching rows from the left table.
+- If there is **no match** *in the left table* those values will be **null**.
+- ![[Pasted image 20240820111728.png|600x300]]
+
+> [!example] 
+> > [!info]- INPUT
+> > ![[Pasted image 20240820110725.png]]
+> 
+> 
+> > [!info] SQL Query
+> > ```SQL
+> > SELECT *
+> > FROM course RIGHT OUTER JOIN prereq
+> > ON course.course_id = prereq.course_id
+> > 
+> > //Different method
+> > SELECT *
+> > FROM course RIGHT OUTER JOIN prereq
+> > USING (course_id)
+> > ```
+> 
+> 
+> > [!info]- OUTPUT
+> > ![[Pasted image 20240820111951.png]]
 
