@@ -148,4 +148,12 @@ Related : #OperatingSystems #OS #OS/01
 - Starts [[#System Daemons]] (services provided outside of the kernel)
 - Kernel interrupt driven hardware and software
 	- Hardware interrupt by one of the devices.
-	- Software interrupt ()
+	- Software interrupt ([[#Exception]] or [[#Trap]])
+
+
+
+
+
+
+
+#### System Daemons
