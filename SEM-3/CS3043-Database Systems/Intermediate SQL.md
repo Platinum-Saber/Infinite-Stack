@@ -17,4 +17,5 @@
 
 #### LEFT OUTER JOIN
 - Returns **all the rows from the left table** with matching rows from the right table.
-- If there is no match in the right
+- If there is **no match** *in the right table* those values will be **null**.
+- ![[Pasted image 20240820105725.png]]
