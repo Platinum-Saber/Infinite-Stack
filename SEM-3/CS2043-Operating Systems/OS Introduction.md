@@ -2,6 +2,7 @@ Related : #OperatingSystems #OS #OS/01
 
 [Reference Lecture](file:///E:%5CAcademics%5CSEM%203%5CCS2043-Operating%20Systems%5CLecture%20Video%5Clecture%201.mp4)
 
+[Operating Systems ]()
 <br>
 
 ---
@@ -149,8 +150,6 @@ Related : #OperatingSystems #OS #OS/01
 - Kernel interrupt driven hardware and software
 	- Hardware interrupt by one of the devices.
 	- Software interrupt ([[#Exception]] or [[#Trap]])
-
-
 
 
 
