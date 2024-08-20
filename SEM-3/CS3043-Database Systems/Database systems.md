@@ -3,4 +3,5 @@
 2. [[Database Design Using the E-R Model]]
 3. [[Introduction to SQL]]
 4. [[Relational Database Design]]
-5. 
+5. [[Intermediate SQL]]
+6. 

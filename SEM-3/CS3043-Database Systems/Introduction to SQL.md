@@ -425,4 +425,9 @@ Related : #DatabaseSystems #DB #DB/03 #SQL
 > 						WHERE semester = 'Spring' AND year = 2010)
 > ```
 
+<br>
+
+---
+Up Next : [[Intermediate SQL]]
+
 
