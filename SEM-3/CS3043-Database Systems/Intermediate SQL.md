@@ -157,14 +157,30 @@
 - A view relation $V_2$ is said to **depend directly** on a view relation $V_1$ , if  $V_1$  is *used in the expression defining* $V_2$ . ($V_1$ :luc_arrow_left: $V_2$) 
 
 > [!example] 
-> > [!info] 
+> > [!info] SQL Query
 > > ```SQL
 > > CREATE VIEW physics_fall_2009 AS
 > > SELECT course.course_id, sec_id, building, room_number
 > > FROM course, section
-> > WHERE course.course_id
+> > WHERE course.course_id = section.course_id
+> > 	AND course.dept_name = 'Physics'
+> > 	AND section.semester = 'Fall'
+> > 	AND section.year = '2009'
+> > 
+> > //dependent view
+> > CREATE VIEW physics_fall_2009_watson AS
+> > SELECT course_id, room_number
+> > FROM physics_fall_2009
+> > WHERE building = 'Watson'
 > > ```
 
+<br>
 
+## View Expansion
+- A way to define the meaning of views defined in terms of other views.
+- Let the view $v_1$ be defined by an expression $e_1$ that may itself contain uses of view relations.
+> [!note] Replacement step of view expansion 
+> ```
+```
 
 
