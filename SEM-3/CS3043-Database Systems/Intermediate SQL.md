@@ -125,5 +125,28 @@
 > [!note] Definition
 > - Defined using the `CREATE VIEW` statement which has the form below,
 > ```SQL
-> CREATE VIEW v AS <query expression
+> CREATE VIEW v AS  {query expression}
+> // v - name of the view
 > ```
+
+> [!example] 
+> > [!info] View of instructors without their salary
+> > ```SQL
+> > CREATE VIEW faculty AS
+> > SELECT ID, name, dept_name
+> > FROM instructor 
+> > ```
+> 
+> > [!info] Create a view of department salary totals
+> > ```SQL
+> > CREATE VIEW department_total_salary (dept_name, total_salary) AS
+> > SELECT dept_name, SUM(salary)
+> > FROM instructor
+> > GROUP BY dept_name
+> > ```
+
+
+
+
+
+
