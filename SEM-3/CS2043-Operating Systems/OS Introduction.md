@@ -1,9 +1,12 @@
 Related : #OperatingSystems #OS #OS/01
 
-[Reference Lecture]("E:\Academics\SEM 3\CS2043-Operating Systems\Lecture Video\lecture 1.mp4")
-
+[Reference Lecture](file:///E:%5CAcademics%5CSEM%203%5CCS2043-Operating%20Systems%5CLecture%20Video%5Clecture%201.mp4)
 
 <br>
+
+---
+# Content
+1. [[#]]
 
 >[!example]- Components of a modern computer
 >- One or more processors
@@ -117,3 +120,4 @@ Related : #OperatingSystems #OS #OS/01
 - **Device controller** transfers blocks of data *from buffer storage directly to main memory* **without CPU intervention**.
 - Only **one interrupt** is generated *per block* , *rather than the one interrupt* **per byte**.
 
+## Operating System Operations
