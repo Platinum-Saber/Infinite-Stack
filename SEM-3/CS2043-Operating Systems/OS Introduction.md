@@ -113,4 +113,7 @@ Related : #OperatingSystems #OS #OS/01
 <br>
 
 ### Direct Memory Access Structure
-- Used for 
+- Used for **high speed I/O devices** able to *transmit information at close to* **memory speeds**.
+- **Device controller** transfers blocks of data *from buffer storage directly to main memory* **without CPU intervention**.
+- Only **one interrupt** is generated *per block* , *rather than the one interrupt* **per byte**.
+
