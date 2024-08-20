@@ -79,8 +79,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -166,7 +165,7 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "54cc69cb6e429c75",
+  "active": "671fcfcc9244e77e",
   "lastOpenFiles": [
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Properties Of Pure Substances.md",
     "SRS.md",

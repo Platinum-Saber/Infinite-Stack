@@ -193,6 +193,6 @@
 <br>
 
 ## Updating a View
-- For a view to be updatable, there must be a 
+- For a view to be updatable, there must be a one-to-one relationship between the rows in the view and the rows in the underlying table
 
 
