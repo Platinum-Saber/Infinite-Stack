@@ -22,6 +22,14 @@
 - Has solid, liquid & gas states.
 - Substance may have several phases within a principal phase.
 	- Carbon : graphite or diamond in solid phase.
+- By calculating the Gibbs free energy the chemical Equilibrium of a reaction can be determine.
+
+> [!note] Chemical Potential
+> $\mu = G/N$
+> Where 
+> $\mu$ is Chemical potential
+> $G$ is Gibbs free energy
+> $N$ 
 
 >[!note]- Characteristics of Phases
 >- Solid
