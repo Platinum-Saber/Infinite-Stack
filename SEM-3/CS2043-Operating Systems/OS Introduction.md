@@ -2,7 +2,7 @@ Related : #OperatingSystems #OS #OS/01
 
 [Reference Lecture](file:///E:%5CAcademics%5CSEM%203%5CCS2043-Operating%20Systems%5CLecture%20Video%5Clecture%201.mp4)
 
-[Operating Systems ]()
+For more info : [Introduction to Operating Systems](https://www.youtube.com/watch?v=dOiA2nNJpc0)
 <br>
 
 ---
@@ -85,7 +85,7 @@ Related : #OperatingSystems #OS #OS/01
 <br>
 
 ## I/O Structure
->[!info]- Interrupt drive I/O Cycle
+>[!image]- Interrupt drive I/O Cycle
 >![[Pasted image 20240717134458.png]]
 
 >[!abstract]- Methods of handling I/O
