@@ -29,7 +29,10 @@
 > Where 
 > $\mu$ is Chemical potential
 > $G$ is Gibbs free energy
-> $N$ 
+> $N$ is number of molecules
+> > [!abstract] For 2 substances to be in equilibrium their chemical potentials should be equal.
+
+
 
 >[!note]- Characteristics of Phases
 >- Solid
