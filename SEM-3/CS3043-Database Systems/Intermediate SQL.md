@@ -39,7 +39,7 @@
 > 
 > 
 > > [!info]- OUTPUT
-> > ![[Pasted image 20240820110759.png]]
+> > ![[Pasted image 20240820112041.png]]
 
 <br>
 
@@ -69,3 +69,50 @@
 > > [!info]- OUTPUT
 > > ![[Pasted image 20240820111951.png]]
 
+<br>
+
+#### FULL OUTER JOIN
+- Returns **all the rows from the right table** and **all the rows from the left table**.
+- *Missing values* will be **null**.
+- ![[Pasted image 20240820112332.png]]
+> [!warning] Not supported in **MySQL**
+
+> [!example] 
+> > [!info]- INPUT
+> > ![[Pasted image 20240820110725.png]]
+> 
+> 
+> > [!info] SQL Query
+> > ```SQL
+> > SELECT *
+> > FROM course FULL OUTER JOIN prereq
+> > ON course.course_id = prereq.course_id
+> > 
+> > ```
+> 
+> 
+
+<br>
+
+## INNER JOIN
+- Returns the rows when there is a **match in both tables.**
+
+
+> [!example] 
+> > [!info]- INPUT
+> > ![[Pasted image 20240820110725.png]]
+> 
+> 
+> > [!info] SQL Query
+> > ```SQL
+> > SELECT *
+> > FROM course INNER JOIN prereq
+> > ON course.course_id = prereq.course_id
+> > -
+> > //method 2
+> > SELECT *
+> > FROM course I
+> > 
+> > ```
+> 
+> 
