@@ -179,8 +179,20 @@
 ## View Expansion
 - A way to define the meaning of views defined in terms of other views.
 - Let the view $v_1$ be defined by an expression $e_1$ that may itself contain uses of view relations.
+
 > [!note] Replacement step of view expansion 
+> ```pascal
+> repeat
+> 	Find any view relation v_i in e_1
+> 	Replace the view relation v_i by the expression defining v_i
+> until no more view relations are present in e_1
 > ```
-```
+
+- As long as the *view definitions* **aren't recursive**, this *loop will terminate*.
+
+<br>
+
+## Updating a View
+- For a view to be updatable, there must be a 
 
 
