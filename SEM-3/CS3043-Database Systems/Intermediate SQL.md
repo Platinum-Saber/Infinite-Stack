@@ -152,7 +152,18 @@
 <br>
 
 ## View Dependencies
-- One view may be used in the expression defining another view.
+- One **view** may be *used in the expression defining* **another view**.
+- A view is said to be **recursive** if it *depends on* **itself**. 
+- A view relation $V_2$ is said to **depend directly** on a view relation $V_1$ , if  $V_1$  is *used in the expression defining* $V_2$ . ($V_1$ :luc_arrow_left: $V_2$) 
+
+> [!example] 
+> > [!info] 
+> > ```SQL
+> > CREATE VIEW physics_fall_2009 AS
+> > SELECT course.course_id, sec_id, building, room_number
+> > FROM course, section
+> > WHERE course.course_id
+> > ```
 
 
 
