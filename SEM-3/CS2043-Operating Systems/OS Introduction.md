@@ -2,6 +2,7 @@ Related : #OperatingSystems #OS #OS/01
 
 [Reference Lecture]("E:\Academics\SEM 3\CS2043-Operating Systems\Lecture Video\lecture 1.mp4")
 
+
 <br>
 
 >[!example]- Components of a modern computer
@@ -103,6 +104,13 @@ Related : #OperatingSystems #OS #OS/01
 >[!info]- **Device Driver**  :  Manage I/O for each device controller
 >Provides uniform interface between controller and kernel
 
->[!info]- Storage Device Hierarchy
+>[!image]- Storage Device Hierarchy
 >![[Pasted image 20240717144728.png]]
 
+> [!image]- How a modern computer works
+> ![[Pasted image 20240820204106.png]]
+
+<br>
+
+### Direct Memory Access Structure
+- Used for 

@@ -1,11 +1,21 @@
 {
   "callouts": {
-    "custom": [],
+    "custom": [
+      "image"
+    ],
     "settings": {
       "info": [
         {
           "changes": {
             "color": "82, 139, 212"
+          }
+        }
+      ],
+      "image": [
+        {
+          "changes": {
+            "icon": "lucide-image",
+            "color": "208, 181, 48"
           }
         }
       ]
