@@ -274,3 +274,14 @@ Reference Notes : [Chapter 01](file:///E:%5CAcademics%5CSEM%203%5CCS2043-Operati
 > - Partitioning 
 > - Protection
 
+<br>
+
+## Caching
+
+▪ Information in use copied from *slower to faster storage* **temporarily**. 
+▪ Faster storage (cache) *checked first* to determine if information is there 
+• If it is, information used directly from the cache (fast) 
+• If not, data copied to cache and used there 
+▪ Cache smaller than storage being cached 
+• Cache management important design problem 
+• Cache size and replacement policy
