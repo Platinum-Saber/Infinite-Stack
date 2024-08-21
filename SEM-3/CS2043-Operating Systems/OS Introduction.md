@@ -232,12 +232,27 @@ Reference Notes : [Chapter 01](file:///E:%5CAcademics%5CSEM%203%5CCS2043-Operati
 <br>
 
 ## Memory Management
-- To execute a program all (or part) of the instructions must be in memory 
-- All (or part) of the data that is needed by the program must be in memory 
-- Memory management determines what is in memory and when 
-	- Optimizing CPU utilization and computer response to users 
-	- Memory management activities 
-• Keeping track of which parts of memory are currently being used and by whom 
-• Deciding which processes (or parts thereof) and data to move into and out of memory 
-• Allocating and deallocating memory space as needed
+- To execute a program all (or part) of the *instructions* **must be in memory** 
+- All (or part) of the *data* that is needed by the program **must be in memory** 
+- Memory management *determines what is in memory and when* 
+	- Optimizing CPU utilization and computer response to users.
 
+> [!tip] Memory management activities 
+> - Keeping track of which parts of memory are currently being used and by whom.
+> - Deciding which *processes* (or parts thereof) and *data* to **move into and out of memory**.
+> - **Allocating** and **deallocating** memory space as needed.
+
+<br>
+
+## File-System Management
+- OS provides uniform, logical view of information storage 
+	- • Abstracts physical properties to logical storage unit - file 
+	- • Each medium is controlled by device (i.e., disk drive, tape drive) 
+		-  Varying properties include access speed, capacity, datatransfer rate, access method (sequential or random) 
+- ▪ File-System management 
+	-  Files usually organized into directories 
+		-  Access control on most systems to determine who can access what 
+		-  OS activities include 
+			- :luc_arrow_big_right: Creating and deleting files and directories 
+			- :luc_arrow_big_right: Primitives to manipulate files and directories 
+			- :luc_arrow_big_right: Mapping files onto secondary storage  Backup files onto stable (non-volatile) storage media
