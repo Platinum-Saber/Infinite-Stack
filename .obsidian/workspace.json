@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "John F Kennedy Speech.md",
+                "file": "SEM-3/CS2953-Communication Skills/John F Kennedy Speech.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -52,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resignation Speech of George Washington.md",
+                "file": "SEM-3/CS2953-Communication Skills/Resignation Speech of George Washington.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -65,7 +65,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "The Gettysburg Address.md",
+                "file": "SEM-3/CS2043-Operating Systems/Synchronization Tools.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "The Gettysburg Address.md"
+                "file": "SEM-3/CS2043-Operating Systems/Synchronization Tools.md"
               }
             }
           },
@@ -168,7 +168,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "The Gettysburg Address.md",
+                "file": "SEM-3/CS2043-Operating Systems/Synchronization Tools.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -207,11 +207,14 @@
   },
   "active": "20844e8e44d376eb",
   "lastOpenFiles": [
-    "Resignation Speech of George Washington.md",
-    "The Gettysburg Address.md",
-    "John F Kennedy Speech.md",
-    "![[lecture.md",
+    "SEM-3/CS2043-Operating Systems/Operating Systems.md",
+    "SEM-3/CS2043-Operating Systems/Synchronization Tools.md",
     "SEM-3/CS2043-Operating Systems/OS Introduction.md",
+    "SEM-3/CS2953-Communication Skills/The Gettysburg Address.md",
+    "SEM-3/CS2953-Communication Skills",
+    "SEM-3/CS2953-Communication Skills/Resignation Speech of George Washington.md",
+    "SEM-3/CS2953-Communication Skills/John F Kennedy Speech.md",
+    "![[lecture.md",
     "Images/lecture 3.mp4",
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Properties Of Pure Substances.md",
     "Images/Pasted image 20240820204106.png",
@@ -242,8 +245,6 @@
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Laws of Thermodynamics.md",
     "SEM-3/CS2033-Data Communication and Networking/Data Com. & Networking Introduction.md",
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Thermodynamics.md",
-    "SEM-3/CS3613-Introduction to Artificial Intelligence/Solving Problems by Searching.md",
-    "SEM-3/CS3613-Introduction to Artificial Intelligence/Intelligent Agents.md",
     "Images/Pasted image 20240816150600.png",
     "Lec 04 - Laws of Thermodynamics - Episode 1.mp4",
     "Lec 02 - Basic Concepts of Thermodynamics.mp4",
@@ -253,7 +254,6 @@
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications",
     "SEM-3/MA3014-Applied Statistics",
     "SEM-3/MA2014-Differential Equations",
-    "SEM-3/CS3613-Introduction to Artificial Intelligence",
-    "SEM-3/CS3043-Database Systems"
+    "SEM-3/CS3613-Introduction to Artificial Intelligence"
   ]
 }

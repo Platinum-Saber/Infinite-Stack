@@ -6,6 +6,7 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "FasCommentDots",
       "SiHubspot",
       "FiFile",
       "FiHome",
@@ -14,8 +15,7 @@
       "SiLinux",
       "RiStackFill",
       "RaFire",
-      "LiLineChart",
-      "RiInfinityLine"
+      "LiLineChart"
     ],
     "recentlyUsedIconsSize": 10,
     "rules": [],
@@ -132,5 +132,7 @@
   "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Energy Balance.md": "FiFile",
   "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Laws of Thermodynamics.md": "FiFile",
   "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Properties Of Pure Substances.md": "FiFile",
-  "SEM-3/CS3043-Database Systems/Intermediate SQL.md": "FiFile"
+  "SEM-3/CS3043-Database Systems/Intermediate SQL.md": "FiFile",
+  "SEM-3/CS2953-Communication Skills": "FasCommentDots",
+  "SEM-3/CS2043-Operating Systems/Synchronization Tools.md": "FiFile"
 }
