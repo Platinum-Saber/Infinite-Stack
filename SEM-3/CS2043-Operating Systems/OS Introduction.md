@@ -345,3 +345,9 @@ Reference Notes : [Chapter 01](file:///E:%5CAcademics%5CSEM%203%5CCS2043-Operati
 <br>
 
 ## Distributed Systems
+- Collection of **separate**, possibly **heterogeneous**, systems networked together.
+- **Network** is a communications path
+	- Local Area Network (LAN)
+	- Wide Area Network (WAN)
+	- Metropolitan Area Network (MAN)
+	- Personal Area Network (PAN)
