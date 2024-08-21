@@ -23,6 +23,20 @@
       "file": [
         {
           "changes": {
+            "icon": "lucide-file-text"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "light"
+          },
+          "changes": {}
+        },
+        {
+          "condition": {
+            "colorScheme": "dark"
+          },
+          "changes": {
             "color": "68, 207, 110"
           }
         }

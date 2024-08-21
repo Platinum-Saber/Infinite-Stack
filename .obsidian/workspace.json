@@ -66,7 +66,7 @@
               "type": "markdown",
               "state": {
                 "file": "SEM-3/CS2043-Operating Systems/Synchronization Tools.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -207,11 +207,12 @@
   },
   "active": "20844e8e44d376eb",
   "lastOpenFiles": [
+    "Images/L06_mod.pdf",
     "Images/L06.pdf",
+    "SEM-3/CS2043-Operating Systems/Synchronization Tools.md",
     "Images/~$ch6.pptx",
     "Images/ch6.pptx",
     "SEM-3/CS2043-Operating Systems/Operating Systems.md",
-    "SEM-3/CS2043-Operating Systems/Synchronization Tools.md",
     "SEM-3/CS2043-Operating Systems/OS Introduction.md",
     "SEM-3/CS2953-Communication Skills/The Gettysburg Address.md",
     "SEM-3/CS2953-Communication Skills",
@@ -253,7 +254,6 @@
     "Work Space.canvas",
     "Images",
     "Untitled.canvas",
-    "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications",
-    "SEM-3/MA3014-Applied Statistics"
+    "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications"
   ]
 }

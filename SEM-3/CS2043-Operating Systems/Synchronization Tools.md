@@ -4,9 +4,9 @@ Reference Video :  [Lecture 05](file:///E:%5CAcademics%5CSEM%203%5CCS2043-Operat
 Reference Notes :  [chapter 06](file:///E:%5CAcademics%5CSEM%203%5CCS2043-Operating%20Systems%5CLecture%20note%5CNew%20notes%5Cch6.pptx) , [mutual exclusion-part 1](file:///E:%5CAcademics%5CSEM%203%5CCS2043-Operating%20Systems%5CLecture%20note%5CNew%20notes%5Cmutualexclusion-part%201.ppt)
 
 <br>
-> [!]
 
-![[L06.pdf]]
+> [!file]- Lecture Note : Chapter 06
+> ![[L06_mod.pdf]]
 
 ---
 # Content
