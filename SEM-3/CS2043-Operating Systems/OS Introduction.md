@@ -459,4 +459,17 @@ Reference Notes : [Chapter 01](file:///E:%5CAcademics%5CSEM%203%5CCS2043-Operati
 > [!summary] Characteristics
 > - Another model of **distributed system**
 > - P2P *does not distinguish* clients and servers.
-> - May each act as client, server or both
+> - Can act as client, server or both.
+> - Node must join P2P network.
+> 	- Registers its service with **central lookup service** on network,
+> 	- Broadcast request for service and respond to requests for service via **discovery protocol**
+> - *Examples* :- Napster and Gnutella, **Voice over IP** (VoIP) such as Skype
+
+> [!image]- Peer-to-Peer system diagram
+> ![[Pasted image 20240821182354.png]]
+
+<br>
+
+## Cloud Computing
+- Delivers *computing*, *storage*, even *apps* as a service across a network.
+- Logical extension of virtualization because it uses virtualization as the base for it functionality.
