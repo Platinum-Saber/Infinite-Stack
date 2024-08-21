@@ -211,9 +211,33 @@ Reference Notes : [Chapter 01](file:///E:%5CAcademics%5CSEM%203%5CCS2043-Operati
 
 ## Process Management
 
-- A process is a program in execution. (A unit of work within the system)
-- **Program** is a *Passive entity*.
-- **Process** is an *active entity*.
-- Process needs resources to accomplish its tasks. (CPU, memory, I/O, initialization data)
-- Single-threaded process has one program counter specifying location of next instruction to execute 
-- • Process executes instructions sequentially, one at a time, until completion ▪ Multi-threaded process has one program counter per thread ▪ Typically system has many processes, some user, some operating system running concurrently on one or more CPUs • Concurrency by multiplexing the CPUs among the processes / threads
+> [!NOTE]- Characteristics Of a Process
+> - A process is a program in execution. (A unit of work within the system)
+> - **Program** is a *Passive entity*.
+> - **Process** is an *active entity*.
+> - Process needs resources to accomplish its tasks. (CPU, memory, I/O, initialization data)
+> - **Single-threaded process** *has one program counter specifying location of next instruction to execute* 
+> 	- Process *executes instructions sequentially*, one at a time, until completion 
+> - **Multi-threaded process** *has one program counter per thread* 
+> - Typically system has many processes, some user, some operating system running *concurrently on one or more CPUs* 
+> 	- Concurrency by multiplexing the CPUs among the processes / threads
+
+> [!abstract] Process Management activities
+> - **Creating** and **deleting** both *user and system* processes 
+> -  **Suspending** and **resuming** processes 
+> - Providing mechanisms for process **synchronization** 
+> - Providing mechanisms for process **communication** 
+> - Providing mechanisms for **deadlock handling**
+
+<br>
+
+## Memory Management
+- To execute a program all (or part) of the instructions must be in memory 
+- All (or part) of the data that is needed by the program must be in memory 
+- Memory management determines what is in memory and when 
+	- Optimizing CPU utilization and computer response to users 
+	- Memory management activities 
+• Keeping track of which parts of memory are currently being used and by whom 
+• Deciding which processes (or parts thereof) and data to move into and out of memory 
+• Allocating and deallocating memory space as needed
+
