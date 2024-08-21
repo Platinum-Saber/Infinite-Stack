@@ -137,5 +137,8 @@
   "SEM-3/CS2043-Operating Systems/Synchronization Tools.md": "FiFile",
   "SEM-3/CS2043-Operating Systems/Operating System Services.md": "FiFile",
   "SEM-3/CS2043-Operating Systems/System Daemons.md": "FarNoteSticky",
-  "SRS.md": "SiProtondb"
+  "SRS.md": {
+    "iconName": "SiProtondb",
+    "iconColor": "#c13ebc"
+  }
 }
