@@ -182,9 +182,25 @@ Reference Notes : [Chapter 01](file:///E:%5CAcademics%5CSEM%203%5CCS2043-Operati
 
 
 ## Dual-mode Operation
-▪ Dual-mode operation allows OS to protect itself and other system components 
-- User mode and kernel mode 
--  Mode bit provided by hardware 
--  Provides ability to distinguish when system is running user code or kernel code. 
--  When a user is running  mode bit is “user” 
--  When kernel code is executing  mode bit is “kernel
+- Dual-mode operation allows OS to *protect itself and other system components* 
+	- **User mode** and **kernel mode** 
+
+- **Mode bit** *provided by hardware* 
+	-  Provides ability to distinguish when system is running user code or kernel code. 
+	-  When a user is running :luc_arrow_big_right: *mode bit is* `user`
+	-  When kernel code is executing :luc_arrow_big_right: *mode bit is* `kernel`.
+
+> [!info] **System call** changes mode to `kernel`, return from call resets it to `user`.
+
+> [!image]- Transition from User to Kernel Mode
+> ![[Pasted image 20240821151441.png]]
+
+> [!warning] Instructions designated as **privileged** are only executable in `kernel` mode.
+
+<br>
+
+## Timer
+▪ Timer to prevent infinite loop (or process hogging resources) 
+- Timer is set to interrupt the computer after some time period 
+-  Keep a counter that is decremented by the physical clock 
+-  Operating system set the counter (privileged instruction) • When counter zero generate an interrupt • Set up before scheduling process to regain control or terminate program that exceeds allotted time
