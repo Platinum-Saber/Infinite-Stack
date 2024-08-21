@@ -150,12 +150,18 @@ Reference Notes : [Chapter 01](file:///E:%5CAcademics%5CSEM%203%5CCS2043-Operati
 - **Bootstrap program** :  Simple code to initialize the system. Loads the `kernel`
 - Kernel loads
 - Starts [[System Daemons]] (services provided outside of the kernel)
-- Kernel interrupt driven hardware and software
+- Kernel *interrupt driven* hardware and software
 	- Hardware interrupt by one of the devices.
-	- Software interrupt ([[#Exception]] or [[#Trap]])
+	- Software interrupt (Exception or Trap)
 
+<br>
 
-
+## Multiprogramming (Batch System)
+- Single user cannot always keep CPU and I/O devices busy 
+-  Multiprogramming *organizes jobs* (code and data) so CPU always has one to execute 
+-  A subset of total jobs in system is kept in memory 
+-  One job selected and run via job scheduling 
+-  When job has to wait (for I/O for example), OS switches to another job
 
 
 

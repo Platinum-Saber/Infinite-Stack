@@ -2,6 +2,12 @@ Related : #OS #Daemons
 
 ---
 # Content
+1. [[#Characteristics of System daemons]]
+2. [[#Examples of System Daemons]]
+3. [[#How Daemons Work]]
+4. [[#Managing Daemons]]
+
+<br>
 
 # System Daemons
 > [!faq]- What are system daemons
@@ -32,29 +38,29 @@ Related : #OS #Daemons
 
 ## Examples of System Daemons
 
-> [!NOTE] Daemons
-> - **cron**:
+> [!abstract] Daemons
+> 1. **cron**:
 >     
 >     - Manages scheduled tasks in Unix-like operating systems. It allows users and system administrators to run scripts or programs at specified times.
-> - **sshd**:
+> 2. **sshd**:
 >     
 >     - The SSH daemon handles Secure Shell (SSH) connections, allowing secure remote access to the system.
-> - **httpd**:
+> 3. **httpd**:
 >     
 >     - The Apache HTTP Server daemon handles web server requests, serving web pages to users.
-> - **systemd**:
+> 4. **systemd**:
 >     
 >     - A modern system and service manager for Linux, responsible for initializing and managing system daemons during boot and shutdown.
-> - **init**:
+> 5. **init**:
 >     
 >     - The traditional system and service manager on Unix-like systems, responsible for starting system processes during boot.
-> - **mysqld**:
+> 6. **mysqld**:
 >     
 >     - The MySQL daemon, responsible for managing MySQL database services.
-> - **cupsd**:
+> 7. **cupsd**:
 >     
 >     - Manages print jobs in Unix-like systems, part of the Common UNIX Printing System (CUPS).
-> - **rsyslogd**:
+> 8. **rsyslogd**:
 >     
 >     - Handles system logging, recording system events and messages to log files.
 
@@ -62,26 +68,26 @@ Related : #OS #Daemons
 When a daemon starts, it usually **detaches itself from the terminal** and *runs in the background*. This involves several steps:
 
 1. **Forking**:
-    
-    - The daemon process typically "forks" itself, meaning it creates a copy of itself. The parent process may then terminate, leaving the child process to run as the daemon.
-2. **Detaching from Terminal**:
-    
-    - The daemon disconnects from the terminal (or controlling terminal) to ensure it continues running independently, even if the user logs out.
-3. **Running in the Background**:
-    
-    - The daemon continues to run in the background, performing its designated tasks. It waits for specific events or conditions to occur, such as a scheduled time or an incoming network request.
+    - The daemon process typically **"forks" itself**, meaning it *creates a copy of itself*. The parent process may then terminate, leaving the child process to run as the daemon.
+
+1. **Detaching from Terminal**:
+    - The daemon **disconnects from the terminal** (or controlling terminal) to *ensure it continues running independently*, even if the user logs out.
+
+1. **Running in the Background**:
+    - The daemon *continues to run in the background*, performing its designated tasks. It *waits for specific events or conditions to occur*, such as a scheduled time or an incoming network request.
 
 <br>
 
 ## Managing Daemons
 
-On Unix-like systems, you can manage daemons using service management tools like `systemd`, `init`, or `service` commands. These tools allow you to start, stop, restart, or check the status of daemons.
+On Unix-like systems, you can manage daemons using service management tools like `systemd`, `init`, or `service` commands. These tools allow you to *start, stop, restart, or check the status of daemons*.
 
 - **systemctl** (for systemd-based systems):
     
     - `systemctl start <daemon_name>`
     - `systemctl stop <daemon_name>`
     - `systemctl status <daemon_name>`
+
 - **service** (older systems):
     
     - `service <daemon_name> start`
