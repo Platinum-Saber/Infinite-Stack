@@ -364,3 +364,29 @@ Reference Notes : [Chapter 01](file:///E:%5CAcademics%5CSEM%203%5CCS2043-Operati
 > 	1. *Increased throughput*
 > 	2. *Economy of scale*
 > 	3. *Increased reliability* (graceful degradation or fault tolerance)
+> > [!example] Types
+> > 1. **Asymmetric Multiprocessing** – each processor is assigned a specie task.
+> > 2. **Symmetric Multiprocessing** – each processor performs all tasks
+
+<br>
+
+## Symmetric Multiprocessing Architecture
+> [!image]- Symmetric Multiprocessing Architecture
+> ![[Pasted image 20240821174846.png]]
+
+### Dual-Core Design
+- Multi-chip and multicore.
+- Systems containing all chips.
+- Chassis containing multiple separate systems
+
+> [!image]- Dual-Core design
+> ![[Pasted image 20240821175406.png]]
+
+<br>
+
+## Non-Uniform Memory Access System
+> [!image]- Non-uniform memory access system diagram
+> ![[Pasted image 20240821175550.png]]
+
+<br>
+
