@@ -9,12 +9,4 @@ His words were imbued with a deep sense of purpose and resolve. He didn't shy a
 The most enduring image from his speech, the one that will undoubtedly be etched in the annals of history, is his closing line: "that government of the people, by the people, for the people, shall not perish from the earth." These words, so simple yet so profound, encapsulate the very essence of democracy and serve as a rallying cry for all who believe in its enduring power.
 
 Through this amazing speech I have learned many life lessons that would be immensely 
-beneficial to me. Speaking with purpose and clarity, honoring the past to shape the future, embracing resilience and resolve are a few of them. Through these I am certain that I will improve as a 
-**I am determined to carry these lessons forward in my own life:**
-
-- Speak with Purpose and Clarity: I will strive to communicate my thoughts concisely and with impact, ensuring every word serves a purpose.
-- Honor the Past, Shape the Future: I will remember and learn from the sacrifices of those who came before me, using their legacy as inspiration to build a better future.
-- Embrace Resilience and Resolve: I will face challenges with courage and determination, knowing that even in the darkest of times, hope and perseverance can pave the path forward.
-- Champion Democracy and Equality: I will actively participate in the democratic process, advocating for equality and justice for all, ensuring that government of, by, and for the people endures.
-
-President Lincoln's words will continue to resonate long after this war is over. They serve as a timeless reminder of the fragility of freedom and the responsibility we all share in safeguarding it for generations to come.
+beneficial to me. Speaking with purpose and clarity, honoring the past to shape the future, embracing resilience and resolve are a few of them. Through these I am certain that I will improve as a person.
