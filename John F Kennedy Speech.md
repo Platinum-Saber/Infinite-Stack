@@ -1,0 +1,3 @@
+President Kennedy's speech is a prime example of an effective communication. It contains several key principles that make it both memorable and persuasive. The use of historical analogy left a powerful impression in the audience. Condensing 50000 years of human history and comparing it with the last 50 years of humanities development highlights the rapid pace that humanity has progressed. This creates a sense of immediacy and portrays the incredible potential of mankind to achieve even grater things in the near future.
+
+Kennedy also employies

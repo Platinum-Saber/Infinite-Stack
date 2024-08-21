@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM-3/CS2043-Operating Systems/OS Introduction.md",
+                "file": "John F Kennedy Speech.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -97,7 +97,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "b2aa869acde22062",
@@ -124,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM-3/CS2043-Operating Systems/OS Introduction.md"
+                "file": "John F Kennedy Speech.md"
               }
             }
           },
@@ -142,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM-3/CS2043-Operating Systems/OS Introduction.md",
+                "file": "John F Kennedy Speech.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,14 +180,15 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "c91a1e730308a17e",
+  "active": "671fcfcc9244e77e",
   "lastOpenFiles": [
+    "![[lecture.md",
+    "John F Kennedy Speech.md",
+    "SEM-3/CS2043-Operating Systems/OS Introduction.md",
     "Images/lecture 3.mp4",
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Properties Of Pure Substances.md",
-    "SEM-3/CS2043-Operating Systems/OS Introduction.md",
     "Images/Pasted image 20240820204106.png",
     "SEM-3/CS3043-Database Systems/Introduction to SQL.md",
-    "![[lecture.md",
     "Images/lecture 1.mp4",
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/1. The Zeroth Law of Thermodynamics.md",
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/2. The First Law of Thermodynamics.md",
@@ -227,7 +229,6 @@
     "SEM-3/MA3014-Applied Statistics",
     "SEM-3/MA2014-Differential Equations",
     "SEM-3/CS3613-Introduction to Artificial Intelligence",
-    "SEM-3/CS3043-Database Systems",
-    "SEM-3/CS2053-Computer Architecture"
+    "SEM-3/CS3043-Database Systems"
   ]
 }
