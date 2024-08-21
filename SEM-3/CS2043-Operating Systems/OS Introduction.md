@@ -1,8 +1,11 @@
 Related : #OperatingSystems #OS #OS/01
 
-[Reference Lecture](file:///E:%5CAcademics%5CSEM%203%5CCS2043-Operating%20Systems%5CLecture%20Video%5Clecture%201.mp4)
+Reference Video :  [Reference Lecture](file:///E:%5CAcademics%5CSEM%203%5CCS2043-Operating%20Systems%5CLecture%20Video%5Clecture%201.mp4) , [Introduction to Operating Systems](https://www.youtube.com/watch?v=dOiA2nNJpc0)
+Reference Notes : [Chapter 01](file:///E:%5CAcademics%5CSEM%203%5CCS2043-Operating%20Systems%5CLecture%20note%5CNew%20notes%5Cch1%20.pptx)
 
-For more info : [Introduction to Operating Systems](https://www.youtube.com/watch?v=dOiA2nNJpc0)
+> [!file]- Lecture Note : Chapter 1
+> ![[L01.pdf]]
+
 <br>
 
 ---
