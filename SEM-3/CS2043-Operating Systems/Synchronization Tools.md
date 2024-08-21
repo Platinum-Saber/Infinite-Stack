@@ -28,11 +28,11 @@ Reference Notes :  [chapter 06](file:///E:%5CAcademics%5CSEM%203%5CCS2043-Operat
 > 
 > > [!faq]- Why do we need synchronization.
 > > 1. Thread schedule is **non-deterministic**
-> > 	- scheduling is not under program control.
-> > 	- threads interleave executions arbitrarily and at different rates.
+> > 	- scheduling is **not under program control.**
+> > 	- threads *interleave executions* **arbitrarily** and **at different rates**.
 > > 	- behavior changes when re-run program.
-> > 2. Multi-word operations are not atomic.
-> > 3. Compiler/ hardware instruction reordering.
+> > 2. *Multi-word operations* are **not atomic**.
+> > 3. Compiler/ hardware *instruction reordering*.
 
 <br>
 
