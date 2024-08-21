@@ -2,6 +2,18 @@ Related :  #OperatingSystems #OS #OS/05 #Synchronization
 
 [Reference Lecture](file:///E:%5CAcademics%5CSEM%203%5CCS2043-Operating%20Systems%5CLecture%20Video%5CLecture%205.mp4)
 
+<br>
+
+---
+# Content
+1. [[#Synchronization]]
+	- [[#Shared Resources]]
+	- 
+
+---
+
+<br>
+
 # Synchronization
 > [!note] Multi-threaded programs
 > Threads **cooperate** in multithreaded programs.
@@ -18,3 +30,16 @@ Related :  #OperatingSystems #OS #OS/05 #Synchronization
 > > 2. Multi-word operations are not atomic.
 > > 3. Compiler/ hardware instruction reordering.
 
+## Shared Resources
+ > [!abstract]- Mechanisms to control access to shared resources.
+ > - Locks
+ > - Mutexes
+ > - Semaphores
+ > - Monitors
+ > - Condition Variables
+ 
+ > [!abstract]- Patterns for coordinating accesses to shared resources
+ > - Bounded buffer
+ > - Producer-Consumer
+ 
+ 
