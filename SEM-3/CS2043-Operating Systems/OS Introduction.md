@@ -347,7 +347,20 @@ Reference Notes : [Chapter 01](file:///E:%5CAcademics%5CSEM%203%5CCS2043-Operati
 ## Distributed Systems
 - Collection of **separate**, possibly **heterogeneous**, systems networked together.
 - **Network** is a communications path
-	- Local Area Network (LAN)
-	- Wide Area Network (WAN)
-	- Metropolitan Area Network (MAN)
-	- Personal Area Network (PAN)
+	- Local Area Network (**LAN**)
+	- Wide Area Network (**WAN**)
+	- Metropolitan Area Network (**MAN**)
+	- Personal Area Network (**PAN**)
+
+> [!info] Network Operating System
+> - Provides features between systems across network.
+> - Communication scheme allows systems to exchange messages
+> - Creates an illusion of a single system
+
+# Computer System Architecture
+> [!note] Multiprocessors
+> - AKA **parallel systems**, **tightly coupled systems**.
+> - Advantages
+> 	1. *Increased throughput*
+> 	2. *Economy of scale*
+> 	3. *Increased reliability* (graceful degradation or fault tolerance)
