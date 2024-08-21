@@ -29,8 +29,22 @@ Reference Notes : [Chapter 01](file:///E:%5CAcademics%5CSEM%203%5CCS2043-Operati
 	- [[#I/O Subsystem]]
 	- [[#Protection And Security]]
 	- [[#Virtualization]]
-	- [[#Distributed Systems]]
-	- [[#]]
+	- [[#Distributed Systems]] 
+2. [[#Computer System Architecture]]
+	- [[#Symmetric Multiprocessing Architecture]]
+		- [[#Dual-Core Design]]
+	- [[#Non-Uniform Memory Access System]]
+	- [[#Clustered Systems]]
+	- [[#PC Motherboard]]
+3. [[#Computer System Environments]]
+	- [[#Traditional]]
+	- [[#Mobile]]
+	- [[#Client Server]]
+	- [[#Peer-to-Peer]]
+	- [[#Cloud Computing]]
+	- [[#Real-Time Embedded Systems]]
+	- [[#Free and Open-Source Operating Systems]]
+4. [[#Kernel Data Structures]]
 
 <br>
 
@@ -549,4 +563,8 @@ Reference Notes : [Chapter 01](file:///E:%5CAcademics%5CSEM%203%5CCS2043-Operati
 > 
 > > [!image]- Hash map diagram
 > > ![[Pasted image 20240821185020.png]]
- 
+
+<br>
+
+---
+Up Next : [[Operating System Services]]

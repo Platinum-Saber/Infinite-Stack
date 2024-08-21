@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM-3/CS2043-Operating Systems/OS Introduction.md",
+                "file": "SRS.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -70,8 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "b2aa869acde22062",
@@ -98,7 +97,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM-3/CS2043-Operating Systems/OS Introduction.md"
+                "file": "SRS.md"
               }
             }
           },
@@ -116,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM-3/CS2043-Operating Systems/OS Introduction.md",
+                "file": "SRS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,6 +154,11 @@
   },
   "active": "20844e8e44d376eb",
   "lastOpenFiles": [
+    "SEM-3/CS2043-Operating Systems/Synchronization Tools.md",
+    "SEM-3/CS2043-Operating Systems/OS Introduction.md",
+    "SEM-3/CS2043-Operating Systems/System Daemons.md",
+    "SEM-3/CS2043-Operating Systems/Operating System Services.md",
+    "SEM-3/CS2043-Operating Systems/Operating Systems.md",
     "Images/Pasted image 20240821185020.png",
     "Images/Pasted image 20240821184631.png",
     "Images/Pasted image 20240821184049.png",
@@ -165,15 +169,10 @@
     "Images/Pasted image 20240821181238.png",
     "Images/Pasted image 20240821180325.png",
     "Images/Pasted image 20240821180149.png",
-    "Images/Pasted image 20240821175550.png",
-    "System Daemons.md",
-    "SEM-3/CS2043-Operating Systems/OS Introduction.md",
-    "SEM-3/CS2043-Operating Systems/Synchronization Tools.md",
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/1. The Zeroth Law of Thermodynamics.md",
     "SEM-3/CS3043-Database Systems/Introduction to SQL.md",
     "SEM-3/CS2953-Communication Skills/John F Kennedy Speech.md",
     "SEM-3/CS2953-Communication Skills/Resignation Speech of George Washington.md",
-    "SEM-3/CS2043-Operating Systems/Operating Systems.md",
     "Images/L01.pdf",
     "Images/L06_mod.pdf",
     "Images/L06.pdf",

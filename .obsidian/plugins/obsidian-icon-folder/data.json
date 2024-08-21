@@ -6,16 +6,16 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "SiProtondb",
+      "FarNoteSticky",
+      "LiStickyNote",
       "FasCommentDots",
       "SiHubspot",
       "FiFile",
       "FiHome",
       "LiFolders",
       "FiDatabase",
-      "SiLinux",
-      "RiStackFill",
-      "RaFire",
-      "LiLineChart"
+      "SiLinux"
     ],
     "recentlyUsedIconsSize": 10,
     "rules": [],
@@ -134,5 +134,8 @@
   "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Properties Of Pure Substances.md": "FiFile",
   "SEM-3/CS3043-Database Systems/Intermediate SQL.md": "FiFile",
   "SEM-3/CS2953-Communication Skills": "FasCommentDots",
-  "SEM-3/CS2043-Operating Systems/Synchronization Tools.md": "FiFile"
+  "SEM-3/CS2043-Operating Systems/Synchronization Tools.md": "FiFile",
+  "SEM-3/CS2043-Operating Systems/Operating System Services.md": "FiFile",
+  "SEM-3/CS2043-Operating Systems/System Daemons.md": "FarNoteSticky",
+  "SRS.md": "SiProtondb"
 }
