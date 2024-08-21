@@ -45,9 +45,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "a9d18ecc6d3e3c5f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Resignation Speech of George Washington.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -97,8 +110,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "b2aa869acde22062",
@@ -125,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "John F Kennedy Speech.md"
+                "file": "Resignation Speech of George Washington.md"
               }
             }
           },
@@ -143,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "John F Kennedy Speech.md",
+                "file": "Resignation Speech of George Washington.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,10 +192,11 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "671fcfcc9244e77e",
+  "active": "a9d18ecc6d3e3c5f",
   "lastOpenFiles": [
-    "![[lecture.md",
     "John F Kennedy Speech.md",
+    "Resignation Speech of George Washington.md",
+    "![[lecture.md",
     "SEM-3/CS2043-Operating Systems/OS Introduction.md",
     "Images/lecture 3.mp4",
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Properties Of Pure Substances.md",
@@ -218,7 +231,6 @@
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Solving Problems by Searching.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Intelligent Agents.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/AI Introduction.md",
-    "SEM-3/CS3613-Introduction to Artificial Intelligence/Artificial Intelligence.md",
     "Images/Pasted image 20240816150600.png",
     "Lec 04 - Laws of Thermodynamics - Episode 1.mp4",
     "Lec 02 - Basic Concepts of Thermodynamics.mp4",
