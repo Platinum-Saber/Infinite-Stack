@@ -297,6 +297,32 @@ Reference Notes : [Chapter 01](file:///E:%5CAcademics%5CSEM%203%5CCS2043-Operati
 
 <br>
 
+## I/O Subsystem
+- One purpose of OS is to hide peculiarities of hardware devices from the user.
+
+> [!abstract] Responsibilities of I/O subsystem
+> - Memory management of I/O including **buffering** (storing data temporarily while it is being transferred), **caching** (storing parts of data in faster storage for performance), **spooling** (the overlapping of output of one job with input of other jobs)
+> - General **device-driver interface**
+> - **Drivers** for specific hardware devices
 
 <br>
+
+## Protection And Security
+> [!info] Protection
+> Any mechanism for controlling access of processes or users to resources defined by the OS
+
+> [!info] Security
+> defense of the system against internal and external attacks
+> - **Examples** : denial-of-service, worms, viruses, identity theft, theft of service
+
+> [!note] Process of distinguishing users
+> -  User identities (user IDs, security IDs) include name and associated number, **one per user**.
+> - User ID then associated with all files, processes of that user to determine **access control**.
+> - **Group identifier** (group ID) allows set of users to be defined and controls managed, then also associated with each process, file.
+> - **Privilege escalation** allows user to change to effective ID with more rights.
+
+<br>
+
+## Virtualization
+
 
