@@ -244,6 +244,42 @@ Reference Notes : [Chapter 01](file:///E:%5CAcademics%5CSEM%203%5CCS2043-Operati
 
 <br>
 
+### Mass-Storage Management
+- Usually disks used to *store data that* **does not fit in main memory** or data that must be **kept for a “long” period of time** 
+ - Proper management is of central importance 
+- Entire **speed** of computer operation **hinges on** *disk subsystem and its algorithms* 
+
+> [!abstract] OS activities
+> - Mounting and unmounting 
+> - Free-space management 
+> - Storage allocation 
+> - Disk scheduling 
+> - Partitioning 
+> - Protection
+
+<br>
+
+### Caching
+
+- Information in use copied from *slower to faster storage* **temporarily**. 
+- Faster storage (cache) *checked first* to determine if information is there 
+	- *If it is*, information **used directly** from the cache (fast) 
+	- *If not*, **data copied to cache** and used there
+
+> [!image]- Characteristics of various types of storage
+> ![[Pasted image 20240821164057.png]]
+
+<br>
+
+### Migration of Data From Disk to Register
+
+- Multitasking environments must be careful to use **most recent value**, *no matter where it is stored* in the storage hierarchy
+- Multiprocessor environment must provide **cache coherency** in hardware such that all *CPUs have the most recent value in their cache*
+
+> [!image]- Data migration
+> ![[Pasted image 20240821164508.png]]
+<br>
+
 ## File-System Management
 - OS provides *uniform, logical view* of information storage 
 	- ==Abstracts physical properties to logical storage unit== :- **file** 
@@ -261,27 +297,6 @@ Reference Notes : [Chapter 01](file:///E:%5CAcademics%5CSEM%203%5CCS2043-Operati
 
 <br>
 
-## Mass-Storage Management
-- Usually disks used to *store data that* **does not fit in main memory** or data that must be **kept for a “long” period of time** 
- - Proper management is of central importance 
-- Entire **speed** of computer operation **hinges on** *disk subsystem and its algorithms* 
-
-> [!abstract] OS activities
-> - Mounting and unmounting 
-> - Free-space management 
-> - Storage allocation 
-> - Disk scheduling 
-> - Partitioning 
-> - Protection
 
 <br>
 
-## Caching
-
-▪ Information in use copied from *slower to faster storage* **temporarily**. 
-▪ Faster storage (cache) *checked first* to determine if information is there 
-• If it is, information used directly from the cache (fast) 
-• If not, data copied to cache and used there 
-▪ Cache smaller than storage being cached 
-• Cache management important design problem 
-• Cache size and replacement policy
