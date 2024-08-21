@@ -245,14 +245,32 @@ Reference Notes : [Chapter 01](file:///E:%5CAcademics%5CSEM%203%5CCS2043-Operati
 <br>
 
 ## File-System Management
-- OS provides uniform, logical view of information storage 
-	- • Abstracts physical properties to logical storage unit - file 
-	- • Each medium is controlled by device (i.e., disk drive, tape drive) 
-		-  Varying properties include access speed, capacity, datatransfer rate, access method (sequential or random) 
-- ▪ File-System management 
-	-  Files usually organized into directories 
-		-  Access control on most systems to determine who can access what 
-		-  OS activities include 
-			- :luc_arrow_big_right: Creating and deleting files and directories 
-			- :luc_arrow_big_right: Primitives to manipulate files and directories 
-			- :luc_arrow_big_right: Mapping files onto secondary storage  Backup files onto stable (non-volatile) storage media
+- OS provides *uniform, logical view* of information storage 
+	- ==Abstracts physical properties to logical storage unit== :- **file** 
+	- Each medium is controlled by device (i.e., disk drive, tape drive) 
+		:luc_arrow_big_right: Varying properties include access speed, capacity, data-transfer rate, access method (sequential or random) 
+
+> [!info] File-System management 
+> - Files usually *organized into directories* 
+> - **Access control** on most systems to determine who can access what 
+> - OS activities include 
+> 	:luc_arrow_big_right: **Creating** and **deleting** *files and directories* 
+> 	:luc_arrow_big_right: Primitives to manipulate files and directories 
+> 	:luc_arrow_big_right: **Mapping files** onto secondary storage 
+> 	:luc_arrow_big_right: **Backup files** onto stable (non-volatile) storage media.
+
+<br>
+
+## Mass-Storage Management
+- Usually disks used to store data that **does not fit in main memory** or data that must be kept for a “long” period of time 
+ - Proper management is of central importance 
+- Entire speed of computer operation hinges on disk subsystem and its algorithms 
+
+> [!abstract] OS activities
+> - Mounting and unmounting 
+> - Free-space management 
+> - Storage allocation 
+> - Disk scheduling 
+> - Partitioning 
+> - Protection
+
