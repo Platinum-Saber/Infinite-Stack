@@ -157,11 +157,22 @@ Reference Notes : [Chapter 01](file:///E:%5CAcademics%5CSEM%203%5CCS2043-Operati
 <br>
 
 ## Multiprogramming (Batch System)
-- Single user cannot always keep CPU and I/O devices busy 
--  Multiprogramming *organizes jobs* (code and data) so CPU always has one to execute 
--  A subset of total jobs in system is kept in memory 
--  One job selected and run via job scheduling 
--  When job has to wait (for I/O for example), OS switches to another job
 
+> [!NOTE] Characteristics
+> - Single user cannot always keep CPU and I/O devices busy 
+> -  Multiprogramming *organizes jobs* (code and data) so CPU always has one to execute 
+> -  A **subset of total jobs** *in system is kept in memory* 
+> -  One job selected and run via **job scheduling** 
+> -  When job has to wait (for I/O for example), OS switches to another job
+
+## Multitasking (Timesharing)
+
+> [!NOTE] Characteristics
+> A logical extension of Batch systems– the CPU switches jobs so frequently that users can interact with each job while it is running, creating interactive computing 
+> - **Response time** should be < 1 second 
+> - Each user has at least one program executing in memory  process 
+> - If several jobs ready to run at the same time  CPU scheduling 
+> - If processes don’t fit in memory, swapping moves them in and out to run 
+> - Virtual memory allows execution of processes not completely in memory
 
 
