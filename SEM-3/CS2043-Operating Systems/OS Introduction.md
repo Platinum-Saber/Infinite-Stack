@@ -502,4 +502,18 @@ Reference Notes : [Chapter 01](file:///E:%5CAcademics%5CSEM%203%5CCS2043-Operati
 ## Free and Open-Source Operating Systems
 - Operating systems made *available in source-code format* rather than just binary **closed-source** and **proprietary**.
 - Counter to the **copy protection** and **Digital Rights Management** (DRM) movement
-- 
+- Started by **Free Software Foundation** (FSF), which has “*copyleft*” **GNU Public License** (GPL).
+- *Examples* :- GNU/Linux, BSD UNIX.
+
+# Kernel Data Structures
+- Many similarities to standard programming data structures.
+
+> [!image]- Kernel data structure diagrams
+> ![[Pasted image 20240821184015.png]]
+> ![[Pasted image 20240821184032.png]]
+> ![[Pasted image 20240821184049.png|664]]
+
+> [!info] Binary Search Tree (left <= right)
+> - Search performance :  O(n)
+> 	- **Balanced binary search tree** is O(lg n)
+> - 
