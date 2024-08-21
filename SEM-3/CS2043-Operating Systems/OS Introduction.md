@@ -324,5 +324,24 @@ Reference Notes : [Chapter 01](file:///E:%5CAcademics%5CSEM%203%5CCS2043-Operati
 <br>
 
 ## Virtualization
+- Allows operating systems to run applications *within other OSes*
 
+> [!tip] Emulation
+> - Used when source CPU type different from target type (i.e. PowerPC to Intel x86)
+> - Generally **slowest** method
+> - When computer language not compiled to native code :– **Interpretation**
 
+> [!tip] Virtualization
+> - OS natively compiled for CPU, running **guest** OSes also natively compiled.
+> - Consider *VMware* running *WinXP guests*, each running applications, all on *native WinXP host OS*
+> - **VMM** (virtual machine Manager) provides virtualization services
+
+- **VMM** can run natively, in which case they are **also the host**
+	- There is no general-purpose host then (VMware ESX and Citrix XenServer)
+
+> [!image]- Computer environments - virtualization
+> ![[Pasted image 20240821170358.png]]
+
+<br>
+
+## Distributed Systems
