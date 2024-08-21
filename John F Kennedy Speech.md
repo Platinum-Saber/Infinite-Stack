@@ -1,3 +1,8 @@
 President Kennedy's speech is a prime example of an effective communication. It contains several key principles that make it both memorable and persuasive. The use of historical analogy left a powerful impression in the audience. Condensing 50000 years of human history and comparing it with the last 50 years of humanities development highlights the rapid pace that humanity has progressed. This creates a sense of immediacy and portrays the incredible potential of mankind to achieve even grater things in the near future.
 
-Kennedy also employies
+Kennedy also employs repetition to reinforce his key massage. The phrase "We choose to go to the moon" is repeated three times in close succession. This combined with the rhetoric question "Why choose this as our goal?" followed by the simple answer "Because it's hard", creates a deep impression in the audience making it both compelling and memorable.
+
+Another sign of effective communication in this speech is Kennedy's ability to connect with his audience on an emotional level. By invoking the spirit of exploration and the inherent human desire to overcome challenges, he appeals to the audience’s sense of pride and adventure. He positions the moon mission not just as a scientific endeavor but as a collective effort that will “organize and measure the best of our energies and skills.” This statement combined with his confident and authoritative tone, inspires confidence and creates a sense of shared purpose among his listeners.
+
+
+This speech offers several lessons that I can incorporate into my own life, particularly in terms of how I communicate and approach challenges. One of the most prominent aspects of the speech is its emphasis on the importance of setting ambitious goals and embracing challenges, even when they seem difficult or even impossible.
