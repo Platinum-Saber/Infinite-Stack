@@ -32,28 +32,23 @@
 
 ## 5.4 Software Quality Attributes
 
-**Availability**
-- The system should be available 24/7 except for scheduled maintenance.
+1. **Availability**
+	- The system should be available 24/7 except for scheduled maintenance.
 
- **Reliability**
+2. **Reliability**
+	- The system should operate reliably, with a target of fewer than 5 critical failures per year. Any critical failure should be resolved within 1 hour.
 
-The system should operate reliably, with a target of fewer than 5 critical failures per year. Any critical failure should be resolved within 1 hour.
+1. **Maintainability**
+	- The system should be designed for ease of maintenance, allowing updates, bug fixes, and patches to be applied. The maintenance period should be minimal.
 
- **Maintainability**
+ 4. **Scalability**
+- The system should be able for the addition of new branches, users, and transactions without a major rebuild of the system architecture.
 
-The system should be designed for ease of maintenance, allowing updates, bug fixes, and patches to be applied. The maintenance period should be minimal.
+5. **Usability**
+- The system should be user-friendly. It should require minimal training for employees and customers. The UI should be consistent across all platforms (desktop, web, and mobile).
 
- **Scalability**
-
-The system should be able for the addition of new branches, users, and transactions without a major rebuild of the system architecture.
-
- **Usability**
-
-The system should be user-friendly. It should require minimal training for employees and customers. The UI should be consistent across all platforms (desktop, web, and mobile).
-
- **Interoperability:** (mekt wen namak thyenwnm dann. Chatgpt apu ekak)
-
-The system should be designed to integrate seamlessly with the country’s common banking switch. It should adhere to the required API standards and protocols.
+6. **Interoperability:** (mekt wen namak thyenwnm dann. Chatgpt apu ekak)
+- The system should be designed to integrate seamlessly with the country’s common banking switch. It should adhere to the required API standards and protocols.
 
 ## 5.5 Business Rules
 

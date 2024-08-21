@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SRS.md",
+                "file": "SEM-3/CS3043-Database Systems/Group Project/External Interface Requirements.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -26,15 +26,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Other Nonfunctional Requirements.md",
+                "file": "SRS.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -111,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Other Nonfunctional Requirements.md"
+                "file": "SEM-3/CS3043-Database Systems/Group Project/External Interface Requirements.md"
               }
             }
           },
@@ -129,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Other Nonfunctional Requirements.md",
+                "file": "SEM-3/CS3043-Database Systems/Group Project/External Interface Requirements.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,10 +165,11 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "fa1145ce521cb1ba",
+  "active": "20844e8e44d376eb",
   "lastOpenFiles": [
     "SRS.md",
-    "Other Nonfunctional Requirements.md",
+    "SEM-3/CS3043-Database Systems/Group Project/Introduction.md",
+    "SEM-3/CS3043-Database Systems/Group Project/Other Nonfunctional Requirements.md",
     "SEM-3/CS3043-Database Systems/Group Project/External Interface Requirements.md",
     "SEM-3/CS3043-Database Systems/Group Project",
     "SEM-3/CS2043-Operating Systems/Synchronization Tools.md",
@@ -212,7 +212,6 @@
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/3. The Second Law of Thermodynamics.md",
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/4. The Third Law of Thermodynamics.md",
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Basic Concepts of Thermodynamics.md",
-    "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Energy Balance.md",
     "Lec 04 - Laws of Thermodynamics - Episode 1.mp4",
     "Work Space.canvas",
     "Untitled.canvas"
