@@ -472,4 +472,34 @@ Reference Notes : [Chapter 01](file:///E:%5CAcademics%5CSEM%203%5CCS2043-Operati
 
 ## Cloud Computing
 - Delivers *computing*, *storage*, even *apps* as a service across a network.
-- Logical extension of virtualization because it uses virtualization as the base for it functionality.
+- *Logical extension* of **virtualization** because it uses virtualization as the base for it functionality.
+- *Cloud computing environments* composed of **traditional OSes**, plus **VMMs**, plus **cloud management tools**
+	- Internet connectivity requires security like firewalls
+	- Load balancers spread traffic across multiple applications
+
+
+> [!summary] Types of cloud computing
+> - **Public cloud** – available via Internet to anyone willing to pay
+> - **Private cloud** – run by a company for the company’s own use
+> - **Hybrid cloud** – includes both public and private cloud components
+> - **Software as a Service** (*SaaS*) – one or more applications available via the Internet (i.e., word processor)
+> - **Platform as a Service** (*PaaS*) – software stack ready for application use via the Internet (i.e., a database server)
+> - **Infrastructure as a Service** (*IaaS*) – servers or storage available over Internet (i.e., storage available for backup use)
+
+> [!image]- Cloud computing diagram
+> ![[Pasted image 20240821183124.png]]
+
+<br>
+
+## Real-Time Embedded Systems
+- Vary considerable, special purpose, limited purpose OS, real-time OS
+- Real-time OS has **well-defined fixed time constraints**
+	- Processing must be done within constraint
+	- Correct operation only if constraints met
+
+<br>
+
+## Free and Open-Source Operating Systems
+- Operating systems made *available in source-code format* rather than just binary **closed-source** and **proprietary**.
+- Counter to the **copy protection** and **Digital Rights Management** (DRM) movement
+- 
