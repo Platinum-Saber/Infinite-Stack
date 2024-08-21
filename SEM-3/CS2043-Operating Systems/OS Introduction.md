@@ -200,9 +200,20 @@ Reference Notes : [Chapter 01](file:///E:%5CAcademics%5CSEM%203%5CCS2043-Operati
 <br>
 
 ## Timer
-- Timer to prevent infinite loop (or process hogging resources) 
-	- Timer is set to interrupt the computer after some time period 
-	-  Keep a counter that is decremented by the physical clock 
-	-  Operating system set the counter (privileged instruction) 
-	-  When counter zero generate an interrupt 
-	-  Set up before scheduling process to regain control or terminate program that exceeds allotted time
+- Timer to **prevent infinite loop** (or process hogging resources) 
+	- Timer is set to *interrupt the computer after some time period* 
+	-  Keep a **counter** that is *decremented by the physical clock* 
+	-  Operating system set the counter (==privileged instruction==) 
+	-  When counter zero, generate an interrupt 
+	-  Set up before scheduling process to regain control or **terminate program** *that exceeds allotted time*
+
+<br>
+
+## Process Management
+
+- A process is a program in execution. (A unit of work within the system)
+- **Program** is a *Passive entity*.
+- **Process** is an *active entity*.
+- Process needs resources to accomplish its tasks. (CPU, memory, I/O, initialization data)
+- Single-threaded process has one program counter specifying location of next instruction to execute 
+- • Process executes instructions sequentially, one at a time, until completion ▪ Multi-threaded process has one program counter per thread ▪ Typically system has many processes, some user, some operating system running concurrently on one or more CPUs • Concurrency by multiplexing the CPUs among the processes / threads
