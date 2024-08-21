@@ -34,6 +34,8 @@ Reference Notes :  [chapter 06](file:///E:%5CAcademics%5CSEM%203%5CCS2043-Operat
 > > 2. Multi-word operations are not atomic.
 > > 3. Compiler/ hardware instruction reordering.
 
+<br>
+
 ## Shared Resources
  > [!abstract]- Mechanisms to control access to shared resources.
  > - Locks
@@ -45,11 +47,14 @@ Reference Notes :  [chapter 06](file:///E:%5CAcademics%5CSEM%203%5CCS2043-Operat
  > [!abstract]- Patterns for coordinating accesses to shared resources
  > - Bounded buffer
  > - Producer-Consumer
- 
+
+<br>
+
 ### Race Condition
 
 
-
+<br>
+<br>
 
 # Mutual Exclusion Problem
 
