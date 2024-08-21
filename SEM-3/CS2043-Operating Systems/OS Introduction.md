@@ -16,6 +16,21 @@ Reference Notes : [Chapter 01](file:///E:%5CAcademics%5CSEM%203%5CCS2043-Operati
 		- [[#Storage Hierarchy]]
 		- [[#Direct Memory Access Structure]]
 	- [[#Operating System Operations]]
+	- [[#Multiprogramming (Batch System)]]
+	- [[#Multitasking (Timesharing)]]
+	- [[#Dual-mode Operation]]
+	- [[#Timer]]
+	- [[#Process Management]]
+	- [[#Memory Management]]
+		- [[#Mass-Storage Management]]
+		- [[#Caching]]
+		- [[#Migration of Data From Disk to Register]]
+	- [[#File-System Management]]
+	- [[#I/O Subsystem]]
+	- [[#Protection And Security]]
+	- [[#Virtualization]]
+	- [[#Distributed Systems]]
+	- [[#]]
 
 <br>
 
@@ -357,6 +372,9 @@ Reference Notes : [Chapter 01](file:///E:%5CAcademics%5CSEM%203%5CCS2043-Operati
 > - Communication scheme allows systems to exchange messages
 > - Creates an illusion of a single system
 
+<br>
+<br>
+
 # Computer System Architecture
 > [!note] Multiprocessors
 > - AKA **parallel systems**, **tightly coupled systems**.
@@ -405,6 +423,7 @@ Reference Notes : [Chapter 01](file:///E:%5CAcademics%5CSEM%203%5CCS2043-Operati
 > [!image]- Clustered system diagram
 > ![[Pasted image 20240821180149.png]]
 
+<br>
 
 ## PC Motherboard
 > [!image]- Motherboard diagram
@@ -505,6 +524,9 @@ Reference Notes : [Chapter 01](file:///E:%5CAcademics%5CSEM%203%5CCS2043-Operati
 - Started by **Free Software Foundation** (FSF), which has “*copyleft*” **GNU Public License** (GPL).
 - *Examples* :- GNU/Linux, BSD UNIX.
 
+<br>
+<br>
+
 # Kernel Data Structures
 - Many similarities to standard programming data structures.
 
@@ -516,4 +538,15 @@ Reference Notes : [Chapter 01](file:///E:%5CAcademics%5CSEM%203%5CCS2043-Operati
 > [!info] Binary Search Tree (left <= right)
 > - Search performance :  O(n)
 > 	- **Balanced binary search tree** is O(lg n)
-> - 
+> 
+> > [!image]- Binary Search Tree diagram
+> > ![[Pasted image 20240821184631.png]]
+
+> [!info] Hash Map
+> - **Hash function** can create a **hash map**
+> - **Bitmap** – string of n binary digits representing the status of n items
+> - Linux data structures defined in include files `<linux/list.h>, <linux/kfifo.h>, <linux/rbtree.h>`
+> 
+> > [!image]- Hash map diagram
+> > ![[Pasted image 20240821185020.png]]
+ 
