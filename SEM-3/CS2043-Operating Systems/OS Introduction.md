@@ -149,7 +149,7 @@ Reference Notes : [Chapter 01](file:///E:%5CAcademics%5CSEM%203%5CCS2043-Operati
 ## Operating System Operations
 - **Bootstrap program** :  Simple code to initialize the system. Loads the `kernel`
 - Kernel loads
-- Starts [[#System Daemons]] (services provided outside of the kernel)
+- Starts [[System Daemons]] (services provided outside of the kernel)
 - Kernel interrupt driven hardware and software
 	- Hardware interrupt by one of the devices.
 	- Software interrupt ([[#Exception]] or [[#Trap]])
@@ -158,4 +158,4 @@ Reference Notes : [Chapter 01](file:///E:%5CAcademics%5CSEM%203%5CCS2043-Operati
 
 
 
-#### System Daemons
+

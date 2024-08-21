@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM-3/CS2043-Operating Systems/OS Introduction.md",
+                "file": "System Daemons.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -98,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM-3/CS2043-Operating Systems/OS Introduction.md"
+                "file": "System Daemons.md"
               }
             }
           },
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM-3/CS2043-Operating Systems/OS Introduction.md",
+                "file": "System Daemons.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,8 +155,9 @@
   },
   "active": "20844e8e44d376eb",
   "lastOpenFiles": [
-    "SEM-3/CS2043-Operating Systems/Synchronization Tools.md",
     "SEM-3/CS2043-Operating Systems/OS Introduction.md",
+    "System Daemons.md",
+    "SEM-3/CS2043-Operating Systems/Synchronization Tools.md",
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/1. The Zeroth Law of Thermodynamics.md",
     "SEM-3/CS3043-Database Systems/Introduction to SQL.md",
     "SEM-3/CS2953-Communication Skills/John F Kennedy Speech.md",
