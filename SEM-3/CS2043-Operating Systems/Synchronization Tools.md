@@ -1,8 +1,12 @@
 Related :  #OperatingSystems #OS #OS/05 #Synchronization
 
-[Reference Lecture](file:///E:%5CAcademics%5CSEM%203%5CCS2043-Operating%20Systems%5CLecture%20Video%5CLecture%205.mp4)
+Reference Video :  [Lecture 05](file:///E:%5CAcademics%5CSEM%203%5CCS2043-Operating%20Systems%5CLecture%20Video%5CLecture%205.mp4)
+Reference Notes :  [chapter 06](file:///E:%5CAcademics%5CSEM%203%5CCS2043-Operating%20Systems%5CLecture%20note%5CNew%20notes%5Cch6.pptx) , [mutual exclusion-part 1](file:///E:%5CAcademics%5CSEM%203%5CCS2043-Operating%20Systems%5CLecture%20note%5CNew%20notes%5Cmutualexclusion-part%201.ppt)
 
 <br>
+> [!]
+
+![[L06.pdf]]
 
 ---
 # Content
@@ -48,4 +52,7 @@ Related :  #OperatingSystems #OS #OS/05 #Synchronization
 
 
 # Mutual Exclusion Problem
-- Eliminating undesirable interleavings  
+
+> [!faq] What is the mutual exclusion problem
+> - Eliminating undesirable interleavings  
+

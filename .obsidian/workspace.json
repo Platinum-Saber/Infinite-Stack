@@ -92,7 +92,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabeticalReverse"
               }
             }
           },
@@ -207,6 +207,9 @@
   },
   "active": "20844e8e44d376eb",
   "lastOpenFiles": [
+    "Images/L06.pdf",
+    "Images/~$ch6.pptx",
+    "Images/ch6.pptx",
     "SEM-3/CS2043-Operating Systems/Operating Systems.md",
     "SEM-3/CS2043-Operating Systems/Synchronization Tools.md",
     "SEM-3/CS2043-Operating Systems/OS Introduction.md",
@@ -244,7 +247,6 @@
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Introduction to Thermodynamics.md",
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Laws of Thermodynamics.md",
     "SEM-3/CS2033-Data Communication and Networking/Data Com. & Networking Introduction.md",
-    "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Thermodynamics.md",
     "Images/Pasted image 20240816150600.png",
     "Lec 04 - Laws of Thermodynamics - Episode 1.mp4",
     "Lec 02 - Basic Concepts of Thermodynamics.mp4",
@@ -252,8 +254,6 @@
     "Images",
     "Untitled.canvas",
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications",
-    "SEM-3/MA3014-Applied Statistics",
-    "SEM-3/MA2014-Differential Equations",
-    "SEM-3/CS3613-Introduction to Artificial Intelligence"
+    "SEM-3/MA3014-Applied Statistics"
   ]
 }

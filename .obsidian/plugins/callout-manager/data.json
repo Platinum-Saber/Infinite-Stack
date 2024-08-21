@@ -1,7 +1,8 @@
 {
   "callouts": {
     "custom": [
-      "image"
+      "image",
+      "file"
     ],
     "settings": {
       "info": [
@@ -16,6 +17,13 @@
           "changes": {
             "icon": "lucide-image",
             "color": "208, 181, 48"
+          }
+        }
+      ],
+      "file": [
+        {
+          "changes": {
+            "color": "68, 207, 110"
           }
         }
       ]
