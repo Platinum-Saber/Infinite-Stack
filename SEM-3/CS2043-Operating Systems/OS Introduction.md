@@ -165,14 +165,26 @@ Reference Notes : [Chapter 01](file:///E:%5CAcademics%5CSEM%203%5CCS2043-Operati
 > -  One job selected and run via **job scheduling** 
 > -  When job has to wait (for I/O for example), OS switches to another job
 
+> [!image]- Memory Layout For Multi-programmed System
+> ![[Pasted image 20240821150244.png]]
+
+
 ## Multitasking (Timesharing)
 
 > [!NOTE] Characteristics
-> A logical extension of Batch systems– the CPU switches jobs so frequently that users can interact with each job while it is running, creating interactive computing 
+> **A logical extension of Batch systems**.
+> The CPU switches jobs so frequently that users can *interact with each job while it is running*, creating interactive computing.
 > - **Response time** should be < 1 second 
-> - Each user has at least one program executing in memory  process 
-> - If several jobs ready to run at the same time  CPU scheduling 
-> - If processes don’t fit in memory, swapping moves them in and out to run 
-> - Virtual memory allows execution of processes not completely in memory
+> - Each user has at least one program executing in memory :luc_arrow_big_right: **process** 
+> - If several jobs ready to run at the same time :luc_arrow_big_right: **CPU scheduling** 
+> - If processes don’t fit in memory, **swapping** *moves them in and out to run* 
+> - **Virtual memory** allows execution of processes not completely in memory
 
 
+## Dual-mode Operation
+▪ Dual-mode operation allows OS to protect itself and other system components 
+- User mode and kernel mode 
+-  Mode bit provided by hardware 
+-  Provides ability to distinguish when system is running user code or kernel code. 
+-  When a user is running  mode bit is “user” 
+-  When kernel code is executing  mode bit is “kernel
