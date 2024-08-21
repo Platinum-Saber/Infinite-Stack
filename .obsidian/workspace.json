@@ -58,9 +58,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "20844e8e44d376eb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "The Gettysburg Address.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -137,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Resignation Speech of George Washington.md"
+                "file": "The Gettysburg Address.md"
               }
             }
           },
@@ -155,7 +168,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Resignation Speech of George Washington.md",
+                "file": "The Gettysburg Address.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -192,10 +205,11 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "a9d18ecc6d3e3c5f",
+  "active": "20844e8e44d376eb",
   "lastOpenFiles": [
-    "John F Kennedy Speech.md",
     "Resignation Speech of George Washington.md",
+    "The Gettysburg Address.md",
+    "John F Kennedy Speech.md",
     "![[lecture.md",
     "SEM-3/CS2043-Operating Systems/OS Introduction.md",
     "Images/lecture 3.mp4",
@@ -230,7 +244,6 @@
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Thermodynamics.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Solving Problems by Searching.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Intelligent Agents.md",
-    "SEM-3/CS3613-Introduction to Artificial Intelligence/AI Introduction.md",
     "Images/Pasted image 20240816150600.png",
     "Lec 04 - Laws of Thermodynamics - Episode 1.mp4",
     "Lec 02 - Basic Concepts of Thermodynamics.mp4",
