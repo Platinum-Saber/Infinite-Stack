@@ -390,3 +390,38 @@ Reference Notes : [Chapter 01](file:///E:%5CAcademics%5CSEM%203%5CCS2043-Operati
 
 <br>
 
+## Clustered Systems
+- Like multiprocessor systems, but *multiple systems working together*.
+
+> [!abstract] Characteristics of clustered systems
+> - Usually sharing storage via a **storage-area network** (SAN)
+> - Provides a *high-availability service* which survives failures
+> 	- **Asymmetric clustering** has one machine in hot-standby mode 
+> 	- **Symmetric clustering** has multiple nodes running applications, monitoring each other
+> - Some clusters are for **high-performance computing** (HPC)
+> 	- Applications must be written to use **parallelization**
+> - Some have **distributed lock manager** (DLM) to *avoid conflicting operations*
+
+> [!image]- Clustered system diagram
+> ![[Pasted image 20240821180149.png]]
+
+
+## PC Motherboard
+> [!image]- Motherboard diagram
+> ![[Pasted image 20240821180325.png]]
+
+<br>
+
+# Computer System Environments
+> [!example] Computing Environments
+> - Traditional
+> - Mobile
+> - Client Server
+> - Peer-to-Peer
+> - Cloud computing
+> - Real-time Embedded
+
+<br>
+
+## Traditional
+> [!summary] 
