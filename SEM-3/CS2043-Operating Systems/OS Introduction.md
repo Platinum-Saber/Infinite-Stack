@@ -262,9 +262,9 @@ Reference Notes : [Chapter 01](file:///E:%5CAcademics%5CSEM%203%5CCS2043-Operati
 <br>
 
 ## Mass-Storage Management
-- Usually disks used to store data that **does not fit in main memory** or data that must be kept for a “long” period of time 
+- Usually disks used to *store data that* **does not fit in main memory** or data that must be **kept for a “long” period of time** 
  - Proper management is of central importance 
-- Entire speed of computer operation hinges on disk subsystem and its algorithms 
+- Entire **speed** of computer operation **hinges on** *disk subsystem and its algorithms* 
 
 > [!abstract] OS activities
 > - Mounting and unmounting 
