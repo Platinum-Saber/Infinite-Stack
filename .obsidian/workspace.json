@@ -34,19 +34,6 @@
             }
           },
           {
-            "id": "efcdfd555d889412",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SEM-3/CS3043-Database Systems/Group Project/Introduction.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "9b0db38f73544d8d",
             "type": "leaf",
             "state": {
@@ -194,13 +181,13 @@
   },
   "active": "e891528f9af586e4",
   "lastOpenFiles": [
+    "SEM-3/CS3043-Database Systems/Group Project/Introduction.md",
+    "SEM-3/CS3043-Database Systems/Group Project/Other Nonfunctional Requirements.md",
     "SRS.md",
     "System Features.md",
     "SEM-3/CS2033-Data Communication and Networking/Data Communication & Networking.md",
-    "SEM-3/CS3043-Database Systems/Group Project/Other Nonfunctional Requirements.md",
     "SEM-3/CS2053-Computer Architecture/Computer Architecture Introduction.md",
     "SEM-3/CS2053-Computer Architecture/Instruction Set Architecture-RV.md",
-    "SEM-3/CS3043-Database Systems/Group Project/Introduction.md",
     "SEM-3/CS3043-Database Systems/Group Project/External Interface Requirements.md",
     "SEM-3/CS3043-Database Systems/Group Project/Overall Description.md",
     "Images/Project Description.pdf",

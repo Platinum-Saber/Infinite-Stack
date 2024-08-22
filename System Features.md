@@ -276,42 +276,31 @@
 ### 4.6.2 Stimulus/Response Sequences
 
 **Stimulus**: A branch manager requests a branch-wise total transaction report.
+- **Response**: The system generates the report based on transaction data from the branch and presents it in a readable format (e.g. Excel, PDF).
 
-**Response**: The system generates the report based on transaction data from the branch and presents it in a readable format (e.g., PDF, Excel).
+**Stimulus**: A branch manager requests a branch-wise late loan installment report.
+- **Response**: The system retrieves data on overdue loan installments specific to the branch and generates a report detailing the overdue amounts and affected accounts.
 
-Stimulus: A branch manager requests a branch-wise late loan installment report.
+**Stimulus**: A branch manager needs to filter a report by date range or account type.
+- **Response**: The system allows the branch manager to specify the filter criteria and generates a report based on the selected parameters.
 
-Response: The system retrieves data on overdue loan installments specific to the branch and generates a report detailing the overdue amounts and affected accounts.
+### 4.6.3 Functional Requirements
 
-Stimulus: An unauthorized user attempts to access a report.
+**REQ-1**: The system shall provide functionality for generating branch-wise total transaction reports, including details such as transaction amounts, dates, and types. The reports must be available in Excel format.
 
-Response: The system denies access and displays an error message indicating insufficient permissions.
+**REQ-2**: The system shall provide functionality for generating branch-wise late loan installment reports, detailing overdue amounts, affected accounts, and payment history.
 
-Stimulus: A branch manager needs to filter a report by date range or account type.
+**REQ-3**: The system shall implement access controls to ensure that only branch managers can view and generate reports. 
 
-Response: The system allows the branch manager to specify the filter criteria and generates a report based on the selected parameters.
+**REQ-4**: The system shall allow branch managers to filter reports by date range, account type, and other relevant parameters. 
 
-4.6.3 Functional Requirements
+**REQ-5**: The system shall log all report generation activities, including user details and timestamp, to maintain an audit trail for compliance and security purposes.
 
-REQ-1: The system shall provide functionality for generating branch-wise total transaction reports, including details such as transaction amounts, dates, and types. The reports must be available in multiple formats, including PDF and Excel.
+**REQ-6**: The system shall provide a summary of key metrics (e.g., total transactions, overdue loans) on a dashboard for quick access by branch managers.
 
-REQ-2: The system shall provide functionality for generating branch-wise late loan installment reports, detailing overdue amounts, affected accounts, and payment history.
+**REQ-7**: The system shall handle errors gracefully, providing clear error messages and options for retrying or contacting support if report generation fails.
 
-REQ-3: The system shall implement access controls to ensure that only branch managers can view and generate reports. Unauthorized access attempts must be logged and reported.
-
-REQ-4: The system shall allow branch managers to filter reports by date range, account type, and other relevant parameters. The filtering options must be user-friendly and responsive.
-
-REQ-5: The system shall ensure that generated reports are accurate and reflect the most up-to-date data. It must include mechanisms for validating and verifying data integrity.
-
-REQ-6: The system shall log all report generation activities, including user details and timestamp, to maintain an audit trail for compliance and security purposes.
-
-REQ-7: The system shall provide a summary of key metrics (e.g., total transactions, overdue loans) on a dashboard for quick access by branch managers.
-
-REQ-8: The system shall support automated scheduling of reports, allowing branch managers to receive periodic reports (e.g., daily, weekly) via email or other preferred methods.
-
-REQ-9: The system shall handle errors gracefully, providing clear error messages and options for retrying or contacting support if report generation fails.
-
-**7.**    **Additional Features**
+## 4.7 Additional Features
 
 **1.**    **Online Banking Portal**
 
