@@ -25,7 +25,7 @@ The system will interact with several external and internal interfaces, includin
 
 The Bank Transaction and Loan Processing System is divided into several key functional areas, each encompassing specific use cases. These functional areas include branch management, account management, internal fund transfers, loan processing, and reporting.
 
-## 2.2.1 Branch Management Use Cases
+### 2.2.1 Branch Management Use Cases
 
 - **Use case: Manage Branches**
 
@@ -33,7 +33,7 @@ The Bank Transaction and Loan Processing System is divided into several key func
 - **Priority**: _High_
 - **Actors**: Branch Manager, System Administrator
 
-## 2.2.2 Account Management Use Cases
+### 2.2.2 Account Management Use Cases
 
 - **Use case: Create and Manage Accounts**
 
@@ -53,7 +53,7 @@ The Bank Transaction and Loan Processing System is divided into several key func
 - **Priority**: _Medium_
 - **Actors**: Bank Employees
 
-## 2.2.3 Internal Fund Transfers Use Case
+### 2.2.3 Internal Fund Transfers Use Case
 
 - **Use case: Transfer Funds**
 
@@ -61,7 +61,7 @@ The Bank Transaction and Loan Processing System is divided into several key func
 - **Priority**: _High_
 - **Actors**: Customers, Bank Employees
 
-## 2.2.4 Loan Processing Use Cases
+### 2.2.4 Loan Processing Use Cases
 
 - **Use case: Apply for Loan In-Branch**
 
@@ -81,7 +81,7 @@ The Bank Transaction and Loan Processing System is divided into several key func
 - **Priority**: _High_
 - **Actors**: Customers, Bank Employees
 
-## 2.2.5 Reporting Use Cases
+### 2.2.5 Reporting Use Cases
 
 - **Use case: Generate Branch-Wise Transaction Report**
 
