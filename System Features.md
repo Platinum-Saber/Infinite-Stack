@@ -54,61 +54,56 @@
 
 ### 4.2.1 Description and Priority
 
-Description: The Account Management feature enables the bank to manage customer accounts, including the creation, updating, and closure of Savings, Checking, and Fixed Deposit accounts. It also includes functionalities to monitor account activities such as deposits, withdrawals, and transfers. This feature is essential for ensuring that customer accounts are properly maintained and that transactions are accurately recorded.
+**Description**: The Account Management feature enables the bank to manage customer accounts, including the creation, updating, and closure of Savings, Checking, and Fixed Deposit accounts. It also includes functionalities to monitor account activities such as deposits, withdrawals, and transfers. This feature is essential for ensuring that customer accounts are properly maintained and that transactions are accurately recorded.
 
-Priority: High
+**Priority**: *High*
 
-Benefit: 9 - Accurate and efficient management of customer accounts is critical to the bank’s operations and customer satisfaction.
+**Benefit**: 9 - Accurate and efficient management of customer accounts is critical to the bank’s operations and customer satisfaction.
 
-Penalty: 9 - Errors in account management can lead to financial losses, customer dissatisfaction, and regulatory penalties.
+**Penalty**: 9 - Errors in account management can lead to financial losses, customer dissatisfaction, and regulatory penalties.
 
-Cost: 7 - Requires a robust and secure database design, with detailed tracking of account activities.
+**Cost**: 7 - Requires a robust and secure database design, with detailed tracking of account activities.
 
-Risk: 8 - High risk due to the sensitivity of financial data and the need for compliance with banking regulations.
+**Risk**: 8 - High risk due to the sensitivity of financial data and the need for compliance with banking regulations.
 
-4.2.2 Stimulus/Response Sequences
+### 4.2.2 Stimulus/Response Sequences
 
-Stimulus: A customer requests to open a new Savings account.
+**Stimulus**: A customer requests to open a new Savings account.
+- **Response**: The system prompts the bank employee to select the appropriate Savings plan based on the customer’s eligibility (e.g., Children, Teen, Adult, Senior). The system then creates the account, sets the interest rate and minimum balance, and associates it with the customer's profile.
 
-Response: The system prompts the bank employee to select the appropriate Savings plan based on the customer’s eligibility (e.g., Children, Teen, Adult, Senior). The system then creates the account, sets the interest rate and minimum balance, and associates it with the customer's profile.
+**Stimulus**: A customer initiates a deposit transaction.
+- **Response**: The system records the deposit, updates the account balance, and logs the transaction details, including the date, amount, and branch.
 
-Stimulus: A customer initiates a deposit transaction.
+**Stimulus**: A customer attempts to withdraw funds from a Savings account exceeding the monthly withdrawal limit.
+- **Response**: The system denies the withdrawal, notifies the customer of the limit, and logs the attempt for auditing purposes.
 
-Response: The system records the deposit, updates the account balance, and logs the transaction details, including the date, amount, and branch.
+**Stimulus**: A customer requests to close their account.
+- **Response**: The system verifies that there are no pending transactions or outstanding loans, processes any remaining balance, and then closes the account. The system logs the closure and updates the customer profile accordingly.
 
-Stimulus: A customer attempts to withdraw funds from a Savings account exceeding the monthly withdrawal limit.
+**Stimulus**: A customer applies for a Fixed Deposit (FD) linked to their Savings account.
+- **Response**: The system verifies the customer’s existing Savings account, creates the FD, calculates the interest based on the selected plan (e.g., 6 months, 1 year, 3 years), and schedules monthly interest deposits into the Savings account.
 
-Response: The system denies the withdrawal, notifies the customer of the limit, and logs the attempt for auditing purposes.
+### 4.2.3 Functional Requirements
 
-Stimulus: A customer requests to close their account.
+**REQ-1**: The system shall allow employees to create Savings, Checking, and Fixed Deposit accounts, each with specific parameters such as interest rates, withdrawal limits, and minimum balances.
 
-Response: The system verifies that there are no pending transactions or outstanding loans, processes any remaining balance, and then closes the account. The system logs the closure and updates the customer profile accordingly.
+**REQ-2**: The system shall enforce monthly withdrawal limits for Savings accounts and deny transactions that exceed these limits.
 
-Stimulus: A customer applies for a Fixed Deposit (FD) linked to their Savings account.
+**REQ-3**: The system shall automatically calculate and deposit interest into Savings accounts linked to Fixed Deposits on a monthly basis.
 
-Response: The system verifies the customer’s existing Savings account, creates the FD, calculates the interest based on the selected plan (e.g., 6 months, 1 year, 3 years), and schedules monthly interest deposits into the Savings account.
+**REQ-4**: The system shall allow employees to close accounts, with checks in place to ensure that there are no pending transactions or outstanding loans before closure.
 
-4.2.3 Functional Requirements
+**REQ-5**: The system shall log all account-related transactions, including deposits, withdrawals, transfers, and account closures, for auditing purposes.
 
-REQ-1: The system shall allow employees to create Savings, Checking, and Fixed Deposit accounts, each with specific parameters such as interest rates, withdrawal limits, and minimum balances.
+**REQ-6:** The system shall support the linking of multiple accounts (Savings, Checking, FD) to a single customer profile, allowing for consolidated account management.
 
-REQ-2: The system shall enforce monthly withdrawal limits for Savings accounts and deny transactions that exceed these limits.
+**REQ-7**: The system shall provide real-time balance updates and transaction histories for each account.
 
-REQ-3: The system shall automatically calculate and deposit interest into Savings accounts linked to Fixed Deposits on a monthly basis.
+**REQ-8**: The system shall prevent the creation of a Fixed Deposit account unless the customer has an active Savings account.
 
-REQ-4: The system shall allow employees to close accounts, with checks in place to ensure that there are no pending transactions or outstanding loans before closure.
+**REQ-9**: The system shall ensure that all account actions adhere to the bank’s regulatory and operational policies, including fraud detection and anti-money laundering checks.
 
-REQ-5: The system shall log all account-related transactions, including deposits, withdrawals, transfers, and account closures, for auditing purposes.
-
-REQ-6: The system shall support the linking of multiple accounts (Savings, Checking, FD) to a single customer profile, allowing for consolidated account management.
-
-REQ-7: The system shall provide real-time balance updates and transaction histories for each account.
-
-REQ-8: The system shall prevent the creation of a Fixed Deposit account unless the customer has an active Savings account.
-
-REQ-9: The system shall ensure that all account actions adhere to the bank’s regulatory and operational policies, including fraud detection and anti-money laundering checks.
-
-**3.**    **Loan Management**
+## 4.3 Loan Management
 
 4.3.1 Description and Priority
 
