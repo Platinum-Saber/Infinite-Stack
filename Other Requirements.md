@@ -1,10 +1,10 @@
-### 6. Other Requirements
+# 6. Other Requirements
 
-#### 6.1 Database Requirements
+## 6.1 Database Requirements
 
 The database for the online banking system must be highly available, scalable, and secure. It should support ACID properties to ensure transaction integrity. The database must enforce strong data encryption both at rest and in transit, adhering to industry standards such as AES-256. Backup and recovery mechanisms should be in place to prevent data loss. 
 
-#### 6.2 Legal Requirements
+## 6.2 Legal Requirements
 
 The online banking system must comply with relevant financial regulations, including:
 
@@ -34,10 +34,7 @@ All user data must be securely stored and handled according to these legal stand
 
 #### Entity-Relationship Diagram (ERD)
 
-
-
-
-
+![[Database Systems - Group Project - Group 6 - Page 1.png]]
 ## Group Members
 Waduge S.S. - 220673K
 Harinakshi W.B.S.S - 220213D

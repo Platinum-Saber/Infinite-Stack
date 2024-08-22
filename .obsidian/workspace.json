@@ -8,19 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "85f4b29a8b334ada",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Other Requirements.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "e891528f9af586e4",
             "type": "leaf",
             "state": {
@@ -39,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SRS.md",
+                "file": "Other Requirements.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -47,7 +34,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -124,7 +111,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SRS.md"
+                "file": "Other Requirements.md"
               }
             }
           },
@@ -142,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SRS.md",
+                "file": "Other Requirements.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -181,12 +168,13 @@
   },
   "active": "9b0db38f73544d8d",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2024-08-22 13.38.19.excalidraw.md",
     "SRS.md",
-    "Excalidraw",
     "Other Requirements.md",
-    "System Features.md",
+    "Images/Database Systems - Group Project - Group 6 - Page 1.png",
     "SEM-3/CS3043-Database Systems/Group Project/Other Nonfunctional Requirements.md",
+    "Excalidraw/Drawing 2024-08-22 13.38.19.excalidraw.md",
+    "Excalidraw",
+    "System Features.md",
     "SEM-3/CS3043-Database Systems/Group Project/Introduction.md",
     "SEM-3/CS2033-Data Communication and Networking/Data Communication & Networking.md",
     "SEM-3/CS2053-Computer Architecture/Computer Architecture Introduction.md",
@@ -217,9 +205,7 @@
     "Images/Pasted image 20240821182354.png",
     "Images/Pasted image 20240821181238.png",
     "Images/Pasted image 20240821180325.png",
-    "Images/Pasted image 20240821180149.png",
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/1. The Zeroth Law of Thermodynamics.md",
-    "SEM-3/CS2953-Communication Skills/John F Kennedy Speech.md",
     "Images/L01.pdf",
     "Images/L06_mod.pdf",
     "Images/L06.pdf",
