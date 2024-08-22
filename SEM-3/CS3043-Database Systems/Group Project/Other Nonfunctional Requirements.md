@@ -2,7 +2,7 @@
 
 ## 5.1 Performance Requirements
 
--  The system must handle up to about 20,000 concurrent users. The system must have a peak load time of less than 2 seconds for any transaction-related operations.
+-  The system must handle up to about 10,000 concurrent users. The system must have a peak load time of less than 2 seconds for any transaction-related operations.
 
 - Database queries should return results within 1 second for most of the transactions and it should have a maximum of 2 seconds for complex queries.
 

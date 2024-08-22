@@ -47,7 +47,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -124,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "System Features.md"
+                "file": "SEM-3/CS3043-Database Systems/Group Project/Other Nonfunctional Requirements.md"
               }
             }
           },
@@ -142,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "System Features.md",
+                "file": "SEM-3/CS3043-Database Systems/Group Project/Other Nonfunctional Requirements.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,12 +179,12 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "e891528f9af586e4",
+  "active": "9b0db38f73544d8d",
   "lastOpenFiles": [
-    "SEM-3/CS3043-Database Systems/Group Project/Introduction.md",
-    "SEM-3/CS3043-Database Systems/Group Project/Other Nonfunctional Requirements.md",
-    "SRS.md",
     "System Features.md",
+    "SEM-3/CS3043-Database Systems/Group Project/Other Nonfunctional Requirements.md",
+    "SEM-3/CS3043-Database Systems/Group Project/Introduction.md",
+    "SRS.md",
     "SEM-3/CS2033-Data Communication and Networking/Data Communication & Networking.md",
     "SEM-3/CS2053-Computer Architecture/Computer Architecture Introduction.md",
     "SEM-3/CS2053-Computer Architecture/Instruction Set Architecture-RV.md",

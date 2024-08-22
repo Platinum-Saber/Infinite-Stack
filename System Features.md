@@ -302,158 +302,46 @@
 
 ## 4.7 Additional Features
 
-**1.**    **Online Banking Portal**
+### 4.7.1 Integration with external system
 
-4.7.1.1 Description and Priority
+#### 4.7.1.1 Description and Priority
 
-Description: The Online Banking Portal feature allows customers to manage their accounts, transfer funds, and apply for loans through a web interface. This feature is crucial for providing customers with a convenient and accessible banking experience.
+**Description**: This feature facilitates integration with the country’s common banking switch, enabling cross-bank transfers and ATM transactions. It is crucial for ensuring compliance with new regulations and broadening the bank's service capabilities.
 
-Priority: High
+**Priority**: *High*
 
-Benefit: 9 - Essential for customer convenience and competitiveness.
+**Benefit**: 9 - Essential for regulatory compliance and expanded banking services.
 
-Penalty: 8 - Absence would lead to limited customer access and satisfaction.
+**Penalty**: 8 - Lack of integration limits service offerings and regulatory compliance.
 
-Cost: 6 - Requires development of secure web interfaces and integration with backend systems.
+**Cost**: 7 - Involves development and testing of secure interfaces and protocols.
 
-Risk: 7 - High risk due to security concerns and the need for reliable functionality.
+**Risk**: 7 - High risk due to security concerns and potential for integration issues.
 
-4.7.1.2 Stimulus/Response Sequences
+#### 4.7.1.2 Stimulus/Response Sequences
 
-Stimulus: A customer logs into the online banking portal.
+**Stimulus**: A customer initiates a cross-bank transfer through the bank’s system.
+- **Response**: The system sends a request to the external banking switch, processes the response, and confirms the transaction to the customer.
 
-Response: The system verifies credentials and provides access to account management features.
+**Stimulus**: A customer uses an ATM to withdraw cash.
+- **Response**: The ATM system communicates with the bank’s core system to authorize the withdrawal and update the customer’s account balance.
 
-Stimulus: A customer initiates an internal fund transfer.
+**Stimulus**: The external banking switch sends transaction data to the bank’s system for reconciliation.
+- **Response**: The bank’s system processes the data, updates transaction records, and generates reconciliation reports.
 
-Response: The system processes the transfer, updates account balances, and confirms the transaction.
+**Stimulus**: An error occurs during the integration process (e.g., connection failure).
+- **Response**: The system logs the error, alerts technical support, and notifies the user of the issue.
 
-Stimulus: A customer applies for an online loan.
+#### 4.7.1.3 Functional Requirements
 
-Response: The system verifies FD status, processes the loan application, and deposits the loan amount into the customer’s linked Savings account if conditions are met.
+**REQ-1**: The system must implement secure communication protocols to interact with the external banking switch, including encryption and authentication mechanisms.
 
-Stimulus: A customer requests to view their account statements.
+**REQ-2**: The system must handle cross-bank transfer requests by sending appropriate messages to the external system, processing responses, and updating account balances accordingly.
 
-Response: The system retrieves and displays the statement for the selected account period.
+**REQ-3**: The system must support ATM transactions by communicating with the external system to authorize transactions and update account records.
 
-Stimulus: A customer encounters an error (e.g., invalid account number) while making a transfer.
+**REQ-4**: The system must process incoming data from the external banking switch for reconciliation purposes, updating internal records and generating necessary reports.
 
-Response: The system displays an error message and prompts the customer to correct the issue.
+**REQ-5**: The system must log all integration activities and errors for auditing and troubleshooting purposes.
 
-4.7.1.3 Functional Requirements
-
-REQ-1: The portal must provide secure authentication mechanisms, including username and password verification, to ensure only authorized access.
-
-REQ-2: The system must support internal fund transfers between accounts within the same bank, with real-time processing and confirmation of transactions.
-
-REQ-3: Customers must be able to apply for online loans if they have an existing FD, with instant processing and automatic deposit of loan amounts into the linked Savings account.
-
-REQ-4: The portal must display account balances, transaction histories, and account statements for all linked accounts.
-
-REQ-5: The system must handle error conditions gracefully, providing clear messages and allowing customers to retry or correct input errors.
-
-REQ-6: All transactions and loan applications must be logged for audit purposes, including user details and timestamps.
-
-REQ-7: The portal must offer customer support options, such as live chat or email, for assistance with issues or inquiries.
-
-REQ-8: The system must implement encryption and security measures to protect sensitive customer data and prevent unauthorized access.
-
-**2.**    **Integration with external system**
-
-4.7.2.1 Description and Priority
-
-Description: This feature facilitates integration with the country’s common banking switch, enabling cross-bank transfers and ATM transactions. It is crucial for ensuring compliance with new regulations and broadening the bank's service capabilities.
-
-Priority: High
-
-Benefit: 9 - Essential for regulatory compliance and expanded banking services.
-
-Penalty: 8 - Lack of integration limits service offerings and regulatory compliance.
-
-Cost: 7 - Involves development and testing of secure interfaces and protocols.
-
-Risk: 7 - High risk due to security concerns and potential for integration issues.
-
-4.7.2.2 Stimulus/Response Sequences
-
-Stimulus: A customer initiates a cross-bank transfer through the bank’s system.
-
-Response: The system sends a request to the external banking switch, processes the response, and confirms the transaction to the customer.
-
-Stimulus: A customer uses an ATM to withdraw cash.
-
-Response: The ATM system communicates with the bank’s core system to authorize the withdrawal and update the customer’s account balance.
-
-Stimulus: The external banking switch sends transaction data to the bank’s system for reconciliation.
-
-Response: The bank’s system processes the data, updates transaction records, and generates reconciliation reports.
-
-Stimulus: An error occurs during the integration process (e.g., connection failure).
-
-Response: The system logs the error, alerts technical support, and notifies the user of the issue.
-
-4.7.2.3 Functional Requirements
-
-REQ-1: The system must implement secure communication protocols to interact with the external banking switch, including encryption and authentication mechanisms.
-
-REQ-2: The system must handle cross-bank transfer requests by sending appropriate messages to the external system, processing responses, and updating account balances accordingly.
-
-REQ-3: The system must support ATM transactions by communicating with the external system to authorize transactions and update account records.
-
-REQ-4: The system must process incoming data from the external banking switch for reconciliation purposes, updating internal records and generating necessary reports.
-
-REQ-5: The system must log all integration activities and errors for auditing and troubleshooting purposes.
-
-REQ-6: The system must be capable of handling errors and exceptions gracefully, providing appropriate notifications and fallback mechanisms to ensure system reliability.
-
-REQ-7: The system must periodically test and validate the integration with external systems to ensure compliance and functionality.
-
-**3.**    **Regulatory compliance**
-
-4.7.3.1 Description and Priority
-
-Description: This feature ensures that the bank's core system complies with local financial regulations and reporting requirements. It encompasses aspects such as regulatory reporting, transaction limits, and audit trails.
-
-Priority: High
-
-Benefit: 9 - Critical for legal compliance and avoiding penalties.
-
-Penalty: 9 - Non-compliance could result in significant fines or legal issues.
-
-Cost: 6 - Involves costs for implementation and ongoing maintenance.
-
-Risk: 8 - High risk due to potential for regulatory changes and the need for accurate reporting.
-
-4.7.3.2 Stimulus/Response Sequences
-
-Stimulus: Regulatory authorities request a compliance report from the bank.
-
-Response: The system generates and submits the required report, including data on transactions, loans, and accounts, ensuring it meets the regulatory standards.
-
-Stimulus: A customer attempts a transaction that exceeds regulatory limits (e.g., large withdrawals or transfers).
-
-Response: The system flags the transaction, prevents it from proceeding if it violates limits, and generates an alert for review.
-
-Stimulus: The system receives a new regulatory update or change in compliance requirements.
-
-Response: The system is updated to incorporate the new requirements, and all relevant processes and reports are adjusted accordingly.
-
-Stimulus: An audit request is made by the regulatory body.
-
-Response: The system provides detailed audit trails and historical data, including user actions, transaction logs, and system changes.
-
-4.7.3.3 Functional Requirements
-
-REQ-1: The system must generate and submit compliance reports according to local financial regulations, including data on transactions, accounts, and loan activities.
-
-REQ-2: The system must enforce transaction limits and regulatory constraints (e.g., limits on withdrawals or transfers) and alert relevant personnel if limits are exceeded.
-
-REQ-3: The system must maintain comprehensive audit trails of all user actions, transactions, and system changes to facilitate regulatory audits.
-
-REQ-4: The system must be capable of integrating updates from regulatory bodies and adapting to changes in compliance requirements.
-
-REQ-5: The system must ensure data security and integrity in compliance with regulatory standards, including encryption of sensitive data and secure access controls.
-
-REQ-6: The system must provide mechanisms for monitoring and reporting compliance issues, including alerts for unusual activities or breaches of regulatory limits.
-
-REQ-7: The system must include procedures for periodic review and validation of compliance processes and reports to ensure ongoing adherence to regulatory requirements.
+**REQ-6**: The system must be capable of handling errors and exceptions, providing appropriate notifications and fallback mechanisms to ensure system reliability.
