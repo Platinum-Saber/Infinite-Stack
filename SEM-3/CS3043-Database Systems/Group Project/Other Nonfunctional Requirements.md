@@ -1,4 +1,4 @@
-# **5. Other Nonfunctional Requirements**
+# 5. Other Nonfunctional Requirements
 
 ## 5.1 Performance Requirements
 

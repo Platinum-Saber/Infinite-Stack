@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "20844e8e44d376eb",
+            "id": "cc2cb9ea9afcdd9e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM-3/CS3043-Database Systems/Group Project/External Interface Requirements (banking system).md",
+                "file": "SEM-3/CS3043-Database Systems/Group Project/Introduction.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "cc2cb9ea9afcdd9e",
+            "id": "85f4b29a8b334ada",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM-3/CS3043-Database Systems/Group Project/Overall Description.md",
+                "file": "SRS.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -111,7 +111,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM-3/CS3043-Database Systems/Group Project/Overall Description.md"
+                "file": "SRS.md"
               }
             }
           },
@@ -129,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM-3/CS3043-Database Systems/Group Project/Overall Description.md",
+                "file": "SRS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,10 +166,10 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "cc2cb9ea9afcdd9e",
+  "active": "85f4b29a8b334ada",
   "lastOpenFiles": [
-    "SRS.md",
     "SEM-3/CS3043-Database Systems/Group Project/Introduction.md",
+    "SRS.md",
     "SEM-3/CS3043-Database Systems/Group Project/Other Nonfunctional Requirements.md",
     "SEM-3/CS3043-Database Systems/Group Project/External Interface Requirements.md",
     "SEM-3/CS3043-Database Systems/Group Project/Overall Description.md",
