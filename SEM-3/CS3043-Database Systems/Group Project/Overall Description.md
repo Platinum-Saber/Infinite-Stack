@@ -28,58 +28,50 @@ The Bank Transaction and Loan Processing System is divided into several key func
 ### 2.2.1 Branch Management Use Cases
 
 - **Use case: Manage Branches**
-
-- **Description**: Allows the bank to manage branch-specific details, such as updating branch information, assigning branch managers, and maintaining employee records. This functionality is crucial for ensuring that each branch operates efficiently and complies with the bank's internal policies.
-- **Priority**: _High_
-- **Actors**: Branch Manager, System Administrator
+	- **Description**: Allows the bank to manage branch-specific details, such as updating branch information, assigning branch managers, and maintaining employee records. This functionality is crucial for ensuring that each branch operates efficiently and complies with the bank's internal policies.
+	- **Priority**: _High_
+	- **Actors**: Branch Manager, System Administrator
 
 ### 2.2.2 Account Management Use Cases
 
 - **Use case: Create and Manage Accounts**
-
-- **Description**: Supports the creation and ongoing management of customer accounts, including Savings Accounts, Checking Accounts, and Fixed Deposits. The system will enforce withdrawal limits for Savings Accounts and automatically calculate and apply interest rates based on the type of account.
-- **Priority**: _High_
-- **Actors**: Bank Employees, Customers
+	- **Description**: Supports the creation and ongoing management of customer accounts, including Savings Accounts, Checking Accounts, and Fixed Deposits. The system will enforce withdrawal limits for Savings Accounts and automatically calculate and apply interest rates based on the type of account.
+	- **Priority**: _High_
+	- **Actors**: Bank Employees, Customers
 
 - **Use case: Link Fixed Deposit to Savings Account**
-
-- **Description**: Allows customers to start Fixed Deposits linked to their Savings Accounts. The system will calculate interest on the Fixed Deposits monthly and deposit it into the linked Savings Account.
-- **Priority**: _High_
-- **Actors**: Bank Employees, Customers
+	- **Description**: Allows customers to start Fixed Deposits linked to their Savings Accounts. The system will calculate interest on the Fixed Deposits monthly and deposit it into the linked Savings Account.
+	- **Priority**: _High_
+	- **Actors**: Bank Employees, Customers
 
 - **Use case: Update Account Information**
-
-- **Description**: Enables bank employees to update account information, such as personal details, account status, and account type.
-- **Priority**: _Medium_
-- **Actors**: Bank Employees
+	- **Description**: Enables bank employees to update account information, such as personal details, account status, and account type.
+	- **Priority**: _Medium_
+	- **Actors**: Bank Employees
 
 ### 2.2.3 Internal Fund Transfers Use Case
 
 - **Use case: Transfer Funds**
-
-- **Description**: Enables customers to transfer funds between their accounts within the bank. This feature supports real-time processing, allowing for instant fund availability. The system will also ensure that no transaction fees are applied to these internal transfers.
-- **Priority**: _High_
-- **Actors**: Customers, Bank Employees
+	- **Description**: Enables customers to transfer funds between their accounts within the bank. This feature supports real-time processing, allowing for instant fund availability. The system will also ensure that no transaction fees are applied to these internal transfers.
+	- **Priority**: _High_
+	- **Actors**: Customers, Bank Employees
 
 ### 2.2.4 Loan Processing Use Cases
 
 - **Use case: Apply for Loan In-Branch**
-
-- **Description**: Allows customers to apply for loans directly at a branch with assistance from bank employees. Loan applications require branch manager approval before they can be processed further. This feature supports both personal and business loans, with customizable loan terms based on the customer’s profile.
-- **Priority**: _High_
-- **Actors**: Customers, Bank Employees, Branch Manager
+	- **Description**: Allows customers to apply for loans directly at a branch with assistance from bank employees. Loan applications require branch manager approval before they can be processed further. This feature supports both personal and business loans, with customizable loan terms based on the customer’s profile.
+	- **Priority**: _High_
+	- **Actors**: Customers, Bank Employees, Branch Manager
 
 - **Use case: Apply for Loan Online**
-
-- **Description**: Provides customers with the convenience of applying for loans online if they hold an existing Fixed Deposit with the bank. The system automates the approval process, leveraging predefined criteria, and does not require branch manager involvement for these cases.
-- **Priority**: _High_
-- **Actors**: Customers
+	- **Description**: Provides customers with the convenience of applying for loans online if they hold an existing Fixed Deposit with the bank. The system automates the approval process, leveraging predefined criteria, and does not require branch manager involvement for these cases.
+	- **Priority**: _High_
+	- **Actors**: Customers
 
 - **Use case: Calculate and Track Loan Installments**
-
-- **Description**: Once a loan is approved, the system will automatically calculate the monthly installments, schedule payment dates, and track each installment as it is paid. The system will generate reminders for customers and alerts for bank employees in case of missed payments.
-- **Priority**: _High_
-- **Actors**: Customers, Bank Employees
+	- **Description**: Once a loan is approved, the system will automatically calculate the monthly installments, schedule payment dates, and track each installment as it is paid. The system will generate reminders for customers and alerts for bank employees in case of missed payments.
+	- **Priority**: _High_
+	- **Actors**: Customers, Bank Employees
 
 ### 2.2.5 Reporting Use Cases
 

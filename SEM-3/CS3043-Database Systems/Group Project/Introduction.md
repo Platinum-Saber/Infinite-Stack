@@ -13,6 +13,11 @@ This document adheres to the following conventions:
 - _Italic_ text is used for emphasis.
 - Times New Roman font is used for general text.
 - Monospaced font is used for code snippets and system paths.
+- Priorities for requirements are indicated using the following format:
+	- **High**: Essential for initial release.
+	- **Medium**: Important but not critical.
+	- **Low**: Nice to have, will not impact the system significantly if omitted.
+- Each requirement statement is assigned its own priority, independent of higher-level requirements.
 
 ## 1.3 Intended Audience and Reading Suggestions
 
@@ -24,7 +29,7 @@ This SRS is intended for a diverse audience including:
 - **Testers**: To design and execute test cases based on the specified requirements.
 - **Documentation Writers**: To develop user manuals and help guides.
 
-Readers are advised to begin with section 1 for an introduction, followed by section 2 for a product description, and section 3 for Interface Requirements. Developers and testers should pay special attention to the System Features in section 4 and Other Nonfunctional Requirements in section 5.
+Readers are advised to begin with section 1 for an introduction, followed by section 2 for a product description, and section 3 for Interface Requirements. Developers and testers should pay special attention to the System Features in section 4 and Other Nonfunctional Requirements in section 5
 
 ## 1.4 Product Scope
 
