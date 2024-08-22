@@ -103,65 +103,63 @@
 
 **REQ-9**: The system shall ensure that all account actions adhere to the bank’s regulatory and operational policies, including fraud detection and anti-money laundering checks.
 
+<br>
+
 ## 4.3 Loan Management
 
-4.3.1 Description and Priority
+### 4.3.1 Description and Priority
 
-Description: The Loan Management feature allows bank employees and customers to apply for and manage loans, including Business and Personal loans. It also handles the calculation of loan installments, approval workflows, and the processing of loan payments. The system supports both branch-assisted loan applications and online self-service loan applications, with specific rules for each.
+**Description**: The Loan Management feature allows bank employees and customers to apply for and manage loans, including Business and Personal loans. It also handles the calculation of loan installments, approval workflows, and the processing of loan payments. The system supports both branch-assisted loan applications and online self-service loan applications, with specific rules for each.
 
-Priority: High
+**Priority**: *High*
 
-Benefit: 9 - Facilitates the bank’s ability to provide and manage loans efficiently, increasing customer satisfaction and revenue.
+**Benefit**: 9 - Facilitates the bank’s ability to provide and manage loans efficiently, increasing customer satisfaction and revenue.
 
-Penalty: 8 - Failure to manage loans properly can lead to financial losses, customer dissatisfaction, and legal risks.
+**Penalty**: 8 - Failure to manage loans properly can lead to financial losses, customer dissatisfaction, and legal risks.
 
-Cost: 7 - Requires secure and accurate handling of loan data, calculations, and approval processes.
+**Cost**: 7 - Requires secure and accurate handling of loan data, calculations, and approval processes.
 
-Risk: 8 - High risk due to potential fraud, mismanagement, or errors in loan calculations and approvals.
+**Risk**: 8 - High risk due to potential fraud, mismanagement, or errors in loan calculations and approvals.
 
-4.3.2 Stimulus/Response Sequences
+### 4.3.2 Stimulus/Response Sequences
 
-Stimulus: A customer applies for a Business loan at a branch.
+**Stimulus**: A customer applies for a Business loan at a branch.
+- **Response**: The system prompts the employee to fill in the loan application details, including the loan amount, purpose, and customer financial information. The application is then submitted for approval by the branch manager.
 
-Response: The system prompts the employee to fill in the loan application details, including the loan amount, purpose, and customer financial information. The application is then submitted for approval by the branch manager.
+**Stimulus**: A customer applies for a Personal loan online.
+- **Response**: The system checks if the customer has an existing Fixed Deposit (FD). If eligible, the system calculates the maximum loan amount based on the FD value (up to 60% of the FD amount, with a maximum of 500,000). Upon successful submission, the loan amount is automatically credited to the customer’s Savings account.
 
-Stimulus: A customer applies for a Personal loan online.
+**Stimulus**: A branch manager reviews a loan application.
+- **Response**: The system presents the loan details and allows the manager to approve or reject the application. Once approved, the loan is disbursed, and the system schedules the installment payments.
 
-Response: The system checks if the customer has an existing Fixed Deposit (FD). If eligible, the system calculates the maximum loan amount based on the FD value (up to 60% of the FD amount, with a maximum of 500,000). Upon successful submission, the loan amount is automatically credited to the customer’s Savings account.
+**Stimulus**: A customer makes a loan installment payment.
+- **Response**: The system updates the loan balance, marks the installment as paid, and generates a receipt for the customer. If the payment is late, the system may trigger additional fees or alerts.
 
-Stimulus: A branch manager reviews a loan application.
+### 4.3.3 Functional Requirements
 
-Response: The system presents the loan details and allows the manager to approve or reject the application. Once approved, the loan is disbursed, and the system schedules the installment payments.
+**REQ-1**: The system shall allow employees to create and submit loan applications with all necessary details, including customer information, loan type, amount, purpose, and repayment terms.
 
-Stimulus: A customer makes a loan installment payment.
+**REQ-2**: The system shall require approval from a branch manager for branch-assisted loan applications before disbursement.
 
-Response: The system updates the loan balance, marks the installment as paid, and generates a receipt for the customer. If the payment is late, the system may trigger additional fees or alerts.
+**REQ-3**: The system shall allow customers to apply for loans online, with automatic approval and disbursement based on predefined eligibility criteria (e.g., linked Fixed Deposit).
 
-4.3.3 Functional Requirements
+**REQ-4**: The system shall automatically calculate loan installment amounts, including interest, based on the loan amount and repayment period.
 
-REQ-1: The system shall allow employees to create and submit loan applications with all necessary details, including customer information, loan type, amount, purpose, and repayment terms.
+**REQ-5**: The system shall track loan payments and update the loan balance accordingly. It shall mark installments as paid when the customer makes a payment.
 
-REQ-2: The system shall require approval from a branch manager for branch-assisted loan applications before disbursement.
+**REQ-6**: The system shall generate alerts for late payments and calculate any applicable late fees.
 
-REQ-3: The system shall allow customers to apply for loans online, with automatic approval and disbursement based on predefined eligibility criteria (e.g., linked Fixed Deposit).
+**REQ-7**: The system shall maintain a history of all loan transactions and statuses for auditing and reporting purposes.
 
-REQ-4: The system shall automatically calculate loan installment amounts, including interest, based on the loan amount and repayment period.
-
-REQ-5: The system shall track loan payments and update the loan balance accordingly. It shall mark installments as paid when the customer makes a payment.
-
-REQ-6: The system shall generate alerts for late payments and calculate any applicable late fees.
-
-REQ-7: The system shall maintain a history of all loan transactions and statuses for auditing and reporting purposes.
-
-REQ-8: The system shall enforce a maximum loan amount for online applications (60% of the linked FD value, with an upper limit of 500,000).
+**REQ-8**: The system shall enforce a maximum loan amount for online applications (60% of the linked FD value, with an upper limit of 500,000).
 
 REQ-9: The system shall support the generation of branch-wise loan reports, including total loans disbursed, late installments, and approval rates, accessible only to branch managers.
 
 REQ-10: The system shall ensure compliance with all relevant financial regulations and include measures to prevent fraud and unauthorized access.
 
-**4.**    **Transaction Processing**
+## 4.4    Transaction Processing
 
-4.4.1 Description and Priority
+### 4.4.1 Description and Priority
 
 Description: The Transaction Processing feature handles all financial transactions within the bank’s Core Banking System (CBS), including deposits, withdrawals, and fund transfers between accounts. It supports both internal transactions within the same branch and transactions across different branches. This feature also includes ATM withdrawals and online fund transfers.
 
