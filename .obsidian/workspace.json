@@ -46,7 +46,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -123,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Other Requirements.md"
+                "file": "SRS.md"
               }
             }
           },
@@ -141,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Other Requirements.md",
+                "file": "SRS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,10 +179,10 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "85f4b29a8b334ada",
+  "active": "9b0db38f73544d8d",
   "lastOpenFiles": [
-    "SRS.md",
     "Other Requirements.md",
+    "SRS.md",
     "System Features.md",
     "SEM-3/CS3043-Database Systems/Group Project/Other Nonfunctional Requirements.md",
     "SEM-3/CS3043-Database Systems/Group Project/Introduction.md",
