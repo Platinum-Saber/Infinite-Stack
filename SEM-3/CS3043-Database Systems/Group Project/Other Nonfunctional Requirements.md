@@ -1,4 +1,5 @@
 # 5. Other Nonfunctional Requirements
+<br>
 
 ## 5.1 Performance Requirements
 
@@ -38,21 +39,18 @@
 2. **Reliability**
 	- The system should operate reliably, with a target of fewer than 5 critical failures per year. Any critical failure should be resolved within 1 hour.
 
-1. **Maintainability**
+3. **Maintainability**
 	- The system should be designed for ease of maintenance, allowing updates, bug fixes, and patches to be applied. The maintenance period should be minimal.
 
  4. **Scalability**
-- The system should be able for the addition of new branches, users, and transactions without a major rebuild of the system architecture.
+	 - The system should be able for the addition of new branches, users, and transactions without a major rebuild of the system architecture.
 
 5. **Usability**
-- The system should be user-friendly. It should require minimal training for employees and customers. The UI should be consistent across all platforms (desktop, web, and mobile).
-
-6. **Interoperability:** (mekt wen namak thyenwnm dann. Chatgpt apu ekak)
-- The system should be designed to integrate seamlessly with the country’s common banking switch. It should adhere to the required API standards and protocols.
+	- The system should be user-friendly. It should require minimal training for employees and customers. The UI should be consistent across all platforms (desktop, web, and mobile).
 
 ## 5.5 Business Rules
 
- - Only branch managers can approve loan applications, with the exception of online loan requests which are automatically approved if conditions are met. (automatically approve????)
+ - Only branch managers can approve loan applications, with the exception of online loan requests which are automatically approved if conditions are met. 
 
  - Customers must have an active Savings account to open a Fixed Deposit.
 
