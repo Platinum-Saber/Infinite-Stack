@@ -36,25 +36,25 @@ Response: The system verifies that the customer has no pending transactions or o
 
 ## 4.1.3 Functional Requirements
 
-REQ-1: The system shall allow employees to create new customer profiles, including fields for personal information (name, address, date of birth, identification number) or organizational information (organization name, registration number, contact details).
+**REQ-1**: The system shall allow employees to create new customer profiles, including fields for personal information (name, address, date of birth, identification number) or organizational information (organization name, registration number, contact details).
 
-REQ-2: The system shall allow customers to have multiple accounts across different branches, and each account must be linked to a customer profile.
+**REQ-2**: The system shall allow customers to have multiple accounts across different branches, and each account must be linked to a customer profile.
 
-REQ-3: The system shall allow employees to search and retrieve customer profiles using unique identifiers, such as customer ID or account number.
+**REQ-3**: The system shall allow employees to search and retrieve customer profiles using unique identifiers, such as customer ID or account number.
 
-REQ-4: The system shall enable employees to update existing customer profiles, with validation checks to ensure data integrity (e.g., valid phone number format, mandatory fields).
+**REQ-4**: The system shall enable employees to update existing customer profiles, with validation checks to ensure data integrity (e.g., valid phone number format, mandatory fields).
 
-REQ-5: The system shall log all actions performed on customer profiles, including creation, updates, and deletions, for audit purposes.
+**REQ-5**: The system shall log all actions performed on customer profiles, including creation, updates, and deletions, for audit purposes.
 
-REQ-6: The system shall enforce access controls to ensure that only authorized employees can view, create, or modify customer profiles.
+**REQ-6**: The system shall enforce access controls to ensure that only authorized employees can view, create, or modify customer profiles.
 
-REQ-7: The system shall ensure data consistency by maintaining foreign key relationships between customer profiles and associated accounts, transactions, and loans.
+**REQ-7**: The system shall ensure data consistency by maintaining foreign key relationships between customer profiles and associated accounts, transactions, and loans.
 
-REQ-8: The system shall validate and prevent the deletion of customer profiles that have active accounts, loans, or pending transactions.
+**REQ-8**: The system shall validate and prevent the deletion of customer profiles that have active accounts, loans, or pending transactions.
 
-REQ-9: The system shall support customer classification (individual or organization) and ensure that the appropriate fields and validation rules are applied based on the customer type.
+**REQ-9**: The system shall support customer classification (individual or organization) and ensure that the appropriate fields and validation rules are applied based on the customer type.
 
-**2.**    **Account management**
+4.2 Account management
 
 4.2.1 Description and Priority
 

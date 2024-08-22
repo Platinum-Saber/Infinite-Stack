@@ -1,4 +1,6 @@
 {
   "accentColor": "#3c7dd3",
-  "cssTheme": "AnuPpuccin"
+  "cssTheme": "AnuPpuccin",
+  "textFontFamily": "Times New Roman",
+  "interfaceFontFamily": "Times New Roman"
 }
