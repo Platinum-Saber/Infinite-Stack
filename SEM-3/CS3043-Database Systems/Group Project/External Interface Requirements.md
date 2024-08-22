@@ -10,7 +10,7 @@ The online banking system will provide a web-based user interface that allows us
 - **Notifications:** A section for displaying alerts, messages, and important notifications from the bank.
 - **Help and Support:** Access to customer support via chat, email, or phone, with a help section that includes FAQs and guides.
 - **Standard Buttons and Functions:** Consistent use of standard buttons like "Submit," "Cancel," and "Help" across all screens. Keyboard shortcuts for common actions (e.g., "Ctrl+T" for new transfer) will be provided.
-- **Error Messages:** Clear and concise error messages will be displayed when users encounter issues, with guidance on how to resolve them.
+- **Error Messages:** Clear and concise error messages will be displayed when users encounter issues.
 
 ## 3.2 Hardware Interfaces  
 The web app will primarily interact with client devices such as desktop computers, laptops, tablets, and smartphones. It will support modern web browsers on various operating systems (e.g., Windows, macOS, Android, iOS). Key hardware interface characteristics include:

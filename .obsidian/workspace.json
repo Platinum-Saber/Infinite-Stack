@@ -73,7 +73,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM-3/CS3043-Database Systems/Group Project/Introduction.md"
+                "file": "SEM-3/CS3043-Database Systems/Group Project/External Interface Requirements.md"
               }
             }
           },
@@ -168,7 +168,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM-3/CS3043-Database Systems/Group Project/Introduction.md",
+                "file": "SEM-3/CS3043-Database Systems/Group Project/External Interface Requirements.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -205,12 +205,12 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "efcdfd555d889412",
+  "active": "d5c12c9e32de0fd3",
   "lastOpenFiles": [
-    "SEM-3/CS3043-Database Systems/Group Project/Other Nonfunctional Requirements.md",
     "SEM-3/CS3043-Database Systems/Group Project/Introduction.md",
-    "SRS.md",
     "SEM-3/CS3043-Database Systems/Group Project/External Interface Requirements.md",
+    "SEM-3/CS3043-Database Systems/Group Project/Other Nonfunctional Requirements.md",
+    "SRS.md",
     "SEM-3/CS3043-Database Systems/Group Project/Overall Description.md",
     "Images/Project Description.pdf",
     "System Features.md",
