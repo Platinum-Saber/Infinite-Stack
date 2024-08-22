@@ -45,19 +45,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "1973229cf677ad10",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2024-08-22 13.38.19.excalidraw.md"
-              }
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -134,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Drawing 2024-08-22 13.38.19.excalidraw.md"
+                "file": "SRS.md"
               }
             }
           },
@@ -152,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/Drawing 2024-08-22 13.38.19.excalidraw.md",
+                "file": "SRS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -189,10 +179,10 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "1973229cf677ad10",
+  "active": "9b0db38f73544d8d",
   "lastOpenFiles": [
-    "SRS.md",
     "Excalidraw/Drawing 2024-08-22 13.38.19.excalidraw.md",
+    "SRS.md",
     "Excalidraw",
     "Other Requirements.md",
     "System Features.md",
