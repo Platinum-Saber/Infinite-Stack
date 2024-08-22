@@ -21,6 +21,19 @@
             }
           },
           {
+            "id": "e891528f9af586e4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "System Features.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "efcdfd555d889412",
             "type": "leaf",
             "state": {
@@ -45,22 +58,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "bcba4a761a5cf4ac",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "System Features.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -192,12 +192,14 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "bcba4a761a5cf4ac",
+  "active": "e891528f9af586e4",
   "lastOpenFiles": [
-    "SEM-3/CS3043-Database Systems/Group Project/Other Nonfunctional Requirements.md",
-    "SEM-3/CS3043-Database Systems/Group Project/Introduction.md",
     "SRS.md",
+    "SEM-3/CS3043-Database Systems/Group Project/Other Nonfunctional Requirements.md",
+    "SEM-3/CS2053-Computer Architecture/Computer Architecture Introduction.md",
+    "SEM-3/CS2053-Computer Architecture/Instruction Set Architecture-RV.md",
     "System Features.md",
+    "SEM-3/CS3043-Database Systems/Group Project/Introduction.md",
     "SEM-3/CS3043-Database Systems/Group Project/External Interface Requirements.md",
     "SEM-3/CS3043-Database Systems/Group Project/Overall Description.md",
     "Images/Project Description.pdf",
@@ -236,7 +238,6 @@
     "Images/ch6.pptx",
     "SEM-3/CS2953-Communication Skills/The Gettysburg Address.md",
     "SEM-3/CS2953-Communication Skills",
-    "![[lecture.md",
     "Images/lecture 3.mp4",
     "Images/lecture 1.mp4",
     "Work Space.canvas",

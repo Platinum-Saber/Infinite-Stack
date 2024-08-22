@@ -18,21 +18,17 @@
 
 ## 4.1.2 Stimulus/Response Sequences
 
-Stimulus: A customer visits a branch to open a new account.
+**Stimulus**: A customer visits a branch to open a new account.
+- **Response**: The system prompts the bank employee to create a new customer profile by entering personal or organizational details, such as name, address, and identification information. Once the profile is created, the customer can proceed to open an account.
 
-Response: The system prompts the bank employee to create a new customer profile by entering personal or organizational details, such as name, address, and identification information. Once the profile is created, the customer can proceed to open an account.
+**Stimulus**: A customer requests to update their personal details, such as address or phone number.
+- **Response**: The system allows the bank employee to search for the customer profile and update the necessary information. The system saves the changes and logs the update.
 
-Stimulus: A customer requests to update their personal details, such as address or phone number.
+**Stimulus**: A bank employee needs to retrieve a customer’s profile for verification during a transaction.
+- **Response**: The system searches the database based on customer ID or other identifiers, retrieves the profile, and displays it for the employee’s review.
 
-Response: The system allows the bank employee to search for the customer profile and update the necessary information. The system saves the changes and logs the update.
-
-Stimulus: A bank employee needs to retrieve a customer’s profile for verification during a transaction.
-
-Response: The system searches the database based on customer ID or other identifiers, retrieves the profile, and displays it for the employee’s review.
-
-Stimulus: A customer requests to close their account and delete their profile.
-
-Response: The system verifies that the customer has no pending transactions or obligations (e.g., loans), and then proceeds to deactivate the profile and associated accounts.
+**Stimulus**: A customer requests to close their account and delete their profile.
+- **Response**: The system verifies that the customer has no pending transactions or obligations (e.g., loans), and then proceeds to deactivate the profile and associated accounts.
 
 ## 4.1.3 Functional Requirements
 
@@ -54,9 +50,9 @@ Response: The system verifies that the customer has no pending transactions or o
 
 **REQ-9**: The system shall support customer classification (individual or organization) and ensure that the appropriate fields and validation rules are applied based on the customer type.
 
-4.2 Account management
+## 4.2 Account management
 
-4.2.1 Description and Priority
+### 4.2.1 Description and Priority
 
 Description: The Account Management feature enables the bank to manage customer accounts, including the creation, updating, and closure of Savings, Checking, and Fixed Deposit accounts. It also includes functionalities to monitor account activities such as deposits, withdrawals, and transfers. This feature is essential for ensuring that customer accounts are properly maintained and that transactions are accurately recorded.
 
