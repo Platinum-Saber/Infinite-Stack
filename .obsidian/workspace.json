@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SRS.md",
+                "file": "Other Requirements.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -123,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SRS.md"
+                "file": "Other Requirements.md"
               }
             }
           },
@@ -141,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SRS.md",
+                "file": "Other Requirements.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,8 +180,9 @@
   },
   "active": "85f4b29a8b334ada",
   "lastOpenFiles": [
-    "System Features.md",
     "SRS.md",
+    "Other Requirements.md",
+    "System Features.md",
     "SEM-3/CS3043-Database Systems/Group Project/Other Nonfunctional Requirements.md",
     "SEM-3/CS3043-Database Systems/Group Project/Introduction.md",
     "SEM-3/CS2033-Data Communication and Networking/Data Communication & Networking.md",
@@ -222,7 +223,6 @@
     "Images/L06.pdf",
     "Images/~$ch6.pptx",
     "Images/ch6.pptx",
-    "SEM-3/CS2953-Communication Skills/The Gettysburg Address.md",
     "SEM-3/CS2953-Communication Skills",
     "Images/lecture 3.mp4",
     "Images/lecture 1.mp4",
