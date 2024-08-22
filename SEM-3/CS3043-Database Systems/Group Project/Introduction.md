@@ -8,9 +8,10 @@ This Software Requirements Specification (SRS) document outlines the requirement
 
 This document adheres to the following conventions:
 
-- **Bold** text is used for headings and key terms.
+- Heading styles are used for headings 
+- **Bold** text is used for key terms.
 - _Italic_ text is used for emphasis.
-- Monospaced font is used for code snippets and system paths.
+- Times font is used for code snippets and system paths.
 - Priorities for requirements are indicated using the following format:
 
 - **High**: Essential for initial release.

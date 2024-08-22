@@ -8,19 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "cc2cb9ea9afcdd9e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SEM-3/CS3043-Database Systems/Group Project/Introduction.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "85f4b29a8b334ada",
             "type": "leaf",
             "state": {
@@ -32,9 +19,61 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "9b0db38f73544d8d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SEM-3/CS3043-Database Systems/Group Project/Other Nonfunctional Requirements.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d5c12c9e32de0fd3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SEM-3/CS3043-Database Systems/Group Project/External Interface Requirements.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bcba4a761a5cf4ac",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SEM-3/CS3043-Database Systems/Group Project/Overall Description.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d5109df9378d5be8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SEM-3/CS3043-Database Systems/Group Project/Introduction.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -111,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SRS.md"
+                "file": "SEM-3/CS3043-Database Systems/Group Project/Introduction.md"
               }
             }
           },
@@ -129,7 +168,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SRS.md",
+                "file": "SEM-3/CS3043-Database Systems/Group Project/Introduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,11 +205,11 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "85f4b29a8b334ada",
+  "active": "d5109df9378d5be8",
   "lastOpenFiles": [
-    "SEM-3/CS3043-Database Systems/Group Project/Introduction.md",
-    "SRS.md",
     "SEM-3/CS3043-Database Systems/Group Project/Other Nonfunctional Requirements.md",
+    "SRS.md",
+    "SEM-3/CS3043-Database Systems/Group Project/Introduction.md",
     "SEM-3/CS3043-Database Systems/Group Project/External Interface Requirements.md",
     "SEM-3/CS3043-Database Systems/Group Project/Overall Description.md",
     "SEM-3/CS3043-Database Systems/Group Project/External Interface Requirements (banking system).md",
