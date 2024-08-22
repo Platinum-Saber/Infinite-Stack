@@ -25,9 +25,9 @@ The online banking system will interact with several software components, includ
 - **Operating Systems:** Compatibility with popular operating systems like Windows, macOS, Android, and iOS.
 - **Databases:** Integration with secure databases for storing user data, transaction records, and account details. The system will use APIs to communicate with the database, ensuring data consistency and integrity.
 - **Payment Gateways:** Interfaces to connect with third-party payment gateways for processing payments and transfers.
-- **External APIs:** Interaction with external services like credit bureaus, KYC (Know Your Customer) verification services, and SMS/email notification services.
+- **External APIs:** Interaction with external services like credit bureaus, and SMS/email notification services.
 - **Web Servers:** The system will run on secure web servers, utilizing HTTPS for encrypted communication.
-- **Libraries and Frameworks:** The application will leverage modern web development frameworks (e.g., React, Angular) and libraries (e.g., jQuery) for enhanced functionality and user experience.
+- **Libraries and Frameworks:** The application will leverage modern web development frameworks (React) and libraries for enhanced functionality and user experience.
 
 ## 3.4 Communications Interfaces  
 The online banking system will require various communication functions to operate efficiently. These include:
