@@ -153,59 +153,55 @@
 
 **REQ-8**: The system shall enforce a maximum loan amount for online applications (60% of the linked FD value, with an upper limit of 500,000).
 
-REQ-9: The system shall support the generation of branch-wise loan reports, including total loans disbursed, late installments, and approval rates, accessible only to branch managers.
+**REQ-9**: The system shall support the generation of branch-wise loan reports, including total loans disbursed, late installments, and approval rates, accessible only to branch managers.
 
-REQ-10: The system shall ensure compliance with all relevant financial regulations and include measures to prevent fraud and unauthorized access.
+**REQ-10**: The system shall ensure compliance with all relevant financial regulations and include measures to prevent fraud and unauthorized access.
 
 ## 4.4    Transaction Processing
 
 ### 4.4.1 Description and Priority
 
-Description: The Transaction Processing feature handles all financial transactions within the bank’s Core Banking System (CBS), including deposits, withdrawals, and fund transfers between accounts. It supports both internal transactions within the same branch and transactions across different branches. This feature also includes ATM withdrawals and online fund transfers.
+**Description**: The Transaction Processing feature handles all financial transactions within the bank’s Core Banking System (CBS), including deposits, withdrawals, and fund transfers between accounts. It supports both internal transactions within the same branch and transactions across different branches. This feature also includes ATM withdrawals and online fund transfers.
 
-Priority: High
+**Priority**: *High*
 
-Benefit: 9 - Enables essential banking operations, improving customer experience and operational efficiency.
+**Benefit**: 9 - Enables essential banking operations, improving customer experience and operational efficiency.
 
-Penalty: 9 - Failure in transaction processing could lead to financial losses, customer dissatisfaction, and legal issues.
+**Penalty**: 9 - Failure in transaction processing could lead to financial losses, customer dissatisfaction, and legal issues.
 
-Cost: 8 - Requires secure and accurate processing of transactions with minimal downtime.
+**Cost**: 8 - Requires secure and accurate processing of transactions with minimal downtime.
 
-Risk: 8 - High risk due to the critical nature of transaction processing, potential for fraud, and the need for data consistency and security.
+**Risk**: 8 - High risk due to the critical nature of transaction processing, potential for fraud, and the need for data consistency and security.
 
-4.4.2 Stimulus/Response Sequences
+### 4.4.2 Stimulus/Response Sequences
 
-Stimulus: A customer initiates a fund transfer to another account within the same branch.
+**Stimulus**: A customer initiates a fund transfer to another account within the same branch.
+- **Response**: The system verifies the account details, checks the balance, and processes the transfer. Both accounts are updated immediately, and a transaction receipt is generated.
 
-Response: The system verifies the account details, checks the balance, and processes the transfer. Both accounts are updated immediately, and a transaction receipt is generated.
+**Stimulus**: A customer withdraws cash from an ATM.
+- **Response**: The system checks the account balance, processes the withdrawal, updates the account, and issues a receipt. The system also records the transaction in the customer’s account history.
 
-Stimulus: A customer withdraws cash from an ATM.
+**Stimulus**: A customer transfers funds online to another account within the same bank.
+- **Response**: The system verifies the recipient’s account, checks the sender’s balance, processes the transfer, updates both accounts, and sends a confirmation to the customer.
 
-Response: The system checks the account balance, processes the withdrawal, updates the account, and issues a receipt. The system also records the transaction in the customer’s account history.
+**Stimulus**: A customer deposits cash at a branch.
+- **Response**: The system updates the customer’s account balance, generates a deposit receipt, and records the transaction in the account history.
 
-Stimulus: A customer transfers funds online to another account within the same bank.
+### 4.4.3 Functional Requirements
 
-Response: The system verifies the recipient’s account, checks the sender’s balance, processes the transfer, updates both accounts, and sends a confirmation to the customer.
+**REQ-1**: The system shall allow customers to initiate deposits, withdrawals, and fund transfers at branches, ATMs, and through online banking.
 
-Stimulus: A customer deposits cash at a branch.
+**REQ-2**: The system shall validate account details and available balances before processing any transaction to ensure sufficient funds and prevent overdrafts.
 
-Response: The system updates the customer’s account balance, generates a deposit receipt, and records the transaction in the account history.
+**REQ-3**: The system shall update account balances in real-time upon the completion of a transaction.
 
-4.4.3 Functional Requirements
+**REQ-4**: The system shall record all transactions with a unique transaction ID, timestamp, and details of the transaction (amount, type, involved accounts, etc.).
 
-REQ-1: The system shall allow customers to initiate deposits, withdrawals, and fund transfers at branches, ATMs, and through online banking.
+**REQ-5**: The system shall generate receipts for all transactions, whether completed at a branch, ATM, or online.
 
-REQ-2: The system shall validate account details and available balances before processing any transaction to ensure sufficient funds and prevent overdrafts.
+**REQ-6**: The system shall support cross-branch fund transfers, ensuring that the correct branches are debited and credited.
 
-REQ-3: The system shall update account balances in real-time upon the completion of a transaction.
-
-REQ-4: The system shall record all transactions with a unique transaction ID, timestamp, and details of the transaction (amount, type, involved accounts, etc.).
-
-REQ-5: The system shall generate receipts for all transactions, whether completed at a branch, ATM, or online.
-
-REQ-6: The system shall support cross-branch fund transfers, ensuring that the correct branches are debited and credited.
-
-REQ-7: The system shall implement security measures such as encryption, multi-factor authentication, and fraud detection to protect transaction integrity and customer data.
+**REQ-7**: The system shall implement security measures such as encryption, multi-factor authentication, and fraud detection to protect transaction integrity and customer data.
 
 REQ-8: The system shall handle transaction failures gracefully, providing clear error messages and rollback mechanisms to maintain data consistency.
 
