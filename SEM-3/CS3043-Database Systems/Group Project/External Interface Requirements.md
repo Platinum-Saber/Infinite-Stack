@@ -27,7 +27,7 @@ The online banking system will interact with several software components, includ
 - **Payment Gateways:** Interfaces to connect with third-party payment gateways for processing payments and transfers.
 - **External APIs:** Interaction with external services like credit bureaus, and SMS/email notification services.
 - **Web Servers:** The system will run on secure web servers, utilizing HTTPS for encrypted communication.
-- **Libraries and Frameworks:** The application will leverage modern web development frameworks (React) and libraries for enhanced functionality and user experience.
+- **Libraries and Frameworks:** The application will leverage modern web development frameworks (e.g. React) and libraries for enhanced functionality and user experience.
 
 ## 3.4 Communications Interfaces  
 The online banking system will require various communication functions to operate efficiently. These include:
@@ -36,4 +36,4 @@ The online banking system will require various communication functions to operat
 - **Email and SMS Notifications:** The system will send transactional alerts, OTPs (One-Time Passwords), and other notifications via email and SMS. These communications will follow standard formats like SMTP for emails and SMS gateways for text messages.
 - **API Communication:** The app will communicate with external APIs over RESTful services, using JSON or XML for data interchange. The APIs will be secured using OAuth or other authentication mechanisms.
 - **Data Synchronization:** Real-time data synchronization will be implemented between the client and server, ensuring that user actions (e.g., initiating a transfer) are reflected instantly across all devices.
-- **Security Protocols:** The system will use strong encryption algorithms (e.g., AES-256) for data at rest and in transit, and will adhere to industry standards like PCI DSS for handling payment information.
+- **Security Protocols:** The system will use strong encryption algorithms for data at rest and in transit, and will adhere to industry standards like PCI DSS for handling payment information.

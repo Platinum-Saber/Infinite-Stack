@@ -4,19 +4,19 @@
 
 ### 4.1.1 Description and Priority
 
-Description: The Customer Management feature allows the bank to manage customer data, including the creation, updating, and deletion of customer profiles. It supports the classification of customers as either individuals or organizations (e.g., NGOs, companies), and handles the association of customers with multiple accounts across different branches.
+**Description**: The Customer Management feature allows the bank to manage customer data, including the creation, updating, and deletion of customer profiles. It supports the classification of customers as either individuals or organizations (e.g., NGOs, companies), and handles the association of customers with multiple accounts across different branches.
 
-Priority: High
+**Priority**: *High*
 
-Benefit: 9 - Ensures that accurate customer data is maintained, which is critical for all banking operations.
+**Benefit**: 9 - Ensures that accurate customer data is maintained, which is critical for all banking operations.
 
-Penalty: 8 - Inconsistent or incorrect customer data can lead to errors in transactions, account management, and loan processing.
+**Penalty**: 8 - Inconsistent or incorrect customer data can lead to errors in transactions, account management, and loan processing.
 
-Cost: 6 - Involves designing a robust database structure and secure access controls.
+**Cost:** 6 - Involves designing a robust database structure and secure access controls.
 
-Risk: 7 - Data integrity and security are paramount, as customer data is sensitive and must comply with regulations.
+**Risk**: 7 - Data integrity and security are paramount, as customer data is sensitive and must comply with regulations.
 
-4.1.2 Stimulus/Response Sequences
+## 4.1.2 Stimulus/Response Sequences
 
 Stimulus: A customer visits a branch to open a new account.
 
@@ -34,7 +34,7 @@ Stimulus: A customer requests to close their account and delete their profile.
 
 Response: The system verifies that the customer has no pending transactions or obligations (e.g., loans), and then proceeds to deactivate the profile and associated accounts.
 
-           4.1.3 Functional Requirements
+## 4.1.3 Functional Requirements
 
 REQ-1: The system shall allow employees to create new customer profiles, including fields for personal information (name, address, date of birth, identification number) or organizational information (organization name, registration number, contact details).
 

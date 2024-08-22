@@ -47,19 +47,6 @@
             }
           },
           {
-            "id": "d5c12c9e32de0fd3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SEM-3/CS3043-Database Systems/Group Project/External Interface Requirements.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "bcba4a761a5cf4ac",
             "type": "leaf",
             "state": {
@@ -150,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM-3/CS3043-Database Systems/Group Project/External Interface Requirements.md"
+                "file": "System Features.md"
               }
             }
           },
@@ -168,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM-3/CS3043-Database Systems/Group Project/External Interface Requirements.md",
+                "file": "System Features.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -205,13 +192,13 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "d5c12c9e32de0fd3",
+  "active": "bcba4a761a5cf4ac",
   "lastOpenFiles": [
+    "SEM-3/CS3043-Database Systems/Group Project/Other Nonfunctional Requirements.md",
+    "SEM-3/CS3043-Database Systems/Group Project/Introduction.md",
+    "SRS.md",
     "System Features.md",
     "SEM-3/CS3043-Database Systems/Group Project/External Interface Requirements.md",
-    "SEM-3/CS3043-Database Systems/Group Project/Introduction.md",
-    "SEM-3/CS3043-Database Systems/Group Project/Other Nonfunctional Requirements.md",
-    "SRS.md",
     "SEM-3/CS3043-Database Systems/Group Project/Overall Description.md",
     "Images/Project Description.pdf",
     "SEM-3/CS3043-Database Systems/Group Project/External Interface Requirements (banking system).md",
