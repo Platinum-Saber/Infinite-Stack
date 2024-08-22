@@ -76,19 +76,11 @@ The Bank Transaction and Loan Processing System is divided into several key func
 ### 2.2.5 Reporting Use Cases
 
 - **Use case: Generate Branch-Wise Transaction Report**
-
-- **Description**: Branch managers can generate detailed reports of all transactions that occurred within their branch during a specified period. These reports are essential for internal audits and compliance with regulatory requirements.
-- **Priority**: _Medium_
-- **Actors**: Branch Manager, System Administrator
+	- **Description**: Branch managers can generate detailed reports of all transactions that occurred within their branch during a specified period. These reports are essential for internal audits and compliance with regulatory requirements.
+	- **Priority**: _Medium_
+	- **Actors**: Branch Manager, System Administrator
 
 - **Use case: Generate Branch-Wise Loan Installment Report**
-
-- **Description**: This feature allows branch managers to generate reports on loan installments, focusing on payments that are late or missed. These reports help the branch manager take necessary actions to ensure loan recovery.
-- **Priority**: _Medium_
-- **Actors**: Branch Manager
-
-- **Use case: Generate Regulatory Compliance Report**
-
-- **Description**: The system will generate reports required by Seychelles’ financial authorities to ensure the bank’s operations comply with national regulations.
-- **Priority**: _High_
-- **Actors**: Branch Manager, System Administrator
+	- **Description**: This feature allows branch managers to generate reports on loan installments, focusing on payments that are late or missed. These reports help the branch manager take necessary actions to ensure loan recovery.
+	- **Priority**: _Medium_
+	- **Actors**: Branch Manager

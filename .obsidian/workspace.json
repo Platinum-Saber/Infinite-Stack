@@ -14,19 +14,19 @@
               "type": "markdown",
               "state": {
                 "file": "SRS.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           },
           {
-            "id": "d8172e6e6a1dc11b",
+            "id": "efcdfd555d889412",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM-3/CS3043-Database Systems/Group Project/Overall Description.md",
+                "file": "SEM-3/CS3043-Database Systems/Group Project/Introduction.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM-3/CS3043-Database Systems/Group Project/Overall Description.md"
+                "file": "SEM-3/CS3043-Database Systems/Group Project/Introduction.md"
               }
             }
           },
@@ -168,7 +168,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM-3/CS3043-Database Systems/Group Project/Overall Description.md",
+                "file": "SEM-3/CS3043-Database Systems/Group Project/Introduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -205,14 +205,15 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "d8172e6e6a1dc11b",
+  "active": "efcdfd555d889412",
   "lastOpenFiles": [
-    "SRS.md",
-    "SEM-3/CS3043-Database Systems/Group Project/Overall Description.md",
     "SEM-3/CS3043-Database Systems/Group Project/Other Nonfunctional Requirements.md",
-    "SEM-3/CS3043-Database Systems/Group Project/External Interface Requirements.md",
-    "System Features.md",
     "SEM-3/CS3043-Database Systems/Group Project/Introduction.md",
+    "SRS.md",
+    "SEM-3/CS3043-Database Systems/Group Project/External Interface Requirements.md",
+    "SEM-3/CS3043-Database Systems/Group Project/Overall Description.md",
+    "Images/Project Description.pdf",
+    "System Features.md",
     "SEM-3/CS3043-Database Systems/Group Project/External Interface Requirements (banking system).md",
     "SEM-3/CS3043-Database Systems/Relational Database Design.md",
     "SEM-3/CS3043-Database Systems/Introduction to SQL.md",
@@ -251,8 +252,6 @@
     "![[lecture.md",
     "Images/lecture 3.mp4",
     "Images/lecture 1.mp4",
-    "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/2. The First Law of Thermodynamics.md",
-    "Lec 04 - Laws of Thermodynamics - Episode 1.mp4",
     "Work Space.canvas",
     "Untitled.canvas"
   ]
