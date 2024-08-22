@@ -203,87 +203,81 @@
 
 **REQ-7**: The system shall implement security measures such as encryption, multi-factor authentication, and fraud detection to protect transaction integrity and customer data.
 
-REQ-8: The system shall handle transaction failures gracefully, providing clear error messages and rollback mechanisms to maintain data consistency.
+**REQ-8**: The system shall handle transaction failures gracefully, providing clear error messages and rollback mechanisms to maintain data consistency.
 
-REQ-9: The system shall be able to generate transaction reports for internal auditing and customer statements, accessible by authorized personnel.
+**REQ-9**: The system shall be able to generate transaction reports for internal auditing and customer statements, accessible by authorized personnel.
 
-REQ-10: The system shall ensure compliance with all relevant banking regulations and guidelines, particularly regarding transaction limits, fees, and reporting requirements.
+**REQ-10**: The system shall ensure compliance with all relevant banking regulations and guidelines, particularly regarding transaction limits, fees, and reporting requirements.
 
-**5.**    **Branch Management**
+## 4.5 Branch Management
 
-4.5.1 Description and Priority
+### 4.5.1 Description and Priority
 
-Description: The Branch Management feature enables the management of all bank branches, including the head office. It handles branch-specific data, employee assignments, and roles, including branch managers and their permissions. This feature also manages the network connections between branches and the head office, ensuring secure communication and data flow.
+**Description**: The Branch Management feature enables the management of all bank branches, including the head office. It handles branch-specific data, employee assignments, and roles, including branch managers and their permissions. 
 
-Priority: High
+**Priority**: *High*
 
-Benefit: 8 - Centralized management of branches increases efficiency and ensures that operations are consistent across all locations.
+**Benefit**: 8 - Centralized management of branches increases efficiency and ensures that operations are consistent across all locations.
 
-Penalty: 7 - Poor branch management can lead to operational inefficiencies, communication breakdowns, and security risks.
+**Penalty**: 7 - Poor branch management can lead to operational inefficiencies, communication breakdowns, and security risks.
 
-Cost: 6 - Involves setting up secure and reliable infrastructure for branch communication and management.
+**Cost**: 6 - Involves setting up secure and reliable infrastructure for branch communication and management.
 
-Risk: 7 - Medium risk due to the importance of consistent management across all branches, though mitigated by existing infrastructure.
+**Risk**: 7 - Medium risk due to the importance of consistent management across all branches, though mitigated by existing infrastructure.
 
-4.5.2 Stimulus/Response Sequences
+### 4.5.2 Stimulus/Response Sequences
 
-Stimulus: An administrator creates a new branch in the system.
+**Stimulus**: An administrator creates a new branch in the system.
+- **Response**: The system registers the new branch, assigns it a unique branch ID, and prompts the administrator to enter details such as branch manager, location, and employee assignments.
 
-Response: The system registers the new branch, assigns it a unique branch ID, and prompts the administrator to enter details such as branch manager, location, and employee assignments.
+**Stimulus**: A branch manager logs into the system to manage their branch's operations.
+- **Response**: The system authenticates the manager, grants access to branch-specific data, and allows the manager to view reports, manage employees, and oversee transactions.
 
-Stimulus: A branch manager logs into the system to manage their branch's operations.
+**Stimulus**: A branch needs to connect to the head office for data synchronization.
+- **Response**: The system establishes a secure connection through the leased line network, synchronizes the necessary data, and confirms the successful completion of the process.
 
-Response: The system authenticates the manager, grants access to branch-specific data, and allows the manager to view reports, manage employees, and oversee transactions.
+**Stimulus**: An employee is transferred from one branch to another.
+- **Response**: The system updates the employee's record, reassigns them to the new branch, and adjusts access permissions accordingly.
 
-Stimulus: A branch needs to connect to the head office for data synchronization.
+### 4.5.3 Functional Requirements
 
-Response: The system establishes a secure connection through the leased line network, synchronizes the necessary data, and confirms the successful completion of the process.
+**REQ-1**: The system shall allow administrators to create, update, and delete branch records, including assigning branch managers and specifying branch locations.
 
-Stimulus: An employee is transferred from one branch to another.
+**REQ-2**: The system shall ensure that each branch is assigned a unique branch ID, which is used in all transactions and reports to identify the branch.
 
-Response: The system updates the employee's record, reassigns them to the new branch, and adjusts access permissions accordingly.
+**REQ-3**: The system shall provide branch managers with access to branch-specific data and management tools, including employee management and transaction oversight.
 
-4.5.3 Functional Requirements
+**REQ-4**: The system shall support secure, encrypted communication between branches and the head office, ensuring data integrity and confidentiality during synchronization.
 
-REQ-1: The system shall allow administrators to create, update, and delete branch records, including assigning branch managers and specifying branch locations.
+**REQ-5**: The system shall allow the transfer of employees between branches, automatically updating their records and access permissions in the system.
 
-REQ-2: The system shall ensure that each branch is assigned a unique branch ID, which is used in all transactions and reports to identify the branch.
+**REQ-6**: The system shall log all changes made to branch management settings, including the creation, update, or deletion of branch records, and make these logs accessible for auditing purposes.
 
-REQ-3: The system shall provide branch managers with access to branch-specific data and management tools, including employee management and transaction oversight.
+**REQ-7**: The system shall allow branch managers to generate and view branch-specific reports, such as transaction summaries and loan installment statuses, to assist in branch operations.
 
-REQ-4: The system shall support secure, encrypted communication between branches and the head office, ensuring data integrity and confidentiality during synchronization.
+**REQ-8**: The system shall ensure compliance with all banking regulations related to branch operations, including reporting and data security standards.
 
-REQ-5: The system shall allow the transfer of employees between branches, automatically updating their records and access permissions in the system.
+## 4.6 Reporting and Analytics
 
-REQ-6: The system shall log all changes made to branch management settings, including the creation, update, or deletion of branch records, and make these logs accessible for auditing purposes.
+### 4.6.1 Description and Priority
 
-REQ-7: The system shall allow branch managers to generate and view branch-specific reports, such as transaction summaries and loan installment statuses, to assist in branch operations.
+**Description**: The Reporting and Analytics feature provides tools for generating and viewing various reports related to branch operations and loan statuses. It includes branch-specific transaction summaries and overdue loan installment reports. Only authorized users, specifically branch managers, can access these reports. This feature aids in operational oversight and decision-making by presenting key metrics and insights.
 
-REQ-8: The system shall include mechanisms for detecting and resolving any connectivity issues between branches and the head office, ensuring minimal downtime for branch operations.
+**Priority**: *High*
 
-REQ-9: The system shall ensure compliance with all banking regulations related to branch operations, including reporting and data security standards.
+**Benefit**: 9 - Essential for monitoring branch performance, ensuring compliance, and making informed management decisions.
 
-**6.**    **Reporting and Analytics**
+**Penalty**: 8 - Lack of reporting can lead to missed insights, inefficiencies, and compliance issues.
 
-4.6.1 Description and Priority
+**Cost**: 5 - Involves database design for report generation and implementation of access controls.
 
-Description: The Reporting and Analytics feature provides tools for generating and viewing various reports related to branch operations and loan statuses. It includes branch-specific transaction summaries and overdue loan installment reports. Only authorized users, specifically branch managers, can access these reports. This feature aids in operational oversight and decision-making by presenting key metrics and insights.
+**Risk**: 6 - Medium risk due to the need for accurate data representation and secure access to sensitive information.
 
-Priority: High
+### 4.6.2 Stimulus/Response Sequences
 
-Benefit: 9 - Essential for monitoring branch performance, ensuring compliance, and making informed management decisions.
+**Stimulus**: A branch manager requests a branch-wise total transaction report.
 
-Penalty: 8 - Lack of reporting can lead to missed insights, inefficiencies, and compliance issues.
-
-Cost: 5 - Involves database design for report generation and implementation of access controls.
-
-Risk: 6 - Medium risk due to the need for accurate data representation and secure access to sensitive information.
-
-4.6.2 Stimulus/Response Sequences
-
-Stimulus: A branch manager requests a branch-wise total transaction report.
-
-Response: The system generates the report based on transaction data from the branch and presents it in a readable format (e.g., PDF, Excel).
+**Response**: The system generates the report based on transaction data from the branch and presents it in a readable format (e.g., PDF, Excel).
 
 Stimulus: A branch manager requests a branch-wise late loan installment report.
 
