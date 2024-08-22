@@ -45,9 +45,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "1973229cf677ad10",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2024-08-22 13.38.19.excalidraw.md"
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -124,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SRS.md"
+                "file": "Excalidraw/Drawing 2024-08-22 13.38.19.excalidraw.md"
               }
             }
           },
@@ -142,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SRS.md",
+                "file": "Excalidraw/Drawing 2024-08-22 13.38.19.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,10 +189,12 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "9b0db38f73544d8d",
+  "active": "1973229cf677ad10",
   "lastOpenFiles": [
-    "Other Requirements.md",
     "SRS.md",
+    "Excalidraw/Drawing 2024-08-22 13.38.19.excalidraw.md",
+    "Excalidraw",
+    "Other Requirements.md",
     "System Features.md",
     "SEM-3/CS3043-Database Systems/Group Project/Other Nonfunctional Requirements.md",
     "SEM-3/CS3043-Database Systems/Group Project/Introduction.md",
@@ -218,7 +230,6 @@
     "Images/Pasted image 20240821180149.png",
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/1. The Zeroth Law of Thermodynamics.md",
     "SEM-3/CS2953-Communication Skills/John F Kennedy Speech.md",
-    "SEM-3/CS2953-Communication Skills/Resignation Speech of George Washington.md",
     "Images/L01.pdf",
     "Images/L06_mod.pdf",
     "Images/L06.pdf",
@@ -226,7 +237,6 @@
     "Images/ch6.pptx",
     "SEM-3/CS2953-Communication Skills",
     "Images/lecture 3.mp4",
-    "Images/lecture 1.mp4",
     "Work Space.canvas",
     "Untitled.canvas"
   ]
