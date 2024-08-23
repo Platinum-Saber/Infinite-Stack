@@ -2,5 +2,12 @@
   "defaultViewMode": "source",
   "alwaysUpdateLinks": true,
   "strictLineBreaks": false,
-  "attachmentFolderPath": "Images"
+  "attachmentFolderPath": "Images",
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 90
+  }
 }
