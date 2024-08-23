@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Other Requirements.md",
+                "file": "SEM-3/CS3043-Database Systems/Introduction to SQL.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#SQL",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -66,12 +66,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "b2aa869acde22062",
@@ -98,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Other Requirements.md"
+                "file": "SEM-3/CS3043-Database Systems/Introduction to SQL.md"
               }
             }
           },
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Other Requirements.md",
+                "file": "SEM-3/CS3043-Database Systems/Introduction to SQL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,13 +153,13 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "58ced38e823750e9",
+  "active": "54cc69cb6e429c75",
   "lastOpenFiles": [
+    "Other Requirements.md",
     "SRS.md",
     "SRS Document.md",
     "System Features.md",
     "Images/Database Systems - Group Project - Group 6 - Page 1.png",
-    "Other Requirements.md",
     "SEM-3/CS3043-Database Systems/Group Project/Other Nonfunctional Requirements.md",
     "Excalidraw/Drawing 2024-08-22 13.38.19.excalidraw.md",
     "Excalidraw",
