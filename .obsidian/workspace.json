@@ -19,8 +19,35 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "a3be239972e87daf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Other Requirements.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "99d2b18095ad24b8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SRS Document.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -49,7 +76,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#SQL",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -66,8 +93,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -98,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM-3/CS3043-Database Systems/Introduction to SQL.md"
+                "file": "SRS Document.md"
               }
             }
           },
@@ -116,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM-3/CS3043-Database Systems/Introduction to SQL.md",
+                "file": "SRS Document.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,26 +179,28 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "54cc69cb6e429c75",
+  "active": "99d2b18095ad24b8",
   "lastOpenFiles": [
-    "Other Requirements.md",
+    "Images/Database Systems - Group Project - Group 6 - Page 1 2.png",
+    "Images/Database Systems - Group Project - Group 6 - Page 1 1.png",
     "SRS.md",
+    "Other Requirements.md",
+    "SEM-3/CS3043-Database Systems/Group Project/Other Nonfunctional Requirements.md",
     "SRS Document.md",
     "System Features.md",
+    "SEM-3/CS3043-Database Systems/Group Project/External Interface Requirements.md",
+    "SEM-3/CS3043-Database Systems/Group Project/Overall Description.md",
+    "SEM-3/CS3043-Database Systems/Group Project/Introduction.md",
+    "SEM-3/CS3043-Database Systems/Introduction to SQL.md",
     "Images/Database Systems - Group Project - Group 6 - Page 1.png",
-    "SEM-3/CS3043-Database Systems/Group Project/Other Nonfunctional Requirements.md",
     "Excalidraw/Drawing 2024-08-22 13.38.19.excalidraw.md",
     "Excalidraw",
-    "SEM-3/CS3043-Database Systems/Group Project/Introduction.md",
     "SEM-3/CS2033-Data Communication and Networking/Data Communication & Networking.md",
     "SEM-3/CS2053-Computer Architecture/Computer Architecture Introduction.md",
     "SEM-3/CS2053-Computer Architecture/Instruction Set Architecture-RV.md",
-    "SEM-3/CS3043-Database Systems/Group Project/External Interface Requirements.md",
-    "SEM-3/CS3043-Database Systems/Group Project/Overall Description.md",
     "Images/Project Description.pdf",
     "SEM-3/CS3043-Database Systems/Group Project/External Interface Requirements (banking system).md",
     "SEM-3/CS3043-Database Systems/Relational Database Design.md",
-    "SEM-3/CS3043-Database Systems/Introduction to SQL.md",
     "SEM-3/CS3043-Database Systems/Intermediate SQL.md",
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Introduction to Thermodynamics.md",
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Thermodynamics.md",
@@ -192,8 +220,6 @@
     "Images/Pasted image 20240821183124.png",
     "Images/Pasted image 20240821182354.png",
     "Images/Pasted image 20240821181238.png",
-    "Images/Pasted image 20240821180325.png",
-    "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/1. The Zeroth Law of Thermodynamics.md",
     "Images/L01.pdf",
     "Images/L06_mod.pdf",
     "Images/L06.pdf",
