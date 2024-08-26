@@ -12,9 +12,16 @@ Reference Note : [Local Search](file:///E:%5CAcademics%5CSEM%203%5CCS3613-Introd
 # Content
 
 # Local Search
-> [!abstract] Characteristics of local search
-> - Use a single current state and move only to neighbors.
-> - No track of paths
-> - No track of the set of states that have been reached.
-> - Not systematicity --> 
-> 	- Might never explore a 
+> [!note] Characteristics of local search
+> - Use a *single current state* and move **only to neighbors**.
+> - **No** track of *paths*
+> - **No** track of the *set of states* that have been reached.
+> - **Not systematic** :luc_tag: 
+> 	- Might never explore a portion of the search space where the solution exists.
+
+> [!tip] Advantages
+> - **Use little space**.
+> - Can find *reasonable solutions* in **large** or **infinite**(continuous) **state spaces** for which the *other algorithms are unsuitable*.
+
+## Optimization
+- Local search is often suitable for 
