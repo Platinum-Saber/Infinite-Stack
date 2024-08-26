@@ -40,3 +40,14 @@ Reference Note : [Local Search](file:///E:%5CAcademics%5CSEM%203%5CCS3613-Introd
 > > [!info] Traveling Salesman Problem
 > > Find the shortest possible route that visits a set of cities exactly once. The state is the order of cities, and local search involves swapping the order of cities to find a shorter route.
 
+## Comparison With Tree Search
+> [!info] Tree Search 🔎 : 
+>- Typically **doesn't** start with a complete configuration.
+>- Has binary goal tests.
+>- Saves paths.
+
+> [!info] Local Search 🔎 :
+> Starts with a complete configuration.
+> Focuses on optimizing an objective function.
+> **Does not** save **paths**.
+
