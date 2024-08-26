@@ -76,9 +76,24 @@ Reference Note : [Local Search](file:///E:%5CAcademics%5CSEM%203%5CCS3613-Introd
 <br>
 
 ## Local Search Algorithms
-#### [[1. Hill Climbing Algorithm]]
-#### [[2. Simulated Annealing Algorithm]]
-#### [[3. Local Beam Search]]
-#### [[4. Generic Algorithms]]
+#### [[Hill Climbing Algorithm]]
+- A **greedy** local search that moves to the best neighboring state. Variants include **stochastic** *hill climbing*, **first-choice** *hill climbing*, and **random-restart** *hill climbing*.
+#### [[Simulated Annealing Algorithm]]
+- Combines hill climbing with random moves to avoid local maxima by *occasionally* **allowing worse moves**, with a probability that decreases over time.
+#### [[Local Beam Search]]
+- Keeps track of **multiple states** (k states) and explores their neighbors, selecting the best k successors.
+#### [[Generic Algorithms]]
+- Inspired by natural evolution, this method generates successors by **combining** *two parent states* using operations like **crossover** and **mutation**.
 
 
+# Questions
+### Question 1
+> [!faq]- What is the main difference between local search and traditional search algorithms?
+> - Local search focuses on a single current state and its neighbors, without keeping track of paths or multiple states, while traditional search algorithms keep track of paths and can backtrack.
+
+### Question 2
+> [!faq]- How does hill climbing differ from simulated annealing?
+> - Hill climbing is a greedy algorithm that always moves to a better state, while simulated annealing allows occasional moves to worse states to escape local maxima.
+
+### Question 3
+> [!]
