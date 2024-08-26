@@ -13,6 +13,7 @@ Reference Note : [Local Search](file:///E:%5CAcademics%5CSEM%203%5CCS3613-Introd
 
 # Local Search
 > [!note] Characteristics of local search
+> - It's a **Heuristic method**.
 > - Use a *single current state* and move **only to neighbors**.
 > - **No** track of *paths*
 > - **No** track of the *set of states* that have been reached.
