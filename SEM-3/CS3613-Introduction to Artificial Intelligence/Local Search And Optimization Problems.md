@@ -27,4 +27,12 @@ Reference Note : [Local Search](file:///E:%5CAcademics%5CSEM%203%5CCS3613-Introd
 ## Optimization
 - **Local search** is often *suitable for* **optimization problems**.
 - Search for the **best state** by optimizing an **objective function.**
-- 
+- Moves from the **current state** to a **successor state**.
+- A **successor** of state S is S with a **single element changed.**
+- **Low memory requirements**, because the search tree or graph is not maintained in memory (*paths are not saved*).
+
+> [!example]- Local search examples
+> > [!info] 8-Queens Problem
+> > Find a configuration of 8 queens on a chessboard such that no two queens attack each other. The state is represented by the positions of queens, and the search involves moving one queen at a time.
+> > > [!image]- 8 Queens diagran
+> > > ![[Pasted image 20240826112805.png]]
