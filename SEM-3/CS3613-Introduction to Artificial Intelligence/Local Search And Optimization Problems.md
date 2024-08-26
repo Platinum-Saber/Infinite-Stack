@@ -24,4 +24,6 @@ Reference Note : [Local Search](file:///E:%5CAcademics%5CSEM%203%5CCS3613-Introd
 > - Can find *reasonable solutions* in **large** or **infinite**(continuous) **state spaces** for which the *other algorithms are unsuitable*.
 
 ## Optimization
-- Local search is often suitable for 
+- **Local search** is often *suitable for* **optimization problems**.
+- Search for the **best state** by optimizing an **objective function.**
+- 
