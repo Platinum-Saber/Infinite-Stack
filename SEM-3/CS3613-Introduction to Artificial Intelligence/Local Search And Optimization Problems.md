@@ -1,5 +1,6 @@
-Related : #AI #AI/04 #SearchAlgorithms 
+Related : #AI #AI/04 #SearchAlgorithms #LocalSearch
 
+Reference Lecture : 
 Reference Note : [Local Search](file:///E:%5CAcademics%5CSEM%203%5CCS3613-Introduction%20to%20Artificial%20Intelligence%5CLecture%20note%5C04%20Local_Search.pdf)
 
 > [!file]- Lecture Note : Chapter 04
@@ -10,6 +11,19 @@ Reference Note : [Local Search](file:///E:%5CAcademics%5CSEM%203%5CCS3613-Introd
 <br>
 
 # Content
+1. [[#Local Search]]
+	- [[#Optimization]]
+	- [[#Comparison With Tree Search]]
+	- [[#Visualization]]
+	- [[#Local Search Algorithms]]
+		- [[#1. Hill Climbing Algorithm]]
+		- [[#2. Simulated Annealing Algorithm]]
+		- [[#3. Local Beam Search]]
+		- [[#4. Generic Algorithms]]
+
+---
+<br>
+<br>
 
 # Local Search
 > [!note] Characteristics of local search
@@ -62,3 +76,9 @@ Reference Note : [Local Search](file:///E:%5CAcademics%5CSEM%203%5CCS3613-Introd
 <br>
 
 ## Local Search Algorithms
+#### [[1. Hill Climbing Algorithm]]
+#### [[2. Simulated Annealing Algorithm]]
+#### [[3. Local Beam Search]]
+#### [[4. Generic Algorithms]]
+
+

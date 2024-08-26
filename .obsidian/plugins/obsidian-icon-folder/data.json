@@ -6,6 +6,7 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiFileCode",
       "SiProtondb",
       "FarNoteSticky",
       "LiStickyNote",
@@ -14,8 +15,7 @@
       "FiFile",
       "FiHome",
       "LiFolders",
-      "FiDatabase",
-      "SiLinux"
+      "FiDatabase"
     ],
     "recentlyUsedIconsSize": 10,
     "rules": [],
@@ -96,8 +96,8 @@
     "iconColor": "#bbc760"
   },
   "SEM-3/CS3613-Introduction to Artificial Intelligence/AI Introduction.md": "FiFile",
-  "SEM-3/CS3613-Introduction to Artificial Intelligence/Breadth-first Search.md": "FiFile",
-  "SEM-3/CS3613-Introduction to Artificial Intelligence/Depth-first Search.md": "FiFile",
+  "SEM-3/CS3613-Introduction to Artificial Intelligence/Breadth-first Search.md": "LiFileCode",
+  "SEM-3/CS3613-Introduction to Artificial Intelligence/Depth-first Search.md": "LiFileCode",
   "SEM-3/CS3613-Introduction to Artificial Intelligence/Intelligent Agents.md": "FiFile",
   "SEM-3/CS3613-Introduction to Artificial Intelligence/Solving Problems by Searching.md": "FiFile",
   "SEM-3/CS3613-Introduction to Artificial Intelligence/Uniform-cost Search.md": "FiFile",
@@ -141,5 +141,9 @@
     "iconName": "SiProtondb",
     "iconColor": "#a22f9e"
   },
-  "SEM-3/CS3613-Introduction to Artificial Intelligence/Local Search And Optimization Problems.md": "FiFile"
+  "SEM-3/CS3613-Introduction to Artificial Intelligence/Local Search And Optimization Problems.md": "FiFile",
+  "SEM-3/CS3613-Introduction to Artificial Intelligence/4. Generic Algorithms.md": "LiFileCode",
+  "SEM-3/CS3613-Introduction to Artificial Intelligence/3. Local Beam Search.md": "LiFileCode",
+  "SEM-3/CS3613-Introduction to Artificial Intelligence/2. Simulated Annealing Algorithm.md": "LiFileCode",
+  "SEM-3/CS3613-Introduction to Artificial Intelligence/1. Hill Climbing Algorithm.md": "LiFileCode"
 }

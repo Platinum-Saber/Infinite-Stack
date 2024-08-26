@@ -8,20 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "58ced38e823750e9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SEM-3/CS2043-Operating Systems/OS Introduction.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "99d2b18095ad24b8",
+            "id": "2ea1ce2bf7e84068",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -32,22 +19,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "2ea1ce2bf7e84068",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Solving Problems by Searching.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -179,18 +152,23 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "99d2b18095ad24b8",
+  "active": "2ea1ce2bf7e84068",
   "lastOpenFiles": [
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/Artificial Intelligence.md",
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/4. Generic Algorithms.md",
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/Local Search And Optimization Problems.md",
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/Solving Problems by Searching.md",
+    "SEM-3/CS2043-Operating Systems/OS Introduction.md",
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/3. Local Beam Search.md",
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/2. Simulated Annealing Algorithm.md",
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/1. Hill Climbing Algorithm.md",
+    "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Properties Of Pure Substances.md",
     "Images/Pasted image 20240826115501.png",
     "Images/Pasted image 20240826112805.png",
-    "SEM-3/CS3613-Introduction to Artificial Intelligence/Solving Problems by Searching.md",
-    "SEM-3/CS3613-Introduction to Artificial Intelligence/Local Search And Optimization Problems.md",
-    "SEM-3/CS3613-Introduction to Artificial Intelligence/Artificial Intelligence.md",
     "Images/04 Local_Search.pdf",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Breadth-first Search.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Depth-first Search.md",
     "Images/03 Searching.pdf",
-    "SEM-3/CS2043-Operating Systems/OS Introduction.md",
     "SEM-3/CS2053-Computer Architecture/Computer Architecture Introduction.md",
     "SEM-3/CS2053-Computer Architecture/Instruction Set Architecture-RV.md",
     "SEM-3/CS3043-Database Systems/Relational Database Design.md",
@@ -201,7 +179,6 @@
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Uniform-cost Search.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Intelligent Agents.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/AI Introduction.md",
-    "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Properties Of Pure Substances.md",
     "SEM-3/CS3043-Database Systems/Group Project/Other Requirements.md",
     "SRS.md",
     "SEM-3/CS3043-Database Systems/Group Project/System Features.md",
@@ -209,9 +186,6 @@
     "SEM-3/CS3043-Database Systems/Group Project/SRS Document.md",
     "Images/Database Systems - Group Project - Group 6 - Page 1 2.png",
     "Images/Database Systems - Group Project - Group 6 - Page 1 1.png",
-    "SEM-3/CS3043-Database Systems/Group Project/Other Nonfunctional Requirements.md",
-    "SEM-3/CS3043-Database Systems/Group Project/Overall Description.md",
-    "SEM-3/CS3043-Database Systems/Group Project/Introduction.md",
     "Images/Database Systems - Group Project - Group 6 - Page 1.png",
     "Excalidraw",
     "Images/Project Description.pdf",
@@ -221,7 +195,6 @@
     "Images/Pasted image 20240821184049.png",
     "Images/Pasted image 20240821184032.png",
     "Images/Pasted image 20240821184015.png",
-    "Images/Pasted image 20240821183124.png",
     "Images/L01.pdf",
     "Images/L06_mod.pdf",
     "Images/L06.pdf",
