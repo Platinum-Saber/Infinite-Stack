@@ -13,21 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM-3/CS3043-Database Systems/Introduction to SQL.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a3be239972e87daf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SEM-3/CS3043-Database Systems/Group Project/Other Requirements.md",
-                "mode": "source",
+                "file": "SEM-3/CS2043-Operating Systems/OS Introduction.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -39,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SRS.md",
+                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Local Search And Optimization Problems.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -47,7 +34,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -124,7 +111,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SRS.md"
+                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Local Search And Optimization Problems.md"
               }
             }
           },
@@ -142,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SRS.md",
+                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Local Search And Optimization Problems.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -181,37 +168,39 @@
   },
   "active": "99d2b18095ad24b8",
   "lastOpenFiles": [
-    "SEM-3/CS3043-Database Systems/Group Project/System Features.md",
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/Breadth-first Search.md",
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/Depth-first Search.md",
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/Local Search And Optimization Problems.md",
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/Artificial Intelligence.md",
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/Solving Problems by Searching.md",
+    "Images/03 Searching.pdf",
+    "SEM-3/CS2043-Operating Systems/OS Introduction.md",
+    "SEM-3/CS2053-Computer Architecture/Computer Architecture Introduction.md",
+    "SEM-3/CS2053-Computer Architecture/Instruction Set Architecture-RV.md",
     "SEM-3/CS3043-Database Systems/Relational Database Design.md",
-    "SEM-3/CS3043-Database Systems/Group Project/External Interface Requirements.md",
-    "SRS.md",
     "SEM-3/CS3043-Database Systems/Introduction to SQL.md",
-    "SEM-3/CS3043-Database Systems/Group Project/SRS Document.md",
     "SEM-3/CS3043-Database Systems/Intermediate SQL.md",
+    "SEM-3/CS3043-Database Systems/Database Systems Introduction.md",
+    "SEM-3/CS3043-Database Systems/Database Design Using the E-R Model.md",
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/Uniform-cost Search.md",
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/Intelligent Agents.md",
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/AI Introduction.md",
+    "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Properties Of Pure Substances.md",
+    "SEM-3/CS3043-Database Systems/Group Project/Other Requirements.md",
+    "SRS.md",
+    "SEM-3/CS3043-Database Systems/Group Project/System Features.md",
+    "SEM-3/CS3043-Database Systems/Group Project/External Interface Requirements.md",
+    "SEM-3/CS3043-Database Systems/Group Project/SRS Document.md",
     "Images/Database Systems - Group Project - Group 6 - Page 1 2.png",
     "Images/Database Systems - Group Project - Group 6 - Page 1 1.png",
-    "SEM-3/CS3043-Database Systems/Group Project/Other Requirements.md",
     "SEM-3/CS3043-Database Systems/Group Project/Other Nonfunctional Requirements.md",
     "SEM-3/CS3043-Database Systems/Group Project/Overall Description.md",
     "SEM-3/CS3043-Database Systems/Group Project/Introduction.md",
     "Images/Database Systems - Group Project - Group 6 - Page 1.png",
     "Excalidraw/Drawing 2024-08-22 13.38.19.excalidraw.md",
     "Excalidraw",
-    "SEM-3/CS2033-Data Communication and Networking/Data Communication & Networking.md",
-    "SEM-3/CS2053-Computer Architecture/Computer Architecture Introduction.md",
-    "SEM-3/CS2053-Computer Architecture/Instruction Set Architecture-RV.md",
     "Images/Project Description.pdf",
-    "SEM-3/CS3043-Database Systems/Group Project/External Interface Requirements (banking system).md",
-    "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Introduction to Thermodynamics.md",
-    "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Thermodynamics.md",
-    "SEM-3/CS2033-Data Communication and Networking/Data Com. & Networking Introduction.md",
-    "SEM-3/CS2043-Operating Systems/OS Introduction.md",
-    "SEM-3/CS2043-Operating Systems/Operating System Services.md",
-    "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Properties Of Pure Substances.md",
-    "SEM-3/CS2043-Operating Systems/System Daemons.md",
-    "SEM-3/CS2043-Operating Systems/Synchronization Tools.md",
     "SEM-3/CS3043-Database Systems/Group Project",
-    "SEM-3/CS2043-Operating Systems/Operating Systems.md",
     "Images/Pasted image 20240821185020.png",
     "Images/Pasted image 20240821184631.png",
     "Images/Pasted image 20240821184049.png",
@@ -225,7 +214,6 @@
     "Images/~$ch6.pptx",
     "Images/ch6.pptx",
     "SEM-3/CS2953-Communication Skills",
-    "Images/lecture 3.mp4",
     "Work Space.canvas",
     "Untitled.canvas"
   ]

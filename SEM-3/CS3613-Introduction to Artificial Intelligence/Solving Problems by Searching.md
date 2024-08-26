@@ -1,6 +1,10 @@
 
 Related : #AI #AI/03 #SearchAlgorithms
 
+Reference Note : [Searching](file:///E:%5CAcademics%5CSEM%203%5CCS3613-Introduction%20to%20Artificial%20Intelligence%5CLecture%20note%5C03%20Searching.pdf)
+
+> [!file]- Lecture Note : chapter 3
+> ![[03 Searching.pdf]]
 <br>
 
 ## Problem Solving Agents
@@ -142,4 +146,4 @@ Related : #AI #AI/03 #SearchAlgorithms
 
 <br>
 
-Up Next : [[]]
+Up Next : [[Local Search And Optimization Problems]]
