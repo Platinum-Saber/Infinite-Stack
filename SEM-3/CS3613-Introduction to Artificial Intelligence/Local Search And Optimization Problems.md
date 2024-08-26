@@ -51,3 +51,14 @@ Reference Note : [Local Search](file:///E:%5CAcademics%5CSEM%203%5CCS3613-Introd
 > Focuses on optimizing an objective function.
 > **Does not** save **paths**.
 
+<br>
+
+## Visualization
+- A one-dimensional state-space landscape in which elevation corresponds to the objective function. The aim is to find the global maximum
+
+> [!image]- Visualization diagram
+> ![[Pasted image 20240826115501.png]]
+
+<br>
+
+## Local Search Algorithms
