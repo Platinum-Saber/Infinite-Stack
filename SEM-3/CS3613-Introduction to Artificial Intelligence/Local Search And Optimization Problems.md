@@ -34,5 +34,9 @@ Reference Note : [Local Search](file:///E:%5CAcademics%5CSEM%203%5CCS3613-Introd
 > [!example]- Local search examples
 > > [!info] 8-Queens Problem
 > > Find a configuration of 8 queens on a chessboard such that no two queens attack each other. The state is represented by the positions of queens, and the search involves moving one queen at a time.
-> > > [!image]- 8 Queens diagran
+> > > [!image]- 8 Queens diagram
 > > > ![[Pasted image 20240826112805.png]]
+>  
+> > [!info] Traveling Salesman Problem
+> > Find the shortest possible route that visits a set of cities exactly once. The state is the order of cities, and local search involves swapping the order of cities to find a shorter route.
+
