@@ -1,5 +1,8 @@
 Related : #ComputerArchitecture #CA #CA/01
 
+Reference Note : [Introduction](file:///E:%5CAcademics%5CSEM%203%5CCS2053-Computer%20Architecture%5CLecture%20note%5C01%20-%20Introduction-RVFinal.pdf)
+
+
 <br>
 
 # Computer Architecture

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Local Search And Optimization Problems.md",
+                "file": "SEM-3/CS2053-Computer Architecture/Computer Architecture Introduction.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -97,7 +97,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Local Search And Optimization Problems.md"
+                "file": "SEM-3/CS2053-Computer Architecture/Computer Architecture Introduction.md"
               }
             }
           },
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Local Search And Optimization Problems.md",
+                "file": "SEM-3/CS2053-Computer Architecture/Computer Architecture Introduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,12 +154,15 @@
   },
   "active": "2ea1ce2bf7e84068",
   "lastOpenFiles": [
+    "SEM-3/CS2053-Computer Architecture/Instruction Set Architecture-RV.md",
+    "SEM-3/CS2053-Computer Architecture/Computer Architecture Introduction.md",
+    "SEM-3/CS2053-Computer Architecture/Computer Architecture.md",
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/Local Search And Optimization Problems.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Artificial Intelligence.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Hill Climbing Algorithm.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Simulated Annealing Algorithm.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Local Beam Search.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Generic Algorithms.md",
-    "SEM-3/CS3613-Introduction to Artificial Intelligence/Local Search And Optimization Problems.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Solving Problems by Searching.md",
     "SEM-3/CS2043-Operating Systems/OS Introduction.md",
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Properties Of Pure Substances.md",
@@ -169,8 +172,6 @@
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Breadth-first Search.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Depth-first Search.md",
     "Images/03 Searching.pdf",
-    "SEM-3/CS2053-Computer Architecture/Computer Architecture Introduction.md",
-    "SEM-3/CS2053-Computer Architecture/Instruction Set Architecture-RV.md",
     "SEM-3/CS3043-Database Systems/Relational Database Design.md",
     "SEM-3/CS3043-Database Systems/Introduction to SQL.md",
     "SEM-3/CS3043-Database Systems/Intermediate SQL.md",
@@ -183,7 +184,6 @@
     "SRS.md",
     "SEM-3/CS3043-Database Systems/Group Project/System Features.md",
     "SEM-3/CS3043-Database Systems/Group Project/External Interface Requirements.md",
-    "SEM-3/CS3043-Database Systems/Group Project/SRS Document.md",
     "Images/Database Systems - Group Project - Group 6 - Page 1 2.png",
     "Images/Database Systems - Group Project - Group 6 - Page 1 1.png",
     "Images/Database Systems - Group Project - Group 6 - Page 1.png",
