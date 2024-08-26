@@ -20,6 +20,13 @@ Reference Note : [Local Search](file:///E:%5CAcademics%5CSEM%203%5CCS3613-Introd
 		- [[#2. Simulated Annealing Algorithm]]
 		- [[#3. Local Beam Search]]
 		- [[#4. Generic Algorithms]]
+2. [[#Questions]]
+	- [[#Question 1]]
+	- [[#Question 2]]
+	- [[#Question 3]]
+	- [[#Question 4]]
+	- [[#Question 5]]
+
 
 ---
 <br>
@@ -96,4 +103,14 @@ Reference Note : [Local Search](file:///E:%5CAcademics%5CSEM%203%5CCS3613-Introd
 > - Hill climbing is a greedy algorithm that always moves to a better state, while simulated annealing allows occasional moves to worse states to escape local maxima.
 
 ### Question 3
-> [!]
+> [!faq]- What is the role of the objective function in local search?
+> The objective function measures the quality or preference of a state, guiding the search towards the best configuration.
+
+### Question 4
+> [!faq]- In what scenarios might random-restart hill climbing be effective?
+> It is effective in search spaces with many local maxima, as restarting the search from different points increases the chances of finding the global maximum.
+
+### Question 5
+> [!faq]- Explain the concept of ‘genetic algorithms’ and how they differ from other local search methods.
+> Genetic algorithms simulate evolution by generating new states through crossover and mutation of parent states, unlike other local search methods that typically move from one state to its neighbor.
+
