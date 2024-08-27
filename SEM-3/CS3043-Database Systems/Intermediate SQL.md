@@ -1,6 +1,14 @@
 #DatabaseSystems #DB #DB/05 #SQL
 
 # Content
+1. [[#Joined Relations]]
+	- [[#OUTER JOIN]]
+		- [[#LEFT OUTER JOIN]]
+		- [[#RIGHT OUTER JOIN]]
+		- [[#FULL OUTER JOIN]]
+	- [[#INNER JOIN]]
+2. [[#Views]]
+	1. 
 
 ---
 # Joined Relations
