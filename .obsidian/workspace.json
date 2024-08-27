@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM-3/CS3043-Database Systems/Intermediate SQL.md",
+                "file": "SEM-3/CS3043-Database Systems/Introduction to SQL.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -98,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM-3/CS3043-Database Systems/Intermediate SQL.md"
+                "file": "SEM-3/CS3043-Database Systems/Introduction to SQL.md"
               }
             }
           },
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM-3/CS3043-Database Systems/Intermediate SQL.md",
+                "file": "SEM-3/CS3043-Database Systems/Introduction to SQL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,6 +155,7 @@
   },
   "active": "2ea1ce2bf7e84068",
   "lastOpenFiles": [
+    "SEM-3/CS3043-Database Systems/Intermediate SQL.md",
     "SEM-3/CS3043-Database Systems/Introduction to SQL.md",
     "SEM-3/CS3043-Database Systems/Database systems.md",
     "SEM-3/CS2053-Computer Architecture/Memory Hierarchy.md",
@@ -177,7 +178,6 @@
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Depth-first Search.md",
     "Images/03 Searching.pdf",
     "SEM-3/CS3043-Database Systems/Relational Database Design.md",
-    "SEM-3/CS3043-Database Systems/Intermediate SQL.md",
     "SEM-3/CS3043-Database Systems/Database Systems Introduction.md",
     "SEM-3/CS3043-Database Systems/Database Design Using the E-R Model.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Uniform-cost Search.md",
