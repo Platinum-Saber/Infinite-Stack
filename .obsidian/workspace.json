@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "SEM-3/CS3043-Database Systems/Introduction to SQL.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -33,8 +33,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -112,7 +111,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM-3/CS3043-Database Systems/Intermediate SQL.md"
+                "file": "SEM-3/CS3043-Database Systems/Introduction to SQL.md"
               }
             }
           },
@@ -130,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM-3/CS3043-Database Systems/Intermediate SQL.md",
+                "file": "SEM-3/CS3043-Database Systems/Introduction to SQL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,10 +166,10 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "4eb6cc9abb341572",
+  "active": "2ea1ce2bf7e84068",
   "lastOpenFiles": [
-    "SEM-3/CS3043-Database Systems/Introduction to SQL.md",
     "SEM-3/CS3043-Database Systems/Intermediate SQL.md",
+    "SEM-3/CS3043-Database Systems/Introduction to SQL.md",
     "SEM-3/CS3043-Database Systems/Database systems.md",
     "SEM-3/CS2053-Computer Architecture/Memory Hierarchy.md",
     "SEM-3/CS2053-Computer Architecture/Computer Architecture.md",
