@@ -8,7 +8,10 @@
 		- [[#FULL OUTER JOIN]]
 	- [[#INNER JOIN]]
 2. [[#Views]]
-	1. 
+	- [[#VIEW Definition]]
+	- [[#View Dependencies]]
+	- [[#View Expansion]]
+	- [[#Updating a View]]
 
 ---
 # Joined Relations

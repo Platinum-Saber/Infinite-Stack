@@ -21,6 +21,7 @@ Reference Notes : [Online notes](https://www.w3schools.com/MySQL/mysql_join.asp)
 	- [[#Rename Operation]]
 	- [[#Ordering The Results]]
 	- [[#String Operations]]
+	- [[#Aggregate functions]]
 	- [[#GROUP BY Clause]]
 	- [[#HAVING Clause]]
 	- [[#NULL Values]]
@@ -333,7 +334,9 @@ Reference Notes : [Online notes](https://www.w3schools.com/MySQL/mysql_join.asp)
 > WHERE name LIKE "%dar%"
 > ```
 
-<br><br>
+<br>
+<br>
+
 ## Aggregate functions
 - Operates on the *multiset of values* of a **column** of a **relation**, and *return a value*.
 	- `AVG` : average value
