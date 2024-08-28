@@ -101,15 +101,10 @@
 >         for (int i = 0; i < numberOfPhilosophers; i++) {
 >             Fork leftFork = forks[i];
 >             Fork rightFork = forks[(i + 1) % numberOfPhilosophers];
-> 
 >             philosophers[i] = new Philosopher(leftFork, rightFork, i);
-> 
 >             philosophers[i].start();
-> 
 >         }
-> 
 >     }
-> 
 > }
 > ```
 
