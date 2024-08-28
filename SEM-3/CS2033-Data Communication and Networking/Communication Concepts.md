@@ -13,6 +13,7 @@ Reference Note  : [Communication Principals](file:///E:%5CAcademics%5CSEM%203%5C
 2. [[#Signals]]
 	1. [[#Types Of Signals]]
 	2. [[#Properties Of Periodic Signals]]
+	3. [[#]]
 
 ---
 
@@ -107,3 +108,11 @@ Reference Note  : [Communication Principals](file:///E:%5CAcademics%5CSEM%203%5C
 
 # Bandwidth 
 
+> [!info] Bandwidth (Analog)
+> The range of frequencies a medium can handle, measured in Hertz (Hz).
+
+> [!info] Bandwidth (Digital)
+> The maximum number of bits that can be transmitted over a medium.
+
+> [!image]- Bandwidth diagram
+> 
