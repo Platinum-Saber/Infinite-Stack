@@ -1,12 +1,23 @@
 Related : #DataCommunication #Networking #Networking/01
 
-Reference Video : 
-Reference Notes : 
+Reference Video :  _________
+Reference Notes : [Introduction](file:///E:%5CAcademics%5CSEM%203%5CCS2033-Data%20Communication%20and%20Networking%5CNew%20Lecture%20notes%5CL0-Introduction.pdf)
+
 
 ---
 <br>
 
 # Content
+1. [[#Data Communication & Networking]]
+	1. [[#Communication]]
+	2. [[#Network]]
+	3. [[#Layered Architecture]]
+	4. [[#OSI (Open System Interconnect) Model]]
+
+
+---
+
+<br>
 
 # Data Communication & Networking
 
@@ -165,4 +176,8 @@ Reference Notes :
 >>[!warning] Some widely used applications are standardized
 
 
+<br>
+
+---
+Up Next : [[Communication Concepts]]
 

@@ -6,6 +6,8 @@
 4. hold
 5. [[Synchronization Tools]]
 
-### Labs
+### In Class Activities
 1. [[L 01 - Dining Philosophers Problem]]
-2. 
+
+### Labs
+1. 

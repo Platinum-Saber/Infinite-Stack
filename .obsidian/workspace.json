@@ -13,20 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM-3/CS2033-Data Communication and Networking/Data Com. & Networking Introduction.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5357753558e59ea0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SEM-3/CS2033-Data Communication and Networking/Data Com. & Networking Introduction.md",
+                "file": "Communication Concepts.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -110,7 +97,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM-3/CS2033-Data Communication and Networking/Data Com. & Networking Introduction.md"
+                "file": "Communication Concepts.md"
               }
             }
           },
@@ -128,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM-3/CS2033-Data Communication and Networking/Data Com. & Networking Introduction.md",
+                "file": "Communication Concepts.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,34 +154,36 @@
   },
   "active": "9cd3b1512e28493e",
   "lastOpenFiles": [
-    "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Properties Of Pure Substances.md",
-    "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Introduction to Thermodynamics.md",
-    "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Laws of Thermodynamics.md",
-    "SEM-3/CS3043-Database Systems/Database Design Using the E-R Model.md",
-    "SEM-3/CS3043-Database Systems/Database Systems Introduction.md",
-    "SEM-3/CS3043-Database Systems/Introduction to SQL.md",
     "SEM-3/CS2033-Data Communication and Networking/Data Com. & Networking Introduction.md",
+    "Communication Concepts.md",
     "SEM-3/CS2033-Data Communication and Networking/Data Communication & Networking.md",
-    "SEM-3/CS3043-Database Systems/Database systems.md",
-    "SEM-3/CS3043-Database Systems/Intermediate SQL.md",
-    "SEM-3/CS3043-Database Systems/Relational Database Design.md",
     "SEM-3/CS2043-Operating Systems/Operating Systems.md",
-    "SEM-3/CS2043-Operating Systems/Labs/L 01 - Dining Philosophers Problem.md",
-    "SEM-3/CS2043-Operating Systems/Notes",
-    "SEM-3/CS2043-Operating Systems/Labs",
-    "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Energy Balance.md",
-    "SEM-3 INDEX.md",
-    "Infinite Stack.md",
-    "SEM-3/CS2053-Computer Architecture/Memory Hierarchy.md",
-    "SEM-3/CS2053-Computer Architecture/Computer Architecture.md",
+    "SEM-3/CS2043-Operating Systems/Notes/System Daemons.md",
+    "SEM-3/CS2043-Operating Systems/Notes/Synchronization Tools.md",
+    "SEM-3/CS2043-Operating Systems/Notes/Operating System Services.md",
+    "SEM-3/CS2043-Operating Systems/Notes/OS Introduction.md",
     "SEM-3/CS2053-Computer Architecture/Computer Architecture Introduction.md",
     "SEM-3/CS2053-Computer Architecture/Instruction Set Architecture-RV.md",
-    "SEM-3/CS3613-Introduction to Artificial Intelligence/Local Search And Optimization Problems.md",
-    "SEM-3/CS3613-Introduction to Artificial Intelligence/Artificial Intelligence.md",
-    "SEM-3/CS3613-Introduction to Artificial Intelligence/Hill Climbing Algorithm.md",
-    "SEM-3/CS3613-Introduction to Artificial Intelligence/Simulated Annealing Algorithm.md",
-    "SEM-3/CS3613-Introduction to Artificial Intelligence/Local Beam Search.md",
-    "SEM-3/CS3613-Introduction to Artificial Intelligence/Generic Algorithms.md",
+    "SEM-3/CS2053-Computer Architecture/Memory Hierarchy.md",
+    "SEM-3/CS3043-Database Systems/Database Design Using the E-R Model.md",
+    "SEM-3/CS3043-Database Systems/Database Systems Introduction.md",
+    "SEM-3/CS3043-Database Systems/Intermediate SQL.md",
+    "SEM-3/CS3043-Database Systems/Introduction to SQL.md",
+    "SEM-3/CS3043-Database Systems/Relational Database Design.md",
+    "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/1. The Zeroth Law of Thermodynamics.md",
+    "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/2. The First Law of Thermodynamics.md",
+    "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/3. The Second Law of Thermodynamics.md",
+    "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/4. The Third Law of Thermodynamics.md",
+    "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Basic Concepts of Thermodynamics.md",
+    "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Energy Balance.md",
+    "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Introduction to Thermodynamics.md",
+    "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Laws of Thermodynamics.md",
+    "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Properties Of Pure Substances.md",
+    "Excalidraw/Drawing 2024-08-22 13.38.19.excalidraw.md",
+    "Images/Project Description.pdf",
+    "Images/L0-Introduction.pdf",
+    "SEM-3/CS2043-Operating Systems/Notes",
+    "SEM-3/CS2043-Operating Systems/Labs",
     "Images/Pasted image 20240826115501.png",
     "Images/Pasted image 20240826112805.png",
     "Images/04 Local_Search.pdf",
@@ -203,7 +192,6 @@
     "Images/Database Systems - Group Project - Group 6 - Page 1 1.png",
     "Images/Database Systems - Group Project - Group 6 - Page 1.png",
     "Excalidraw",
-    "Images/Project Description.pdf",
     "SEM-3/CS3043-Database Systems/Group Project",
     "Images/Pasted image 20240821185020.png",
     "Images/Pasted image 20240821184631.png",
@@ -212,7 +200,6 @@
     "Images/Pasted image 20240821184015.png",
     "Images/L01.pdf",
     "Images/L06_mod.pdf",
-    "Images/L06.pdf",
     "Work Space.canvas",
     "Untitled.canvas"
   ]
