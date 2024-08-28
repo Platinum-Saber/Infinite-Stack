@@ -119,7 +119,6 @@
     "iconName": "SiHubspot",
     "iconColor": "#7284df"
   },
-  "SEM-3/CS2043-Operating Systems/OS Introduction.md": "FiFile",
   "SEM-3/CS2033-Data Communication and Networking/Data Communication & Networking.md": {
     "iconName": "SiHubspot",
     "iconColor": "#3656d9"
@@ -134,9 +133,6 @@
   "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Properties Of Pure Substances.md": "FiFile",
   "SEM-3/CS3043-Database Systems/Intermediate SQL.md": "FiFile",
   "SEM-3/CS2953-Communication Skills": "FasCommentDots",
-  "SEM-3/CS2043-Operating Systems/Synchronization Tools.md": "FiFile",
-  "SEM-3/CS2043-Operating Systems/Operating System Services.md": "FiFile",
-  "SEM-3/CS2043-Operating Systems/System Daemons.md": "FarNoteSticky",
   "SRS.md": {
     "iconName": "SiProtondb",
     "iconColor": "#a22f9e"
@@ -146,5 +142,9 @@
   "SEM-3/CS3613-Introduction to Artificial Intelligence/Local Beam Search.md": "LiFileCode",
   "SEM-3/CS3613-Introduction to Artificial Intelligence/Simulated Annealing Algorithm.md": "LiFileCode",
   "SEM-3/CS3613-Introduction to Artificial Intelligence/Hill Climbing Algorithm.md": "LiFileCode",
-  "SEM-3/CS2053-Computer Architecture/Memory Hierarchy.md": "FiFile"
+  "SEM-3/CS2053-Computer Architecture/Memory Hierarchy.md": "FiFile",
+  "SEM-3/CS2043-Operating Systems/Notes/System Daemons.md": "FarNoteSticky",
+  "SEM-3/CS2043-Operating Systems/Notes/Synchronization Tools.md": "FiFile",
+  "SEM-3/CS2043-Operating Systems/Notes/OS Introduction.md": "FiFile",
+  "SEM-3/CS2043-Operating Systems/Notes/Operating System Services.md": "FiFile"
 }
