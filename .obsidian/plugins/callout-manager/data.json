@@ -4,7 +4,8 @@
       "image",
       "file",
       "code",
-      "url"
+      "url",
+      "equation"
     ],
     "settings": {
       "info": [
@@ -56,6 +57,20 @@
           "changes": {
             "icon": "link",
             "color": "122, 194, 230"
+          }
+        }
+      ],
+      "equation": [
+        {
+          "changes": {
+            "color": "143, 232, 180"
+          }
+        }
+      ],
+      "warning": [
+        {
+          "changes": {
+            "color": "240, 130, 40"
           }
         }
       ]
