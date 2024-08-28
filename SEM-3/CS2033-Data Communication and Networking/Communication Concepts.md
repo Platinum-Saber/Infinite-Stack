@@ -138,13 +138,25 @@ Reference Note  : [Communication Principals](file:///E:%5CAcademics%5CSEM%203%5C
 > Where $B$ is the number of **different** signal components.
 > $$\therefore \ n\ =\ \log_2{B}$$
 > 
-> Suppose the baud rate is $2f$
-> $Data\ Rate\ =\ Baud\ Rate\ ×\ n$
+>- Suppose the baud rate is $2f$
+> $Data\ Rate\ =\ Baud\ Rate\ ×\ n$
 > $$Data\ Rate\ = 2\ f\ \log_2{B}$$
 
+<br>
+
+# Sampling
+> [!note]- Sampling overview
+> Sampling is a fundamental concept in digital signal processing that involves **converting a continuous-time (analog) signal into a discrete-time (digital) signal**. This process is essential because digital systems, such as **computers, can only process discrete data**. Sampling enables the representation of analog signals in a form suitable for digital processing, storage, and transmission. 
 
 
+- At the receiver the signals must be sampled and **converted** to the corresponding bit stream.
+- Sampling should happen at **at-least** *the same rate* as the **Baud Rate**.
 
+<br>
+
+# Signal to Noise Ratio
+- Ratio between the signal power and the noise power.
+- Measured in dB.
 
 
 
