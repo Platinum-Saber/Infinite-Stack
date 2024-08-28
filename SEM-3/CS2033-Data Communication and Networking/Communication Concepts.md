@@ -66,10 +66,29 @@ Reference Note  : [Communication Principals](file:///E:%5CAcademics%5CSEM%203%5C
 <br>
 
 ## Properties Of Periodic Signals
-- **Amplitude**: The strength of the wave at a given time, measured in volts (v), amperes (A), or decibels (dB).
+
+- **Amplitude**: 
+	The *strength of the wave* at a given time, measured in volts (v), amperes (A), or decibels (dB).
 > [!image]- Amplitude diagram
-> 
-- 
+> ![[Pasted image 20240828161942.png]]
+
+
+- **Period (T)**: 
+	*Time* between two *consecutive similar points* in the wave; time taken for the pattern to repeat.
+> [!image]- Period diagram
+> ![[Pasted image 20240828162032.png]]
+
+- **Frequency (f)**: 
+	Number of *oscillations* per second, measured in Hertz (Hz). $f = \frac{1}{T}$​.
+> [!image]- Frequency diagram
+> ![[Pasted image 20240828162247.png]]
+
+- **Phase**: 
+	The difference between two waves. Two waves are **in phase** if they *reach corresponding points simultaneously;* otherwise, they are **out of phase**.
+> [!image]- Phase diagram
+> ![[Pasted image 20240828162618.png]]
+
+- **Wavelength (λ)**: The physical distance between matching points of adjacent cycles of the waveform. It is related to the speed of the signal $(c)$ and frequency $(f)$ by $λ = c /f  \lambda = \frac{c}{f}λ=fc​.
 
 
 
