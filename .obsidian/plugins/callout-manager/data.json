@@ -63,6 +63,7 @@
       "equation": [
         {
           "changes": {
+            "icon": "lucide-sigma-square",
             "color": "143, 232, 180"
           }
         }

@@ -131,5 +131,20 @@ Reference Note  : [Communication Principals](file:///E:%5CAcademics%5CSEM%203%5C
 # Data Rate
 - **Data Rate** refers to the amount of data transmitted over a communication medium per unit time.
 - Typically measured in **bits per second (bps)**.
-> [!equation] Related equations
+
+> [!equation]- Equations
+>-  If the number of bits carried in a signal component (element) is n,
+> $B = 2^n$
+> Where $B$ is the number of **different** signal components.
+> $$\therefore \ n\ =\ \log_2{B}$$
+> 
+> Suppose the baud rate is $2f$
+> $Data\ Rate\ =\ Baud\ Rate\ ×\ n$
+> $$Data\ Rate\ = 2\ f\ \log_2{B}$$
+
+
+
+
+
+
 
