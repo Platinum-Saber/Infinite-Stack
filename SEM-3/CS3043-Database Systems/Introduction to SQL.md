@@ -1,7 +1,7 @@
 
 Related : #DatabaseSystems #DB #DB/03 #SQL
 
-[Reference video](https://www.youtube.com/watch?v=7S_tz1z_5bA)
+Reference Video : [Online video](https://www.youtube.com/watch?v=7S_tz1z_5bA)
 Reference Notes : [Online notes](https://www.w3schools.com/MySQL/mysql_join.asp)
 
 <br>
