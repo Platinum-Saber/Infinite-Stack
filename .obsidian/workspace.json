@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM-3/CS2033-Data Communication and Networking/Communication Concepts.md",
+                "file": "SEM-3/CS2033-Data Communication and Networking/Encoding & Modulation.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -97,7 +97,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM-3/CS2033-Data Communication and Networking/Communication Concepts.md"
+                "file": "SEM-3/CS2033-Data Communication and Networking/Encoding & Modulation.md"
               }
             }
           },
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM-3/CS2033-Data Communication and Networking/Communication Concepts.md",
+                "file": "SEM-3/CS2033-Data Communication and Networking/Encoding & Modulation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,8 +152,10 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "9cd3b1512e28493e",
+  "active": "671fcfcc9244e77e",
   "lastOpenFiles": [
+    "SEM-3/CS2033-Data Communication and Networking/Communication Concepts.md",
+    "SEM-3/CS2033-Data Communication and Networking/Encoding & Modulation.md",
     "Images/Pasted image 20240828170544.png",
     "Images/Pasted image 20240828170131.png",
     "SEM-3/CS2033-Data Communication and Networking/Data Com. & Networking Introduction.md",
@@ -162,7 +164,6 @@
     "SEM-3/CS2053-Computer Architecture/Memory Hierarchy.md",
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Properties Of Pure Substances.md",
     "SEM-3/CS2043-Operating Systems/Labs/L 01 - Dining Philosophers Problem.md",
-    "SEM-3/CS2033-Data Communication and Networking/Communication Concepts.md",
     "Images/Fourier note.pdf",
     "Images/Pasted image 20240828163655.png",
     "Images/Pasted image 20240828163059.png",
@@ -172,7 +173,6 @@
     "Images/Pasted image 20240828161942.png",
     "Images/Pasted image 20240828161248.png",
     "Images/Pasted image 20240828161137.png",
-    "Images/Pasted image 20240828155533.png",
     "SEM-3/CS2033-Data Communication and Networking/Data Communication & Networking.md",
     "SEM-3/CS2043-Operating Systems/Operating Systems.md",
     "SEM-3/CS2043-Operating Systems/Notes/System Daemons.md",

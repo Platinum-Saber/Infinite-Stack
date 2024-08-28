@@ -174,3 +174,7 @@ Reference Note  : [Communication Principals](file:///E:%5CAcademics%5CSEM%203%5C
 > [!equation]- Max data rate
 > $$data\ rate\ =\ bandwidth\ *\ \log_2{(1\ +\ \frac{S}{N})}$$
 
+<br>
+
+---
+Up Next : [[Encoding & Modulation]]
