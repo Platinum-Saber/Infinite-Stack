@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Communication Concepts.md",
+                "file": "SEM-3/CS2033-Data Communication and Networking/Communication Concepts.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -97,7 +97,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Communication Concepts.md"
+                "file": "SEM-3/CS2033-Data Communication and Networking/Communication Concepts.md"
               }
             }
           },
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Communication Concepts.md",
+                "file": "SEM-3/CS2033-Data Communication and Networking/Communication Concepts.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,9 +154,9 @@
   },
   "active": "9cd3b1512e28493e",
   "lastOpenFiles": [
-    "SEM-3/CS2033-Data Communication and Networking/Data Com. & Networking Introduction.md",
-    "Communication Concepts.md",
     "SEM-3/CS2033-Data Communication and Networking/Data Communication & Networking.md",
+    "SEM-3/CS2033-Data Communication and Networking/Communication Concepts.md",
+    "SEM-3/CS2033-Data Communication and Networking/Data Com. & Networking Introduction.md",
     "SEM-3/CS2043-Operating Systems/Operating Systems.md",
     "SEM-3/CS2043-Operating Systems/Notes/System Daemons.md",
     "SEM-3/CS2043-Operating Systems/Notes/Synchronization Tools.md",
