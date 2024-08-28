@@ -80,8 +80,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -167,7 +166,7 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "5357753558e59ea0",
+  "active": "671fcfcc9244e77e",
   "lastOpenFiles": [
     "SEM-3/CS3043-Database Systems/Introduction to SQL.md",
     "SEM-3/CS3043-Database Systems/Intermediate SQL.md",
