@@ -1,9 +1,15 @@
 
 ## Dining Philosophers Problem
 
-**Problem**: The Dining Philosophers Problem 
+**Problem** 
+- The Dining Philosophers Problem 
 
-**Scenario**: Five philosophers are seated at a round table, each with a plate of spaghetti in front of them. There is one fork between each pair of philosophers. To eat, a philosopher needs to use two forks: one from their left and one from their right.
+<br>
+
+**Scenario**
+- Five philosophers are seated at a round table, each with a plate of spaghetti in front of them. There is one fork between each pair of philosophers. To eat, a philosopher needs to use two forks: one from their left and one from their right.
+
+<br>
 
 **Implementation**:
 
@@ -205,6 +211,8 @@
 - *Minimize Starvation*:
 	 - avoid starvation, philosophers will wait, ready to take the fork once one philosopher keeps it back.
 	- Has used a randomized sleeping time for each thread to be put to sleep, so that the access to forks is randomized.
+
+<br>
 
 **GROUP 7**
 - Waduge S.S. - 220673K
