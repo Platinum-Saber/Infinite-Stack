@@ -1,7 +1,13 @@
 
 ## Dining Philosophers Problem
 
-> [!code]- Solution
+**Problem**: The Dining Philosophers Problem 
+
+**Scenario**: Five philosophers are seated at a round table, each with a plate of spaghetti in front of them. There is one fork between each pair of philosophers. To eat, a philosopher needs to use two forks: one from their left and one from their right.
+
+**Implementation**:
+
+> [!code] Solution
 > ```java
 > class Fork {
 > 
@@ -187,14 +193,21 @@
 > ```
 
 
-Problem: The Dining Philosophers Problem 
-Scenario: Five philosophers are seated at a round table, each with a plate of spaghetti in front of them. There is one fork between each pair of philosophers. To eat, a philosopher needs to use two forks: one from their left and one from their right.
-Implementation:
-Solution Approach and Explanation:
+<br>
+
+**Solution Approach and Explanation**:
 - We need to manage access to shared resources, which is fork in this case, such that all philosophers gets a chance to eat(that is , to prevent starvation ) and all philosophers do not get stuck at a time (that is to prevent deadlock).
 - We consider each philosopher as a single thread and each fork as a mutex.
-- Avoiding deadlock:
+
+- *Avoiding deadlock*:
 	o	To avoid deadlock we have made the first four philosophers take their left fork and the fifth philosopher take the right fork.
 
-- Avoid Starvation:
-	o	To avoid starvation, philosophers will wait, ready to take the fork once one philosopher keeps it back.
+- *Minimize Starvation*:
+	 - avoid starvation, philosophers will wait, ready to take the fork once one philosopher keeps it back.
+	- Has used a randomized sleeping time for each thread to be put to sleep, so that the access to forks is randomized.
+
+**GROUP 7**
+- Waduge S.S. - 220673K
+- Vidyananda H.K.H - 220666R
+- Kavinda L.G.L - 220316V
+- Chathurangi K.L. - 220087R
