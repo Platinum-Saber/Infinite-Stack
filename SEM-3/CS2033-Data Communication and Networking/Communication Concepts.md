@@ -129,3 +129,6 @@ Reference Note  : [Communication Principals](file:///E:%5CAcademics%5CSEM%203%5C
 <br>
 
 # Data Rate
+- **Data Rate** refers to the amount of data transmitted over a communication medium per unit time.
+- Typically measured in **bits per second (bps)**.
+- 
