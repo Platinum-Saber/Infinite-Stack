@@ -155,8 +155,22 @@ Reference Note  : [Communication Principals](file:///E:%5CAcademics%5CSEM%203%5C
 <br>
 
 # Signal to Noise Ratio
-- Ratio between the signal power and the noise power.
-- Measured in dB.
+- Ratio between the **signal power** and the **noise power**.
+- Measured in `dB`.
+- **High** S/N is desirable.
+> [!equation]- S/N ratio
+> $$(S/N)\ ratio\ =\ 10\ \log{\frac{S}{N}}$$
 
+<br>
 
+# Nyquist Theorem
+
+- For a **noiseless channel**, a signal can be *perfectly reconstructed* if **sampled** at **twice** its *highest frequency*.
+
+<br>
+
+# Shannon's Theorem
+- The *maximum data rate* of a medium is determined by its **bandwidth** and **signal-to-noise ratio (S/N)**.
+> [!equation]- Max data rate
+> $$data\ rate\ =\ bandwidth\ *\ \log_2{(1\ +\ \frac{S}{N})}$$
 
