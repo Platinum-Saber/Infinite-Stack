@@ -8,10 +8,16 @@ Reference Note  : [Communication Principals](file:///E:%5CAcademics%5CSEM%203%5C
 <br>
 
 # Content
+1. [[#Information Representation]]
+	1. [[#Common coding standards (ISO, IEEE)]]
+2. [[#Signals]]
+	1. [[#Types Of Signals]]
+	2. [[#Properties Of Periodic Signals]]
 
 ---
 
 <br>
+
 # Information Representation
 - **Bit** : The smallest unit of information a computer can store. (*1 or 0*)
 - **Code** : Association of combination of bits with information.
@@ -46,6 +52,24 @@ Reference Note  : [Communication Principals](file:///E:%5CAcademics%5CSEM%203%5C
 > [!info] Periodic 
 > - Repeat their wave pattern continuously over time.
 > - Can be **continuous** or **discrete**.
+> 
+> > [!image]- Diagram
+> > ![[Pasted image 20240828161137.png]]
+
+> [!info] Aperiodic
+> - No repeating pattern.
+> - Can be continuous or discrete.
+> 
+> > [!image]- Diagram
+> > ![[Pasted image 20240828161248.png]]
+
+<br>
+
+## Properties Of Periodic Signals
+- **Amplitude**: The strength of the wave at a given time, measured in volts (v), amperes (A), or decibels (dB).
+> [!image]- Amplitude diagram
+> 
+- 
 
 
 
