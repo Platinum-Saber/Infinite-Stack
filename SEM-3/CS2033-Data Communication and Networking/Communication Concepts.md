@@ -88,7 +88,21 @@ Reference Note  : [Communication Principals](file:///E:%5CAcademics%5CSEM%203%5C
 > [!image]- Phase diagram
 > ![[Pasted image 20240828162618.png]]
 
-- **Wavelength (λ)**: The physical distance between matching points of adjacent cycles of the waveform. It is related to the speed of the signal $(c)$ and frequency $(f)$ by $λ = c /f  \lambda = \frac{c}{f}λ=fc​.
+- **Wavelength (λ)**: The physical distance between matching points of adjacent cycles of the waveform. It is related to the speed of the signal $(c)$ and frequency $(f)$ by $\lambda = \frac{c}{f}$​.
+> [!image]- Wavelength diagram
+> ![[Pasted image 20240828163059.png]]
+
+<br>
+
+# Fourier Series
+- Any periodic function can be expressed as a sum of sine functions with varying amplitude, frequency, and phase shift. This is critical in **Signal Filtering**.
+
+> [!image]- Fourier Series
+> ![[Pasted image 20240828163655.png]]
+
+> [!file]- Note
+> ![[Fourier note.pdf]]
+
 
 
 
