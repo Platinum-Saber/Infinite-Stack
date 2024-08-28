@@ -115,4 +115,17 @@ Reference Note  : [Communication Principals](file:///E:%5CAcademics%5CSEM%203%5C
 > The maximum number of bits that can be transmitted over a medium.
 
 > [!image]- Bandwidth diagram
-> 
+> ![[Pasted image 20240828170131.png]]
+
+<br>
+
+# Baud Rate
+- **Baud Rate**: The rate at which signal components change.
+- Data is divided into bit strings that are represented by a unique signal component (**element**) at the *transmitter*.
+
+> [!image]- Baud Rate diagram
+> ![[Pasted image 20240828170544.png]]
+
+<br>
+
+# Data Rate
