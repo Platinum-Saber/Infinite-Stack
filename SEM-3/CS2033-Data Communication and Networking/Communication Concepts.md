@@ -100,10 +100,10 @@ Reference Note  : [Communication Principals](file:///E:%5CAcademics%5CSEM%203%5C
 > [!image]- Fourier Series
 > ![[Pasted image 20240828163655.png]]
 
-> [!file]- Note
-> ![[Fourier note.pdf]]
+> [!url] [More info](https://www.mathsisfun.com/calculus/fourier-series.html)
 
 
 
 
+# Bandwidth 
 

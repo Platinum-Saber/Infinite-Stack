@@ -3,7 +3,8 @@
     "custom": [
       "image",
       "file",
-      "code"
+      "code",
+      "url"
     ],
     "settings": {
       "info": [
@@ -47,6 +48,14 @@
           "changes": {
             "icon": "lucide-code",
             "color": "158, 158, 158"
+          }
+        }
+      ],
+      "url": [
+        {
+          "changes": {
+            "icon": "link",
+            "color": "122, 194, 230"
           }
         }
       ]
