@@ -148,5 +148,9 @@
   "SEM-3/CS2043-Operating Systems/Notes/OS Introduction.md": "FiFile",
   "SEM-3/CS2043-Operating Systems/Notes/Operating System Services.md": "FiFile",
   "SEM-3/CS2033-Data Communication and Networking/Communication Concepts.md": "FiFile",
-  "SEM-3/CS2033-Data Communication and Networking/Encoding & Modulation.md": "FiFile"
+  "SEM-3/CS2033-Data Communication and Networking/Encoding & Modulation.md": "FiFile",
+  "SEM-3/MA2014-Differential Equations/Differential Equations.md": {
+    "iconName": "SiHubspot",
+    "iconColor": "#e29740"
+  }
 }

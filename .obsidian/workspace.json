@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM-3/CS3043-Database Systems/Database systems.md",
+                "file": "SEM-3/MA2014-Differential Equations/Laplace Transformations.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -97,7 +97,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM-3/CS3043-Database Systems/Database systems.md"
+                "file": "SEM-3/MA2014-Differential Equations/Laplace Transformations.md"
               }
             }
           },
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM-3/CS3043-Database Systems/Database systems.md",
+                "file": "SEM-3/MA2014-Differential Equations/Laplace Transformations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,13 +154,18 @@
   },
   "active": "9cd3b1512e28493e",
   "lastOpenFiles": [
+    "SEM-3/MA2014-Differential Equations/Partial Differential Equations.md",
+    "SEM-3/MA2014-Differential Equations/Differential Equations.md",
+    "SEM-3/MA2014-Differential Equations/Fourier Series.md",
+    "SEM-3/MA2014-Differential Equations/Laplace Transformations.md",
+    "SEM-3/CS2033-Data Communication and Networking/Communication Concepts.md",
+    "SEM-3/CS2033-Data Communication and Networking/Data Com. & Networking Introduction.md",
+    "SEM-3/CS3043-Database Systems/Database systems.md",
     "SEM-3/CS2043-Operating Systems/Notes/Operating System Services.md",
     "SEM-3/CS2043-Operating Systems/Operating Systems.md",
     "SEM-3/CS2033-Data Communication and Networking/Encoding & Modulation.md",
-    "SEM-3/CS2033-Data Communication and Networking/Communication Concepts.md",
     "Images/Pasted image 20240828170544.png",
     "Images/Pasted image 20240828170131.png",
-    "SEM-3/CS2033-Data Communication and Networking/Data Com. & Networking Introduction.md",
     "SEM-3/CS2053-Computer Architecture/Computer Architecture Introduction.md",
     "SEM-3/CS2053-Computer Architecture/Instruction Set Architecture-RV.md",
     "SEM-3/CS2053-Computer Architecture/Memory Hierarchy.md",
@@ -186,11 +191,6 @@
     "SEM-3/CS3043-Database Systems/Relational Database Design.md",
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/1. The Zeroth Law of Thermodynamics.md",
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/2. The First Law of Thermodynamics.md",
-    "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/3. The Second Law of Thermodynamics.md",
-    "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/4. The Third Law of Thermodynamics.md",
-    "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Basic Concepts of Thermodynamics.md",
-    "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Energy Balance.md",
-    "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Introduction to Thermodynamics.md",
     "Images/Project Description.pdf",
     "Images/L0-Introduction.pdf",
     "SEM-3/CS2043-Operating Systems/Notes",
