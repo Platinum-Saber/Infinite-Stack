@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM-3/CS2043-Operating Systems/Notes/Operating System Services.md",
+                "file": "SEM-3/CS3043-Database Systems/Database systems.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -97,7 +97,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM-3/CS2043-Operating Systems/Notes/Operating System Services.md"
+                "file": "SEM-3/CS3043-Database Systems/Database systems.md"
               }
             }
           },
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM-3/CS2043-Operating Systems/Notes/Operating System Services.md",
+                "file": "SEM-3/CS3043-Database Systems/Database systems.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,6 +154,7 @@
   },
   "active": "9cd3b1512e28493e",
   "lastOpenFiles": [
+    "SEM-3/CS2043-Operating Systems/Notes/Operating System Services.md",
     "SEM-3/CS2043-Operating Systems/Operating Systems.md",
     "SEM-3/CS2033-Data Communication and Networking/Encoding & Modulation.md",
     "SEM-3/CS2033-Data Communication and Networking/Communication Concepts.md",
@@ -177,7 +178,6 @@
     "SEM-3/CS2033-Data Communication and Networking/Data Communication & Networking.md",
     "SEM-3/CS2043-Operating Systems/Notes/System Daemons.md",
     "SEM-3/CS2043-Operating Systems/Notes/Synchronization Tools.md",
-    "SEM-3/CS2043-Operating Systems/Notes/Operating System Services.md",
     "SEM-3/CS2043-Operating Systems/Notes/OS Introduction.md",
     "SEM-3/CS3043-Database Systems/Database Design Using the E-R Model.md",
     "SEM-3/CS3043-Database Systems/Database Systems Introduction.md",
