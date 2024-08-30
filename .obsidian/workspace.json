@@ -13,14 +13,25 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM-3/CS2043-Operating Systems/Notes/OS Introduction.md",
+                "file": "SEM-3/CS2053-Computer Architecture/Computer Architecture.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
+          },
+          {
+            "id": "174dd51c6d42cee6",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2024-08-30 09.09.24.excalidraw.md"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -70,7 +81,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "b2aa869acde22062",
@@ -97,7 +109,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM-3/CS2043-Operating Systems/Notes/OS Introduction.md"
+                "file": "Excalidraw/Drawing 2024-08-30 09.09.24.excalidraw.md"
               }
             }
           },
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM-3/CS2043-Operating Systems/Notes/OS Introduction.md",
+                "file": "Excalidraw/Drawing 2024-08-30 09.09.24.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,11 +164,16 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "9cd3b1512e28493e",
+  "active": "174dd51c6d42cee6",
   "lastOpenFiles": [
+    "SEM-3/CS2053-Computer Architecture/Computer Architecture.md",
+    "Excalidraw/Drawing 2024-08-30 09.09.24.excalidraw.md",
+    "SEM-3/CS2053-Computer Architecture/Computer Architecture Introduction.md",
+    "SEM-3/CS2053-Computer Architecture/Instruction Set Architecture-RV.md",
+    "SEM-3/CS2053-Computer Architecture/Memory Hierarchy.md",
+    "SEM-3/CS2043-Operating Systems/Notes/OS Introduction.md",
     "SEM-3/CS2043-Operating Systems/Notes/System Daemons.md",
     "SEM-3/CS2043-Operating Systems/Notes/Synchronization Tools.md",
-    "SEM-3/CS2043-Operating Systems/Notes/OS Introduction.md",
     "SEM-3/CS2043-Operating Systems/Notes/Operating System Services.md",
     "SEM-3/CS3043-Database Systems/Intermediate SQL.md",
     "SEM-3/CS3043-Database Systems/Introduction to SQL.md",
@@ -173,9 +190,6 @@
     "SEM-3/CS2033-Data Communication and Networking/Encoding & Modulation.md",
     "Images/Pasted image 20240828170544.png",
     "Images/Pasted image 20240828170131.png",
-    "SEM-3/CS2053-Computer Architecture/Computer Architecture Introduction.md",
-    "SEM-3/CS2053-Computer Architecture/Instruction Set Architecture-RV.md",
-    "SEM-3/CS2053-Computer Architecture/Memory Hierarchy.md",
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Properties Of Pure Substances.md",
     "SEM-3/CS2043-Operating Systems/Labs/L 01 - Dining Philosophers Problem.md",
     "Images/Fourier note.pdf",
@@ -189,8 +203,6 @@
     "Images/Pasted image 20240828161137.png",
     "SEM-3/CS2033-Data Communication and Networking/Data Communication & Networking.md",
     "SEM-3/CS3043-Database Systems/Database Design Using the E-R Model.md",
-    "SEM-3/CS3043-Database Systems/Database Systems Introduction.md",
-    "SEM-3/CS3043-Database Systems/Relational Database Design.md",
     "Images/Project Description.pdf",
     "Images/L0-Introduction.pdf",
     "SEM-3/CS2043-Operating Systems/Notes",
