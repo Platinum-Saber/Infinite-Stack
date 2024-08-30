@@ -70,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "b2aa869acde22062",
@@ -97,7 +98,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CA - Take Home Assignment.md"
+                "file": "Excalidraw/Drawing 2024-08-22 13.38.19.excalidraw.md"
               }
             }
           },
@@ -115,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CA - Take Home Assignment.md",
+                "file": "Excalidraw/Drawing 2024-08-22 13.38.19.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -187,10 +188,10 @@
       }
     ]
   },
-  "active": "a563c8e68235fbcb",
+  "active": "9733bdc9af78383f",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2024-08-22 13.38.19.excalidraw.png",
     "CA - Take Home Assignment.md",
+    "Excalidraw/Drawing 2024-08-22 13.38.19.excalidraw.png",
     "SEM-3/CS2033-Data Communication and Networking/Encoding & Modulation.md",
     "Excalidraw/Drawing 2024-08-30 09.09.24.excalidraw.png",
     "Excalidraw/Drawing 2024-08-22 13.38.19.excalidraw.md",

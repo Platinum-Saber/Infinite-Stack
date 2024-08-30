@@ -1,5 +1,7 @@
 # Addressing Modes
 1. [[#Direct Addressing]]
+	- [[#1. `lui` Instruction]]
+	- [[#2. `addi` Instruction]]
 2. [[#Register Indirect Addressing]]
 3. [[#Displacement Addressing]]
 
@@ -13,7 +15,18 @@
 
 ![[Drawing 2024-08-22 13.38.19.excalidraw.png]]
 
-2. 
+### 2. `addi` Instruction
+- **Opcode** : `0010011`
+- **Immediate** : A 12 bit immediate value is sign-extended and added to the value in the source register.
+- **Registers** : The source register `rs1` and destination register `rd` are specified.
+
+#### Instruction 
+- **Bits 31-20**: Immediate value (lower 12 bits of the address)
+- **Bits 19-15**: Source register (`rs1`)
+- **Bits 14-12**: Function code (`000` for `addi`)
+- **Bits 11-7**: Destination register (`rd`)
+- **Bits 6-0**: Opcode (`0010011` for `addi`)
+
 
 > [!code] Example code
 > ```assembly
