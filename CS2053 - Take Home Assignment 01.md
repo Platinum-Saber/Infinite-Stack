@@ -24,13 +24,19 @@ beq x5, x6, label  # If x5 == x6, jump to the address at label
 > [!image] `auipc` diagram
 > ![[Pasted image 20240830170542.png]]
 
+<br>
+<br>
+<br>
+<br>
+
 > [!image] `jal` diagram
 > ![[Pasted image 20240830225137.png]]
 
 
-
-
-
+<br>
+<br>
+<br>
+<br>
 <br>
 <br>
 <br>
@@ -55,8 +61,10 @@ lw x5, 4(x10)  # Load word from memory address (x10 + 4) into x5
 > ![[Pasted image 20240830173547.png]]
 
 <br>
-<br>
-<br>
+
+> [!image] `lw` diagram
+> ![[Pasted image 20240830230821.png]]
+
 <br>
 <br>
 <br>
