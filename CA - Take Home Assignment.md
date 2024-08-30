@@ -14,8 +14,8 @@
 - **Register** : The destination register `rd` is specified in bits 11-7.
 
 
-> [!image] Binary 
-> ![[Drawing 2024-08-22 13.38.19.excalidraw.png]]
+> [!image] Binary encoding
+> ![[Pasted image 20240830155341.png]]
 
 ### 2. `addi` Instruction
 - **Opcode** : `0010011`
