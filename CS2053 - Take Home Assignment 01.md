@@ -1,6 +1,7 @@
 
 # Addressing Modes
 
+index : 220673K
 <br>
 
 ### 1. PC-relative Addressing
@@ -48,7 +49,7 @@ lw x5, 4(x10)  # Load word from memory address (x10 + 4) into x5
 
 <br>
 
-> [!image] `jarl` diagram
+> [!image] `jalr` diagram
 > ![[Pasted image 20240830173547.png]]
 
 <br>
@@ -65,7 +66,7 @@ lw x5, 4(x10)  # Load word from memory address (x10 + 4) into x5
 
 - **Instruction**: `lui`
 - The `lui` instruction loads a 20-bit immediate value into the upper 20 bits of a register, effectively setting up a large constant or address.
-- Directly addresses the register
+- Directly addresses the register.
 
 > [!code] Example code
 ```assembly
