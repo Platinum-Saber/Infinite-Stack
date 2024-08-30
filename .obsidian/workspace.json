@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM-3/CS2053-Computer Architecture/Computer Architecture.md",
+                "file": "SEM-3/CS2053-Computer Architecture/Memory Hierarchy.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -24,14 +24,27 @@
             "id": "174dd51c6d42cee6",
             "type": "leaf",
             "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Excalidraw/Drawing 2024-08-30 09.09.24.excalidraw.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "035c670a6a7c9d23",
+            "type": "leaf",
+            "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/Drawing 2024-08-30 09.09.24.excalidraw.md"
+                "file": "Excalidraw/Drawing 2024-08-30 09.17.20.excalidraw.md"
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -60,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:excalidraw",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -77,12 +90,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "b2aa869acde22062",
@@ -109,7 +122,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Drawing 2024-08-30 09.09.24.excalidraw.md"
+                "file": "Excalidraw/Drawing 2024-08-30 09.17.20.excalidraw.md"
               }
             }
           },
@@ -127,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/Drawing 2024-08-30 09.09.24.excalidraw.md",
+                "file": "Excalidraw/Drawing 2024-08-30 09.17.20.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,13 +177,14 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "174dd51c6d42cee6",
+  "active": "035c670a6a7c9d23",
   "lastOpenFiles": [
-    "SEM-3/CS2053-Computer Architecture/Computer Architecture.md",
     "Excalidraw/Drawing 2024-08-30 09.09.24.excalidraw.md",
+    "Excalidraw/Drawing 2024-08-30 09.17.20.excalidraw.md",
+    "SEM-3/CS2053-Computer Architecture/Memory Hierarchy.md",
+    "SEM-3/CS2053-Computer Architecture/Computer Architecture.md",
     "SEM-3/CS2053-Computer Architecture/Computer Architecture Introduction.md",
     "SEM-3/CS2053-Computer Architecture/Instruction Set Architecture-RV.md",
-    "SEM-3/CS2053-Computer Architecture/Memory Hierarchy.md",
     "SEM-3/CS2043-Operating Systems/Notes/OS Introduction.md",
     "SEM-3/CS2043-Operating Systems/Notes/System Daemons.md",
     "SEM-3/CS2043-Operating Systems/Notes/Synchronization Tools.md",
@@ -202,7 +216,6 @@
     "Images/Pasted image 20240828161248.png",
     "Images/Pasted image 20240828161137.png",
     "SEM-3/CS2033-Data Communication and Networking/Data Communication & Networking.md",
-    "SEM-3/CS3043-Database Systems/Database Design Using the E-R Model.md",
     "Images/Project Description.pdf",
     "Images/L0-Introduction.pdf",
     "SEM-3/CS2043-Operating Systems/Notes",
