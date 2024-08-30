@@ -27,6 +27,7 @@
 - **Bits 11-7**: Destination register (`rd`)
 - **Bits 6-0**: Opcode (`0010011` for `addi`)
 
+![[Pasted image 20240830144952.png]]
 
 > [!code] Example code
 > ```assembly
@@ -46,3 +47,8 @@
 >   # The value 0x12345678 is loaded into register t1
 > 
 > ```
+
+<br>
+
+## Register Indirect Addressing
+
