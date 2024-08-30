@@ -54,7 +54,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CA - Take Home Assignment.md"
+                "file": "Excalidraw/Drawing 2024-08-30 09.17.20.excalidraw.md"
               }
             }
           },
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CA - Take Home Assignment.md",
+                "file": "Excalidraw/Drawing 2024-08-30 09.17.20.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -188,10 +188,10 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "c6d5866bb18d44af",
+  "active": "035c670a6a7c9d23",
   "lastOpenFiles": [
-    "CA - Take Home Assignment.md",
     "Excalidraw/Drawing 2024-08-30 09.09.24.excalidraw.md",
+    "CA - Take Home Assignment.md",
     "SEM-3/CS2053-Computer Architecture/Memory Hierarchy.md",
     "SEM-3/CS2053-Computer Architecture/Drawing 2024-08-30 09.22.10.excalidraw.md",
     "Excalidraw/Drawing 2024-08-30 09.17.20.excalidraw.md",
