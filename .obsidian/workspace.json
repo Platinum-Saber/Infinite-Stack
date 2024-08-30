@@ -112,7 +112,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CA - Take Home Assignment.md"
+                "file": "Excalidraw/Drawing 2024-08-30 16.30.43.excalidraw.md"
               }
             }
           },
@@ -130,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CA - Take Home Assignment.md",
+                "file": "Excalidraw/Drawing 2024-08-30 16.30.43.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,20 +172,20 @@
     "type": "floating",
     "children": [
       {
-        "id": "a119c875c83d81d2",
+        "id": "1ca0ed9adbb582f2",
         "type": "window",
         "children": [
           {
-            "id": "3912b6bc1172e3b2",
+            "id": "be6be9897f247aac",
             "type": "tabs",
             "children": [
               {
-                "id": "9733bdc9af78383f",
+                "id": "1ba737bde32d2c1e",
                 "type": "leaf",
                 "state": {
                   "type": "excalidraw",
                   "state": {
-                    "file": "Excalidraw/Drawing 2024-08-22 13.38.19.excalidraw.md"
+                    "file": "Excalidraw/Drawing 2024-08-30 16.30.43.excalidraw.md"
                   }
                 }
               }
@@ -193,19 +193,20 @@
           }
         ],
         "direction": "vertical",
-        "x": -86,
-        "y": 71,
-        "width": 1073,
+        "x": 1059,
+        "y": 25,
+        "width": 843,
         "height": 992,
         "maximize": false,
         "zoom": 0
       }
     ]
   },
-  "active": "04f98545ccd05318",
+  "active": "1ba737bde32d2c1e",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2024-08-22 13.38.19.excalidraw.md",
     "CA - Take Home Assignment.md",
+    "Excalidraw/Drawing 2024-08-30 16.30.43.excalidraw.md",
+    "Excalidraw/Drawing 2024-08-22 13.38.19.excalidraw.md",
     "Addressing Modes.md",
     "Images/Pasted image 20240830155341.png",
     "Images/Pasted image 20240830155106.png",
@@ -245,7 +246,6 @@
     "SEM-3/MA2014-Differential Equations/Differential Equations.md",
     "SEM-3/MA2014-Differential Equations/Fourier Series.md",
     "SEM-3/MA2014-Differential Equations/Laplace Transformations.md",
-    "SEM-3/MA2014-Differential Equations/Partial Differential Equations.md",
     "Images/Pasted image 20240828170544.png",
     "Images/Pasted image 20240828170131.png",
     "Images/Pasted image 20240828163655.png",
