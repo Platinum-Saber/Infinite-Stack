@@ -41,11 +41,7 @@
 >   lui t0, %hi(my_data)        # Load the upper 20 bits of the address of my_data into t0
 >   addi t0, t0, %lo(my_data)   # Add the lower 12 bits to t0 to get the full address
 > 
->   lw t1, 0(t0)                # Load the data at the address stored in t0 into t1
-> 
 >   # The address of my_data is now directly addressed in register t0
->   # The value 0x12345678 is loaded into register t1
-> 
 > ```
 
 <br>
@@ -66,7 +62,18 @@
 - **Bits 11-7**: Destination register (`rd`, 5 bits)
 - **Bits 6-0**: Opcode (`0000011` for `lw`)
 
-![[Pasted image 20240830150848.png]]
+
+```assembly
+
+lw x5, 4(x10)  # Load the word at the address x10 + 4 into x5
+
+```
+
+> [!image] Binary encoding
+> 
+> ![[Pasted image 20240830150848.png]]
+
+
 
 ### 2. `sw` Instruction (Store Word)
 - **Opcode**: The `sw` instruction uses the opcode `0100011`.
