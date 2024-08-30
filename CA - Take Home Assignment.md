@@ -10,12 +10,17 @@
 > [!code] Example code
 > 
 ```assembly
-auipc x5, 1000  # x5 = PC + 1000
+auipc x5, 20  # x5 = PC + 20; here rd is X5
 
 jal x1, 20  # x1 = PC + 20; jump to PC + 20
 
 beq x5, x6, label  # If x5 == x6, jump to the address at label
 ```
+
+> [!image]
+> ![[Pasted image 20240830170542.png]]
+
+
 
 <br>
 
@@ -28,8 +33,6 @@ beq x5, x6, label  # If x5 == x6, jump to the address at label
 > [!code] Example code
 > 
 ```assembly
-jalr x1, x2, 0  # x1 = PC + 4; jump to address in x2 + 0
-
 jalr x1, x2, 0  # x1 = PC + 4; jump to address in x2 + 0
 
 lw x5, 4(x10)  # Load word from memory address (x10 + 4) into x5
