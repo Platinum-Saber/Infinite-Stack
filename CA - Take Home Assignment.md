@@ -22,10 +22,10 @@
 
 #### Instruction 
 - **Bits 31-20**: Immediate value (lower 12 bits of the address)
-- **Bits 19-15**: Source register (`rs1`)
-- **Bits 14-12**: Function code (`000` for `addi`)
-- **Bits 11-7**: Destination register (`rd`)
-- **Bits 6-0**: Opcode (`0010011` for `addi`)
+- **Bits 19-15**: Source register (`rs1`, 5 bits)
+- **Bits 14-12**: Function code (`funct3`, 3 bits `000` for `addi`)
+- **Bits 11-7**: Destination register (`rd`, 5 bits)
+- **Bits 6-0**: Opcode (`0010011` for `addi`, 7 bits)
 
 ![[Pasted image 20240830144952.png]]
 
@@ -55,9 +55,9 @@
 - Commonly used with load and store instructions (`lw`, `sw`, etc.) in RISC-V.
 
 ### 1. `lw` Instruction (Load Word)
-- **Opcode**: The `lw` instruction uses the opcode `0000011`.
-- **Immediate**: The 12-bit immediate value is sign-extended and added to the value in the source register (`rs1`) to compute the effective address.
-- **Registers**: The source register (`rs1`) contains the base address, and the destination register (`rd`) receives the loaded data.
+- **Opcode** : `0000011`.
+- **Immediate** : The 12-bit immediate value is sign-extended and added to the value in the source register (`rs1`) to compute the effective address.
+- **Registers** : The source register (`rs1`) contains the base address, and the destination register (`rd`) receives the loaded data.
 
 #### Instruction
 - **Bits 31-20**: Immediate value (offset, 12 bits)
@@ -65,3 +65,18 @@
 - **Bits 14-12**: Function code (`funct3`, 3 bits, `010` for `lw`)
 - **Bits 11-7**: Destination register (`rd`, 5 bits)
 - **Bits 6-0**: Opcode (`0000011` for `lw`)
+
+![[Pasted image 20240830150848.png]]
+
+### 2. `sw` Instruction (Store Word)
+- **Opcode**: The `sw` instruction uses the opcode `0100011`.
+- **Immediate**: The 12-bit immediate value is split across two fields in the instruction (upper 7 bits and lower 5 bits).
+- **Registers**: The source register (`rs2`) contains the data to be stored, and the base register (`rs1`) provides the address.
+
+#### Instruction
+- **Bits 31-25**: Immediate value (upper 7 bits)
+- **Bits 24-20**: Source register (`rs2`, 5 bits)
+- **Bits 19-15**: Base register (`rs1`, 5 bits)
+- **Bits 14-12**: Function code (`funct3`, 3 bits, `010` for `sw`)
+- **Bits 11-7**: Immediate value (lower 5 bits)
+- **Bits 6-0**: Opcode (`0100011` for `sw`)
