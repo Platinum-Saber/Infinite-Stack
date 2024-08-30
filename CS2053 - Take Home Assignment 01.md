@@ -24,6 +24,10 @@ beq x5, x6, label  # If x5 == x6, jump to the address at label
 > [!image] `auipc` diagram
 > ![[Pasted image 20240830170542.png]]
 
+> [!image] `jal` diagram
+> ![[Pasted image 20240830225137.png]]
+
+
 
 
 
