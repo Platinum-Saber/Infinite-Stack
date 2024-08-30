@@ -4,16 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "1820da3130b7f358",
+        "id": "24103df1559dbe86",
         "type": "tabs",
         "children": [
           {
-            "id": "9733bdc9af78383f",
+            "id": "a563c8e68235fbcb",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Drawing 2024-08-22 13.38.19.excalidraw.md"
+                "file": "CA - Take Home Assignment.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               }
             }
           }
@@ -67,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "b2aa869acde22062",
@@ -149,13 +153,51 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
+  "floating": {
+    "id": "edbbd793d14ed4c9",
+    "type": "floating",
+    "children": [
+      {
+        "id": "a119c875c83d81d2",
+        "type": "window",
+        "children": [
+          {
+            "id": "3912b6bc1172e3b2",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "9733bdc9af78383f",
+                "type": "leaf",
+                "state": {
+                  "type": "excalidraw",
+                  "state": {
+                    "file": "Excalidraw/Drawing 2024-08-22 13.38.19.excalidraw.md"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 23,
+        "y": 43,
+        "width": 1073,
+        "height": 992,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
   "active": "9733bdc9af78383f",
   "lastOpenFiles": [
+    "CA - Take Home Assignment.md",
+    "Excalidraw/Drawing 2024-08-22 13.38.19.excalidraw.md",
+    "SEM-3/CS2053-Computer Architecture/Computer Architecture Introduction.md",
+    "SEM-3/CS2053-Computer Architecture/Instruction Set Architecture-RV.md",
+    "SEM-3/CS2053-Computer Architecture/Memory Hierarchy.md",
     "Excalidraw/Drawing 2024-08-30 09.09.24.excalidraw.md",
     "Excalidraw/Drawing 2024-08-30 09.17.20.excalidraw.md",
     "Excalidraw/Drawing 2024-08-30 13.43.31.excalidraw.md",
-    "SEM-3/CS2053-Computer Architecture/Memory Hierarchy.md",
-    "CA - Take Home Assignment.md",
     "Excalidraw/Drawing 2024-08-30 09.09.24.excalidraw.png",
     "Excalidraw/Icon Library/aws-architecture-icons.excalidrawlib",
     "Excalidraw/Icon Library/Unconfirmed 645735.crdownload",
@@ -169,8 +211,6 @@
     "Excalidraw/Icon Library/Unconfirmed 290697.crdownload",
     "SEM-3/CS2053-Computer Architecture/Drawing 2024-08-30 09.22.10.excalidraw.md",
     "SEM-3/CS2053-Computer Architecture/Computer Architecture.md",
-    "SEM-3/CS2053-Computer Architecture/Computer Architecture Introduction.md",
-    "SEM-3/CS2053-Computer Architecture/Instruction Set Architecture-RV.md",
     "SEM-3/CS2043-Operating Systems/Notes/OS Introduction.md",
     "SEM-3/CS2043-Operating Systems/Notes/System Daemons.md",
     "SEM-3/CS2043-Operating Systems/Notes/Synchronization Tools.md",
