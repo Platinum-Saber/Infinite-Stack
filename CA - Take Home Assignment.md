@@ -13,7 +13,9 @@
 - **Immediate** : The 20 bit immediate value is placed directly in bits 31-12 of the instruction.
 - **Register** : The destination register `rd` is specified in bits 11-7.
 
-![[Drawing 2024-08-22 13.38.19.excalidraw.png]]
+
+> [!image] Binary 
+> ![[Drawing 2024-08-22 13.38.19.excalidraw.png]]
 
 ### 2. `addi` Instruction
 - **Opcode** : `0010011`
@@ -27,7 +29,8 @@
 - **Bits 11-7**: Destination register (`rd`, 5 bits)
 - **Bits 6-0**: Opcode (`0010011` for `addi`, 7 bits)
 
-![[Pasted image 20240830144952.png]]
+> [!image] Binary encoding
+> ![[Pasted image 20240830144952.png]]
 
 > [!code] Example code
 ```assembly
@@ -66,7 +69,7 @@
 > [!code] Example code
 >
 ```assembly
-lw x5, 4(x10)  # Load the word at the address x10 + 4 into x5
+lw x5, 4(x10)  # Load the word at the address x10 + 4 into x5 (Register indirect  addressing)
 
 # binary encoding of the instruction : 000001100100 00010 010 00101 0000011
 # In hexadecimal : 0x06452003
@@ -91,10 +94,17 @@ lw x5, 4(x10)  # Load the word at the address x10 + 4 into x5
 - **Bits 11-7**: Immediate value (lower 5 bits)
 - **Bits 6-0**: Opcode (`0100011` for `sw`)
 
+
+> [!code] Example code
+> 
 ```assembly
-sw x5, 4(x10)  # Store the word in x5 to the address x10 + 4
+sw x5, 4(x10)  # Store the word in x5 to the address x10 + 4 (Register indirect  addressing)
+
 
 # binary encoding of the instruction : 0000011 00101 01010 010 00100 0100011
 # In hexadecimal : 0x006552223
 
 ```
+
+> [!image] Binary encoding
+> ![[Pasted image 20240830155106.png]]
