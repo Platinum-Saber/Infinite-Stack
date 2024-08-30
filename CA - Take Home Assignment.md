@@ -10,9 +10,9 @@
 > [!code] Example code
 > 
 ```assembly
-auipc x5, 1000  # x5 = PC + (1000 << 12)
+auipc x5, 1000  # x5 = PC + 1000
 
-jal x1, 20  # x1 = PC + 4; jump to PC + 20
+jal x1, 20  # x1 = PC + 20; jump to PC + 20
 
 beq x5, x6, label  # If x5 == x6, jump to the address at label
 ```
