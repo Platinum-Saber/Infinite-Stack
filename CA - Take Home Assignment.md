@@ -18,7 +18,7 @@
 ### 2. `addi` Instruction
 - **Opcode** : `0010011`
 - **Immediate** : A 12 bit immediate value is sign-extended and added to the value in the source register.
-- **Registers** : The source register `rs1` and destination register `rd` are specified.
+- **Registers** : The source register (`rs1`) and destination register (`rd`) are specified.
 
 #### Instruction 
 - **Bits 31-20**: Immediate value (lower 12 bits of the address)
@@ -51,4 +51,17 @@
 <br>
 
 ## Register Indirect Addressing
+- the effective address of the memory is computed using the contents of a register plus an optional offset. 
+- Commonly used with load and store instructions (`lw`, `sw`, etc.) in RISC-V.
 
+### 1. `lw` Instruction (Load Word)
+- **Opcode**: The `lw` instruction uses the opcode `0000011`.
+- **Immediate**: The 12-bit immediate value is sign-extended and added to the value in the source register (`rs1`) to compute the effective address.
+- **Registers**: The source register (`rs1`) contains the base address, and the destination register (`rd`) receives the loaded data.
+
+#### Instruction
+- **Bits 31-20**: Immediate value (offset, 12 bits)
+- **Bits 19-15**: Source register (`rs1`, 5 bits)
+- **Bits 14-12**: Function code (`funct3`, 3 bits, `010` for `lw`)
+- **Bits 11-7**: Destination register (`rd`, 5 bits)
+- **Bits 6-0**: Opcode (`0000011` for `lw`)
