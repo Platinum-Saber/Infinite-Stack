@@ -8,53 +8,16 @@
         "type": "tabs",
         "children": [
           {
-            "id": "9cd3b1512e28493e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SEM-3/CS2053-Computer Architecture/Memory Hierarchy.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "174dd51c6d42cee6",
+            "id": "9733bdc9af78383f",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/Drawing 2024-08-30 09.09.24.excalidraw.md"
-              }
-            }
-          },
-          {
-            "id": "035c670a6a7c9d23",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2024-08-30 09.17.20.excalidraw.md"
-              }
-            }
-          },
-          {
-            "id": "c6d5866bb18d44af",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CA - Take Home Assignment.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+                "file": "Excalidraw/Drawing 2024-08-22 13.38.19.excalidraw.md"
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -104,8 +67,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "b2aa869acde22062",
@@ -132,7 +94,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Drawing 2024-08-30 09.09.24.excalidraw.md"
+                "file": "Excalidraw/Drawing 2024-08-22 13.38.19.excalidraw.md"
               }
             }
           },
@@ -150,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/Drawing 2024-08-30 09.09.24.excalidraw.md",
+                "file": "Excalidraw/Drawing 2024-08-22 13.38.19.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -187,9 +149,14 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "174dd51c6d42cee6",
+  "active": "9733bdc9af78383f",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2024-08-30 09.09.24.excalidraw.md",
     "Excalidraw/Drawing 2024-08-30 09.17.20.excalidraw.md",
+    "Excalidraw/Drawing 2024-08-30 13.43.31.excalidraw.md",
+    "SEM-3/CS2053-Computer Architecture/Memory Hierarchy.md",
+    "CA - Take Home Assignment.md",
+    "Excalidraw/Drawing 2024-08-30 09.09.24.excalidraw.png",
     "Excalidraw/Icon Library/aws-architecture-icons.excalidrawlib",
     "Excalidraw/Icon Library/Unconfirmed 645735.crdownload",
     "Excalidraw/Icon Library/awesome-icons.excalidrawlib",
@@ -200,10 +167,6 @@
     "Excalidraw/Icon Library/Unconfirmed 730553.crdownload",
     "Excalidraw/Icon Library/system-design.excalidrawlib",
     "Excalidraw/Icon Library/Unconfirmed 290697.crdownload",
-    "Excalidraw/Drawing 2024-08-30 13.43.31.excalidraw.md",
-    "Excalidraw/Drawing 2024-08-30 09.09.24.excalidraw.md",
-    "CA - Take Home Assignment.md",
-    "SEM-3/CS2053-Computer Architecture/Memory Hierarchy.md",
     "SEM-3/CS2053-Computer Architecture/Drawing 2024-08-30 09.22.10.excalidraw.md",
     "SEM-3/CS2053-Computer Architecture/Computer Architecture.md",
     "SEM-3/CS2053-Computer Architecture/Computer Architecture Introduction.md",
@@ -233,7 +196,6 @@
     "Images/Pasted image 20240828162032.png",
     "Images/Pasted image 20240828161942.png",
     "Images/Pasted image 20240828161248.png",
-    "Images/Pasted image 20240828161137.png",
     "Work Space.canvas",
     "Untitled.canvas"
   ]
