@@ -30,19 +30,19 @@
 ![[Pasted image 20240830144952.png]]
 
 > [!code] Example code
-> ```assembly
-> .section .data
->   my_data: .word 0x12345678   # Define a data word at a specific memory location
-> 
-> .section .text
->   .globl _start
-> 
-> _start:
->   lui t0, %hi(my_data)        # Load the upper 20 bits of the address of my_data into t0
->   addi t0, t0, %lo(my_data)   # Add the lower 12 bits to t0 to get the full address
-> 
->   # The address of my_data is now directly addressed in register t0
-> ```
+```assembly
+ .section .data
+   my_data: .word 0x12345678   # Define a data word at a specific memory location
+ 
+ .section .text
+   .globl _start
+ 
+ _start:
+   lui t0, %hi(my_data)        # Load the upper 20 bits of the address of my_data into t0
+   addi t0, t0, %lo(my_data)   # Add the lower 12 bits to t0 to get the full address
+ 
+   # The address of my_data is now directly addressed in register t0
+ ```
 
 <br>
 
@@ -63,10 +63,13 @@
 - **Bits 6-0**: Opcode (`0000011` for `lw`)
 
 
+> [!code] Example code
+>
 ```assembly
-
 lw x5, 4(x10)  # Load the word at the address x10 + 4 into x5
 
+# binary encoding of the instruction : 000001100100 00010 010 00101 0000011
+# In hexadecimal 0x00452003
 ```
 
 > [!image] Binary encoding
@@ -87,3 +90,9 @@ lw x5, 4(x10)  # Load the word at the address x10 + 4 into x5
 - **Bits 14-12**: Function code (`funct3`, 3 bits, `010` for `sw`)
 - **Bits 11-7**: Immediate value (lower 5 bits)
 - **Bits 6-0**: Opcode (`0100011` for `sw`)
+
+```assembly
+sw x5, 4(x10)  # Store the word in x5 to the address x10 + 4
+
+
+```
