@@ -100,8 +100,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -188,13 +187,14 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "035c670a6a7c9d23",
+  "active": "671fcfcc9244e77e",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2024-08-30 13.43.31.excalidraw.md",
+    "Excalidraw/Drawing 2024-08-30 09.17.20.excalidraw.md",
     "Excalidraw/Drawing 2024-08-30 09.09.24.excalidraw.md",
     "CA - Take Home Assignment.md",
     "SEM-3/CS2053-Computer Architecture/Memory Hierarchy.md",
     "SEM-3/CS2053-Computer Architecture/Drawing 2024-08-30 09.22.10.excalidraw.md",
-    "Excalidraw/Drawing 2024-08-30 09.17.20.excalidraw.md",
     "SEM-3/CS2053-Computer Architecture/Computer Architecture.md",
     "SEM-3/CS2053-Computer Architecture/Computer Architecture Introduction.md",
     "SEM-3/CS2053-Computer Architecture/Instruction Set Architecture-RV.md",
@@ -217,7 +217,6 @@
     "SEM-3/CS2033-Data Communication and Networking/Encoding & Modulation.md",
     "Images/Pasted image 20240828170544.png",
     "Images/Pasted image 20240828170131.png",
-    "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Properties Of Pure Substances.md",
     "Images/Fourier note.pdf",
     "Images/Pasted image 20240828163655.png",
     "Images/Pasted image 20240828163059.png",
