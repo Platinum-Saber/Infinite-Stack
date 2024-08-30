@@ -4,13 +4,16 @@
 3. [[#Displacement Addressing]]
 
 ## Direct Addressing
-- The **immediate value** of the instruction specifies the **memory address** that will be referenced. Only 1 memory access is required to access the memory location.
+- The **immediate value** of the instruction specifies the **memory address** that will be referenced. 
+- Only 1 memory access is required to access the memory location.
 ### 1. `lui` Instruction
 -  **Opcode** : `0110111`
 - **Immediate** : The 20 bit immediate value is placed directly in bits 31-12 of the instruction.
 - **Register** : The destination register `rd` is specified in bits 11-7.
-- 
 
+![[Drawing 2024-08-22 13.38.19.excalidraw.png]]
+
+2. 
 
 > [!code] Example code
 > ```assembly

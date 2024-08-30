@@ -70,8 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "b2aa869acde22062",
@@ -98,7 +97,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Drawing 2024-08-22 13.38.19.excalidraw.md"
+                "file": "CA - Take Home Assignment.md"
               }
             }
           },
@@ -116,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/Drawing 2024-08-22 13.38.19.excalidraw.md",
+                "file": "CA - Take Home Assignment.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -188,9 +187,12 @@
       }
     ]
   },
-  "active": "9733bdc9af78383f",
+  "active": "a563c8e68235fbcb",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2024-08-22 13.38.19.excalidraw.png",
     "CA - Take Home Assignment.md",
+    "SEM-3/CS2033-Data Communication and Networking/Encoding & Modulation.md",
+    "Excalidraw/Drawing 2024-08-30 09.09.24.excalidraw.png",
     "Excalidraw/Drawing 2024-08-22 13.38.19.excalidraw.md",
     "SEM-3/CS2053-Computer Architecture/Computer Architecture Introduction.md",
     "SEM-3/CS2053-Computer Architecture/Instruction Set Architecture-RV.md",
@@ -198,7 +200,6 @@
     "Excalidraw/Drawing 2024-08-30 09.09.24.excalidraw.md",
     "Excalidraw/Drawing 2024-08-30 09.17.20.excalidraw.md",
     "Excalidraw/Drawing 2024-08-30 13.43.31.excalidraw.md",
-    "Excalidraw/Drawing 2024-08-30 09.09.24.excalidraw.png",
     "Excalidraw/Icon Library/aws-architecture-icons.excalidrawlib",
     "Excalidraw/Icon Library/Unconfirmed 645735.crdownload",
     "Excalidraw/Icon Library/awesome-icons.excalidrawlib",
@@ -225,8 +226,6 @@
     "SEM-3/MA2014-Differential Equations/Fourier Series.md",
     "SEM-3/MA2014-Differential Equations/Laplace Transformations.md",
     "SEM-3/MA2014-Differential Equations/Partial Differential Equations.md",
-    "SEM-3/CS2033-Data Communication and Networking/Communication Concepts.md",
-    "SEM-3/CS2033-Data Communication and Networking/Data Com. & Networking Introduction.md",
     "Images/Pasted image 20240828170544.png",
     "Images/Pasted image 20240828170131.png",
     "Images/Pasted image 20240828163655.png",
@@ -235,7 +234,6 @@
     "Images/Pasted image 20240828162247.png",
     "Images/Pasted image 20240828162032.png",
     "Images/Pasted image 20240828161942.png",
-    "Images/Pasted image 20240828161248.png",
     "Work Space.canvas",
     "Untitled.canvas"
   ]
