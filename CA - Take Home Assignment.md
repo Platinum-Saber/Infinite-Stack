@@ -38,6 +38,7 @@ jalr x1, x2, 0  # x1 = PC + 4; jump to address in x2 + 0
 lw x5, 4(x10)  # Load word from memory address (x10 + 4) into x5
 ```
 
+
 <br>
 
 ### 3. Absolute Addressing
