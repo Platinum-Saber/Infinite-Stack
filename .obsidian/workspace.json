@@ -39,9 +39,22 @@
                 "file": "Excalidraw/Drawing 2024-08-30 09.17.20.excalidraw.md"
               }
             }
+          },
+          {
+            "id": "c6d5866bb18d44af",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CA - Take Home Assignment.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -120,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Drawing 2024-08-30 09.09.24.excalidraw.md"
+                "file": "CA - Take Home Assignment.md"
               }
             }
           },
@@ -138,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/Drawing 2024-08-30 09.09.24.excalidraw.md",
+                "file": "CA - Take Home Assignment.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,11 +188,12 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "174dd51c6d42cee6",
+  "active": "c6d5866bb18d44af",
   "lastOpenFiles": [
+    "CA - Take Home Assignment.md",
+    "Excalidraw/Drawing 2024-08-30 09.09.24.excalidraw.md",
     "SEM-3/CS2053-Computer Architecture/Memory Hierarchy.md",
     "SEM-3/CS2053-Computer Architecture/Drawing 2024-08-30 09.22.10.excalidraw.md",
-    "Excalidraw/Drawing 2024-08-30 09.09.24.excalidraw.md",
     "Excalidraw/Drawing 2024-08-30 09.17.20.excalidraw.md",
     "SEM-3/CS2053-Computer Architecture/Computer Architecture.md",
     "SEM-3/CS2053-Computer Architecture/Computer Architecture Introduction.md",
@@ -204,7 +218,6 @@
     "Images/Pasted image 20240828170544.png",
     "Images/Pasted image 20240828170131.png",
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Properties Of Pure Substances.md",
-    "SEM-3/CS2043-Operating Systems/Labs/L 01 - Dining Philosophers Problem.md",
     "Images/Fourier note.pdf",
     "Images/Pasted image 20240828163655.png",
     "Images/Pasted image 20240828163059.png",
