@@ -69,7 +69,7 @@
 lw x5, 4(x10)  # Load the word at the address x10 + 4 into x5
 
 # binary encoding of the instruction : 000001100100 00010 010 00101 0000011
-# In hexadecimal 0x00452003
+# In hexadecimal : 0x06452003
 ```
 
 > [!image] Binary encoding
@@ -94,5 +94,7 @@ lw x5, 4(x10)  # Load the word at the address x10 + 4 into x5
 ```assembly
 sw x5, 4(x10)  # Store the word in x5 to the address x10 + 4
 
+# binary encoding of the instruction : 0000011 00101 01010 010 00100 0100011
+# In hexadecimal : 0x006552223
 
 ```
