@@ -97,7 +97,7 @@ Related : #Thermo #Thermo/1
 >> $C_p\ dT\ =\ dh$
 >> $\int dh\ = \int {C_p\ dT}$
 >> $h\ =\ C_p\ T\ +\ k$
->> For ideal gases when T=0 , u=0 $\therefore k=0$
+>> For ideal gases when `T=0` , `u=0` $\therefore$ `k=0`
 >> ### $$\therefore h\ =\ C_p\ T$$
 >> 
 >> **This is a property function**

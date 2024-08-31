@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Introduction to Thermodynamics.md",
+                "file": "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Basic Concepts of Thermodynamics.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -112,7 +112,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Introduction to Thermodynamics.md"
+                "file": "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Basic Concepts of Thermodynamics.md"
               }
             }
           },
@@ -130,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Introduction to Thermodynamics.md",
+                "file": "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Basic Concepts of Thermodynamics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,8 +169,8 @@
   },
   "active": "04f98545ccd05318",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2024-08-30 16.30.43.excalidraw.md",
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Introduction to Thermodynamics.md",
+    "Excalidraw/Drawing 2024-08-30 16.30.43.excalidraw.md",
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Thermodynamics.md",
     "SEM-3/CS2053-Computer Architecture/Memory Hierarchy.md",
     "SEM-3/CS2053-Computer Architecture/Instruction Set Architecture-RV.md",
