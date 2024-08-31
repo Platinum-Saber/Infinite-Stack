@@ -28,11 +28,19 @@ beq x5, x6, label  # If x5 == x6, jump to the address at label
 <br>
 <br>
 <br>
+<br>
+<br>
+<br>
+<br>
 
 > [!image] `jal` diagram
 > ![[Pasted image 20240830225137.png]]
 
 
+<br>
+<br>
+<br>
+<br>
 <br>
 <br>
 <br>
