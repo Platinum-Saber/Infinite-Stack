@@ -21,6 +21,19 @@
               }
             },
             "group": "77a2f2a186cd5e00"
+          },
+          {
+            "id": "01cd1bfedeb82434",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/2. The First Law of Thermodynamics.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ]
       },
@@ -94,7 +107,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "thermo",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -111,12 +124,12 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "b2aa869acde22062",
@@ -200,11 +213,12 @@
   },
   "active": "04f98545ccd05318",
   "lastOpenFiles": [
-    "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Energy Balance.md",
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/2. The First Law of Thermodynamics.md",
+    "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/3. The Second Law of Thermodynamics.md",
+    "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/1. The Zeroth Law of Thermodynamics.md",
+    "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Energy Balance.md",
     "SEM-3/CS2043-Operating Systems/Operating Systems.md",
     "Addressing Modes.md",
-    "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/1. The Zeroth Law of Thermodynamics.md",
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Laws of Thermodynamics.md",
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Basic Concepts of Thermodynamics.md",
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Introduction to Thermodynamics.md",
@@ -245,7 +259,6 @@
     "SEM-3/CS2043-Operating Systems/Notes/System Daemons.md",
     "SEM-3/CS2043-Operating Systems/Notes/Synchronization Tools.md",
     "SEM-3/CS2043-Operating Systems/Notes/Operating System Services.md",
-    "SEM-3/CS3043-Database Systems/Intermediate SQL.md",
     "Work Space.canvas",
     "Untitled.canvas"
   ]
