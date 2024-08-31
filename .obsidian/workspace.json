@@ -6,21 +6,8 @@
       {
         "id": "24103df1559dbe86",
         "type": "tabs",
-        "dimension": 67.09511568123393,
+        "dimension": 78.34190231362467,
         "children": [
-          {
-            "id": "a563c8e68235fbcb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Addressing Modes.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
           {
             "id": "04f98545ccd05318",
             "type": "leaf",
@@ -35,13 +22,12 @@
             },
             "group": "77a2f2a186cd5e00"
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "05cf243b66c5d2c0",
         "type": "tabs",
-        "dimension": 32.904884318766065,
+        "dimension": 21.65809768637532,
         "children": [
           {
             "id": "9f5c03f3010c08c3",
@@ -51,7 +37,7 @@
               "state": {
                 "file": "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/2. The First Law of Thermodynamics.md",
                 "options": {
-                  "collapse-filter": true,
+                  "collapse-filter": false,
                   "search": "",
                   "localJumps": 2,
                   "localBacklinks": true,
@@ -67,13 +53,13 @@
                   "textFadeMultiplier": 0,
                   "nodeSizeMultiplier": 1,
                   "lineSizeMultiplier": 1,
-                  "collapse-forces": true,
-                  "centerStrength": 0.518713248970312,
-                  "repelStrength": 10,
-                  "linkStrength": 1,
-                  "linkDistance": 156,
-                  "scale": 0.713275462622443,
-                  "close": false
+                  "collapse-forces": false,
+                  "centerStrength": 0.458372817111141,
+                  "repelStrength": 12.3730878570462,
+                  "linkStrength": 0.952213347773115,
+                  "linkDistance": 300,
+                  "scale": 0.3628873693012132,
+                  "close": true
                 }
               }
             },
@@ -212,8 +198,11 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "9f5c03f3010c08c3",
+  "active": "04f98545ccd05318",
   "lastOpenFiles": [
+    "SEM-3/CS2043-Operating Systems/Operating Systems.md",
+    "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/2. The First Law of Thermodynamics.md",
+    "Addressing Modes.md",
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/1. The Zeroth Law of Thermodynamics.md",
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Laws of Thermodynamics.md",
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Basic Concepts of Thermodynamics.md",
@@ -231,7 +220,6 @@
     "Images/Pasted image 20240830173547.png",
     "Images/Pasted image 20240830170542.png",
     "Excalidraw/Drawing 2024-08-22 13.38.19.excalidraw.md",
-    "Addressing Modes.md",
     "Images/Pasted image 20240830155341.png",
     "Images/Pasted image 20240830155106.png",
     "Images/Pasted image 20240830150848.png",
@@ -258,8 +246,6 @@
     "SEM-3/CS2043-Operating Systems/Notes/Operating System Services.md",
     "SEM-3/CS3043-Database Systems/Intermediate SQL.md",
     "SEM-3/CS3043-Database Systems/Introduction to SQL.md",
-    "SEM-3/CS3043-Database Systems/Database systems.md",
-    "SEM-3/CS2043-Operating Systems/Operating Systems.md",
     "Work Space.canvas",
     "Untitled.canvas"
   ]
