@@ -3,7 +3,7 @@
     "aliases": "aliases",
     "cssclasses": "multitext",
     "tags": "tags",
-    "excalidraw-plugin": "text",
+    "excalidraw-plugin": "checkbox",
     "excalidraw-export-transparent": "checkbox",
     "excalidraw-mask": "checkbox",
     "excalidraw-export-dark": "checkbox",
@@ -22,6 +22,8 @@
     "excalidraw-css": "text",
     "excalidraw-autoexport": "text",
     "excalidraw-embeddable-theme": "text",
-    "excalidraw-open-md": "checkbox"
+    "excalidraw-open-md": "checkbox",
+    "Reference Note": "date",
+    "as": "checkbox"
   }
 }
