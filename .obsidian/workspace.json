@@ -21,9 +21,12 @@
             "id": "01cd1bfedeb82434",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Drawing 2024-08-30 09.09.24.excalidraw.md"
+                "file": "SEM-3/CS2053-Computer Architecture/Memory Hierarchy.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               }
             }
           }
@@ -78,7 +81,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "b2aa869acde22062",
@@ -105,7 +109,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Drawing 2024-08-30 09.09.24.excalidraw.md"
+                "file": "SEM-3/CS2053-Computer Architecture/Memory Hierarchy.md"
               }
             }
           },
@@ -123,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/Drawing 2024-08-30 09.09.24.excalidraw.md",
+                "file": "SEM-3/CS2053-Computer Architecture/Memory Hierarchy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,11 +166,14 @@
   },
   "active": "01cd1bfedeb82434",
   "lastOpenFiles": [
-    "Excalidraw/Instruction code.md",
-    "Excalidraw/Addressing Modes.md",
+    "Images/Pasted image 20240901013312.png",
     "Excalidraw/Drawing 2024-08-30 09.09.24.excalidraw.md",
-    "Excalidraw/Drawing 2024-08-30 09.17.20.excalidraw.md",
     "SEM-3/CS2053-Computer Architecture/Memory Hierarchy.md",
+    "Images/Pasted image 20240901012947.png",
+    "Images/Pasted image 20240901012712.png",
+    "Excalidraw/Addressing Modes.md",
+    "Excalidraw/Instruction code.md",
+    "Excalidraw/Drawing 2024-08-30 09.17.20.excalidraw.md",
     "Excalidraw/Drawing 2024-08-22 13.38.19.excalidraw.png",
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/2. The First Law of Thermodynamics.md",
     "Excalidraw/Drawing 2024-08-30 09.09.24.excalidraw.png",
@@ -190,8 +197,6 @@
     "Images/Pasted image 20240830173547.png",
     "Images/Pasted image 20240830170542.png",
     "Images/Pasted image 20240830155341.png",
-    "Images/Pasted image 20240830155106.png",
-    "Images/Pasted image 20240830150848.png",
     "SEM-3/CS2033-Data Communication and Networking/Encoding & Modulation.md",
     "Excalidraw/Icon Library/aws-architecture-icons.excalidrawlib",
     "Excalidraw/Icon Library/Unconfirmed 645735.crdownload",
