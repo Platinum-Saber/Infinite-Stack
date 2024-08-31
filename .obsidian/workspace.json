@@ -6,6 +6,7 @@
       {
         "id": "24103df1559dbe86",
         "type": "tabs",
+        "dimension": 67.09511568123393,
         "children": [
           {
             "id": "a563c8e68235fbcb",
@@ -26,15 +27,59 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Basic Concepts of Thermodynamics.md",
+                "file": "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/2. The First Law of Thermodynamics.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
-            }
+            },
+            "group": "77a2f2a186cd5e00"
           }
         ],
         "currentTab": 1
+      },
+      {
+        "id": "05cf243b66c5d2c0",
+        "type": "tabs",
+        "dimension": 32.904884318766065,
+        "children": [
+          {
+            "id": "9f5c03f3010c08c3",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/2. The First Law of Thermodynamics.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 2,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": true,
+                  "showTags": true,
+                  "showAttachments": true,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": true,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 156,
+                  "scale": 0.713275462622443,
+                  "close": false
+                }
+              }
+            },
+            "group": "77a2f2a186cd5e00"
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -112,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Basic Concepts of Thermodynamics.md"
+                "file": "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/2. The First Law of Thermodynamics.md"
               }
             }
           },
@@ -130,7 +175,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Basic Concepts of Thermodynamics.md",
+                "file": "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/2. The First Law of Thermodynamics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +190,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -167,8 +212,11 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "04f98545ccd05318",
+  "active": "9f5c03f3010c08c3",
   "lastOpenFiles": [
+    "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/1. The Zeroth Law of Thermodynamics.md",
+    "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Laws of Thermodynamics.md",
+    "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Basic Concepts of Thermodynamics.md",
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Introduction to Thermodynamics.md",
     "Excalidraw/Drawing 2024-08-30 16.30.43.excalidraw.md",
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Thermodynamics.md",
@@ -212,9 +260,6 @@
     "SEM-3/CS3043-Database Systems/Introduction to SQL.md",
     "SEM-3/CS3043-Database Systems/Database systems.md",
     "SEM-3/CS2043-Operating Systems/Operating Systems.md",
-    "SEM-3/MA2014-Differential Equations/Mid Exam Prep.md",
-    "SEM-3/MA2014-Differential Equations/End Exam Prep.md",
-    "SEM-3/MA2014-Differential Equations/Differential Equations.md",
     "Work Space.canvas",
     "Untitled.canvas"
   ]

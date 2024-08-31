@@ -123,7 +123,7 @@ Related : #Thermo #Thermo/2
 
 >[!abstract]- Energy Types
 >>[!info]- Macroscopic Energy
->>- Energies which a system possesses as a whole with respect to some outside reference frame.
+>>- Energies which a system possesses as a whole *with respect to some* **outside reference frame**.
 >>>[!example] Examples
 >>>- Potential energy
 >>>- Kinetic energy
@@ -143,7 +143,7 @@ Related : #Thermo #Thermo/2
 >$$E =\ U +\ E_k +\ E_p$$
 >$$E =\ U +\ \frac{1}{2}\ m\ C^2\ +\ mgz$$
 >>[!tip] Specific total energy
->>$$e =\ u\ +\ \frac{1}{2}\ m\ C^2 +\ gz$$
+>>$$e =\ u\ +\ \frac{1}{2}\ C^2 +\ gz$$
 
 >[!note]- Heat & Work
 >- Both are *transitional forms* of energies (Heat has meaning only in transition)
