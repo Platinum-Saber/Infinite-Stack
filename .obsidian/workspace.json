@@ -26,8 +26,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS2053 - Take Home Assignment 01.md",
-                "mode": "source",
+                "file": "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Introduction to Thermodynamics.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -84,8 +84,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "b2aa869acde22062",
@@ -112,7 +111,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS2053 - Take Home Assignment 01.md"
+                "file": "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Introduction to Thermodynamics.md"
               }
             }
           },
@@ -130,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS2053 - Take Home Assignment 01.md",
+                "file": "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Introduction to Thermodynamics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -204,9 +203,14 @@
   },
   "active": "04f98545ccd05318",
   "lastOpenFiles": [
+    "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Thermodynamics.md",
+    "SEM-3/CS2053-Computer Architecture/Memory Hierarchy.md",
+    "SEM-3/CS2053-Computer Architecture/Instruction Set Architecture-RV.md",
+    "SEM-3/CS2053-Computer Architecture/Computer Architecture Introduction.md",
+    "SEM-3/CS2053-Computer Architecture/Drawing 2024-08-30 09.22.10.excalidraw.md",
+    "CS2053 - Take Home Assignment 01.md",
     "Images/Pasted image 20240830230821.png",
     "Excalidraw/Drawing 2024-08-30 16.30.43.excalidraw.md",
-    "CS2053 - Take Home Assignment 01.md",
     "Images/Pasted image 20240830225137.png",
     "Images/Pasted image 20240830174616.png",
     "Images/Pasted image 20240830173547.png",
@@ -219,10 +223,6 @@
     "Images/Pasted image 20240830144952.png",
     "Excalidraw/Drawing 2024-08-22 13.38.19.excalidraw.png",
     "SEM-3/CS2033-Data Communication and Networking/Encoding & Modulation.md",
-    "Excalidraw/Drawing 2024-08-30 09.09.24.excalidraw.png",
-    "SEM-3/CS2053-Computer Architecture/Computer Architecture Introduction.md",
-    "SEM-3/CS2053-Computer Architecture/Instruction Set Architecture-RV.md",
-    "SEM-3/CS2053-Computer Architecture/Memory Hierarchy.md",
     "Excalidraw/Drawing 2024-08-30 09.09.24.excalidraw.md",
     "Excalidraw/Drawing 2024-08-30 09.17.20.excalidraw.md",
     "Excalidraw/Drawing 2024-08-30 13.43.31.excalidraw.md",
@@ -236,7 +236,6 @@
     "Excalidraw/Icon Library/Unconfirmed 730553.crdownload",
     "Excalidraw/Icon Library/system-design.excalidrawlib",
     "Excalidraw/Icon Library/Unconfirmed 290697.crdownload",
-    "SEM-3/CS2053-Computer Architecture/Drawing 2024-08-30 09.22.10.excalidraw.md",
     "SEM-3/CS2053-Computer Architecture/Computer Architecture.md",
     "SEM-3/CS2043-Operating Systems/Notes/OS Introduction.md",
     "SEM-3/CS2043-Operating Systems/Notes/System Daemons.md",

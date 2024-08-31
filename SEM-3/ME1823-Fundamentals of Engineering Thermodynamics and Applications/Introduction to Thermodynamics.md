@@ -29,13 +29,13 @@ Related : #Thermo #Thermo/1
 
 <br>
 
->[!note]- Characteristic Equation
+>[!equation]- Characteristic Equation
 > $$\frac{P\ V}{T}\ =\ k$$
 > P - pressure
 > V - Volume
 > T - Absolute temperature
 > 
-> For a given mas of `m` , 
+> For a given mass of `m` , 
 >> $\ \ \ \ \ \ k\ =\ m\ R$
 >> $\therefore \ P\ V\ =\ m\ R\ T$
 >> Where R is `Gas Constant` 
