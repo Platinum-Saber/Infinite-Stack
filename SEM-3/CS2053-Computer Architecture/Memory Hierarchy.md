@@ -32,6 +32,12 @@ About: Based on CS2053-Lecture 05 Memory Hierarchy part 1
 > - **Data** Is fetched (read) from *Data Bus*.
 
 > [!info] Writing to Memory
-> - Address of the memory location to write is placed on Address Bus.
-> - Data is placed on Data Bus.
-> - Write Signal (WR) in Control  
+> - **Address** of the memory location to write is placed on *Address Bus*.
+> - **Data** is placed on *Data Bus.*
+> - **Write Signal** (WR) in *Control Bus* is activated.
+
+<br>
+
+### Connecting Memory & CPU
+- Details of handling different memory modules & memory hierarchy is *off load* to **memory controller**.
+

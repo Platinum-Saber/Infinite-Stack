@@ -30,8 +30,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -109,7 +108,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM-3/CS2053-Computer Architecture/Memory Hierarchy.md"
+                "file": "Excalidraw/Drawing 2024-08-30 09.09.24.excalidraw.md"
               }
             }
           },
@@ -127,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM-3/CS2053-Computer Architecture/Memory Hierarchy.md",
+                "file": "Excalidraw/Drawing 2024-08-30 09.09.24.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,11 +163,11 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "01cd1bfedeb82434",
+  "active": "04f98545ccd05318",
   "lastOpenFiles": [
+    "SEM-3/CS2053-Computer Architecture/Memory Hierarchy.md",
     "Images/Pasted image 20240901013312.png",
     "Excalidraw/Drawing 2024-08-30 09.09.24.excalidraw.md",
-    "SEM-3/CS2053-Computer Architecture/Memory Hierarchy.md",
     "Images/Pasted image 20240901012947.png",
     "Images/Pasted image 20240901012712.png",
     "Excalidraw/Addressing Modes.md",
@@ -196,7 +195,6 @@
     "Images/Pasted image 20240830174616.png",
     "Images/Pasted image 20240830173547.png",
     "Images/Pasted image 20240830170542.png",
-    "Images/Pasted image 20240830155341.png",
     "SEM-3/CS2033-Data Communication and Networking/Encoding & Modulation.md",
     "Excalidraw/Icon Library/aws-architecture-icons.excalidrawlib",
     "Excalidraw/Icon Library/Unconfirmed 645735.crdownload",
