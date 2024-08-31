@@ -24,6 +24,7 @@
     "excalidraw-embeddable-theme": "text",
     "excalidraw-open-md": "checkbox",
     "Reference Note": "date",
-    "as": "checkbox"
+    "as": "checkbox",
+    "Created": "datetime"
   }
 }
