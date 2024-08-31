@@ -29,7 +29,8 @@ Related : #Thermo #Thermo/2
 >- It's a region of space enclosed by a distinguishable boundary (can be imaginary) and contains matter inside it. 
 >- The system must be simple and comprehensive.
 >
->![[Pasted image 20240709161443.png]]
+> > [!image]- System diagram
+> > ![[Pasted image 20240709161443.png]]
 
 >[!abstract]- Different Types of Systems
 >>[!info]- Open System
@@ -45,7 +46,7 @@ Related : #Thermo #Thermo/2
 <br>
 
 >[!note]- **Thermodynamic Properties**
->- Properties are known as point functions.
+>- Properties are known as **point functions**.
 >>[!warning] They depend only on the point, not the path followed to reach the state.
 >
 >>[!example]- Examples for thermodynamic properties
@@ -121,7 +122,7 @@ Related : #Thermo #Thermo/2
 >The capacity to work or the ability to cause changes
 
 >[!abstract]- Energy Types
->>[!info]- Microscopic Energy
+>>[!info]- Macroscopic Energy
 >>- Energies which a system possesses as a whole with respect to some outside reference frame.
 >>>[!example] Examples
 >>>- Potential energy
