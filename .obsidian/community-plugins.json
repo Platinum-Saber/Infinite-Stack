@@ -14,5 +14,7 @@
   "obsidian-icon-folder",
   "obsidian-emoji-toolbar",
   "obsidian-icon-shortcodes",
-  "tag-wrangler"
+  "tag-wrangler",
+  "ink",
+  "obsidian-meta-bind-plugin"
 ]
