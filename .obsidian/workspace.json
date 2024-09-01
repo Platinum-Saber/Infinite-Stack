@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM-3/MA2014-Differential Equations/Laplace Transformations.md",
-                "mode": "source",
+                "file": "SEM-3/CS3043-Database Systems/Introduction to SQL.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM-3/MA2014-Differential Equations/Laplace Transformations.md"
+                "file": "SEM-3/CS3043-Database Systems/Introduction to SQL.md"
               }
             }
           },
@@ -128,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM-3/MA2014-Differential Equations/Laplace Transformations.md",
+                "file": "SEM-3/CS3043-Database Systems/Introduction to SQL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,9 +167,12 @@
   },
   "active": "04f98545ccd05318",
   "lastOpenFiles": [
+    "SEM-3/CS3043-Database Systems/Database systems.md",
+    "SEM-3 INDEX.md",
+    "Infinite Stack.md",
+    "SEM-3/MA2014-Differential Equations/Laplace Transformations.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/desktop.ini",
     "SEM-3/MA2014-Differential Equations/Fourier Series.md",
-    "SEM-3/MA2014-Differential Equations/Laplace Transformations.md",
     "SEM-3/MA2014-Differential Equations/Mid Exam Prep.md",
     "SEM-3/MA2014-Differential Equations/Partial Differential Equations.md",
     "Excalidraw/Drawing 2024-08-30 09.09.24.excalidraw.md",
@@ -197,12 +200,10 @@
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Introduction to Thermodynamics.md",
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Thermodynamics.md",
     "SEM-3/CS2053-Computer Architecture/Drawing 2024-08-30 09.22.10.excalidraw.md",
-    "CS2053 - Take Home Assignment 01.md",
     "Images/Pasted image 20240830230821.png",
     "Images/Pasted image 20240830225137.png",
     "Images/Pasted image 20240830174616.png",
     "Images/Pasted image 20240830173547.png",
-    "SEM-3/CS2033-Data Communication and Networking/Encoding & Modulation.md",
     "Excalidraw/Icon Library/aws-architecture-icons.excalidrawlib",
     "Excalidraw/Icon Library/Unconfirmed 645735.crdownload",
     "Excalidraw/Icon Library/awesome-icons.excalidrawlib",
@@ -212,7 +213,6 @@
     "Excalidraw/Icon Library/architecture-diagram-components.excalidrawlib",
     "Excalidraw/Icon Library/Unconfirmed 730553.crdownload",
     "Excalidraw/Icon Library/system-design.excalidrawlib",
-    "Excalidraw/Icon Library/Unconfirmed 290697.crdownload",
     "Work Space.canvas",
     "Untitled.canvas"
   ]
