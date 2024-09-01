@@ -11,7 +11,9 @@ About: Based on CS2053-Lecture 05 Memory Hierarchy part 1
 ---
 # Content
 1. [[#Accessing Memory]]
-2. 
+2. [[#Reading From & Writing to Memory]]
+3. [[#Connecting Memory & CPU]]
+4. [[#Addressing Modes]]
 
 <br>
 
@@ -41,3 +43,7 @@ About: Based on CS2053-Lecture 05 Memory Hierarchy part 1
 ### Connecting Memory & CPU
 - Details of handling different memory modules & memory hierarchy is *off load* to **memory controller**.
 
+![[Pasted image 20240901015138.png]]
+<br>
+
+### Addressing Modes

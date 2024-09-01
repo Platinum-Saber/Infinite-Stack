@@ -30,7 +30,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -108,7 +109,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Drawing 2024-08-30 09.09.24.excalidraw.md"
+                "file": "SEM-3/CS2053-Computer Architecture/Memory Hierarchy.md"
               }
             }
           },
@@ -126,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/Drawing 2024-08-30 09.09.24.excalidraw.md",
+                "file": "SEM-3/CS2053-Computer Architecture/Memory Hierarchy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,11 +164,12 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "04f98545ccd05318",
+  "active": "01cd1bfedeb82434",
   "lastOpenFiles": [
+    "Images/Pasted image 20240901015138.png",
+    "Excalidraw/Drawing 2024-08-30 09.09.24.excalidraw.md",
     "SEM-3/CS2053-Computer Architecture/Memory Hierarchy.md",
     "Images/Pasted image 20240901013312.png",
-    "Excalidraw/Drawing 2024-08-30 09.09.24.excalidraw.md",
     "Images/Pasted image 20240901012947.png",
     "Images/Pasted image 20240901012712.png",
     "Excalidraw/Addressing Modes.md",
