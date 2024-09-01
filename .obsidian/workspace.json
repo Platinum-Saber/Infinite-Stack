@@ -11,9 +11,12 @@
             "id": "04f98545ccd05318",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Drawing 2024-08-30 09.09.24.excalidraw.md"
+                "file": "SEM-3/MA2014-Differential Equations/Laplace Transformations.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               }
             }
           },
@@ -30,8 +33,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -108,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM-3/CS2053-Computer Architecture/Memory Hierarchy.md"
+                "file": "SEM-3/MA2014-Differential Equations/Laplace Transformations.md"
               }
             }
           },
@@ -126,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM-3/CS2053-Computer Architecture/Memory Hierarchy.md",
+                "file": "SEM-3/MA2014-Differential Equations/Laplace Transformations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,11 +165,15 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "01cd1bfedeb82434",
+  "active": "04f98545ccd05318",
   "lastOpenFiles": [
-    "Images/Pasted image 20240901015138.png",
+    "SEM-3/MA2014-Differential Equations/Fourier Series.md",
+    "SEM-3/MA2014-Differential Equations/Laplace Transformations.md",
+    "SEM-3/MA2014-Differential Equations/Mid Exam Prep.md",
+    "SEM-3/MA2014-Differential Equations/Partial Differential Equations.md",
     "Excalidraw/Drawing 2024-08-30 09.09.24.excalidraw.md",
     "SEM-3/CS2053-Computer Architecture/Memory Hierarchy.md",
+    "Images/Pasted image 20240901015138.png",
     "Images/Pasted image 20240901013312.png",
     "Images/Pasted image 20240901012947.png",
     "Images/Pasted image 20240901012712.png",
@@ -195,7 +201,6 @@
     "Images/Pasted image 20240830225137.png",
     "Images/Pasted image 20240830174616.png",
     "Images/Pasted image 20240830173547.png",
-    "Images/Pasted image 20240830170542.png",
     "SEM-3/CS2033-Data Communication and Networking/Encoding & Modulation.md",
     "Excalidraw/Icon Library/aws-architecture-icons.excalidrawlib",
     "Excalidraw/Icon Library/Unconfirmed 645735.crdownload",
@@ -208,9 +213,6 @@
     "Excalidraw/Icon Library/system-design.excalidrawlib",
     "Excalidraw/Icon Library/Unconfirmed 290697.crdownload",
     "SEM-3/CS2053-Computer Architecture/Computer Architecture.md",
-    "SEM-3/CS2043-Operating Systems/Notes/OS Introduction.md",
-    "SEM-3/CS2043-Operating Systems/Notes/System Daemons.md",
-    "SEM-3/CS2043-Operating Systems/Notes/Synchronization Tools.md",
     "Work Space.canvas",
     "Untitled.canvas"
   ]
