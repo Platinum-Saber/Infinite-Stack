@@ -42,3 +42,8 @@ Reference Video :
 - **Factored** : Involves the assignment of values to variables.
 - **Structured** : Involves objects and relations, representing facts about these relations.
 
+<br>
+
+### Knowledge Base
+- The place where the agent's world representation **world representation** is maintained.
+- It consists of a set of *sentences* written in a *knowledge representation language*, also known as **axioms**.

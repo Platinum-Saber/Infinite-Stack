@@ -95,7 +95,10 @@
     "iconName": "SiHubspot",
     "iconColor": "#bbc760"
   },
-  "SEM-3/CS3613-Introduction to Artificial Intelligence/AI Introduction.md": "FiFile",
+  "SEM-3/CS3613-Introduction to Artificial Intelligence/AI Introduction.md": {
+    "iconName": "FiFile",
+    "iconColor": "#daf96c"
+  },
   "SEM-3/CS3613-Introduction to Artificial Intelligence/Breadth-first Search.md": {
     "iconName": "LiFileCode",
     "iconColor": "#74e4fb"
@@ -104,7 +107,10 @@
     "iconName": "LiFileCode",
     "iconColor": "#7ce3fd"
   },
-  "SEM-3/CS3613-Introduction to Artificial Intelligence/Intelligent Agents.md": "FiFile",
+  "SEM-3/CS3613-Introduction to Artificial Intelligence/Intelligent Agents.md": {
+    "iconName": "FiFile",
+    "iconColor": "#dcfb6a"
+  },
   "SEM-3/CS3613-Introduction to Artificial Intelligence/Solving Problems by Searching.md": {
     "iconName": "FiFile",
     "iconColor": "#dcf877"
@@ -149,7 +155,10 @@
     "iconName": "SiProtondb",
     "iconColor": "#a22f9e"
   },
-  "SEM-3/CS3613-Introduction to Artificial Intelligence/Local Search And Optimization Problems.md": "FiFile",
+  "SEM-3/CS3613-Introduction to Artificial Intelligence/Local Search And Optimization Problems.md": {
+    "iconName": "FiFile",
+    "iconColor": "#ddfb6f"
+  },
   "SEM-3/CS3613-Introduction to Artificial Intelligence/Generic Algorithms.md": {
     "iconName": "LiFileCode",
     "iconColor": "#6fe4fb"
@@ -192,7 +201,10 @@
     "iconName": "SiExcalidraw",
     "iconColor": "#a760e2"
   },
-  "SEM-3/CS3613-Introduction to Artificial Intelligence/Constraint Satisfaction Problem.md": "FiFile",
+  "SEM-3/CS3613-Introduction to Artificial Intelligence/Constraint Satisfaction Problem.md": {
+    "iconName": "FiFile",
+    "iconColor": "#dcfb6a"
+  },
   "SEM-3/CS3613-Introduction to Artificial Intelligence/Logical Agents.md": {
     "iconName": "FiFile",
     "iconColor": "#dcf971"
