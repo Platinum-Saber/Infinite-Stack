@@ -37,8 +37,13 @@
             "id": "3f6e279a7966be26",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Local Search And Optimization Problems.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ],
@@ -118,7 +123,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Local Search And Optimization Problems.md"
+              }
             }
           },
           {
@@ -135,6 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Local Search And Optimization Problems.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,18 +179,24 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "671fcfcc9244e77e",
+  "active": "3f6e279a7966be26",
   "lastOpenFiles": [
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/Solving Problems by Searching.md",
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/Uniform-cost Search.md",
+    "SEM-3/CS2053-Computer Architecture/Instruction Set Architecture-RV.md",
+    "SEM-3/CS2053-Computer Architecture/Computer Architecture Introduction.md",
     "SEM-3/CS2053-Computer Architecture/Memory Hierarchy.md",
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/Local Search And Optimization Problems.md",
     "SEM-3/CS3043-Database Systems/Introduction to SQL.md",
+    "SEM-3/MA2014-Differential Equations/Differential Equations.md",
+    "SEM-3/MA2014-Differential Equations/Fourier Series.md",
+    "SEM-3/MA2014-Differential Equations/Laplace Transformations.md",
+    "SEM-3/MA2014-Differential Equations/Mid Exam Prep.md",
+    "SEM-3/MA2014-Differential Equations/Partial Differential Equations.md",
     "SEM-3/CS3043-Database Systems/Database systems.md",
     "SEM-3 INDEX.md",
     "Infinite Stack.md",
-    "SEM-3/MA2014-Differential Equations/Laplace Transformations.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/desktop.ini",
-    "SEM-3/MA2014-Differential Equations/Fourier Series.md",
-    "SEM-3/MA2014-Differential Equations/Mid Exam Prep.md",
-    "SEM-3/MA2014-Differential Equations/Partial Differential Equations.md",
     "Excalidraw/Drawing 2024-08-30 09.09.24.excalidraw.md",
     "Images/Pasted image 20240901015138.png",
     "Images/Pasted image 20240901013312.png",
@@ -195,17 +209,11 @@
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/2. The First Law of Thermodynamics.md",
     "Excalidraw/Drawing 2024-08-30 09.09.24.excalidraw.png",
     "Excalidraw/Drawing 2024-08-30 13.43.31.excalidraw.md",
-    "SEM-3/CS2053-Computer Architecture/Computer Architecture Introduction.md",
-    "SEM-3/CS2053-Computer Architecture/Instruction Set Architecture-RV.md",
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/3. The Second Law of Thermodynamics.md",
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/1. The Zeroth Law of Thermodynamics.md",
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Energy Balance.md",
     "SEM-3/CS2043-Operating Systems/Operating Systems.md",
     "Addressing Modes.md",
-    "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Laws of Thermodynamics.md",
-    "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Basic Concepts of Thermodynamics.md",
-    "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Introduction to Thermodynamics.md",
-    "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Thermodynamics.md",
     "Images/Pasted image 20240830230821.png",
     "Images/Pasted image 20240830225137.png",
     "Images/Pasted image 20240830174616.png",

@@ -1,7 +1,7 @@
 Related : #ComputerArchitecture #CA #CA/01
 
 Reference Note : [Introduction](file:///E:%5CAcademics%5CSEM%203%5CCS2053-Computer%20Architecture%5CLecture%20note%5C01%20-%20Introduction-RVFinal.pdf)
-
+Reference Lecture : [Computer Architecture By Onur Mutlu](https://youtu.be/zLP_X4wyHbY?si=l7nz2NZAdhaxfqBv)
 
 <br>
 

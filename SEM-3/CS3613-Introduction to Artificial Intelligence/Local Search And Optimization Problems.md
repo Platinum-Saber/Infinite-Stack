@@ -1,3 +1,14 @@
+---
+tags:
+  - AI
+  - AI/04
+  - SearchAlgorithms
+  - LocalSearch
+Reviewed: false
+Created: 2024-08-26T10:15:00
+About: Based on CS3613-Lecture 05 Local Search & Optimization Problems
+---
+---
 Related : #AI #AI/04 #SearchAlgorithms #LocalSearch
 
 Reference Lecture : 
