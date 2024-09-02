@@ -4,4 +4,6 @@ tags:
   - "#AI/05"
   - CSP
 ---
-#AI/05 #CSP
+
+---
+Up Next : [[Logical Agents]]

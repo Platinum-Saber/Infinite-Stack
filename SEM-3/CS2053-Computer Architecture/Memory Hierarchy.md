@@ -8,6 +8,9 @@ Reviewed: false
 Created: 2024-09-01T01:08:00
 About: Based on CS2053-Lecture 05 Memory Hierarchy part 1
 ---
+Related : #CA #CA/05 #ComputerArchitecture #MemoryHierarchy 
+
+
 ---
 # Content
 1. [[#Accessing Memory]]
