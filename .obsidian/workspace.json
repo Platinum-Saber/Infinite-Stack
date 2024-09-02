@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Logical Agents.md",
-                "mode": "source",
+                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Breadth-first Search.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -70,8 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "b2aa869acde22062",
@@ -106,7 +105,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Logical Agents.md"
+                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Breadth-first Search.md"
               }
             }
           },
@@ -116,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Logical Agents.md",
+                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Breadth-first Search.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,41 +152,41 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "671fcfcc9244e77e",
+  "active": "3f6e279a7966be26",
   "lastOpenFiles": [
-    "SEM-3/CS3613-Introduction to Artificial Intelligence/AI Introduction.md",
-    "SEM-3/CS3613-Introduction to Artificial Intelligence/Constraint Satisfaction Problem.md",
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/Depth-first Search.md",
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/Generic Algorithms.md",
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/Hill Climbing Algorithm.md",
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/Local Beam Search.md",
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/Simulated Annealing Algorithm.md",
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/Breadth-first Search.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Logical Agents.md",
-    "SEM-3/CS3613-Introduction to Artificial Intelligence/Local Search And Optimization Problems.md",
-    "SEM-3/CS2053-Computer Architecture/Memory Hierarchy.md",
-    "SEM-3/CS3043-Database Systems/Introduction to SQL.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Solving Problems by Searching.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Uniform-cost Search.md",
-    "SEM-3/CS2053-Computer Architecture/Instruction Set Architecture-RV.md",
+    "SEM-3/CS3043-Database Systems/Database Design Using the E-R Model.md",
+    "SEM-3/CS3043-Database Systems/Database Systems Introduction.md",
+    "SEM-3/CS3043-Database Systems/Intermediate SQL.md",
+    "SEM-3/CS3043-Database Systems/Introduction to SQL.md",
+    "SEM-3/CS3043-Database Systems/Relational Database Design.md",
+    "SEM-3/CS2033-Data Communication and Networking/Encoding & Modulation.md",
+    "SEM-3/CS2033-Data Communication and Networking/Communication Concepts.md",
+    "SEM-3/CS2033-Data Communication and Networking/Data Com. & Networking Introduction.md",
     "SEM-3/CS2053-Computer Architecture/Computer Architecture Introduction.md",
+    "SEM-3/CS2053-Computer Architecture/Instruction Set Architecture-RV.md",
+    "SEM-3/CS2053-Computer Architecture/Memory Hierarchy.md",
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/AI Introduction.md",
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/Constraint Satisfaction Problem.md",
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/Local Search And Optimization Problems.md",
     "SEM-3/MA2014-Differential Equations/Differential Equations.md",
     "SEM-3/MA2014-Differential Equations/Fourier Series.md",
     "SEM-3/MA2014-Differential Equations/Laplace Transformations.md",
-    "SEM-3/MA2014-Differential Equations/Mid Exam Prep.md",
-    "SEM-3/MA2014-Differential Equations/Partial Differential Equations.md",
-    "SEM-3/CS3043-Database Systems/Database systems.md",
-    "SEM-3 INDEX.md",
-    "Infinite Stack.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/desktop.ini",
-    "Excalidraw/Drawing 2024-08-30 09.09.24.excalidraw.md",
     "Images/Pasted image 20240901015138.png",
     "Images/Pasted image 20240901013312.png",
     "Images/Pasted image 20240901012947.png",
     "Images/Pasted image 20240901012712.png",
-    "Excalidraw/Addressing Modes.md",
-    "Excalidraw/Instruction code.md",
-    "Excalidraw/Drawing 2024-08-30 09.17.20.excalidraw.md",
     "Excalidraw/Drawing 2024-08-22 13.38.19.excalidraw.png",
-    "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/2. The First Law of Thermodynamics.md",
     "Excalidraw/Drawing 2024-08-30 09.09.24.excalidraw.png",
-    "Excalidraw/Drawing 2024-08-30 13.43.31.excalidraw.md",
-    "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/3. The Second Law of Thermodynamics.md",
-    "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/1. The Zeroth Law of Thermodynamics.md",
     "Images/Pasted image 20240830230821.png",
     "Images/Pasted image 20240830225137.png",
     "Images/Pasted image 20240830174616.png",
