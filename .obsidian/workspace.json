@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Breadth-first Search.md",
-                "mode": "preview",
+                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Depth-first Search.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Breadth-first Search.md"
+                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Depth-first Search.md"
               }
             }
           },
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Breadth-first Search.md",
+                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Depth-first Search.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,12 +154,12 @@
   },
   "active": "3f6e279a7966be26",
   "lastOpenFiles": [
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/Breadth-first Search.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Depth-first Search.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Generic Algorithms.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Hill Climbing Algorithm.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Local Beam Search.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Simulated Annealing Algorithm.md",
-    "SEM-3/CS3613-Introduction to Artificial Intelligence/Breadth-first Search.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Logical Agents.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Solving Problems by Searching.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Uniform-cost Search.md",
