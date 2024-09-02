@@ -13,14 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "SEM-3/CS2053-Computer Architecture/Memory Hierarchy.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "dcfee2704970f586",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Depth-first Search.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -147,20 +161,29 @@
       "command-palette:Open command palette": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
-      "markdown-table-editor:Open Markdown Table Editor": false,
       "callout-manager:Insert Callout": false,
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "3f6e279a7966be26",
+  "active": "dcfee2704970f586",
   "lastOpenFiles": [
-    "SEM-3/CS3613-Introduction to Artificial Intelligence/Breadth-first Search.md",
-    "SEM-3/CS3613-Introduction to Artificial Intelligence/Depth-first Search.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Generic Algorithms.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Hill Climbing Algorithm.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Local Beam Search.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Simulated Annealing Algorithm.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Logical Agents.md",
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/Local Search And Optimization Problems.md",
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/Intelligent Agents.md",
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/AI Introduction.md",
+    "SEM-3/CS2053-Computer Architecture/Memory Hierarchy.md",
+    "SEM-3/CS2053-Computer Architecture/Instruction Set Architecture-RV.md",
+    "SEM-3/CS2053-Computer Architecture/Computer Architecture Introduction.md",
+    "CS2053 - Take Home Assignment 01.md",
+    "Addressing Modes.md",
+    "SEM-3/CS2053-Computer Architecture/Computer Architecture.md",
+    "SEM-3/CS2043-Operating Systems/Operating Systems.md",
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/Depth-first Search.md",
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/Breadth-first Search.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Solving Problems by Searching.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Uniform-cost Search.md",
     "SEM-3/CS3043-Database Systems/Database Design Using the E-R Model.md",
@@ -170,16 +193,6 @@
     "SEM-3/CS3043-Database Systems/Relational Database Design.md",
     "SEM-3/CS2033-Data Communication and Networking/Encoding & Modulation.md",
     "SEM-3/CS2033-Data Communication and Networking/Communication Concepts.md",
-    "SEM-3/CS2033-Data Communication and Networking/Data Com. & Networking Introduction.md",
-    "SEM-3/CS2053-Computer Architecture/Computer Architecture Introduction.md",
-    "SEM-3/CS2053-Computer Architecture/Instruction Set Architecture-RV.md",
-    "SEM-3/CS2053-Computer Architecture/Memory Hierarchy.md",
-    "SEM-3/CS3613-Introduction to Artificial Intelligence/AI Introduction.md",
-    "SEM-3/CS3613-Introduction to Artificial Intelligence/Constraint Satisfaction Problem.md",
-    "SEM-3/CS3613-Introduction to Artificial Intelligence/Local Search And Optimization Problems.md",
-    "SEM-3/MA2014-Differential Equations/Differential Equations.md",
-    "SEM-3/MA2014-Differential Equations/Fourier Series.md",
-    "SEM-3/MA2014-Differential Equations/Laplace Transformations.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/desktop.ini",
     "Images/Pasted image 20240901015138.png",
     "Images/Pasted image 20240901013312.png",
