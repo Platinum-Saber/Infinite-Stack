@@ -1,6 +1,14 @@
-
-Related : #DatabaseSystems #DB #DB/03 #SQL
-
+---
+tags:
+  - "#DatabaseSystems"
+  - DB
+  - "#DB/03"
+  - SQL
+Reviewed: false
+Created: 2024-08-21T10:19:00
+About: Based on CS3043-Lecture 03 Introduction to SQL
+---
+---
 Reference Video : [Online video](https://www.youtube.com/watch?v=7S_tz1z_5bA)
 Reference Notes : [Online notes](https://www.w3schools.com/MySQL/mysql_join.asp)
 

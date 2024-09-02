@@ -32,8 +32,17 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "3f6e279a7966be26",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -109,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "SEM-3/CS3043-Database Systems/Introduction to SQL.md"
-              }
+              "state": {}
             }
           },
           {
@@ -128,7 +135,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM-3/CS3043-Database Systems/Introduction to SQL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,8 +171,10 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "04f98545ccd05318",
+  "active": "671fcfcc9244e77e",
   "lastOpenFiles": [
+    "SEM-3/CS2053-Computer Architecture/Memory Hierarchy.md",
+    "SEM-3/CS3043-Database Systems/Introduction to SQL.md",
     "SEM-3/CS3043-Database Systems/Database systems.md",
     "SEM-3 INDEX.md",
     "Infinite Stack.md",
@@ -176,7 +184,6 @@
     "SEM-3/MA2014-Differential Equations/Mid Exam Prep.md",
     "SEM-3/MA2014-Differential Equations/Partial Differential Equations.md",
     "Excalidraw/Drawing 2024-08-30 09.09.24.excalidraw.md",
-    "SEM-3/CS2053-Computer Architecture/Memory Hierarchy.md",
     "Images/Pasted image 20240901015138.png",
     "Images/Pasted image 20240901013312.png",
     "Images/Pasted image 20240901012947.png",
@@ -199,7 +206,6 @@
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Basic Concepts of Thermodynamics.md",
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Introduction to Thermodynamics.md",
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Thermodynamics.md",
-    "SEM-3/CS2053-Computer Architecture/Drawing 2024-08-30 09.22.10.excalidraw.md",
     "Images/Pasted image 20240830230821.png",
     "Images/Pasted image 20240830225137.png",
     "Images/Pasted image 20240830174616.png",
