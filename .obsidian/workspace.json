@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Local Search And Optimization Problems.md",
+                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Constraint Satisfaction Problem.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -124,7 +124,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Local Search And Optimization Problems.md"
+                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Constraint Satisfaction Problem.md"
               }
             }
           },
@@ -142,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Local Search And Optimization Problems.md",
+                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Constraint Satisfaction Problem.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,14 +179,15 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "3f6e279a7966be26",
+  "active": "671fcfcc9244e77e",
   "lastOpenFiles": [
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/Local Search And Optimization Problems.md",
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/Constraint Satisfaction Problem.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Solving Problems by Searching.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Uniform-cost Search.md",
     "SEM-3/CS2053-Computer Architecture/Instruction Set Architecture-RV.md",
     "SEM-3/CS2053-Computer Architecture/Computer Architecture Introduction.md",
     "SEM-3/CS2053-Computer Architecture/Memory Hierarchy.md",
-    "SEM-3/CS3613-Introduction to Artificial Intelligence/Local Search And Optimization Problems.md",
     "SEM-3/CS3043-Database Systems/Introduction to SQL.md",
     "SEM-3/MA2014-Differential Equations/Differential Equations.md",
     "SEM-3/MA2014-Differential Equations/Fourier Series.md",
@@ -213,7 +214,6 @@
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/1. The Zeroth Law of Thermodynamics.md",
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Energy Balance.md",
     "SEM-3/CS2043-Operating Systems/Operating Systems.md",
-    "Addressing Modes.md",
     "Images/Pasted image 20240830230821.png",
     "Images/Pasted image 20240830225137.png",
     "Images/Pasted image 20240830174616.png",

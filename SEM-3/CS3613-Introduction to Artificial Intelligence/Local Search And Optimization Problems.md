@@ -125,3 +125,7 @@ Reference Note : [Local Search](file:///E:%5CAcademics%5CSEM%203%5CCS3613-Introd
 > [!faq]- Explain the concept of ‘genetic algorithms’ and how they differ from other local search methods.
 > Genetic algorithms simulate evolution by generating new states through crossover and mutation of parent states, unlike other local search methods that typically move from one state to its neighbor.
 
+<br>
+
+---
+Up Next : [[Constraint Satisfaction Problem]]

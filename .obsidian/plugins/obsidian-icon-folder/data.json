@@ -96,8 +96,14 @@
     "iconColor": "#bbc760"
   },
   "SEM-3/CS3613-Introduction to Artificial Intelligence/AI Introduction.md": "FiFile",
-  "SEM-3/CS3613-Introduction to Artificial Intelligence/Breadth-first Search.md": "LiFileCode",
-  "SEM-3/CS3613-Introduction to Artificial Intelligence/Depth-first Search.md": "LiFileCode",
+  "SEM-3/CS3613-Introduction to Artificial Intelligence/Breadth-first Search.md": {
+    "iconName": "LiFileCode",
+    "iconColor": "#74e4fb"
+  },
+  "SEM-3/CS3613-Introduction to Artificial Intelligence/Depth-first Search.md": {
+    "iconName": "LiFileCode",
+    "iconColor": "#7ce3fd"
+  },
   "SEM-3/CS3613-Introduction to Artificial Intelligence/Intelligent Agents.md": "FiFile",
   "SEM-3/CS3613-Introduction to Artificial Intelligence/Solving Problems by Searching.md": "FiFile",
   "SEM-3/CS3613-Introduction to Artificial Intelligence/Uniform-cost Search.md": "FiFile",
@@ -138,10 +144,22 @@
     "iconColor": "#a22f9e"
   },
   "SEM-3/CS3613-Introduction to Artificial Intelligence/Local Search And Optimization Problems.md": "FiFile",
-  "SEM-3/CS3613-Introduction to Artificial Intelligence/Generic Algorithms.md": "LiFileCode",
-  "SEM-3/CS3613-Introduction to Artificial Intelligence/Local Beam Search.md": "LiFileCode",
-  "SEM-3/CS3613-Introduction to Artificial Intelligence/Simulated Annealing Algorithm.md": "LiFileCode",
-  "SEM-3/CS3613-Introduction to Artificial Intelligence/Hill Climbing Algorithm.md": "LiFileCode",
+  "SEM-3/CS3613-Introduction to Artificial Intelligence/Generic Algorithms.md": {
+    "iconName": "LiFileCode",
+    "iconColor": "#6fe4fb"
+  },
+  "SEM-3/CS3613-Introduction to Artificial Intelligence/Local Beam Search.md": {
+    "iconName": "LiFileCode",
+    "iconColor": "#6fe4fb"
+  },
+  "SEM-3/CS3613-Introduction to Artificial Intelligence/Simulated Annealing Algorithm.md": {
+    "iconName": "LiFileCode",
+    "iconColor": "#69ebfc"
+  },
+  "SEM-3/CS3613-Introduction to Artificial Intelligence/Hill Climbing Algorithm.md": {
+    "iconName": "LiFileCode",
+    "iconColor": "#73e1f7"
+  },
   "SEM-3/CS2053-Computer Architecture/Memory Hierarchy.md": "FiFile",
   "SEM-3/CS2043-Operating Systems/Notes/System Daemons.md": "FarNoteSticky",
   "SEM-3/CS2043-Operating Systems/Notes/Synchronization Tools.md": "FiFile",
@@ -167,5 +185,6 @@
   "Excalidraw": {
     "iconName": "SiExcalidraw",
     "iconColor": "#a760e2"
-  }
+  },
+  "SEM-3/CS3613-Introduction to Artificial Intelligence/Constraint Satisfaction Problem.md": "FiFile"
 }
