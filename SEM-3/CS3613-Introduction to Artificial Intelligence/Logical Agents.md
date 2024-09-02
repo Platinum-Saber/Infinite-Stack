@@ -22,12 +22,18 @@ Reference Video :
 
 # Agents
 > [!info] Agent types
-> - Problem solving agent
-> - Knowledge based/ Planning agents
+> - **Problem solving agent** : Execute a given solution and are typically not well-suited for dynamic problems.
+> - **Knowledge based/ Planning agents** 
 
 ## Knowledge Based Agents
-> [!summary] Characteristics
+> [!note] Characteristics
 > - Given explicit goals.
 > - Can achieve competence quickly by being told or learning
 > - Adapts to changes in environment.
-> - 
+
+
+> [!summary] Functionality
+> - Maintains a representation of the world.
+> - Infer new representations of the world.
+> - Use the representation to decide what to do.
+
