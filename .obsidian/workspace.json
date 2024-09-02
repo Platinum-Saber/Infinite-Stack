@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Agents  ",
+                "query": "tag:#Agents path:Images  ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
