@@ -37,3 +37,8 @@ Reference Video :
 > - Infer new representations of the world.
 > - Use the representation to decide what to do.
 
+### Knowledge Representations
+- **Atomic** : The state is considered as a whole with no internal structure available to the agent.
+- **Factored** : Involves the assignment of values to variables.
+- **Structured** : Involves objects and relations, representing facts about these relations.
+

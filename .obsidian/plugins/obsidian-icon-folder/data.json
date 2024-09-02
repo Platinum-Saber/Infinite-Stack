@@ -105,8 +105,14 @@
     "iconColor": "#7ce3fd"
   },
   "SEM-3/CS3613-Introduction to Artificial Intelligence/Intelligent Agents.md": "FiFile",
-  "SEM-3/CS3613-Introduction to Artificial Intelligence/Solving Problems by Searching.md": "FiFile",
-  "SEM-3/CS3613-Introduction to Artificial Intelligence/Uniform-cost Search.md": "FiFile",
+  "SEM-3/CS3613-Introduction to Artificial Intelligence/Solving Problems by Searching.md": {
+    "iconName": "FiFile",
+    "iconColor": "#dcf877"
+  },
+  "SEM-3/CS3613-Introduction to Artificial Intelligence/Uniform-cost Search.md": {
+    "iconName": "FiFile",
+    "iconColor": "#d1ee68"
+  },
   "SEM-3/CS3043-Database Systems/Database systems.md": {
     "iconName": "SiHubspot",
     "iconColor": "#5dac63"
@@ -187,5 +193,8 @@
     "iconColor": "#a760e2"
   },
   "SEM-3/CS3613-Introduction to Artificial Intelligence/Constraint Satisfaction Problem.md": "FiFile",
-  "SEM-3/CS3613-Introduction to Artificial Intelligence/Logical Agents.md": "FiFile"
+  "SEM-3/CS3613-Introduction to Artificial Intelligence/Logical Agents.md": {
+    "iconName": "FiFile",
+    "iconColor": "#dcf971"
+  }
 }
