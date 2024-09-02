@@ -8,32 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "04f98545ccd05318",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SEM-3/CS3043-Database Systems/Introduction to SQL.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "01cd1bfedeb82434",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SEM-3/CS2053-Computer Architecture/Memory Hierarchy.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "3f6e279a7966be26",
             "type": "leaf",
             "state": {
@@ -46,8 +20,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -76,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Agents",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -93,12 +66,12 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "b2aa869acde22062",
@@ -108,6 +81,14 @@
         "id": "c879833fe0793969",
         "type": "tabs",
         "children": [
+          {
+            "id": "0459fa110490a006",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
           {
             "id": "e1493370f925b016",
             "type": "leaf",
@@ -127,14 +108,6 @@
               "state": {
                 "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Logical Agents.md"
               }
-            }
-          },
-          {
-            "id": "0459fa110490a006",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
             }
           },
           {
@@ -158,7 +131,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -180,17 +153,17 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "54cc69cb6e429c75",
+  "active": "3f6e279a7966be26",
   "lastOpenFiles": [
-    "SEM-3/CS2053-Computer Architecture/Memory Hierarchy.md",
-    "SEM-3/CS3613-Introduction to Artificial Intelligence/Logical Agents.md",
-    "SEM-3/CS3613-Introduction to Artificial Intelligence/Constraint Satisfaction Problem.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Local Search And Optimization Problems.md",
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/Logical Agents.md",
+    "SEM-3/CS2053-Computer Architecture/Memory Hierarchy.md",
+    "SEM-3/CS3043-Database Systems/Introduction to SQL.md",
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/Constraint Satisfaction Problem.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Solving Problems by Searching.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Uniform-cost Search.md",
     "SEM-3/CS2053-Computer Architecture/Instruction Set Architecture-RV.md",
     "SEM-3/CS2053-Computer Architecture/Computer Architecture Introduction.md",
-    "SEM-3/CS3043-Database Systems/Introduction to SQL.md",
     "SEM-3/MA2014-Differential Equations/Differential Equations.md",
     "SEM-3/MA2014-Differential Equations/Fourier Series.md",
     "SEM-3/MA2014-Differential Equations/Laplace Transformations.md",
