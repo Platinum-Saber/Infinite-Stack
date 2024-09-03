@@ -52,7 +52,7 @@ Reference Note : [Memory Hierarchy 1](file:///E:%5CAcademics%5CSEM%203%5CCS2053-
 
 ### Addressing Modes
 
-### 1. PC-relative Addressing
+#### 1. PC-relative Addressing
 
 - **Instructions**: `auipc`, `jal`, and branch instructions (`beq`, `bne`, `blt`, `bge`, etc.)
 - The effective address is calculated relative to the current value of the Program Counter (PC).
@@ -74,18 +74,14 @@ beq x5, x6, label  # If x5 == x6, jump to the address at label
 
 <br>
 <br>
-<br>
 
 > [!image] `jal` diagram
 > ![[Pasted image 20240830225137.png]]
 
-
-<br>
-<br>
 <br>
 <br>
 
-### 2. Register-offset (Base + Offset) Addressing
+#### 2. Register-offset (Base + Offset) Addressing
 
 - **Instructions**: `jalr`, `addi`, and all memory instructions (`lw`, `sw`, `lb`, `sb`, etc.).
 - The effective address is computed by adding a constant offset (an immediate value) to the contents of a base register.
@@ -110,12 +106,8 @@ lw x5, 4(x10)  # Load word from memory address (x10 + 4) into x5
 
 <br>
 <br>
-<br>
-<br>
-<br>
-<br>
 
-### 3. Absolute Addressing
+#### 3. Absolute Addressing
 
 - **Instruction**: `lui`
 - The `lui` instruction loads a 20-bit immediate value into the upper 20 bits of a register, effectively setting up a large constant or address.
@@ -132,4 +124,4 @@ addi x5, x5, 0x678  # x5 = 0x12345678 ; addi is used to complete the full addres
 > [!image] `lui` diagram
 > ![[Pasted image 20240830174616.png]]
 
-For [[RISC-V ISA]]
+For more info on instructions: [[RISC-V ISA]]

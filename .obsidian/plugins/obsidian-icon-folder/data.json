@@ -210,5 +210,8 @@
     "iconName": "FiFile",
     "iconColor": "#dcf971"
   },
-  "SEM-3/CS2053-Computer Architecture/RISC-V ISA.md": "RiSlashCommands2"
+  "SEM-3/CS2053-Computer Architecture/RISC-V ISA.md": {
+    "iconName": "RiSlashCommands2",
+    "iconColor": "#73e1f7"
+  }
 }
