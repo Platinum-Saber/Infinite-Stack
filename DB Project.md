@@ -2,5 +2,7 @@ Color pallet
 ```
 #F2E2C4
 #A67D4B
-
+#A68F7B
+#F2E3D5
+#40241E
 ```
