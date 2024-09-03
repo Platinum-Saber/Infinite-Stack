@@ -32,9 +32,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "c59add0d8702c114",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SEM-3/CS3043-Database Systems/Intermediate SQL.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -119,7 +132,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SRS.md"
+                "file": "SEM-3/CS3043-Database Systems/Intermediate SQL.md"
               }
             }
           },
@@ -129,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SRS.md",
+                "file": "SEM-3/CS3043-Database Systems/Intermediate SQL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,8 +178,12 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "dcfee2704970f586",
+  "active": "c59add0d8702c114",
   "lastOpenFiles": [
+    "SEM-3/CS3043-Database Systems/Introduction to SQL.md",
+    "conflict-files-obsidian-git.md",
+    "SRS.md",
+    "Excalidraw/Drawing 2024-09-02 13.33.00.excalidraw.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Depth-first Search.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Generic Algorithms.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Hill Climbing Algorithm.md",
@@ -189,10 +206,6 @@
     "SEM-3/CS3043-Database Systems/Database Design Using the E-R Model.md",
     "SEM-3/CS3043-Database Systems/Database Systems Introduction.md",
     "SEM-3/CS3043-Database Systems/Intermediate SQL.md",
-    "SEM-3/CS3043-Database Systems/Introduction to SQL.md",
-    "SEM-3/CS3043-Database Systems/Relational Database Design.md",
-    "SEM-3/CS2033-Data Communication and Networking/Encoding & Modulation.md",
-    "SEM-3/CS2033-Data Communication and Networking/Communication Concepts.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/desktop.ini",
     "Images/Pasted image 20240901015138.png",
     "Images/Pasted image 20240901013312.png",

@@ -9,13 +9,13 @@
   "callout-manager",
   "obsidian-admonition",
   "mermaid-tools",
-  "obsidian-icons-plugin",
-  "obsidian-icon-folder",
   "obsidian-emoji-toolbar",
   "obsidian-icon-shortcodes",
   "tag-wrangler",
   "ink",
   "obsidian-meta-bind-plugin",
   "execute-code",
-  "any-block"
+  "any-block",
+  "obsidian-icon-folder",
+  "obsidian-icons-plugin"
 ]
