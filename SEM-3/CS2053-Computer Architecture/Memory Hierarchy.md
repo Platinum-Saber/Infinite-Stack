@@ -132,3 +132,4 @@ addi x5, x5, 0x678  # x5 = 0x12345678 ; addi is used to complete the full addres
 > [!image] `lui` diagram
 > ![[Pasted image 20240830174616.png]]
 
+For [[RISC-V ISA]]

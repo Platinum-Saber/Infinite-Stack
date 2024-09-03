@@ -6,6 +6,7 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "RiSlashCommands2",
       "SiExcalidraw",
       "FarLightbulb",
       "LiFileCode",
@@ -14,8 +15,7 @@
       "LiStickyNote",
       "FasCommentDots",
       "SiHubspot",
-      "FiFile",
-      "FiHome"
+      "FiFile"
     ],
     "recentlyUsedIconsSize": 10,
     "rules": [],
@@ -209,5 +209,6 @@
   "SEM-3/CS3613-Introduction to Artificial Intelligence/Logical Agents.md": {
     "iconName": "FiFile",
     "iconColor": "#dcf971"
-  }
+  },
+  "SEM-3/CS2053-Computer Architecture/RISC-V ISA.md": "RiSlashCommands2"
 }
