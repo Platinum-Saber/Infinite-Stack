@@ -1,7 +1,8 @@
  Related : #Thermo #Thermo/4 #PureSubstance
 
-Reference Notes : [Thermodynamic_Property_Tables](file:///E:%5CAcademics%5CSEM%203%5CME1823-Fundamentals%20of%20Engineering%20Thermodynamics%20and%20Applications%5CLecture%20note%5CNew%20folder%5CThermodynamic_Property_Tables.pdf), 
+Reference Notes : [Thermodynamic Property Tables](file:///E:%5CAcademics%5CSEM%203%5CME1823-Fundamentals%20of%20Engineering%20Thermodynamics%20and%20Applications%5CLecture%20note%5CNew%20folder%5CThermodynamic_Property_Tables.pdf), 
 Reference Videos : [Lecture-part1](file:///E:%5CAcademics%5CSEM%203%5CME1823-Fundamentals%20of%20Engineering%20Thermodynamics%20and%20Applications%5CLecture%20Video%5CLec%2007%20-%20Properties%20of%20Pure%20Substances-part%201.mp4), [Lecture-part2](file:///E:%5CAcademics%5CSEM%203%5CME1823-Fundamentals%20of%20Engineering%20Thermodynamics%20and%20Applications%5CLecture%20Video%5CLec%2008%20-%20Properties%20of%20Pure%20Substances-part%202.mp4)
+
 
 <br>
 
