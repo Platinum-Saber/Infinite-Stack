@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM-3/CS3043-Database Systems/Intermediate SQL.md",
+                "file": "conflict-files-obsidian-git.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -132,7 +132,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM-3/CS3043-Database Systems/Intermediate SQL.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           },
@@ -142,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM-3/CS3043-Database Systems/Intermediate SQL.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,6 +166,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-git:Open Git source control": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -180,6 +181,7 @@
   },
   "active": "c59add0d8702c114",
   "lastOpenFiles": [
+    "SEM-3/CS3043-Database Systems/Intermediate SQL.md",
     "SEM-3/CS3043-Database Systems/Introduction to SQL.md",
     "conflict-files-obsidian-git.md",
     "SRS.md",
@@ -205,7 +207,6 @@
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Uniform-cost Search.md",
     "SEM-3/CS3043-Database Systems/Database Design Using the E-R Model.md",
     "SEM-3/CS3043-Database Systems/Database Systems Introduction.md",
-    "SEM-3/CS3043-Database Systems/Intermediate SQL.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/desktop.ini",
     "Images/Pasted image 20240901015138.png",
     "Images/Pasted image 20240901013312.png",
