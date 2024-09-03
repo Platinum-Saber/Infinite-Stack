@@ -6,7 +6,7 @@ Sample : [SRS Example](file:///E:%5CAcademics%5CSEM%203%5CCS3043-Database%20Syst
 > ![[Project Description.pdf]]
 
 - Web app
-- Using React
+- Using React, node.js
 ### 1. [[Introduction]] :- Suraja
 ### 2. [[Overall Description]] :- Semini
 ### 3. [[External Interface Requirements]] :- Suhan
@@ -15,4 +15,5 @@ Sample : [SRS Example](file:///E:%5CAcademics%5CSEM%203%5CCS3043-Database%20Syst
 ### 6. [[Other Requirements]]
 # [[SRS Document]]
 
-[[DB Project]]
+
+###  [[DB Project]]
