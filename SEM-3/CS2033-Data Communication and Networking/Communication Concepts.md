@@ -1,3 +1,12 @@
+---
+tags:
+  - "#Networking"
+  - "#Networking/02"
+  - CommunicationConcepts
+Reviewed: 
+Created: 2024-08-14T17:39:00
+About: Based on CS2033-Lecture 02 Communication Concepts
+---
 Related : #Networking #Networking/02 #CommunicationConcepts 
 
 Reference Video :
@@ -13,7 +22,14 @@ Reference Note  : [Communication Principals](file:///E:%5CAcademics%5CSEM%203%5C
 2. [[#Signals]]
 	1. [[#Types Of Signals]]
 	2. [[#Properties Of Periodic Signals]]
-	3. [[#]]
+3. [[#Fourier Series]]
+4. [[#Bandwidth]]
+5. [[#Baud Rate]]
+6. [[#Data Rate]]
+7. [[#Sampling]]
+8. [[#Signal to Noise Ratio]]
+9. [[#Nyquist Theorem]]
+10. [[#Shannon's Theorem]]
 
 ---
 
