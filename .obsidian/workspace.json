@@ -26,12 +26,11 @@
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/Drawing 2024-09-04 16.32.33.excalidraw.md"
+                "file": "Excalidraw/media.md"
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -116,7 +115,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Drawing 2024-09-04 16.32.33.excalidraw.md"
+                "file": "SEM-3/CS2033-Data Communication and Networking/Transmission Media.md"
               }
             }
           },
@@ -126,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/Drawing 2024-09-04 16.32.33.excalidraw.md",
+                "file": "SEM-3/CS2033-Data Communication and Networking/Transmission Media.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,10 +171,10 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "1f9a1322b8162a0b",
+  "active": "3f6e279a7966be26",
   "lastOpenFiles": [
+    "Excalidraw/media.md",
     "SEM-3/CS2033-Data Communication and Networking/Transmission Media.md",
-    "Excalidraw/Drawing 2024-09-04 16.32.33.excalidraw.md",
     "SEM-3/CS2033-Data Communication and Networking/Encoding & Modulation.md",
     "SEM-3/CS3043-Database Systems/Introduction to SQL.md",
     "SEM-3/CS3043-Database Systems/Relational Database Design.md",
