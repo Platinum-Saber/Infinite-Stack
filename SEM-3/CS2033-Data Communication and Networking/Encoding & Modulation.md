@@ -38,28 +38,49 @@ Related : #Networking #Networking/03 #Encoding #Modulation
 > 
 > - **Polar Encoding:** Utilizes both positive and negative voltages. One logic state is represented by a positive voltage, and the other by a negative voltage. Polar encoding can improve synchronization by providing clearer transitions between states.
 
+> [!abstract] Encoding Schemes
+> - Nonreturn to Zero-Level (NRZ-L) 
+> - Nonreturn to Zero Inverted (NRZI) 
+> - Bipolar -AMI 
+> - Pseudoternary 
+> - Manchester 
+> - Differential Manchester 
+> - B8ZS 
+> - HDB3
 ## NRZ Encoding
 
 > [!info]-  NRZ-L (Nonreturn to Zero-Level)
->  A type of **polar encoding** where *two different voltages represent binary 0 and 1*. 
->  The voltage **remains constant** during the bit interval, and there's **no return to zero voltage** between bits. 
->  This method is straightforward but can lead to synchronization problems due to the lack of transitions in long sequences of identical bits.
+> -  A type of **polar encoding** where *two different voltages represent binary 0 and 1*. 
+> - The voltage **remains constant** during the bit interval, and there's **no return to zero voltage** between bits. 
+> - This method is straightforward but can lead to synchronization problems due to the lack of transitions in long sequences of identical bits.
 
 > [!info]- NRZI (Nonreturn to Zero Inverted)
 > -  An enhancement of NRZ-L. 
-> - **Instead of using constant voltage levels**, NRZI encodes binary *1 by transitioning the voltage at the start of the bit interval*, while binary *0 is represented by no transition*. This method improves synchronization but still has some limitations, especially in complex transmission systems.
+> - **Instead of using constant voltage levels**, NRZI encodes binary *1 by transitioning the voltage at the start of the bit interval*, while binary *0 is represented by no transition*. 
+> - This method improves synchronization but still has some limitations, especially in complex transmission systems.
 
 <br>
 
-## Differential Encoding:
+## Differential Encoding
 
-- **Concept:** In differential encoding, data is represented by changes in the signal rather than the signal levels themselves. This approach is more robust because detecting a transition is generally more reliable than detecting a specific voltage level.
-- **Pros:** Improved reliability in detecting transitions.
-- **Cons:** Potentially complex, especially in environments with multiple signal paths where polarity could be lost.
+> [!info] Concept
+> - In differential encoding, data is represented by changes in the signal rather than the signal levels themselves. 
+> - This approach is more robust because detecting a transition is generally more reliable than detecting a specific voltage level.
 
-## Multilevel Binary Encoding:
+> [!success]- Pros
+> -  Improved reliability in detecting transitions.
 
-- **Bipolar-AMI (Alternate Mark Inversion):** Uses more than two voltage levels. Binary 0 is represented by no signal, while binary 1 is represented by alternating positive and negative pulses. This method avoids a DC component and is effective for error detection.
+> [!fail]- Cons
+> - Potentially complex, especially in environments with multiple signal paths where polarity could be lost.
+
+<br>
+
+## Multilevel Binary Encoding
+
+> [!info]- Bipolar-AMI (Alternate Mark Inversion)
+>  Uses more than two voltage levels. Binary 0 is represented by no signal, while binary 1 is represented by alternating positive and negative pulses. 
+>  This method avoids a DC component and is effective for error detection.
+
 - **Pseudoternary:** Opposite to Bipolar-AMI, where binary 1 is represented by the absence of a signal and binary 0 by alternating positive and negative pulses.
 
 **Trade-offs:**
