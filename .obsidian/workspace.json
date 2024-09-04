@@ -26,8 +26,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM-3/MA2014-Differential Equations/Fourier Series.md",
-                "mode": "preview",
+                "file": "SEM-3/CS2043-Operating Systems/Labs/L 01 - Dining Philosophers Problem.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -119,7 +119,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM-3/MA2014-Differential Equations/Fourier Series.md"
+                "file": "SEM-3/CS2043-Operating Systems/Labs/L 01 - Dining Philosophers Problem.md"
               }
             }
           },
@@ -129,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM-3/MA2014-Differential Equations/Fourier Series.md",
+                "file": "SEM-3/CS2043-Operating Systems/Labs/L 01 - Dining Philosophers Problem.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -177,9 +177,11 @@
   },
   "active": "dcfee2704970f586",
   "lastOpenFiles": [
+    "SEM-3/CS2043-Operating Systems/Operating Systems.md",
+    "SEM-3 INDEX.md",
+    "SEM-3/MA2014-Differential Equations/Fourier Series.md",
     "SEM-3/MA2014-Differential Equations/Laplace Transformations.md",
     "SEM-3/MA2014-Differential Equations/Differential Equations.md",
-    "SEM-3/MA2014-Differential Equations/Fourier Series.md",
     "SEM-3/MA2014-Differential Equations/Partial Differential Equations.md",
     "SEM-3/MA3014-Applied Statistics/Applied Statistics.md",
     "SEM-3/CS2043-Operating Systems/Notes/Operating System Services.md",
@@ -201,8 +203,6 @@
     "SEM-3/CS2053-Computer Architecture/Instruction Set Architecture-RV.md",
     "SEM-3/CS2053-Computer Architecture/Computer Architecture Introduction.md",
     "Excalidraw/Drawing 2024-09-03 19.07.57.excalidraw.md",
-    "CS2053 - Take Home Assignment 01.md",
-    "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/3. The Second Law of Thermodynamics.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/desktop.ini",
     "Images/Pasted image 20240901015138.png",
     "Images/Pasted image 20240901013312.png",
