@@ -38,7 +38,7 @@ Related : #Networking #Networking/03 #Encoding #Modulation
 > 
 > - **Polar Encoding:** Utilizes both positive and negative voltages. One logic state is represented by a positive voltage, and the other by a negative voltage. Polar encoding can improve synchronization by providing clearer transitions between states.
 
-> [!abstract] Encoding Schemes
+> [!abstract]- Encoding Schemes
 > - Nonreturn to Zero-Level (NRZ-L) 
 > - Nonreturn to Zero Inverted (NRZI) 
 > - Bipolar -AMI 
@@ -47,6 +47,8 @@ Related : #Networking #Networking/03 #Encoding #Modulation
 > - Differential Manchester 
 > - B8ZS 
 > - HDB3
+
+
 ## NRZ Encoding
 
 > [!info]-  NRZ-L (Nonreturn to Zero-Level)
@@ -133,22 +135,30 @@ Related : #Networking #Networking/03 #Encoding #Modulation
 ## Modulation Techniques
 
 > [!info]- Amplitude Shift Keying **(ASK)**
-> - Represents binary values by varying the amplitude of the carrier signal. 
+> - Represents binary values by varying the **amplitude** of the carrier signal. 
 > - Typically, one amplitude is zero, which makes the system vulnerable to gain changes and noise, limiting its efficiency and data rate (up to 1200bps on voice-grade lines).
 
-> [!info]
+> [!info]- Frequency Shift Keying **(FSK)**
+> - Represents binary values using different frequencies near the **carrier frequency**. 
+> - It’s *less susceptible to* **errors** than ASK and is commonly used in radio and LAN communications.
 
-> - Represents binary values using different frequencies near the carrier frequency. It’s less susceptible to errors than ASK and is commonly used in radio and LAN communications.
+> [!info]- Phase Shift Keying **(PSK)**
+> - Represents data by **shifting** the phase of the **carrier** signal. 
+> - PSK is more **resistant to noise** than ASK and FSK and provides **better bandwidth efficiency**.
 
-- **Phase Shift Keying (PSK):** 
-- Represents data by shifting the phase of the carrier signal. PSK is more resistant to noise than ASK and FSK and provides better bandwidth efficiency.
+## Advanced Modulation
 
-**Advanced Modulation:**
+> [!info]- Quadrature PSK **(QPSK)** 
+> - Improves efficiency by representing multiple bits with each signal element. 
+> - It uses shifts of 90° in **phase (π/2)** to represent data. 
+> - Higher-order PSK schemes can use even more phase angles and multiple amplitudes to transmit data more efficiently.
 
-- **Quadrature PSK (QPSK):** Improves efficiency by representing multiple bits with each signal element. It uses shifts of 90° in phase (π/2) to represent data. Higher-order PSK schemes can use even more phase angles and multiple amplitudes to transmit data more efficiently.
-- **Quadrature Amplitude Modulation (QAM):** Combines ASK and PSK, using two carrier signals 90° out of phase with each other. Each carrier is independently ASK modulated, allowing for two different signals to be transmitted simultaneously over the same medium. QAM is used in applications like ADSL and some wireless systems, offering high data rates and efficient use of bandwidth.
+> [!info]- Quadrature Amplitude Modulation **(QAM)**
+> -  Combines ASK and PSK, using two carrier signals 90° out of phase with each other. 
+> - Each carrier is independently ASK modulated, allowing for two different signals to be transmitted simultaneously over the same medium. 
+> - QAM is used in applications like ADSL and some wireless systems, offering high data rates and efficient use of bandwidth.
 
-**Performance Considerations:**
+## Performance Considerations
 
 - **Bandwidth:** The bandwidth required for ASK and PSK is directly related to the bit rate, while FSK’s bandwidth depends on the data rate at lower frequencies and the offset from the carrier at higher frequencies.
 - **Bit Error Rate:** In noisy environments, PSK and QPSK offer better bit error rates (about 3dB better) than ASK and FSK.
