@@ -178,5 +178,7 @@ Related : #Networking #Networking/03 #Encoding #Modulation
 
 ## Performance Considerations
 
-- **Bandwidth:** The bandwidth required for ASK and PSK is directly related to the bit rate, while FSK’s bandwidth depends on the data rate at lower frequencies and the offset from the carrier at higher frequencies.
-- **Bit Error Rate:** In noisy environments, PSK and QPSK offer better bit error rates (about 3dB better) than ASK and FSK.
+- **Bandwidth:**
+	-  The bandwidth required for ASK and PSK is directly related to the bit rate, while FSK’s bandwidth depends on the data rate at lower frequencies and the offset from the carrier at higher frequencies.
+- **Bit Error Rate:** 
+	- In noisy environments, PSK and QPSK offer better bit error rates (about 3dB better) than ASK and FSK.
