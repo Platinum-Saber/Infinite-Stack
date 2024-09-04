@@ -137,10 +137,20 @@ Related : #Networking #Networking/03 #Encoding #Modulation
 > [!info]- Amplitude Shift Keying **(ASK)**
 > - Represents binary values by varying the **amplitude** of the carrier signal. 
 > - Typically, one amplitude is zero, which makes the system vulnerable to gain changes and noise, limiting its efficiency and data rate (up to 1200bps on voice-grade lines).
+> > [!image]- ASK diagram
+> > ![[Pasted image 20240904151109.png]]
 
 > [!info]- Frequency Shift Keying **(FSK)**
 > - Represents binary values using different frequencies near the **carrier frequency**. 
 > - It’s *less susceptible to* **errors** than ASK and is commonly used in radio and LAN communications.
+> 
+> > [!image]- FSK diagram
+> > ![[Pasted image 20240904151142.png]]
+> 
+> > [!image]- Full-Duplex FSK Transmission on a Voice-Grade Line
+> > ![[Pasted image 20240904151607.png]]
+
+
 
 > [!info]- Phase Shift Keying **(PSK)**
 > - Represents data by **shifting** the phase of the **carrier** signal. 
