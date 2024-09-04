@@ -106,15 +106,49 @@ Related : #Networking #Networking/03 #Encoding #Modulation
 > - Features a **transition** in the *middle of each bit period*, which serves as **both clock and data**. 
 > - A *low-to-high transition* represents a **binary 1**, and a *high-to-low transition* represents a **binary 0**. 
 > - This method is **self-clocking**, which enhances synchronization but **requires more bandwidth.**
-> > [!image]
+> > [!image]- Manchester encoding diagram
+> > ![[Pasted image 20240904144657.png]]
 
 > [!info]- Differential Manchester
 > - Similar to Manchester but with a **transition** at the **start of the bit period** representing *binary 0* and **no transition** representing *binary 1.*
 > - Like Manchester, it’s **self-clocking** but also **requires more bandwidth.**
+> > [!image]- Differential Manchester diagram
+> > ![[Pasted image 20240904144802.png]]
 
 > [!check]- Pros
-> - Self-synchronizing, no DC component, and error detection through the presence or absence of expected transitions.
+> - Self-synchronizing
+> - No DC component 
+> - error detection through the presence or absence of expected transitions.
 
 > [!fail]- Cons
-> - Higher modulation rate and greater bandwidth requirement than NRZ schemes.
+> - Higher modulation rate.
+> - Greater bandwidth requirement than NRZ schemes.
 
+
+# Digital Data, Analog Signal
+
+- **Public Telephone System:**
+	- *Bandwidth* :  Limited to 300Hz to 3400Hz, requiring modulation techniques to transmit digital data over this analog system.
+
+## Modulation Techniques
+
+> [!info]- Amplitude Shift Keying **(ASK)**
+> - Represents binary values by varying the amplitude of the carrier signal. 
+> - Typically, one amplitude is zero, which makes the system vulnerable to gain changes and noise, limiting its efficiency and data rate (up to 1200bps on voice-grade lines).
+
+> [!info]
+
+> - Represents binary values using different frequencies near the carrier frequency. It’s less susceptible to errors than ASK and is commonly used in radio and LAN communications.
+
+- **Phase Shift Keying (PSK):** 
+- Represents data by shifting the phase of the carrier signal. PSK is more resistant to noise than ASK and FSK and provides better bandwidth efficiency.
+
+**Advanced Modulation:**
+
+- **Quadrature PSK (QPSK):** Improves efficiency by representing multiple bits with each signal element. It uses shifts of 90° in phase (π/2) to represent data. Higher-order PSK schemes can use even more phase angles and multiple amplitudes to transmit data more efficiently.
+- **Quadrature Amplitude Modulation (QAM):** Combines ASK and PSK, using two carrier signals 90° out of phase with each other. Each carrier is independently ASK modulated, allowing for two different signals to be transmitted simultaneously over the same medium. QAM is used in applications like ADSL and some wireless systems, offering high data rates and efficient use of bandwidth.
+
+**Performance Considerations:**
+
+- **Bandwidth:** The bandwidth required for ASK and PSK is directly related to the bit rate, while FSK’s bandwidth depends on the data rate at lower frequencies and the offset from the carrier at higher frequencies.
+- **Bit Error Rate:** In noisy environments, PSK and QPSK offer better bit error rates (about 3dB better) than ASK and FSK.
