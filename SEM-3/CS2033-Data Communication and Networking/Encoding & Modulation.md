@@ -150,11 +150,19 @@ Related : #Networking #Networking/03 #Encoding #Modulation
 > > [!image]- Full-Duplex FSK Transmission on a Voice-Grade Line
 > > ![[Pasted image 20240904151607.png]]
 
-
-
 > [!info]- Phase Shift Keying **(PSK)**
 > - Represents data by **shifting** the phase of the **carrier** signal. 
 > - PSK is more **resistant to noise** than ASK and FSK and provides **better bandwidth efficiency**.
+> 
+> > [!note]- Binary **PSK**
+> > 2 phases represents 2 binary digits.
+> > > [!image]- Binary PSK
+> > > ![[Pasted image 20240904152012.png]]
+> 
+> > [!note]- Differential **PSK**
+> > Phase shifted relative to previous transmission rather than some reference signal
+> > > [!image]- Differential PSK diagram
+> > > ![[Pasted image 20240904152322.png]]
 
 ## Advanced Modulation
 
