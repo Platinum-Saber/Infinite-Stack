@@ -70,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "b2aa869acde22062",
@@ -161,8 +162,11 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "3f6e279a7966be26",
+  "active": "671fcfcc9244e77e",
   "lastOpenFiles": [
+    "Images/Pasted image 20240904144325.png",
+    "Images/Pasted image 20240904144205.png",
+    "Images/Pasted image 20240904144052.png",
     "SEM-3/CS2033-Data Communication and Networking/Data Com. & Networking Introduction.md",
     "SEM-3/CS2033-Data Communication and Networking/Encoding & Modulation.md",
     "SEM-3/CS2033-Data Communication and Networking/Communication Concepts.md",
@@ -188,7 +192,6 @@
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Energy Balance.md",
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Introduction to Thermodynamics.md",
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Laws of Thermodynamics.md",
-    "SRS.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/desktop.ini",
     "Images/Pasted image 20240901015138.png",
     "Images/Pasted image 20240901013312.png",
@@ -198,8 +201,6 @@
     "Excalidraw/Drawing 2024-08-30 09.09.24.excalidraw.png",
     "Images/Pasted image 20240830230821.png",
     "Images/Pasted image 20240830225137.png",
-    "Images/Pasted image 20240830174616.png",
-    "Images/Pasted image 20240830173547.png",
     "Excalidraw/Icon Library/aws-architecture-icons.excalidrawlib",
     "Excalidraw/Icon Library/Unconfirmed 645735.crdownload",
     "Excalidraw/Icon Library/awesome-icons.excalidrawlib",

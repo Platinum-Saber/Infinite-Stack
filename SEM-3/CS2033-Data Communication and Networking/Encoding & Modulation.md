@@ -53,11 +53,18 @@ Related : #Networking #Networking/03 #Encoding #Modulation
 > -  A type of **polar encoding** where *two different voltages represent binary 0 and 1*. 
 > - The voltage **remains constant** during the bit interval, and there's **no return to zero voltage** between bits. 
 > - This method is straightforward but can lead to synchronization problems due to the lack of transitions in long sequences of identical bits.
+> > [!image]- NRZ-L Diagram 
+> > ![[Pasted image 20240904144052.png]]
+
 
 > [!info]- NRZI (Nonreturn to Zero Inverted)
 > -  An enhancement of NRZ-L. 
 > - **Instead of using constant voltage levels**, NRZI encodes binary *1 by transitioning the voltage at the start of the bit interval*, while binary *0 is represented by no transition*. 
 > - This method improves synchronization but still has some limitations, especially in complex transmission systems.
+
+> [!image]- Comparison diagram
+> ![[Pasted image 20240904144205.png]]
+
 
 <br>
 
@@ -85,6 +92,10 @@ Related : #Networking #Networking/03 #Encoding #Modulation
 > - Opposite to Bipolar-AMI.
 > - Binary *1 is represented by the* **absence of a signal** and *binary 0 by* **alternating positive and negative pulses**.
 
+> [!image]- Comparison diagram
+> ![[Pasted image 20240904144325.png]]
+
+
 > [!error]- Trade-offs:
 > - Multilevel encoding schemes are less efficient than NRZ because they require distinguishing between multiple signal levels, which increases the likelihood of errors.
 > - Additionally, they require more signal power to achieve the same probability of bit error compared to simpler encoding schemes.
@@ -92,13 +103,14 @@ Related : #Networking #Networking/03 #Encoding #Modulation
 ## Biphase Encoding
 
 > [!info]- Manchester Encoding
-> - Features a transition in the middle of each bit period, which serves as both clock and data. 
-> - A low-to-high transition represents a binary 1, and a high-to-low transition represents a binary 0. 
-> - This method is self-clocking, which enhances synchronization but requires more bandwidth.
+> - Features a **transition** in the *middle of each bit period*, which serves as **both clock and data**. 
+> - A *low-to-high transition* represents a **binary 1**, and a *high-to-low transition* represents a **binary 0**. 
+> - This method is **self-clocking**, which enhances synchronization but **requires more bandwidth.**
+> > [!image]
 
 > [!info]- Differential Manchester
-> - Similar to Manchester but with a transition at the start of the bit period representing binary 0 and no transition representing binary 1.
-> - Like Manchester, it’s self-clocking but also requires more bandwidth.
+> - Similar to Manchester but with a **transition** at the **start of the bit period** representing *binary 0* and **no transition** representing *binary 1.*
+> - Like Manchester, it’s **self-clocking** but also **requires more bandwidth.**
 
 > [!check]- Pros
 > - Self-synchronizing, no DC component, and error detection through the presence or absence of expected transitions.
