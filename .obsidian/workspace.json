@@ -19,8 +19,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "1f9a1322b8162a0b",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2024-09-04 16.32.33.excalidraw.md"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -105,7 +116,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM-3/CS2033-Data Communication and Networking/Transmission Media.md"
+                "file": "Excalidraw/Drawing 2024-09-04 16.32.33.excalidraw.md"
               }
             }
           },
@@ -115,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM-3/CS2033-Data Communication and Networking/Transmission Media.md",
+                "file": "Excalidraw/Drawing 2024-09-04 16.32.33.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,12 +172,13 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "3f6e279a7966be26",
+  "active": "1f9a1322b8162a0b",
   "lastOpenFiles": [
+    "SEM-3/CS2033-Data Communication and Networking/Transmission Media.md",
+    "Excalidraw/Drawing 2024-09-04 16.32.33.excalidraw.md",
     "SEM-3/CS2033-Data Communication and Networking/Encoding & Modulation.md",
     "SEM-3/CS3043-Database Systems/Introduction to SQL.md",
     "SEM-3/CS3043-Database Systems/Relational Database Design.md",
-    "SEM-3/CS2033-Data Communication and Networking/Transmission Media.md",
     "SEM-3/CS2033-Data Communication and Networking/Data Transmission.md",
     "SEM-3/CS2033-Data Communication and Networking/Data Com. & Networking Introduction.md",
     "SEM-3/CS2033-Data Communication and Networking/Communication Concepts.md",
@@ -198,7 +210,6 @@
     "SEM-3/MA3014-Applied Statistics/Applied Statistics.md",
     "SEM-3/CS2043-Operating Systems/Notes/Operating System Services.md",
     "SEM-3/CS2043-Operating Systems/Notes/OS Introduction.md",
-    "SEM-3/CS2043-Operating Systems/Notes/System Daemons.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/desktop.ini",
     "Excalidraw/Icon Library/aws-architecture-icons.excalidrawlib",
     "Excalidraw/Icon Library/Unconfirmed 645735.crdownload",
