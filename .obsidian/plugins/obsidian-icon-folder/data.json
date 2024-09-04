@@ -214,5 +214,9 @@
     "iconName": "RiSlashCommands2",
     "iconColor": "#73e1f7"
   },
-  "SEM-3/CS3043-Database Systems/Group Project/DB Project.md": "SiReact"
+  "SEM-3/CS3043-Database Systems/Group Project/DB Project.md": "SiReact",
+  "SEM-3/MA3014-Applied Statistics/Applied Statistics.md": {
+    "iconName": "SiHubspot",
+    "iconColor": "#a21efa"
+  }
 }

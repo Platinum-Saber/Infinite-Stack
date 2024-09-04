@@ -13,28 +13,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM-3/CS2053-Computer Architecture/Memory Hierarchy.md",
+                "file": "SEM-3/CS2043-Operating Systems/Notes/Synchronization Tools.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
-          },
-          {
-            "id": "dcfee2704970f586",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SEM-3/CS2043-Operating Systems/Labs/L 01 - Dining Philosophers Problem.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -119,7 +105,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM-3/CS2043-Operating Systems/Labs/L 01 - Dining Philosophers Problem.md"
+                "file": "SEM-3/CS2043-Operating Systems/Notes/Synchronization Tools.md"
               }
             }
           },
@@ -129,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM-3/CS2043-Operating Systems/Labs/L 01 - Dining Philosophers Problem.md",
+                "file": "SEM-3/CS2043-Operating Systems/Notes/Synchronization Tools.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,10 +161,13 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "dcfee2704970f586",
+  "active": "3f6e279a7966be26",
   "lastOpenFiles": [
     "SEM-3/CS2043-Operating Systems/Operating Systems.md",
     "SEM-3 INDEX.md",
+    "Infinite Stack.md",
+    "SEM-3/CS2053-Computer Architecture/Memory Hierarchy.md",
+    "SEM-3/CS2043-Operating Systems/Labs/L 01 - Dining Philosophers Problem.md",
     "SEM-3/MA2014-Differential Equations/Fourier Series.md",
     "SEM-3/MA2014-Differential Equations/Laplace Transformations.md",
     "SEM-3/MA2014-Differential Equations/Differential Equations.md",
@@ -199,10 +188,7 @@
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Laws of Thermodynamics.md",
     "SRS.md",
     "SEM-3/CS3043-Database Systems/Group Project/DB Project.md",
-    "SEM-3/CS2053-Computer Architecture/Memory Hierarchy.md",
     "SEM-3/CS2053-Computer Architecture/Instruction Set Architecture-RV.md",
-    "SEM-3/CS2053-Computer Architecture/Computer Architecture Introduction.md",
-    "Excalidraw/Drawing 2024-09-03 19.07.57.excalidraw.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/desktop.ini",
     "Images/Pasted image 20240901015138.png",
     "Images/Pasted image 20240901013312.png",
