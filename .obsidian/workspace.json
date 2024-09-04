@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM-3/CS2033-Data Communication and Networking/Encoding & Modulation.md",
+                "file": "SEM-3/CS2033-Data Communication and Networking/Transmission Media.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -70,8 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "b2aa869acde22062",
@@ -106,7 +105,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM-3/CS2033-Data Communication and Networking/Encoding & Modulation.md"
+                "file": "SEM-3/CS2033-Data Communication and Networking/Transmission Media.md"
               }
             }
           },
@@ -116,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM-3/CS2033-Data Communication and Networking/Encoding & Modulation.md",
+                "file": "SEM-3/CS2033-Data Communication and Networking/Transmission Media.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,6 +163,18 @@
   },
   "active": "3f6e279a7966be26",
   "lastOpenFiles": [
+    "SEM-3/CS2033-Data Communication and Networking/Encoding & Modulation.md",
+    "SEM-3/CS3043-Database Systems/Introduction to SQL.md",
+    "SEM-3/CS3043-Database Systems/Relational Database Design.md",
+    "SEM-3/CS2033-Data Communication and Networking/Transmission Media.md",
+    "SEM-3/CS2033-Data Communication and Networking/Data Transmission.md",
+    "SEM-3/CS2033-Data Communication and Networking/Data Com. & Networking Introduction.md",
+    "SEM-3/CS2033-Data Communication and Networking/Communication Concepts.md",
+    "SEM-3/CS3043-Database Systems/Database Systems Introduction.md",
+    "SEM-3/CS3043-Database Systems/Intermediate SQL.md",
+    "SEM-3/CS3043-Database Systems/Database systems.md",
+    "SEM-3/CS3043-Database Systems/Database Design Using the E-R Model.md",
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/Uniform-cost Search.md",
     "Images/Pasted image 20240904152322.png",
     "Images/Pasted image 20240904152012.png",
     "Images/Pasted image 20240904151607.png",
@@ -174,9 +185,6 @@
     "Images/Pasted image 20240904144325.png",
     "Images/Pasted image 20240904144205.png",
     "Images/Pasted image 20240904144052.png",
-    "SEM-3/CS2033-Data Communication and Networking/Data Com. & Networking Introduction.md",
-    "SEM-3/CS2033-Data Communication and Networking/Encoding & Modulation.md",
-    "SEM-3/CS2033-Data Communication and Networking/Communication Concepts.md",
     "SEM-3/CS2043-Operating Systems/Labs/L 01 - Dining Philosophers Problem.md",
     "SEM-3/CS2043-Operating Systems/Notes/Synchronization Tools.md",
     "SEM-3/CS2043-Operating Systems/Operating Systems.md",
@@ -191,16 +199,7 @@
     "SEM-3/CS2043-Operating Systems/Notes/Operating System Services.md",
     "SEM-3/CS2043-Operating Systems/Notes/OS Introduction.md",
     "SEM-3/CS2043-Operating Systems/Notes/System Daemons.md",
-    "SEM-3/CS2053-Computer Architecture/RISC-V ISA.md",
-    "SEM-3/CS3043-Database Systems/Introduction to SQL.md",
-    "SEM-3/CS3043-Database Systems/Relational Database Design.md",
-    "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Properties Of Pure Substances.md",
-    "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Basic Concepts of Thermodynamics.md",
-    "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Energy Balance.md",
-    "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Introduction to Thermodynamics.md",
-    "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Laws of Thermodynamics.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/desktop.ini",
-    "Images/Pasted image 20240901015138.png",
     "Excalidraw/Icon Library/aws-architecture-icons.excalidrawlib",
     "Excalidraw/Icon Library/Unconfirmed 645735.crdownload",
     "Excalidraw/Icon Library/awesome-icons.excalidrawlib",

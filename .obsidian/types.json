@@ -25,6 +25,8 @@
     "excalidraw-open-md": "checkbox",
     "Reference Note": "multitext",
     "as": "checkbox",
-    "Created": "datetime"
+    "Created": "datetime",
+    "Reviewed": "checkbox",
+    "Re": "datetime"
   }
 }

@@ -6,6 +6,7 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiFile",
       "SiReact",
       "RiSlashCommands2",
       "SiExcalidraw",
@@ -14,8 +15,7 @@
       "SiProtondb",
       "FarNoteSticky",
       "LiStickyNote",
-      "FasCommentDots",
-      "SiHubspot"
+      "FasCommentDots"
     ],
     "recentlyUsedIconsSize": 10,
     "rules": [],
@@ -218,5 +218,7 @@
   "SEM-3/MA3014-Applied Statistics/Applied Statistics.md": {
     "iconName": "SiHubspot",
     "iconColor": "#a21efa"
-  }
+  },
+  "SEM-3/CS2033-Data Communication and Networking/Transmission Media.md": "LiFile",
+  "SEM-3/CS2033-Data Communication and Networking/Data Transmission.md": "LiFile"
 }
