@@ -14,6 +14,26 @@
   "pinNewInstance": true,
   "preferredRenderer": "webgl",
   "profiles": {
+    "6cf77993-7978-49ae-9349-99675d0bb773": {
+      "args": [],
+      "executable": "C:\\Windows\\System32\\cmd.exe",
+      "name": "",
+      "platforms": {
+        "win32": true
+      },
+      "pythonExecutable": "python3",
+      "restoreHistory": true,
+      "successExitCodes": [
+        "0",
+        "SIGINT",
+        "SIGTERM"
+      ],
+      "terminalOptions": {
+        "documentOverride": null
+      },
+      "type": "integrated",
+      "useWin32Conhost": true
+    },
     "developerConsole": {
       "name": "",
       "restoreHistory": true,
