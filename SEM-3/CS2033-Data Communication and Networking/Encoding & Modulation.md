@@ -78,21 +78,31 @@ Related : #Networking #Networking/03 #Encoding #Modulation
 ## Multilevel Binary Encoding
 
 > [!info]- Bipolar-AMI (Alternate Mark Inversion)
->  Uses more than two voltage levels. Binary 0 is represented by no signal, while binary 1 is represented by alternating positive and negative pulses. 
->  This method avoids a DC component and is effective for error detection.
+>  - Uses **more than two voltage levels**. Binary 0 is represented by no signal, while binary 1 is represented by alternating positive and negative pulses. 
+> - This method **avoids a DC component** and is *effective for error detection*.
 
-- **Pseudoternary:** Opposite to Bipolar-AMI, where binary 1 is represented by the absence of a signal and binary 0 by alternating positive and negative pulses.
+> [!info]- Pseudoternary
+> - Opposite to Bipolar-AMI.
+> - Binary *1 is represented by the* **absence of a signal** and *binary 0 by* **alternating positive and negative pulses**.
 
-**Trade-offs:**
+> [!error]- Trade-offs:
+> - Multilevel encoding schemes are less efficient than NRZ because they require distinguishing between multiple signal levels, which increases the likelihood of errors.
+> - Additionally, they require more signal power to achieve the same probability of bit error compared to simpler encoding schemes.
 
-- Multilevel encoding schemes are less efficient than NRZ because they require distinguishing between multiple signal levels, which increases the likelihood of errors. Additionally, they require more signal power to achieve the same probability of bit error compared to simpler encoding schemes.
+## Biphase Encoding
 
-**Biphase Encoding:**
+> [!info]- Manchester Encoding
+> - Features a transition in the middle of each bit period, which serves as both clock and data. 
+> - A low-to-high transition represents a binary 1, and a high-to-low transition represents a binary 0. 
+> - This method is self-clocking, which enhances synchronization but requires more bandwidth.
 
-- **Manchester Encoding:** Features a transition in the middle of each bit period, which serves as both clock and data. A low-to-high transition represents a binary 1, and a high-to-low transition represents a binary 0. This method is self-clocking, which enhances synchronization but requires more bandwidth.
-- **Differential Manchester:** Similar to Manchester but with a transition at the start of the bit period representing binary 0 and no transition representing binary 1. Like Manchester, it’s self-clocking but also requires more bandwidth.
+> [!info]- Differential Manchester
+> - Similar to Manchester but with a transition at the start of the bit period representing binary 0 and no transition representing binary 1.
+> - Like Manchester, it’s self-clocking but also requires more bandwidth.
 
-**Pros and Cons of Biphase Encoding:**
+> [!check]- Pros
+> - Self-synchronizing, no DC component, and error detection through the presence or absence of expected transitions.
 
-- **Pros:** Self-synchronizing, no DC component, and error detection through the presence or absence of expected transitions.
-- **Cons:** Higher modulation rate and greater bandwidth requirement than NRZ schemes.
+> [!fail]- Cons
+> - Higher modulation rate and greater bandwidth requirement than NRZ schemes.
+
