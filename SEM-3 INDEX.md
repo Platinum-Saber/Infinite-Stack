@@ -7,9 +7,9 @@
 6. [[Differential Equations]]
 7. [[Applied Statistics]]
 8. [[Thermodynamics]]
-`ris:BluetoothConnect Study Tracker
+ 
 
-- [0] Data Communication & Networking
+- [0] :luc_network: Data Communication & Networking
 - [ ] Into
 - [ ] 2
 - [ ] 3
@@ -17,7 +17,7 @@
 - [ ] 5
 - [ ] 6
 
-- [1] Operating systems
+- [1] :luc_terminal_square: Operating systems
 - [ ] 1
 - [ ] 2
 - [ ] 3
@@ -25,3 +25,42 @@
 - [ ] 5
 - [ ] 6
 
+- [2] :luc_codepen: Computer Architecture
+- [ ] 1
+- [ ] 2
+- [ ] 3
+- [ ] 4
+- [ ] 5
+- [ ] 6
+
+- [3] :luc_database: Database Systems
+- [ ] 1
+- [ ] 2
+- [ ] 3
+- [ ] 4
+- [ ] 5
+- [ ] 6
+
+- [4] Introduction to Artificial Intelligence 
+- [ ] 1
+- [ ] 2
+- [ ] 3
+- [ ] 4
+- [ ] 5
+- [ ] 6
+
+- [5] Differential Equations
+- [ ] 1
+- [ ] 2
+- [ ] 3
+- [ ] 4
+
+- [6] Applied Statistics
+- [ ] 1
+- [ ] 2
+- [ ] 3
+- [ ] 4
+- [ ] 5
+- [ ] 6
+
+- []
