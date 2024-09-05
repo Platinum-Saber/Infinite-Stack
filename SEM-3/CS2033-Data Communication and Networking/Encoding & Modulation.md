@@ -24,19 +24,24 @@ Reference Note :
 	1. [[#Digitization Process]]
 	2. [[#Delta Modulation]]
 - [[#4. Analog Data, Analog Signal]]
-	1. [[#]]
+	1. [[#Modulation Types]]
+- [[#5. Scrambling Techniques]]
+	1. [[#Purpose of Scrambling]]
+	2. [[#Techniques]]
+	3. [[#Advantages]]
 
+---
 
 # Encoding Techniques
 > [!abstract]- Glossary
 > - **Unipolar** : All signal elements have same sign
 > - **Polar**       : One logic state represented by positive voltage the other by negative voltage.
 > - **Data rate** : Rate of data transmission on bits per second.
-> - 
+
 
 - [[#Digital data, Digital signal]]  
 - [[#Analog data, digital signal]] 
-- [[#Digital data, analog signal]] ****
+- [[#Digital data, analog signal]] 
 - [[#Analog data, analog signal]]
 
 
@@ -298,11 +303,43 @@ Reference Note :
 	- Similar to B8ZS, but it replaces sequences of **four zeros** with a pattern that includes one or two pulses, depending on the number of previous pulses.
 	- Based on `Bipolar-AMI`
 
+> [!image]- `B8ZS` and `HDB3` diagrams
+> ![[Pasted image 20240905204439.png]]
+
+<br>
+
 ### Advantages
 
 - Both `B8ZS` and `HDB3` maintain synchronization by ensuring there are enough transitions in the signal, avoid DC components, and offer error detection capabilities without reducing the overall data rate.
 
+<br>
 
+# Questions
+
+
+> [!faq]- Explain the key differences between unipolar, polar, and bipolar encoding. Provide examples of when each might be used.
+> - Unipolar encoding uses a single voltage level (e.g., 0 for binary 0, positive voltage for binary 1). 
+> - It’s simple but has synchronization issues due to the presence of a DC component. 
+> - Polar encoding uses both positive and negative voltages, improving synchronization by providing clearer transitions.
+> - Bipolar encoding alternates between positive and negative voltages for binary 1s, with 0s represented by no voltage, effectively eliminating the DC component and allowing for better error detection.
+
+> [!faq]- Describe how Manchester and Differential Manchester encoding work. What are the advantages of these encoding schemes
+> - Manchester encoding uses a transition in the middle of the bit period to represent data, with a low-to-high transition indicating binary 1 and a high-to-low transition indicating binary 0. 
+> - Differential Manchester also uses a mid-bit transition for clocking, but the start-of-bit transition represents binary 0, and no transition represents binary 1. Both methods are self-synchronizing and eliminate DC components, making them robust for data transmission.
+
+> [!faq]- How does Quadrature Amplitude Modulation (QAM) achieve higher data rates than simple ASK or PSK?
+> - QAM combines ASK and PSK by modulating two carrier signals that are 90° out of phase with each other. 
+> - Each carrier is independently ASK modulated, allowing for the simultaneous transmission of two different signals over the same frequency, effectively doubling the data rate compared to ASK or PSK alone.
+
+> [!faq]- Why is the Nyquist Theorem critical in the process of digitizing analog signals? How does it affect the choice of sampling rate
+> - The Nyquist Theorem states that to accurately digitize an analog signal, the sampling rate must be at least twice the highest frequency present in the signal. 
+> - This ensures that the sampled signal retains all the information of the original analog signal. If the sampling rate is too low (below the Nyquist rate), aliasing can occur, resulting in the loss of information and distortion.
+
+> [!faq]- Compare B8ZS and HDB3 scrambling techniques. How do they help maintain synchronization in digital transmission
+> - B8ZS and HDB3 both replace sequences of zeros with patterns that include intentional violations of the encoding rules, which are unlikely to occur naturally. 
+> - These patterns introduce transitions in the signal, which help maintain synchronization. B8ZS replaces sequences of eight zeros, while HDB3 focuses on sequences of four zeros. Both methods avoid the loss of synchronization and reduce the likelihood of error due to long sequences without transitions.
+
+<br>
 
 ---
 Up Next : [[Data Transmission]]
