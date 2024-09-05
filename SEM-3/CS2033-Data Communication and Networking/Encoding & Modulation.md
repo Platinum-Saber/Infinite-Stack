@@ -39,10 +39,10 @@ Reference Note :
 > - **Data rate** : Rate of data transmission on bits per second.
 
 
-- [[#Digital data, Digital signal]]  
-- [[#Analog data, digital signal]] 
-- [[#Digital data, analog signal]] 
-- [[#Analog data, analog signal]]
+- [[#1. Digital data, Digital signal]]  
+- [[#2. Digital Data, Analog Signal]] 
+- [[#3. Analog Data, Digital Signal]] 
+- [[#4. Analog Data, Analog Signal]]
 
 
 <br>
@@ -67,6 +67,7 @@ Reference Note :
 > - B8ZS 
 > - HDB3
 
+<br>
 
 ## NRZ Encoding
 
@@ -121,6 +122,8 @@ Reference Note :
 > - Multilevel encoding schemes are less efficient than NRZ because they require distinguishing between multiple signal levels, which increases the likelihood of errors.
 > - Additionally, they require more signal power to achieve the same probability of bit error compared to simpler encoding schemes.
 
+<br>
+
 ## Biphase Encoding
 
 > [!info]- Manchester Encoding
@@ -145,11 +148,15 @@ Reference Note :
 > - Higher modulation rate.
 > - Greater bandwidth requirement than NRZ schemes.
 
+<br>
+<br>
 
 # 2. Digital Data, Analog Signal
 
 - **Public Telephone System:**
 	- *Bandwidth* :  Limited to 300Hz to 3400Hz, requiring modulation techniques to transmit digital data over this analog system.
+
+<br>
 
 ## Modulation Techniques
 
@@ -186,7 +193,7 @@ Reference Note :
 > [!image]- Modulation techniques diagram 
 > ![[Pasted image 20240905204016.png]]
 
-
+<br>
 
 ## Advanced Modulation
 
@@ -200,6 +207,8 @@ Reference Note :
 > - Each carrier is independently ASK modulated, allowing for two different signals to be transmitted simultaneously over the same medium. 
 > - QAM is used in applications like ADSL and some wireless systems, offering high data rates and efficient use of bandwidth.
 
+<br>
+
 ## Performance Considerations
 
 - **Bandwidth:**
@@ -207,7 +216,8 @@ Reference Note :
 - **Bit Error Rate:** 
 	- In noisy environments, PSK and QPSK offer better bit error rates (about 3dB better) than ASK and FSK.
 
-
+<br>
+<br>
 
 # 3. Analog Data, Digital Signal
 
@@ -242,6 +252,8 @@ Reference Note :
 > > [!image]- Nonlinear Encoding diagram
 > > ![[Pasted image 20240905194558.png]]
 
+<br>
+
 ## Delta Modulation:
 
 > [!info]- Concept 
@@ -257,6 +269,8 @@ Reference Note :
 > [!info]- Performance
 >  Delta modulation provides good voice reproduction, with further compression techniques like **interframe coding** improving efficiency for applications like video.
 
+<br>
+<br>
 
 # 4. Analog Data, Analog Signal
 
@@ -286,6 +300,8 @@ Reference Note :
 > [!image]- Modulation types diagram
 > ![[Pasted image 20240905202501.png]]
 
+<br>
+<br>
 
 # 5. Scrambling Techniques
 
@@ -294,6 +310,8 @@ Reference Note :
 - Scrambling is used to **avoid long sequences** of **constant voltage** in digital signals, which can cause synchronization problems. 
 - It ensures that there are enough **transitions** in the signal to maintain **synchronization** without reducing the data rate.
 - The `filling sequence` has the **same length** as the original.
+
+<br>
 
 ### Techniques
 
