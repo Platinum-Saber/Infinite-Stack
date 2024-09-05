@@ -262,8 +262,6 @@ Reference Note :
 >> ![[Pasted image 20240905202123.png]]
 >> ![[Pasted image 20240905202136.png]]
 
-
-
 > [!info]- Frequency Modulation (FM)
 > - The carrier signal’s frequency is varied in accordance with the message signal. 
 > - FM is more resistant to noise and provides better sound quality than AM.
@@ -271,8 +269,30 @@ Reference Note :
 > [!info]- Phase Modulation (PM)
 > - The carrier signal’s phase is varied to encode the message. PM is closely related to FM but differs in how the carrier's phase is directly proportional to the modulating signal.
 
+> [!image]- Phase and Frequency modulation method
+> ![[Pasted image 20240905202353.png]]
+
+> [!image]- Modulation types diagram
+> ![[Pasted image 20240905202501.png]]
 
 
+# 5. Scrambling Techniques
+
+### Purpose of Scrambling
+
+- Scrambling is used to **avoid long sequences** of **constant voltage** in digital signals, which can cause synchronization problems. 
+- It ensures that there are enough transitions in the signal to maintain synchronization without reducing the data rate.
+
+### Techniques
+
+- **B8ZS (Bipolar with 8-Zero Substitution):** 
+	- Substitutes sequences of **eight consecutive zeros** with a pattern that includes deliberate violations of the bipolar-AMI code. This pattern is unlikely to occur naturally and is easily detected and interpreted by the receiver.
+- **HDB3 (High-Density Bipolar 3 Zeros):** 
+	- Similar to B8ZS, but it replaces sequences of **four zeros** with a pattern that includes one or two pulses, depending on the number of previous pulses.
+
+### Advantages
+
+- Both `B8ZS` and `HDB3` maintain synchronization by ensuring there are enough transitions in the signal, avoid DC components, and offer error detection capabilities without reducing the overall data rate.
 
 
 
