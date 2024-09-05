@@ -10,13 +10,20 @@ Reference Note :
 
 ---
 # Content
-1. [[#Encoding Techniques]]
-2. [[#Digital Data, Digital Signal]]
+- [[#Encoding Techniques]]
+- [[#1. Digital data, Digital signal]]
 	1. [[#NRZ Encoding]]
 	2. [[#Differential Encoding]]
 	3. [[#Multilevel Binary Encoding]]
 	4. [[#Biphase Encoding]]
-3. [[#Digital Data, Analog Signal]]
+- [[#2. Digital Data, Analog Signal]]
+	1. [[#Modulation Techniques]]
+	2. [[#Advanced Modulation]]
+	3. [[#Performance Considerations]]
+- [[#3. Analog Data, Digital Signal]]
+	1. [[#Digitization Process]]
+	2. [[#Delta Modulation]]
+1. 
 
 
 # Encoding Techniques
@@ -34,7 +41,7 @@ Reference Note :
 
 <br>
 
-# Digital data, Digital signal  
+# 1. Digital data, Digital signal  
 
 > [!NOTE]- Signal Characteristics
 > 
@@ -133,7 +140,7 @@ Reference Note :
 > - Greater bandwidth requirement than NRZ schemes.
 
 
-# Digital Data, Analog Signal
+# 2. Digital Data, Analog Signal
 
 - **Public Telephone System:**
 	- *Bandwidth* :  Limited to 300Hz to 3400Hz, requiring modulation techniques to transmit digital data over this analog system.
@@ -216,7 +223,14 @@ Reference Note :
 > - The process of mapping the **continuous** **amplitude** of the analog signal to discrete digital levels. 
 > - For instance, an 8-bit PCM system provides 256 quantization levels, which allows for a quality of transmission comparable to the original analog signal.
 
-> [!note]- Non 
+> [!note]- Nonlinear Encoding
+> - Quantization levels are **not evenly spaced**.
+> - Reduces overall signal distortion.
+> - Can also be done by **companding** (Compressing & Expanding).
+> 
+> > [!image]- Nonlinear Encoding diagram
+> > ![[Pasted image 20240905194558.png]]
+
 ## Delta Modulation:
 
 > [!info]- Concept 
@@ -224,7 +238,7 @@ Reference Note :
 > - This approach can reduce the amount of data needed to represent the signal, but it may introduce quantization noise.
 
 > [!info]- Performance
->  Delta modulation provides good voice reproduction, with further compression techniques like interframe coding improving efficiency for applications like video.
+>  Delta modulation provides good voice reproduction, with further compression techniques like **interframe coding** improving efficiency for applications like video.
 
 ---
 Up Next : [[Data Transmission]]
