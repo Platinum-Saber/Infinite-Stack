@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM-3/CS2033-Data Communication and Networking/Encoding & Modulation.md",
+                "file": "Study Tracker.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -26,15 +26,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM-3 INDEX.md",
+                "file": "SEM-3/CS2053-Computer Architecture/Lab & CA/CS2053 - Take Home Assignment 01.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -119,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM-3 INDEX.md"
+                "file": "Study Tracker.md"
               }
             }
           },
@@ -129,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM-3 INDEX.md",
+                "file": "Study Tracker.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,15 +174,19 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "1b8be03d24f2be15",
+  "active": "3f6e279a7966be26",
   "lastOpenFiles": [
     "SEM-3/CS2043-Operating Systems/Operating Systems.md",
     "SEM-3 INDEX.md",
-    "Infinite Stack.md",
+    "Study Tracker.md",
+    "SEM-3/CS2033-Data Communication and Networking/Data Com. & Networking Introduction.md",
     "SEM-3/CS2033-Data Communication and Networking/Data Communication & Networking.md",
+    "Infinite Stack.md",
+    "SEM-3/CS2033-Data Communication and Networking/Encoding & Modulation.md",
+    "SEM-3/CS2053-Computer Architecture/Lab & CA/CS2053 - Take Home Assignment 01.md",
+    "SEM-3/CS2053-Computer Architecture/Lab & CA",
     "SEM-3/CS2033-Data Communication and Networking/Data Transmission.md",
     "SEM-3/CS2033-Data Communication and Networking/Transmission Media.md",
-    "SEM-3/CS2033-Data Communication and Networking/Encoding & Modulation.md",
     "SEM-3/CS2033-Data Communication and Networking/Communication Concepts.md",
     "SEM-3/CS3043-Database Systems/Relational Database Design.md",
     "SEM-3/CS3043-Database Systems/Introduction to SQL.md",
@@ -202,7 +205,6 @@
     "Images/Pasted image 20240905194009.png",
     "Excalidraw/Drawing 2024-09-05 19.19.20.excalidraw.md",
     "Excalidraw/media.md",
-    "SEM-3/CS2033-Data Communication and Networking/Data Com. & Networking Introduction.md",
     "SEM-3/CS3043-Database Systems/Database systems.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Uniform-cost Search.md",
     "SEM-3/CS2043-Operating Systems/Labs/L 01 - Dining Philosophers Problem.md",
@@ -211,8 +213,6 @@
     "SEM-3/MA2014-Differential Equations/Fourier Series.md",
     "SEM-3/MA2014-Differential Equations/Laplace Transformations.md",
     "SEM-3/MA2014-Differential Equations/Differential Equations.md",
-    "SEM-3/MA2014-Differential Equations/Partial Differential Equations.md",
-    "SEM-3/MA3014-Applied Statistics/Applied Statistics.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/desktop.ini",
     "Excalidraw/Icon Library/aws-architecture-icons.excalidrawlib",
     "Excalidraw/Icon Library/Unconfirmed 645735.crdownload",
@@ -222,7 +222,6 @@
     "Excalidraw/Icon Library/Unconfirmed 681574.crdownload",
     "Excalidraw/Icon Library/architecture-diagram-components.excalidrawlib",
     "Excalidraw/Icon Library/Unconfirmed 730553.crdownload",
-    "Excalidraw/Icon Library/system-design.excalidrawlib",
     "Work Space.canvas",
     "Untitled.canvas"
   ]
