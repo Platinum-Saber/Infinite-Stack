@@ -24,9 +24,12 @@
             "id": "1b8be03d24f2be15",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Drawing 2024-09-05 19.19.20.excalidraw.md"
+                "file": "SEM-3/CS2033-Data Communication and Networking/Encoding & Modulation.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               }
             }
           }
@@ -116,7 +119,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Drawing 2024-09-05 19.19.20.excalidraw.md"
+                "file": "SEM-3/CS2033-Data Communication and Networking/Encoding & Modulation.md"
               }
             }
           },
@@ -126,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/Drawing 2024-09-05 19.19.20.excalidraw.md",
+                "file": "SEM-3/CS2033-Data Communication and Networking/Encoding & Modulation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,9 +177,10 @@
   },
   "active": "1b8be03d24f2be15",
   "lastOpenFiles": [
+    "Images/Pasted image 20240905193156.png",
+    "SEM-3/CS2033-Data Communication and Networking/Transmission Media.md",
     "Excalidraw/Drawing 2024-09-05 19.19.20.excalidraw.md",
     "SEM-3/CS2033-Data Communication and Networking/Encoding & Modulation.md",
-    "SEM-3/CS2033-Data Communication and Networking/Transmission Media.md",
     "Excalidraw/media.md",
     "SEM-3/CS3043-Database Systems/Introduction to SQL.md",
     "SEM-3/CS3043-Database Systems/Relational Database Design.md",
@@ -209,7 +213,6 @@
     "SEM-3/MA2014-Differential Equations/Differential Equations.md",
     "SEM-3/MA2014-Differential Equations/Partial Differential Equations.md",
     "SEM-3/MA3014-Applied Statistics/Applied Statistics.md",
-    "SEM-3/CS2043-Operating Systems/Notes/Operating System Services.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/desktop.ini",
     "Excalidraw/Icon Library/aws-architecture-icons.excalidrawlib",
     "Excalidraw/Icon Library/Unconfirmed 645735.crdownload",

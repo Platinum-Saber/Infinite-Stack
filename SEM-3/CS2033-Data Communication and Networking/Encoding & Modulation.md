@@ -198,6 +198,10 @@ Reference Note :
 > [!note]- Pulse Code Modulation (PCM)
 > - Converts `analog` data into `digital` by **sampling** the signal at regular intervals. 
 > - According to the **Nyquist Theorem**, the sampling rate must be at least **twice the highest frequency** of the analog signal to retain all the information.
+> 
+> ![[Pasted image 20240905193156.png]]
+
+
 
 > [!info]- Sampling
 > - For voice data, which is limited to 4000Hz, the sampling rate is typically 8000 samples per second. 
