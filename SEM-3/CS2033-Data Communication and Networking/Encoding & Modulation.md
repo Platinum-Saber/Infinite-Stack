@@ -199,7 +199,12 @@ Reference Note :
 > - Converts `analog` data into `digital` by **sampling** the signal at regular intervals. 
 > - According to the **Nyquist Theorem**, the sampling rate must be at least **twice the highest frequency** of the analog signal to retain all the information.
 > 
-> ![[Pasted image 20240905193156.png]]
+> > [!image]- Digitalization diagram
+> > ![[Pasted image 20240905193156.png]]
+
+> [!image]- PCM example diagram
+> ![[Pasted image 20240905193947.png]]
+> ![[Pasted image 20240905194009.png]]
 
 
 
@@ -208,9 +213,10 @@ Reference Note :
 > - Each sample is then **quantized** and **encoded** into a digital value.
 
 > [!info]- Quantization
-> - The process of mapping the continuous amplitude of the analog signal to discrete digital levels. 
+> - The process of mapping the **continuous** **amplitude** of the analog signal to discrete digital levels. 
 > - For instance, an 8-bit PCM system provides 256 quantization levels, which allows for a quality of transmission comparable to the original analog signal.
 
+> [!note]- Non 
 ## Delta Modulation:
 
 > [!info]- Concept 
