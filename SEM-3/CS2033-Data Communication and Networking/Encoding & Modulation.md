@@ -249,15 +249,27 @@ Reference Note :
 
 # 4. Analog Data, Analog Signal
 
-**Why Modulate Analog Signals?**
+> [!faq]- Why Modulate Analog Signals
+> - Modulating analog signals to higher frequencies allows for more **efficient** transmission and supports **frequency division multiplexing**, enabling multiple signals to be transmitted simultaneously over the same medium.
 
-- Modulating analog signals to higher frequencies allows for more efficient transmission and supports frequency division multiplexing, enabling multiple signals to be transmitted simultaneously over the same medium.
+### Modulation Types
 
-**Modulation Types:**
+> [!info]- Amplitude Modulation (AM)
+>  - The carrier signal’s amplitude is varied according to the information in the message signal. 
+>  - AM is **simple** but **less efficient** than other modulation types because it’s more susceptible to noise and requires more bandwidth.
+>
+>> [!image]- Amplitude modulation diagram
+>> ![[Pasted image 20240905202123.png]]
+>> ![[Pasted image 20240905202136.png]]
 
-- **Amplitude Modulation (AM):** The carrier signal’s amplitude is varied according to the information in the message signal. AM is simple but less efficient than other modulation types because it’s more susceptible to noise and requires more bandwidth.
-- **Frequency Modulation (FM):** The carrier signal’s frequency is varied in accordance with the message signal. FM is more resistant to noise and provides better sound quality than AM.
-- **Phase Modulation (PM):** The carrier signal’s phase is varied to encode the message. PM is closely related to FM but differs in how the carrier's phase is directly proportional to the modulating signal.
+
+
+> [!info]- Frequency Modulation (FM)
+> - The carrier signal’s frequency is varied in accordance with the message signal. 
+> - FM is more resistant to noise and provides better sound quality than AM.
+
+> [!info]- Phase Modulation (PM)
+> - The carrier signal’s phase is varied to encode the message. PM is closely related to FM but differs in how the carrier's phase is directly proportional to the modulating signal.
 
 
 
