@@ -195,9 +195,17 @@ Reference Note :
 
 ## Digitization Process
 
-- **Pulse Code Modulation (PCM):** Converts analog data into digital by sampling the signal at regular intervals. According to the Nyquist Theorem, the sampling rate must be at least twice the highest frequency of the analog signal to retain all the information.
-- **Sampling:** For voice data, which is limited to 4000Hz, the sampling rate is typically 8000 samples per second. Each sample is then quantized and encoded into a digital value.
-- **Quantization:** The process of mapping the continuous amplitude of the analog signal to discrete digital levels. For instance, an 8-bit PCM system provides 256 quantization levels, which allows for a quality of transmission comparable to the original analog signal.
+> [!note]- Pulse Code Modulation (PCM)
+> - Converts `analog` data into `digital` by **sampling** the signal at regular intervals. 
+> - According to the **Nyquist Theorem**, the sampling rate must be at least **twice the highest frequency** of the analog signal to retain all the information.
+
+> [!info]- Sampling
+> - For voice data, which is limited to 4000Hz, the sampling rate is typically 8000 samples per second. 
+> - Each sample is then **quantized** and **encoded** into a digital value.
+
+> [!info]- Quantization
+> - The process of mapping the continuous amplitude of the analog signal to discrete digital levels. 
+> - For instance, an 8-bit PCM system provides 256 quantization levels, which allows for a quality of transmission comparable to the original analog signal.
 
 ## Delta Modulation:
 
