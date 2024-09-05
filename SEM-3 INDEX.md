@@ -7,6 +7,21 @@
 6. [[Differential Equations]]
 7. [[Applied Statistics]]
 8. [[Thermodynamics]]
+`ris:BluetoothConnect Study Tracker
 
-## Study Tracker
-- []
+- [0] Data Communication & Networking
+- [ ] Into
+- [ ] 2
+- [ ] 3
+- [ ] 4
+- [ ] 5
+- [ ] 6
+
+- [1] Operating systems
+- [ ] 1
+- [ ] 2
+- [ ] 3
+- [ ] 4
+- [ ] 5
+- [ ] 6
+
