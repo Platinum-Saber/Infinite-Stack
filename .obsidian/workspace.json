@@ -26,8 +26,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM-3/CS3043-Database Systems/Relational Database Design.md",
-                "mode": "preview",
+                "file": "SEM-3 INDEX.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -119,7 +119,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM-3/CS3043-Database Systems/Relational Database Design.md"
+                "file": "SEM-3 INDEX.md"
               }
             }
           },
@@ -129,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM-3/CS3043-Database Systems/Relational Database Design.md",
+                "file": "SEM-3 INDEX.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -177,11 +177,17 @@
   },
   "active": "1b8be03d24f2be15",
   "lastOpenFiles": [
+    "Infinite Stack.md",
+    "SEM-3/CS2033-Data Communication and Networking/Data Communication & Networking.md",
+    "SEM-3/CS2033-Data Communication and Networking/Data Transmission.md",
+    "SEM-3/CS2033-Data Communication and Networking/Transmission Media.md",
+    "SEM-3/CS2033-Data Communication and Networking/Encoding & Modulation.md",
+    "SEM-3/CS2033-Data Communication and Networking/Communication Concepts.md",
+    "SEM-3/CS3043-Database Systems/Relational Database Design.md",
     "SEM-3/CS3043-Database Systems/Introduction to SQL.md",
     "SEM-3/CS3043-Database Systems/Intermediate SQL.md",
     "SEM-3/CS3043-Database Systems/Database Systems Introduction.md",
     "SEM-3/CS3043-Database Systems/Database Design Using the E-R Model.md",
-    "SEM-3/CS2033-Data Communication and Networking/Encoding & Modulation.md",
     "Images/Pasted image 20240905204439.png",
     "Images/Pasted image 20240905204016.png",
     "Images/Pasted image 20240905202501.png",
@@ -192,20 +198,15 @@
     "Images/Pasted image 20240905195252.png",
     "Images/Pasted image 20240905194558.png",
     "Images/Pasted image 20240905194009.png",
-    "SEM-3/CS2033-Data Communication and Networking/Transmission Media.md",
     "Excalidraw/Drawing 2024-09-05 19.19.20.excalidraw.md",
     "Excalidraw/media.md",
-    "SEM-3/CS3043-Database Systems/Relational Database Design.md",
-    "SEM-3/CS2033-Data Communication and Networking/Data Transmission.md",
     "SEM-3/CS2033-Data Communication and Networking/Data Com. & Networking Introduction.md",
-    "SEM-3/CS2033-Data Communication and Networking/Communication Concepts.md",
     "SEM-3/CS3043-Database Systems/Database systems.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Uniform-cost Search.md",
     "SEM-3/CS2043-Operating Systems/Labs/L 01 - Dining Philosophers Problem.md",
     "SEM-3/CS2043-Operating Systems/Notes/Synchronization Tools.md",
     "SEM-3/CS2043-Operating Systems/Operating Systems.md",
     "SEM-3 INDEX.md",
-    "Infinite Stack.md",
     "SEM-3/CS2053-Computer Architecture/Memory Hierarchy.md",
     "SEM-3/MA2014-Differential Equations/Fourier Series.md",
     "SEM-3/MA2014-Differential Equations/Laplace Transformations.md",
