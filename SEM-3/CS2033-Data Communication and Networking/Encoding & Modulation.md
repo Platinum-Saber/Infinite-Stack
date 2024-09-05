@@ -23,7 +23,8 @@ Reference Note :
 - [[#3. Analog Data, Digital Signal]]
 	1. [[#Digitization Process]]
 	2. [[#Delta Modulation]]
-1. 
+- [[#4. Analog Data, Analog Signal]]
+	1. [[#]]
 
 
 # Encoding Techniques
@@ -177,6 +178,11 @@ Reference Note :
 > > > [!image]- Differential PSK diagram
 > > > ![[Pasted image 20240904152322.png]]
 
+> [!image]- Modulation techniques diagram 
+> ![[Pasted image 20240905204016.png]]
+
+
+
 ## Advanced Modulation
 
 > [!info]- Quadrature PSK **(QPSK)** 
@@ -281,7 +287,8 @@ Reference Note :
 ### Purpose of Scrambling
 
 - Scrambling is used to **avoid long sequences** of **constant voltage** in digital signals, which can cause synchronization problems. 
-- It ensures that there are enough transitions in the signal to maintain synchronization without reducing the data rate.
+- It ensures that there are enough **transitions** in the signal to maintain **synchronization** without reducing the data rate.
+- The `filling sequence` has the **same length** as the original.
 
 ### Techniques
 
@@ -289,6 +296,7 @@ Reference Note :
 	- Substitutes sequences of **eight consecutive zeros** with a pattern that includes deliberate violations of the bipolar-AMI code. This pattern is unlikely to occur naturally and is easily detected and interpreted by the receiver.
 - **HDB3 (High-Density Bipolar 3 Zeros):** 
 	- Similar to B8ZS, but it replaces sequences of **four zeros** with a pattern that includes one or two pulses, depending on the number of previous pulses.
+	- Based on `Bipolar-AMI`
 
 ### Advantages
 
