@@ -6,11 +6,17 @@ About: Based on CS2033-Lecture 03 Encoding and Modulation. This chapter from "En
 ---
 Related : #Networking #Networking/03 #Encoding #Modulation 
 
+Reference Note : 
+
 ---
 # Content
 1. [[#Encoding Techniques]]
 2. [[#Digital Data, Digital Signal]]
-3. [[#]]
+	1. [[#NRZ Encoding]]
+	2. [[#Differential Encoding]]
+	3. [[#Multilevel Binary Encoding]]
+	4. [[#Biphase Encoding]]
+3. [[#Digital Data, Analog Signal]]
 
 
 # Encoding Techniques
@@ -184,6 +190,23 @@ Related : #Networking #Networking/03 #Encoding #Modulation
 	- In noisy environments, PSK and QPSK offer better bit error rates (about 3dB better) than ASK and FSK.
 
 
+
+# 3. Analog Data, Digital Signal
+
+## Digitization Process
+
+- **Pulse Code Modulation (PCM):** Converts analog data into digital by sampling the signal at regular intervals. According to the Nyquist Theorem, the sampling rate must be at least twice the highest frequency of the analog signal to retain all the information.
+- **Sampling:** For voice data, which is limited to 4000Hz, the sampling rate is typically 8000 samples per second. Each sample is then quantized and encoded into a digital value.
+- **Quantization:** The process of mapping the continuous amplitude of the analog signal to discrete digital levels. For instance, an 8-bit PCM system provides 256 quantization levels, which allows for a quality of transmission comparable to the original analog signal.
+
+## Delta Modulation:
+
+> [!info]- Concept 
+> - Instead of encoding each sample's amplitude, Delta Modulation encodes the difference between successive samples, effectively creating a **staircase approximation** of the original analog signal. 
+> - This approach can reduce the amount of data needed to represent the signal, but it may introduce quantization noise.
+
+> [!info]- Performance
+>  Delta modulation provides good voice reproduction, with further compression techniques like interframe coding improving efficiency for applications like video.
 
 ---
 Up Next : [[Data Transmission]]
