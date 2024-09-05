@@ -236,9 +236,33 @@ Reference Note :
 > [!info]- Concept 
 > - Instead of encoding each sample's amplitude, Delta Modulation encodes the difference between successive samples, effectively creating a **staircase approximation** of the original analog signal. 
 > - This approach can reduce the amount of data needed to represent the signal, but it may introduce quantization noise.
+> 
+> > [!image]- Delta modulation example diagram
+> > ![[Pasted image 20240905195252.png]]
+> 
+> > [!image]- Delta modulation operation diagram
+> > ![[Pasted image 20240905195336.png]]
 
 > [!info]- Performance
 >  Delta modulation provides good voice reproduction, with further compression techniques like **interframe coding** improving efficiency for applications like video.
+
+
+# 4. Analog Data, Analog Signal
+
+**Why Modulate Analog Signals?**
+
+- Modulating analog signals to higher frequencies allows for more efficient transmission and supports frequency division multiplexing, enabling multiple signals to be transmitted simultaneously over the same medium.
+
+**Modulation Types:**
+
+- **Amplitude Modulation (AM):** The carrier signal’s amplitude is varied according to the information in the message signal. AM is simple but less efficient than other modulation types because it’s more susceptible to noise and requires more bandwidth.
+- **Frequency Modulation (FM):** The carrier signal’s frequency is varied in accordance with the message signal. FM is more resistant to noise and provides better sound quality than AM.
+- **Phase Modulation (PM):** The carrier signal’s phase is varied to encode the message. PM is closely related to FM but differs in how the carrier's phase is directly proportional to the modulating signal.
+
+
+
+
+
 
 ---
 Up Next : [[Data Transmission]]
