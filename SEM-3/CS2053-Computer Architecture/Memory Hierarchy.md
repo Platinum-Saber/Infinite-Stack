@@ -145,5 +145,24 @@ For more info on instructions: [[RISC-V ISA]]
 
 > [!abstract]- Types of Locality
 > - **Temporal Locality** : The `block` containing recently accessed items are likely to be accessed again.
-> - **Spatial Locality** : Data stored near the previously accessed memory is likely to be accessed again. (Nearby `blocks` ) 
+> - **Spatial Locality** : Data stored near the previously accessed memory is likely to be accessed. (Nearby `blocks` tend to be accessed)
 
+> [!example] Locality examples
+> ```cpp
+> 
+
+
+
+```cpp
+
+int main (){
+	int a = [1,2,3,4,5];
+	int n = a.size()/sizeof(a[0]);
+	int sum = 0;
+	for (i=0; i<n; i++){
+		sum += a[i];
+	}
+	return sum;
+}
+
+```
