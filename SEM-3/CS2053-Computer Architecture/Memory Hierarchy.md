@@ -135,4 +135,11 @@ For more info on instructions: [[RISC-V ISA]]
 - Have sufficient capacity
 - Be as cheap as possible.
 
+> [!image]- Memory hierarchy diagram
+> ![[Pasted image 20240906105711.png]]
+
+<br>
+
+### Principal of Locality
+- 
 

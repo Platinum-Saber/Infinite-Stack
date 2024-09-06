@@ -24,9 +24,12 @@
             "id": "e9498702f85671cf",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Drawing 2024-09-06 10.08.39.excalidraw.md"
+                "file": "SEM-3/CS2053-Computer Architecture/Memory Hierarchy.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               }
             }
           }
@@ -116,7 +119,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Drawing 2024-09-06 10.08.39.excalidraw.md"
+                "file": "SEM-3/CS2053-Computer Architecture/Memory Hierarchy.md"
               }
             }
           },
@@ -126,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/Drawing 2024-09-06 10.08.39.excalidraw.md",
+                "file": "SEM-3/CS2053-Computer Architecture/Memory Hierarchy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,9 +177,10 @@
   },
   "active": "e9498702f85671cf",
   "lastOpenFiles": [
-    "SEM-3/CS2053-Computer Architecture/Memory Hierarchy.md",
-    "Excalidraw/Drawing 2024-09-06 10.08.39.excalidraw.md",
+    "Images/Pasted image 20240906105711.png",
     "SEM-3/CS2053-Computer Architecture/Computer Architecture Introduction.md",
+    "Excalidraw/Drawing 2024-09-06 10.08.39.excalidraw.md",
+    "SEM-3/CS2053-Computer Architecture/Memory Hierarchy.md",
     "SEM-3/CS2053-Computer Architecture/Instruction Set Architecture-RV.md",
     "Study Tracker.md",
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Energy Balance.md",
@@ -200,7 +204,6 @@
     "SEM-3/CS3043-Database Systems/Relational Database Design.md",
     "SEM-3/CS3043-Database Systems/Introduction to SQL.md",
     "SEM-3/CS3043-Database Systems/Intermediate SQL.md",
-    "SEM-3/CS3043-Database Systems/Database Systems Introduction.md",
     "Images/Pasted image 20240905204439.png",
     "Images/Pasted image 20240905204016.png",
     "Images/Pasted image 20240905202501.png",
