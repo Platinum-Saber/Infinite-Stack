@@ -69,13 +69,13 @@ beq x5, x6, label  # If x5 == x6, jump to the address at label
 
 <br>
 
-> [!image] `auipc` diagram
+> [!image]- `auipc` diagram
 > ![[Pasted image 20240830170542.png]]
 
 <br>
 <br>
 
-> [!image] `jal` diagram
+> [!image]- `jal` diagram
 > ![[Pasted image 20240830225137.png]]
 
 <br>
@@ -96,12 +96,12 @@ lw x5, 4(x10)  # Load word from memory address (x10 + 4) into x5
 
 <br>
 
-> [!image] `jalr` diagram
+> [!image]- `jalr` diagram
 > ![[Pasted image 20240830173547.png]]
 
 <br>
 
-> [!image] `lw` diagram
+> [!image]- `lw` diagram
 > ![[Pasted image 20240830230821.png]]
 
 <br>
@@ -121,9 +121,13 @@ addi x5, x5, 0x678  # x5 = 0x12345678 ; addi is used to complete the full addres
 
 <br>
 
-> [!image] `lui` diagram
+> [!image]- `lui` diagram
 > ![[Pasted image 20240830174616.png]]
 
 For more info on instructions: [[RISC-V ISA]]
 
-## Memory 
+## Memory Hierarchy
+- Organizing memory in a way that the slowness of larger memory doesn't reduce the overall performance of the system.
+- Faster memory is expensive hence a small amount is used (*Registers, static RAM*). Slow memory isn't expensive hence can be used in large amounts(*Dynamic RAM*).
+- 
+- 
