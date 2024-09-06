@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM-3/CS2053-Computer Architecture/Memory Hierarchy.md",
+                "file": "SEM-3/CS2053-Computer Architecture/GPT_Memory Hierarchy note.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -119,7 +119,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM-3/CS2053-Computer Architecture/Memory Hierarchy.md"
+                "file": "SEM-3/CS2053-Computer Architecture/GPT_Memory Hierarchy note.md"
               }
             }
           },
@@ -129,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM-3/CS2053-Computer Architecture/Memory Hierarchy.md",
+                "file": "SEM-3/CS2053-Computer Architecture/GPT_Memory Hierarchy note.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,12 +175,13 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "e9498702f85671cf",
+  "active": "671fcfcc9244e77e",
   "lastOpenFiles": [
+    "SEM-3/CS2053-Computer Architecture/Memory Hierarchy.md",
+    "SEM-3/CS2053-Computer Architecture/GPT_Memory Hierarchy note.md",
     "Images/Pasted image 20240906105711.png",
     "SEM-3/CS2053-Computer Architecture/Computer Architecture Introduction.md",
     "Excalidraw/Drawing 2024-09-06 10.08.39.excalidraw.md",
-    "SEM-3/CS2053-Computer Architecture/Memory Hierarchy.md",
     "SEM-3/CS2053-Computer Architecture/Instruction Set Architecture-RV.md",
     "Study Tracker.md",
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Energy Balance.md",
@@ -213,7 +214,6 @@
     "Images/Pasted image 20240905195336.png",
     "Images/Pasted image 20240905195252.png",
     "Images/Pasted image 20240905194558.png",
-    "Images/Pasted image 20240905194009.png",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/desktop.ini",
     "Excalidraw/Icon Library/aws-architecture-icons.excalidrawlib",
     "Excalidraw/Icon Library/Unconfirmed 645735.crdownload",

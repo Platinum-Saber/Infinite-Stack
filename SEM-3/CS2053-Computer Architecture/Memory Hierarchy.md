@@ -10,7 +10,7 @@ About: Based on CS2053-Lecture 05 Memory Hierarchy part 1
 ---
 Related : #CA #CA/05 #ComputerArchitecture #MemoryHierarchy 
 
-Reference Note : [Memory Hierarchy 1](file:///E:%5CAcademics%5CSEM%203%5CCS2053-Computer%20Architecture%5CLecture%20note%5C05%20-%20Memory%20Hierarchy%20I.pdf)
+Reference Note : [Memory Hierarchy 1](file:///E:%5CAcademics%5CSEM%203%5CCS2053-Computer%20Architecture%5CLecture%20note%5C05%20-%20Memory%20Hierarchy%20I.pdf) ,[[GPT_Memory Hierarchy note ]]
 
 ---
 # Content
