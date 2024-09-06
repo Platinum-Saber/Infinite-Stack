@@ -141,5 +141,5 @@ For more info on instructions: [[RISC-V ISA]]
 <br>
 
 ### Principal of Locality
-- 
+- Refers to the tendency of a program to access 
 

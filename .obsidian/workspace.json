@@ -33,8 +33,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -119,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM-3/CS2053-Computer Architecture/GPT_Memory Hierarchy note.md"
+                "file": "SEM-3/CS2053-Computer Architecture/Memory Hierarchy.md"
               }
             }
           },
@@ -129,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM-3/CS2053-Computer Architecture/GPT_Memory Hierarchy note.md",
+                "file": "SEM-3/CS2053-Computer Architecture/Memory Hierarchy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,10 +174,10 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "e9498702f85671cf",
+  "active": "dc7ff98fb59181e3",
   "lastOpenFiles": [
-    "SEM-3/CS2053-Computer Architecture/Memory Hierarchy.md",
     "SEM-3/CS2053-Computer Architecture/GPT_Memory Hierarchy note.md",
+    "SEM-3/CS2053-Computer Architecture/Memory Hierarchy.md",
     "Images/Pasted image 20240906105711.png",
     "SEM-3/CS2053-Computer Architecture/Computer Architecture Introduction.md",
     "Excalidraw/Drawing 2024-09-06 10.08.39.excalidraw.md",
