@@ -24,7 +24,7 @@ Related : #Study #Academic #CheckList
 
 - [1] :luc_terminal_square: Operating systems
 - [ ] 1- [[OS Introduction]]
-- [ ] 2-  [[Operating System Services]]
+- [ ] 2- [[Operating System Services]]
 - [ ] 3
 - [ ] 4
 - [ ] 5- [[Synchronization Tools]]

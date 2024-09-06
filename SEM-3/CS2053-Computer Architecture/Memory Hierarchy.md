@@ -21,7 +21,7 @@ Reference Note : [Memory Hierarchy 1](file:///E:%5CAcademics%5CSEM%203%5CCS2053-
 
 <br>
 
-### Accessing Memory
+## Accessing Memory
 - The **address bus** activates a memory cell at a particular location. This prepares the memory cell for read or write operation that will occur.
 - The **control bus** specifies the action done on the particular activated memory location. Typically whether read or write action is performed.
 - **Data bus** carries the relevant data to or from the memory cell depending on the control signal.
@@ -125,3 +125,5 @@ addi x5, x5, 0x678  # x5 = 0x12345678 ; addi is used to complete the full addres
 > ![[Pasted image 20240830174616.png]]
 
 For more info on instructions: [[RISC-V ISA]]
+
+## Memory 
