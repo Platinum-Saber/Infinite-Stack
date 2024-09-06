@@ -129,5 +129,10 @@ For more info on instructions: [[RISC-V ISA]]
 ## Memory Hierarchy
 - Organizing memory in a way that the slowness of larger memory doesn't reduce the overall performance of the system.
 - Faster memory is expensive hence a small amount is used (*Registers, static RAM*). Slow memory isn't expensive hence can be used in large amounts(*Dynamic RAM*).
-- 
-- 
+
+Main objective of a memory system
+- Have sufficient speed
+- Have sufficient capacity
+- Be as cheap as possible.
+
+
