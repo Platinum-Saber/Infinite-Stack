@@ -19,8 +19,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "e9498702f85671cf",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2024-09-06 10.08.39.excalidraw.md"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -70,8 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "b2aa869acde22062",
@@ -106,7 +116,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM-3/CS2053-Computer Architecture/Memory Hierarchy.md"
+                "file": "Excalidraw/Drawing 2024-09-06 10.08.39.excalidraw.md"
               }
             }
           },
@@ -116,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM-3/CS2053-Computer Architecture/Memory Hierarchy.md",
+                "file": "Excalidraw/Drawing 2024-09-06 10.08.39.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,11 +172,12 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "dc7ff98fb59181e3",
+  "active": "e9498702f85671cf",
   "lastOpenFiles": [
+    "SEM-3/CS2053-Computer Architecture/Memory Hierarchy.md",
+    "Excalidraw/Drawing 2024-09-06 10.08.39.excalidraw.md",
     "SEM-3/CS2053-Computer Architecture/Computer Architecture Introduction.md",
     "SEM-3/CS2053-Computer Architecture/Instruction Set Architecture-RV.md",
-    "SEM-3/CS2053-Computer Architecture/Memory Hierarchy.md",
     "Study Tracker.md",
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Energy Balance.md",
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Thermodynamics.md",
@@ -190,7 +201,6 @@
     "SEM-3/CS3043-Database Systems/Introduction to SQL.md",
     "SEM-3/CS3043-Database Systems/Intermediate SQL.md",
     "SEM-3/CS3043-Database Systems/Database Systems Introduction.md",
-    "SEM-3/CS3043-Database Systems/Database Design Using the E-R Model.md",
     "Images/Pasted image 20240905204439.png",
     "Images/Pasted image 20240905204016.png",
     "Images/Pasted image 20240905202501.png",
