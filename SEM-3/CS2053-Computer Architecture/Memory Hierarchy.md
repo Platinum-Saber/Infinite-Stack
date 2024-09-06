@@ -143,5 +143,7 @@ For more info on instructions: [[RISC-V ISA]]
 ### Principal of Locality
 - Refers to the tendency of a program to access the same data or nearby data multiple times.
 
-> [!abstract]- 
+> [!abstract]- Types of Locality
+> - **Temporal Locality** : The `block` containing recently accessed items are likely to be accessed again.
+> - **Spatial Locality** : Data stored near the previously accessed memory is likely to be accessed again. (Nearby `blocks` ) 
 
