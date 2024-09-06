@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "SEM-3/CS2053-Computer Architecture/Memory Hierarchy.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -31,6 +31,14 @@
                 "backlinks": false,
                 "source": false
               }
+            }
+          },
+          {
+            "id": "8cb8b157e6005483",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -176,9 +184,9 @@
   },
   "active": "dc7ff98fb59181e3",
   "lastOpenFiles": [
-    "Images/Pasted image 20240906155727.png",
     "SEM-3/CS2053-Computer Architecture/GPT_Memory Hierarchy note.md",
     "SEM-3/CS2053-Computer Architecture/Memory Hierarchy.md",
+    "Images/Pasted image 20240906155727.png",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Depth-first Search.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Constraint Satisfaction Problem.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Breadth-first Search.md",
@@ -212,7 +220,6 @@
     "Images/Pasted image 20240905202123.png",
     "Images/Pasted image 20240905195336.png",
     "Images/Pasted image 20240905195252.png",
-    "Images/Pasted image 20240905194558.png",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/desktop.ini",
     "Excalidraw/Icon Library/aws-architecture-icons.excalidrawlib",
     "Excalidraw/Icon Library/Unconfirmed 645735.crdownload",
