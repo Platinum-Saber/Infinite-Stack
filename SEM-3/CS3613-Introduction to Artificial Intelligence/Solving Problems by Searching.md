@@ -4,7 +4,8 @@ tags:
   - AI/03
   - SearchAlgorithms
 Reviewed: 
-Created:
+Created: 2024-08-19T09:57:00
+About: Based on CS3613-Lecture 03 Solving problems by searching
 ---
 
 Related : #AI #AI/03 #SearchAlgorithms
