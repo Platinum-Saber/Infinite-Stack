@@ -171,4 +171,7 @@ int main (){
 ### Inclusion Property
 - **inclusion** guarantees that all data present in fast memory is also present in slower memory, ensuring data coherence and simplifying memory management in modern systems.
 - Often data in lower levels of hierarchy are a **superset** of higher level memories.
-- 
+
+> [!image]- Inclusion property diagram
+> ![[Pasted image 20240906164808.png]]
+
