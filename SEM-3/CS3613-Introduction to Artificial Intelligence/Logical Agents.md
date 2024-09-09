@@ -12,10 +12,20 @@ Related : #AI #AI/06 #Agents
 ---
 Reference Note : [Logical Agents I](file:///E:%5CAcademics%5CSEM%203%5CCS3613-Introduction%20to%20Artificial%20Intelligence%5CLecture%20note%5C06%20Logical%20Agents%20I.pdf)
 Reference Video : 
+Reference Links : [Worlds web app](https://adam.math.hhu.de/#/g/trequetrum/lean4game-logic/world/AndIntro/level/1) , [Logical Agents by Harvard](https://cs50.harvard.edu/ai/2024/notes/1/)
+
+
 
 ---
 
 # Content
+1. [[#Agents]]
+	- [[#Knowledge Based Agents]]
+		- [[#Knowledge Representations]]
+		- [[#Knowledge Base (KB)]]
+2. [[#Logic]]
+	- [[#Logical Languages]]
+	- [[#Logical Reasoning]]
 
 
 
@@ -54,6 +64,7 @@ KB is crucial for,
 Both involve inference. (derive new info from old)
 
 <br>
+<br>
 
 # Logic
 - Fundamental concepts of logical representation & reasoning.
@@ -89,5 +100,14 @@ Both involve inference. (derive new info from old)
 
 - The Wumpus World is a classic example used to illustrate logical agents in AI. It is characterized by properties such as partial observability, determinism, sequential nature, and a single agent environment. The agent must navigate the world based on its percepts (e.g., stench, breeze, glitter) and use logical reasoning to make decisions.
 
-Properties of the Wumpus World 
-- Partially observable: The Wumpus world in AI is partially observable because the agent can only sense the immediate surroundings, such as an adjacent room. • Deterministic: It is deterministic because the result and end of the world are already known. • Sequential: It is sequential because the order is essential. • Static: It is motionless because Wumpus and Pits are not moving. • Discrete: The surroundings are distinct. • One agent: The environment is a single agent because we only have one agent, and Wumpus is not regarded as an agent.
+> [!image]- Wumpus world diagram
+> ![[Pasted image 20240909113247.png]]
+
+
+### Properties of the Wumpus World 
+- **Partially observable**: The Wumpus world in AI is partially observable because the agent can only sense the immediate surroundings, such as an adjacent room. 
+- **Deterministic**: It is deterministic because the result and end of the world are already known. 
+- **Sequential**: It is sequential because the order is essential. 
+- **Static**: It is motionless because Wumpus and Pits are not moving. 
+- **Discrete**: The surroundings are distinct. 
+- **One agent**: The environment is a single agent because we only have one agent, and Wumpus is not regarded as an agent.
