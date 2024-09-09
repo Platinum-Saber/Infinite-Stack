@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "8cb8b157e6005483",
+            "id": "6b8a730ce0c11116",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Logical Agents.md",
+                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Uniform-cost Search.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -21,20 +21,19 @@
             }
           },
           {
-            "id": "6b8a730ce0c11116",
+            "id": "3115260b7c67440b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Depth-first Search.md",
+                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Solving Problems by Searching.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -119,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Depth-first Search.md"
+                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Uniform-cost Search.md"
               }
             }
           },
@@ -129,18 +128,10 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Depth-first Search.md",
+                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Uniform-cost Search.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
-            }
-          },
-          {
-            "id": "e71eb5cfea1028bd",
-            "type": "leaf",
-            "state": {
-              "type": "mermaid-toolbar-view",
-              "state": {}
             }
           },
           {
@@ -150,14 +141,21 @@
               "type": "git-view",
               "state": {}
             }
+          },
+          {
+            "id": "8e5a3765a9c45317",
+            "type": "leaf",
+            "state": {
+              "type": "mermaid-toolbar-view",
+              "state": {}
+            }
           }
         ],
         "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 249.5,
-    "collapsed": true
+    "width": 249.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -175,21 +173,22 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "6b8a730ce0c11116",
+  "active": "8e5a3765a9c45317",
   "lastOpenFiles": [
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Solving Problems by Searching.md",
-    "SEM-3/CS3613-Introduction to Artificial Intelligence/Artificial Intelligence.md",
-    "SEM-3/CS3613-Introduction to Artificial Intelligence/Constraint Satisfaction Problem.md",
-    "SEM-3/CS3613-Introduction to Artificial Intelligence/Breadth-first Search.md",
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/Uniform-cost Search.md",
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/Intelligent Agents.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Logical Agents.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Local Search And Optimization Problems.md",
-    "SEM-3/CS3613-Introduction to Artificial Intelligence/Simulated Annealing Algorithm.md",
-    "SEM-3/CS3613-Introduction to Artificial Intelligence/Intelligent Agents.md",
-    "SEM-3/CS3613-Introduction to Artificial Intelligence/Uniform-cost Search.md",
-    "SEM-3/CS3613-Introduction to Artificial Intelligence/Depth-first Search.md",
-    "SEM-3/CS3613-Introduction to Artificial Intelligence/Generic Algorithms.md",
-    "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Properties Of Pure Substances.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Hill Climbing Algorithm.md",
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/Generic Algorithms.md",
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/Depth-first Search.md",
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/AI Introduction.md",
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/Constraint Satisfaction Problem.md",
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/Artificial Intelligence.md",
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/Breadth-first Search.md",
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/Simulated Annealing Algorithm.md",
+    "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Properties Of Pure Substances.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Local Beam Search.md",
     "SEM-3/CS2053-Computer Architecture/Memory Hierarchy.md",
     "Images/Pasted image 20240906164808.png",
@@ -205,7 +204,6 @@
     "Excalidraw/Drawing 2024-09-06 10.08.39.excalidraw.md",
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Energy Balance.md",
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Thermodynamics.md",
-    "SEM-3/MA3014-Applied Statistics/Applied Statistics.md",
     "SEM-3/CS2053-Computer Architecture/Lab & CA",
     "Images/Pasted image 20240905204439.png",
     "Images/Pasted image 20240905204016.png",
