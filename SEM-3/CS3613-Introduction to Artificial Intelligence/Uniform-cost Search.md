@@ -2,7 +2,7 @@
 tags:
   - AI
   - SearchAlgorithms
-Reviewed: 
+Reviewed: true
 Created: 2024-09-09T09:33:00
 About: Note generated using GPT on uniform-cost search algorithm
 ---

@@ -1,3 +1,11 @@
+---
+tags:
+  - AI
+  - AI/03
+  - SearchAlgorithms
+Reviewed: 
+Created:
+---
 
 Related : #AI #AI/03 #SearchAlgorithms
 
