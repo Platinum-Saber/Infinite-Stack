@@ -24,9 +24,12 @@
             "id": "43a26b13286d43be",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Excalidraw/Drawing 2024-09-09 15.34.35.excalidraw.md"
+                "file": "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/3. The Second Law of Thermodynamics.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               }
             }
           }
@@ -116,7 +119,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Drawing 2024-09-09 15.34.35.excalidraw.md"
+                "file": "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/3. The Second Law of Thermodynamics.md"
               }
             }
           },
@@ -126,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/Drawing 2024-09-09 15.34.35.excalidraw.md",
+                "file": "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/3. The Second Law of Thermodynamics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,8 +177,8 @@
   },
   "active": "43a26b13286d43be",
   "lastOpenFiles": [
-    "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/3. The Second Law of Thermodynamics.md",
     "Excalidraw/Drawing 2024-09-09 15.34.35.excalidraw.md",
+    "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/3. The Second Law of Thermodynamics.md",
     "Excalidraw/Drawing 2024-09-09 15.41.11.excalidraw.md",
     "Excalidraw/Drawing 2024-09-06 10.08.39.excalidraw.md",
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Laws of Thermodynamics.md",
