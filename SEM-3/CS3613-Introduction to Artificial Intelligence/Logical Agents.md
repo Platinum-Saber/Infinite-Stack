@@ -71,3 +71,23 @@ Both involve inference. (derive new info from old)
 
 ### Logical Reasoning
 - Involves **logical entailment**, where one **sentence** *implies* another if it is true in every **model** where the first sentence is true. **Logical inference** allows the agent to derive conclusions from its knowledge base.
+
+> [!info]- Logical Inference
+> - Derive conclusions using **entailments**.
+> - **Model checking** : enumerates all possible models to check that a sentence is true in all models where the `KB` is true.
+> - `i` - Inference algorithm, should be *sound*, *truth preserving*, and *complete*.
+> - Model checking works if space for models is finite.
+
+### Grounding
+- if `KB` is true in the real world, then any sentence derived from `KB` by a **sound inference** procedure is also true in the real world.
+
+> [!image]- Grounding diagram
+> ![[Pasted image 20240909112910.png]]
+
+
+# The Wumpus World
+
+- The Wumpus World is a classic example used to illustrate logical agents in AI. It is characterized by properties such as partial observability, determinism, sequential nature, and a single agent environment. The agent must navigate the world based on its percepts (e.g., stench, breeze, glitter) and use logical reasoning to make decisions.
+
+Properties of the Wumpus World 
+- Partially observable: The Wumpus world in AI is partially observable because the agent can only sense the immediate surroundings, such as an adjacent room. • Deterministic: It is deterministic because the result and end of the world are already known. • Sequential: It is sequential because the order is essential. • Static: It is motionless because Wumpus and Pits are not moving. • Discrete: The surroundings are distinct. • One agent: The environment is a single agent because we only have one agent, and Wumpus is not regarded as an agent.
