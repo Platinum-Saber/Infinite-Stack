@@ -27,13 +27,15 @@ Reference Links : [Worlds web app](https://adam.math.hhu.de/#/g/trequetrum/lean4
 	- [[#Logical Languages]]
 	- [[#Logical Reasoning]]
 
-
-
+<br>
+<br>
 
 # Agents
 > [!info] Agent types
 > - **Problem solving agent** : Execute a given solution and are typically not well-suited for dynamic problems.
 > - **Knowledge based/ Planning agents** 
+
+<br>
 
 ## Knowledge Based Agents
 > [!note] Characteristics
@@ -47,6 +49,8 @@ Reference Links : [Worlds web app](https://adam.math.hhu.de/#/g/trequetrum/lean4
 > - Infer new representations of the world.
 > - Use the representation to decide what to do.
 
+<br>
+
 ### Knowledge Representations
 - **Atomic** : The state is considered as a whole with no internal structure available to the agent.
 - **Factored** : Involves the assignment of values to variables.
@@ -57,11 +61,10 @@ Reference Links : [Worlds web app](https://adam.math.hhu.de/#/g/trequetrum/lean4
 ### Knowledge Base (KB)
 - The place where the agent's world representation **world representation** is maintained.
 - It consists of a set of *sentences* written in a *knowledge representation language*, also known as **axioms**.
-
-KB is crucial for,
-- Adding new information (TELL)
-- Retrieving information (ASK)
-Both involve inference. (derive new info from old)
+- KB is crucial for,
+	- Adding new information (TELL)
+	- Retrieving information (ASK)
+- Both involve inference. (derive new info from old)
 
 <br>
 <br>
@@ -89,12 +92,16 @@ Both involve inference. (derive new info from old)
 > - `i` - Inference algorithm, should be *sound*, *truth preserving*, and *complete*.
 > - Model checking works if space for models is finite.
 
+<br>
+
 ### Grounding
 - if `KB` is true in the real world, then any sentence derived from `KB` by a **sound inference** procedure is also true in the real world.
 
 > [!image]- Grounding diagram
 > ![[Pasted image 20240909112910.png]]
 
+<br>
+<br>
 
 # The Wumpus World
 
@@ -103,6 +110,7 @@ Both involve inference. (derive new info from old)
 > [!image]- Wumpus world diagram
 > ![[Pasted image 20240909113247.png]]
 
+<br>
 
 ### Properties of the Wumpus World 
 - **Partially observable**: The Wumpus world in AI is partially observable because the agent can only sense the immediate surroundings, such as an adjacent room. 
