@@ -56,4 +56,13 @@ Both involve inference. (derive new info from old)
 <br>
 
 # Logic
-- Fundamental 
+- Fundamental concepts of logical representation & reasoning.
+
+### Logical Languages
+- A knowledge base contains **sentences** that must be **syntactically** *correct*. The **semantics** of these sentences define their truth in possible worlds (models).
+
+> [!info]- Semantics
+> - Defines the truth of sentences with respect to each possible world.
+> - Possible world = model; An abstraction where each sentence is either true or false.
+> - If a sentence `S` is true in model `m`. This implies that `m` satisfies `s` or `m` is a model of `s`.
+> - Set of `m` which are models of `s` is defined as 
