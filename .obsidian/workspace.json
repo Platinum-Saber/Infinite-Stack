@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "cad9f29cabd281d9",
+        "id": "e8dae6fe7eb4c5d9",
         "type": "tabs",
         "children": [
           {
-            "id": "3115260b7c67440b",
+            "id": "03fa6045ac4eea72",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Depth-first Search.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Agents path:Images  ",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -160,8 +160,10 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "3115260b7c67440b",
+  "active": "03fa6045ac4eea72",
   "lastOpenFiles": [
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/Depth-first Search.md",
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/Breadth-first Search.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Local Beam Search.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Simulated Annealing Algorithm.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Uniform-cost Search.md",
@@ -169,8 +171,6 @@
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Energy Balance.md",
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Introduction to Thermodynamics.md",
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Laws of Thermodynamics.md",
-    "SEM-3/CS3613-Introduction to Artificial Intelligence/Breadth-first Search.md",
-    "SEM-3/CS3613-Introduction to Artificial Intelligence/Depth-first Search.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Intelligent Agents.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Logical Agents.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Local Search And Optimization Problems.md",
