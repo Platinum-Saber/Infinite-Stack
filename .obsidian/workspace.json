@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Depth-first Search.md",
-                "mode": "preview",
+                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Logical Agents.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -70,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "b2aa869acde22062",
@@ -105,7 +106,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Depth-first Search.md"
+                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Logical Agents.md"
               }
             }
           },
@@ -115,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Depth-first Search.md",
+                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Logical Agents.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +143,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 249.5
+    "width": 249.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -162,23 +164,23 @@
   },
   "active": "03fa6045ac4eea72",
   "lastOpenFiles": [
-    "SEM-3/CS3613-Introduction to Artificial Intelligence/Depth-first Search.md",
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/Constraint Satisfaction Problem.md",
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/Local Search And Optimization Problems.md",
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/Artificial Intelligence.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Breadth-first Search.md",
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/Intelligent Agents.md",
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/Solving Problems by Searching.md",
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/Depth-first Search.md",
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/Uniform-cost Search.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Local Beam Search.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Simulated Annealing Algorithm.md",
-    "SEM-3/CS3613-Introduction to Artificial Intelligence/Uniform-cost Search.md",
-    "SEM-3/CS3613-Introduction to Artificial Intelligence/Solving Problems by Searching.md",
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Energy Balance.md",
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Introduction to Thermodynamics.md",
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Laws of Thermodynamics.md",
-    "SEM-3/CS3613-Introduction to Artificial Intelligence/Intelligent Agents.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Logical Agents.md",
-    "SEM-3/CS3613-Introduction to Artificial Intelligence/Local Search And Optimization Problems.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Hill Climbing Algorithm.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Generic Algorithms.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/AI Introduction.md",
-    "SEM-3/CS3613-Introduction to Artificial Intelligence/Constraint Satisfaction Problem.md",
-    "SEM-3/CS3613-Introduction to Artificial Intelligence/Artificial Intelligence.md",
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Properties Of Pure Substances.md",
     "SEM-3/CS2053-Computer Architecture/Memory Hierarchy.md",
     "Images/Pasted image 20240906164808.png",
