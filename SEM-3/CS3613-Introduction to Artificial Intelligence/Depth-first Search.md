@@ -39,36 +39,39 @@
 >  >        graph.computeIfAbsent(node, k -> new ArrayList<>()).add(neighbor);
 >  >       graph.computeIfAbsent(neighbor, k -> new ArrayList<>()).add(node); 
 >  >    }
-> 
->     public void dfs(String start) {
->         Set<String> visited = new HashSet<>();
->         dfsHelper(start, visited);
->     }
-> 
->     private void dfsHelper(String node, Set<String> visited) {
->         visited.add(node);
->         System.out.println(node);
-> 
->         for (String neighbor : graph.get(node)) {
->             if (!visited.contains(neighbor)) {
->                 dfsHelper(neighbor, visited);
->             }
->         }
->     }
-> 
->     public static void main(String[] args) {
->         DFSRecursive dfs = new DFSRecursive();
->         dfs.addEdge("A", "B");
->         dfs.addEdge("A", "C");
->         dfs.addEdge("B", "D");
->         dfs.addEdge("B", "E");
->         dfs.addEdge("C", "F");
->         dfs.addEdge("E", "F");
-> 
->         dfs.dfs("A");
->     }
-> }
-> ```
+>  >
+>  >    public void dfs(String start) {
+>  >        Set<String> visited = new HashSet<>();
+>  >        dfsHelper(start, visited);
+>  >    }
+>  >
+>  >    private void dfsHelper(String node, Set<String> visited) {
+>  >        visited.add(node);
+>  >        System.out.println(node);
+>  >
+>  >        for (String neighbor : graph.get(node)) {
+>  >            if (!visited.contains(neighbor)) {
+>  >                dfsHelper(neighbor, visited);
+>  >            }
+>  >        }
+>  >    }
+>  >
+>  >    public static void main(String[] args) {
+>  >        DFSRecursive dfs = new DFSRecursive();
+>  >        dfs.addEdge("A", "B");
+>  >        dfs.addEdge("A", "C");
+>  >        dfs.addEdge("B", "D");
+>  >        dfs.addEdge("B", "E");
+>  >        dfs.addEdge("C", "F");
+>  >        dfs.addEdge("E", "F");
+>  >
+>  >        dfs.dfs("A");
+>  >    }
+>  > }
+>  > ```
+>  
+
+
 
 
 
