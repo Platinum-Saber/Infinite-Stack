@@ -65,4 +65,9 @@ Both involve inference. (derive new info from old)
 > - Defines the truth of sentences with respect to each possible world.
 > - Possible world = model; An abstraction where each sentence is either true or false.
 > - If a sentence `S` is true in model `m`. This implies that `m` satisfies `s` or `m` is a model of `s`.
-> - Set of `m` which are models of `s` is defined as 
+> - Set of `m` which are models of `s` is defined as : `M(s)`
+
+<br>
+
+### Logical Reasoning
+- Involves **logical entailment**, where one **sentence** *implies* another if it is true in every **model** where the first sentence is true. **Logical inference** allows the agent to derive conclusions from its knowledge base.
