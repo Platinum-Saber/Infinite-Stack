@@ -48,4 +48,12 @@ Reference Video :
 - The place where the agent's world representation **world representation** is maintained.
 - It consists of a set of *sentences* written in a *knowledge representation language*, also known as **axioms**.
 
-KB is crutial 
+KB is crucial for,
+- Adding new information (TELL)
+- Retrieving information (ASK)
+Both involve inference. (derive new info from old)
+
+<br>
+
+# Logic
+- Fundamental 
