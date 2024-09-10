@@ -1,6 +1,4 @@
 [
-  "table-editor-obsidian",
-  "obsidian-git",
   "obsidian-excalidraw-plugin",
   "calendar",
   "obsidian-outliner",
@@ -12,10 +10,9 @@
   "obsidian-emoji-toolbar",
   "obsidian-icon-shortcodes",
   "tag-wrangler",
-  "ink",
   "obsidian-meta-bind-plugin",
   "execute-code",
   "obsidian-icon-folder",
   "obsidian-icons-plugin",
-  "terminal"
+  "obsidian-git"
 ]
