@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM-3/CS2043-Operating Systems/Labs/Pintos Questions.md",
+                "file": "SEM-3/CS2043-Operating Systems/Labs/Lab 02.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -105,7 +105,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM-3/CS2043-Operating Systems/Labs/Pintos Questions.md"
+                "file": "SEM-3/CS2043-Operating Systems/Labs/Lab 02.md"
               }
             }
           },
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM-3/CS2043-Operating Systems/Labs/Pintos Questions.md",
+                "file": "SEM-3/CS2043-Operating Systems/Labs/Lab 02.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,17 +154,15 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "callout-manager:Insert Callout": false,
-      "mermaid-tools:Open Mermaid Toolbar": false,
-      "terminal:Open terminal": false
+      "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
   "active": "03fa6045ac4eea72",
   "lastOpenFiles": [
-    "SEM-3/CS2043-Operating Systems/Labs/Lab 02.md",
     "SEM-3/CS2043-Operating Systems/Labs/Pintos Questions.md",
+    "SEM-3/CS2043-Operating Systems/Labs/Lab 02.md",
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Properties Of Pure Substances.md",
     "SEM-3/CS2033-Data Communication and Networking/Encoding & Modulation.md",
     "SEM-3/CS2033-Data Communication and Networking/Transmission Media.md",
