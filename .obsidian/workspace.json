@@ -13,28 +13,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/3. The Second Law of Thermodynamics.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "43a26b13286d43be",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/3. The Second Law of Thermodynamics.md",
+                "file": "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Properties Of Pure Substances.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -119,7 +105,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/3. The Second Law of Thermodynamics.md"
+                "file": "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Properties Of Pure Substances.md"
               }
             }
           },
@@ -129,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/3. The Second Law of Thermodynamics.md",
+                "file": "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Properties Of Pure Substances.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,12 +161,20 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "43a26b13286d43be",
+  "active": "03fa6045ac4eea72",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2024-09-09 15.34.35.excalidraw.md",
+    "SEM-3/CS2033-Data Communication and Networking/Encoding & Modulation.md",
+    "SEM-3/CS2033-Data Communication and Networking/Transmission Media.md",
+    "Study Tracker.md",
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/3. The Second Law of Thermodynamics.md",
+    "Excalidraw/Networking.md",
+    "Excalidraw/CA memory.md",
+    "Excalidraw/Drawing 2024-09-02 13.33.00.excalidraw.md",
+    "Excalidraw/Drawing 2024-09-03 19.07.57.excalidraw.md",
+    "Excalidraw/Memory Hierarchy.md",
+    "Excalidraw/Thermo 2nd Law.md",
     "Excalidraw/Drawing 2024-09-09 15.41.11.excalidraw.md",
-    "Excalidraw/Drawing 2024-09-06 10.08.39.excalidraw.md",
+    "Images/Pasted image 20240909160539.png",
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Laws of Thermodynamics.md",
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Basic Concepts of Thermodynamics.md",
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Introduction to Thermodynamics.md",
@@ -198,22 +192,14 @@
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Local Beam Search.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Simulated Annealing Algorithm.md",
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Energy Balance.md",
-    "SEM-3/CS3613-Introduction to Artificial Intelligence/Hill Climbing Algorithm.md",
-    "SEM-3/CS3613-Introduction to Artificial Intelligence/Generic Algorithms.md",
-    "SEM-3/CS3613-Introduction to Artificial Intelligence/AI Introduction.md",
-    "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Properties Of Pure Substances.md",
-    "SEM-3/CS2053-Computer Architecture/Memory Hierarchy.md",
     "Images/Pasted image 20240906164808.png",
-    "SEM-3/CS2053-Computer Architecture/GPT_Memory Hierarchy note.md",
     "Images/Pasted image 20240906155727.png",
-    "SEM-3/CS2053-Computer Architecture/Instruction Set Architecture-RV.md",
     "Images/Pasted image 20240906105711.png",
     "SEM-3/CS2053-Computer Architecture/Lab & CA",
     "Images/Pasted image 20240905204439.png",
     "Images/Pasted image 20240905204016.png",
     "Images/Pasted image 20240905202501.png",
     "Images/Pasted image 20240905202353.png",
-    "Images/Pasted image 20240905202136.png",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/desktop.ini",
     "Excalidraw/Icon Library/aws-architecture-icons.excalidrawlib",
     "Excalidraw/Icon Library/Unconfirmed 645735.crdownload",
