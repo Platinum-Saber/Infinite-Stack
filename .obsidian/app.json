@@ -4,11 +4,11 @@
   "strictLineBreaks": false,
   "attachmentFolderPath": "Images",
   "pdfExportSettings": {
-    "includeName": false,
+    "includeName": true,
     "pageSize": "A4",
     "landscape": false,
     "margin": "0",
-    "downscalePercent": 91
+    "downscalePercent": 70
   },
   "showLineNumber": false
 }
