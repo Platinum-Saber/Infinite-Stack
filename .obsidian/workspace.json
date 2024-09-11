@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM-3/MA2014-Differential Equations/Fourier Series.md",
-                "mode": "source",
+                "file": "SEM-3 INDEX.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM-3/MA2014-Differential Equations/Fourier Series.md"
+                "file": "SEM-3 INDEX.md"
               }
             }
           },
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM-3/MA2014-Differential Equations/Fourier Series.md",
+                "file": "SEM-3 INDEX.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,9 +161,12 @@
   },
   "active": "ec00691992e2a126",
   "lastOpenFiles": [
-    "SEM-3/MA2014-Differential Equations/Laplace Transformations.md",
-    "SEM-3/MA2014-Differential Equations/Partial Differential Equations.md",
     "SEM-3/MA3014-Applied Statistics/Applied Statistics.md",
+    "SEM-3 INDEX.md",
+    "SEM-3/MA2014-Differential Equations/Partial Differential Equations.md",
+    "SEM-3/MA2014-Differential Equations/Differential Equations.md",
+    "SEM-3/MA2014-Differential Equations/Fourier Series.md",
+    "SEM-3/MA2014-Differential Equations/Laplace Transformations.md",
     "Study Tracker.md",
     "SEM-3/CS2043-Operating Systems/Labs/Pintos Questions.md",
     "SEM-3/CS2043-Operating Systems/Labs/Lab 02.md",
@@ -187,9 +190,6 @@
     "Images/Pasted image 20240909112910.png",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Constraint Satisfaction Problem.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Local Search And Optimization Problems.md",
-    "SEM-3/CS3613-Introduction to Artificial Intelligence/Artificial Intelligence.md",
-    "SEM-3/CS3613-Introduction to Artificial Intelligence/Breadth-first Search.md",
-    "SEM-3/CS3613-Introduction to Artificial Intelligence/Intelligent Agents.md",
     "Images/Pasted image 20240906164808.png",
     "Images/Pasted image 20240906155727.png",
     "Images/Pasted image 20240906105711.png",
