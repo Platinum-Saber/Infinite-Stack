@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM-3/CS2043-Operating Systems/Labs/Pintos Questions.md",
+                "file": "SEM-3/MA2014-Differential Equations/Fourier Series.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -105,7 +105,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM-3/CS2043-Operating Systems/Labs/Pintos Questions.md"
+                "file": "SEM-3/MA2014-Differential Equations/Fourier Series.md"
               }
             }
           },
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM-3/CS2043-Operating Systems/Labs/Pintos Questions.md",
+                "file": "SEM-3/MA2014-Differential Equations/Fourier Series.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,12 +161,15 @@
   },
   "active": "ec00691992e2a126",
   "lastOpenFiles": [
-    "SEM-3/CS2043-Operating Systems/Labs/Lab 02.md",
+    "SEM-3/MA2014-Differential Equations/Laplace Transformations.md",
+    "SEM-3/MA2014-Differential Equations/Partial Differential Equations.md",
+    "SEM-3/MA3014-Applied Statistics/Applied Statistics.md",
+    "Study Tracker.md",
     "SEM-3/CS2043-Operating Systems/Labs/Pintos Questions.md",
+    "SEM-3/CS2043-Operating Systems/Labs/Lab 02.md",
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Properties Of Pure Substances.md",
     "SEM-3/CS2033-Data Communication and Networking/Encoding & Modulation.md",
     "SEM-3/CS2033-Data Communication and Networking/Transmission Media.md",
-    "Study Tracker.md",
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/3. The Second Law of Thermodynamics.md",
     "Excalidraw/Networking.md",
     "Excalidraw/CA memory.md",
@@ -187,9 +190,6 @@
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Artificial Intelligence.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Breadth-first Search.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Intelligent Agents.md",
-    "SEM-3/CS3613-Introduction to Artificial Intelligence/Solving Problems by Searching.md",
-    "SEM-3/CS3613-Introduction to Artificial Intelligence/Depth-first Search.md",
-    "SEM-3/CS3613-Introduction to Artificial Intelligence/Uniform-cost Search.md",
     "Images/Pasted image 20240906164808.png",
     "Images/Pasted image 20240906155727.png",
     "Images/Pasted image 20240906105711.png",
