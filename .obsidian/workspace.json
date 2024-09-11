@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM-3 INDEX.md",
+                "file": "SEM-3/CS2043-Operating Systems/Labs/Lab 02.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#pintos  ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -105,7 +105,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM-3 INDEX.md"
+                "file": "SEM-3/CS2043-Operating Systems/Labs/Lab 02.md"
               }
             }
           },
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM-3 INDEX.md",
+                "file": "SEM-3/CS2043-Operating Systems/Labs/Lab 02.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,10 +159,10 @@
       "mermaid-tools:Open Mermaid Toolbar": false
     }
   },
-  "active": "ec00691992e2a126",
+  "active": "671fcfcc9244e77e",
   "lastOpenFiles": [
-    "SEM-3/MA3014-Applied Statistics/Applied Statistics.md",
     "SEM-3 INDEX.md",
+    "SEM-3/MA3014-Applied Statistics/Applied Statistics.md",
     "SEM-3/MA2014-Differential Equations/Partial Differential Equations.md",
     "SEM-3/MA2014-Differential Equations/Differential Equations.md",
     "SEM-3/MA2014-Differential Equations/Fourier Series.md",
