@@ -16,29 +16,25 @@ Reference Video :
 
 # Content
 [[#1. Database Connectivity]]
-	[[#1.1 JDBC (Java Database Connectivity)]]
-	[[#1.2 Prepared Statements]]
-	[[#1.3 ODBC (Open Database Connectivity)]]
-	[[#1.4 Embedded SQL]]
+- [[#1.1 JDBC (Java Database Connectivity)]]
+- [[#1.2 Prepared Statements]]
+- [[#1.3 ODBC (Open Database Connectivity)]]
+- [[#1.4 Embedded SQL]]
 [[#2. Procedural Extensions in SQL]]
-	[[#2.1 SQL Functions]]
-	[[#2.2 SQL Procedures]]
-	[[#2.3 Control Structures]]
-[[#3. Triggers]]
+- [[#2.1 SQL Functions]]
+- [[#2.2 SQL Procedures]]
+- [[#2.3 Control Structures]]
+- [[#3. Triggers]]
 [[#4. Advanced Aggregation Features]]
-	[[#4.1 Ranking]]
-	[[#4.2 Windowing]]
-	[[#4.3 CUBE and ROLLUP]]
+- [[#4.1 Ranking]]
+- [[#4.2 Windowing]]
+- [[#4.3 CUBE and ROLLUP]]
 [[#5. Authorization]]
-	[[#5.1 Roles]]
+- [[#5.1 Roles]]
 [[#6. OLAP (Online Analytical Processing)]]
-	[[#6.1 Data Cubes]]
-	[[#6.2 OLAP Implementation Types]]
+- [[#6.1 Data Cubes]]
+- [[#6.2 OLAP Implementation Types]]
 [[#7. Best Practices and Considerations]]
-
-
-
-
 
 ---
 
@@ -194,65 +190,70 @@ Reference Video :
 
 ## 4.1 Ranking
 
-- Used in conjunction with `ORDER BY`.
-- Functions: RANK(), DENSE_RANK()
+- Used in **conjunction** with `ORDER BY`.
+- **Functions**: `RANK()`, `DENSE_RANK()`
 
-Example:
-```sql
-SELECT ID, RANK() OVER (ORDER BY GPA DESC) AS s_rank
-FROM student_grades
-ORDER BY s_rank;
-```
+> [!code]- Example code
+> ```sql
+> SELECT ID, RANK() OVER (ORDER BY GPA DESC) AS s_rank
+> FROM student_grades
+> ORDER BY s_rank;
+> ```
+> 
 
 ## 4.2 Windowing
 
 - Performs calculations across a set of rows related to the current row.
 - Useful for moving averages, running totals, etc.
 
-Example:
-```sql
-SELECT date, SUM(value) OVER (
-    ORDER BY date
-    ROWS BETWEEN 1 PRECEDING AND 1 FOLLOWING
-) AS moving_average
-FROM sales;
-```
+> [!code]- Example code:
+> ```sql
+> SELECT date, SUM(value) OVER (
+>     ORDER BY date
+>     ROWS BETWEEN 1 PRECEDING AND 1 FOLLOWING
+> ) AS moving_average
+> FROM sales;
+> ```
+
 
 ## 4.3 CUBE and ROLLUP
 
-- CUBE: Generates all possible combinations of GROUP BY clauses.
-- ROLLUP: Generates a hierarchy of GROUP BY clauses.
+- **CUBE**: Generates all possible combinations of GROUP BY clauses.
+- **ROLLUP**: Generates a hierarchy of GROUP BY clauses.
 
-Example:
-```sql
-SELECT item_name, color, size, SUM(quantity)
-FROM sales
-GROUP BY CUBE(item_name, color, size);
-```
+> [!code]- Example code:
+> ```sql
+> SELECT item_name, color, size, SUM(quantity)
+> FROM sales
+> GROUP BY CUBE(item_name, color, size);
+> ```
+
 
 # 5. Authorization
 
 - Controls access to database objects and operations.
-- Main commands: GRANT and REVOKE.
-- Privileges: SELECT, INSERT, UPDATE, DELETE, etc.
+- **Main commands**: `GRANT` and `REVOKE`.
+- **Privileges**: `SELECT`, `INSERT`, `UPDATE`, `DELETE`, etc.
 
-Example:
-```sql
-GRANT SELECT, INSERT ON employees TO hr_staff;
-REVOKE DELETE ON customer_data FROM intern_user;
-```
+> [!code]- Example code:
+> ```sql
+> GRANT SELECT, INSERT ON employees TO hr_staff;
+> REVOKE DELETE ON customer_data FROM intern_user;
+> ```
+> 
 
 ## 5.1 Roles
 
 - Named sets of privileges that can be assigned to users.
 - Simplifies management of complex permission systems.
 
-Example:
-```sql
-CREATE ROLE manager;
-GRANT SELECT, INSERT, UPDATE ON all_tables TO manager;
-GRANT manager TO user1, user2;
-```
+> [!code]- Example code
+> ```sql
+> CREATE ROLE manager;
+> GRANT SELECT, INSERT, UPDATE ON all_tables TO manager;
+> GRANT manager TO user1, user2;
+> ```
+
 
 # 6. OLAP (Online Analytical Processing)
 
@@ -273,14 +274,14 @@ GRANT manager TO user1, user2;
 
 # 7. Best Practices and Considerations
 
-1. Always use prepared statements when dealing with user inputs to prevent SQL injection.
-2. Be cautious with triggers, as they can lead to unintended consequences and performance issues.
+1. **Always** use **prepared statements** when dealing with user inputs to prevent SQL injection.
+2. Be **cautious** with **triggers**, as they can lead to unintended consequences and performance issues.
 3. Use appropriate indexing strategies to optimize query performance.
 4. Regularly analyze and optimize your database schema and queries.
-5. Implement proper authorization and access control to ensure data security.
+5. Implement proper **authorization** and access control to ensure data security.
 6. Consider using stored procedures for complex operations that need to be reused.
-7. When working with large datasets, consider using partitioning and materialized views.
-8. Use transactions to ensure data consistency, especially for multi-step operations.
+7. When working with large datasets, consider using **partitioning** and materialized views.
+8. Use **transactions** to ensure data consistency, especially for multi-step operations.
 9. Regularly backup your database and test recovery procedures.
 10. Stay updated with the latest features and best practices of your specific database management system.
 
