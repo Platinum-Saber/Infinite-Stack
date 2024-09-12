@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Images/advanced-sql-study-note.md",
+                "file": "nodejs-sql-resources.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -110,7 +110,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 293.5
   },
   "right": {
     "id": "b2aa869acde22062",
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Images/advanced-sql-study-note.md"
+                "file": "nodejs-sql-resources.md"
               }
             }
           },
@@ -155,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Images/advanced-sql-study-note.md",
+                "file": "nodejs-sql-resources.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -209,15 +209,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b702e152c14884e9",
+  "active": "671fcfcc9244e77e",
   "lastOpenFiles": [
+    "Images/nodejs-sql-backend-setup.md",
+    "nodejs-sql-resources.md",
+    "Images/nodejs-sql-resources 1.md",
     "Full Stack Development/Backend Development.md",
+    "Images/advanced-sql-study-note.md",
     "Setting Up .ENV.md",
     "Untitled.md",
     "Advanced SQL.md",
-    "Images/advanced-sql-study-note.md",
-    "Images/nodejs-sql-resources 1.md",
-    "Images/nodejs-sql-resources.md",
     "Full Stack Development",
     "Images/Project Description.pdf",
     "Images/L0-Introduction.pdf",
@@ -244,7 +245,6 @@
     "SEM-3/CS2033-Data Communication and Networking/Encoding & Modulation.md",
     "SEM-3/CS2033-Data Communication and Networking/Transmission Media.md",
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/3. The Second Law of Thermodynamics.md",
-    "Excalidraw/Networking.md",
     "Images/Pasted image 20240909160539.png",
     "Images/Pasted image 20240909113247.png",
     "Images/Pasted image 20240909112910.png",
