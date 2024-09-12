@@ -5,7 +5,8 @@
       "file",
       "code",
       "url",
-      "equation"
+      "equation",
+      "table"
     ],
     "settings": {
       "info": [
@@ -72,6 +73,14 @@
         {
           "changes": {
             "color": "240, 130, 40"
+          }
+        }
+      ],
+      "table": [
+        {
+          "changes": {
+            "icon": "lucide-table-properties",
+            "color": "196, 102, 240"
           }
         }
       ]

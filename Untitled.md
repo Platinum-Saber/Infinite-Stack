@@ -1,45 +1,11 @@
----
-tags:
-  - DatabaseSystems
-  - DB
-Reviewed: 
-Created: 2024-09-11T18:45:00
-About: Based on CS3043-Lecture 04 Overview of Normalization
----
-Related : #Normalization #DB/04
-Reference Note  : [Lecture 4 - Ch7_Normalization](file:///E:%5CAcademics%5CSEM%203%5CCS3043-Database%20Systems%5CNew%20Lecture%20notes%5CLec%204%20-%20Ch7_NormalizationP1of2.pdf)
-Reference Video : [Lecture 4 - Part 1](file:///E:%5CAcademics%5CSEM%203%5CCS3043-Database%20Systems%5CLecture%20Video%5CLecture%204_P1.mp4)
+# Database Normalization Study Note
 
----
-# Content
-- [[#Introduction to Normalization]]
-	1. [[#Key Concepts]]
-	2. [[#Types of Normal Forms with Examples]]
-		- [[#1. First Normal Form (1NF)]]
-		- [[#2. Second Normal Form (2NF)]]
-		- [[#3. Third Normal Form (3NF)]]
-		- [[#4. Boyce-Codd Normal Form (BCNF)]]
-		- [[#5. Fourth Normal Form (4NF)]]
-	3. [[#Benefits of Normalization]]
-	4. [[#Decomposition]]
-	5. [[#Closure of Functional Dependencies]]
-	6. [[#Normalization Process]]
 
----
-<br>
-<br>
+## Introduction to Normalization
 
-# Introduction to Normalization
-
->[!error]- Qualities of a bad relational design
->- Repetition of information
->- Need to use null values
-
-<br>
-
+  
 - Database normalization is a technique used in relational database design to organize data efficiently, reduce data redundancy, and improve data integrity. The process involves breaking down a database into smaller, more manageable tables and establishing relationships between them.
 
-<br>
   
 ## Key Concepts
 
@@ -57,11 +23,7 @@ Reference Video : [Lecture 4 - Part 1](file:///E:%5CAcademics%5CSEM%203%5CCS3043
 > [!info]- Normal Forms: 
 > Different levels of normalization, each with specific rules to eliminate various types of anomalies and redundancies.
 
-<br>
-
 ## Types of Normal Forms with Examples
-
-<br>
 
 ### 1. First Normal Form (1NF):
    - Each column contains atomic (indivisible) values
@@ -84,7 +46,6 @@ Reference Video : [Lecture 4 - Part 1](file:///E:%5CAcademics%5CSEM%203%5CCS3043
 > > | 2         | Emma     | Biology    |
 > > | 2         | Emma     | Chemistry  |
 
-<br>
 
 ### 2. Second Normal Form (2NF):
    - Must be in 1NF
@@ -115,7 +76,6 @@ Reference Video : [Lecture 4 - Part 1](file:///E:%5CAcademics%5CSEM%203%5CCS3043
 > > | 1       | P2        | Mouse       | 1        |
 > > | 2       | P1        | Laptop      | 1        |
 
-<br>
 
 ### 3. Third Normal Form (3NF):
    - Must be in 2NF
@@ -147,14 +107,13 @@ Reference Video : [Lecture 4 - Part 1](file:///E:%5CAcademics%5CSEM%203%5CCS3043
 > > | D1           | Sales          |
 > > | D2           | Marketing      |
 
-<br>
 
 ### 4. Boyce-Codd Normal Form (BCNF):
 
    - A stricter version of 3NF
    - For any dependency A → B, A should be a superkey
 
-<br>
+  
   
 
 > [!table]- Example
@@ -190,7 +149,8 @@ Reference Video : [Lecture 4 - Part 1](file:///E:%5CAcademics%5CSEM%203%5CCS3043
 > > | Physics | Brown     |
 > > | Physics | Johnson   |
 
-<br>
+
+  
 
 ### 5. Fourth Normal Form (4NF):
    - Addresses multi-valued dependencies
@@ -226,9 +186,8 @@ Reference Video : [Lecture 4 - Part 1](file:///E:%5CAcademics%5CSEM%203%5CCS3043
 > > | 1         | Guitar              |
 > > | 2         | Violin              |
 
-<br>
-<br>
 
+  
 ## Benefits of Normalization
 
 1. Minimizes data redundancy
@@ -237,29 +196,27 @@ Reference Video : [Lecture 4 - Part 1](file:///E:%5CAcademics%5CSEM%203%5CCS3043
 4. Simplifies data maintenance
 5. Facilitates future database extensions
 
-<br>
-
+  
 ## Decomposition
-
-<br>
 
 Decomposition is the process of breaking down a table into smaller tables to achieve normalization. There are two important properties of decomposition:
 
-> [!info]- Lossless Decomposition: 
-> Ensures that no information is lost when a relation is decomposed into smaller relations. The original relation can be reconstructed by joining the decomposed relations.
+  
+1. **Lossless Decomposition**: Ensures that no information is lost when a relation is decomposed into smaller relations. The original relation can be reconstructed by joining the decomposed relations.
 
-> [!info]- Dependency Preservation: 
-> Ensures that all functional dependencies in the original relation are maintained in the decomposed relations.
+  
+2. **Dependency Preservation**: Ensures that all functional dependencies in the original relation are maintained in the decomposed relations.
 
-<br>
-
+  
 ## Closure of Functional Dependencies
+
   
 - The closure of a set of functional dependencies (F+) is the set of all functional dependencies that can be logically derived from the given set F. It's used to determine all possible functional dependencies in a relation.
 
-<br>
+  
 
 ## Normalization Process
+
 
 1. Identify all functional dependencies in the relation
 2. Determine the highest normal form the relation satisfies
@@ -270,6 +227,3 @@ Decomposition is the process of breaking down a table into smaller tables to ach
   
 >[!warning] While normalization is important for data integrity and reducing redundancy, it's sometimes necessary to denormalize for performance reasons in certain scenarios.
 
----
-
-Up Next : [[Advanced SQL]]
