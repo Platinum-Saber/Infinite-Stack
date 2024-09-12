@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Full Stack Development/Backend Development/Backend Development.md",
-                "mode": "source",
+                "file": "Full Stack Development/Backend Development/Setting Up Nodemon.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Full Stack Development/Backend Development/Backend Development.md"
+                "file": "Full Stack Development/Backend Development/Setting Up Nodemon.md"
               }
             }
           },
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Full Stack Development/Backend Development/Backend Development.md",
+                "file": "Full Stack Development/Backend Development/Setting Up Nodemon.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,9 +172,11 @@
   "active": "6e8b743e2d29d633",
   "lastOpenFiles": [
     "Full Stack Development/Backend Development/Setting Up .ENV.md",
+    "Full Stack Development/Backend Development/Setting Up Nodemon.md",
     "Full Stack Development/Backend Development/nodejs-sql-resources.md",
-    "Full Stack Development/Backend Development/Nodejs-SQL-Backend-Setup.md",
     "Full Stack Development/Backend Development/Backend Development.md",
+    "Full Stack Development/Backend Development/Nodejs-SQL-Backend-Setup.md",
+    "Full Stack Development/Backend Development/Unconfirmed 626250.crdownload",
     "advanced-sql-study-note.md",
     "SEM-3/CS3043-Database Systems/Relational Database Design.md",
     "Untitled.md",
@@ -215,7 +217,6 @@
     "SEM-3/CS2053-Computer Architecture/Lab & CA",
     "Images/Pasted image 20240905204439.png",
     "Images/Pasted image 20240905204016.png",
-    "SEM-3/CS3613-Introduction to Artificial Intelligence/desktop.ini",
     "Work Space.canvas",
     "Untitled.canvas"
   ]
