@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Full Stack Development/Backend Development/Setting Up .ENV.md",
+                "file": "Full Stack Development/Backend Development/Backend Development.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -105,7 +105,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Full Stack Development/Backend Development/Setting Up .ENV.md"
+                "file": "Full Stack Development/Backend Development/Backend Development.md"
               }
             }
           },
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Full Stack Development/Backend Development/Setting Up .ENV.md",
+                "file": "Full Stack Development/Backend Development/Backend Development.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,8 +169,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "671fcfcc9244e77e",
+  "active": "6e8b743e2d29d633",
   "lastOpenFiles": [
+    "Full Stack Development/Backend Development/Setting Up .ENV.md",
+    "Full Stack Development/Backend Development/nodejs-sql-resources.md",
+    "Full Stack Development/Backend Development/Nodejs-SQL-Backend-Setup.md",
+    "Full Stack Development/Backend Development/Backend Development.md",
+    "advanced-sql-study-note.md",
     "SEM-3/CS3043-Database Systems/Relational Database Design.md",
     "Untitled.md",
     "SEM-3/CS3043-Database Systems/Introduction to SQL.md",
@@ -188,13 +193,8 @@
     "SEM-3/CS3043-Database Systems/Group Project/System Features.md",
     "SEM-3/CS3043-Database Systems/Group Project/External Interface Requirements (banking system).md",
     "SEM-3/CS3043-Database Systems/Database systems.md",
-    "Full Stack Development/Backend Development/Backend Development.md",
     "SEM-3/CS3043-Database Systems/Advanced SQL.md",
-    "advanced-sql-study-note.md",
-    "nodejs-sql-backend-setup.md",
-    "nodejs-sql-resources.md",
     "Images/nodejs-sql-resources 1.md",
-    "Full Stack Development/Backend Development/Setting Up .ENV.md",
     "Full Stack Development",
     "Images/Project Description.pdf",
     "Images/L0-Introduction.pdf",

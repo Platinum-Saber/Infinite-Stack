@@ -7,25 +7,27 @@
 
 ## Step 1: Set up the project
 
-1. Create a new directory for your project and navigate to it:
+#### 1. Create a new directory for your project and navigate to it:
    ```
    mkdir my-nodejs-backend
    cd my-nodejs-backend
    ```
 
-2. Initialize a new Node.js project:
+#### 2. Initialize a new Node.js project:
    ```
    npm init -y
    ```
 
-3. Install necessary dependencies:
+#### 3. Install necessary dependencies:
    ```
    npm install express mysql2 dotenv
    ```
 
-   - express: Web application framework
-   - mysql2: MySQL client for Node.js
-   - dotenv: For managing environment variables
+   - `express`: Web application framework
+   - `mysql2`: MySQL client for Node.js
+   - `dotenv`: For managing environment variables
+
+<br>
 
 ## Step 2: Create the main application file
 
