@@ -1,6 +1,6 @@
 
 
-## Setting up `doten`
+## 1. Setting up `dotenv`
 
 1. First, install the `dotenv` package:
 ```
@@ -56,16 +56,16 @@ const db = mysql.createConnection({
 
 These changes will use environment variables to store sensitive information, making your database connection more secure. Remember to add `.env` to your `.gitignore` file to prevent it from being committed to version control.
 
+<br>
+<br>
 
+## 2. Stop committing Environmental variables
 
-To add `.env` to your `.gitignore` file, follow these steps:
+#### To add `.env` to your `.gitignore` file, follow these steps:
 
 1. Open your project's root directory.
-
 2. Look for a file named `.gitignore`. If it doesn't exist, create one.
-
 3. Open the `.gitignore` file in a text editor.
-
 4. Add the following line to the file:
 
 ```
