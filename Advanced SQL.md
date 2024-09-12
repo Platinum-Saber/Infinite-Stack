@@ -83,81 +83,86 @@ Reference Video :
 
 ## 1.2 Prepared Statements
 
-- Used for precompiling SQL statements with placeholders for parameters.
-- Benefits:
-  - Improved performance for repeated executions
-  - Protection against SQL injection attacks
+- Used for **precompiling** SQL statements with **placeholders** for parameters.
 
-```java
-PreparedStatement preparedStatement = connection.prepareStatement(
-    "INSERT INTO instructor VALUES(?,?,?,?)"
-);
-preparedStatement.setString(1, "88877");
-preparedStatement.setString(2, "Perry");
-preparedStatement.setString(3, "Finance");
-preparedStatement.setInt(4, 125000);
-preparedStatement.executeUpdate();
-```
+> [!tip]- Benefits:
+>   - Improved performance for repeated executions
+>   - Protection against SQL injection attacks
+
+> [!code]- Example code
+> ```java
+> PreparedStatement preparedStatement = connection.prepareStatement(
+>     "INSERT INTO instructor VALUES(?,?,?,?)"
+> );
+> preparedStatement.setString(1, "88877");
+> preparedStatement.setString(2, "Perry");
+> preparedStatement.setString(3, "Finance");
+> preparedStatement.setInt(4, 125000);
+> preparedStatement.executeUpdate();
+> ```
+> 
 
 ## 1.3 ODBC (Open Database Connectivity)
 
 - Standard API for communicating with database servers.
-- Works with C, C++, C#, and Visual Basic.
-- Requires a driver library for each database system.
+- Works with `C`, `C++`, `C#`, and `Visual Basic`.
+- Requires a **driver library** for each database system.
 
 ## 1.4 Embedded SQL
 
 - Allows SQL queries to be embedded directly in host programming languages.
-- Requires preprocessing before compilation.
-- Example (SQLJ - embedded SQL in Java):
+- Requires **preprocessing before compilation**.
 
-```java
-#sql iterator deptInfoIter (String dept_name, int avgSal);
-deptInfoIter iter = null;
-#sql iter = { select dept_name, avg(salary) from instructor group by dept_name };
-while (iter.next()) {
-    String deptName = iter.dept_name();
-    int avgSal = iter.avgSal();
-    System.out.println(deptName + " " + avgSal);
-}
-iter.close();
-```
+> [!code]- Example (`SQLJ - embedded SQL in Java`):
+> 
+> ```java
+> #sql iterator deptInfoIter (String dept_name, int avgSal);
+> deptInfoIter iter = null;
+> #sql iter = { select dept_name, avg(salary) from instructor group by dept_name };
+> while (iter.next()) {
+>     String deptName = iter.dept_name();
+>     int avgSal = iter.avgSal();
+>     System.out.println(deptName + " " + avgSal);
+> }
+> iter.close();
+> ```
 
 # 2. Procedural Extensions in SQL
 
 ## 2.1 SQL Functions
 
-- Can be written in SQL or external programming languages.
+- Can be written in `SQL` or external programming languages.
 - Useful for specialized data types (e.g., images, geometric objects).
-- Some databases support table-valued functions.
+- Some databases support **table-valued functions**.
 
-Example:
-```sql
-CREATE FUNCTION dept_count (dept_name VARCHAR(20))
-RETURNS INTEGER
-BEGIN
-    DECLARE d_count INTEGER;
-    SELECT COUNT(*) INTO d_count
-    FROM instructor
-    WHERE instructor.dept_name = dept_name;
-    RETURN d_count;
-END;
-```
+> [!code]- Example code:
+> ```sql
+> CREATE FUNCTION dept_count (dept_name VARCHAR(20))
+> RETURNS INTEGER
+> BEGIN
+>     DECLARE d_count INTEGER;
+>     SELECT COUNT(*) INTO d_count
+>     FROM instructor
+>     WHERE instructor.dept_name = dept_name;
+>     RETURN d_count;
+> END;
+> ```
 
 ## 2.2 SQL Procedures
 
-- Similar to functions but can have output parameters.
-- Invoked using the CALL statement.
+- Similar to functions but *can have* **output parameters**.
+- Invoked using the `CALL` statement.
 
-Example:
-```sql
-CREATE PROCEDURE dept_count_proc (IN dept_name VARCHAR(20), OUT d_count INTEGER)
-BEGIN
-    SELECT COUNT(*) INTO d_count
-    FROM instructor
-    WHERE instructor.dept_name = dept_count_proc.dept_name;
-END;
-```
+> [!code]- Example code
+> ```sql
+> CREATE PROCEDURE dept_count_proc (IN dept_name VARCHAR(20), OUT d_count INTEGER)
+> BEGIN
+>     SELECT COUNT(*) INTO d_count
+>     FROM instructor
+>     WHERE instructor.dept_name = dept_count_proc.dept_name;
+> END;
+> ```
+> 
 
 ## 2.3 Control Structures
 
@@ -167,29 +172,29 @@ END;
 
 # 3. Triggers
 
-- Automatically executed statements in response to specified database events.
-- Events can be INSERT, DELETE, or UPDATE operations.
-- Can be executed BEFORE or AFTER the triggering event.
+- **Automatically** executed statements in *response* to specified database events.
+- Events can be `INSERT`, `DELETE`, or `UPDATE` operations.
+- Can be executed `BEFORE` or `AFTER` the triggering event.
 - Types: row-level triggers and statement-level triggers.
 
-Example:
-```sql
-CREATE TRIGGER update_credit_score
-AFTER UPDATE OF balance ON account
-FOR EACH ROW
-WHEN (NEW.balance < 0)
-BEGIN
-    UPDATE customer
-    SET credit_score = credit_score - 20
-    WHERE customer.cust_id = NEW.cust_id;
-END;
-```
+> [!code]- Example:
+> ```sql
+> CREATE TRIGGER update_credit_score
+> AFTER UPDATE OF balance ON account
+> FOR EACH ROW
+> WHEN (NEW.balance < 0)
+> BEGIN
+>     UPDATE customer
+>     SET credit_score = credit_score - 20
+>     WHERE customer.cust_id = NEW.cust_id;
+> END;
+> ```
 
 # 4. Advanced Aggregation Features
 
 ## 4.1 Ranking
 
-- Used in conjunction with ORDER BY.
+- Used in conjunction with `ORDER BY`.
 - Functions: RANK(), DENSE_RANK()
 
 Example:
