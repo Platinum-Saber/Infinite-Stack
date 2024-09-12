@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Full Stack Development/Backend Development/Setting Up Nodemon.md",
-                "mode": "preview",
+                "file": "Full Stack Development/Backend Development/Setting Up Password Hashing for Signups.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Full Stack Development/Backend Development/Setting Up Nodemon.md"
+                "file": "Full Stack Development/Backend Development/Setting Up Password Hashing for Signups.md"
               }
             }
           },
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Full Stack Development/Backend Development/Setting Up Nodemon.md",
+                "file": "Full Stack Development/Backend Development/Setting Up Password Hashing for Signups.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,11 +171,13 @@
   },
   "active": "6e8b743e2d29d633",
   "lastOpenFiles": [
-    "Full Stack Development/Backend Development/Setting Up .ENV.md",
-    "Full Stack Development/Backend Development/Setting Up Nodemon.md",
-    "Full Stack Development/Backend Development/nodejs-sql-resources.md",
     "Full Stack Development/Backend Development/Backend Development.md",
     "Full Stack Development/Backend Development/Nodejs-SQL-Backend-Setup.md",
+    "Full Stack Development/Backend Development/nodejs-sql-resources.md",
+    "Full Stack Development/Backend Development/Setting Up .ENV.md",
+    "Full Stack Development/Backend Development/Setting Up Nodemon.md",
+    "Full Stack Development/Backend Development/Setting Up Password Hashing for Signups.md",
+    "Full Stack Development/Backend Development/Unconfirmed 935146.crdownload",
     "Full Stack Development/Backend Development/Unconfirmed 626250.crdownload",
     "advanced-sql-study-note.md",
     "SEM-3/CS3043-Database Systems/Relational Database Design.md",
@@ -207,14 +209,12 @@
     "Images/Database Systems - Group Project - Group 6 - Page 1 2.png",
     "SEM-3/CS2043-Operating Systems/Labs/Lab 02.md",
     "SEM-3 INDEX.md",
-    "SEM-3/MA3014-Applied Statistics/Applied Statistics.md",
     "Images/Pasted image 20240909160539.png",
     "Images/Pasted image 20240909113247.png",
     "Images/Pasted image 20240909112910.png",
     "Images/Pasted image 20240906164808.png",
     "Images/Pasted image 20240906155727.png",
     "Images/Pasted image 20240906105711.png",
-    "SEM-3/CS2053-Computer Architecture/Lab & CA",
     "Images/Pasted image 20240905204439.png",
     "Images/Pasted image 20240905204016.png",
     "Work Space.canvas",
