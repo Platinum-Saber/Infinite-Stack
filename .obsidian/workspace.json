@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM-3/CS3043-Database Systems/Relational Database Design.md",
+                "file": "Advanced SQL.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "nodejs-sql-resources.md",
+                "file": "advanced-sql-study-note.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -59,8 +59,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -145,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "nodejs-sql-resources.md"
+                "file": "Advanced SQL.md"
               }
             }
           },
@@ -155,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "nodejs-sql-resources.md",
+                "file": "Advanced SQL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -209,16 +208,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "671fcfcc9244e77e",
+  "active": "ec00691992e2a126",
   "lastOpenFiles": [
-    "Images/nodejs-sql-backend-setup.md",
+    "SEM-3/CS3043-Database Systems/Relational Database Design.md",
+    "advanced-sql-study-note.md",
+    "nodejs-sql-backend-setup.md",
+    "Advanced SQL.md",
+    "Full Stack Development/Backend Development.md",
     "nodejs-sql-resources.md",
     "Images/nodejs-sql-resources 1.md",
-    "Full Stack Development/Backend Development.md",
-    "Images/advanced-sql-study-note.md",
     "Setting Up .ENV.md",
     "Untitled.md",
-    "Advanced SQL.md",
     "Full Stack Development",
     "Images/Project Description.pdf",
     "Images/L0-Introduction.pdf",
@@ -227,7 +227,6 @@
     "Images/03 Searching.pdf",
     "Images/04 Local_Search.pdf",
     "Images/Database Systems - Group Project - Group 6 - Page 1 2.png",
-    "SEM-3/CS3043-Database Systems/Relational Database Design.md",
     "SEM-3/CS3043-Database Systems/Database Systems Introduction.md",
     "SEM-3/CS3043-Database Systems/Database Design Using the E-R Model.md",
     "SEM-3/CS3043-Database Systems/Intermediate SQL.md",
