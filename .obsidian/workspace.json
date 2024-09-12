@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM-3/CS3043-Database Systems/Group Project/DB Project.md",
+                "file": "Full Stack Development/Backend Development/Setting Up .ENV.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -105,7 +105,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM-3/CS3043-Database Systems/Group Project/DB Project.md"
+                "file": "Full Stack Development/Backend Development/Setting Up .ENV.md"
               }
             }
           },
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM-3/CS3043-Database Systems/Group Project/DB Project.md",
+                "file": "Full Stack Development/Backend Development/Setting Up .ENV.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,6 +171,13 @@
   },
   "active": "671fcfcc9244e77e",
   "lastOpenFiles": [
+    "SEM-3/CS3043-Database Systems/Relational Database Design.md",
+    "Untitled.md",
+    "SEM-3/CS3043-Database Systems/Introduction to SQL.md",
+    "SEM-3/CS3043-Database Systems/Intermediate SQL.md",
+    "SEM-3/CS3043-Database Systems/Database Design Using the E-R Model.md",
+    "SEM-3/CS3043-Database Systems/Database Systems Introduction.md",
+    "SEM-3/CS3043-Database Systems/Group Project/DB Project.md",
     "Full Stack Development/Frontend Development",
     "Full Stack Development/Backend Development",
     "SEM-3/CS3043-Database Systems/Group Project/SRS Document.md",
@@ -180,17 +187,14 @@
     "SEM-3/CS3043-Database Systems/Group Project/Other Nonfunctional Requirements.md",
     "SEM-3/CS3043-Database Systems/Group Project/System Features.md",
     "SEM-3/CS3043-Database Systems/Group Project/External Interface Requirements (banking system).md",
-    "SEM-3/CS3043-Database Systems/Group Project/DB Project.md",
     "SEM-3/CS3043-Database Systems/Database systems.md",
     "Full Stack Development/Backend Development/Backend Development.md",
-    "SEM-3/CS3043-Database Systems/Relational Database Design.md",
     "SEM-3/CS3043-Database Systems/Advanced SQL.md",
     "advanced-sql-study-note.md",
     "nodejs-sql-backend-setup.md",
     "nodejs-sql-resources.md",
     "Images/nodejs-sql-resources 1.md",
-    "Setting Up .ENV.md",
-    "Untitled.md",
+    "Full Stack Development/Backend Development/Setting Up .ENV.md",
     "Full Stack Development",
     "Images/Project Description.pdf",
     "Images/L0-Introduction.pdf",
@@ -199,10 +203,6 @@
     "Images/03 Searching.pdf",
     "Images/04 Local_Search.pdf",
     "Images/Database Systems - Group Project - Group 6 - Page 1 2.png",
-    "SEM-3/CS3043-Database Systems/Database Systems Introduction.md",
-    "SEM-3/CS3043-Database Systems/Database Design Using the E-R Model.md",
-    "SEM-3/CS3043-Database Systems/Intermediate SQL.md",
-    "SEM-3/CS3043-Database Systems/Introduction to SQL.md",
     "SEM-3/CS2043-Operating Systems/Labs/Lab 02.md",
     "SEM-3 INDEX.md",
     "SEM-3/MA3014-Applied Statistics/Applied Statistics.md",
@@ -216,7 +216,6 @@
     "Images/Pasted image 20240905204439.png",
     "Images/Pasted image 20240905204016.png",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/desktop.ini",
-    "Excalidraw/Icon Library/aws-architecture-icons.excalidrawlib",
     "Work Space.canvas",
     "Untitled.canvas"
   ]
