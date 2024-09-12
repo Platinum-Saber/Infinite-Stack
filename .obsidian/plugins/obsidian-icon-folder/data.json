@@ -304,5 +304,9 @@
   "Full Stack Development": {
     "iconName": "RiAndroidLine",
     "iconColor": "#56f569"
+  },
+  "SEM-3/CS3043-Database Systems/Advanced SQL.md": {
+    "iconName": "LiFile",
+    "iconColor": "#46fb52"
   }
 }

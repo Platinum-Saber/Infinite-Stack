@@ -8,51 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ec00691992e2a126",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Advanced SQL.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "6e8b743e2d29d633",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Full Stack Development/Backend Development.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b702e152c14884e9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "advanced-sql-study-note.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "930c23194f879b93",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Full Stack Development/Backend Development.md",
+                "file": "SEM-3/CS3043-Database Systems/Group Project/DB Project.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -144,7 +105,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Advanced SQL.md"
+                "file": "SEM-3/CS3043-Database Systems/Group Project/DB Project.md"
               }
             }
           },
@@ -154,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Advanced SQL.md",
+                "file": "SEM-3/CS3043-Database Systems/Group Project/DB Project.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -208,13 +169,24 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ec00691992e2a126",
+  "active": "671fcfcc9244e77e",
   "lastOpenFiles": [
+    "Full Stack Development/Frontend Development",
+    "Full Stack Development/Backend Development",
+    "SEM-3/CS3043-Database Systems/Group Project/SRS Document.md",
+    "SEM-3/CS3043-Database Systems/Group Project/External Interface Requirements.md",
+    "SEM-3/CS3043-Database Systems/Group Project/Introduction.md",
+    "SEM-3/CS3043-Database Systems/Group Project/Other Requirements.md",
+    "SEM-3/CS3043-Database Systems/Group Project/Other Nonfunctional Requirements.md",
+    "SEM-3/CS3043-Database Systems/Group Project/System Features.md",
+    "SEM-3/CS3043-Database Systems/Group Project/External Interface Requirements (banking system).md",
+    "SEM-3/CS3043-Database Systems/Group Project/DB Project.md",
+    "SEM-3/CS3043-Database Systems/Database systems.md",
+    "Full Stack Development/Backend Development/Backend Development.md",
     "SEM-3/CS3043-Database Systems/Relational Database Design.md",
+    "SEM-3/CS3043-Database Systems/Advanced SQL.md",
     "advanced-sql-study-note.md",
     "nodejs-sql-backend-setup.md",
-    "Advanced SQL.md",
-    "Full Stack Development/Backend Development.md",
     "nodejs-sql-resources.md",
     "Images/nodejs-sql-resources 1.md",
     "Setting Up .ENV.md",
@@ -234,16 +206,6 @@
     "SEM-3/CS2043-Operating Systems/Labs/Lab 02.md",
     "SEM-3 INDEX.md",
     "SEM-3/MA3014-Applied Statistics/Applied Statistics.md",
-    "SEM-3/MA2014-Differential Equations/Partial Differential Equations.md",
-    "SEM-3/MA2014-Differential Equations/Differential Equations.md",
-    "SEM-3/MA2014-Differential Equations/Fourier Series.md",
-    "SEM-3/MA2014-Differential Equations/Laplace Transformations.md",
-    "Study Tracker.md",
-    "SEM-3/CS2043-Operating Systems/Labs/Pintos Questions.md",
-    "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Properties Of Pure Substances.md",
-    "SEM-3/CS2033-Data Communication and Networking/Encoding & Modulation.md",
-    "SEM-3/CS2033-Data Communication and Networking/Transmission Media.md",
-    "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/3. The Second Law of Thermodynamics.md",
     "Images/Pasted image 20240909160539.png",
     "Images/Pasted image 20240909113247.png",
     "Images/Pasted image 20240909112910.png",
@@ -255,7 +217,6 @@
     "Images/Pasted image 20240905204016.png",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/desktop.ini",
     "Excalidraw/Icon Library/aws-architecture-icons.excalidrawlib",
-    "Excalidraw/Icon Library/Unconfirmed 645735.crdownload",
     "Work Space.canvas",
     "Untitled.canvas"
   ]

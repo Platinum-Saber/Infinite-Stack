@@ -5,3 +5,4 @@
 4. [[Relational Database Design]]
 5. [[Intermediate SQL]]
 6. 
+7. [[Advanced SQL]]

@@ -20,20 +20,25 @@ Reference Video :
 - [[#1.2 Prepared Statements]]
 - [[#1.3 ODBC (Open Database Connectivity)]]
 - [[#1.4 Embedded SQL]]
+
 [[#2. Procedural Extensions in SQL]]
 - [[#2.1 SQL Functions]]
 - [[#2.2 SQL Procedures]]
 - [[#2.3 Control Structures]]
 - [[#3. Triggers]]
+
 [[#4. Advanced Aggregation Features]]
 - [[#4.1 Ranking]]
 - [[#4.2 Windowing]]
 - [[#4.3 CUBE and ROLLUP]]
+
 [[#5. Authorization]]
 - [[#5.1 Roles]]
+
 [[#6. OLAP (Online Analytical Processing)]]
 - [[#6.1 Data Cubes]]
 - [[#6.2 OLAP Implementation Types]]
+
 [[#7. Best Practices and Considerations]]
 
 ---
@@ -77,6 +82,8 @@ Reference Video :
 > ```
 > 
 
+<br>
+
 ## 1.2 Prepared Statements
 
 - Used for **precompiling** SQL statements with **placeholders** for parameters.
@@ -98,11 +105,15 @@ Reference Video :
 > ```
 > 
 
+<br>
+
 ## 1.3 ODBC (Open Database Connectivity)
 
 - Standard API for communicating with database servers.
 - Works with `C`, `C++`, `C#`, and `Visual Basic`.
 - Requires a **driver library** for each database system.
+
+<br>
 
 ## 1.4 Embedded SQL
 
@@ -122,6 +133,9 @@ Reference Video :
 > }
 > iter.close();
 > ```
+
+<br>
+<br>
 
 # 2. Procedural Extensions in SQL
 
@@ -144,6 +158,8 @@ Reference Video :
 > END;
 > ```
 
+<br>
+
 ## 2.2 SQL Procedures
 
 - Similar to functions but *can have* **output parameters**.
@@ -160,11 +176,16 @@ Reference Video :
 > ```
 > 
 
+<br>
+
 ## 2.3 Control Structures
 
 - Compound statements: BEGIN ... END
 - Loops: WHILE, REPEAT, FOR
 - Conditional statements: IF-THEN-ELSE
+
+<br>
+<br>
 
 # 3. Triggers
 
@@ -186,6 +207,9 @@ Reference Video :
 > END;
 > ```
 
+<br>
+<br>
+
 # 4. Advanced Aggregation Features
 
 ## 4.1 Ranking
@@ -201,6 +225,8 @@ Reference Video :
 > ```
 > 
 
+<br>
+
 ## 4.2 Windowing
 
 - Performs calculations across a set of rows related to the current row.
@@ -215,6 +241,7 @@ Reference Video :
 > FROM sales;
 > ```
 
+<br>
 
 ## 4.3 CUBE and ROLLUP
 
@@ -228,6 +255,8 @@ Reference Video :
 > GROUP BY CUBE(item_name, color, size);
 > ```
 
+<br>
+<br>
 
 # 5. Authorization
 
@@ -242,6 +271,8 @@ Reference Video :
 > ```
 > 
 
+<br>
+
 ## 5.1 Roles
 
 - Named sets of privileges that can be assigned to users.
@@ -254,6 +285,8 @@ Reference Video :
 > GRANT manager TO user1, user2;
 > ```
 
+<br>
+<br>
 
 # 6. OLAP (Online Analytical Processing)
 
@@ -261,16 +294,23 @@ Reference Video :
 - Key concepts: dimensions, measures, hierarchies.
 - Operations: drill-down, roll-up, slice, dice, pivot.
 
+<br>
+
 ## 6.1 Data Cubes
 
 - Multidimensional representation of data.
 - Allows quick computation of aggregated data along various dimensions.
+
+<br>
 
 ## 6.2 OLAP Implementation Types
 
 - MOLAP (Multidimensional OLAP): Uses in-memory multidimensional arrays.
 - ROLAP (Relational OLAP): Uses only relational database features.
 - HOLAP (Hybrid OLAP): Combines MOLAP and ROLAP approaches.
+
+<br>
+<br>
 
 # 7. Best Practices and Considerations
 
