@@ -26,14 +26,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Images/nodejs-sql-resources.md",
+                "file": "Images/advanced-sql-study-note.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "930c23194f879b93",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Full Stack Development/Backend Development.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -118,7 +132,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM-3/CS3043-Database Systems/Relational Database Design.md"
+                "file": "Images/advanced-sql-study-note.md"
               }
             }
           },
@@ -128,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM-3/CS3043-Database Systems/Relational Database Design.md",
+                "file": "Images/advanced-sql-study-note.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -181,10 +195,22 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "ec00691992e2a126",
+  "active": "6e8b743e2d29d633",
   "lastOpenFiles": [
+    "Full Stack Development/Backend Development.md",
+    "Images/advanced-sql-study-note.md",
+    "Images/advanced-sql-study-note.md",
+    "Images/nodejs-sql-resources 1.md",
     "Images/nodejs-sql-resources.md",
+    "Full Stack Development",
     "Advanced SQL.md",
+    "Images/Project Description.pdf",
+    "Images/L0-Introduction.pdf",
+    "Images/Fourier note.pdf",
+    "Images/Database Systems - Group Project - Group 6 - Page 1 1.png",
+    "Images/03 Searching.pdf",
+    "Images/04 Local_Search.pdf",
+    "Images/Database Systems - Group Project - Group 6 - Page 1 2.png",
     "SEM-3/CS3043-Database Systems/Relational Database Design.md",
     "Untitled.md",
     "SEM-3/CS3043-Database Systems/Database Systems Introduction.md",
@@ -205,10 +231,6 @@
     "SEM-3/CS2033-Data Communication and Networking/Transmission Media.md",
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/3. The Second Law of Thermodynamics.md",
     "Excalidraw/Networking.md",
-    "Excalidraw/CA memory.md",
-    "Excalidraw/Drawing 2024-09-02 13.33.00.excalidraw.md",
-    "Excalidraw/Drawing 2024-09-03 19.07.57.excalidraw.md",
-    "Excalidraw/Memory Hierarchy.md",
     "Images/Pasted image 20240909160539.png",
     "Images/Pasted image 20240909113247.png",
     "Images/Pasted image 20240909112910.png",
@@ -218,17 +240,9 @@
     "SEM-3/CS2053-Computer Architecture/Lab & CA",
     "Images/Pasted image 20240905204439.png",
     "Images/Pasted image 20240905204016.png",
-    "Images/Pasted image 20240905202501.png",
-    "Images/Pasted image 20240905202353.png",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/desktop.ini",
     "Excalidraw/Icon Library/aws-architecture-icons.excalidrawlib",
     "Excalidraw/Icon Library/Unconfirmed 645735.crdownload",
-    "Excalidraw/Icon Library/awesome-icons.excalidrawlib",
-    "Excalidraw/Icon Library/Unconfirmed 442861.crdownload",
-    "Excalidraw/Icon Library/UML-ER-library.excalidrawlib",
-    "Excalidraw/Icon Library/Unconfirmed 681574.crdownload",
-    "Excalidraw/Icon Library/architecture-diagram-components.excalidrawlib",
-    "Excalidraw/Icon Library/Unconfirmed 730553.crdownload",
     "Work Space.canvas",
     "Untitled.canvas"
   ]

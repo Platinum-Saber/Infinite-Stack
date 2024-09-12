@@ -7,7 +7,9 @@ Reviewed: true
 Created: 2024-09-12T09:17:00
 About: Resource list generated using Claude 3.5 Sonnet
 ---
-Related : #node.js
+Related : #nodejs
+
+---
 
 # Node.js and SQL Resources
 
