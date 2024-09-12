@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Setting Up .ENV.md",
+                "file": "Images/advanced-sql-study-note.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Setting Up .ENV.md"
+                "file": "Images/advanced-sql-study-note.md"
               }
             }
           },
@@ -155,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Setting Up .ENV.md",
+                "file": "Images/advanced-sql-study-note.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -213,9 +213,9 @@
   "lastOpenFiles": [
     "Full Stack Development/Backend Development.md",
     "Setting Up .ENV.md",
-    "Images/advanced-sql-study-note.md",
-    "Advanced SQL.md",
     "Untitled.md",
+    "Advanced SQL.md",
+    "Images/advanced-sql-study-note.md",
     "Images/nodejs-sql-resources 1.md",
     "Images/nodejs-sql-resources.md",
     "Full Stack Development",
