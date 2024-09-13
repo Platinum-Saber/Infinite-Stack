@@ -34,26 +34,6 @@
    ```
 
 
-
-
-
-
-
-
-
-
-
-#### 9. Implement error handling and loading states:
-   Add proper error handling for API requests and show loading indicators when fetching data.
-
-#### 10. Style your components:
-    Use CSS, CSS-in-JS solutions, or a UI library like Material-UI or Ant Design to style your components.
-
-Would you like me to provide a more detailed example of any of these steps? For instance, I could show you how to create a basic component that fetches and displays data from your backend.
-
-
-Certainly, I'd be happy to elaborate on steps 4 to 8 with code examples and recommended packages. Let's go through each step in more detail:
-
 #### 4. Create React components:
    Design and implement your UI components based on the data and functionality your backend provides.
    **Example** :
@@ -318,7 +298,13 @@ const Login = () => {
 export default Login;
 ```
 
-These examples should give you a good starting point for building your React frontend. Remember to adjust the code according to your specific needs and backend API structure. 
+
+#### 9. Implement error handling and loading states:
+   Add proper error handling for API requests and show loading indicators when fetching data.
+
+#### 10. Style your components:
+Use CSS, CSS-in-JS solutions, or a UI library like Material-UI or Ant Design to style your components.
+
 
 For additional functionality and improved development experience, consider using these popular packages:
 

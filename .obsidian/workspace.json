@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Full Stack Development/Frontend Development/Setting Up React Framework.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -171,11 +171,12 @@
   },
   "active": "6e8b743e2d29d633",
   "lastOpenFiles": [
-    "Full Stack Development/Backend Development/Setting Up Password Hashing for Signups.md",
-    "Full Stack Development/Frontend Development/Setting Up React Framework.md",
+    "Full Stack Development/Frontend Development/Using CSS in React.md",
     "Full Stack Development/Backend Development/Backend Development.md",
     "Full Stack Development/Backend Development/Nodejs-SQL-Backend-Setup.md",
     "Full Stack Development/Backend Development/nodejs-sql-resources.md",
+    "Full Stack Development/Frontend Development/Setting Up React Framework.md",
+    "Full Stack Development/Backend Development/Setting Up Password Hashing for Signups.md",
     "Full Stack Development/Backend Development/Setting Up .ENV.md",
     "Full Stack Development/Backend Development/Setting Up Nodemon.md",
     "Full Stack Development/Backend Development/Unconfirmed 935146.crdownload",
@@ -208,7 +209,6 @@
     "Images/03 Searching.pdf",
     "Images/04 Local_Search.pdf",
     "Images/Database Systems - Group Project - Group 6 - Page 1 2.png",
-    "SEM-3/CS2043-Operating Systems/Labs/Lab 02.md",
     "Images/Pasted image 20240909160539.png",
     "Images/Pasted image 20240909113247.png",
     "Images/Pasted image 20240909112910.png",
