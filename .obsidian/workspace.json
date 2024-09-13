@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Full Stack Development/Frontend Development/Setting Up React Framework.md",
+                "file": "SEM-3/CS3043-Database Systems/Intermediate SQL.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -105,7 +105,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Full Stack Development/Frontend Development/Setting Up React Framework.md"
+                "file": "SEM-3/CS3043-Database Systems/Intermediate SQL.md"
               }
             }
           },
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Full Stack Development/Frontend Development/Setting Up React Framework.md",
+                "file": "SEM-3/CS3043-Database Systems/Intermediate SQL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,11 +171,11 @@
   },
   "active": "6e8b743e2d29d633",
   "lastOpenFiles": [
+    "Full Stack Development/Frontend Development/Setting Up React Framework.md",
     "Full Stack Development/Frontend Development/Using CSS in React.md",
     "Full Stack Development/Backend Development/Backend Development.md",
     "Full Stack Development/Backend Development/Nodejs-SQL-Backend-Setup.md",
     "Full Stack Development/Backend Development/nodejs-sql-resources.md",
-    "Full Stack Development/Frontend Development/Setting Up React Framework.md",
     "Full Stack Development/Backend Development/Setting Up Password Hashing for Signups.md",
     "Full Stack Development/Backend Development/Setting Up .ENV.md",
     "Full Stack Development/Backend Development/Setting Up Nodemon.md",
