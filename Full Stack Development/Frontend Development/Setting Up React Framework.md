@@ -1,6 +1,9 @@
-3Creating a React frontend for your Node.js backend with an SQL database is a great choice. Here's a step-by-step approach to get you started:
 
-1. Set up a new React project:
+#### Creating a React frontend for your Node.js backend with an SQL database is a great choice. 
+
+## step-by-step approach to get you started:
+
+#### 1. Set up a new React project:
    Use Create React App (CRA) or Vite to bootstrap your React project. For example, with CRA:
 
    ```
@@ -8,7 +11,7 @@
    cd my-frontend
    ```
 
-2. Install necessary dependencies:
+#### 2. Install necessary dependencies:
    You'll need a few additional packages to communicate with your backend:
 
    ```
