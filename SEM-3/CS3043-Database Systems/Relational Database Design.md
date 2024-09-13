@@ -40,8 +40,10 @@ Reference Video : [Lecture 4 - Part 1](file:///E:%5CAcademics%5CSEM%203%5CCS3043
 - Database normalization is a technique used in relational database design to organize data efficiently, reduce data redundancy, and improve data integrity. The process involves breaking down a database into smaller, more manageable tables and establishing relationships between them.
 
 <br>
-  
+
+
 ## Key Concepts
+
 
 
 > [!info]- Functional Dependencies:
@@ -64,8 +66,9 @@ Reference Video : [Lecture 4 - Part 1](file:///E:%5CAcademics%5CSEM%203%5CCS3043
 <br>
 
 ### 1. First Normal Form (1NF):
-   - Each column contains atomic (indivisible) values
-   - No repeating groups of columns
+
+- Each column contains atomic (indivisible) values
+- No repeating groups of columns
 
 > [!table]- Example
 > >[!example]- Before 1NF:
@@ -87,8 +90,8 @@ Reference Video : [Lecture 4 - Part 1](file:///E:%5CAcademics%5CSEM%203%5CCS3043
 <br>
 
 ### 2. Second Normal Form (2NF):
-   - Must be in 1NF
-   - All non-key attributes are fully functionally dependent on the primary key
+- Must be in 1NF
+- All non-key attributes are fully functionally dependent on the primary key
 
 
 > [!table]- Example
@@ -118,8 +121,8 @@ Reference Video : [Lecture 4 - Part 1](file:///E:%5CAcademics%5CSEM%203%5CCS3043
 <br>
 
 ### 3. Third Normal Form (3NF):
-   - Must be in 2NF
-   - No transitive dependencies (non-key attributes depending on other non-key attributes)
+- Must be in 2NF
+- No transitive dependencies (non-key attributes depending on other non-key attributes)
 
 > [!Table]- Example
 > >[!example]- Before 3NF:
@@ -151,8 +154,8 @@ Reference Video : [Lecture 4 - Part 1](file:///E:%5CAcademics%5CSEM%203%5CCS3043
 
 ### 4. Boyce-Codd Normal Form (BCNF):
 
-   - A stricter version of 3NF
-   - For any dependency A → B, A should be a superkey
+- A stricter version of 3NF
+- For any dependency A → B, A should be a superkey
 
 <br>
   
@@ -193,8 +196,8 @@ Reference Video : [Lecture 4 - Part 1](file:///E:%5CAcademics%5CSEM%203%5CCS3043
 <br>
 
 ### 5. Fourth Normal Form (4NF):
-   - Addresses multi-valued dependencies
-   - Must be in BCNF
+- Addresses multi-valued dependencies
+- Must be in BCNF
 
 > [!table]- Example
 >

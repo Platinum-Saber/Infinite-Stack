@@ -313,7 +313,10 @@
     "iconName": "SiNodedotjs",
     "iconColor": "#b7f868"
   },
-  "Full Stack Development/Frontend Development": "SiCreatereactapp",
+  "Full Stack Development/Frontend Development": {
+    "iconName": "SiCreatereactapp",
+    "iconColor": "#70c8ff"
+  },
   "Full Stack Development/Backend Development/Setting Up Password Hashing for Signups.md": {
     "iconName": "FabSquareJs",
     "iconColor": "#fafd63"

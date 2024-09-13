@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Full Stack Development/Backend Development/Backend Development.md",
+                "file": "SEM-3/CS3043-Database Systems/Relational Database Design.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -105,7 +105,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Full Stack Development/Backend Development/Backend Development.md"
+                "file": "SEM-3/CS3043-Database Systems/Relational Database Design.md"
               }
             }
           },
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Full Stack Development/Backend Development/Backend Development.md",
+                "file": "SEM-3/CS3043-Database Systems/Relational Database Design.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,14 +171,17 @@
   },
   "active": "6e8b743e2d29d633",
   "lastOpenFiles": [
-    "Full Stack Development/Backend Development/nodejs-sql-resources.md",
+    "SEM-3/CS3043-Database Systems/Database Systems Introduction.md",
     "SEM-3/CS3043-Database Systems/Advanced SQL.md",
-    "SEM-3/CS3043-Database Systems/Relational Database Design.md",
-    "advanced-sql-study-note.md",
+    "SEM-3/CS3043-Database Systems/Database Design Using the E-R Model.md",
     "SEM-3/CS3043-Database Systems/Intermediate SQL.md",
+    "SEM-3/CS3043-Database Systems/Introduction to SQL.md",
+    "SEM-3/CS3043-Database Systems/Relational Database Design.md",
+    "Full Stack Development/Backend Development/Backend Development.md",
+    "Full Stack Development/Backend Development/nodejs-sql-resources.md",
+    "advanced-sql-study-note.md",
     "Full Stack Development/Frontend Development/Setting Up React Framework.md",
     "Full Stack Development/Frontend Development/Using CSS in React.md",
-    "Full Stack Development/Backend Development/Backend Development.md",
     "Full Stack Development/Backend Development/Nodejs-SQL-Backend-Setup.md",
     "Full Stack Development/Backend Development/Setting Up Password Hashing for Signups.md",
     "Full Stack Development/Backend Development/Setting Up .ENV.md",
@@ -186,9 +189,6 @@
     "Full Stack Development/Backend Development/Unconfirmed 935146.crdownload",
     "Full Stack Development/Backend Development/Unconfirmed 626250.crdownload",
     "Untitled.md",
-    "SEM-3/CS3043-Database Systems/Introduction to SQL.md",
-    "SEM-3/CS3043-Database Systems/Database Design Using the E-R Model.md",
-    "SEM-3/CS3043-Database Systems/Database Systems Introduction.md",
     "SEM-3/CS3043-Database Systems/Group Project/DB Project.md",
     "Full Stack Development/Frontend Development",
     "Full Stack Development/Backend Development",

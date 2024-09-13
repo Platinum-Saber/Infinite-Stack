@@ -80,7 +80,14 @@
         {
           "changes": {
             "icon": "lucide-table-properties",
-            "color": "196, 102, 240"
+            "color": "177, 98, 213"
+          }
+        }
+      ],
+      "example": [
+        {
+          "changes": {
+            "color": "148, 94, 201"
           }
         }
       ]
