@@ -6,16 +6,16 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "SiCreatereactapp",
+      "FabReact",
+      "SiCsswizardry",
+      "FasServer",
+      "SiMysql",
+      "SiNodemon",
+      "FabNode",
+      "FabSquareJs",
       "FasLaptopCode",
-      "SiNodedotjs",
-      "RiAndroidLine",
-      "RiBookOpenFill",
-      "LiFile",
-      "SiReact",
-      "RiSlashCommands2",
-      "SiExcalidraw",
-      "FarLightbulb",
-      "LiFileCode"
+      "SiNodedotjs"
     ],
     "recentlyUsedIconsSize": 10,
     "rules": [],
@@ -313,8 +313,37 @@
     "iconName": "SiNodedotjs",
     "iconColor": "#b7f868"
   },
-  "Full Stack Development/Frontend Development": {
-    "iconName": "SiReact",
-    "iconColor": "#5374f9"
+  "Full Stack Development/Frontend Development": "SiCreatereactapp",
+  "Full Stack Development/Backend Development/Setting Up Password Hashing for Signups.md": {
+    "iconName": "FabSquareJs",
+    "iconColor": "#fafd63"
+  },
+  "Full Stack Development/Backend Development/Setting Up Nodemon.md": {
+    "iconName": "SiNodemon",
+    "iconColor": "#24ff65"
+  },
+  "Full Stack Development/Backend Development/Setting Up .ENV.md": {
+    "iconName": "FabSquareJs",
+    "iconColor": "#f9fb65"
+  },
+  "Full Stack Development/Backend Development/Nodejs-SQL-Backend-Setup.md": {
+    "iconName": "FabNode",
+    "iconColor": "#46fb5b"
+  },
+  "Full Stack Development/Backend Development/nodejs-sql-resources.md": {
+    "iconName": "SiMysql",
+    "iconColor": "#62c8f3"
+  },
+  "Full Stack Development/Backend Development/Backend Development.md": {
+    "iconName": "FasServer",
+    "iconColor": "#42b7ff"
+  },
+  "Full Stack Development/Frontend Development/Using CSS in React.md": {
+    "iconName": "SiCsswizardry",
+    "iconColor": "#e1ff4d"
+  },
+  "Full Stack Development/Frontend Development/Setting Up React Framework.md": {
+    "iconName": "FabReact",
+    "iconColor": "#3768fb"
   }
 }
