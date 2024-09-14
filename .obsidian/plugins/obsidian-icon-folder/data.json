@@ -6,6 +6,7 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "FarNoteSticky",
       "LiFileQuestion",
       "SiObsidian",
       "SiCreatereactapp",
@@ -14,8 +15,7 @@
       "FasServer",
       "SiMysql",
       "SiNodemon",
-      "FabNode",
-      "FabSquareJs"
+      "FabNode"
     ],
     "recentlyUsedIconsSize": 10,
     "rules": [],
@@ -359,5 +359,6 @@
   "SEM-3/CS3043-Database Systems/Test Questions/CS3043 Test Questions 01.md": {
     "iconName": "LiFileQuestion",
     "iconColor": "#6ffbac"
-  }
+  },
+  "SEM-3/CS3043-Database Systems/Study Notes/Relational Algebra.md": "FarNoteSticky"
 }

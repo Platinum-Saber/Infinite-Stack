@@ -8,46 +8,19 @@
         "type": "tabs",
         "children": [
           {
-            "id": "6e8b743e2d29d633",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SEM-3/CS3043-Database Systems/Test Questions/CS3043 Test Questions 01.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "916d04cad57ad332",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SEM-3/CS3043-Database Systems/Test Questions/CS3043 Test Questions 01.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "75a8b95bfa383826",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM-3/CS3043-Database Systems/Study Notes/claude relational-algebra-examples.md",
+                "file": "SEM-3/CS3043-Database Systems/Study Notes/Relational Algebra.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -132,7 +105,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM-3/CS3043-Database Systems/Study Notes/claude relational-algebra-examples.md"
+                "file": "SEM-3/CS3043-Database Systems/Study Notes/Relational Algebra.md"
               }
             }
           },
@@ -142,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM-3/CS3043-Database Systems/Study Notes/claude relational-algebra-examples.md",
+                "file": "SEM-3/CS3043-Database Systems/Study Notes/Relational Algebra.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -191,7 +164,8 @@
   "active": "75a8b95bfa383826",
   "lastOpenFiles": [
     "SEM-3/CS3043-Database Systems/Study Notes/Database Systems Introduction.md",
-    "SEM-3/CS3043-Database Systems/Study Notes/claude relational-algebra-examples.md",
+    "[[Relational.md",
+    "SEM-3/CS3043-Database Systems/Study Notes/Relational Algebra.md",
     "SEM-3/CS3043-Database Systems/Study Notes/Unconfirmed 24472.crdownload",
     "Images/Pasted image 20240914185503.png",
     "Images/Pasted image 20240914184930.png",
@@ -227,7 +201,6 @@
     "SEM-3/CS3043-Database Systems/Group Project/SRS Document.md",
     "SEM-3/CS3043-Database Systems/Group Project/External Interface Requirements.md",
     "SEM-3/CS3043-Database Systems/Group Project/Introduction.md",
-    "SEM-3/CS3043-Database Systems/Group Project/Other Requirements.md",
     "Images/Database Systems - Group Project - Group 6 - Page 1 1.png",
     "Images/Database Systems - Group Project - Group 6 - Page 1 2.png",
     "Images/Pasted image 20240909160539.png",

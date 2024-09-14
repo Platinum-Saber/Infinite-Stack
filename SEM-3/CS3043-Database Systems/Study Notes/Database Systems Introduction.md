@@ -185,6 +185,8 @@ Reference Note : [Lecture 01](file:///E:%5CAcademics%5CSEM%203%5CCS3043-Database
 - Intersection (∩): Returns tuples common to both relations
 - Natural Join (⋈): Combines related tuples from two relations based on common attributes
 
+##### Detailed Notes : [[Relational Algebra]]
+
 <br>
 <br>
 
