@@ -3,10 +3,20 @@ tags:
   - DatabaseSystems
 Reviewed: 
 Created: 2024-09-14T19:41:00
-About: Resource list generated using Claude 3.5 Sonnet
+About: Note generated using Claude 3.5 Sonnet
 ---
+Related : #RelationalAlgebra
 
-
+---
+# Content
+- [[#Relational Algebra]]
+	- [[#Sample Relations]]
+	- [[#1. Selection (`σ`)]]
+	- [[#2. Projection (`π`)]]
+	- [[#3. Union (∪)]]
+	- [[#4. Set Difference (-)]]
+	- [[#5. Cartesian Product (×)]]
+	- [[#6. Natural Join (⋈)]]
 
 # Relational Algebra
 
@@ -76,57 +86,60 @@ Relational algebra provides a set of operations that can be performed on relatio
 > > | David  | 72000  |
 > > | Eve    | 68000  |
 
+<br>
 
-## 3. Union (∪)
+## 3. Union (`∪`)
 
-The union operation combines tuples from two relations, removing duplicates.
+- The union operation combines tuples from two relations, removing duplicates.
+- `Syntax`: R ∪ S
 
-Syntax: R ∪ S
+> [!example]- **Example**: List all departments from both Employee and Project tables.
+> 
+>#### π<sub>Department</sub>(Employee) ∪ π<sub>Department</sub>(Project)
+> 
+> >[!table]- Result:
+> > 
+> > | Department |
+> > |------------|
+> > | IT         |
+> > | HR         |
+> > | Finance    |
 
-Example: List all departments from both Employee and Project tables.
+<br>
 
-π<sub>Department</sub>(Employee) ∪ π<sub>Department</sub>(Project)
+## 4. Set Difference (`-`)
 
-Result:
+- The set difference operation returns tuples that are in one relation but not in another.
+- `Syntax`: R - S
 
-| Department |
-|------------|
-| IT         |
-| HR         |
-| Finance    |
+> [!example]- **Example**: Find departments that have employees but no projects.
+> 
+> #### π<sub>Department</sub>(Employee) - π<sub>Department</sub>(Project)
+> 
+> **Result**: (Empty set, as all departments with employees also have projects)
 
-## 4. Set Difference (-)
+<br>
 
-The set difference operation returns tuples that are in one relation but not in another.
+## 5. Cartesian Product (`×`)
 
-Syntax: R - S
+- The Cartesian product combines each tuple from one relation with every tuple from another relation.
+- `Syntax`: R × S
 
-Example: Find departments that have employees but no projects.
+> [!example]- **Example**: Combine all employees with all projects (note: this can produce a large result set).
+> 
+> #### Employee × Project
+> 
+> >[!table]- Partial Result (first few rows):
+> > 
+> > | EmpID | Name   | Department | Salary | ProjID | ProjectName | ProjDepartment |
+> > |-------|--------|------------|--------|--------|-------------|----------------|
+> > | 1     | Alice  | IT         | 75000  | 101    | Website     | IT             |
+> > | 1     | Alice  | IT         | 75000  | 102    | Recruiting  | HR             |
+> > | 1     | Alice  | IT         | 75000  | 103    | Budgeting   | Finance        |
+> > | 1     | Alice  | IT         | 75000  | 104    | App Dev     | IT             |
+> > | 2     | Bob    | HR         | 65000  | 101    | Website     | IT             |
+> > | ...   | ...    | ...        | ...    | ...    | ...         | ...            |
 
-π<sub>Department</sub>(Employee) - π<sub>Department</sub>(Project)
-
-Result: (Empty set, as all departments with employees also have projects)
-
-## 5. Cartesian Product (×)
-
-The Cartesian product combines each tuple from one relation with every tuple from another relation.
-
-Syntax: R × S
-
-Example: Combine all employees with all projects (note: this can produce a large result set).
-
-Employee × Project
-
-Partial Result (first few rows):
-
-| EmpID | Name   | Department | Salary | ProjID | ProjectName | ProjDepartment |
-|-------|--------|------------|--------|--------|-------------|----------------|
-| 1     | Alice  | IT         | 75000  | 101    | Website     | IT             |
-| 1     | Alice  | IT         | 75000  | 102    | Recruiting  | HR             |
-| 1     | Alice  | IT         | 75000  | 103    | Budgeting   | Finance        |
-| 1     | Alice  | IT         | 75000  | 104    | App Dev     | IT             |
-| 2     | Bob    | HR         | 65000  | 101    | Website     | IT             |
-| ...   | ...    | ...        | ...    | ...    | ...         | ...            |
 
 ## 6. Natural Join (⋈)
 
