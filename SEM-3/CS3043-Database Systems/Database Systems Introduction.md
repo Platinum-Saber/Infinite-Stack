@@ -7,16 +7,37 @@ Created: 2024-08-07T16:00:00
 About: Based on CS3043-Lecture 01 Introduction to Database Systems
 ---
 Related : #DatabaseSystems #DB #DB/01
+Reference Note : [Lecture 01](file:///E:%5CAcademics%5CSEM%203%5CCS3043-Database%20Systems%5CLecture%20slide%5CL01.pdf)
 
 ---
 # Content
 
-1. [[]]
-
-
-
-
-
+- [[#1. Introduction to Database Management Systems]]
+- [[#2. Database Architecture and Abstraction Levels]]
+	- [[#Instances and Schemas]]
+	- [[#Data Independence]]
+- [[#3. Data Models]]
+	- [[#The Relational Model]]
+- [[#4. Database Languages]]
+	- [[#Data Definition Language (DDL)]]
+	- [[#Data Manipulation Language (DML)]]
+- [[#5. Database Design]]
+	- [[#Logical Design]]
+	- [[#Physical Design]]
+	- [[#Design Approaches]]
+- [[#6. Key Database Concepts]]
+	- [[#Keys]]
+	- [[#Relational Algebra]]
+- [[#7. Database Engine Components]]
+	- [[#Storage Manager]]
+	- [[#Query Processor]]
+	- [[#Transaction Manager]]
+- [[#8. Database Users and Administrators]]
+	- [[#Types of Users]]
+	- [[#Database Administrator (DBA)]]
+- [[#9. Database System Evolution]]
+	- [[#Historical Overview]]
+	- [[#Current Trends]]
 
 
 ---
@@ -136,6 +157,8 @@ Related : #DatabaseSystems #DB #DB/01
 
 > [!NOTE]- Entity-Relationship Model
 >    - Models an enterprise as a collection of entities and relationships
+
+<br>
 
 # 6. Key Database Concepts
 
