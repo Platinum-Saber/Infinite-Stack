@@ -105,6 +105,7 @@ Reference Note : [Lecture 01](file:///E:%5CAcademics%5CSEM%203%5CCS3043-Database
 - Logical Data Independence: Ability to modify logical schema without changing application programs
 
 <br>
+<br>
 
 # 3. Data Models
 
@@ -119,6 +120,7 @@ Reference Note : [Lecture 01](file:///E:%5CAcademics%5CSEM%203%5CCS3043-Database
 - Each table consists of rows (tuples) and columns (attributes)
 - Each attribute has a domain (set of allowed values)
 
+<br>
 <br>
 
 # 4. Database Languages
@@ -139,7 +141,7 @@ Reference Note : [Lecture 01](file:///E:%5CAcademics%5CSEM%203%5CCS3043-Database
 >   1. **Procedural**: Specifies what data is required and how to get it
 >   2. **Declarative**: Specifies what data is required without specifying how to get it
 
-<br>
+<br><br>
 
 # 5. Database Design
 
@@ -159,17 +161,18 @@ Reference Note : [Lecture 01](file:///E:%5CAcademics%5CSEM%203%5CCS3043-Database
 >    - Models an enterprise as a collection of entities and relationships
 
 <br>
+<br>
 
 # 6. Key Database Concepts
 
 ### Keys
-- Superkey: Set of attributes that can uniquely identify a tuple
-- Candidate Key: Minimal superkey
-- Primary Key: The chosen candidate key
-- Foreign Key: Attribute(s) referring to a primary key in another relation
+- **Superkey**: Set of attributes that can uniquely identify a tuple
+- **Candidate Key**: Minimal superkey
+- **Primary Key**: The chosen candidate key
+- **Foreign Key**: Attribute(s) referring to a primary key in another relation
 
 ### Relational Algebra
-Basic operators:
+#### Basic operators:
 - Select (σ): Selects tuples based on a condition
 - Project (Π): Selects attributes from a relation
 - Union (∪): Combines tuples from two relations
@@ -177,9 +180,12 @@ Basic operators:
 - Cartesian Product (×): Combines each tuple from one relation with every tuple from another
 - Rename (ρ): Renames attributes or relations
 
-Additional operators:
+#### Additional operators:
 - Intersection (∩): Returns tuples common to both relations
 - Natural Join (⋈): Combines related tuples from two relations based on common attributes
+
+<br>
+<br>
 
 # 7. Database Engine Components
 
@@ -195,6 +201,9 @@ Additional operators:
 - Ensures database consistency despite system failures
 - Controls concurrent access to data
 
+<br>
+<br>
+
 # 8. Database Users and Administrators
 
 ### Types of Users
@@ -205,6 +214,9 @@ Additional operators:
 ### Database Administrator (DBA)
 - Responsible for overall management of the database system
 - Duties include schema definition, storage structure and access method definition, and schema and physical organization modification
+
+<br>
+<br>
 
 # 9. Database System Evolution
 
@@ -221,9 +233,6 @@ Additional operators:
 - In-memory databases
 - Machine learning and AI integration
 
-****
-
-<br>
-
+---
 Up Next : [[Database Design Using the E-R Model]]
 

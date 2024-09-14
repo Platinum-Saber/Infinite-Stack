@@ -1,7 +1,7 @@
-# Database Systems: Multiple Choice Questions
+# Database Systems: MCQ
 
 1. What are the three main levels of abstraction in the database architecture?
-   a) Physical, Logical, and Conceptual
+   -[ ] a) Physical, Logical, and Conceptual 
    b) Physical, Logical, and View
    c) Conceptual, Internal, and External
    d) Storage, Query, and Application
