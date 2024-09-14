@@ -6,7 +6,8 @@
       "code",
       "url",
       "equation",
-      "table"
+      "table",
+      "dbq"
     ],
     "settings": {
       "info": [
@@ -88,6 +89,14 @@
         {
           "changes": {
             "color": "173, 92, 255"
+          }
+        }
+      ],
+      "dbq": [
+        {
+          "changes": {
+            "icon": "lucide-database-zap",
+            "color": "141, 247, 181"
           }
         }
       ]
