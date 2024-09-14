@@ -100,7 +100,8 @@ Related : #DatabaseSystems #DB #DB/01
 ****
 - Used to define database schemas
 - Example: `CREATE TABLE`, `ALTER TABLE`, `DROP TABLE`
-- DDL compiler generates a set of table templates stored in a `data dictionary`
+- DDL compiler generates a set of table templates stored in a `data dictionary`.
+- **Data dictionary** contains meta data. (data about data like integrity constraints)
 
 ### Data Manipulation Language (DML)
 
@@ -123,10 +124,12 @@ Related : #DatabaseSystems #DB #DB/01
 - Deciding on the physical layout of the database
 
 ### Design Approaches
-1. Normalization Theory
-   - Formalizes what designs are bad and tests for them
-2. Entity-Relationship Model
-   - Models an enterprise as a collection of entities and relationships
+
+> [!NOTE]- Normalization Theory
+>    - Formalizes what designs are bad and tests for them
+
+> [!NOTE]- Entity-Relationship Model
+>    - Models an enterprise as a collection of entities and relationships
 
 # 6. Key Database Concepts
 
