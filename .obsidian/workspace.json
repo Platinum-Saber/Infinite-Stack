@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM-3/CS3043-Database Systems/Database Design Using the E-R Model.md",
+                "file": "SEM-3/CS3043-Database Systems/Database Systems Introduction.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -70,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 293.5
+    "width": 293.5,
+    "collapsed": true
   },
   "right": {
     "id": "b2aa869acde22062",
@@ -105,7 +106,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM-3/CS3043-Database Systems/Database Design Using the E-R Model.md"
+                "file": "SEM-3/CS3043-Database Systems/Database Systems Introduction.md"
               }
             }
           },
@@ -115,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM-3/CS3043-Database Systems/Database Design Using the E-R Model.md",
+                "file": "SEM-3/CS3043-Database Systems/Database Systems Introduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,12 +172,13 @@
   },
   "active": "6e8b743e2d29d633",
   "lastOpenFiles": [
+    "SEM-3/CS3043-Database Systems/Database systems.md",
+    "SEM-3/CS3043-Database Systems/Database Design Using the E-R Model.md",
     "SEM-3/CS3043-Database Systems/Relational Database Design.md",
     "SEM-3/CS3043-Database Systems/Introduction to SQL.md",
     "SEM-3/CS3043-Database Systems/Database Systems Introduction.md",
     "SEM-3/CS3043-Database Systems/Intermediate SQL.md",
     "SEM-3/CS3043-Database Systems/Advanced SQL.md",
-    "SEM-3/CS3043-Database Systems/Database Design Using the E-R Model.md",
     "Full Stack Development/Backend Development/Backend Development.md",
     "Full Stack Development/Backend Development/nodejs-sql-resources.md",
     "advanced-sql-study-note.md",
@@ -199,7 +201,6 @@
     "SEM-3/CS3043-Database Systems/Group Project/Other Nonfunctional Requirements.md",
     "SEM-3/CS3043-Database Systems/Group Project/System Features.md",
     "SEM-3/CS3043-Database Systems/Group Project/External Interface Requirements (banking system).md",
-    "SEM-3/CS3043-Database Systems/Database systems.md",
     "Images/nodejs-sql-resources 1.md",
     "Full Stack Development",
     "Images/Project Description.pdf",

@@ -1,3 +1,11 @@
+---
+tags:
+  - DatabaseSystems
+  - DB
+Reviewed: 
+Created: 2024-08-07T16:00:00
+About: Based on CS3043-Lecture 01 Introduction to Database Systems
+---
 Related : #DatabaseSystems #DB #DB/01
 
 <br>
@@ -42,7 +50,7 @@ Related : #DatabaseSystems #DB #DB/01
 ### Levels of Abstraction of a DBMS
 >[!abstract]- Levels of Abstraction
 >>[!info]- Physical level
->>Describes data stored in database, and the relationships among the data.
+>>Describes how a record is stored.
 >
 >>[!info]- Logical level
 >>Describes data stored in database, and the relationships among data.
