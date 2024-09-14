@@ -1,8 +1,18 @@
+---
+tags:
+  - DatabaseSystems
+Reviewed: 
+Created: 2024-09-14T19:41:00
+About: Resource list generated using Claude 3.5 Sonnet
+---
+
+
+
 # Relational Algebra
 
 Relational algebra provides a set of operations that can be performed on relations (tables) to query and manipulate data. 
 
-Let's consider two sample relations (tables) for our examples:
+
 
 ## Sample Relations
 
@@ -29,42 +39,43 @@ Let's consider two sample relations (tables) for our examples:
 
 
 
-## 1. Selection (σ)
+## 1. Selection (`σ`)
 
-The selection operation selects tuples (rows) that satisfy a given predicate.
+- The selection operation selects tuples (rows) that satisfy a given predicate.
+- `Syntax`: σ<sub>predicate</sub>(R)
 
-Syntax: σ<sub>predicate</sub>(R)
+> [!example]- **Example**: Find all employees in the IT department.
+> 
+> #### σ<sub>Department = 'IT'</sub>(Employee)
+> 
+> >[!table]- Result:
+> > 
+> > | EmpID | Name   | Department | Salary |
+> > |-------|--------|------------|--------|
+> > | 1     | Alice  | IT         | 75000  |
+> > | 4     | David  | IT         | 72000  |
 
-Example: Find all employees in the IT department.
+<br>
 
-σ<sub>Department = 'IT'</sub>(Employee)
+## 2. Projection (`π`)
 
-Result:
+- The projection operation selects certain attributes (columns) from a relation.
+- `Syntax`: π<sub>attribute list</sub>(R)
 
-| EmpID | Name   | Department | Salary |
-|-------|--------|------------|--------|
-| 1     | Alice  | IT         | 75000  |
-| 4     | David  | IT         | 72000  |
+> [!example]- **Example**: List only the names and salaries of all employees.
+> 
+>#### π<sub>Name, Salary</sub>(Employee)
+> 
+> >[!table]- Result:
+> > 
+> > | Name   | Salary |
+> > |--------|--------|
+> > | Alice  | 75000  |
+> > | Bob    | 65000  |
+> > | Carol  | 80000  |
+> > | David  | 72000  |
+> > | Eve    | 68000  |
 
-## 2. Projection (π)
-
-The projection operation selects certain attributes (columns) from a relation.
-
-Syntax: π<sub>attribute list</sub>(R)
-
-Example: List only the names and salaries of all employees.
-
-π<sub>Name, Salary</sub>(Employee)
-
-Result:
-
-| Name   | Salary |
-|--------|--------|
-| Alice  | 75000  |
-| Bob    | 65000  |
-| Carol  | 80000  |
-| David  | 72000  |
-| Eve    | 68000  |
 
 ## 3. Union (∪)
 
