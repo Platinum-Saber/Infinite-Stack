@@ -142,52 +142,31 @@ Attributes describe the properties of an entity:
 
 <br>
 
-### Cardinality:
-Relationships between entities can have different types of cardinalities:
-- **One-to-One (1:1)**: One entity is related to only one entity in the other set.
-- **One-to-Many (1:N)**: One entity is related to many entities in the other set.
-- **Many-to-One (N:1)**: Many entities are related to one entity in the other set.
-- **Many-to-Many (M:N)**: Multiple entities in one set are related to multiple entities in the other set.
-
-**Example of Relationship**:
-```plaintext
-Instructor - advises - Student
-```
-
-> [!image]- Relationship set diagram 
-> ![[Pasted image 20240914235056.png]]
-
-
-## Mapping Cardinalities
+## Cardinality:
 
 - **Cardinality** defines how many instances of one entity relate to another entity in a relationship.
 
 ### One-to-One (1:1) Relationship:
-Each entity in one entity set corresponds to one and only one entity in another entity set.
+- Each entity in one entity set corresponds to one and only one entity in another entity set.
 
 > [!image]- Example diagram:  
 > A **Student** has one **Advisor**, and each **Advisor** is assigned to one **Student**.
 > ![[Pasted image 20240914235425.png]]
 
 ### One-to-Many (1:N) Relationship:
-One entity in an entity set can be associated with multiple entities in the other set.
+- One entity in an entity set can be associated with multiple entities in the other set.
 
-> [!image]- Example   
+> [!image]- Example diagram   
 > An **Instructor** can advise many **Students**, but each **Student** has only one **Advisor**.
 > ![[Pasted image 20240914235533.png]]
 
 ### Many-to-Many (M:N) Relationship:
-Multiple entities from one entity set are associated with multiple entities from another set.
+- Multiple entities from one entity set are associated with multiple entities from another set.
 
-**Example**:  
-A **Student** can take multiple **Courses**, and each **Course** can have multiple **Students**.
-
-```plaintext
-+------------+       takes          +------------+
-|  Student   |----------------------|  Course    |
-+------------+                      +------------+
-```
-
+> [!image]- Example diagram  
+> A **Student** can take multiple **Courses**, and each **Course** can have multiple **Students**.
+> ![[Pasted image 20240915000914.png]]
+> 
 
 <br>
 

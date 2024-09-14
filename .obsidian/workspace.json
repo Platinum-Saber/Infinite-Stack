@@ -57,7 +57,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Drawing 2024-09-14 23.36.01.excalidraw.md"
+                "file": "SEM-3/CS3043-Database Systems/Study Notes/Database Design Using the E-R Model.md"
               }
             }
           },
@@ -152,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/Drawing 2024-09-14 23.36.01.excalidraw.md",
+                "file": "SEM-3/CS3043-Database Systems/Study Notes/Database Design Using the E-R Model.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,7 +179,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 254.5
+    "width": 254.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -197,18 +198,20 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c9ea712d66c519a9",
+  "active": "43028b2911911f19",
   "lastOpenFiles": [
-    "SEM-3/CS3043-Database Systems/Study Notes/Database Design Using the E-R Model.md",
+    "Images/Pasted image 20240915000914.png",
     "Excalidraw/Drawing 2024-09-14 23.36.01.excalidraw.md",
+    "SEM-3/CS3043-Database Systems/Study Notes/Database Design Using the E-R Model.md",
+    "Images/Pasted image 20240915000608.png",
+    "GPT note.md",
+    "SEM-3/CS3043-Database Systems/Study Notes/claude er-model-study-note.md",
     "Images/Pasted image 20240914235648.png",
     "Images/Pasted image 20240914235533.png",
     "Images/Pasted image 20240914235425.png",
-    "GPT note.md",
     "Images/Pasted image 20240914235056.png",
     "SEM-3/CS3043-Database Systems/Study Notes/Database Systems Introduction.md",
     "SEM-3/CS3043-Database Systems/Study Notes/Advanced SQL.md",
-    "SEM-3/CS3043-Database Systems/Study Notes/claude er-model-study-note.md",
     "Images/Pasted image 20240914231059.png",
     "SEM-3/CS3043-Database Systems/Study Notes/Intermediate SQL.md",
     "SEM-3/CS3043-Database Systems/Study Notes/Introduction to SQL.md",
@@ -228,7 +231,6 @@
     "[[Relational.md",
     "SEM-3/CS3043-Database Systems/Study Notes/Unconfirmed 24472.crdownload",
     "Images/Pasted image 20240914185503.png",
-    "Images/Pasted image 20240914184930.png",
     "Obsidian Tools/Check Box List.md",
     "SEM-3/CS3043-Database Systems/cloude database-study-note.md",
     "Obsidian Tools",
