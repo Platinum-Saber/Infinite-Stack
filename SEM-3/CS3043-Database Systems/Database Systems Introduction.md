@@ -20,7 +20,7 @@ Related : #DatabaseSystems #DB #DB/01
 <br>
 
 
-## 1. Introduction to Database Management Systems
+# 1. Introduction to Database Management Systems
 
 <br>
 
@@ -57,7 +57,7 @@ Related : #DatabaseSystems #DB #DB/01
 <br>
 <br>
 
-## 2. Database Architecture and Abstraction Levels
+# 2. Database Architecture and Abstraction Levels
 >[!abstract]- Levels of Abstraction
 >>[!info]- Physical level
 >>Describes how a record is stored.
@@ -81,33 +81,39 @@ Related : #DatabaseSystems #DB #DB/01
 
 <br>
 
-## 3. Data Models
+# 3. Data Models
 
-### Types of Data Models
-- Relational Model (most common)
-- Entity-Relationship Model (for database design)
-- Object-based Models (Object-oriented and Object-relational)
-- Semistructured Data Model (XML)
+ > [!abstract]- Types of Data Models
+> - Relational Model (most common)
+> - Entity-Relationship Model (for database design)
+> - Object-based Models (Object-oriented and Object-relational)
+> - Semistructured Data Model (XML)
 
 ### The Relational Model
 - Data organized in tables (relations)
 - Each table consists of rows (tuples) and columns (attributes)
 - Each attribute has a domain (set of allowed values)
 
-## 4. Database Languages
+# 4. Database Languages
 
 ### Data Definition Language (DDL)
+****
 - Used to define database schemas
-- Example: CREATE TABLE, ALTER TABLE, DROP TABLE
+- Example: `CREATE TABLE`, `ALTER TABLE`, `DROP TABLE`
+- DDL compiler generates a set of table templates stored in a `data dictionary`
 
 ### Data Manipulation Language (DML)
+
 - Used for accessing and manipulating data
-- Two types:
-  1. Procedural: Specifies what data is required and how to get it
-  2. Declarative: Specifies what data is required without specifying how to get it
 - SQL is the most widely used query language (both DDL and DML)
 
-## 5. Database Design
+> [!info]- Two types of DML:
+>   1. **Procedural**: Specifies what data is required and how to get it
+>   2. **Declarative**: Specifies what data is required without specifying how to get it
+
+
+
+# 5. Database Design
 
 ### Logical Design
 - Deciding on the database schema
@@ -122,7 +128,7 @@ Related : #DatabaseSystems #DB #DB/01
 2. Entity-Relationship Model
    - Models an enterprise as a collection of entities and relationships
 
-## 6. Key Database Concepts
+# 6. Key Database Concepts
 
 ### Keys
 - Superkey: Set of attributes that can uniquely identify a tuple
@@ -143,7 +149,7 @@ Additional operators:
 - Intersection (∩): Returns tuples common to both relations
 - Natural Join (⋈): Combines related tuples from two relations based on common attributes
 
-## 7. Database Engine Components
+# 7. Database Engine Components
 
 ### Storage Manager
 - Provides interface between low-level data stored in the database and application programs
@@ -157,7 +163,7 @@ Additional operators:
 - Ensures database consistency despite system failures
 - Controls concurrent access to data
 
-## 8. Database Users and Administrators
+# 8. Database Users and Administrators
 
 ### Types of Users
 - Naive users: Interact with the system through application programs
@@ -168,7 +174,7 @@ Additional operators:
 - Responsible for overall management of the database system
 - Duties include schema definition, storage structure and access method definition, and schema and physical organization modification
 
-## 9. Database System Evolution
+# 9. Database System Evolution
 
 ### Historical Overview
 - 1950s-1960s: Magnetic tapes and punched cards
