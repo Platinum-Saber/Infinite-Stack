@@ -182,7 +182,9 @@ ER diagrams use specific symbols to represent different elements:
 | Primary Key | Underlined Attribute |
 | Weak Entity Set | Double Rectangle |
 | Identifying Relationship | Double Diamond |
-
+![[Pasted image 20240915003223.png]]
+![[Pasted image 20240915003236.png]]
+![[Pasted image 20240915003303.png]]
 ## Keys and Identifiers
 
 ### Primary Key
@@ -270,6 +272,17 @@ Example:
 (proj_guide(student, project, instructor)) --- eval_for --- evaluation
 ```
 
+> [!image]- Aggregation diagram
+> >[!fail]- Before
+> > ![[Pasted image 20240915002626.png]]
+> 
+> 
+> >[!success]- After
+> > ![[Pasted image 20240915002604.png]]
+
+<br>
+<br>
+
 # 7. Reduction to Relational Schemas
 
 The ER model can be converted to relational schemas:
@@ -293,6 +306,9 @@ CREATE TABLE advisor (
 );
 ```
 
+<br>
+<br>
+
 # 8. Design Issues and Best Practices
 
 - Choose between entities and attributes based on the complexity and importance of the concept.
@@ -302,12 +318,18 @@ CREATE TABLE advisor (
 - Utilize specialization/generalization for better modularity.
 - Apply aggregation to represent complex relationships.
 
+<br>
+<br>
+
 # 9. Alternative Notations
 
 While this note focuses on the classic ER notation, other notations exist:
 - Chen notation
 - IE Crow's Foot notation
 - UML Class Diagrams
+
+> [!image]- Alternative notations diagram
+> ![[Pasted image 20240915003120.png]]
 
 Each notation has its strengths and is used in different contexts or by different tools.
 
