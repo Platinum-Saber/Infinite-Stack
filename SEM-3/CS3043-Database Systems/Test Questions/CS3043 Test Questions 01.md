@@ -23,85 +23,89 @@
 > > b) To provide an environment for efficient and convenient access to a collection of interrelated data
 > 
 
-> [!fa]
-> Which of the following is NOT a drawback of using file systems to store data instead of a DBMS?
->    a) Data redundancy
->    b) Difficulty in accessing data
->    c) Enhanced security
->    d) Data isolation
+> [!equation]- Question 3
+> 
+> > [!faq]- Which of the following is NOT a drawback of using file systems to store data instead of a DBMS?
+> > - [ ]  a) Data redundancy
+> > - [ ]  b) Difficulty in accessing data
+> > - [ ]  c) Enhanced security
+> > - [ ]  d) Data isolation
+> 
+> > [!success]- Answer
+> > c) Enhanced security
+> 
 
-> [!success]- Answer
-> c) Enhanced security
+> [!equation]- Question 4
+> 
+> > [!faq]- What is the difference between a schema and an instance in database terminology?
+> > - [ ] a) Schema is the data, instance is the structure
+> > - [ ] b) Schema is the structure, instance is the data at a particular time
+> > - [ ] c) Schema is for relational databases, instance is for object-oriented databases
+> > - [ ] d) There is no difference; they are synonyms
+> 
+> > [!success]- Answer
+> > 
 
 
-What is the difference between a schema and an instance in database terminology?
-   a) Schema is the data, instance is the structure
-   b) Schema is the structure, instance is the data at a particular time
-   c) Schema is for relational databases, instance is for object-oriented databases
-   d) There is no difference; they are synonyms
+> [!faq]- What is physical data independence?
+> - [ ] a) The ability to change the database without changing the application programs
+> - [ ] b) The ability to modify the physical schema without changing the logical schema
+> - [ ] c) The ability to move the database to a different server
+> - [ ] d) The ability to change data without affecting the physical storage
 
 > [!success]- Answer
 > 
 
-What is physical data independence?
-   a) The ability to change the database without changing the application programs
-   b) The ability to modify the physical schema without changing the logical schema
-   c) The ability to move the database to a different server
-   d) The ability to change data without affecting the physical storage
+> [!faq]- In the relational model, what is a tuple?
+>- [ ] a) A column in a table
+>- [ ] b) A row in a table
+>- [ ] c) The name of a table
+>- [ ] d) A relationship between tables
 
 > [!success]- Answer
 > 
 
-In the relational model, what is a tuple?
-   a) A column in a table
-   b) A row in a table
-   c) The name of a table
-   d) A relationship between tables
+> [!faq]- What is the primary purpose of a primary key in a relation?
+>- [ ] a) To establish relationships between tables
+>- [ ] b) To uniquely identify each tuple (row) in the relation
+>- [ ] c) To improve query performance
+>- [ ] d) To enforce data integrity constraints
 
 > [!success]- Answer
 > 
 
-What is the primary purpose of a primary key in a relation?
-   a) To establish relationships between tables
-   b) To uniquely identify each tuple (row) in the relation
-   c) To improve query performance
-   d) To enforce data integrity constraints
+> [!faq]- What is a foreign key?
+>- [ ] a) A key used to encrypt data in the database
+>- [ ] b) An attribute or set of attributes that refers to the primary key of another relation
+>- [ ] c) A key that is not used in the current database
+> d) The least important key in a relation
 
 > [!success]- Answer
 > 
 
-What is a foreign key?
-   a) A key used to encrypt data in the database
-   b) An attribute or set of attributes that refers to the primary key of another relation
-   c) A key that is not used in the current database
-   d) The least important key in a relation
+> [!faq]- Which of the following is NOT a basic operator in relational algebra?
+>    a) Select (σ)
+>    b) Project (Π)
+>    c) Join (⋈)
+>    d) Union (∪)
 
 > [!success]- Answer
 > 
 
-Which of the following is NOT a basic operator in relational algebra?
-   a) Select (σ)
-   b) Project (Π)
-   c) Join (⋈)
-   d) Union (∪)
+> [!faq]- What is the main difference between Data Definition Language (DDL) and Data Manipulation Language (DML)?
+>     a) DDL is used for Oracle databases, DML for SQL Server
+>     b) DDL is used to define database schemas, DML is used for accessing and manipulating data
+>     c) DDL is for logical design, DML is for physical design
+>     d) There is no difference; they are the same language
 
 > [!success]- Answer
 > 
 
-What is the main difference between Data Definition Language (DDL) and Data Manipulation Language (DML)?
-    a) DDL is used for Oracle databases, DML for SQL Server
-    b) DDL is used to define database schemas, DML is used for accessing and manipulating data
-    c) DDL is for logical design, DML is for physical design
-    d) There is no difference; they are the same language
-
-> [!success]- Answer
-> 
-
-Which of the following is NOT a main approach to database design mentioned in the PDF?
-    a) Normalization Theory
-    b) Entity-Relationship Model
-    c) Object-Oriented Design
-    d) Relational Model
+> [!faq]- Which of the following is NOT a main approach to database design mentioned in the PDF?
+>     a) Normalization Theory
+>     b) Entity-Relationship Model
+>     c) Object-Oriented Design
+>     d) Relational Model
 
 > [!success]- Answer
 > 
