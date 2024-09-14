@@ -202,7 +202,10 @@
     "iconName": "FiFile",
     "iconColor": "#3ffd42"
   },
-  "SEM-3/CS2953-Communication Skills": "FasCommentDots",
+  "SEM-3/CS2953-Communication Skills": {
+    "iconName": "FasCommentDots",
+    "iconColor": "#81f3c7"
+  },
   "SRS.md": {
     "iconName": "SiProtondb",
     "iconColor": "#a22f9e"
