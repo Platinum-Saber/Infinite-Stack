@@ -13,6 +13,6 @@
   "obsidian-meta-bind-plugin",
   "obsidian-icon-folder",
   "obsidian-icons-plugin",
-  "table-editor-obsidian",
-  "obsidian-git"
+  "obsidian-git",
+  "obsidian-plugin-toc"
 ]

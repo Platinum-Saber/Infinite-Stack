@@ -150,21 +150,13 @@
               "type": "mermaid-toolbar-view",
               "state": {}
             }
-          },
-          {
-            "id": "bd533ccc0020e921",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
-            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 249.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -184,8 +176,8 @@
   },
   "active": "916d04cad57ad332",
   "lastOpenFiles": [
-    "SEM-3/CS3043-Database Systems/cloude database-study-note.md",
     "SEM-3/CS3043-Database Systems/Database Systems Introduction.md",
+    "SEM-3/CS3043-Database Systems/cloude database-study-note.md",
     "SEM-3/CS3043-Database Systems/cloude database-test-questions.md",
     "SEM-3/CS3043-Database Systems/Unconfirmed 818229.crdownload",
     "SEM-3/CS3043-Database Systems/Unconfirmed 809678.crdownload",
