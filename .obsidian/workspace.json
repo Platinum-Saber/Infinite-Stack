@@ -24,12 +24,9 @@
             "id": "c9ea712d66c519a9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "SEM-3/CS3043-Database Systems/Study Notes/Database Design Using the E-R Model.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+                "file": "Excalidraw/Drawing 2024-09-14 23.36.01.excalidraw.md"
               }
             }
           },
@@ -53,7 +50,7 @@
               "type": "markdown",
               "state": {
                 "file": "SEM-3/CS3043-Database Systems/Study Notes/Database Design Using the E-R Model.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -145,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM-3/CS3043-Database Systems/Study Notes/Database Design Using the E-R Model.md"
+                "file": "Excalidraw/Drawing 2024-09-14 23.36.01.excalidraw.md"
               }
             }
           },
@@ -155,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM-3/CS3043-Database Systems/Study Notes/Database Design Using the E-R Model.md",
+                "file": "Excalidraw/Drawing 2024-09-14 23.36.01.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -202,12 +199,15 @@
   },
   "active": "c9ea712d66c519a9",
   "lastOpenFiles": [
-    "GPT note.md",
     "SEM-3/CS3043-Database Systems/Study Notes/Database Design Using the E-R Model.md",
+    "Excalidraw/Drawing 2024-09-14 23.36.01.excalidraw.md",
+    "Images/Pasted image 20240914235648.png",
+    "Images/Pasted image 20240914235533.png",
+    "Images/Pasted image 20240914235425.png",
+    "GPT note.md",
     "Images/Pasted image 20240914235056.png",
     "SEM-3/CS3043-Database Systems/Study Notes/Database Systems Introduction.md",
     "SEM-3/CS3043-Database Systems/Study Notes/Advanced SQL.md",
-    "Excalidraw/Drawing 2024-09-14 23.36.01.excalidraw.md",
     "SEM-3/CS3043-Database Systems/Study Notes/claude er-model-study-note.md",
     "Images/Pasted image 20240914231059.png",
     "SEM-3/CS3043-Database Systems/Study Notes/Intermediate SQL.md",
@@ -244,9 +244,6 @@
     "Full Stack Development/Backend Development/Nodejs-SQL-Backend-Setup.md",
     "Full Stack Development/Backend Development/Setting Up Password Hashing for Signups.md",
     "Full Stack Development/Backend Development/Setting Up .ENV.md",
-    "Images/Database Systems - Group Project - Group 6 - Page 1 1.png",
-    "Images/Database Systems - Group Project - Group 6 - Page 1 2.png",
-    "Images/Pasted image 20240909160539.png",
     "Work Space.canvas",
     "Untitled.canvas"
   ]

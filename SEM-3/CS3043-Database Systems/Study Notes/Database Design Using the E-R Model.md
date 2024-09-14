@@ -158,10 +158,6 @@ Instructor - advises - Student
 > ![[Pasted image 20240914235056.png]]
 
 
-
-
-> ![[Pasted image 20240914231059.png]]
-
 ## Mapping Cardinalities
 
 - **Cardinality** defines how many instances of one entity relate to another entity in a relationship.
@@ -169,26 +165,16 @@ Instructor - advises - Student
 ### One-to-One (1:1) Relationship:
 Each entity in one entity set corresponds to one and only one entity in another entity set.
 
-**Example**:  
-A **Student** has one **Advisor**, and each **Advisor** is assigned to one **Student**.
-
-```plaintext
-+------------+       advises        +------------+
-|  Student   |---------------------→| Instructor |
-+------------+                      +------------+
-```
+> [!image]- Example diagram:  
+> A **Student** has one **Advisor**, and each **Advisor** is assigned to one **Student**.
+> ![[Pasted image 20240914235425.png]]
 
 ### One-to-Many (1:N) Relationship:
 One entity in an entity set can be associated with multiple entities in the other set.
 
-**Example**:  
-An **Instructor** can advise many **Students**, but each **Student** has only one **Advisor**.
-
-```plaintext
-+------------+       advises       +------------+
-| Instructor |---------------------→|  Student  |
-+------------+                      +------------+
-```
+> [!image]- Example   
+> An **Instructor** can advise many **Students**, but each **Student** has only one **Advisor**.
+> ![[Pasted image 20240914235533.png]]
 
 ### Many-to-Many (M:N) Relationship:
 Multiple entities from one entity set are associated with multiple entities from another set.
