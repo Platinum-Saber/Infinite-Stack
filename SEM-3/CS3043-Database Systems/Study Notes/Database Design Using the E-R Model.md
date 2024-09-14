@@ -209,22 +209,22 @@ A **Primary Key** is an attribute or a set of attributes that uniquely identifie
 **Example**:  
 A **Section** entity depends on the **Course** entity, and its unique identifier is a combination of `course_id`, `section_id`, and `year`.
 
-### ER Diagram of Weak Entity:
-
-```plaintext
-+------------+       has            +------------+
-|   Course   |----------------------|  Section   |
-|  (course_id)|                     | (sec_id, year)|
-+------------+                      +------------+
-```
-
-The **Section** is a weak entity depending on the **Course**.
+> [!image]- ER Diagram of Weak Entity:
+>  ![[Pasted image 20240915001406.png]]
+> The **Section** is a weak entity depending on the **Course**.
 
 
 # 4. Participation Constraints
 
-- **Total Participation**: Every entity in the entity set participates in at least one relationship in the relationship set.
+- **Total Participation**: Every entity in the entity set participates in at least one relationship in the relationship set. (indicated using double lines)
 - **Partial Participation**: Some entities may not participate in any relationship in the relationship set.
+
+> [!image]- Participant constraints diagram
+> ![[Pasted image 20240915001627.png]]
+> Here participation of student in advisor relation is total
+> participation of instructor in advisor is partial
+
+
 
 
 # 5. Specialization and Generalization
