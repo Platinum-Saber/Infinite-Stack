@@ -58,7 +58,7 @@ Related : #DatabaseSystems #DB #DB/01
 >>[!info]- View level
 >>Application programs hide details of data types. Views can also hide information for security purposes.
 
->[!info]- Architecture for a database system
+>[!image]- Architecture for a database system
 >![[Pasted image 20240718082934.png]]
 
 <br>
