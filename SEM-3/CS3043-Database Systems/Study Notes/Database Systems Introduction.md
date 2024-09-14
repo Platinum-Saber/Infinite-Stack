@@ -197,8 +197,12 @@ Reference Note : [Lecture 01](file:///E:%5CAcademics%5CSEM%203%5CCS3043-Database
 ### Query Processor
 - Translates queries into low-level instructions
 - Optimizes queries for efficient execution
+> [!image]- Query processing diagram
+> ![[Pasted image 20240914184930.png]]
+
 
 ### Transaction Manager
+- `Transaction` : A collection of operations that performs a single logical function in a DBMS.
 - Ensures database consistency despite system failures
 - Controls concurrent access to data
 
@@ -208,13 +212,18 @@ Reference Note : [Lecture 01](file:///E:%5CAcademics%5CSEM%203%5CCS3043-Database
 # 8. Database Users and Administrators
 ****
 ### Types of Users
-- Naive users: Interact with the system through application programs
-- Application Programmers: Develop programs using database access
-- Sophisticated Users: Interact directly with the DBMS using query languages
+- **Naive users**: Interact with the system through application programs
+- **Application Programmers**: Develop programs using database access
+- **Sophisticated Users**: Interact directly with the DBMS using query languages
 
 ### Database Administrator (DBA)
 - Responsible for overall management of the database system
 - Duties include schema definition, storage structure and access method definition, and schema and physical organization modification
+
+> [!image]- Database system internals diagram
+> ![[Pasted image 20240914185503.png]]
+
+
 
 <br>
 <br>
