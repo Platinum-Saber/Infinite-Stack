@@ -118,8 +118,6 @@ Attributes describe the properties of an entity:
    +------------------------+
 ```
 
-### Example Diagram:
-
 **Student Entity with Composite and Simple Attributes**:
 ```plaintext
 +------------+
@@ -133,8 +131,6 @@ Attributes describe the properties of an entity:
 |   -Zip     |
 +------------+
 ```
-
----
 
 > [!image]- Relationship sets with attributes
 > ![[Pasted image 20240914231059.png]]
@@ -173,11 +169,11 @@ In ER diagrams, relationships are represented by diamonds, and cardinalities by 
 **Diagram Example**:  
 Here is how you can depict an **advisor** relationship between **Student** and **Instructor** in an ER diagram.
 
----
+
 
 ## Mapping Cardinalities
 
-**Cardinality** defines how many instances of one entity relate to another entity in a relationship.
+- **Cardinality** defines how many instances of one entity relate to another entity in a relationship.
 
 ### One-to-One (1:1) Relationship:
 Each entity in one entity set corresponds to one and only one entity in another entity set.
@@ -231,20 +227,49 @@ ER diagrams use specific symbols to represent different elements:
 | Weak Entity Set | Double Rectangle |
 | Identifying Relationship | Double Diamond |
 
+## Keys and Identifiers
+
+### Primary Key
+A **Primary Key** is an attribute or a set of attributes that uniquely identifies each entity in an entity set. No two entities can share the same primary key value.
+
+**Example**:
+- The `student_id` is the primary key in the **Student** entity set.
+
+```plaintext
++------------+
+|  Student   |
++------------+
+| *ID        |  ← Primary Key
+|  Name      |
+|  Age       |
++------------+
+```
+
+### Weak Entities
+
+- A **Weak Entity** is an entity that cannot be uniquely identified by its own attributes and depends on a **Strong Entity**.
+- A **Discriminator** is used to uniquely identify weak entities in combination with the primary key of the strong entity.
+
+**Example**:  
+A **Section** entity depends on the **Course** entity, and its unique identifier is a combination of `course_id`, `section_id`, and `year`.
+
+### ER Diagram of Weak Entity:
+
+```plaintext
++------------+       has            +------------+
+|   Course   |----------------------|  Section   |
+|  (course_id)|                     | (sec_id, year)|
++------------+                      +------------+
+```
+
+The **Section** is a weak entity depending on the **Course**.
+
 
 # 4. Participation Constraints
 
 - **Total Participation**: Every entity in the entity set participates in at least one relationship in the relationship set.
 - **Partial Participation**: Some entities may not participate in any relationship in the relationship set.
 
-# 6. Weak Entity Sets
-
-A weak entity set is one whose existence depends on another entity, called its identifying entity.
-
-Example:
-```
-section (weak entity) depends on course (identifying entity)
-```
 
 # 7. Specialization and Generalization
 
