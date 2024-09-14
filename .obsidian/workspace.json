@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled.md",
+                "file": "Obsidian Tools/Check Box List.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -132,7 +132,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled.md"
+                "file": "Obsidian Tools/Check Box List.md"
               }
             }
           },
@@ -142,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled.md",
+                "file": "Obsidian Tools/Check Box List.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,11 +165,11 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 254.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -187,10 +187,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "75a8b95bfa383826",
+  "active": "671fcfcc9244e77e",
   "lastOpenFiles": [
-    "Untitled.md",
+    "Obsidian Tools",
     "SEM-3/CS3043-Database Systems/Test Questions/Test Questions 01.md",
+    "Obsidian Tools/Check Box List.md",
     "SEM-3/CS3043-Database Systems/cloude database-study-note.md",
     "SEM-3/CS3043-Database Systems/Study Notes/Database Systems Introduction.md",
     "SEM-3/CS3043-Database Systems/Test Questions",

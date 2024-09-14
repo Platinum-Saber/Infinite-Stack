@@ -6,6 +6,7 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "SiObsidian",
       "SiCreatereactapp",
       "FabReact",
       "SiCsswizardry",
@@ -14,8 +15,7 @@
       "SiNodemon",
       "FabNode",
       "FabSquareJs",
-      "FasLaptopCode",
-      "SiNodedotjs"
+      "FasLaptopCode"
     ],
     "recentlyUsedIconsSize": 10,
     "rules": [],
@@ -186,10 +186,6 @@
     "iconName": "FasCommentDots",
     "iconColor": "#81f3c7"
   },
-  "SRS.md": {
-    "iconName": "SiProtondb",
-    "iconColor": "#a22f9e"
-  },
   "SEM-3/CS3613-Introduction to Artificial Intelligence/Local Search And Optimization Problems.md": {
     "iconName": "FiFile",
     "iconColor": "#ddfb6f"
@@ -351,5 +347,13 @@
   "SEM-3/CS3043-Database Systems/Study Notes/Advanced SQL.md": {
     "iconName": "LiFile",
     "iconColor": "#46fb52"
+  },
+  "Obsidian Tools": {
+    "iconName": "SiObsidian",
+    "iconColor": "#a600ff"
+  },
+  "SEM-3/CS3043-Database Systems/Group Project/SRS.md": {
+    "iconName": "SiProtondb",
+    "iconColor": "#a22f9e"
   }
 }
