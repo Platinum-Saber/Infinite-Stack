@@ -2,7 +2,7 @@
 tags:
   - DatabaseSystems
   - DB
-Reviewed: 
+Reviewed: true
 Created: 2024-08-07T16:00:00
 About: Based on CS3043-Lecture 01 Introduction to Database Systems
 ---

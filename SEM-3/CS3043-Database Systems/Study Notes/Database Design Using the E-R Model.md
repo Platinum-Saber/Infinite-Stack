@@ -1,7 +1,22 @@
+---
+tags:
+  - DatabaseSystems
+  - DB
+  - ERD
+Reviewed: 
+Created: 2024-08-14T22:51:00
+About: Based on CS3043-Lecture 02 Database design using E-R models
+---
+Related : #DatabaseSystems #DB/02 #ERD
 
-Related : #DatabaseSystems #DB #DB/02
-
+---
 <br>
+# Content
+
+
+
+
+
 
 # Design Process
 

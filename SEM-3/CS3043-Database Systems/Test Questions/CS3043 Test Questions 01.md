@@ -67,7 +67,7 @@
 > >- [ ] d) A relationship between tables
 > 
 > > [!success]- Answer
-> > 
+> > b) A row in a table
 > 
 
 > [!dbq]- Question 7
@@ -79,7 +79,7 @@
 > >- [ ] d) To enforce data integrity constraints
 > 
 > > [!success]- Answer
-> > 
+> > b) To uniquely identify each tuple (row) in the relation
 > 
 
 > [!dbq]- Question 8
@@ -91,7 +91,7 @@
 > >- [ ] d) The least important key in a relation
 > 
 > > [!success]- Answer
-> > 
+> > b) An attribute or set of attributes that refers to the primary key of another relation
 > 
 
 > [!dbq]- Question 9
@@ -115,7 +115,7 @@
 > >- [ ] d) There is no difference; they are the same language
 > 
 > > [!success]- Answer
-> > 
+> > b) DDL is used to define database schemas, DML is used for accessing and manipulating data
 > 
 
 > [!dbq]- Question 11
@@ -139,7 +139,7 @@
 > >- [ ] d) That the data is stored in the smallest possible unit
 > 
 > > [!success]- Answer
-> > 
+> > b) That a transaction is treated as a single, indivisible unit that either completes entirely or not at all
 > 
 
 > [!dbq]- Question 13
@@ -151,7 +151,7 @@
 > >- [ ] d) To create backups of the database
 > 
 > > [!success]- Answer
-> > 
+> > c) To translate queries into low-level instructions and optimize them
 > 
 
 > [!dbq]- Question 14
@@ -163,7 +163,7 @@
 > >- [ ] d) Database Designers
 > 
 > > [!success]- Answer
-> > 
+> > b) Application Programmers
 > 
 
 > [!dbq]- Question 15
@@ -175,7 +175,7 @@
 > >- [ ] d) Managing the company's network infrastructure
 > 
 > > [!success]- Answer
-> > 
+> > b) The overall management of the database system
 > 
 
 > [!dbq]- Question 16
@@ -187,7 +187,7 @@
 > >- [ ] d) It's required for web development
 > 
 > > [!success]- Answer
-> > 
+> > b) It provides a standardized way to interact with relational databases
 > 
 
 > [!dbq]- Question 17
@@ -199,7 +199,7 @@
 > >- [ ] d) There is no significant difference
 > 
 > > [!success]- Answer
-> > 
+> > b) Procedural languages specify how to get the data, declarative specify only what data is required
 > 
 
 > [!dbq]- Question 18
@@ -210,7 +210,7 @@
 > >- [ ] d) The amount of data that can be stored in the database
 > 
 > > [!success]- Answer
-> > 
+> > b) The interaction among concurrent transactions to ensure consistency
 > 
 
 > [!dbq]- Question 19
@@ -222,7 +222,7 @@
 > > d) The creation of the internet
 > 
 > > [!success]- Answer
-> > 
+> > b) The evolution of research relational prototypes into commercial systems
 > 
 
 > [!dbq]- Question 20
@@ -234,7 +234,7 @@
 > > d) Giant data storage systems
 > 
 > > [!success]- Answer
-> > 
+> > c) Blockchain databases
 > 
 
 Answers:
