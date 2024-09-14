@@ -13,7 +13,12 @@ Related : #DatabaseSystems #DB/02 #ERD
 <br>
 
 # Content
-
+[[#1. Design Process]]
+- [[#Design Phases]]
+[[#2. ER Model]]
+- [[#Entity Sets]]
+- [[#Attributes]]
+- [[#Relationship Sets]]
 
 
 
@@ -23,7 +28,7 @@ Related : #DatabaseSystems #DB/02 #ERD
 
 <br>
 
-### Design Phases
+## Design Phases
 
 ```mermaid
 flowchart LR
@@ -76,7 +81,7 @@ Requirements --> Conceptual_design --> Logical_design --> Physical_design
 
 <br>
 
-### Entity Sets
+## Entity Sets
 >[!FAQ]- What is an `entity`
 >An object that exists and is distinguishable from other objects
 
@@ -98,7 +103,45 @@ Requirements --> Conceptual_design --> Logical_design --> Physical_design
 
 <br>
 
-### Relationship Sets
+## Attributes
+
+Attributes describe the properties of an entity:
+- **Simple Attribute**: Cannot be divided further (e.g., Name).
+- **Composite Attribute**: Composed of multiple subparts (e.g., Address can be split into Street, City, Zip).
+- **Derived Attribute**: Can be computed from other attributes (e.g., Age derived from Date of Birth).
+
+**Composite Attribute Example (Address)**:
+```plaintext
+   Address
+   +------------------------+
+   | Street, City, Zip Code  |
+   +------------------------+
+```
+
+### Example Diagram:
+
+**Student Entity with Composite and Simple Attributes**:
+```plaintext
++------------+
+|  Student   |
++------------+
+|  ID        |
+|  Name      |
+|  Address   |
+|   -Street  |
+|   -City    |
+|   -Zip     |
++------------+
+```
+
+---
+
+> [!image]- Relationship sets with attributes
+> ![[Pasted image 20240914231059.png]]
+
+<br>
+
+## Relationship Sets
 >[!info] A **relationship** is an association among several entities.
 
 >[!info]- A **relationship set** is a mathematical relation among 2 or more entities each taken from entity sets
@@ -106,16 +149,73 @@ Requirements --> Conceptual_design --> Logical_design --> Physical_design
 
 <br>
 
-### Attributes
+### Cardinality:
+Relationships between entities can have different types of cardinalities:
+- **One-to-One (1:1)**: One entity is related to only one entity in the other set.
+- **One-to-Many (1:N)**: One entity is related to many entities in the other set.
+- **Many-to-One (N:1)**: Many entities are related to one entity in the other set.
+- **Many-to-Many (M:N)**: Multiple entities in one set are related to multiple entities in the other set.
 
-Attributes are properties of entities or relationships. They can be:
-- Simple or composite
-- Single-valued or multi-valued
-- Derived
-> [!image]- Relationship sets with attributes
-> ![[Pasted image 20240914231059.png]]
+**Example of Relationship**:
+```plaintext
+Instructor - advises - Student
+```
 
-<br>
+### Diagram Representation:
+In ER diagrams, relationships are represented by diamonds, and cardinalities by lines connecting the diamond to the rectangles representing entities.
+
+```plaintext
++------------+       advisor       +------------+
+|  Student   |---------------------| Instructor |
++------------+                     +------------+
+```
+
+**Diagram Example**:  
+Here is how you can depict an **advisor** relationship between **Student** and **Instructor** in an ER diagram.
+
+---
+
+## Mapping Cardinalities
+
+**Cardinality** defines how many instances of one entity relate to another entity in a relationship.
+
+### One-to-One (1:1) Relationship:
+Each entity in one entity set corresponds to one and only one entity in another entity set.
+
+**Example**:  
+A **Student** has one **Advisor**, and each **Advisor** is assigned to one **Student**.
+
+```plaintext
++------------+       advises        +------------+
+|  Student   |---------------------→| Instructor |
++------------+                      +------------+
+```
+
+### One-to-Many (1:N) Relationship:
+One entity in an entity set can be associated with multiple entities in the other set.
+
+**Example**:  
+An **Instructor** can advise many **Students**, but each **Student** has only one **Advisor**.
+
+```plaintext
++------------+       advises       +------------+
+| Instructor |---------------------→|  Student  |
++------------+                      +------------+
+```
+
+### Many-to-Many (M:N) Relationship:
+Multiple entities from one entity set are associated with multiple entities from another set.
+
+**Example**:  
+A **Student** can take multiple **Courses**, and each **Course** can have multiple **Students**.
+
+```plaintext
++------------+       takes          +------------+
+|  Student   |----------------------|  Course    |
++------------+                      +------------+
+```
+
+
 <br>
 
 # 3. ER Diagram Notation
@@ -131,22 +231,8 @@ ER diagrams use specific symbols to represent different elements:
 | Weak Entity Set | Double Rectangle |
 | Identifying Relationship | Double Diamond |
 
-# 4. Mapping Cardinalities
 
-Mapping cardinalities express the number of entities to which another entity can be associated via a relationship set.
-
-Types:
-- One-to-one (1:1)
-- One-to-many (1:N)
-- Many-to-one (N:1)
-- Many-to-many (M:N)
-
-Example:
-```
-instructor ---(1)---- advisor ----(N)--- student
-```
-
-# 5. Participation Constraints
+# 4. Participation Constraints
 
 - **Total Participation**: Every entity in the entity set participates in at least one relationship in the relationship set.
 - **Partial Participation**: Some entities may not participate in any relationship in the relationship set.

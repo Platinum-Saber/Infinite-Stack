@@ -47,7 +47,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GPT note.md"
+                "file": "SEM-3/CS3043-Database Systems/Study Notes/Database Design Using the E-R Model.md"
               }
             }
           },
@@ -143,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GPT note.md",
+                "file": "SEM-3/CS3043-Database Systems/Study Notes/Database Design Using the E-R Model.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -189,12 +189,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1ca0ca7584d7ab35",
+  "active": "c9ea712d66c519a9",
   "lastOpenFiles": [
     "GPT note.md",
     "SEM-3/CS3043-Database Systems/Study Notes/Database Design Using the E-R Model.md",
-    "Images/Pasted image 20240914231059.png",
     "SEM-3/CS3043-Database Systems/Study Notes/claude er-model-study-note.md",
+    "Images/Pasted image 20240914231059.png",
     "SEM-3/CS3043-Database Systems/Study Notes/Database Systems Introduction.md",
     "SEM-3/CS3043-Database Systems/Study Notes/Intermediate SQL.md",
     "SEM-3/CS3043-Database Systems/Study Notes/Introduction to SQL.md",
