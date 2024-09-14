@@ -10,8 +10,6 @@ About: Based on CS3043-Lecture 02 Database design using E-R models
 Related : #DatabaseSystems #DB/02 #ERD
 
 ---
-<br>
-
 # Content
 [[#1. Design Process]]
 - [[#Design Phases]]
@@ -19,14 +17,26 @@ Related : #DatabaseSystems #DB/02 #ERD
 - [[#Entity Sets]]
 - [[#Attributes]]
 - [[#Relationship Sets]]
+- [[#Cardinality]]
+	- [[#One-to-One (1 1) Relationship]]
+	- [[#One-to-Many (1 N) Relationship]]
+	- [[#Many-to-Many (M N) Relationship]]
+[[#3. ER Diagram Notation]]
+- [[#Keys and Identifiers]]
+- [[#Primary Key]]
+- [[#Weak Entities]]
+[[#4. Participation Constraints]]
+[[#5. Specialization and Generalization]]
+[[#6. Aggregation]]
+[[#7. Reduction to Relational Schemas]]
+[[#8. Design Issues and Best Practices]]
+[[#9. Alternative Notations]]
 
-
-
-
-
-# 1. Design Process
+---
 
 <br>
+
+# 1. Design Process
 
 ## Design Phases
 
@@ -92,8 +102,6 @@ Requirements --> Conceptual_design --> Logical_design --> Physical_design
 >An entity is represented by a set of **attributes** (descriptive properties possessed by all members of an entity set).
 >A subset of the attributes form a **`primary key`** 🔑 of the entity set. (uniquely identifying each member of the set)
 
-<br>
-
 >[!tip]- How to represent **entity sets** graphically
 >- Rectangles represents entity sets
 >- Attributes are listed inside the entity rectangle
@@ -142,7 +150,7 @@ Attributes describe the properties of an entity:
 
 <br>
 
-## Cardinality:
+## Cardinality
 
 - **Cardinality** defines how many instances of one entity relate to another entity in a relationship.
 
@@ -182,17 +190,19 @@ ER diagrams use specific symbols to represent different elements:
 | Primary Key | Underlined Attribute |
 | Weak Entity Set | Double Rectangle |
 | Identifying Relationship | Double Diamond |
-![[Pasted image 20240915003223.png]]
-![[Pasted image 20240915003236.png]]
-![[Pasted image 20240915003303.png]]
+
+> [!image]- ER notations
+> ![[Pasted image 20240915003223.png]]
+> ![[Pasted image 20240915003236.png]]
+> ![[Pasted image 20240915003303.png]]
+
 ## Keys and Identifiers
 
 ### Primary Key
-A **Primary Key** is an attribute or a set of attributes that uniquely identifies each entity in an entity set. No two entities can share the same primary key value.
+- A **Primary Key** is an attribute or a set of attributes that uniquely identifies each entity in an entity set. No two entities can share the same primary key value.
 
 **Example**:
 - The `student_id` is the primary key in the **Student** entity set.
-
 ```plaintext
 +------------+
 |  Student   |
@@ -204,17 +214,16 @@ A **Primary Key** is an attribute or a set of attributes that uniquely identifie
 ```
 
 ### Weak Entities
-
 - A **Weak Entity** is an entity that cannot be uniquely identified by its own attributes and depends on a **Strong Entity**.
 - A **Discriminator** is used to uniquely identify weak entities in combination with the primary key of the strong entity.
 
 **Example**:  
 A **Section** entity depends on the **Course** entity, and its unique identifier is a combination of `course_id`, `section_id`, and `year`.
-
 > [!image]- ER Diagram of Weak Entity:
 >  ![[Pasted image 20240915001406.png]]
 > The **Section** is a weak entity depending on the **Course**.
 
+<br>
 
 # 4. Participation Constraints
 
@@ -227,7 +236,7 @@ A **Section** entity depends on the **Course** entity, and its unique identifier
 > participation of instructor in advisor is partial
 
 
-
+<br>
 
 # 5. Specialization and Generalization
 
@@ -262,6 +271,7 @@ Person
 ```
 
 
+<br>
 
 # 6. Aggregation
 
