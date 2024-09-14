@@ -151,7 +151,7 @@ instructor ---(1)---- advisor ----(N)--- student
 - **Total Participation**: Every entity in the entity set participates in at least one relationship in the relationship set.
 - **Partial Participation**: Some entities may not participate in any relationship in the relationship set.
 
-## 6. Weak Entity Sets
+# 6. Weak Entity Sets
 
 A weak entity set is one whose existence depends on another entity, called its identifying entity.
 
