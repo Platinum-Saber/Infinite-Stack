@@ -8,56 +8,19 @@
         "type": "tabs",
         "children": [
           {
-            "id": "75a8b95bfa383826",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SEM-3/CS3043-Database Systems/Study Notes/claude er-model-study-note.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c9ea712d66c519a9",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2024-09-14 23.36.01.excalidraw.md"
-              }
-            }
-          },
-          {
-            "id": "1ca0ca7584d7ab35",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GPT note.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "43028b2911911f19",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM-3/CS3043-Database Systems/Study Notes/Database Design Using the E-R Model.md",
-                "mode": "preview",
+                "file": "SEM-3/CS3043-Database Systems/Test Questions/CS3043 Test Questions 01.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -142,7 +105,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM-3/CS3043-Database Systems/Study Notes/Database Design Using the E-R Model.md"
+                "file": "SEM-3/CS3043-Database Systems/Test Questions/CS3043 Test Questions 01.md"
               }
             }
           },
@@ -152,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM-3/CS3043-Database Systems/Study Notes/Database Design Using the E-R Model.md",
+                "file": "SEM-3/CS3043-Database Systems/Test Questions/CS3043 Test Questions 01.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -200,10 +163,13 @@
   },
   "active": "43028b2911911f19",
   "lastOpenFiles": [
-    "GPT note.md",
-    "SEM-3/CS3043-Database Systems/Study Notes/claude er-model-study-note.md",
     "Excalidraw/Drawing 2024-09-14 23.36.01.excalidraw.md",
+    "SEM-3/CS3043-Database Systems/Test Questions/CS3043 Test Questions 01.md",
+    "SEM-3/CS3043-Database Systems/Study Notes/claude er-model-study-note.md",
+    "SEM-3/CS3043-Database Systems/Study Notes/Advanced SQL.md",
+    "advanced-sql-study-note.md",
     "SEM-3/CS3043-Database Systems/Study Notes/Database Design Using the E-R Model.md",
+    "GPT note.md",
     "Images/Pasted image 20240915003303.png",
     "Images/Pasted image 20240915003236.png",
     "Images/Pasted image 20240915003223.png",
@@ -215,7 +181,6 @@
     "Images/Pasted image 20240915001406.png",
     "Images/Pasted image 20240915000914.png",
     "SEM-3/CS3043-Database Systems/Study Notes/Database Systems Introduction.md",
-    "SEM-3/CS3043-Database Systems/Study Notes/Advanced SQL.md",
     "SEM-3/CS3043-Database Systems/Study Notes/Intermediate SQL.md",
     "SEM-3/CS3043-Database Systems/Study Notes/Introduction to SQL.md",
     "SEM-3/CS3043-Database Systems/Study Notes/Relational Database Design.md",
@@ -227,7 +192,6 @@
     "SEM-3/CS3043-Database Systems/Study Notes/Unconfirmed 546824.crdownload",
     "SEM-3/CS3043-Database Systems/Study Notes/Unconfirmed 970494.crdownload",
     "SEM-3/CS3043-Database Systems/Database systems.md",
-    "SEM-3/CS3043-Database Systems/Test Questions/CS3043 Test Questions 01.md",
     "[[Relational.md",
     "SEM-3/CS3043-Database Systems/Study Notes/Unconfirmed 24472.crdownload",
     "Obsidian Tools/Check Box List.md",
@@ -239,7 +203,6 @@
     "SEM-3/CS3043-Database Systems/Unconfirmed 818229.crdownload",
     "Full Stack Development/Backend Development/Backend Development.md",
     "Full Stack Development/Backend Development/nodejs-sql-resources.md",
-    "advanced-sql-study-note.md",
     "Full Stack Development/Frontend Development/Setting Up React Framework.md",
     "Full Stack Development/Frontend Development/Using CSS in React.md",
     "Full Stack Development/Backend Development/Nodejs-SQL-Backend-Setup.md",

@@ -237,6 +237,6 @@
 > > c) Blockchain databases
 > 
 
-Answers:
+## Answers:
 1. b, 2. b, 3. c, 4. b, 5. b, 6. b, 7. b, 8. b, 9. c, 10. b, 
 11. c, 12. b, 13. c, 14. d, 15. b, 16. b, 17. b, 18. b, 19. b, 20. c
