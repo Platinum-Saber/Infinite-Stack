@@ -6,6 +6,7 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiFileQuestion",
       "SiObsidian",
       "SiCreatereactapp",
       "FabReact",
@@ -14,8 +15,7 @@
       "SiMysql",
       "SiNodemon",
       "FabNode",
-      "FabSquareJs",
-      "FasLaptopCode"
+      "FabSquareJs"
     ],
     "recentlyUsedIconsSize": 10,
     "rules": [],
@@ -40,7 +40,7 @@
   },
   "Images": {
     "iconName": "FarImages",
-    "iconColor": "#6e6bff"
+    "iconColor": "#fff952"
   },
   "SEM-3": {
     "iconName": "LiLibraryBig",
@@ -282,7 +282,7 @@
   "SEM-3/CS2053-Computer Architecture/GPT_Memory Hierarchy note.md": "FarNoteSticky",
   "Full Stack Development": {
     "iconName": "FasLaptopCode",
-    "iconColor": "#943dff"
+    "iconColor": "#5274ff"
   },
   "Full Stack Development/Backend Development": {
     "iconName": "SiNodedotjs",
@@ -355,5 +355,9 @@
   "SEM-3/CS3043-Database Systems/Group Project/SRS.md": {
     "iconName": "SiProtondb",
     "iconColor": "#a22f9e"
+  },
+  "SEM-3/CS3043-Database Systems/Test Questions/CS3043 Test Questions 01.md": {
+    "iconName": "LiFileQuestion",
+    "iconColor": "#6ffbac"
   }
 }

@@ -46,7 +46,7 @@ Reference Note : [Lecture 01](file:///E:%5CAcademics%5CSEM%203%5CCS3043-Database
 
 
 # 1. Introduction to Database Management Systems
-
+****
 <br>
 
 >[!note]- Database Management System
@@ -83,6 +83,7 @@ Reference Note : [Lecture 01](file:///E:%5CAcademics%5CSEM%203%5CCS3043-Database
 <br>
 
 # 2. Database Architecture and Abstraction Levels
+****
 >[!abstract]- Levels of Abstraction
 >>[!info]- Physical level
 >>Describes how a record is stored.
@@ -108,7 +109,7 @@ Reference Note : [Lecture 01](file:///E:%5CAcademics%5CSEM%203%5CCS3043-Database
 <br>
 
 # 3. Data Models
-
+****
  > [!abstract]- Types of Data Models
 > - Relational Model (most common)
 > - Entity-Relationship Model (for database design)
@@ -124,9 +125,9 @@ Reference Note : [Lecture 01](file:///E:%5CAcademics%5CSEM%203%5CCS3043-Database
 <br>
 
 # 4. Database Languages
-
-### Data Definition Language (DDL)
 ****
+### Data Definition Language (DDL)
+
 - Used to define database schemas
 - Example: `CREATE TABLE`, `ALTER TABLE`, `DROP TABLE`
 - DDL compiler generates a set of table templates stored in a `data dictionary`.
@@ -144,7 +145,7 @@ Reference Note : [Lecture 01](file:///E:%5CAcademics%5CSEM%203%5CCS3043-Database
 <br><br>
 
 # 5. Database Design
-
+****
 ### Logical Design
 - Deciding on the database schema
 - Involves both business and computer science decisions
@@ -164,7 +165,7 @@ Reference Note : [Lecture 01](file:///E:%5CAcademics%5CSEM%203%5CCS3043-Database
 <br>
 
 # 6. Key Database Concepts
-
+****
 ### Keys
 - **Superkey**: Set of attributes that can uniquely identify a tuple
 - **Candidate Key**: Minimal superkey
@@ -188,7 +189,7 @@ Reference Note : [Lecture 01](file:///E:%5CAcademics%5CSEM%203%5CCS3043-Database
 <br>
 
 # 7. Database Engine Components
-
+****
 ### Storage Manager
 - Provides interface between low-level data stored in the database and application programs
 - Responsible for data storage, retrieval, and updating
@@ -205,7 +206,7 @@ Reference Note : [Lecture 01](file:///E:%5CAcademics%5CSEM%203%5CCS3043-Database
 <br>
 
 # 8. Database Users and Administrators
-
+****
 ### Types of Users
 - Naive users: Interact with the system through application programs
 - Application Programmers: Develop programs using database access
@@ -219,7 +220,7 @@ Reference Note : [Lecture 01](file:///E:%5CAcademics%5CSEM%203%5CCS3043-Database
 <br>
 
 # 9. Database System Evolution
-
+****
 ### Historical Overview
 - 1950s-1960s: Magnetic tapes and punched cards
 - Late 1960s-1970s: Hard disks, network and hierarchical models, relational model introduced
@@ -233,6 +234,9 @@ Reference Note : [Lecture 01](file:///E:%5CAcademics%5CSEM%203%5CCS3043-Database
 - In-memory databases
 - Machine learning and AI integration
 
+<br>
+
 ---
 Up Next : [[Database Design Using the E-R Model]]
+Test Questions : [[CS3043 Test Questions 01]]
 
