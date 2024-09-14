@@ -19,8 +19,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "916d04cad57ad332",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SEM-3/CS3043-Database Systems/Database Systems Introduction.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -105,7 +119,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM-3/CS3043-Database Systems/cloude database-study-note.md"
+                "file": "SEM-3/CS3043-Database Systems/Database Systems Introduction.md"
               }
             }
           },
@@ -115,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM-3/CS3043-Database Systems/cloude database-study-note.md",
+                "file": "SEM-3/CS3043-Database Systems/Database Systems Introduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,12 +183,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6e8b743e2d29d633",
+  "active": "916d04cad57ad332",
   "lastOpenFiles": [
-    "SEM-3/CS3043-Database Systems/cloude database-test-questions.md",
-    "SEM-3/CS3043-Database Systems/Database Systems Introduction.md",
-    "SEM-3/CS3043-Database Systems/Unconfirmed 818229.crdownload",
     "SEM-3/CS3043-Database Systems/cloude database-study-note.md",
+    "SEM-3/CS3043-Database Systems/Database Systems Introduction.md",
+    "SEM-3/CS3043-Database Systems/cloude database-test-questions.md",
+    "SEM-3/CS3043-Database Systems/Unconfirmed 818229.crdownload",
     "SEM-3/CS3043-Database Systems/Unconfirmed 809678.crdownload",
     "SEM-3/CS3043-Database Systems/Database systems.md",
     "SEM-3/CS3043-Database Systems/Database Design Using the E-R Model.md",
