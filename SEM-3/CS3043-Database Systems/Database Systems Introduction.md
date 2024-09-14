@@ -94,6 +94,8 @@ Related : #DatabaseSystems #DB #DB/01
 - Each table consists of rows (tuples) and columns (attributes)
 - Each attribute has a domain (set of allowed values)
 
+<br>
+
 # 4. Database Languages
 
 ### Data Definition Language (DDL)
@@ -112,7 +114,7 @@ Related : #DatabaseSystems #DB #DB/01
 >   1. **Procedural**: Specifies what data is required and how to get it
 >   2. **Declarative**: Specifies what data is required without specifying how to get it
 
-
+<br>
 
 # 5. Database Design
 
