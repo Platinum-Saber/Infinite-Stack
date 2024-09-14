@@ -174,16 +174,16 @@ Reference Note : [Lecture 01](file:///E:%5CAcademics%5CSEM%203%5CCS3043-Database
 
 ### Relational Algebra
 #### Basic operators:
-- Select (σ): Selects tuples based on a condition
-- Project (Π): Selects attributes from a relation
-- Union (∪): Combines tuples from two relations
-- Set Difference (−): Returns tuples in one relation but not in another
-- Cartesian Product (×): Combines each tuple from one relation with every tuple from another
-- Rename (ρ): Renames attributes or relations
+- `Select (σ)`: Selects tuples based on a condition
+- `Project (Π)`: Selects attributes from a relation
+- `Union (∪)`: Combines tuples from two relations
+- `Set Difference (−)`: Returns tuples in one relation but not in another
+- `Cartesian Product (×)`: Combines each tuple from one relation with every tuple from another
+- `Rename (ρ)`: Renames attributes or relations
 
 #### Additional operators:
-- Intersection (∩): Returns tuples common to both relations
-- Natural Join (⋈): Combines related tuples from two relations based on common attributes
+- `Intersection (∩)`: Returns tuples common to both relations
+- `Natural Join (⋈)`: Combines related tuples from two relations based on common attributes
 
 ##### Detailed Notes : [[Relational Algebra]]
 

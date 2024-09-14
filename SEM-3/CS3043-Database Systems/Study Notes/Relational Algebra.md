@@ -140,39 +140,39 @@ Relational algebra provides a set of operations that can be performed on relatio
 > > | 2     | Bob    | HR         | 65000  | 101    | Website     | IT             |
 > > | ...   | ...    | ...        | ...    | ...    | ...         | ...            |
 
+<br>
 
-## 6. Natural Join (⋈)
+## 6. Natural Join (`⋈`)
 
-The natural join combines tuples from two relations based on common attributes.
+- The natural join combines tuples from two relations based on common attributes.
+- `Syntax`: R ⋈ S
 
-Syntax: R ⋈ S
+> [!example]- **Example**: Join employees with their respective projects based on the department.
+> 
+> #### Employee ⋈ Project
+> 
+> >[!table]- Result:
+> > 
+> > | EmpID | Name   | Department | Salary | ProjID | ProjectName |
+> > |-------|--------|------------|--------|--------|-------------|
+> > | 1     | Alice  | IT         | 75000  | 101    | Website     |
+> > | 1     | Alice  | IT         | 75000  | 104    | App Dev     |
+> > | 2     | Bob    | HR         | 65000  | 102    | Recruiting  |
+> > | 3     | Carol  | Finance    | 80000  | 103    | Budgeting   |
+> > | 4     | David  | IT         | 72000  | 101    | Website     |
+> > | 4     | David  | IT         | 72000  | 104    | App Dev     |
+> > | 5     | Eve    | HR         | 68000  | 102    | Recruiting  |
 
-Example: Join employees with their respective projects based on the department.
 
-Employee ⋈ Project
+> [!example]- **Example**: Find names of employees in the IT department with a salary greater than 73000:
+> 
+> #### π<sub>Name</sub>(σ<sub>Department = 'IT' AND Salary > 73000</sub>(Employee))
+> 
+> >[!table]- Result:
+> > 
+> > | Name  |
+> > |-------|
+> > | Alice |
+> 
+> This combination first selects the rows that meet the criteria (IT department and salary > 73000) and then projects only the Name column.
 
-Result:
-
-| EmpID | Name   | Department | Salary | ProjID | ProjectName |
-|-------|--------|------------|--------|--------|-------------|
-| 1     | Alice  | IT         | 75000  | 101    | Website     |
-| 1     | Alice  | IT         | 75000  | 104    | App Dev     |
-| 2     | Bob    | HR         | 65000  | 102    | Recruiting  |
-| 3     | Carol  | Finance    | 80000  | 103    | Budgeting   |
-| 4     | David  | IT         | 72000  | 101    | Website     |
-| 4     | David  | IT         | 72000  | 104    | App Dev     |
-| 5     | Eve    | HR         | 68000  | 102    | Recruiting  |
-
-These operations can be combined to form more complex queries. For example:
-
-Find names of employees in the IT department with a salary greater than 73000:
-
-π<sub>Name</sub>(σ<sub>Department = 'IT' AND Salary > 73000</sub>(Employee))
-
-Result:
-
-| Name  |
-|-------|
-| Alice |
-
-This combination first selects the rows that meet the criteria (IT department and salary > 73000) and then projects only the Name column.

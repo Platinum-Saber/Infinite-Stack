@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM-3/CS3043-Database Systems/Study Notes/Relational Algebra.md",
+                "file": "SEM-3/CS3043-Database Systems/Test Questions/CS3043 Test Questions 01.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -105,7 +105,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM-3/CS3043-Database Systems/Study Notes/Relational Algebra.md"
+                "file": "SEM-3/CS3043-Database Systems/Test Questions/CS3043 Test Questions 01.md"
               }
             }
           },
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM-3/CS3043-Database Systems/Study Notes/Relational Algebra.md",
+                "file": "SEM-3/CS3043-Database Systems/Test Questions/CS3043 Test Questions 01.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,14 +164,15 @@
   "active": "75a8b95bfa383826",
   "lastOpenFiles": [
     "SEM-3/CS3043-Database Systems/Study Notes/Database Systems Introduction.md",
-    "[[Relational.md",
+    "SEM-3/CS3043-Database Systems/Study Notes/Intermediate SQL.md",
     "SEM-3/CS3043-Database Systems/Study Notes/Relational Algebra.md",
+    "SEM-3/CS3043-Database Systems/Study Notes/Introduction to SQL.md",
+    "SEM-3/CS3043-Database Systems/Study Notes/Relational Database Design.md",
+    "[[Relational.md",
     "SEM-3/CS3043-Database Systems/Study Notes/Unconfirmed 24472.crdownload",
     "Images/Pasted image 20240914185503.png",
     "Images/Pasted image 20240914184930.png",
-    "SEM-3/CS3043-Database Systems/Study Notes/Introduction to SQL.md",
     "SEM-3/CS3043-Database Systems/Test Questions/CS3043 Test Questions 01.md",
-    "SEM-3/CS3043-Database Systems/Study Notes/Relational Database Design.md",
     "SEM-3/CS3043-Database Systems/Database systems.md",
     "Obsidian Tools/Check Box List.md",
     "SEM-3/CS3043-Database Systems/cloude database-study-note.md",
@@ -182,7 +183,6 @@
     "SEM-3/CS3043-Database Systems/Unconfirmed 818229.crdownload",
     "SEM-3/CS3043-Database Systems/Unconfirmed 809678.crdownload",
     "SEM-3/CS3043-Database Systems/Study Notes/Database Design Using the E-R Model.md",
-    "SEM-3/CS3043-Database Systems/Study Notes/Intermediate SQL.md",
     "SEM-3/CS3043-Database Systems/Study Notes/Advanced SQL.md",
     "Full Stack Development/Backend Development/Backend Development.md",
     "Full Stack Development/Backend Development/nodejs-sql-resources.md",
