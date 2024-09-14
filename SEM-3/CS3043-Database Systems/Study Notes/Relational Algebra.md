@@ -1,31 +1,33 @@
-# Relational Algebra: Detailed Explanation with Examples
+# Relational Algebra
 
-Relational algebra provides a set of operations that can be performed on relations (tables) to query and manipulate data. Here, we'll cover the basic operations with examples.
+Relational algebra provides a set of operations that can be performed on relations (tables) to query and manipulate data. 
 
 Let's consider two sample relations (tables) for our examples:
 
 ## Sample Relations
 
-### Employee Table:
 
-| EmpID | Name   | Department | Salary |
-|-------|--------|------------|--------|
-| 1     | Alice  | IT         | 75000  |
-| 2     | Bob    | HR         | 65000  |
-| 3     | Carol  | Finance    | 80000  |
-| 4     | David  | IT         | 72000  |
-| 5     | Eve    | HR         | 68000  |
+> [!Table]- Example Tables
+> #### Employee Table:
+> | EmpID | Name   | Department | Salary |
+> |-------|--------|------------|--------|
+> | 1     | Alice  | IT         | 75000  |
+> | 2     | Bob    | HR         | 65000  |
+> | 3     | Carol  | Finance    | 80000  |
+> | 4     | David  | IT         | 72000  |
+> | 5     | Eve    | HR         | 68000  |
+> 
+> #### Project Table:
+> 
+> | ProjID | ProjectName | Department |
+> |--------|-------------|------------|
+> | 101    | Website     | IT         |
+> | 102    | Recruiting  | HR         |
+> | 103    | Budgeting   | Finance    |
+> | 104    | App Dev     | IT         |
+> 
 
-### Project Table:
 
-| ProjID | ProjectName | Department |
-|--------|-------------|------------|
-| 101    | Website     | IT         |
-| 102    | Recruiting  | HR         |
-| 103    | Budgeting   | Finance    |
-| 104    | App Dev     | IT         |
-
-Now, let's go through the basic relational algebra operations:
 
 ## 1. Selection (σ)
 
