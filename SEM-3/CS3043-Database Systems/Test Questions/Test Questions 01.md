@@ -1,10 +1,10 @@
 # Database Systems: MCQ
 
-1. What are the three main levels of abstraction in the database architecture?
-   -[ ] a) Physical, Logical, and Conceptual 
-   b) Physical, Logical, and View
-   c) Conceptual, Internal, and External
-   d) Storage, Query, and Application
+> [!faq]- 1.What are the three main levels of abstraction in the database architecture?
+> - [ ] a) Physical, Logical, and Conceptual 
+> - [ ] b) Physical, Logical, and View
+> - [ ] c) Conceptual, Internal, and External
+> - [ ] d) Storage, Query, and Application
 
 2. What is the primary purpose of a Database Management System (DBMS)?
    a) To create websites
