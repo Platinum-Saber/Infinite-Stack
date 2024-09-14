@@ -53,14 +53,14 @@
               "type": "markdown",
               "state": {
                 "file": "SEM-3/CS3043-Database Systems/Study Notes/Database Design Using the E-R Model.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -200,13 +200,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8e5a3765a9c45317",
+  "active": "c9ea712d66c519a9",
   "lastOpenFiles": [
+    "GPT note.md",
+    "SEM-3/CS3043-Database Systems/Study Notes/Database Design Using the E-R Model.md",
+    "Images/Pasted image 20240914235056.png",
     "SEM-3/CS3043-Database Systems/Study Notes/Database Systems Introduction.md",
     "SEM-3/CS3043-Database Systems/Study Notes/Advanced SQL.md",
     "Excalidraw/Drawing 2024-09-14 23.36.01.excalidraw.md",
-    "GPT note.md",
-    "SEM-3/CS3043-Database Systems/Study Notes/Database Design Using the E-R Model.md",
     "SEM-3/CS3043-Database Systems/Study Notes/claude er-model-study-note.md",
     "Images/Pasted image 20240914231059.png",
     "SEM-3/CS3043-Database Systems/Study Notes/Intermediate SQL.md",
@@ -243,11 +244,9 @@
     "Full Stack Development/Backend Development/Nodejs-SQL-Backend-Setup.md",
     "Full Stack Development/Backend Development/Setting Up Password Hashing for Signups.md",
     "Full Stack Development/Backend Development/Setting Up .ENV.md",
-    "Full Stack Development/Backend Development/Setting Up Nodemon.md",
     "Images/Database Systems - Group Project - Group 6 - Page 1 1.png",
     "Images/Database Systems - Group Project - Group 6 - Page 1 2.png",
     "Images/Pasted image 20240909160539.png",
-    "Images/Pasted image 20240909113247.png",
     "Work Space.canvas",
     "Untitled.canvas"
   ]

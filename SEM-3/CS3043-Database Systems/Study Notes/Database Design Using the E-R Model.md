@@ -132,9 +132,6 @@ Attributes describe the properties of an entity:
 +------------+
 ```
 
-> [!image]- Relationship sets with attributes
-> ![[Pasted image 20240914231059.png]]
-
 <br>
 
 ## Relationship Sets
@@ -157,19 +154,13 @@ Relationships between entities can have different types of cardinalities:
 Instructor - advises - Student
 ```
 
-### Diagram Representation:
-In ER diagrams, relationships are represented by diamonds, and cardinalities by lines connecting the diamond to the rectangles representing entities.
-
-```plaintext
-+------------+       advisor       +------------+
-|  Student   |---------------------| Instructor |
-+------------+                     +------------+
-```
-
-**Diagram Example**:  
-Here is how you can depict an **advisor** relationship between **Student** and **Instructor** in an ER diagram.
+> [!image]- Relationship set diagram 
+> ![[Pasted image 20240914235056.png]]
 
 
+
+
+> ![[Pasted image 20240914231059.png]]
 
 ## Mapping Cardinalities
 
@@ -271,7 +262,7 @@ The **Section** is a weak entity depending on the **Course**.
 - **Partial Participation**: Some entities may not participate in any relationship in the relationship set.
 
 
-# 7. Specialization and Generalization
+# 5. Specialization and Generalization
 
 - **Specialization**: Top-down design process; designating subgroupings within an entity set.
 - **Generalization**: Bottom-up design process; combining entity sets with shared features into a higher-level entity set.
@@ -289,7 +280,23 @@ Person
         |-- Undergraduate
 ```
 
-# 8. Aggregation
+
+- **Specialization**: Represented by a triangle and an “ISA” relationship.
+```plaintext
++-------------+
+|   Employee  |
++-------------+
+      |
+      ISA
+     /   \
++-----------+ +------------+
+| Faculty   | |   Staff    |
++-----------+ +------------+
+```
+
+
+
+# 6. Aggregation
 
 Aggregation allows treating a relationship set as an entity set for purposes of participating in other relationship sets.
 
@@ -298,7 +305,7 @@ Example:
 (proj_guide(student, project, instructor)) --- eval_for --- evaluation
 ```
 
-# 9. Reduction to Relational Schemas
+# 7. Reduction to Relational Schemas
 
 The ER model can be converted to relational schemas:
 - Each entity set and relationship set becomes a relation schema
@@ -321,7 +328,7 @@ CREATE TABLE advisor (
 );
 ```
 
-# 10. Design Issues and Best Practices
+# 8. Design Issues and Best Practices
 
 - Choose between entities and attributes based on the complexity and importance of the concept.
 - Decide whether a concept should be an entity set or a relationship set.
@@ -330,7 +337,7 @@ CREATE TABLE advisor (
 - Utilize specialization/generalization for better modularity.
 - Apply aggregation to represent complex relationships.
 
-# 11. Alternative Notations
+# 9. Alternative Notations
 
 While this note focuses on the classic ER notation, other notations exist:
 - Chen notation
