@@ -164,7 +164,7 @@ Reference Note : [Lecture 05](file:///E:%5CAcademics%5CSEM%203%5CCS3043-Database
 > // v - name of the view
 > ```
 
-> [!example]- 
+> [!example]- View Creation examples
 > > [!info] View of instructors without their salary
 > > ```SQL
 > > CREATE VIEW faculty AS
@@ -180,9 +180,19 @@ Reference Note : [Lecture 05](file:///E:%5CAcademics%5CSEM%203%5CCS3043-Database
 > > GROUP BY dept_name
 > > ```
 
+> [!info]- Using a View:
+> - Views can be queried just like regular tables:
+> 
+> ```sql
+> SELECT name
+> FROM faculty
+> WHERE name LIKE 'P%';
+> ```
+> This query returns names of Computer Science faculty members whose names start with 'P'.
+
 <br>
 
-## View Dependencies
+## 2. View Dependencies
 - One **view** may be *used in the expression defining* **another view**.
 - A view is said to be **recursive** if it *depends on* **itself**. 
 - A view relation $V_2$ is said to **depend directly** on a view relation $V_1$ , if  $V_1$  is *used in the expression defining* $V_2$ . ($V_1$ :luc_arrow_left: $V_2$) 
@@ -207,7 +217,7 @@ Reference Note : [Lecture 05](file:///E:%5CAcademics%5CSEM%203%5CCS3043-Database
 
 <br>
 
-## View Expansion
+## 3. View Expansion
 - A way to define the meaning of views defined in terms of other views.
 - Let the view $v_1$ be defined by an expression $e_1$ that may itself contain uses of view relations.
 
@@ -224,5 +234,25 @@ Reference Note : [Lecture 05](file:///E:%5CAcademics%5CSEM%203%5CCS3043-Database
 <br>
 
 ## Updating a View
-- For a view to be updatable, there must be a one-to-one relationship between the rows in the view and the rows in the underlying table
+- For a view to be updatable, there must be a one-to-one relationship between the rows in the view and the rows in the underlying table.
 
+- Not all views are updatable. For a view to be updatable:
+	- The `FROM` clause should have only one table
+	- The `SELECT` clause should only contain column names (**no expressions or aggregates**)
+	- Should not have `GROUP BY` or `HAVING` clauses
+
+> [!info]- SQ 
+> Example of an updatable view:
+> 
+> ```sql
+> CREATE VIEW computerscience_instructors AS
+> SELECT ID, name, salary
+> FROM instructor
+> WHERE dept_name = 'Computer Science';
+> 
+> -- This update is allowed
+> UPDATE computerscience_instructors
+> SET salary = salary * 1.05
+> WHERE ID = '10101';
+> ```
+> 
