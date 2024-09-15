@@ -13,15 +13,15 @@ Reference Note : [Lecture 05](file:///E:%5CAcademics%5CSEM%203%5CCS3043-Database
 ---
 # Content
 1. [[#Joined Relations]]
-	- [[#OUTER JOIN]]
-		- [[#LEFT OUTER JOIN]]
-		- [[#RIGHT OUTER JOIN]]
-		- [[#FULL OUTER JOIN]]
-	- [[#INNER JOIN]]
+	- [[#1. OUTER JOIN]]
+		- [[#1.1 LEFT OUTER JOIN]]
+		- [[#1.2 RIGHT OUTER JOIN]]
+		- [[#1.3 FULL OUTER JOIN]]
+	- [[#2. INNER JOIN]]
 2. [[#Views]]
-	- [[#VIEW Definition]]
-	- [[#View Dependencies]]
-	- [[#View Expansion]]
+	- [[#1. VIEW Definition]]
+	- [[#2. View Dependencies]]
+	- [[#3. View Expansion]]
 	- [[#Updating a View]]
 
 ---
@@ -326,49 +326,52 @@ This transaction transfers $100 from account A to account B. Either both updates
 > 
 
 #### 3. UNIQUE
+- Ensures all values in a column are different.
 
-Ensures all values in a column are different.
-
-```sql
-CREATE TABLE instructor (
-    ID CHAR(5),
-    name VARCHAR(20) UNIQUE,
-    dept_name VARCHAR(20),
-    salary NUMERIC(8,2)
-);
-```
+> [!info] SQL code
+> ```sql
+> CREATE TABLE instructor (
+>     ID CHAR(5),
+>     name VARCHAR(20) UNIQUE,
+>     dept_name VARCHAR(20),
+>     salary NUMERIC(8,2)
+> );
+> ```
 
 #### 4. CHECK
+- Ensures that all values in a column satisfy certain conditions.
 
-Ensures that all values in a column satisfy certain conditions.
-
-```sql
-CREATE TABLE section (
-    course_id VARCHAR(8),
-    sec_id VARCHAR(8),
-    semester VARCHAR(6),
-    year NUMERIC(4,0),
-    CHECK (semester IN ('Fall', 'Winter', 'Spring', 'Summer')),
-    CHECK (year > 1701 AND year < 2100)
-);
-```
+> [!info] SQL code
+> ```sql
+> CREATE TABLE section (
+>     course_id VARCHAR(8),
+>     sec_id VARCHAR(8),
+>     semester VARCHAR(6),
+>     year NUMERIC(4,0),
+>     CHECK (semester IN ('Fall', 'Winter', 'Spring', 'Summer')),
+>     CHECK (year > 1701 AND year < 2100)
+> );
+> ```
 
 #### 5. FOREIGN KEY (Referential Integrity)
+- Ensures values in one table exist in another table.
 
-Ensures values in one table exist in another table.
-
-```sql
-CREATE TABLE course (
-    course_id CHAR(5) PRIMARY KEY,
-    title VARCHAR(50),
-    dept_name VARCHAR(20),
-    FOREIGN KEY (dept_name) REFERENCES department(dept_name)
-        ON DELETE SET NULL
-        ON UPDATE CASCADE
-);
-```
+> [!info] SQL code
+> ```sql
+> CREATE TABLE course (
+>     course_id CHAR(5) PRIMARY KEY,
+>     title VARCHAR(50),
+>     dept_name VARCHAR(20),
+>     FOREIGN KEY (dept_name) REFERENCES department(dept_name)
+>         ON DELETE SET NULL
+>         ON UPDATE CASCADE
+> );
+> ```
+> 
 
 This ensures that every dept_name in the course table exists in the department table. If a department is deleted, the dept_name in course becomes NULL. If a department name is updated, it's automatically updated in the course table too.
+
+<br>
 
 # Data Types
 
@@ -386,72 +389,79 @@ SQL provides various built-in data types and allows creation of user-defined typ
 
 ## 2. User-Defined Types:
 
-Create custom data types:
-
-```sql
-CREATE TYPE Dollars AS NUMERIC(12,2) FINAL;
-
-CREATE TABLE department (
-    dept_name VARCHAR(20),
-    budget Dollars
-);
-```
+> [!info] Create custom data types:
+> 
+> ```sql
+> CREATE TYPE Dollars AS NUMERIC(12,2) FINAL;
+> 
+> CREATE TABLE department (
+>     dept_name VARCHAR(20),
+>     budget Dollars
+> );
+> ```
+> 
 
 ## 3. Domains:
+- Domains are user-defined data types with constraints:
 
-Domains are user-defined data types with constraints:
-
-```sql
-CREATE DOMAIN age_type AS INTEGER CHECK (VALUE >= 0 AND VALUE < 150);
-
-CREATE TABLE person (
-    name VARCHAR(50),
-    age age_type
-);
-```
+> [!info] SQL code
+> ```sql
+> CREATE DOMAIN age_type AS INTEGER CHECK (VALUE >= 0 AND VALUE < 150);
+> 
+> CREATE TABLE person (
+>     name VARCHAR(50),
+>     age age_type
+> );
+> ```
+> 
 
 ## 4. Large Object Types:
 - `BLOB`: Binary Large Object, for storing binary data like images
 - `CLOB`: Character Large Object, for storing large text data
 
-Example:
+> [!info] SQL example:
+> 
+> ```sql
+> CREATE TABLE documents (
+>     doc_id INTEGER PRIMARY KEY,
+>     doc_content CLOB
+> );
+> ```
+> 
 
-```sql
-CREATE TABLE documents (
-    doc_id INTEGER PRIMARY KEY,
-    doc_content CLOB
-);
-```
+<br>
 
 # Indexing
+- Indexes are used to speed up data retrieval operations on database tables.
 
-Indexes are used to speed up data retrieval operations on database tables.
+> [!info] Creating an index:
+> 
+> ```sql
+> CREATE INDEX student_name_index ON student(name);
+> ```
+> This creates an index on the 'name' column of the 'student' table.
 
-Creating an index:
-
-```sql
-CREATE INDEX student_name_index ON student(name);
-```
-
-This creates an index on the 'name' column of the 'student' table.
-
-Composite index (index on multiple columns):
-
-```sql
-CREATE INDEX course_offering_index ON section(course_id, semester, year);
-```
+> [!info] Composite index (index on multiple columns):
+> 
+> ```sql
+> CREATE INDEX course_offering_index ON section(course_id, semester, year);
+> ```
+> 
 
 ## Best Practices:
 - Use indexes on frequently queried columns
 - Index foreign key columns
 - Don't overuse indexes, as they impact insert/update performance
 
-Example of using an index:
+> [!info] Example of using an index:
+> 
+> ```sql
+> -- This query can use the student_name_index
+> SELECT * FROM student WHERE name = 'John Doe';
+> ```
+> 
 
-```sql
--- This query can use the student_name_index
-SELECT * FROM student WHERE name = 'John Doe';
-```
+<br>
 
 # TRUNCATE vs DELETE
 
@@ -461,10 +471,11 @@ SELECT * FROM student WHERE name = 'John Doe';
 - Cannot be rolled back (in MySQL)
 - Doesn't invoke ON DELETE triggers
 
-Example:
-```sql
-TRUNCATE TABLE temp_logs;
-```
+> [!info] Example:
+> ```sql
+> TRUNCATE TABLE temp_logs;
+> ```
+> 
 
 ### DELETE:
 - DML (Data Manipulation Language) statement
@@ -472,12 +483,11 @@ TRUNCATE TABLE temp_logs;
 - Can be rolled back
 - Invokes ON DELETE triggers
 
-Example:
-```sql
-DELETE FROM student
-WHERE graduation_year < 2020;
-```
+> [!info] Example:
+> ```sql
+> DELETE FROM student
+> WHERE graduation_year < 2020;
+> ```
+> This deletes all students who graduated before 2020.
 
-This deletes all students who graduated before 2020.
-
-Remember, while DELETE can be more precise, TRUNCATE is much faster for removing all data from a large table.
+> [!warning] while `DELETE` can be more precise, `TRUNCATE` is much faster for removing all data from a large table.
