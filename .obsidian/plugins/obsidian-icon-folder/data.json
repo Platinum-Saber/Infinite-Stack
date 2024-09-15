@@ -6,6 +6,7 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "FiLink",
       "LiLinksGoingOut",
       "FasPeopleGroup",
       "FarCircleQuestion",
@@ -14,8 +15,7 @@
       "FarNoteSticky",
       "LiFileQuestion",
       "SiObsidian",
-      "SiCreatereactapp",
-      "FabReact"
+      "SiCreatereactapp"
     ],
     "recentlyUsedIconsSize": 10,
     "rules": [],
@@ -77,14 +77,6 @@
   "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications": {
     "iconName": "RaFire",
     "iconColor": "#ff5252"
-  },
-  "Infinite Stack.md": {
-    "iconName": "RiStackFill",
-    "iconColor": "#d2ff70"
-  },
-  "SEM-3 INDEX.md": {
-    "iconName": "FiHome",
-    "iconColor": "#fcb069"
   },
   "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Basic Concepts of Thermodynamics.md": {
     "iconName": "FiFile",
@@ -275,10 +267,6 @@
     "iconName": "LiFile",
     "iconColor": "#2e6dff"
   },
-  "Study Tracker.md": {
-    "iconName": "RiBookOpenFill",
-    "iconColor": "#ff0059"
-  },
   "SEM-3/CS2053-Computer Architecture/GPT_Memory Hierarchy note.md": "FarNoteSticky",
   "Full Stack Development": {
     "iconName": "FasLaptopCode",
@@ -388,5 +376,17 @@
   "SEM-3/CS3043-Database Systems/Study Notes": "LiBookOpen",
   "SEM-3/CS3043-Database Systems/Test Questions": "FarCircleQuestion",
   "SEM-3/CS3043-Database Systems/Group Project": "FasPeopleGroup",
-  "Singularity": "LiLinksGoingOut"
+  "Singularity": "FiLink",
+  "Singularity/Infinite Stack.md": {
+    "iconName": "RiStackFill",
+    "iconColor": "#d2ff70"
+  },
+  "Singularity/SEM-3 INDEX.md": {
+    "iconName": "FiHome",
+    "iconColor": "#fcb069"
+  },
+  "Singularity/Study Tracker.md": {
+    "iconName": "RiBookOpenFill",
+    "iconColor": "#ff0059"
+  }
 }

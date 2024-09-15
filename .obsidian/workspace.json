@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM-3 INDEX.md",
-                "mode": "source",
+                "file": "Obsidian Tools/Callout List.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM-3 INDEX.md"
+                "file": "Obsidian Tools/Callout List.md"
               }
             }
           },
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM-3 INDEX.md",
+                "file": "Obsidian Tools/Callout List.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,11 +159,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "671fcfcc9244e77e",
+  "active": "1b19c6c229f33344",
   "lastOpenFiles": [
+    "Obsidian Tools/Check Box List.md",
+    "Obsidian Tools/Callout List.md",
+    "Singularity/SEM-3 INDEX.md",
+    "Singularity/Study Tracker.md",
     "Singularity",
-    "Infinite Stack.md",
-    "SEM-3 INDEX.md",
+    "Singularity/Infinite Stack.md",
     "SEM-3/CS3043-Database Systems/Database systems.md",
     "SEM-3/CS3043-Database Systems/Test Questions/CS3043 Test Questions 07.md",
     "SEM-3/CS3043-Database Systems/Test Questions/CS3043 Test Questions 05.md",
@@ -187,7 +190,6 @@
     "Excalidraw/Drawing 2024-09-14 23.36.01.excalidraw.md",
     "SEM-3/CS3043-Database Systems/Study Notes/claude er-model-study-note.md",
     "advanced-sql-study-note.md",
-    "GPT note.md",
     "Images/Pasted image 20240915003303.png",
     "Images/Pasted image 20240915003236.png",
     "Images/Pasted image 20240915003223.png",
@@ -198,7 +200,6 @@
     "Images/Pasted image 20240915001627.png",
     "Images/Pasted image 20240915001406.png",
     "Images/Pasted image 20240915000914.png",
-    "SEM-3/CS3043-Database Systems/Study Notes/er-model-study-note.md",
     "SEM-3/CS3043-Database Systems/Study Notes/Unconfirmed 996422.crdownload",
     "SEM-3/CS3043-Database Systems/Study Notes/Unconfirmed 551833.crdownload",
     "SEM-3/CS3043-Database Systems/Study Notes/Unconfirmed 175914.crdownload",
@@ -206,7 +207,6 @@
     "SEM-3/CS3043-Database Systems/Study Notes/Unconfirmed 970494.crdownload",
     "SEM-3/CS3043-Database Systems/Study Notes/Unconfirmed 24472.crdownload",
     "Obsidian Tools",
-    "SEM-3/CS3043-Database Systems/Test Questions",
     "Work Space.canvas",
     "Untitled.canvas"
   ]

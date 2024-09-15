@@ -48,7 +48,8 @@ Related : #Study #Academic #CheckList
 - [ ] 3- [[Introduction to SQL]]
 - [ ] 4- [[Relational Database Design]]
 - [ ] 5- [[Intermediate SQL]]
-- [ ] 6
+- [ ] 6- [[Application Design & Development]]
+- [ ] 7- [[Advanced SQL]]
 
 <br>
 
