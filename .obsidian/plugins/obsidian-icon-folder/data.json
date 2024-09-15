@@ -358,7 +358,7 @@
   },
   "SEM-3/CS3043-Database Systems/Test Questions/CS3043 Test Questions 01.md": {
     "iconName": "LiFileQuestion",
-    "iconColor": "#6ffbac"
+    "iconColor": "#61ffd0"
   },
   "SEM-3/CS3043-Database Systems/Study Notes/Relational Algebra.md": "FarNoteSticky",
   "SEM-3/CS3043-Database Systems/Test Questions/CS3043 Test Questions 04.md": {
@@ -368,5 +368,13 @@
   "SEM-3/CS3043-Database Systems/Test Questions/CS3043 Test Questions 03.md": {
     "iconName": "LiFileQuestion",
     "iconColor": "#66ffbd"
+  },
+  "SEM-3/CS3043-Database Systems/Test Questions/CS3043 Test Questions 02.md": {
+    "iconName": "LiFileQuestion",
+    "iconColor": "#6afbc3"
+  },
+  "SEM-3/CS3043-Database Systems/Test Questions/CS3043 Test Questions 05.md": {
+    "iconName": "LiFileQuestion",
+    "iconColor": "#5cffb8"
   }
 }

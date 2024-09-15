@@ -1,4 +1,5 @@
-
+Related : #DatabaseSystems #DB #ERD #MCQ 
+# Entity Relationship Model : MCQ
 
 >[!dbq]- Question 1
 >>[!faq]- What is the primary purpose of the Entity-Relationship (ER) model?
