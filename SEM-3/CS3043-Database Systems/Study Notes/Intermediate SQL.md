@@ -22,7 +22,26 @@ Reference Note : [Lecture 05](file:///E:%5CAcademics%5CSEM%203%5CCS3043-Database
 	- [[#1. VIEW Definition]]
 	- [[#2. View Dependencies]]
 	- [[#3. View Expansion]]
-	- [[#Updating a View]]
+	- [[#4. Updating a View]]
+	- [[#5. Materialized Views]]
+3. [[#Transactions]]
+4. [[#Integrity Constraints]]
+	1. [[#Types of Constraints]]
+		- [[#1. NOT NULL]]
+		- [[#2. PRIMARY KEY]]
+		- [[#3. UNIQUE]]
+		- [[#4. CHECK]]
+		- [[#5. FOREIGN KEY (Referential Integrity)]]
+5. [[#Data Types]]
+	- [[#1. Built-in Types]]
+	- [[#2. User-Defined Types]]
+	- [[#3. Domains]]
+	- [[#4. Large Object Types]]
+6. [[#Indexing]]
+	1. [[#Best Practices]]
+7. [[#TRUNCATE vs DELETE]]
+	1. [[#TRUNCATE]]
+	2. [[#DELETE]]
 
 ---
 # Joined Relations
@@ -146,7 +165,11 @@ Reference Note : [Lecture 05](file:///E:%5CAcademics%5CSEM%203%5CCS3043-Database
 > > FROM course INNER JOIN prereq
 > > USING (course_id)
 > > ```
-> 
+
+
+---
+<br>
+<br>
 
 # Views
 - Provides a mechanism to **hide** *certain data* from the *view of certain users*.
@@ -256,6 +279,8 @@ Reference Note : [Lecture 05](file:///E:%5CAcademics%5CSEM%203%5CCS3043-Database
 > WHERE ID = '10101';
 > ```
 
+<br>
+
 ## 5. Materialized Views:
 - Some databases support materialized views, which store the query results physically.
 
@@ -269,6 +294,8 @@ Reference Note : [Lecture 05](file:///E:%5CAcademics%5CSEM%203%5CCS3043-Database
 
 >[!warning] MySQL doesn't support materialized views natively.
 
+---
+<br>
 <br>
 
 # Transactions
@@ -292,6 +319,8 @@ Reference Note : [Lecture 05](file:///E:%5CAcademics%5CSEM%203%5CCS3043-Database
 
 This transaction transfers $100 from account A to account B. Either both updates happen, or neither does.
 
+---
+<br>
 <br>
 
 # Integrity Constraints
@@ -367,10 +396,9 @@ This transaction transfers $100 from account A to account B. Either both updates
 >         ON UPDATE CASCADE
 > );
 > ```
-> 
+>This ensures that every dept_name in the course table exists in the department table. If a department is deleted, the dept_name in course becomes NULL. If a department name is updated, it's automatically updated in the course table too.
 
-This ensures that every dept_name in the course table exists in the department table. If a department is deleted, the dept_name in course becomes NULL. If a department name is updated, it's automatically updated in the course table too.
-
+---
 <br>
 
 # Data Types
@@ -378,14 +406,16 @@ This ensures that every dept_name in the course table exists in the department t
 SQL provides various built-in data types and allows creation of user-defined types.
 
 ## 1. Built-in Types:
-- `DATE`: Stores date in 'YYYY-MM-DD' format
-  Example: DATE '2023-09-15'
-- `TIME`: Stores time in 'HH:MM:SS' format
+- #### `DATE`: Stores date in 'YYYY-MM-DD' format
+  - Example: DATE '2023-09-15'
+- #### `TIME`: Stores time in 'HH:MM:SS' format
   Example: TIME '14:30:00'
-- `TIMESTAMP`: Combines date and time
+- #### `TIMESTAMP`: Combines date and time
   Example: TIMESTAMP '2023-09-15 14:30:00.00'
-- `INTERVAL`: Represents a duration
+- #### `INTERVAL`: Represents a duration
   Example: INTERVAL '2' DAY
+
+<br>
 
 ## 2. User-Defined Types:
 
@@ -401,6 +431,8 @@ SQL provides various built-in data types and allows creation of user-defined typ
 > ```
 > 
 
+<br>
+
 ## 3. Domains:
 - Domains are user-defined data types with constraints:
 
@@ -414,6 +446,8 @@ SQL provides various built-in data types and allows creation of user-defined typ
 > );
 > ```
 > 
+
+<br>
 
 ## 4. Large Object Types:
 - `BLOB`: Binary Large Object, for storing binary data like images
@@ -429,6 +463,8 @@ SQL provides various built-in data types and allows creation of user-defined typ
 > ```
 > 
 
+---
+<br>
 <br>
 
 # Indexing
@@ -461,6 +497,8 @@ SQL provides various built-in data types and allows creation of user-defined typ
 > ```
 > 
 
+---
+<br>
 <br>
 
 # TRUNCATE vs DELETE
