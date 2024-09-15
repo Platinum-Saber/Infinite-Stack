@@ -1,5 +1,16 @@
-#DatabaseSystems #DB #DB/05 #SQL
+---
+tags:
+  - SQL
+  - DatabaseSystems
+  - DB
+Reviewed: 
+Created: 2024-08-28T00:56:00
+About: Based on CS3043-Lecture 05 Intermediate SQL
+---
+Related : #DatabaseSystems #DB #DB/05 #SQL
+Reference Note : [Lecture 05](file:///E:%5CAcademics%5CSEM%203%5CCS3043-Database%20Systems%5CLecture%20slide%5CL05%20%20Intermediate%20SQL.pdf)
 
+---
 # Content
 1. [[#Joined Relations]]
 	- [[#OUTER JOIN]]
