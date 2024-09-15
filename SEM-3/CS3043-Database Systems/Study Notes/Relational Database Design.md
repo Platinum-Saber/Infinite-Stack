@@ -48,6 +48,17 @@ Reference Video : [Lecture 4 - Part 1](file:///E:%5CAcademics%5CSEM%203%5CCS3043
 
 > [!info]- Functional Dependencies:
 >  A constraint between two sets of attributes in a relation. If A functionally determines B, then knowing the value of A allows us to uniquely determine the value of B.
+>  > [!note]- 
+>  > A functional dependency is a **constraint** between two sets of attributes in a relation. If A and B are attributes of relation R, B is functionally dependent on A (denoted as `A → B`) if each value of A is associated with exactly one value of B.
+>  
+>  
+>> [!Example]- Example:
+>> In a relation Student(StudentID, Name, DateOfBirth), we can say that:
+>>`StudentID → Name, DateOfBirth`
+>> 
+>> This means that knowing the StudentID determines both the Name and DateOfBirth.
+> 
+> Learn more about functional dependencies: [Functional Dependency in DBMS](https://www.geeksforgeeks.org/functional-dependency-in-dbms/)
 
 > [!info]- Keys:
 > - **Superkey**: A set of attributes that can uniquely identify a tuple in a relation.
@@ -155,7 +166,7 @@ Reference Video : [Lecture 4 - Part 1](file:///E:%5CAcademics%5CSEM%203%5CCS3043
 ### 4. Boyce-Codd Normal Form (BCNF):
 
 - A stricter version of 3NF
-- For any dependency A → B, A should be a superkey
+- For any dependency `A → B`, `A` should be a **superkey**
 
 <br>
   
@@ -258,7 +269,17 @@ Decomposition is the process of breaking down a table into smaller tables to ach
 
 ## Closure of Functional Dependencies
   
-- The closure of a set of functional dependencies (F+) is the set of all functional dependencies that can be logically derived from the given set F. It's used to determine all possible functional dependencies in a relation.
+- The closure of a set of functional dependencies F, denoted as F+, is the set of all functional dependencies that can be logically derived from F using Armstrong's Axioms:
+
+	- Reflexivity: If Y ⊆ X, then X → Y
+	- Augmentation: If X → Y, then XZ → YZ for any Z
+	- Transitivity: If X → Y and Y → Z, then X → Z
+
+> [!example]- Example:
+> Given F = {A → B, B → C}
+> F+ includes: A → B, B → C, A → C, AB → C, and more.
+
+Learn more about closure of functional dependencies: [Closure of Functional Dependencies](https://www.geeksforgeeks.org/closure-of-functional-dependencies-in-dbms/)
 
 <br>
 
