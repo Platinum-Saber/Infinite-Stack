@@ -3,7 +3,7 @@ tags:
   - SQL
   - DatabaseSystems
   - DB
-Reviewed: 
+Reviewed: true
 Created: 2024-08-28T00:56:00
 About: Based on CS3043-Lecture 05 Intermediate SQL
 ---

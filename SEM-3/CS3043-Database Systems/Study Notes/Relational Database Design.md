@@ -2,7 +2,7 @@
 tags:
   - DatabaseSystems
   - DB
-Reviewed: 
+Reviewed: true
 Created: 2024-09-11T18:45:00
 About: Based on CS3043-Lecture 04 Overview of Normalization
 ---
