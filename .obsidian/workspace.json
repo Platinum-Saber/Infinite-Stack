@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM-3/CS3043-Database Systems/Study Notes/database-application-study-guide.md",
+                "file": "SEM-3/CS3043-Database Systems/Study Notes/Application Design & Development.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -105,7 +105,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM-3/CS3043-Database Systems/Study Notes/database-application-study-guide.md"
+                "file": "SEM-3/CS3043-Database Systems/Study Notes/Application Design & Development.md"
               }
             }
           },
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM-3/CS3043-Database Systems/Study Notes/database-application-study-guide.md",
+                "file": "SEM-3/CS3043-Database Systems/Study Notes/Application Design & Development.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,8 +161,8 @@
   },
   "active": "1b19c6c229f33344",
   "lastOpenFiles": [
-    "SEM-3/CS3043-Database Systems/Study Notes/Application Design & Development.md",
     "SEM-3/CS3043-Database Systems/Study Notes/database-application-study-guide.md",
+    "SEM-3/CS3043-Database Systems/Study Notes/Application Design & Development.md",
     "SEM-3/CS3043-Database Systems/Study Notes/Advanced SQL.md",
     "SEM-3/CS3043-Database Systems/Study Notes/Unconfirmed 338841.crdownload",
     "SEM-3/CS3043-Database Systems/Study Notes/Relational Database Design.md",
