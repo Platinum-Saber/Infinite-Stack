@@ -7,6 +7,8 @@ Reviewed:
 Created: 2024-09-15T20:03:00
 About: Based on CS3043-Lecture 06 Application design and development
 ---
+Related : #web #javaScript #backend #App #html
+
 ---
 # Content
 - [[#1. Web Fundamentals]]
@@ -38,6 +40,7 @@ About: Based on CS3043-Lecture 06 Application design and development
 
 ### 1.1 HTML Basics
 - HTML (Hyper Text Markup Language) is the standard markup language for creating web pages.
+
 Example:
 ```html
 <!DOCTYPE html>
@@ -76,6 +79,7 @@ http://www.example.com/path/to/page.html?param1=value1&param2=value2
 
 ### 2.1 Servlets (Java)
 - Servlets are Java classes that handle requests and generate dynamic responses.
+
 Example:
 ```java
 import java.io.*;
@@ -98,6 +102,7 @@ public class HelloServlet extends HttpServlet {
 
 ### 2.2 JSP (Java Server Pages)
 - JSP allows embedding Java code within HTML.
+
 Example:
 ```jsp
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
@@ -117,6 +122,7 @@ Example:
 
 ### 2.3 PHP
 - PHP is a popular server-side scripting language.
+
 Example:
 ```php
 <!DOCTYPE html>
@@ -141,6 +147,7 @@ Example:
 
 ### JavaScript
 - JavaScript is used for client-side interactivity and dynamic content.
+
 Example:
 ```html
 <!DOCTYPE html>

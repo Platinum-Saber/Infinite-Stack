@@ -4,7 +4,7 @@ tags:
   - DB
   - "#DB/03"
   - SQL
-Reviewed: false
+Reviewed: true
 Created: 2024-08-21T10:19:00
 About: Based on CS3043-Lecture 03 Introduction to SQL
 ---

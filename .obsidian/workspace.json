@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM-3/CS3043-Database Systems/Study Notes/Application Design & Development.md",
+                "file": "SEM-3/CS3043-Database Systems/Test Questions/CS3043 Test Questions 07.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -105,7 +105,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM-3/CS3043-Database Systems/Study Notes/Application Design & Development.md"
+                "file": "SEM-3/CS3043-Database Systems/Test Questions/CS3043 Test Questions 07.md"
               }
             }
           },
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM-3/CS3043-Database Systems/Study Notes/Application Design & Development.md",
+                "file": "SEM-3/CS3043-Database Systems/Test Questions/CS3043 Test Questions 07.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,23 +161,24 @@
   },
   "active": "1b19c6c229f33344",
   "lastOpenFiles": [
-    "SEM-3/CS3043-Database Systems/Study Notes/database-application-study-guide.md",
-    "SEM-3/CS3043-Database Systems/Study Notes/Application Design & Development.md",
-    "SEM-3/CS3043-Database Systems/Study Notes/Database Systems Introduction.md",
-    "SEM-3/CS3043-Database Systems/Study Notes/Advanced SQL.md",
-    "SEM-3/CS3043-Database Systems/Study Notes/Unconfirmed 338841.crdownload",
-    "SEM-3/CS3043-Database Systems/Study Notes/Relational Database Design.md",
-    "SEM-3/CS3043-Database Systems/Study Notes/intermediate-sql-study-note.md",
-    "SEM-3/CS3043-Database Systems/Study Notes/Intermediate SQL.md",
-    "SEM-3/CS3043-Database Systems/Database systems.md",
     "SEM-3/CS3043-Database Systems/Test Questions/CS3043 Test Questions 05.md",
-    "SEM-3/CS3043-Database Systems/Test Questions/CS3043 Test Questions 04.md",
+    "SEM-3/CS3043-Database Systems/Test Questions/CS3043 Test Questions 07.md",
+    "SEM-3/CS3043-Database Systems/Study Notes/Application Design & Development.md",
     "SEM-3/CS3043-Database Systems/Study Notes/Database Design Using the E-R Model.md",
+    "SEM-3/CS3043-Database Systems/Study Notes/Database Systems Introduction.md",
+    "SEM-3/CS3043-Database Systems/Study Notes/Intermediate SQL.md",
+    "SEM-3/CS3043-Database Systems/Study Notes/Introduction to SQL.md",
+    "SEM-3/CS3043-Database Systems/Study Notes/Relational Database Design.md",
+    "SEM-3/CS3043-Database Systems/Study Notes/Advanced SQL.md",
+    "SEM-3/CS3043-Database Systems/Study Notes/database-application-study-guide.md",
+    "SEM-3/CS3043-Database Systems/Study Notes/Unconfirmed 338841.crdownload",
+    "SEM-3/CS3043-Database Systems/Study Notes/intermediate-sql-study-note.md",
+    "SEM-3/CS3043-Database Systems/Database systems.md",
+    "SEM-3/CS3043-Database Systems/Test Questions/CS3043 Test Questions 04.md",
     "SEM-3/CS3043-Database Systems/Study Notes/Unconfirmed 810224.crdownload",
     "SEM-3/CS3043-Database Systems/Test Questions/CS3043 Test Questions 02.md",
     "SEM-3/CS3043-Database Systems/Test Questions/CS3043 Test Questions 01.md",
     "SEM-3/CS3043-Database Systems/Test Questions/CS3043 Test Questions 03.md",
-    "SEM-3/CS3043-Database Systems/Study Notes/Introduction to SQL.md",
     "Untitled.md",
     "SEM-3/CS3043-Database Systems/Study Notes/Relational Algebra.md",
     "Excalidraw/Drawing 2024-09-14 23.36.01.excalidraw.md",
@@ -206,7 +207,6 @@
     "SEM-3/CS3043-Database Systems/cloude database-study-note.md",
     "Obsidian Tools",
     "SEM-3/CS3043-Database Systems/Test Questions",
-    "SEM-3 INDEX.md",
     "Work Space.canvas",
     "Untitled.canvas"
   ]
