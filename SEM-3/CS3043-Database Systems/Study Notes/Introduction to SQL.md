@@ -442,6 +442,6 @@ Reference Notes : [Online notes](https://www.w3schools.com/MySQL/mysql_join.asp)
 <br>
 
 ---
-Up Next : [[Intermediate SQL]]
+Up Next : [[Relational Database Design]]
 
 

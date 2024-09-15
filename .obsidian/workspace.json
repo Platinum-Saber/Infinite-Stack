@@ -11,8 +11,13 @@
             "id": "1cd88d5ff8acfb7e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "SEM-3/CS3043-Database Systems/Study Notes/Relational Database Design.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ]
@@ -100,7 +105,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Images/Project Description.pdf"
+                "file": "SEM-3/CS3043-Database Systems/Study Notes/Relational Database Design.md"
               }
             }
           },
@@ -110,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Images/Project Description.pdf",
+                "file": "SEM-3/CS3043-Database Systems/Study Notes/Relational Database Design.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,19 +156,17 @@
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "callout-manager:Insert Callout": false,
       "mermaid-tools:Open Mermaid Toolbar": false,
-      "markdown-table-editor:Open Markdown Table Editor": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "671fcfcc9244e77e",
+  "active": "1cd88d5ff8acfb7e",
   "lastOpenFiles": [
+    "SEM-3/CS3043-Database Systems/Study Notes/Introduction to SQL.md",
+    "SEM-3/CS3043-Database Systems/Study Notes/Intermediate SQL.md",
     "SEM-3/CS3043-Database Systems/Study Notes/Relational Database Design.md",
     "SEM-3/CS3043-Database Systems/Study Notes/Database Design Using the E-R Model.md",
     "SEM-3/CS3043-Database Systems/Study Notes/Database Systems Introduction.md",
-    "SEM-3/CS3043-Database Systems/Study Notes/Intermediate SQL.md",
     "SEM-3/CS3043-Database Systems/Database systems.md",
-    "SEM-3/CS3043-Database Systems/Study Notes/Introduction to SQL.md",
     "SEM-3/CS3043-Database Systems/Study Notes/Relational Algebra.md",
     "SEM-3/CS3043-Database Systems/Test Questions/CS3043 Test Questions 01.md",
     "Excalidraw/Drawing 2024-09-14 23.36.01.excalidraw.md",

@@ -275,4 +275,4 @@ Decomposition is the process of breaking down a table into smaller tables to ach
 
 ---
 
-Up Next : [[Advanced SQL]]
+Up Next : [[Intermediate SQL]]
