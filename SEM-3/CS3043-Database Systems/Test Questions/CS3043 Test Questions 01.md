@@ -1,3 +1,4 @@
+Related : #DatabaseSystems #DB #MCQ 
 # Database Systems: MCQ
 
 > [!dbq]- Question 1

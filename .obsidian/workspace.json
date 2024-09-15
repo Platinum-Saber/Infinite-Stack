@@ -13,7 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM-3/CS3043-Database Systems/Test Questions/CS3043 Test Questions 04.md",
+                "file": "SEM-3/CS3043-Database Systems/Study Notes/Relational Database Design.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "277a640ad63b7883",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SEM-3/CS3043-Database Systems/Test Questions/CS3043 Test Questions 01.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -105,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM-3/CS3043-Database Systems/Test Questions/CS3043 Test Questions 04.md"
+                "file": "SEM-3/CS3043-Database Systems/Study Notes/Relational Database Design.md"
               }
             }
           },
@@ -115,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM-3/CS3043-Database Systems/Test Questions/CS3043 Test Questions 04.md",
+                "file": "SEM-3/CS3043-Database Systems/Study Notes/Relational Database Design.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,12 +174,12 @@
   },
   "active": "1cd88d5ff8acfb7e",
   "lastOpenFiles": [
-    "SEM-3/CS3043-Database Systems/Test Questions/CS3043 Test Questions 01.md",
-    "SEM-3/CS3043-Database Systems/Test Questions/CS3043 Test Questions 04.md",
-    "SEM-3/CS3043-Database Systems/Study Notes/Relational Database Design.md",
-    "Untitled.md",
-    "SEM-3/CS3043-Database Systems/Study Notes/Introduction to SQL.md",
     "SEM-3/CS3043-Database Systems/Study Notes/Intermediate SQL.md",
+    "SEM-3/CS3043-Database Systems/Study Notes/Relational Database Design.md",
+    "SEM-3/CS3043-Database Systems/Study Notes/Introduction to SQL.md",
+    "SEM-3/CS3043-Database Systems/Test Questions/CS3043 Test Questions 04.md",
+    "SEM-3/CS3043-Database Systems/Test Questions/CS3043 Test Questions 01.md",
+    "Untitled.md",
     "SEM-3/CS3043-Database Systems/Study Notes/Database Design Using the E-R Model.md",
     "SEM-3/CS3043-Database Systems/Study Notes/Database Systems Introduction.md",
     "SEM-3/CS3043-Database Systems/Database systems.md",

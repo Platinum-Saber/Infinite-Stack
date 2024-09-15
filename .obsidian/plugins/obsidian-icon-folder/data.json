@@ -360,5 +360,9 @@
     "iconName": "LiFileQuestion",
     "iconColor": "#6ffbac"
   },
-  "SEM-3/CS3043-Database Systems/Study Notes/Relational Algebra.md": "FarNoteSticky"
+  "SEM-3/CS3043-Database Systems/Study Notes/Relational Algebra.md": "FarNoteSticky",
+  "SEM-3/CS3043-Database Systems/Test Questions/CS3043 Test Questions 04.md": {
+    "iconName": "LiFileQuestion",
+    "iconColor": "#6ef2ae"
+  }
 }

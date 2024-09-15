@@ -1,8 +1,5 @@
-Here are 20 multiple-choice questions (MCQs) based on the provided PDF about relational database design, formatted in markdown according to the style found in your previous file:
-
----
-
-# Relational Database Design: MCQ Test
+Related : #DatabaseSystems #ERD #MCQ #DB 
+# Relational Database Design: MCQ 
 
 > [!dbq]- Question 1
 > >[!faq]- What is a functional dependency in relational database design? 
@@ -170,70 +167,64 @@ Here are 20 multiple-choice questions (MCQs) based on the provided PDF about rel
 > >- a) Every relation in BCNF is also in 2NF and 3NF
 
 
-
 > [!dbq]- Question 15
-> Which functional dependency holds in the relation `Instructor(ID, Name, Dept)` if each instructor belongs to one department?
+> >[!faq]- Which functional dependency holds in the relation `Instructor(ID, Name, Dept)` if each instructor belongs to one department?
+> > 
+> > - [ ] a) Dept → ID
+> > - [ ] b) ID → Dept
+> > - [ ] c) Name → ID
+> > - [ ] d) Dept → Name
 > 
-> - [ ] a) Dept → ID
-> - [ ] b) ID → Dept
-> - [ ] c) Name → ID
-> - [ ] d) Dept → Name
-> 
-> [!success] - Answer  
-> b) ID → Dept
-
+> >[!success]- Answer  
+> >- b) ID → Dept
 
 
 > [!dbq]- Question 16
-> What is the purpose of a decomposition algorithm in database design?
+> >[!faq]- What is the purpose of a decomposition algorithm in database design?
+> > 
+> > - [ ] a) To normalize a relation while preserving functional dependencies and ensuring a lossless-join
+> > - [ ] b) To increase the number of relations in the schema
+> > - [ ] c) To eliminate all candidate keys in a relation
+> > - [ ] d) To create multivalued attributes
 > 
-> - [ ] a) To normalize a relation while preserving functional dependencies and ensuring a lossless-join
-> - [ ] b) To increase the number of relations in the schema
-> - [ ] c) To eliminate all candidate keys in a relation
-> - [ ] d) To create multivalued attributes
-> 
-> [!success] - Answer  
-> a) To normalize a relation while preserving functional dependencies and ensuring a lossless-join
-
+> >[!success]- Answer  
+> >- a) To normalize a relation while preserving functional dependencies and ensuring a lossless-join
 
 
 > [!dbq]- Question 17
-> Which of the following is not a characteristic of 4NF?
+> >[!faq]- Which of the following is not a characteristic of 4NF?
+> > 
+> > - [ ] a) It removes multivalued dependencies
+> > - [ ] b) It allows for transitive dependencies
+> > - [ ] c) It extends BCNF
+> > - [ ] d) It is violated by a multivalued dependency
 > 
-> - [ ] a) It removes multivalued dependencies
-> - [ ] b) It allows for transitive dependencies
-> - [ ] c) It extends BCNF
-> - [ ] d) It is violated by a multivalued dependency
-> 
-> [!success] - Answer  
-> b) It allows for transitive dependencies
-
+> >[!success]- Answer  
+> >- b) It allows for transitive dependencies
 
 
 > [!dbq]- Question 18
-> Which relational algebra operation combines rows from two relations based on a common attribute?
+> >[!faq]- Which relational algebra operation combines rows from two relations based on a common attribute?
+> > 
+> > - [ ] a) Union
+> > - [ ] b) Selection
+> > - [ ] c) Join
+> > - [ ] d) Projection
 > 
-> - [ ] a) Union
-> - [ ] b) Selection
-> - [ ] c) Join
-> - [ ] d) Projection
-> 
-> [!success] - Answer  
-> c) Join
-
+> >[!success]- Answer  
+> >- c) Join
 
 
 > [!dbq]- Question 19
-> What is an example of a transitive dependency in a relation?
+> >[!faq]- What is an example of a transitive dependency in a relation?
+> > 
+> > - [ ] a) A → B, B → C, so A → C
+> > - [ ] b) A → B, A → C
+> > - [ ] c) A → A, B → B
+> > - [ ] d) A → C, C → A
 > 
-> - [ ] a) A → B, B → C, so A → C
-> - [ ] b) A → B, A → C
-> - [ ] c) A → A, B → B
-> - [ ] d) A → C, C → A
-> 
-> [!success] - Answer  
-> a) A → B, B → C, so A → C
-
+> >[!success]- Answer  
+> >- a) A → B, B → C, so A → C
 
 
 >[!dbq]- Question 20
@@ -245,8 +236,4 @@ Here are 20 multiple-choice questions (MCQs) based on the provided PDF about rel
 > > - [ ] d) Primary key anomalies
 > 
 >> [!success]- Answer  
->> a) Insertion, Update, Deletion anomalies
-
---- 
-
-This set of questions is designed to test foundational concepts in relational database design, including normalization, functional dependencies, and relational algebra operations.
+>>- a) Insertion, Update, Deletion anomalies
