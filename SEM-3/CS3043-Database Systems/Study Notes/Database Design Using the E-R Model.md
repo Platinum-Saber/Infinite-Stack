@@ -8,6 +8,7 @@ Created: 2024-08-14T22:51:00
 About: Based on CS3043-Lecture 02 Database design using E-R models
 ---
 Related : #DatabaseSystems #DB/02 #ERD
+Reference Note : [Lecture 02](file:///E:%5CAcademics%5CSEM%203%5CCS3043-Database%20Systems%5CLecture%20slide%5CL02.pdf)
 
 ---
 # Content

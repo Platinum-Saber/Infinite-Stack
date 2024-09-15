@@ -13,8 +13,21 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian Tools/Callout List.md",
-                "mode": "preview",
+                "file": "SEM-3/CS3043-Database Systems/Study Notes/Application Design & Development.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3e2558054e0dfb89",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SEM-3/CS3043-Database Systems/Database systems.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -105,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian Tools/Callout List.md"
+                "file": "SEM-3/CS3043-Database Systems/Study Notes/Application Design & Development.md"
               }
             }
           },
@@ -115,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian Tools/Callout List.md",
+                "file": "SEM-3/CS3043-Database Systems/Study Notes/Application Design & Development.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,22 +174,22 @@
   },
   "active": "1b19c6c229f33344",
   "lastOpenFiles": [
-    "Obsidian Tools/Check Box List.md",
-    "Obsidian Tools/Callout List.md",
+    "SEM-3/CS3043-Database Systems/Study Notes/Intermediate SQL.md",
+    "SEM-3/CS3043-Database Systems/Database systems.md",
     "Singularity/SEM-3 INDEX.md",
+    "SEM-3/CS3043-Database Systems/Study Notes/Relational Database Design.md",
+    "SEM-3/CS3043-Database Systems/Study Notes/Introduction to SQL.md",
+    "SEM-3/CS3043-Database Systems/Study Notes/Database Design Using the E-R Model.md",
+    "SEM-3/CS3043-Database Systems/Study Notes/Application Design & Development.md",
+    "SEM-3/CS3043-Database Systems/Study Notes/Advanced SQL.md",
+    "Obsidian Tools/Callout List.md",
+    "Obsidian Tools/Check Box List.md",
     "Singularity/Study Tracker.md",
     "Singularity",
     "Singularity/Infinite Stack.md",
-    "SEM-3/CS3043-Database Systems/Database systems.md",
     "SEM-3/CS3043-Database Systems/Test Questions/CS3043 Test Questions 07.md",
     "SEM-3/CS3043-Database Systems/Test Questions/CS3043 Test Questions 05.md",
-    "SEM-3/CS3043-Database Systems/Study Notes/Application Design & Development.md",
-    "SEM-3/CS3043-Database Systems/Study Notes/Database Design Using the E-R Model.md",
     "SEM-3/CS3043-Database Systems/Study Notes/Database Systems Introduction.md",
-    "SEM-3/CS3043-Database Systems/Study Notes/Intermediate SQL.md",
-    "SEM-3/CS3043-Database Systems/Study Notes/Introduction to SQL.md",
-    "SEM-3/CS3043-Database Systems/Study Notes/Relational Database Design.md",
-    "SEM-3/CS3043-Database Systems/Study Notes/Advanced SQL.md",
     "SEM-3/CS3043-Database Systems/Study Notes/database-application-study-guide.md",
     "SEM-3/CS3043-Database Systems/Study Notes/Unconfirmed 338841.crdownload",
     "SEM-3/CS3043-Database Systems/Study Notes/intermediate-sql-study-note.md",

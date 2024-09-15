@@ -8,6 +8,7 @@ Created: 2024-09-15T20:03:00
 About: Based on CS3043-Lecture 06 Application design and development
 ---
 Related : #web #javaScript #backend #App #html
+Reference Note : [Lecture 07](file:///E:%5CAcademics%5CSEM%203%5CCS3043-Database%20Systems%5CLecture%20slide%5CL07%20Application%20Design%20and%20development.pdf)
 
 ---
 # Content

@@ -12,7 +12,8 @@ Related : #DatabaseSystems #DB #DB/03 #SQL
 
 ---
 Reference Video : [Online video](https://www.youtube.com/watch?v=7S_tz1z_5bA)
-Reference Notes : [Online notes](https://www.w3schools.com/MySQL/mysql_join.asp)
+Reference Notes : [Online notes](https://www.w3schools.com/MySQL/mysql_join.asp), [Lecture 03](file:///E:%5CAcademics%5CSEM%203%5CCS3043-Database%20Systems%5CLecture%20slide%5CL03%20Introduction%20to%20SQL.pdf)
+
 
 <br>
 

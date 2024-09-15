@@ -7,8 +7,8 @@ Created: 2024-09-11T18:45:00
 About: Based on CS3043-Lecture 04 Overview of Normalization
 ---
 Related : #Normalization #DB/04
-Reference Note  : [Lecture 4 - Ch7_Normalization](file:///E:%5CAcademics%5CSEM%203%5CCS3043-Database%20Systems%5CNew%20Lecture%20notes%5CLec%204%20-%20Ch7_NormalizationP1of2.pdf)
-Reference Video : [Lecture 4 - Part 1](file:///E:%5CAcademics%5CSEM%203%5CCS3043-Database%20Systems%5CLecture%20Video%5CLecture%204_P1.mp4)
+Reference Note  : [Lecture 4 - Ch7_Normalization](file:///E:%5CAcademics%5CSEM%203%5CCS3043-Database%20Systems%5CNew%20Lecture%20notes%5CLec%204%20-%20Ch7_NormalizationP1of2.pdf), [Lecture 06](file:///E:%5CAcademics%5CSEM%203%5CCS3043-Database%20Systems%5CLecture%20slide%5CL06%20RelDBDesign.pdf)
+Reference Video : [Part 1 - Lecture 4](file:///E:%5CAcademics%5CSEM%203%5CCS3043-Database%20Systems%5CLecture%20Video%5CLecture%204_P1.mp4), 
 
 ---
 # Content

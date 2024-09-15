@@ -529,3 +529,8 @@ SQL provides various built-in data types and allows creation of user-defined typ
 > This deletes all students who graduated before 2020.
 
 > [!warning] while `DELETE` can be more precise, `TRUNCATE` is much faster for removing all data from a large table.
+
+<br>
+
+---
+Up Next : [[Application Design & Development]]
