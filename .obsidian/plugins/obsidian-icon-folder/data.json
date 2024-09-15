@@ -6,6 +6,7 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiFile",
       "FarNoteSticky",
       "LiFileQuestion",
       "SiObsidian",
@@ -14,8 +15,7 @@
       "SiCsswizardry",
       "FasServer",
       "SiMysql",
-      "SiNodemon",
-      "FabNode"
+      "SiNodemon"
     ],
     "recentlyUsedIconsSize": 10,
     "rules": [],
@@ -376,5 +376,9 @@
   "SEM-3/CS3043-Database Systems/Test Questions/CS3043 Test Questions 05.md": {
     "iconName": "LiFileQuestion",
     "iconColor": "#5cffb8"
+  },
+  "SEM-3/CS3043-Database Systems/Study Notes/Application Design & Development.md": {
+    "iconName": "LiFile",
+    "iconColor": "#52ff5d"
   }
 }

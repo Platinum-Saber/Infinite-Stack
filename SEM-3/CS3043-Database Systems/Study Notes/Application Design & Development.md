@@ -38,27 +38,26 @@ About: Based on CS3043-Lecture 06 Application design and development
 
 ### 1.1 HTML Basics
 - HTML (Hyper Text Markup Language) is the standard markup language for creating web pages.
+Example:
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My First Web Page</title>
+</head>
+<body>
+    <h1>Welcome to My Website</h1>
+    <p>This is a paragraph of text.</p>
+    <a href="https://www.example.com">Click here to visit Example.com</a>
+</body>
+</html>
+```
 
-> [!code] Example:
-> ```html
-> <!DOCTYPE html>
-> <html>
-> <head>
->     <title>My First Web Page</title>
-> </head>
-> <body>
->     <h1>Welcome to My Website</h1>
->     <p>This is a paragraph of text.</p>
->     <a href="https://www.example.com">Click here to visit Example.com</a>
-> </body>
-> </html>
-> ```
-> 
 
 <br>
 
 ### 1.2 URLs (Uniform Resource Locators)
-URLs are used to specify the location of resources on the web.
+- URLs are used to specify the location of resources on the web.
 
 Example:
 ```
@@ -77,70 +76,63 @@ http://www.example.com/path/to/page.html?param1=value1&param2=value2
 
 ### 2.1 Servlets (Java)
 - Servlets are Java classes that handle requests and generate dynamic responses.
+Example:
+```java
+import java.io.*;
+import javax.servlet.*;
+import javax.servlet.http.*;
 
-> [!code]- Example:
-> ```java
-> import java.io.* ;
-> import javax.servlet.* ;
-> import javax.servlet.http.*  ;
-> 
-> public class HelloServlet extends HttpServlet {
->     public void doGet(HttpServletRequest request, HttpServletResponse response)
->     throws ServletException, IOException {
->         response.setContentType("text/html");
->         PrintWriter out = response.getWriter();
->         out.println("<html><body>");    
->         out.println("<h1>Hello, World!</h1>");
->         out.println("</body></html>");
->     }
-> }
-> ```
-> 
+public class HelloServlet extends HttpServlet {
+    public void doGet(HttpServletRequest request, HttpServletResponse response)
+    throws ServletException, IOException {
+        response.setContentType("text/html");
+        PrintWriter out = response.getWriter();
+        out.println("<html><body>");
+        out.println("<h1>Hello, World!</h1>");
+        out.println("</body></html>");
+    }
+}
+```
 
 <br>
 
 ### 2.2 JSP (Java Server Pages)
 - JSP allows embedding Java code within HTML.
-
-> [!code] Example:
-> ```jsp
-> <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
-> <!DOCTYPE html>
-> <html>
-> <head>
->     <title>JSP Example</title>
-> </head>
-> <body>
->     <h1>Current Time</h1>
->     <p>The current time is: <%= new java.util.Date() %></p>
-> </body>
-> </html>
-> ```
-> 
+Example:
+```jsp
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JSP Example</title>
+</head>
+<body>
+    <h1>Current Time</h1>
+    <p>The current time is: <%= new java.util.Date() %></p>
+</body>
+</html>
+```
 
 <br>
 
 ### 2.3 PHP
 - PHP is a popular server-side scripting language.
-
-> [!code]
-> Example:
-> ```php
-> <!DOCTYPE html>
-> <html>
-> <head>
->     <title>PHP Example</title>
-> </head>
-> <body>
->     <h1>Welcome</h1>
->     <?php
->     $name = "John";
->     echo "<p>Hello, $name!</p>";
->     ?>
-> </body>
-> </html>
-> ```
-> 
+Example:
+```php
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PHP Example</title>
+</head>
+<body>
+    <h1>Welcome</h1>
+    <?php
+    $name = "John";
+    echo "<p>Hello, $name!</p>";
+    ?>
+</body>
+</html>
+```
 
 <br>
 <br>
@@ -148,8 +140,7 @@ http://www.example.com/path/to/page.html?param1=value1&param2=value2
 ## 3. Client-Side Programming
 
 ### JavaScript
-JavaScript is used for client-side interactivity and dynamic content.
-
+- JavaScript is used for client-side interactivity and dynamic content.
 Example:
 ```html
 <!DOCTYPE html>
@@ -173,6 +164,8 @@ Example:
 </html>
 ```
 
+<br>
+
 ## 4. Application Architectures
 
 ### Three-Tier Architecture
@@ -180,32 +173,35 @@ Example:
 2. Business Logic Layer
 3. Data Access Layer
 
-Example (Pseudocode):
-```
-// Presentation Layer
-class UserInterface {
-    displayStudentInfo(student) {
-        // Code to render student info on the page
-    }
-}
+> [!code] Example (Pseudocode):
+> ```
+> // Presentation Layer
+> class UserInterface {
+>     displayStudentInfo(student) {
+>         // Code to render student info on the page
+>     }
+> }
+> 
+> // Business Logic Layer
+> class StudentManager {
+>     getStudentById(id) {
+>         // Fetch student from data access layer
+>         // Apply business rules
+>         return student;
+>     }
+> }
+> 
+> // Data Access Layer
+> class StudentDAO {
+>     fetchStudentFromDatabase(id) {
+>         // SQL query to fetch student data
+>         return studentData;
+>     }
+> }
+> ```
+> 
 
-// Business Logic Layer
-class StudentManager {
-    getStudentById(id) {
-        // Fetch student from data access layer
-        // Apply business rules
-        return student;
-    }
-}
-
-// Data Access Layer
-class StudentDAO {
-    fetchStudentFromDatabase(id) {
-        // SQL query to fetch student data
-        return studentData;
-    }
-}
-```
+<br>
 
 ## 5. Object-Relational Mapping (ORM)
 
@@ -241,29 +237,35 @@ tx.commit();
 session.close();
 ```
 
+<br>
+
 ## 6. Security Considerations
 
 ### SQL Injection Prevention
-Use prepared statements to prevent SQL injection attacks.
+- Use prepared statements to prevent SQL injection attacks.
 
-Example (Java):
-```java
-String sql = "SELECT * FROM users WHERE username = ? AND password = ?";
-PreparedStatement pstmt = connection.prepareStatement(sql);
-pstmt.setString(1, username);
-pstmt.setString(2, password);
-ResultSet rs = pstmt.executeQuery();
-```
+> [!code] Example :
+> ```java
+> String sql = "SELECT * FROM users WHERE username = ? AND password = ?";
+> PreparedStatement pstmt = connection.prepareStatement(sql);
+> pstmt.setString(1, username);
+> pstmt.setString(2, password);
+> ResultSet rs = pstmt.executeQuery();
+> ```
+> 
 
 ### Cross-Site Scripting (XSS) Prevention
-Sanitize user input to prevent XSS attacks.
+- Sanitize user input to prevent XSS attacks.
 
-Example (PHP):
-```php
-$userInput = $_POST['comment'];
-$sanitizedInput = htmlspecialchars($userInput, ENT_QUOTES, 'UTF-8');
-echo "Your comment: " . $sanitizedInput;
-```
+> [!code] Example :
+> ```php
+> $userInput = $_POST['comment'];
+> $sanitizedInput = htmlspecialchars($userInput, ENT_QUOTES, 'UTF-8');
+> echo "Your comment: " . $sanitizedInput;
+> ```
+> 
+
+<br>
 
 ## 7. Encryption
 
