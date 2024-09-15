@@ -1,5 +1,5 @@
-Related : #Da
-# Introduction to SQL
+Related : #DatabaseSystems #DB #SQL #MCQ 
+# Introduction to SQL : MCQ
 ---
 
 > [!dbq]- Question 1
@@ -261,5 +261,3 @@ Related : #Da
 >> - c) SUM
 
 ---
-
-These questions test the key concepts of SQL, such as data types, queries, joins, and aggregate functions, following the markdown format you requested.
