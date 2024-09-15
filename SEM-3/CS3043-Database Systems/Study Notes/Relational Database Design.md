@@ -168,9 +168,6 @@ Reference Video : [Lecture 4 - Part 1](file:///E:%5CAcademics%5CSEM%203%5CCS3043
 - A stricter version of 3NF
 - For any dependency `A → B`, `A` should be a **superkey**
 
-<br>
-  
-
 > [!table]- Example
 > > [!example]- Before BCNF:
 > > 
@@ -203,6 +200,8 @@ Reference Video : [Lecture 4 - Part 1](file:///E:%5CAcademics%5CSEM%203%5CCS3043
 > > | Math    | Smith     |
 > > | Physics | Brown     |
 > > | Physics | Johnson   |
+
+Learn more about BCNF: [Boyce-Codd Normal Form (BCNF)](https://www.geeksforgeeks.org/boyce-codd-normal-form-bcnf/)
 
 <br>
 
@@ -267,21 +266,66 @@ Decomposition is the process of breaking down a table into smaller tables to ach
 
 <br>
 
-## Closure of Functional Dependencies
-  
-- The closure of a set of functional dependencies F, denoted as F+, is the set of all functional dependencies that can be logically derived from F using Armstrong's Axioms:
+### 1. Lossless Join Decomposition
 
-	- Reflexivity: If Y ⊆ X, then X → Y
-	- Augmentation: If X → Y, then XZ → YZ for any Z
-	- Transitivity: If X → Y and Y → Z, then X → Z
+- A lossless join decomposition ensures that when we decompose a relation into smaller relations, we can reconstruct the original relation by joining the smaller relations without losing or gaining any tuples.
 
 > [!example]- Example:
-> Given F = {A → B, B → C}
-> F+ includes: A → B, B → C, A → C, AB → C, and more.
+> Consider the relation `R(A, B, C)` with functional dependency `A → B`.
+> A lossless decomposition would be:
+> `R1(A, B)`
+> `R2(A, C)`
+> 
+> This decomposition is lossless because we can always reconstruct `R` by joining `R1` and `R2` on `A`.
+
+Learn more about lossless join decomposition: [Lossless Join Decomposition](https://www.geeksforgeeks.org/lossless-join-decomposition-in-dbms/)
+
+<br>
+
+### 2. Dependency Preservation
+
+A decomposition is dependency preserving **if** each functional dependency in the original relation can be **inferred** from the functional dependencies in the decomposed relations.
+
+> [!example]- Example:
+> Consider `R(A, B, C)` with functional dependencies `A → B` and `B → C`.
+> A dependency-preserving decomposition would be:
+> `R1(A, B)`
+> `R2(B, C)`
+> 
+> This preserves both original functional dependencies.
+
+Learn more about dependency preservation: [Dependency Preservation](https://www.geeksforgeeks.org/dependency-preservation-in-dbms/)
+
+<br>
+<br>
+
+## Closure of Functional Dependencies
+  
+- The closure of a set of functional dependencies F, denoted as F+, is the set of all functional dependencies that can be logically derived from F using **Armstrong's Axioms**:
+
+	- **Reflexivity**: If `Y ⊆ X`, then `X → Y`
+	- **Augmentation**: If `X → Y`, then `XZ → YZ` for any `Z`
+	- **Transitivity**: If `X → Y` and `Y → Z`, then `X → Z`
+
+> [!example]- Example:
+> Given `F = {A → B, B → C}`
+> `F+` includes: `A → B`, `B → C`, `A → C`, `AB → C`, and more.
 
 Learn more about closure of functional dependencies: [Closure of Functional Dependencies](https://www.geeksforgeeks.org/closure-of-functional-dependencies-in-dbms/)
 
 <br>
+<br>
+
+## Attribute Closure
+
+The attribute closure of a set of attributes X under a set of functional dependencies F, denoted as X+, is the set of all attributes that are functionally determined by X under F.
+
+Example:
+Given R(A, B, C, D) and F = {A → B, B → C}
+A+ = {A, B, C}
+
+Learn more about attribute closure: [Attribute Closure](https://www.geeksforgeeks.org/attribute-closure-and-its-application-in-dbms/)
+
 
 ## Normalization Process
 

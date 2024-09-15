@@ -33,8 +33,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -119,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled.md"
+                "file": "SEM-3/CS3043-Database Systems/Study Notes/Relational Database Design.md"
               }
             }
           },
@@ -129,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled.md",
+                "file": "SEM-3/CS3043-Database Systems/Study Notes/Relational Database Design.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -173,10 +172,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9f058567a13cd29e",
+  "active": "1cd88d5ff8acfb7e",
   "lastOpenFiles": [
-    "SEM-3/CS3043-Database Systems/Study Notes/Relational Database Design.md",
     "Untitled.md",
+    "SEM-3/CS3043-Database Systems/Study Notes/Relational Database Design.md",
     "SEM-3/CS3043-Database Systems/Study Notes/Introduction to SQL.md",
     "SEM-3/CS3043-Database Systems/Study Notes/Intermediate SQL.md",
     "SEM-3/CS3043-Database Systems/Study Notes/Database Design Using the E-R Model.md",
