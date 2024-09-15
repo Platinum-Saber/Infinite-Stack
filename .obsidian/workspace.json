@@ -13,20 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM-3/CS3043-Database Systems/Study Notes/Relational Database Design.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9f058567a13cd29e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Untitled.md",
+                "file": "SEM-3/CS3043-Database Systems/Test Questions/CS3043 Test Questions 04.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -118,7 +105,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM-3/CS3043-Database Systems/Study Notes/Relational Database Design.md"
+                "file": "SEM-3/CS3043-Database Systems/Test Questions/CS3043 Test Questions 04.md"
               }
             }
           },
@@ -128,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM-3/CS3043-Database Systems/Study Notes/Relational Database Design.md",
+                "file": "SEM-3/CS3043-Database Systems/Test Questions/CS3043 Test Questions 04.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,8 +161,9 @@
   },
   "active": "1cd88d5ff8acfb7e",
   "lastOpenFiles": [
-    "Untitled.md",
     "SEM-3/CS3043-Database Systems/Study Notes/Relational Database Design.md",
+    "SEM-3/CS3043-Database Systems/Test Questions/CS3043 Test Questions 04.md",
+    "Untitled.md",
     "SEM-3/CS3043-Database Systems/Study Notes/Introduction to SQL.md",
     "SEM-3/CS3043-Database Systems/Study Notes/Intermediate SQL.md",
     "SEM-3/CS3043-Database Systems/Study Notes/Database Design Using the E-R Model.md",
@@ -219,7 +207,6 @@
     "Full Stack Development/Frontend Development/Using CSS in React.md",
     "Full Stack Development/Backend Development/Nodejs-SQL-Backend-Setup.md",
     "Full Stack Development/Backend Development/Setting Up Password Hashing for Signups.md",
-    "Full Stack Development/Backend Development/Setting Up .ENV.md",
     "Work Space.canvas",
     "Untitled.canvas"
   ]

@@ -22,8 +22,11 @@ Reference Video : [Lecture 4 - Part 1](file:///E:%5CAcademics%5CSEM%203%5CCS3043
 		- [[#5. Fourth Normal Form (4NF)]]
 	3. [[#Benefits of Normalization]]
 	4. [[#Decomposition]]
+		- [[#1. Lossless Join Decomposition]]
+		- [[#2. Dependency Preservation]]
 	5. [[#Closure of Functional Dependencies]]
-	6. [[#Normalization Process]]
+	6. [[#Attribute Closure]]
+	7. [[#Normalization Process]]
 
 ---
 <br>
@@ -318,11 +321,11 @@ Learn more about closure of functional dependencies: [Closure of Functional Depe
 
 ## Attribute Closure
 
-The attribute closure of a set of attributes X under a set of functional dependencies F, denoted as X+, is the set of all attributes that are functionally determined by X under F.
+- The attribute closure of a set of attributes X under a set of functional dependencies F, denoted as X+, is the set of all attributes that are functionally determined by X under F.
 
-Example:
-Given R(A, B, C, D) and F = {A → B, B → C}
-A+ = {A, B, C}
+> [!example]- Example:
+> Given `R(A, B, C, D)` and `F = {A → B, B → C}`
+> `A+ = {A, B, C}`
 
 Learn more about attribute closure: [Attribute Closure](https://www.geeksforgeeks.org/attribute-closure-and-its-application-in-dbms/)
 
