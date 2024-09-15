@@ -33,16 +33,18 @@ Reference Note : [Lecture 05](file:///E:%5CAcademics%5CSEM%203%5CCS3043-Database
 
 <br>
 
-## OUTER JOIN
+## 1. OUTER JOIN
 - **Avoids** *loss of information*.
 - *Computes the* **join** and *then* **adds tuples** *from one relation that* **doesn't** *match tuples in the other relation* to the result of the join using **null values**. 
 
-#### LEFT OUTER JOIN
+#### 1.1 LEFT OUTER JOIN
 - Returns **all the rows from the left table** with matching rows from the right table.
 - If there is **no match** *in the right table* those values will be **null**.
-- ![[Pasted image 20240820105725.png]]
 
-> [!example] 
+> [!image]- Left outer join diagram
+>  ![[Pasted image 20240820105725.png]]
+
+> [!example]- Example 
 > > [!info]- INPUT
 > > ![[Pasted image 20240820110725.png]]
 > 
@@ -65,12 +67,14 @@ Reference Note : [Lecture 05](file:///E:%5CAcademics%5CSEM%203%5CCS3043-Database
 
 <br>
 
-#### RIGHT OUTER JOIN
+#### 1.2 RIGHT OUTER JOIN
 - Returns **all the rows from the right table** with matching rows from the left table.
 - If there is **no match** *in the left table* those values will be **null**.
-- ![[Pasted image 20240820111728.png|600x300]]
 
-> [!example] 
+> [!image]- Right outer join diagram
+>  ![[Pasted image 20240820111728.png|600x300]]
+
+> [!example]- 
 > > [!info]- INPUT
 > > ![[Pasted image 20240820110725.png]]
 > 
@@ -93,13 +97,16 @@ Reference Note : [Lecture 05](file:///E:%5CAcademics%5CSEM%203%5CCS3043-Database
 
 <br>
 
-#### FULL OUTER JOIN
+#### 1.3 FULL OUTER JOIN
 - Returns **all the rows from the right table** and **all the rows from the left table**.
 - *Missing values* will be **null**.
-- ![[Pasted image 20240820112332.png]]
+
+> [!image]- Full outer join diagram
+> ![[Pasted image 20240820112332.png]]
+
 > [!warning] Not supported in **MySQL**
 
-> [!example] 
+> [!example]- 
 > > [!info]- INPUT
 > > ![[Pasted image 20240820110725.png]]
 > 
@@ -116,12 +123,14 @@ Reference Note : [Lecture 05](file:///E:%5CAcademics%5CSEM%203%5CCS3043-Database
 
 <br>
 
-## INNER JOIN
+## 2. INNER JOIN
 - Returns the rows when there is a **match in both tables.**
-- ![[Pasted image 20240820113127.png]]
+
+> [!image]- Inner join diagram
+> ![[Pasted image 20240820113127.png]]
 
 
-> [!example] 
+> [!example]- 
 > > [!info]- INPUT
 > > ![[Pasted image 20240820110725.png]]
 > 
@@ -143,19 +152,19 @@ Reference Note : [Lecture 05](file:///E:%5CAcademics%5CSEM%203%5CCS3043-Database
 - Provides a mechanism to **hide** *certain data* from the *view of certain users*.
 - Abstract / conceptual model created on top of the actual database.
 
-## VIEW Definition
+## 1. VIEW Definition
 - Once a view is defined the **view** can be used to *refer to the virtual relation* that the view generates.
 -  View definition is **not the same** *as creating a new relation* by evaluating the query expression.
 - The view definition causes the **saving of an expression**. The **expression** *is substituted into queries* **using the view**.
 
-> [!note] Definition
+> [!note]- Definition
 > - Defined using the `CREATE VIEW` statement which has the form below,
 > ```SQL
 > CREATE VIEW v AS  {query expression}
 > // v - name of the view
 > ```
 
-> [!example] 
+> [!example]- 
 > > [!info] View of instructors without their salary
 > > ```SQL
 > > CREATE VIEW faculty AS
@@ -178,7 +187,7 @@ Reference Note : [Lecture 05](file:///E:%5CAcademics%5CSEM%203%5CCS3043-Database
 - A view is said to be **recursive** if it *depends on* **itself**. 
 - A view relation $V_2$ is said to **depend directly** on a view relation $V_1$ , if  $V_1$  is *used in the expression defining* $V_2$ . ($V_1$ :luc_arrow_left: $V_2$) 
 
-> [!example] 
+> [!example]- 
 > > [!info] SQL Query
 > > ```SQL
 > > CREATE VIEW physics_fall_2009 AS
