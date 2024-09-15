@@ -6,16 +6,16 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiLinksGoingOut",
+      "FasPeopleGroup",
+      "FarCircleQuestion",
+      "LiBookOpen",
       "LiFile",
       "FarNoteSticky",
       "LiFileQuestion",
       "SiObsidian",
       "SiCreatereactapp",
-      "FabReact",
-      "SiCsswizardry",
-      "FasServer",
-      "SiMysql",
-      "SiNodemon"
+      "FabReact"
     ],
     "recentlyUsedIconsSize": 10,
     "rules": [],
@@ -248,7 +248,7 @@
   },
   "Excalidraw": {
     "iconName": "SiExcalidraw",
-    "iconColor": "#a760e2"
+    "iconColor": "#de6af6"
   },
   "SEM-3/CS3613-Introduction to Artificial Intelligence/Constraint Satisfaction Problem.md": {
     "iconName": "FiFile",
@@ -381,5 +381,12 @@
     "iconName": "LiFile",
     "iconColor": "#52ff5d"
   },
-  "SEM-3/CS3043-Database Systems/Test Questions/CS3043 Test Questions 07.md": "LiFileQuestion"
+  "SEM-3/CS3043-Database Systems/Test Questions/CS3043 Test Questions 07.md": {
+    "iconName": "LiFileQuestion",
+    "iconColor": "#58feb6"
+  },
+  "SEM-3/CS3043-Database Systems/Study Notes": "LiBookOpen",
+  "SEM-3/CS3043-Database Systems/Test Questions": "FarCircleQuestion",
+  "SEM-3/CS3043-Database Systems/Group Project": "FasPeopleGroup",
+  "Singularity": "LiLinksGoingOut"
 }

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM-3/CS3043-Database Systems/Test Questions/CS3043 Test Questions 07.md",
+                "file": "SEM-3 INDEX.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -39,7 +39,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabeticalReverse"
+                "sortOrder": "alphabetical"
               }
             }
           },
@@ -105,7 +105,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM-3/CS3043-Database Systems/Test Questions/CS3043 Test Questions 07.md"
+                "file": "SEM-3 INDEX.md"
               }
             }
           },
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM-3/CS3043-Database Systems/Test Questions/CS3043 Test Questions 07.md",
+                "file": "SEM-3 INDEX.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,10 +159,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1b19c6c229f33344",
+  "active": "671fcfcc9244e77e",
   "lastOpenFiles": [
-    "SEM-3/CS3043-Database Systems/Test Questions/CS3043 Test Questions 05.md",
+    "Singularity",
+    "Infinite Stack.md",
+    "SEM-3 INDEX.md",
+    "SEM-3/CS3043-Database Systems/Database systems.md",
     "SEM-3/CS3043-Database Systems/Test Questions/CS3043 Test Questions 07.md",
+    "SEM-3/CS3043-Database Systems/Test Questions/CS3043 Test Questions 05.md",
     "SEM-3/CS3043-Database Systems/Study Notes/Application Design & Development.md",
     "SEM-3/CS3043-Database Systems/Study Notes/Database Design Using the E-R Model.md",
     "SEM-3/CS3043-Database Systems/Study Notes/Database Systems Introduction.md",
@@ -173,7 +177,6 @@
     "SEM-3/CS3043-Database Systems/Study Notes/database-application-study-guide.md",
     "SEM-3/CS3043-Database Systems/Study Notes/Unconfirmed 338841.crdownload",
     "SEM-3/CS3043-Database Systems/Study Notes/intermediate-sql-study-note.md",
-    "SEM-3/CS3043-Database Systems/Database systems.md",
     "SEM-3/CS3043-Database Systems/Test Questions/CS3043 Test Questions 04.md",
     "SEM-3/CS3043-Database Systems/Study Notes/Unconfirmed 810224.crdownload",
     "SEM-3/CS3043-Database Systems/Test Questions/CS3043 Test Questions 02.md",
@@ -201,10 +204,7 @@
     "SEM-3/CS3043-Database Systems/Study Notes/Unconfirmed 175914.crdownload",
     "SEM-3/CS3043-Database Systems/Study Notes/Unconfirmed 546824.crdownload",
     "SEM-3/CS3043-Database Systems/Study Notes/Unconfirmed 970494.crdownload",
-    "[[Relational.md",
     "SEM-3/CS3043-Database Systems/Study Notes/Unconfirmed 24472.crdownload",
-    "Obsidian Tools/Check Box List.md",
-    "SEM-3/CS3043-Database Systems/cloude database-study-note.md",
     "Obsidian Tools",
     "SEM-3/CS3043-Database Systems/Test Questions",
     "Work Space.canvas",
