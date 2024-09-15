@@ -406,14 +406,14 @@ This transaction transfers $100 from account A to account B. Either both updates
 SQL provides various built-in data types and allows creation of user-defined types.
 
 ## 1. Built-in Types:
-- #### `DATE`: Stores date in 'YYYY-MM-DD' format
+#### `DATE`: Stores date in 'YYYY-MM-DD' format
   - Example: DATE '2023-09-15'
-- #### `TIME`: Stores time in 'HH:MM:SS' format
-  Example: TIME '14:30:00'
-- #### `TIMESTAMP`: Combines date and time
-  Example: TIMESTAMP '2023-09-15 14:30:00.00'
-- #### `INTERVAL`: Represents a duration
-  Example: INTERVAL '2' DAY
+#### `TIME`: Stores time in 'HH:MM:SS' format
+ -  Example: TIME '14:30:00'
+#### `TIMESTAMP`: Combines date and time
+-  Example: TIMESTAMP '2023-09-15 14:30:00.00'
+#### `INTERVAL`: Represents a duration
+-  Example: INTERVAL '2' DAY
 
 <br>
 
@@ -509,11 +509,11 @@ SQL provides various built-in data types and allows creation of user-defined typ
 - Cannot be rolled back (in MySQL)
 - Doesn't invoke ON DELETE triggers
 
-> [!info] Example:
+> [!info] Truncate example:
 > ```sql
 > TRUNCATE TABLE temp_logs;
 > ```
-> 
+
 
 ### DELETE:
 - DML (Data Manipulation Language) statement
@@ -521,7 +521,7 @@ SQL provides various built-in data types and allows creation of user-defined typ
 - Can be rolled back
 - Invokes ON DELETE triggers
 
-> [!info] Example:
+> [!info] Delete example:
 > ```sql
 > DELETE FROM student
 > WHERE graduation_year < 2020;
