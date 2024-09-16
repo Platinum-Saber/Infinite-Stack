@@ -3,6 +3,13 @@ tags:
   - Academic
   - Study
   - CheckList
+  - DatabaseSystems
+  - AI
+  - Thermo
+  - ComputerArchitecture
+  - DataCommunication
+  - DIfferentialEquations
+  - OperatingSystems
 Reviewed: 
 Created: 2024-09-05T21:51:00
 About: A check list of lessons to be studied.

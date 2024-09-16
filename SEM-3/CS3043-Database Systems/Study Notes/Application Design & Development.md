@@ -321,3 +321,7 @@ cipher.init(Cipher.DECRYPT_MODE, privateKey);
 byte[] decryptedData = cipher.doFinal(encryptedData);
 ```
 
+<br>
+
+---
+Up Next : [[Advanced SQL]]
