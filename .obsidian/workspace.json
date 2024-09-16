@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Singularity/SEM-3 INDEX.md",
-                "mode": "source",
+                "file": "SEM-3/CS3043-Database Systems/Study Notes/Relational Database Design.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -83,7 +83,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "b2aa869acde22062",
@@ -118,7 +119,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Singularity/SEM-3 INDEX.md"
+                "file": "SEM-3/CS3043-Database Systems/Study Notes/Relational Database Design.md"
               }
             }
           },
@@ -128,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Singularity/SEM-3 INDEX.md",
+                "file": "SEM-3/CS3043-Database Systems/Study Notes/Relational Database Design.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,12 +175,12 @@
   },
   "active": "1b19c6c229f33344",
   "lastOpenFiles": [
-    "Singularity/Infinite Stack.md",
+    "SEM-3/CS3043-Database Systems/Database systems.md",
     "Singularity/SEM-3 INDEX.md",
+    "Singularity/Infinite Stack.md",
     "Singularity/Study Tracker.md",
     "SEM-3/CS3043-Database Systems/Study Notes/Application Design & Development.md",
     "SEM-3/CS3043-Database Systems/Study Notes/Intermediate SQL.md",
-    "SEM-3/CS3043-Database Systems/Database systems.md",
     "SEM-3/CS3043-Database Systems/Study Notes/Relational Database Design.md",
     "SEM-3/CS3043-Database Systems/Study Notes/Introduction to SQL.md",
     "SEM-3/CS3043-Database Systems/Study Notes/Database Design Using the E-R Model.md",
