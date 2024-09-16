@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM-3/CS3043-Database Systems/Database systems.md",
+                "file": "Full Stack Development/Frontend Development/Setting Up React Framework.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -119,7 +119,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM-3/CS3043-Database Systems/Database systems.md"
+                "file": "Full Stack Development/Frontend Development/Setting Up React Framework.md"
               }
             }
           },
@@ -129,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM-3/CS3043-Database Systems/Database systems.md",
+                "file": "Full Stack Development/Frontend Development/Setting Up React Framework.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,8 +175,10 @@
   },
   "active": "3e2558054e0dfb89",
   "lastOpenFiles": [
-    "SEM-3/CS3043-Database Systems/Study Notes/Relational Database Design.md",
+    "Full Stack Development/Frontend Development/Using CSS in React.md",
+    "Full Stack Development/Frontend Development/Setting Up React Framework.md",
     "SEM-3/CS3043-Database Systems/Database systems.md",
+    "SEM-3/CS3043-Database Systems/Study Notes/Relational Database Design.md",
     "Singularity/SEM-3 INDEX.md",
     "Singularity/Infinite Stack.md",
     "Singularity/Study Tracker.md",
@@ -202,8 +204,6 @@
     "Untitled.md",
     "SEM-3/CS3043-Database Systems/Study Notes/Relational Algebra.md",
     "Excalidraw/Drawing 2024-09-14 23.36.01.excalidraw.md",
-    "SEM-3/CS3043-Database Systems/Study Notes/claude er-model-study-note.md",
-    "advanced-sql-study-note.md",
     "Images/Pasted image 20240915003303.png",
     "Images/Pasted image 20240915003236.png",
     "Images/Pasted image 20240915003223.png",
