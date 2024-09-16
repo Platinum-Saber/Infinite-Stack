@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM-3/CS3043-Database Systems/Study Notes/Relational Database Design.md",
+                "file": "SEM-3/CS2033-Data Communication and Networking/Encoding & Modulation.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -105,7 +105,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM-3/CS3043-Database Systems/Study Notes/Relational Database Design.md"
+                "file": "SEM-3/CS2033-Data Communication and Networking/Encoding & Modulation.md"
               }
             }
           },
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM-3/CS3043-Database Systems/Study Notes/Relational Database Design.md",
+                "file": "SEM-3/CS2033-Data Communication and Networking/Encoding & Modulation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +161,10 @@
   },
   "active": "1b19c6c229f33344",
   "lastOpenFiles": [
+    "SEM-3/CS2033-Data Communication and Networking/Data Transmission.md",
+    "SEM-3/CS2033-Data Communication and Networking/Data Com. & Networking Introduction.md",
     "SEM-3/CS2033-Data Communication and Networking/Communication Concepts.md",
+    "SEM-3/CS3043-Database Systems/Study Notes/Relational Database Design.md",
     "SEM-3/CS2033-Data Communication and Networking/Data Communication & Networking.md",
     "Singularity/SEM-3 INDEX.md",
     "Obsidian Tools/Check Box List.md",
@@ -170,7 +173,6 @@
     "Full Stack Development/Frontend Development/Setting Up React Framework.md",
     "Full Stack Development/Frontend Development/Using CSS in React.md",
     "SEM-3/CS3043-Database Systems/Database systems.md",
-    "SEM-3/CS3043-Database Systems/Study Notes/Relational Database Design.md",
     "Singularity/Infinite Stack.md",
     "Singularity/Study Tracker.md",
     "SEM-3/CS3043-Database Systems/Study Notes/Application Design & Development.md",
@@ -188,8 +190,6 @@
     "SEM-3/CS3043-Database Systems/Test Questions/CS3043 Test Questions 04.md",
     "SEM-3/CS3043-Database Systems/Study Notes/Unconfirmed 810224.crdownload",
     "SEM-3/CS3043-Database Systems/Test Questions/CS3043 Test Questions 02.md",
-    "SEM-3/CS3043-Database Systems/Test Questions/CS3043 Test Questions 01.md",
-    "SEM-3/CS3043-Database Systems/Test Questions/CS3043 Test Questions 03.md",
     "Images/Pasted image 20240915003303.png",
     "Images/Pasted image 20240915003236.png",
     "Images/Pasted image 20240915003223.png",
