@@ -74,6 +74,15 @@ Reference Video : [Part 1 - Lecture 4](file:///E:%5CAcademics%5CSEM%203%5CCS3043
 > [!info]- Normal Forms: 
 > Different levels of normalization, each with specific rules to eliminate various types of anomalies and redundancies.
 
+
+> [!summary] Definition
+> Let $\mathcal R$ be a relational schema
+> $$\alpha \subseteq R\ \ \ \mathrm{and} \ \ \ \beta \subseteq R$$
+> The functional dependency $\ \ \alpha \to \beta$
+> holds on $\mathcal R$ `iff` for any legal relations $\mathcal{r(R)}$ Whenever any 2 tuples 
+
+
+
  
 
 <br>
