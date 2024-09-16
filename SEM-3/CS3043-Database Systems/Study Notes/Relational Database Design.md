@@ -81,13 +81,6 @@ Reference Video : [Part 1 - Lecture 4](file:///E:%5CAcademics%5CSEM%203%5CCS3043
 > [!info]- Normal Forms: 
 > Different levels of normalization, each with specific rules to eliminate various types of anomalies and redundancies.
 
-
-
-
-
-
- 
-
 <br>
 
 ## Types of Normal Forms with Examples
@@ -319,7 +312,7 @@ Learn more about dependency preservation: [Dependency Preservation](https://www.
 
 ## Closure of Functional Dependencies
   
-- The closure of a set of functional dependencies F, denoted as F+, is the set of all functional dependencies that can be logically derived from F using **Armstrong's Axioms**:
+- The closure of a set of functional dependencies `F`, denoted as `F+`, is the set of all functional dependencies that can be logically derived from F using **Armstrong's Axioms**:
 
 	- **Reflexivity**: If `Y ⊆ X`, then `X → Y`
 	- **Augmentation**: If `X → Y`, then `XZ → YZ` for any `Z`
