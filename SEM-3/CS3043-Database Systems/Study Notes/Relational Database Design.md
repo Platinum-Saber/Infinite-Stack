@@ -55,6 +55,13 @@ Reference Video : [Part 1 - Lecture 4](file:///E:%5CAcademics%5CSEM%203%5CCS3043
 >  > - A functional dependency is a **constraint** between two sets of attributes in a relation. If A and B are attributes of relation R, B is functionally dependent on A (denoted as `A → B`) if each value of A is associated with exactly one value of B.
 >  > - **Legal instance** - An instance that satisfies all such real-world constraints.
 >  
+>  > [!summary]- Definition
+> > Let $\mathcal R$ be a relational schema
+> > $$\alpha \subseteq R\ \ \ \mathrm{and} \ \ \ \beta \subseteq R$$
+> > The *functional dependency* $\ \ \alpha \to \beta$
+> > *holds on* $\mathcal R$ `iff` for any **legal relations** $\ \mathcal{r(R)}$ Whenever any 2 tuples t<sub>1</sub>, t<sub>2 </sub> of $\mathcal r$ agree on the attributes $\alpha$ , they also agree on the attributes $\beta$ . 
+> > That is $$t_1 [\alpha] = t_2 [\alpha] \implies t_1 [\beta] = t_2 [\beta]$$ 
+> 
 >  
 >> [!Example]- Example:
 >> In a relation Student(StudentID, Name, DateOfBirth), we can say that:
@@ -75,11 +82,7 @@ Reference Video : [Part 1 - Lecture 4](file:///E:%5CAcademics%5CSEM%203%5CCS3043
 > Different levels of normalization, each with specific rules to eliminate various types of anomalies and redundancies.
 
 
-> [!summary] Definition
-> Let $\mathcal R$ be a relational schema
-> $$\alpha \subseteq R\ \ \ \mathrm{and} \ \ \ \beta \subseteq R$$
-> The functional dependency $\ \ \alpha \to \beta$
-> holds on $\mathcal R$ `iff` for any legal relations $\mathcal{r(R)}$ Whenever any 2 tuples 
+
 
 
 
