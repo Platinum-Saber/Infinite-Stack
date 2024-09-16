@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM-3/CS2033-Data Communication and Networking/Encoding & Modulation.md",
+                "file": "SEM-3/CS3043-Database Systems/Study Notes/Advanced SQL.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -105,7 +105,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM-3/CS2033-Data Communication and Networking/Encoding & Modulation.md"
+                "file": "SEM-3/CS3043-Database Systems/Study Notes/Advanced SQL.md"
               }
             }
           },
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM-3/CS2033-Data Communication and Networking/Encoding & Modulation.md",
+                "file": "SEM-3/CS3043-Database Systems/Study Notes/Advanced SQL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,6 +161,7 @@
   },
   "active": "1b19c6c229f33344",
   "lastOpenFiles": [
+    "SEM-3/CS2033-Data Communication and Networking/Encoding & Modulation.md",
     "SEM-3/CS2033-Data Communication and Networking/Data Transmission.md",
     "SEM-3/CS2033-Data Communication and Networking/Data Com. & Networking Introduction.md",
     "SEM-3/CS2033-Data Communication and Networking/Communication Concepts.md",
@@ -189,7 +190,6 @@
     "SEM-3/CS3043-Database Systems/Study Notes/intermediate-sql-study-note.md",
     "SEM-3/CS3043-Database Systems/Test Questions/CS3043 Test Questions 04.md",
     "SEM-3/CS3043-Database Systems/Study Notes/Unconfirmed 810224.crdownload",
-    "SEM-3/CS3043-Database Systems/Test Questions/CS3043 Test Questions 02.md",
     "Images/Pasted image 20240915003303.png",
     "Images/Pasted image 20240915003236.png",
     "Images/Pasted image 20240915003223.png",
