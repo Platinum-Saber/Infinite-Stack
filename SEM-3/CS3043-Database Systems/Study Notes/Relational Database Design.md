@@ -52,7 +52,8 @@ Reference Video : [Part 1 - Lecture 4](file:///E:%5CAcademics%5CSEM%203%5CCS3043
 > [!info]- Functional Dependencies:
 >  A constraint between two sets of attributes in a relation. If A functionally determines B, then knowing the value of A allows us to uniquely determine the value of B.
 >  > [!note]- 
->  > A functional dependency is a **constraint** between two sets of attributes in a relation. If A and B are attributes of relation R, B is functionally dependent on A (denoted as `A → B`) if each value of A is associated with exactly one value of B.
+>  > - A functional dependency is a **constraint** between two sets of attributes in a relation. If A and B are attributes of relation R, B is functionally dependent on A (denoted as `A → B`) if each value of A is associated with exactly one value of B.
+>  > - **Legal instance** - An instance that satisfies all such real-world constraints.
 >  
 >  
 >> [!Example]- Example:
@@ -72,6 +73,8 @@ Reference Video : [Part 1 - Lecture 4](file:///E:%5CAcademics%5CSEM%203%5CCS3043
 
 > [!info]- Normal Forms: 
 > Different levels of normalization, each with specific rules to eliminate various types of anomalies and redundancies.
+
+ 
 
 <br>
 
