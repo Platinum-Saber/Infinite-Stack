@@ -6,6 +6,8 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "FasCloud",
+      "RiCloudy2Line",
       "FiLink",
       "LiLinksGoingOut",
       "FasPeopleGroup",
@@ -13,9 +15,7 @@
       "LiBookOpen",
       "LiFile",
       "FarNoteSticky",
-      "LiFileQuestion",
-      "SiObsidian",
-      "SiCreatereactapp"
+      "LiFileQuestion"
     ],
     "recentlyUsedIconsSize": 10,
     "rules": [],
@@ -388,5 +388,9 @@
   "Singularity/Study Tracker.md": {
     "iconName": "RiBookOpenFill",
     "iconColor": "#ff0059"
+  },
+  "Ballerina": {
+    "iconName": "FasCloud",
+    "iconColor": "#67d8fe"
   }
 }

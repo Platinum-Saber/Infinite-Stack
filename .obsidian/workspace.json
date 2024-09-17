@@ -11,8 +11,13 @@
             "id": "ba986acd2d487a4f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Getting Started.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ]
@@ -34,7 +39,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabeticalReverse"
               }
             }
           },
@@ -100,7 +105,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Obsidian Tools/Git Profile Draft.md"
+                "file": "Getting Started.md"
               }
             }
           },
@@ -110,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Obsidian Tools/Git Profile Draft.md",
+                "file": "Getting Started.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,8 +159,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "671fcfcc9244e77e",
+  "active": "ba986acd2d487a4f",
   "lastOpenFiles": [
+    "Images/Pasted image 20240917184851.png",
+    "Getting Started.md",
     "Ballerina",
     "SEM-3/CS3043-Database Systems/Study Notes/Relational Database Design.md",
     "Obsidian Tools/Git Profile Draft.md",
@@ -184,7 +191,6 @@
     "Singularity",
     "SEM-3/CS3043-Database Systems/Test Questions/CS3043 Test Questions 07.md",
     "SEM-3/CS3043-Database Systems/Test Questions/CS3043 Test Questions 05.md",
-    "SEM-3/CS3043-Database Systems/Study Notes/database-application-study-guide.md",
     "SEM-3/CS3043-Database Systems/Study Notes/Unconfirmed 338841.crdownload",
     "SEM-3/CS3043-Database Systems/Study Notes/Unconfirmed 810224.crdownload",
     "Images/Pasted image 20240915003303.png",
@@ -201,7 +207,6 @@
     "SEM-3/CS3043-Database Systems/Study Notes/Unconfirmed 551833.crdownload",
     "SEM-3/CS3043-Database Systems/Study Notes/Unconfirmed 175914.crdownload",
     "SEM-3/CS3043-Database Systems/Study Notes/Unconfirmed 546824.crdownload",
-    "SEM-3/CS3043-Database Systems/Study Notes/Unconfirmed 970494.crdownload",
     "Work Space.canvas",
     "Untitled.canvas"
   ]
