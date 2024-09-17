@@ -307,7 +307,7 @@ Reference Video :
 > ```
 > 
 
-### 1. Creating Users:
+#### 1. Creating Users:
 
 - To create a new user in MySQL, you use the `CREATE USER` statement. 
 > [!note]- How !!!
@@ -324,65 +324,60 @@ Reference Video :
 >> CREATE USER 'john'@'localhost' IDENTIFIED BY 'securepass123';
 >> ```
 
-<br>
-
-### 2. Granting Privileges:
+#### 2. Granting Privileges:
 
 After creating a user, you need to grant them privileges. The `GRANT` statement is used for this purpose.
 
-```sql
-GRANT privilege_type [(column_list)] 
-    ON [object_type] privilege_level
-    TO 'username'@'hostname'
-    [WITH GRANT OPTION];
-```
+> [!note]- How !!!
+> ```sql
+> GRANT privilege_type [(column_list)] 
+>     ON [object_type] privilege_level
+>     TO 'username'@'hostname'
+>     [WITH GRANT OPTION];
+> ```
+> 
+> - **privilege_type**: The type of operation allowed (e.g., SELECT, INSERT, UPDATE, DELETE, ALL PRIVILEGES)
+> - **column_list**: Optional. Specific columns the privilege applies to.
+> - **object_type**: Optional. Can be TABLE, FUNCTION, or PROCEDURE.
+> - **privilege_level**: The level at which the privilege applies (e.g., *.* for global, database_name.* for database-level, database_name.table_name for table-level)
+> - WITH GRANT OPTION: Optional. Allows the user to grant their privileges to other users.
 
-- **privilege_type**: The type of operation allowed (e.g., SELECT, INSERT, UPDATE, DELETE, ALL PRIVILEGES)
-- **column_list**: Optional. Specific columns the privilege applies to.
-- **object_type**: Optional. Can be TABLE, FUNCTION, or PROCEDURE.
-- **privilege_level**: The level at which the privilege applies (e.g., *.* for global, database_name.* for database-level, database_name.table_name for table-level)
-- WITH GRANT OPTION: Optional. Allows the user to grant their privileges to other users.
+> [!code]- Examples:
+> 
+> 1. Grant all privileges on all databases:
+> ```sql
+> GRANT ALL PRIVILEGES ON *.* TO 'john'@'localhost';
+> ```
+> 
+> 2. Grant specific privileges on a database:
+> ```sql
+> GRANT SELECT, INSERT, UPDATE ON mydb.* TO 'john'@'localhost';
+> ```
+> 
+> 3. Grant privileges on a specific table:
+> ```sql
+> GRANT SELECT, UPDATE (name, email) ON mydb.users TO 'john'@'localhost';
+> ```
+> 
 
-Examples:
-
-1. Grant all privileges on all databases:
-```sql
-GRANT ALL PRIVILEGES ON *.* TO 'john'@'localhost';
-```
-
-2. Grant specific privileges on a database:
-```sql
-GRANT SELECT, INSERT, UPDATE ON mydb.* TO 'john'@'localhost';
-```
-
-3. Grant privileges on a specific table:
-```sql
-GRANT SELECT, UPDATE (name, email) ON mydb.users TO 'john'@'localhost';
-```
-
-After granting privileges, it's good practice to run:
-```sql
-FLUSH PRIVILEGES;
-```
-This reloads the privileges from the grant tables in the mysql database.
-
-
-
-1. View user's privileges:
+#### 3. View user's privileges:
 ```sql
 SHOW GRANTS FOR 'john'@'localhost';
 ```
 
-2. Revoke privileges:
+#### 4. Revoke privileges:
 ```sql
 REVOKE privilege_type ON privilege_level FROM 'username'@'hostname';
 ```
 
-3. Drop a user:
+#### 5. Drop a user:
 ```sql
 DROP USER 'username'@'hostname';
 ```
-
+#### 4. Reload the privileges from the grant tables:
+```sql
+FLUSH PRIVILEGES;
+```
 
 <br>
 
@@ -438,63 +433,5 @@ DROP USER 'username'@'hostname';
 9. Regularly backup your database and test recovery procedures.
 10. Stay updated with the latest features and best practices of your specific database management system.
 
-Certainly! SQL functions and triggers are powerful features in database management systems that help automate tasks and enforce business rules. Let's explore both:
-
-SQL Functions:
-
-SQL functions are reusable code blocks that perform specific tasks and return a result. There are two main types:
-
-1. Built-in Functions:
-   - String functions (e.g., CONCAT, SUBSTRING)
-   - Numeric functions (e.g., ABS, ROUND)
-   - Date functions (e.g., NOW, DATEDIFF)
-   - Aggregate functions (e.g., SUM, AVG, COUNT)
-
-2. User-Defined Functions (UDFs):
-   These are custom functions created by users. In MySQL, there are three types:
-   - Scalar functions (return a single value)
-   - Table functions (return a table)
-   - Stored functions (similar to stored procedures but return a value)
-
-Example of a simple user-defined function:
-
-```sql
-DELIMITER //
-CREATE FUNCTION calculate_age(birthdate DATE) 
-RETURNS INT
-DETERMINISTIC
-BEGIN
-    RETURN FLOOR(DATEDIFF(CURDATE(), birthdate) / 365);
-END //
-DELIMITER ;
-```
-
-Triggers:
-
-Triggers are special types of stored procedures that automatically execute when specific events occur on a table. They can be used to enforce complex integrity constraints or to log changes.
-
-Key points about triggers:
-- They can be set to fire BEFORE or AFTER an INSERT, UPDATE, or DELETE operation
-- In MySQL, you can have multiple triggers for the same event on a table
-- Triggers can access and modify the data being inserted, updated, or deleted
-
-Example of a simple trigger:
-
-```sql
-DELIMITER //
-CREATE TRIGGER before_employee_update 
-BEFORE UPDATE ON employees
-FOR EACH ROW 
-BEGIN
-    IF NEW.salary < OLD.salary THEN
-        SIGNAL SQLSTATE '45000' 
-        SET MESSAGE_TEXT = 'Salary cannot be decreased';
-    END IF;
-END //
-DELIMITER ;
-```
-
-This trigger prevents decreasing an employee's salary.
-
-Would you like me to elaborate on any specific aspect of functions or triggers, or perhaps provide more complex examples?
-
+---
+Up Next : [[]]
