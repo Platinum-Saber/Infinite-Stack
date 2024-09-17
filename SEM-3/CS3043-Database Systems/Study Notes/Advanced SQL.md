@@ -228,6 +228,19 @@ Reference Video :
 >     WHERE customer.cust_id = NEW.cust_id;
 > END;
 > 
+> 
+> DELIMITER //
+> CREATE TRIGGER before_employee_update 
+> BEFORE UPDATE ON employees
+> FOR EACH ROW 
+> BEGIN
+>     IF NEW.salary < OLD.salary THEN
+>         SIGNAL SQLSTATE '45000' 
+>         SET MESSAGE_TEXT = 'Salary cannot be decreased';
+>     END IF;
+> END //
+> DELIMITER ;
+> 
 > ```
 
 <br>
@@ -293,6 +306,83 @@ Reference Video :
 > REVOKE DELETE ON customer_data FROM intern_user;
 > ```
 > 
+
+### 1. Creating Users:
+
+- To create a new user in MySQL, you use the `CREATE USER` statement. 
+> [!note]- How !!!
+> 
+> ```sql
+> CREATE USER 'username'@'hostname' IDENTIFIED BY 'password';
+> ```
+> 
+> - '`username`': The name of the user you want to create.
+> - '`hostname`': The host from which this user will connect. Use `'%'` for any host.
+> - '`password`': The user's password.
+>> [!code] Example:
+>>```sql
+>> CREATE USER 'john'@'localhost' IDENTIFIED BY 'securepass123';
+>> ```
+
+<br>
+
+### 2. Granting Privileges:
+
+After creating a user, you need to grant them privileges. The `GRANT` statement is used for this purpose.
+
+```sql
+GRANT privilege_type [(column_list)] 
+    ON [object_type] privilege_level
+    TO 'username'@'hostname'
+    [WITH GRANT OPTION];
+```
+
+- **privilege_type**: The type of operation allowed (e.g., SELECT, INSERT, UPDATE, DELETE, ALL PRIVILEGES)
+- **column_list**: Optional. Specific columns the privilege applies to.
+- **object_type**: Optional. Can be TABLE, FUNCTION, or PROCEDURE.
+- **privilege_level**: The level at which the privilege applies (e.g., *.* for global, database_name.* for database-level, database_name.table_name for table-level)
+- WITH GRANT OPTION: Optional. Allows the user to grant their privileges to other users.
+
+Examples:
+
+1. Grant all privileges on all databases:
+```sql
+GRANT ALL PRIVILEGES ON *.* TO 'john'@'localhost';
+```
+
+2. Grant specific privileges on a database:
+```sql
+GRANT SELECT, INSERT, UPDATE ON mydb.* TO 'john'@'localhost';
+```
+
+3. Grant privileges on a specific table:
+```sql
+GRANT SELECT, UPDATE (name, email) ON mydb.users TO 'john'@'localhost';
+```
+
+After granting privileges, it's good practice to run:
+```sql
+FLUSH PRIVILEGES;
+```
+This reloads the privileges from the grant tables in the mysql database.
+
+
+
+1. View user's privileges:
+```sql
+SHOW GRANTS FOR 'john'@'localhost';
+```
+
+2. Revoke privileges:
+```sql
+REVOKE privilege_type ON privilege_level FROM 'username'@'hostname';
+```
+
+3. Drop a user:
+```sql
+DROP USER 'username'@'hostname';
+```
+
 
 <br>
 
