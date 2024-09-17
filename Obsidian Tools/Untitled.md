@@ -40,3 +40,6 @@ I'm a Computer Science and Engineering undergraduate at the University of Moratu
 ---
 
 💡 Open to collaborations and always excited to work on new projects!
+
+
+![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=Platinum-Saber&show_icons=true&theme=radical)
