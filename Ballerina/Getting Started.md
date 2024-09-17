@@ -7,9 +7,8 @@
 > [!image]- Download
 > ![[Pasted image 20240917184851.png]]
 
-
-1. Follow the installation instructions for your system.
-2. After installation, verify it by typing `bal` in your terminal or command prompt. It should display the Ballerina CLI options.
+3. Follow the installation instructions for your system.
+4. After installation, verify it by typing `bal` in your terminal or command prompt. It should display the Ballerina CLI options.
 
 ### Step 2: **Set Up the Development Environment**
 

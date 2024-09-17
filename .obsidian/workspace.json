@@ -13,14 +13,41 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Getting Started.md",
+                "file": "Ballerina/Getting Started.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c0e80edd4f1102e1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Ballerina/Basics of Ballerina.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1885d2b7cbdb3843",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Ballerina/Basics of Ballerina.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -105,7 +132,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Getting Started.md"
+                "file": "Ballerina/Basics of Ballerina.md"
               }
             }
           },
@@ -115,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Getting Started.md",
+                "file": "Ballerina/Basics of Ballerina.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,10 +186,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ba986acd2d487a4f",
+  "active": "1885d2b7cbdb3843",
   "lastOpenFiles": [
+    "Ballerina/Untitled.md",
+    "Ballerina/Basics of Ballerina.md",
+    "Ballerina/Getting Started.md",
     "Images/Pasted image 20240917184851.png",
-    "Getting Started.md",
     "Ballerina",
     "SEM-3/CS3043-Database Systems/Study Notes/Relational Database Design.md",
     "Obsidian Tools/Git Profile Draft.md",
@@ -190,7 +219,6 @@
     "Singularity/Study Tracker.md",
     "Singularity",
     "SEM-3/CS3043-Database Systems/Test Questions/CS3043 Test Questions 07.md",
-    "SEM-3/CS3043-Database Systems/Test Questions/CS3043 Test Questions 05.md",
     "SEM-3/CS3043-Database Systems/Study Notes/Unconfirmed 338841.crdownload",
     "SEM-3/CS3043-Database Systems/Study Notes/Unconfirmed 810224.crdownload",
     "Images/Pasted image 20240915003303.png",
@@ -202,7 +230,6 @@
     "Images/Pasted image 20240915002542.png",
     "Images/Pasted image 20240915001627.png",
     "Images/Pasted image 20240915001406.png",
-    "Images/Pasted image 20240915000914.png",
     "SEM-3/CS3043-Database Systems/Study Notes/Unconfirmed 996422.crdownload",
     "SEM-3/CS3043-Database Systems/Study Notes/Unconfirmed 551833.crdownload",
     "SEM-3/CS3043-Database Systems/Study Notes/Unconfirmed 175914.crdownload",
