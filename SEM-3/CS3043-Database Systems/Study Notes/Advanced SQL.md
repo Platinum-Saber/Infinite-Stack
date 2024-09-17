@@ -145,6 +145,18 @@ Reference Video :
 - Useful for specialized data types (e.g., images, geometric objects).
 - Some databases support **table-valued functions**.
 
+> [!summary]- Built-in Functions:
+>    - String functions (e.g., `CONCAT`, `SUBSTRING`)
+>    - Numeric functions (e.g., `ABS`, `ROUND`)
+>    - Date functions (e.g., `NOW`, `DATEDIFF`)
+>    - Aggregate functions (e.g., `SUM`, `AVG`, `COUNT`)
+
+> [!summary]- User-Defined Functions (UDFs):
+>    These are custom functions created by users. In MySQL, there are three types:
+>    - **Scalar functions** (return a single value)
+>    - **Table functions** (return a table)
+>    - **Stored functions** (similar to stored procedures but return a value)
+
 > [!code]- Example code:
 > ```sql
 > CREATE FUNCTION dept_count (dept_name VARCHAR(20))
@@ -156,6 +168,15 @@ Reference Video :
 >     WHERE instructor.dept_name = dept_name;
 >     RETURN d_count;
 > END;
+> 
+> DELIMITER //
+> CREATE FUNCTION calculate_age(birthdate DATE) 
+> RETURNS INT
+> DETERMINISTIC
+> BEGIN
+>     RETURN FLOOR(DATEDIFF(CURDATE(), birthdate) / 365);
+> END //
+> DELIMITER ;
 > ```
 
 <br>
@@ -173,8 +194,9 @@ Reference Video :
 >     FROM instructor
 >     WHERE instructor.dept_name = dept_count_proc.dept_name;
 > END;
-> ```
 > 
+> ```
+
 
 <br>
 
@@ -205,6 +227,7 @@ Reference Video :
 >     SET credit_score = credit_score - 20
 >     WHERE customer.cust_id = NEW.cust_id;
 > END;
+> 
 > ```
 
 <br>
@@ -325,5 +348,63 @@ Reference Video :
 9. Regularly backup your database and test recovery procedures.
 10. Stay updated with the latest features and best practices of your specific database management system.
 
+Certainly! SQL functions and triggers are powerful features in database management systems that help automate tasks and enforce business rules. Let's explore both:
 
+SQL Functions:
+
+SQL functions are reusable code blocks that perform specific tasks and return a result. There are two main types:
+
+1. Built-in Functions:
+   - String functions (e.g., CONCAT, SUBSTRING)
+   - Numeric functions (e.g., ABS, ROUND)
+   - Date functions (e.g., NOW, DATEDIFF)
+   - Aggregate functions (e.g., SUM, AVG, COUNT)
+
+2. User-Defined Functions (UDFs):
+   These are custom functions created by users. In MySQL, there are three types:
+   - Scalar functions (return a single value)
+   - Table functions (return a table)
+   - Stored functions (similar to stored procedures but return a value)
+
+Example of a simple user-defined function:
+
+```sql
+DELIMITER //
+CREATE FUNCTION calculate_age(birthdate DATE) 
+RETURNS INT
+DETERMINISTIC
+BEGIN
+    RETURN FLOOR(DATEDIFF(CURDATE(), birthdate) / 365);
+END //
+DELIMITER ;
+```
+
+Triggers:
+
+Triggers are special types of stored procedures that automatically execute when specific events occur on a table. They can be used to enforce complex integrity constraints or to log changes.
+
+Key points about triggers:
+- They can be set to fire BEFORE or AFTER an INSERT, UPDATE, or DELETE operation
+- In MySQL, you can have multiple triggers for the same event on a table
+- Triggers can access and modify the data being inserted, updated, or deleted
+
+Example of a simple trigger:
+
+```sql
+DELIMITER //
+CREATE TRIGGER before_employee_update 
+BEFORE UPDATE ON employees
+FOR EACH ROW 
+BEGIN
+    IF NEW.salary < OLD.salary THEN
+        SIGNAL SQLSTATE '45000' 
+        SET MESSAGE_TEXT = 'Salary cannot be decreased';
+    END IF;
+END //
+DELIMITER ;
+```
+
+This trigger prevents decreasing an employee's salary.
+
+Would you like me to elaborate on any specific aspect of functions or triggers, or perhaps provide more complex examples?
 
