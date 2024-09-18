@@ -46,8 +46,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -132,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM-3/MA3014-Applied Statistics/Test Questions/Standard Normal Distribution Questions.md"
+                "file": "SEM-3/MA3014-Applied Statistics/Study Notes/stat_tables.pdf"
               }
             }
           },
@@ -142,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM-3/MA3014-Applied Statistics/Test Questions/Standard Normal Distribution Questions.md",
+                "file": "SEM-3/MA3014-Applied Statistics/Study Notes/stat_tables.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,16 +185,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "95553562d7c82059",
+  "active": "eaca49d1ca401a68",
   "lastOpenFiles": [
+    "SEM-3/MA3014-Applied Statistics/Study Notes/sampling-distributions-study-note.md",
+    "SEM-3/MA3014-Applied Statistics/Study Notes/discrete-distributions-note.md",
+    "SEM-3/MA3014-Applied Statistics/Lecture Notes/Week 2 Week 3.pdf",
+    "SEM-3/MA3014-Applied Statistics/Lecture Notes/Week 1.pdf",
     "SEM-3/MA3014-Applied Statistics/Lecture Notes/Online_Statistics_Education.pdf",
     "SEM-3/MA3014-Applied Statistics/Study Notes/stat_tables.pdf",
     "SEM-3/MA3014-Applied Statistics/Test Questions/Standard Normal Distribution Questions.md",
     "SEM-3/MA3014-Applied Statistics/Test Questions/MA3014 Test Questions 01.md",
-    "SEM-3/MA3014-Applied Statistics/Lecture Notes/Week 2 Week 3.pdf",
-    "SEM-3/MA3014-Applied Statistics/Lecture Notes/Week 1.pdf",
-    "SEM-3/MA3014-Applied Statistics/Study Notes/discrete-distributions-note.md",
-    "SEM-3/MA3014-Applied Statistics/Study Notes/sampling-distributions-study-note.md",
     "SEM-3/CS3043-Database Systems/Study Notes/Advanced SQL.md",
     "SEM-3/CS3043-Database Systems/Study Notes/Database Design Using the E-R Model.md",
     "Full Stack Development/Backend Development/Setting Up .ENV.md",

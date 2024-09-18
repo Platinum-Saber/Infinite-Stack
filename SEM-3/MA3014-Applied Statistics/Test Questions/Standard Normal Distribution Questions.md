@@ -427,17 +427,17 @@
 > ### Steps to Approximate Using Normal Distribution
 > 
 > 1. **Calculate the Mean and Standard Deviation of the Binomial Distribution**:
->    - The mean (\(\mu\)) of a binomial distribution is given by:
+>    - The mean ($(\mu)$) of a binomial distribution is given by:
 >      $$
 >      \mu = n \cdot p
 >      $$
->    - The standard deviation (\(\sigma\)) is given by:
+>    - The standard deviation ($(\sigma)$) is given by:
 >      $$
 >      \sigma = \sqrt{n \cdot p \cdot (1 - p)}
 >      $$
 > 
 >    For this case:
->    - Mean (\(\mu\)):
+>    - Mean ($(\mu)$):
 >      $$
 >      \mu = 12 \cdot 0.5 = 6
 >      $$
@@ -485,3 +485,64 @@
 > - Convert to z-scores.
 > - Find cumulative probabilities and calculate the probability.
 
+## Question 06
+- A group of students at a school takes a history test. The distribution is normal with a mean of 25, and a standard deviation of 4. 
+	- (a) Everyone who scores in the top 30% of the distribution gets a certificate. What is the lowest score someone can get and still earn a certificate? 
+	- (b) The top 5% of the scores get to compete in a statewide history contest. What is the lowest score someone can get and still go onto compete with the rest of the state?
+
+> [!math]- Answer
+> ### Given:
+> - Mean ($\mu$) = 25
+> - Standard deviation ($\sigma$) = 4
+> 
+> ### a. Lowest Score for the Top 30% of the Distribution
+> 
+> To find the lowest score for the top 30%, we need to determine the z-score that corresponds to the 70th percentile (since the top 30% starts above the 70th percentile).
+> 
+> Using a z-table or calculator, we find:
+> 
+> $$
+> P(Z < z) = 0.70 \implies z \approx 0.524
+> $$
+> 
+> Now we can convert this z-score back to the raw score ($X$) using the formula:
+> 
+> $$
+> X = z \cdot \sigma + \mu
+> $$
+> 
+> Substituting the values:
+> 
+> $$
+> X = (0.524 \cdot 4) + 25 \approx 2.096 + 25 \approx 27.10
+> $$
+> 
+> Thus, the lowest score someone can get and still earn a certificate is approximately **27.10**.
+> 
+> ### b. Lowest Score for the Top 5% of the Distribution
+> 
+> To find the lowest score for the top 5%, we need to determine the z-score that corresponds to the 95th percentile.
+> 
+> Using a z-table or calculator, we find:
+> 
+> $$
+> P(Z < z) = 0.95 \implies z \approx 1.645
+> $$
+> 
+> Now we use the z-score formula again:
+> 
+> $$
+> X = z \cdot \sigma + \mu
+> $$
+> 
+> Substituting the values:
+> 
+> $$
+> X = (1.645 \cdot 4) + 25 \approx 6.58 + 25 \approx 31.58
+> $$
+> 
+> Thus, the lowest score someone can get and still compete in the statewide history contest is approximately **31.58**.
+> 
+> ### Summary:
+> - a. Lowest score for the top 30%: **27.10**
+> - b. Lowest score for the top 5%: **31.58**

@@ -6,16 +6,16 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "SiBookstack",
+      "RaBook",
+      "FiBookmark",
+      "SiFiles",
+      "RiTableFill",
+      "FarFilePdf",
       "FasCloud",
       "RiCloudy2Line",
       "FiLink",
-      "LiLinksGoingOut",
-      "FasPeopleGroup",
-      "FarCircleQuestion",
-      "LiBookOpen",
-      "LiFile",
-      "FarNoteSticky",
-      "LiFileQuestion"
+      "LiLinksGoingOut"
     ],
     "recentlyUsedIconsSize": 10,
     "rules": [],
@@ -394,5 +394,10 @@
     "iconColor": "#67d8fe"
   },
   "SEM-3/MA3014-Applied Statistics/Study Notes": "LiBookOpen",
-  "SEM-3/MA3014-Applied Statistics/Test Questions": "FarCircleQuestion"
+  "SEM-3/MA3014-Applied Statistics/Test Questions": "FarCircleQuestion",
+  "SEM-3/MA3014-Applied Statistics/Lecture Notes/Online_Statistics_Education.pdf": "FarFilePdf",
+  "SEM-3/MA3014-Applied Statistics/Lecture Notes/Week 1.pdf": "FarFilePdf",
+  "SEM-3/MA3014-Applied Statistics/Lecture Notes/Week 2 Week 3.pdf": "FarFilePdf",
+  "SEM-3/MA3014-Applied Statistics/Study Notes/stat_tables.pdf": "RiTableFill",
+  "SEM-3/MA3014-Applied Statistics/Lecture Notes": "SiBookstack"
 }
