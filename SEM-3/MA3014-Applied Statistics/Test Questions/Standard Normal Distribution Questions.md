@@ -300,12 +300,12 @@
 > 2. **Find the z-scores corresponding to the cumulative probabilities**:
 >    - For the lower limit:
 >      $$
->      P(Z < z) = 0.175 \implies z \approx -0.954
+>      P(Z < z) = 0.175 \implies z \approx -0.93
 >      $$
 > 
 >    - For the upper limit:
 >      $$
->      P(Z < z) = 0.825 \implies z \approx 0.954
+>      P(Z < z) = 0.825 \implies z \approx 0.93
 >      $$
 > 
 > 3. **Convert the z-scores back to raw scores** using the formula:
@@ -315,18 +315,19 @@
 > 
 >    - For the lower limit ($z \approx -0.954$):
 >      $$
->      X_{lower} = -0.954 \cdot 12 + 70 \approx -11.448 + 70 \approx 58.55
+>      X_{lower} = -0.93 \cdot 12 + 70 \approx -11.16 + 70 \approx 58.8
 >      $$
 > 
 >    - For the upper limit ($z \approx 0.954$):
 >      $$
->      X_{upper} = 0.954 \cdot 12 + 70 \approx 11.448 + 70 \approx 81.45
+>      X_{upper} = 0.93 \cdot 12 + 70 \approx 11.448 + 70 \approx 81.2
 >      $$
 > 
 > ### Summary:
 > The limits that include the middle 65% of the cases are approximately:
 > 
-> - **Lower Limit**: **58.55**
-> - **Upper Limit**: **81.45**
-> 
+> - **Lower Limit**: **58.8**
+> - **Upper Limit**: **81.2**
+
+
 
