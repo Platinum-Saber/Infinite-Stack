@@ -1,4 +1,13 @@
-# Sampling Distributions Study Note
+---
+tags: 
+Reviewed: 
+Created: 
+About:
+---
+Related : #math #statistics #CLT #t-distribution #chi-square #f-distribution
+# Content
+
+
 
 ## 1. Introduction to Sampling Distributions
 
@@ -9,7 +18,9 @@ A sampling distribution is the probability distribution of a statistic (such as 
 - $n$: Number of observations in the sample
 - Method used to select samples at random
 
-Note: If $N$ is much larger than $n$, the sampling distribution has roughly the same sampling error, regardless of whether sampling is done with or without replacement.
+> [!NOTE]- If $N$ is much larger than $n$, the sampling distribution has roughly the same sampling error, regardless of whether sampling is done with or without replacement.
+
+<br>
 
 ## 2. The Central Limit Theorem (CLT)
 
@@ -23,11 +34,12 @@ The CLT states that the probability distribution of any statistic will be normal
 > - Sampling distribution is moderately skewed, unimodal, without outliers, and 16 ≤ sample size ≤ 40
 > - Sample size > 40, without outliers
 
+<br>
+
 ## 3. Sampling Distribution of the Mean
 
 For a sample mean $\bar{x}$ from a population with mean $\mu$ and standard deviation $\sigma$ :
-- $\bar{x} \sim N(\mu_{\bar{x}}, \sigma^2_{\bar{x}})$
-
+### $$\bar{x} \sim N(\mu_{\bar{x}}, \sigma^2_{\bar{x}})$$
 Where:
 - $\mu_{\bar{x}} = \mu$
 - $\sigma_{\bar{x}} = \frac{\sigma}{\sqrt{n}}$
@@ -46,26 +58,25 @@ Therefore:
 > 
 > This means the sampling distribution of the mean has a mean of 50 and a standard deviation of 2.
 
+<br>
+
 ## 4. Sampling Distribution of the Proportion
 
 For a sample proportion $p$ from a population with proportion $P$ of successes and $Q = 1-P$ of failures:
-
-$p \sim N(\mu_p, \sigma^2_p)$
-
+### $$p \sim N(\mu_p, \sigma^2_p)$$
 Where:
-$\mu_p = P$
-$\sigma_p = \sqrt{\frac{PQ}{n}}$
+- $\mu_p = P$
+- $\sigma_p = \sqrt{\frac{PQ}{n}}$
 
 Therefore:
+- $p \sim N(P, \frac{PQ}{n})$
 
-$p \sim N(P, \frac{PQ}{n})$
-
-This applies when the sample size is sufficiently large and the population probability of success $(P)$ is known.
+> [!NOTE] This applies when the sample size is sufficiently large and the population probability of success $(P)$ is known.
 
 > [!equation]- Example:
 > A biased coin has a probability $P = 0.4$ of heads. In 1000 tosses, what is the probability that the number of heads exceeds 410?
 > 
-> Solution:
+> **Solution**:
 > Let $X$ be the number of heads in 1000 tosses.
 > $X \sim B(1000, 0.4)$, which can be approximated by $N(400, 240)$
 > 
@@ -76,31 +87,33 @@ This applies when the sample size is sufficiently large and the population proba
 > Using a standard normal table, we find:
 > $P(Z > 0.68) \approx 0.2483$ or about 24.83%
 
+<br>
+
 ## 5. Student's t-Distribution
 
-The t-distribution is used when the population standard deviation is unknown and must be estimated from the sample. It is determined by its degrees of freedom (df).
+The t-distribution is used when the **population standard deviation** is **unknown** and must be estimated from the sample. It is determined by its degrees of freedom (df).
 
 For a sample of size $n$ from a normal population with unknown mean $\mu$ and unknown standard deviation $\sigma$:
+### $$t = \frac{\bar{x} - \mu}{s/\sqrt{n}}$$
+This statistic follows a `t-distribution` with $n-1$ `degrees of freedom`.
 
-$t = \frac{\bar{x} - \mu}{s/\sqrt{n}}$
+> [!summary]- Properties of the t-Distribution:
+> - Mean = 0
+> - Variance = $\frac{v}{v-2}$, where $v$ is the degrees of freedom and $v > 2$
+> - As df increases, the t-distribution approaches the standard normal distribution
 
-This statistic follows a t-distribution with $n-1$ degrees of freedom.
+> [!equation]- Example:
+> A sample of 12 observations from a normal population with mean 48 produced $\bar{x} = 47.1$ and $s^2 = 4.7$. Find the probability of getting a sample of the same size with its mean less than or equal to the population mean.
+> 
+> Solution:
+> We need to find $P(\bar{x} \leq 48)$
+> 
+> $t = \frac{47.1 - 48}{\sqrt{4.7}/\sqrt{12}} = -1.44$
+> 
+> With 11 df, using a t-table, we find:
+> $P(t \leq -1.44) \approx 0.0885$ or about 8.85%
 
-Properties of the t-Distribution:
-- Mean = 0
-- Variance = $\frac{v}{v-2}$, where $v$ is the degrees of freedom and $v > 2$
-- As df increases, the t-distribution approaches the standard normal distribution
-
-Example:
-A sample of 12 observations from a normal population with mean 48 produced $\bar{x} = 47.1$ and $s^2 = 4.7$. Find the probability of getting a sample of the same size with its mean less than or equal to the population mean.
-
-Solution:
-We need to find $P(\bar{x} \leq 48)$
-
-$t = \frac{47.1 - 48}{\sqrt{4.7}/\sqrt{12}} = -1.44$
-
-With 11 df, using a t-table, we find:
-$P(t \leq -1.44) \approx 0.0885$ or about 8.85%
+<br>
 
 ## 6. Chi-square Distribution
 
@@ -123,6 +136,8 @@ $\chi^2 = \frac{(10-1)(6^2)}{5^2} = 12.96$
 
 Using a chi-square table with 9 df, we find:
 $P(\chi^2 > 12.96) \approx 0.1643$ or about 16.43%
+
+<br>
 
 ## 7. F-Distribution
 

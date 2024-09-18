@@ -6,6 +6,7 @@
       {
         "id": "97c6b8ef56e2d733",
         "type": "tabs",
+        "dimension": 54.6875,
         "children": [
           {
             "id": "5aa5e623af928063",
@@ -13,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM-3/MA3014-Applied Statistics/Study Notes/sampling-distributions-study-note.md",
+                "file": "SEM-3/MA3014-Applied Statistics/Study Notes/Sampling Distributions.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -25,6 +26,7 @@
       {
         "id": "8bd8b1bbc57ef15a",
         "type": "tabs",
+        "dimension": 45.3125,
         "children": [
           {
             "id": "eaca49d1ca401a68",
@@ -134,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM-3/MA3014-Applied Statistics/Study Notes/sampling-distributions-study-note.md"
+                "file": "SEM-3/MA3014-Applied Statistics/Study Notes/Sampling Distributions.md"
               }
             }
           },
@@ -144,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM-3/MA3014-Applied Statistics/Study Notes/sampling-distributions-study-note.md",
+                "file": "SEM-3/MA3014-Applied Statistics/Study Notes/Sampling Distributions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +196,7 @@
     "SEM-3/MA3014-Applied Statistics/Test Questions/MA3014 Test Questions 01.md",
     "SEM-3/MA3014-Applied Statistics/Lecture Notes/Online_Statistics_Education.pdf",
     "SEM-3/MA3014-Applied Statistics/Study Notes/stat_tables.pdf",
-    "SEM-3/MA3014-Applied Statistics/Study Notes/sampling-distributions-study-note.md",
+    "SEM-3/MA3014-Applied Statistics/Study Notes/Sampling Distributions.md",
     "SEM-3/MA3014-Applied Statistics/Lecture Notes/Week 2 Week 3.pdf",
     "SEM-3/MA3014-Applied Statistics/Lecture Notes/Week 1.pdf",
     "SEM-3/MA3014-Applied Statistics/Test Questions/Standard Normal Distribution Questions.md",
