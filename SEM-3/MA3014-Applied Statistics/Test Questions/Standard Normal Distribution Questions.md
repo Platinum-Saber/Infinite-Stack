@@ -550,8 +550,6 @@
 ## Question 07
 - Use the normal distribution to approximate the binomial distribution and find the probability of getting 15 to 18 heads out of 25 flips. Compare this to what you get when you calculate the probability using the binomial distribution. Write your answers out to four decimal places
 
-To approximate the binomial distribution using the normal distribution for the probability of getting between 15 and 18 heads out of 25 flips, follow these steps:
-
 > [!math]- Answer
 > ### Given:
 > - Number of trials (n) = 25
@@ -661,4 +659,3 @@ To approximate the binomial distribution using the normal distribution for the p
 > - **Probability using normal approximation**: **0.2037**
 > - **Probability using binomial distribution**: **0.6185**
 
-If you have any more questions or need further assistance, feel free to ask!
