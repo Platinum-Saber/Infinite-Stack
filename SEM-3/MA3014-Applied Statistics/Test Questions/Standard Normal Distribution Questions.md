@@ -275,3 +275,58 @@
 > - b. Score for the 22nd percentile: **63.81**
 > 
 
+## Question 05
+- Assume a normal distribution with a mean of 70 and a standard deviation of 12. What limits would include the middle 65% of the cases?
+
+> [!math]- Answer
+> ### Given:
+> - Mean ($\mu$) = 70
+> - Standard deviation ($\sigma$) = 12
+> 
+> ### Finding Limits for the Middle 65% of the Cases
+> 
+> To find the limits that include the middle 65% of the cases in a normal distribution, we need to determine the z-scores that correspond to the lower and upper bounds of the middle 65%.
+> 
+> 1. **Calculate the area in each tail**:
+>    Since we want the middle 65%, the total area in the tails is:
+>    $$
+>    1 - 0.65 = 0.35
+>    $$
+>    This area is split between the two tails, so each tail has:
+>    $$
+>    \frac{0.35}{2} = 0.175
+>    $$
+> 
+> 2. **Find the z-scores corresponding to the cumulative probabilities**:
+>    - For the lower limit:
+>      $$
+>      P(Z < z) = 0.175 \implies z \approx -0.954
+>      $$
+> 
+>    - For the upper limit:
+>      $$
+>      P(Z < z) = 0.825 \implies z \approx 0.954
+>      $$
+> 
+> 3. **Convert the z-scores back to raw scores** using the formula:
+>    $$
+>    X = z \cdot \sigma + \mu
+>    $$
+> 
+>    - For the lower limit ($z \approx -0.954$):
+>      $$
+>      X_{lower} = -0.954 \cdot 12 + 70 \approx -11.448 + 70 \approx 58.55
+>      $$
+> 
+>    - For the upper limit ($z \approx 0.954$):
+>      $$
+>      X_{upper} = 0.954 \cdot 12 + 70 \approx 11.448 + 70 \approx 81.45
+>      $$
+> 
+> ### Summary:
+> The limits that include the middle 65% of the cases are approximately:
+> 
+> - **Lower Limit**: **58.55**
+> - **Upper Limit**: **81.45**
+> 
+

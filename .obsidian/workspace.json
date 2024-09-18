@@ -32,6 +32,19 @@
                 "file": "SEM-3/MA3014-Applied Statistics/Study Notes/stat_tables.pdf"
               }
             }
+          },
+          {
+            "id": "95553562d7c82059",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SEM-3/MA3014-Applied Statistics/Test Questions/Standard Normal Distribution Questions.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ]
       }
@@ -83,8 +96,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "b2aa869acde22062",
@@ -175,22 +187,22 @@
   },
   "active": "eaca49d1ca401a68",
   "lastOpenFiles": [
+    "SEM-3/MA3014-Applied Statistics/Test Questions/Standard Normal Distribution Questions.md",
+    "SEM-3/MA3014-Applied Statistics/Lecture Notes/Online_Statistics_Education.pdf",
+    "SEM-3/MA3014-Applied Statistics/Lecture Notes/Week 2 Week 3.pdf",
+    "SEM-3/MA3014-Applied Statistics/Lecture Notes/Week 1.pdf",
+    "SEM-3/MA3014-Applied Statistics/Study Notes/discrete-distributions-note.md",
+    "SEM-3/MA3014-Applied Statistics/Study Notes/sampling-distributions-study-note.md",
+    "SEM-3/MA3014-Applied Statistics/Study Notes/stat_tables.pdf",
+    "SEM-3/MA3014-Applied Statistics/Test Questions/MA3014 Test Questions 01.md",
     "SEM-3/CS3043-Database Systems/Study Notes/Advanced SQL.md",
     "SEM-3/CS3043-Database Systems/Study Notes/Database Design Using the E-R Model.md",
     "Full Stack Development/Backend Development/Setting Up .ENV.md",
     "Full Stack Development/Backend Development/Nodejs-SQL-Backend-Setup.md",
     "Full Stack Development/Backend Development/Backend Development.md",
-    "Standard Normal Distribution Questions.md",
-    "SEM-3/MA3014-Applied Statistics/Lecture Notes/Online_Statistics_Education.pdf",
-    "SEM-3/MA3014-Applied Statistics/Study Notes/stat_tables.pdf",
-    "SEM-3/MA3014-Applied Statistics/Lecture Notes/Week 2 Week 3.pdf",
-    "SEM-3/MA3014-Applied Statistics/Lecture Notes/Week 1.pdf",
     "SEM-3/MA3014-Applied Statistics/Study Notes/Statistical Tables.pdf",
     "SEM-3/MA3014-Applied Statistics/Study Notes/stat_tables.pdf.crdownload",
     "SEM-3/MA3014-Applied Statistics/Study Notes/Statistical Tables.pdf.crdownload",
-    "SEM-3/MA3014-Applied Statistics/Study Notes/sampling-distributions-study-note.md",
-    "SEM-3/MA3014-Applied Statistics/Study Notes/discrete-distributions-note.md",
-    "SEM-3/MA3014-Applied Statistics/Test Questions/MA3014 Test Questions 01.md",
     "SEM-3/MA3014-Applied Statistics/Lecture Notes",
     "SEM-3/MA3014-Applied Statistics/New folder",
     "SEM-3/MA3014-Applied Statistics/Study Notes/Unconfirmed 926166.crdownload",
@@ -211,7 +223,6 @@
     "SEM-3/CS3043-Database Systems/Study Notes/Intermediate SQL.md",
     "SEM-3/CS3043-Database Systems/Study Notes/Database Systems Introduction.md",
     "SEM-3/CS3043-Database Systems/Study Notes/Application Design & Development.md",
-    "SEM-3/CS2033-Data Communication and Networking/Encoding & Modulation.md",
     "Images/Pasted image 20240915003303.png",
     "Images/Pasted image 20240915003236.png",
     "Images/Pasted image 20240915003223.png",
