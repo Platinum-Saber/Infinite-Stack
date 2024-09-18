@@ -330,4 +330,90 @@
 > - **Upper Limit**: **81.2**
 
 
+## Question 05
+
+- Assume the speed of vehicles along a stretch of I-10 has an approximately normal distribution with a mean of 71 mph and a standard deviation of 8 mph. 
+	- a. The current speed limit is 65 mph. What is the proportion of vehicles less than or equal to the speed limit? 
+	- b. What proportion of the vehicles would be going less than 50 mph? 
+	- c. A new speed limit will be initiated such that approximately 10% of vehicles will be over the speed limit. What is the new speed limit based on this criterion? 
+	- d. In what way do you think the actual distribution of speeds differs from a normal distribution?
+
+> [!math]- Answer
+> ### Given:
+> - Mean ($\mu$) = 71 mph
+> - Standard deviation ($\sigma$) = 8 mph
+> 
+> ### a. Proportion of Vehicles Less Than or Equal to the Speed Limit (65 mph)
+> 
+> To find this proportion, we first calculate the z-score for the speed limit:
+> 
+> $$
+> z = \frac{(X - \mu)}{\sigma} = \frac{(65 - 71)}{8} = \frac{-6}{8} = -0.75
+> $$
+> 
+> Using a z-table or calculator, we find the cumulative probability for $z = -0.75$:
+> 
+> $$
+> P(Z < -0.75) \approx 0.2266
+> $$
+> 
+> Thus, the proportion of vehicles less than or equal to the speed limit is approximately **22.66%**.
+> 
+> ### b. Proportion of Vehicles Going Less Than 50 mph
+> 
+> Next, we calculate the z-score for 50 mph:
+> 
+> $$
+> z = \frac{(50 - 71)}{8} = \frac{-21}{8} = -2.625
+> $$
+> 
+> Using a z-table or calculator, we find the cumulative probability for $z = -2.625$:
+> 
+> $$
+> P(Z < -2.625) \approx 0.0043
+> $$
+> 
+> Thus, the proportion of vehicles going less than 50 mph is approximately **0.43%**.
+> 
+> ### c. New Speed Limit for 10% of Vehicles to Be Over the Limit
+> 
+> To find the new speed limit such that approximately 10% of vehicles will be over it, we need the z-score that corresponds to the 90th percentile (since 100% - 10% = 90%).
+> 
+> Using a z-table or calculator, we find:
+> 
+> $$
+> P(Z < z) = 0.90 \implies z \approx 1.2816
+> $$
+> 
+> Now we can convert this z-score back to the raw score (new speed limit):
+> 
+> $$
+> X = z \cdot \sigma + \mu
+> $$
+> 
+> Substituting the values:
+> 
+> $$
+> X = (1.2816 \cdot 8) + 71 \approx 10.2528 + 71 \approx 81.25
+> $$
+> 
+> Thus, the new speed limit should be approximately **81.25 mph**.
+> 
+> ### d. Differences Between Actual Distribution of Speeds and a Normal Distribution
+> 
+> The actual distribution of vehicle speeds may differ from a normal distribution in several ways:
+> 
+> 1. **Skewness**: Vehicle speeds may be right-skewed due to a higher number of vehicles adhering to the speed limit, with fewer vehicles exceeding it significantly.
+> 
+> 2. **Kurtosis**: The distribution may have heavier tails (more extreme values) due to outliers (e.g., speeding vehicles) compared to a normal distribution.
+> 
+> 3. **Bimodal Distribution**: There may be two distinct groups of drivers: those who drive at or below the speed limit and those who speed significantly.
+> 
+> 4. **Traffic Conditions**: Factors such as congestion, road conditions, and enforcement of speed limits can cause deviations from normality.
+> 
+> ### Summary:
+> - a. Proportion ≤ 65 mph: **22.66%**
+> - b. Proportion < 50 mph: **0.43%**
+> - c. New speed limit for 10% over: **81.25 mph**
+> - d. Actual distribution may be skewed, have heavier tails, or be bimodal.
 
