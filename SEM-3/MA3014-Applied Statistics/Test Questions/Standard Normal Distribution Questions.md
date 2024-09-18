@@ -559,12 +559,12 @@ To approximate the binomial distribution using the normal distribution for the p
 > 
 > ### Step 1: Calculate Mean and Standard Deviation
 > 
-> 1. **Mean (\(\mu\))**:
+> 1. **Mean ($\mu$)**:
 >    $$
 >    \mu = n \cdot p = 25 \cdot 0.5 = 12.5
 >    $$
 > 
-> 2. **Standard Deviation (\(\sigma\))**:
+> 2. **Standard Deviation $( \sigma )$**:
 >    $$
 >    \sigma = \sqrt{n \cdot p \cdot (1 - p)} = \sqrt{25 \cdot 0.5 \cdot 0.5} = \sqrt{6.25} = 2.5
 >    $$
@@ -645,10 +645,10 @@ To approximate the binomial distribution using the normal distribution for the p
 > 
 > Using a calculator or statistical software:
 > 
-> - \(P(X = 15) \approx 0.2023\)
-> - \(P(X = 16) \approx 0.1967\)
-> - \(P(X = 17) \approx 0.1460\)
-> - \(P(X = 18) \approx 0.0735\)
+> - $P(X = 15) \approx 0.2023$
+> - $P(X = 16) \approx 0.1967$
+> - $P(X = 17) \approx 0.1460$
+> - $P(X = 18) \approx 0.0735$
 > 
 > ### Total Probability Using Binomial Distribution
 > 
