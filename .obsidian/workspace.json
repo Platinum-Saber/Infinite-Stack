@@ -46,8 +46,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -97,7 +96,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "b2aa869acde22062",
@@ -132,7 +132,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Standard Normal Distribution Questions.md"
+                "file": "SEM-3/MA3014-Applied Statistics/Lecture Notes/Online_Statistics_Education.pdf"
               }
             }
           },
@@ -142,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Standard Normal Distribution Questions.md",
+                "file": "SEM-3/MA3014-Applied Statistics/Lecture Notes/Online_Statistics_Education.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,11 +186,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "237ac78907bbc3a2",
+  "active": "5aa5e623af928063",
   "lastOpenFiles": [
+    "SEM-3/MA3014-Applied Statistics/Study Notes/stat_tables.pdf",
     "SEM-3/MA3014-Applied Statistics/Lecture Notes/Online_Statistics_Education.pdf",
     "Standard Normal Distribution Questions.md",
-    "SEM-3/MA3014-Applied Statistics/Study Notes/stat_tables.pdf",
     "SEM-3/MA3014-Applied Statistics/Lecture Notes/Week 2 Week 3.pdf",
     "SEM-3/MA3014-Applied Statistics/Lecture Notes/Week 1.pdf",
     "SEM-3/MA3014-Applied Statistics/Study Notes/Statistical Tables.pdf",
