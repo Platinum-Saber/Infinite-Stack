@@ -93,7 +93,7 @@ Therefore:
 
 The t-distribution is used when the `population standard deviation` is **unknown** and must be estimated from the sample. It is determined by its degrees of freedom (df).
 
-For a sample of size $n$ from a normal population with unknown mean $\mu$ and unknown standard deviation $\sigma$:
+For a sample of size $n$ from a normal population with **unknown mean** $\mu$ and **unknown standard deviation** $\sigma$ :
 ### $$t = \frac{\bar{x} - \mu}{s/\sqrt{n}}$$
 This statistic follows a `t-distribution` with $n-1$ `degrees of freedom`.
 
@@ -121,39 +121,38 @@ The chi-square statistic for a sample of size $n$ from a normal population with 
 ### $$\chi^2 = \frac{(n-1)s^2}{\sigma^2}$$
 This statistic follows a `chi-square distribution` with $n-1$ `degrees of freedom`.
 
-Properties of the Chi-square Distribution:
-- Mean = $v$ (degrees of freedom)
-- Variance = $2v$
-- As df increases, the distribution approaches a normal distribution
+> [!summary]- Properties of the Chi-square Distribution:
+> - Mean = $v$ (degrees of freedom)
+> - Variance = $2v$
+> - As df increases, the distribution approaches a normal distribution
 
-Example:
-A cell phone battery lasts 60 minutes on average with a standard deviation of 5 minutes. A quality control test selects 10 batteries randomly, finding a sample standard deviation of 6 minutes. What is the probability that the standard deviation of any sample of size 10 would be greater than 6 minutes?
-
-Solution:
-$\chi^2 = \frac{(10-1)(6^2)}{5^2} = 12.96$
-
-Using a chi-square table with 9 df, we find:
-$P(\chi^2 > 12.96) \approx 0.1643$ or about 16.43%
+> [!equation]- Example:
+> A cell phone battery lasts 60 minutes on average with a standard deviation of 5 minutes. A quality control test selects 10 batteries randomly, finding a sample standard deviation of 6 minutes. What is the probability that the standard deviation of any sample of size 10 would be greater than 6 minutes?
+> 
+> Solution:
+> $\chi^2 = \frac{(10-1)(6^2)}{5^2} = 12.96$
+> 
+> Using a chi-square table with 9 df, we find:
+> $P(\chi^2 > 12.96) \approx 0.1643$ or about 16.43%
 
 <br>
 
 ## 7. F-Distribution
 
 The F-distribution is the ratio of two chi-square distributions divided by their respective degrees of freedom:
-
-$f(v_1, v_2) = \frac{\chi^2_1/v_1}{\chi^2_2/v_2}$
+#### $$f(v_1, v_2) = \frac{\chi^2_1/v_1}{\chi^2_2/v_2}$$
 
 Where $v_1 = n_1 - 1$ and $v_2 = n_2 - 1$ are the degrees of freedom.
 
-Properties of the F-distribution:
-- Mean = $\frac{v_2}{v_2 - 2}$ for $v_2 > 2$
-- Variance = $\frac{2v_2^2(v_1 + v_2 - 2)}{v_1(v_2 - 2)^2(v_2 - 4)}$ for $v_2 > 4$
+> [!summary]- Properties of the F-distribution:
+> - Mean = $\frac{v_2}{v_2 - 2}$ for $v_2 > 2$
+> - Variance = $\frac{2v_2^2(v_1 + v_2 - 2)}{v_1(v_2 - 2)^2(v_2 - 4)}$ for $v_2 > 4$
 
-Example:
-A sample of 11 cows has a population standard deviation of 5 kg and a sample standard deviation of 4.5 kg. Another sample of 7 bulls has a population standard deviation of 3.5 kg and a sample standard deviation of 4 kg. Compute the F-statistic.
-
-Solution:
-$f = \frac{(4.5^2/5^2)}{(4^2/3.5^2)} = 0.6125$
-
-Using an F-table with $v_1 = 10$ and $v_2 = 6$ degrees of freedom, we can find the associated cumulative probability.
+> [!equation]- Example:
+> A sample of 11 cows has a population standard deviation of 5 kg and a sample standard deviation of 4.5 kg. Another sample of 7 bulls has a population standard deviation of 3.5 kg and a sample standard deviation of 4 kg. Compute the F-statistic.
+> 
+> Solution:
+> $f = \frac{(4.5^2/5^2)}{(4^2/3.5^2)} = 0.6125$
+> 
+> Using an F-table with $v_1 = 10$ and $v_2 = 6$ degrees of freedom, we can find the associated cumulative probability.
 

@@ -6,10 +6,20 @@
       {
         "id": "97c6b8ef56e2d733",
         "type": "tabs",
-        "dimension": 54.6875,
+        "dimension": 43.048694424841216,
         "children": [
           {
             "id": "5aa5e623af928063",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "SEM-3/MA3014-Applied Statistics/Lecture Notes/Week 2 Week 3.pdf"
+              }
+            }
+          },
+          {
+            "id": "d0a67afe3241da52",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -26,7 +36,7 @@
       {
         "id": "8bd8b1bbc57ef15a",
         "type": "tabs",
-        "dimension": 45.3125,
+        "dimension": 56.951305575158784,
         "children": [
           {
             "id": "eaca49d1ca401a68",
@@ -136,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM-3/MA3014-Applied Statistics/Study Notes/Sampling Distributions.md"
+                "file": "SEM-3/MA3014-Applied Statistics/Lecture Notes/Week 2 Week 3.pdf"
               }
             }
           },
@@ -146,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM-3/MA3014-Applied Statistics/Study Notes/Sampling Distributions.md",
+                "file": "SEM-3/MA3014-Applied Statistics/Lecture Notes/Week 2 Week 3.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -192,13 +202,13 @@
   },
   "active": "5aa5e623af928063",
   "lastOpenFiles": [
-    "SEM-3/MA3014-Applied Statistics/Study Notes/discrete-distributions-note.md",
-    "SEM-3/MA3014-Applied Statistics/Test Questions/MA3014 Test Questions 01.md",
-    "SEM-3/MA3014-Applied Statistics/Lecture Notes/Online_Statistics_Education.pdf",
-    "SEM-3/MA3014-Applied Statistics/Study Notes/stat_tables.pdf",
     "SEM-3/MA3014-Applied Statistics/Study Notes/Sampling Distributions.md",
     "SEM-3/MA3014-Applied Statistics/Lecture Notes/Week 2 Week 3.pdf",
+    "SEM-3/MA3014-Applied Statistics/Study Notes/discrete-distributions-note.md",
     "SEM-3/MA3014-Applied Statistics/Lecture Notes/Week 1.pdf",
+    "SEM-3/MA3014-Applied Statistics/Lecture Notes/Online_Statistics_Education.pdf",
+    "SEM-3/MA3014-Applied Statistics/Test Questions/MA3014 Test Questions 01.md",
+    "SEM-3/MA3014-Applied Statistics/Study Notes/stat_tables.pdf",
     "SEM-3/MA3014-Applied Statistics/Test Questions/Standard Normal Distribution Questions.md",
     "SEM-3/CS3043-Database Systems/Study Notes/Advanced SQL.md",
     "SEM-3/CS3043-Database Systems/Study Notes/Database Design Using the E-R Model.md",
