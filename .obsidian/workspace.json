@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM-3/MA3014-Applied Statistics/Applied Statistics.md",
+                "file": "SEM-3/CS3043-Database Systems/Test Questions/CS3043 Test Questions 01.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -105,7 +105,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM-3/MA3014-Applied Statistics/Applied Statistics.md"
+                "file": "SEM-3/CS3043-Database Systems/Test Questions/CS3043 Test Questions 01.md"
               }
             }
           },
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM-3/MA3014-Applied Statistics/Applied Statistics.md",
+                "file": "SEM-3/CS3043-Database Systems/Test Questions/CS3043 Test Questions 01.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,6 +161,7 @@
   },
   "active": "5aa5e623af928063",
   "lastOpenFiles": [
+    "SEM-3/MA3014-Applied Statistics/Applied Statistics.md",
     "Obsidian Tools/Callout List.md",
     "Obsidian Tools/Check Box List.md",
     "Obsidian Tools/Git Profile Draft.md",
@@ -191,7 +192,6 @@
     "Singularity/Infinite Stack.md",
     "Singularity/Study Tracker.md",
     "Singularity",
-    "SEM-3/CS3043-Database Systems/Test Questions/CS3043 Test Questions 07.md",
     "SEM-3/CS3043-Database Systems/Study Notes/Unconfirmed 338841.crdownload",
     "SEM-3/CS3043-Database Systems/Study Notes/Unconfirmed 810224.crdownload",
     "Images/Pasted image 20240915003303.png",
