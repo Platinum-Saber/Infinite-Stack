@@ -331,7 +331,6 @@
 
 
 ## Question 05
-
 - Assume the speed of vehicles along a stretch of I-10 has an approximately normal distribution with a mean of 71 mph and a standard deviation of 8 mph. 
 	- a. The current speed limit is 65 mph. What is the proportion of vehicles less than or equal to the speed limit? 
 	- b. What proportion of the vehicles would be going less than 50 mph? 
@@ -416,4 +415,73 @@
 > - b. Proportion < 50 mph: **0.43%**
 > - c. New speed limit for 10% over: **81.25 mph**
 > - d. Actual distribution may be skewed, have heavier tails, or be bimodal.
+
+## Question 06
+- You want to use the normal distribution to approximate the binomial distribution. Explain what you need to do to find the probability of obtaining exactly 7 heads out of 12 flips.
+
+> [!math]- Answer
+> ### Given:
+> - Number of trials (\(n\)) = 12
+> - Probability of success (getting heads) in each trial (\(p\)) = 0.5 (assuming a fair coin)
+> 
+> ### Steps to Approximate Using Normal Distribution
+> 
+> 1. **Calculate the Mean and Standard Deviation of the Binomial Distribution**:
+>    - The mean (\(\mu\)) of a binomial distribution is given by:
+>      $$
+>      \mu = n \cdot p
+>      $$
+>    - The standard deviation (\(\sigma\)) is given by:
+>      $$
+>      \sigma = \sqrt{n \cdot p \cdot (1 - p)}
+>      $$
+> 
+>    For this case:
+>    - Mean (\(\mu\)):
+>      $$
+>      \mu = 12 \cdot 0.5 = 6
+>      $$
+>    - Standard deviation (\(\sigma\)):
+>      $$
+>      \sigma = \sqrt{12 \cdot 0.5 \cdot 0.5} = \sqrt{3} \approx 1.732
+>      $$
+> 
+> 2. **Use Continuity Correction**:
+>    Since the binomial distribution is discrete and the normal distribution is continuous, apply a continuity correction when using the normal approximation. To find the probability of getting exactly 7 heads, you approximate it by finding the probability of getting between 6.5 and 7.5 heads:
+>    $$
+>    P(6.5 < X < 7.5)
+>    $$
+> 
+> 3. **Calculate the z-scores**:
+>    Convert the x-values (6.5 and 7.5) to z-scores using the formula:
+>    $$
+>    z = \frac{(X - \mu)}{\sigma}
+>    $$
+>    - For \(X = 6.5\):
+>      $$
+>      z_{6.5} = \frac{(6.5 - 6)}{1.732} \approx 0.2887
+>      $$
+>    - For \(X = 7.5\):
+>      $$
+>      z_{7.5} = \frac{(7.5 - 6)}{1.732} \approx 0.8659
+>      $$
+> 
+> 4. **Find the Cumulative Probabilities**:
+>    Use a z-table or calculator to find the cumulative probabilities for $(z_{6.5}) and \ (z_{7.5})$:
+>    - Let’s say:
+>      - $\ (P(Z < 0.2887) \approx 0.6133\ )$
+>      - $\ (P(Z < 0.8659) \approx 0.8078\ )$
+> 
+> 5. **Calculate the Probability**:
+>    The probability of obtaining exactly 7 heads is:
+>    $$
+>    P(6.5 < X < 7.5) = P(Z < 0.8659) - P(Z < 0.2887) \approx 0.8078 - 0.6133 \approx 0.1945
+>    $$
+> 
+> ### Summary
+> To find the probability of obtaining exactly 7 heads out of 12 flips using the normal approximation to the binomial distribution:
+> - Calculate the mean and standard deviation.
+> - Apply a continuity correction.
+> - Convert to z-scores.
+> - Find cumulative probabilities and calculate the probability.
 
