@@ -6,15 +6,18 @@
       {
         "id": "97c6b8ef56e2d733",
         "type": "tabs",
-        "dimension": 43.048694424841216,
+        "dimension": 60.80525883319638,
         "children": [
           {
             "id": "5aa5e623af928063",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "SEM-3/MA3014-Applied Statistics/Lecture Notes/Week 2 Week 3.pdf"
+                "file": "SEM-3/MA3014-Applied Statistics/Study Notes/02. Sampling Distributions.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               }
             }
           },
@@ -24,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM-3/MA3014-Applied Statistics/Study Notes/Sampling Distributions.md",
+                "file": "SEM-3/MA3014-Applied Statistics/Study Notes/02. Sampling Distributions.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -36,7 +39,7 @@
       {
         "id": "8bd8b1bbc57ef15a",
         "type": "tabs",
-        "dimension": 56.951305575158784,
+        "dimension": 39.19474116680362,
         "children": [
           {
             "id": "eaca49d1ca401a68",
@@ -146,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM-3/MA3014-Applied Statistics/Lecture Notes/Week 2 Week 3.pdf"
+                "file": "SEM-3/MA3014-Applied Statistics/Study Notes/02. Sampling Distributions.md"
               }
             }
           },
@@ -156,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM-3/MA3014-Applied Statistics/Lecture Notes/Week 2 Week 3.pdf",
+                "file": "SEM-3/MA3014-Applied Statistics/Study Notes/02. Sampling Distributions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -202,9 +205,9 @@
   },
   "active": "5aa5e623af928063",
   "lastOpenFiles": [
-    "SEM-3/MA3014-Applied Statistics/Study Notes/Sampling Distributions.md",
+    "SEM-3/MA3014-Applied Statistics/Study Notes/01. Discrete Distributions.md",
+    "SEM-3/MA3014-Applied Statistics/Study Notes/02. Sampling Distributions.md",
     "SEM-3/MA3014-Applied Statistics/Lecture Notes/Week 2 Week 3.pdf",
-    "SEM-3/MA3014-Applied Statistics/Study Notes/discrete-distributions-note.md",
     "SEM-3/MA3014-Applied Statistics/Lecture Notes/Week 1.pdf",
     "SEM-3/MA3014-Applied Statistics/Lecture Notes/Online_Statistics_Education.pdf",
     "SEM-3/MA3014-Applied Statistics/Test Questions/MA3014 Test Questions 01.md",
