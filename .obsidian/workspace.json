@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Standard Normal Distribution Questions.md",
+                "file": "Full Stack Development/Backend Development/Setting Up .ENV.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -66,7 +66,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabeticalReverse"
+                "sortOrder": "alphabetical"
               }
             }
           },
@@ -97,8 +97,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "b2aa869acde22062",
@@ -133,7 +132,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Standard Normal Distribution Questions.md"
+                "file": "Full Stack Development/Backend Development/Setting Up .ENV.md"
               }
             }
           },
@@ -143,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Standard Normal Distribution Questions.md",
+                "file": "Full Stack Development/Backend Development/Setting Up .ENV.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -189,8 +188,10 @@
   },
   "active": "237ac78907bbc3a2",
   "lastOpenFiles": [
-    "SEM-3/MA3014-Applied Statistics/Lecture Notes/Online_Statistics_Education.pdf",
+    "Full Stack Development/Backend Development/Nodejs-SQL-Backend-Setup.md",
+    "Full Stack Development/Backend Development/Backend Development.md",
     "Standard Normal Distribution Questions.md",
+    "SEM-3/MA3014-Applied Statistics/Lecture Notes/Online_Statistics_Education.pdf",
     "SEM-3/MA3014-Applied Statistics/Study Notes/stat_tables.pdf",
     "SEM-3/MA3014-Applied Statistics/Lecture Notes/Week 2 Week 3.pdf",
     "SEM-3/MA3014-Applied Statistics/Lecture Notes/Week 1.pdf",
@@ -224,7 +225,6 @@
     "SEM-3/CS3043-Database Systems/Study Notes/Advanced SQL.md",
     "SEM-3/CS2033-Data Communication and Networking/Encoding & Modulation.md",
     "SEM-3/CS2033-Data Communication and Networking/Data Transmission.md",
-    "SEM-3/CS2033-Data Communication and Networking/Data Com. & Networking Introduction.md",
     "Images/Pasted image 20240915003303.png",
     "Images/Pasted image 20240915003236.png",
     "Images/Pasted image 20240915003223.png",
