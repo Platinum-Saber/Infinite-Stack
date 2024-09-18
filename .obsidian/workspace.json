@@ -8,46 +8,19 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ba986acd2d487a4f",
+            "id": "5aa5e623af928063",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ballerina/Getting Started.md",
+                "file": "SEM-3/MA3014-Applied Statistics/Applied Statistics.md",
                 "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c0e80edd4f1102e1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Ballerina/Basics of Ballerina.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1885d2b7cbdb3843",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Ballerina/Basics of Ballerina.md",
-                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -132,7 +105,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ballerina/Basics of Ballerina.md"
+                "file": "SEM-3/MA3014-Applied Statistics/Applied Statistics.md"
               }
             }
           },
@@ -142,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ballerina/Basics of Ballerina.md",
+                "file": "SEM-3/MA3014-Applied Statistics/Applied Statistics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,15 +159,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1885d2b7cbdb3843",
+  "active": "5aa5e623af928063",
   "lastOpenFiles": [
-    "Ballerina/Getting Started.md",
-    "Ballerina/Basics of Ballerina.md",
+    "Obsidian Tools/Callout List.md",
+    "Obsidian Tools/Check Box List.md",
+    "Obsidian Tools/Git Profile Draft.md",
     "Ballerina/Untitled.md",
+    "Ballerina/Basics of Ballerina.md",
+    "Ballerina/Getting Started.md",
     "Images/Pasted image 20240917184851.png",
     "Ballerina",
     "SEM-3/CS3043-Database Systems/Study Notes/Relational Database Design.md",
-    "Obsidian Tools/Git Profile Draft.md",
     "Obsidian Tools/sansika-github-readme.txt",
     "Obsidian Tools/sansika-github-readme.txt.crdownload",
     "SEM-3/CS3043-Database Systems/Study Notes/Introduction to SQL.md",
@@ -209,8 +184,6 @@
     "SEM-3/CS2033-Data Communication and Networking/Communication Concepts.md",
     "SEM-3/CS2033-Data Communication and Networking/Data Communication & Networking.md",
     "Singularity/SEM-3 INDEX.md",
-    "Obsidian Tools/Check Box List.md",
-    "Obsidian Tools/Callout List.md",
     "Full Stack Development/Backend Development/Backend Development.md",
     "Full Stack Development/Frontend Development/Setting Up React Framework.md",
     "Full Stack Development/Frontend Development/Using CSS in React.md",
