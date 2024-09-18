@@ -546,3 +546,119 @@
 > ### Summary:
 > - a. Lowest score for the top 30%: **27.10**
 > - b. Lowest score for the top 5%: **31.58**
+
+## Question 07
+- Use the normal distribution to approximate the binomial distribution and find the probability of getting 15 to 18 heads out of 25 flips. Compare this to what you get when you calculate the probability using the binomial distribution. Write your answers out to four decimal places
+
+To approximate the binomial distribution using the normal distribution for the probability of getting between 15 and 18 heads out of 25 flips, follow these steps:
+
+> [!math]- Answer
+> ### Given:
+> - Number of trials (n) = 25
+> - Probability of success (getting heads) in each trial (p) = 0.5
+> 
+> ### Step 1: Calculate Mean and Standard Deviation
+> 
+> 1. **Mean (\(\mu\))**:
+>    $$
+>    \mu = n \cdot p = 25 \cdot 0.5 = 12.5
+>    $$
+> 
+> 2. **Standard Deviation (\(\sigma\))**:
+>    $$
+>    \sigma = \sqrt{n \cdot p \cdot (1 - p)} = \sqrt{25 \cdot 0.5 \cdot 0.5} = \sqrt{6.25} = 2.5
+>    $$
+> 
+> ### Step 2: Use Continuity Correction
+> 
+> To find the probability of getting between 15 and 18 heads, we apply continuity correction. We approximate the probability as:
+> 
+> $$
+> P(14.5 < X < 18.5)
+> $$
+> 
+> ### Step 3: Calculate the z-scores
+> 
+> 1. **For \(X = 14.5\)**:
+>    $$
+>    z_{14.5} = \frac{(14.5 - 12.5)}{2.5} = \frac{2}{2.5} = 0.8
+>    $$
+> 
+> 2. **For \(X = 18.5\)**:
+>    $$
+>    z_{18.5} = \frac{(18.5 - 12.5)}{2.5} = \frac{6}{2.5} = 2.4
+>    $$
+> 
+> ### Step 4: Find Cumulative Probabilities
+> 
+> Using a z-table or calculator:
+> 
+> 1. **For \(z = 0.8\)**:
+>    $$
+>    P(Z < 0.8) \approx 0.7881
+>    $$
+> 
+> 2. **For \(z = 2.4\)**:
+>    $$
+>    P(Z < 2.4) \approx 0.9918
+>    $$
+> 
+> ### Step 5: Calculate the Probability
+> 
+> Now, compute the probability between 14.5 and 18.5:
+> 
+> $$
+> P(14.5 < X < 18.5) = P(Z < 2.4) - P(Z < 0.8) \approx 0.9918 - 0.7881 = 0.2037
+> $$
+> 
+> ### Step 6: Calculate the Probability Using the Binomial Distribution
+> 
+> To calculate the probability using the binomial distribution:
+> 
+> $$
+> P(X = k) = \binom{n}{k} p^k (1-p)^{n-k}
+> $$
+> 
+> We need to find the probabilities for \(k = 15, 16, 17, 18\):
+> 
+> 1. **For \(k = 15\)**:
+>    $$
+>    P(X = 15) = \binom{25}{15} (0.5)^{15} (0.5)^{10} = \binom{25}{15} (0.5)^{25}
+>    $$
+> 
+> 2. **For \(k = 16\)**:
+>    $$
+>    P(X = 16) = \binom{25}{16} (0.5)^{25}
+>    $$
+> 
+> 3. **For \(k = 17\)**:
+>    $$
+>    P(X = 17) = \binom{25}{17} (0.5)^{25}
+>    $$
+> 
+> 4. **For \(k = 18\)**:
+>    $$
+>    P(X = 18) = \binom{25}{18} (0.5)^{25}
+>    $$
+> 
+> ### Calculating Each Probability
+> 
+> Using a calculator or statistical software:
+> 
+> - \(P(X = 15) \approx 0.2023\)
+> - \(P(X = 16) \approx 0.1967\)
+> - \(P(X = 17) \approx 0.1460\)
+> - \(P(X = 18) \approx 0.0735\)
+> 
+> ### Total Probability Using Binomial Distribution
+> 
+> $$
+> P(15 \leq X \leq 18) \approx 0.2023 + 0.1967 + 0.1460 + 0.0735 = 0.6185
+> $$
+> 
+> ### Summary
+> 
+> - **Probability using normal approximation**: **0.2037**
+> - **Probability using binomial distribution**: **0.6185**
+
+If you have any more questions or need further assistance, feel free to ask!
