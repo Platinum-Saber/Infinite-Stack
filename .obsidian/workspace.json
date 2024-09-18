@@ -6,31 +6,15 @@
       {
         "id": "97c6b8ef56e2d733",
         "type": "tabs",
-        "dimension": 60.80525883319638,
+        "dimension": 51.20056497175142,
         "children": [
           {
-            "id": "5aa5e623af928063",
+            "id": "95553562d7c82059",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "SEM-3/MA3014-Applied Statistics/Study Notes/02. Sampling Distributions.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d0a67afe3241da52",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SEM-3/MA3014-Applied Statistics/Study Notes/02. Sampling Distributions.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
+                "file": "SEM-3/MA3014-Applied Statistics/Lecture Notes/Online_Statistics_Education.pdf"
               }
             }
           }
@@ -39,7 +23,7 @@
       {
         "id": "8bd8b1bbc57ef15a",
         "type": "tabs",
-        "dimension": 39.19474116680362,
+        "dimension": 48.79943502824859,
         "children": [
           {
             "id": "eaca49d1ca401a68",
@@ -52,7 +36,7 @@
             }
           },
           {
-            "id": "95553562d7c82059",
+            "id": "83213467ba0c46ea",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -93,7 +77,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#pintos  ",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -114,7 +98,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "b2aa869acde22062",
@@ -149,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM-3/MA3014-Applied Statistics/Study Notes/02. Sampling Distributions.md"
+                "file": "SEM-3/MA3014-Applied Statistics/Study Notes/stat_tables.pdf"
               }
             }
           },
@@ -159,7 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM-3/MA3014-Applied Statistics/Study Notes/02. Sampling Distributions.md",
+                "file": "SEM-3/MA3014-Applied Statistics/Study Notes/stat_tables.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -203,16 +188,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5aa5e623af928063",
+  "active": "eaca49d1ca401a68",
   "lastOpenFiles": [
-    "SEM-3/MA3014-Applied Statistics/Study Notes/01. Discrete Distributions.md",
-    "SEM-3/MA3014-Applied Statistics/Study Notes/02. Sampling Distributions.md",
-    "SEM-3/MA3014-Applied Statistics/Lecture Notes/Week 2 Week 3.pdf",
-    "SEM-3/MA3014-Applied Statistics/Lecture Notes/Week 1.pdf",
+    "SEM-3/MA3014-Applied Statistics/Test Questions/Standard Normal Distribution Questions.md",
     "SEM-3/MA3014-Applied Statistics/Lecture Notes/Online_Statistics_Education.pdf",
     "SEM-3/MA3014-Applied Statistics/Test Questions/MA3014 Test Questions 01.md",
+    "SEM-3/MA3014-Applied Statistics/Study Notes/02. Sampling Distributions.md",
+    "SEM-3/MA3014-Applied Statistics/Study Notes/01. Discrete Distributions.md",
+    "SEM-3/MA3014-Applied Statistics/Lecture Notes/Week 2 Week 3.pdf",
+    "SEM-3/MA3014-Applied Statistics/Lecture Notes/Week 1.pdf",
     "SEM-3/MA3014-Applied Statistics/Study Notes/stat_tables.pdf",
-    "SEM-3/MA3014-Applied Statistics/Test Questions/Standard Normal Distribution Questions.md",
     "SEM-3/CS3043-Database Systems/Study Notes/Advanced SQL.md",
     "SEM-3/CS3043-Database Systems/Study Notes/Database Design Using the E-R Model.md",
     "Full Stack Development/Backend Development/Setting Up .ENV.md",
