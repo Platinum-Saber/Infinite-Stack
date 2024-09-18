@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM-3/CS3043-Database Systems/Test Questions/CS3043 Test Questions 01.md",
+                "file": "SEM-3/MA3014-Applied Statistics/Test Questions/MA3014 Test Questions 01.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -105,7 +105,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM-3/CS3043-Database Systems/Test Questions/CS3043 Test Questions 01.md"
+                "file": "SEM-3/MA3014-Applied Statistics/Test Questions/MA3014 Test Questions 01.md"
               }
             }
           },
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM-3/CS3043-Database Systems/Test Questions/CS3043 Test Questions 01.md",
+                "file": "SEM-3/MA3014-Applied Statistics/Test Questions/MA3014 Test Questions 01.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,6 +162,17 @@
   "active": "5aa5e623af928063",
   "lastOpenFiles": [
     "SEM-3/MA3014-Applied Statistics/Applied Statistics.md",
+    "SEM-3/MA3014-Applied Statistics/Study Notes/discrete-distributions-note.md",
+    "SEM-3/MA3014-Applied Statistics/Study Notes/discrete-distributions-mcq (2).md",
+    "SEM-3/MA3014-Applied Statistics/Test Questions/MA3014 Test Questions 01.md",
+    "SEM-3/MA3014-Applied Statistics/Study Notes",
+    "SEM-3/MA3014-Applied Statistics/Test Questions",
+    "SEM-3/MA3014-Applied Statistics/discrete-distributions-mcq.md",
+    "SEM-3/CS3043-Database Systems/Test Questions/CS3043 Test Questions 07.md",
+    "SEM-3/MA3014-Applied Statistics/Unconfirmed 234958.crdownload",
+    "SEM-3/MA3014-Applied Statistics/Unconfirmed 363647.crdownload",
+    "SEM-3/MA3014-Applied Statistics/Unconfirmed 205933.crdownload",
+    "SEM-3/CS3043-Database Systems/Test Questions/CS3043 Test Questions 01.md",
     "Obsidian Tools/Callout List.md",
     "Obsidian Tools/Check Box List.md",
     "Obsidian Tools/Git Profile Draft.md",
@@ -184,16 +195,8 @@
     "SEM-3/CS2033-Data Communication and Networking/Data Com. & Networking Introduction.md",
     "SEM-3/CS2033-Data Communication and Networking/Communication Concepts.md",
     "SEM-3/CS2033-Data Communication and Networking/Data Communication & Networking.md",
-    "Singularity/SEM-3 INDEX.md",
-    "Full Stack Development/Backend Development/Backend Development.md",
-    "Full Stack Development/Frontend Development/Setting Up React Framework.md",
-    "Full Stack Development/Frontend Development/Using CSS in React.md",
-    "SEM-3/CS3043-Database Systems/Database systems.md",
-    "Singularity/Infinite Stack.md",
-    "Singularity/Study Tracker.md",
     "Singularity",
     "SEM-3/CS3043-Database Systems/Study Notes/Unconfirmed 338841.crdownload",
-    "SEM-3/CS3043-Database Systems/Study Notes/Unconfirmed 810224.crdownload",
     "Images/Pasted image 20240915003303.png",
     "Images/Pasted image 20240915003236.png",
     "Images/Pasted image 20240915003223.png",
@@ -203,10 +206,6 @@
     "Images/Pasted image 20240915002542.png",
     "Images/Pasted image 20240915001627.png",
     "Images/Pasted image 20240915001406.png",
-    "SEM-3/CS3043-Database Systems/Study Notes/Unconfirmed 996422.crdownload",
-    "SEM-3/CS3043-Database Systems/Study Notes/Unconfirmed 551833.crdownload",
-    "SEM-3/CS3043-Database Systems/Study Notes/Unconfirmed 175914.crdownload",
-    "SEM-3/CS3043-Database Systems/Study Notes/Unconfirmed 546824.crdownload",
     "Work Space.canvas",
     "Untitled.canvas"
   ]

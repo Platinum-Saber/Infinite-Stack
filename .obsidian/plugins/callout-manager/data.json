@@ -7,7 +7,8 @@
       "url",
       "equation",
       "table",
-      "dbq"
+      "dbq",
+      "math"
     ],
     "settings": {
       "info": [
@@ -97,6 +98,14 @@
           "changes": {
             "icon": "lucide-database-zap",
             "color": "183, 247, 141"
+          }
+        }
+      ],
+      "math": [
+        {
+          "changes": {
+            "icon": "math-function",
+            "color": "173, 93, 253"
           }
         }
       ]
