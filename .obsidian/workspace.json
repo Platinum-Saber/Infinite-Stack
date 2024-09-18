@@ -4,26 +4,8 @@
     "type": "split",
     "children": [
       {
-        "id": "97c6b8ef56e2d733",
-        "type": "tabs",
-        "dimension": 48.65819209039548,
-        "children": [
-          {
-            "id": "95553562d7c82059",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "SEM-3/MA3014-Applied Statistics/Lecture Notes/Online_Statistics_Education.pdf"
-              }
-            }
-          }
-        ]
-      },
-      {
         "id": "8bd8b1bbc57ef15a",
         "type": "tabs",
-        "dimension": 51.34180790960452,
         "children": [
           {
             "id": "eaca49d1ca401a68",
@@ -135,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM-3/MA3014-Applied Statistics/Lecture Notes/Online_Statistics_Education.pdf"
+                "file": "SEM-3/MA3014-Applied Statistics/Test Questions/Standard Normal Distribution Questions.md"
               }
             }
           },
@@ -145,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM-3/MA3014-Applied Statistics/Lecture Notes/Online_Statistics_Education.pdf",
+                "file": "SEM-3/MA3014-Applied Statistics/Test Questions/Standard Normal Distribution Questions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -189,11 +171,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "95553562d7c82059",
+  "active": "83213467ba0c46ea",
   "lastOpenFiles": [
+    "SEM-3/MA3014-Applied Statistics/Lecture Notes/Online_Statistics_Education.pdf",
     "SEM-3/MA3014-Applied Statistics/Test Questions/Standard Normal Distribution Questions.md",
     "SEM-3/MA3014-Applied Statistics/Study Notes/stat_tables.pdf",
-    "SEM-3/MA3014-Applied Statistics/Lecture Notes/Online_Statistics_Education.pdf",
     "SEM-3/MA3014-Applied Statistics/Test Questions/MA3014 Test Questions 01.md",
     "SEM-3/MA3014-Applied Statistics/Study Notes/02. Sampling Distributions.md",
     "SEM-3/MA3014-Applied Statistics/Study Notes/01. Discrete Distributions.md",
