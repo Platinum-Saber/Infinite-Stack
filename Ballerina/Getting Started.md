@@ -1,3 +1,13 @@
+---
+tags:
+  - Ballerina
+Reviewed: true
+Created: 2024-09-17T19:04:00
+About: "Ballerina basics for dummies: step by step guide."
+---
+Related : #Ballerina
+
+---
 - Ballerina is an open-source programming language designed for cloud-era application development, particularly around microservices and network services.
 
 ### Step 1: **Install Ballerina**
@@ -9,6 +19,8 @@
 
 3. Follow the installation instructions for your system.
 4. After installation, verify it by typing `bal` in your terminal or command prompt. It should display the Ballerina CLI options.
+
+<br>
 
 ### Step 2: **Set Up the Development Environment**
 

@@ -1,4 +1,12 @@
-### Understand the Basics of Ballerina
+---
+tags:
+  - Ballerina
+Reviewed: true
+Created: 2024-09-17T19:03:00
+About: "Ballerina basics for dummies: step by step guide."
+---
+---
+### 1. Run "Hello World"
 1. **Hello World Program**: Let's start with a simple program.
 ```ballerina
 import ballerina/io;  public function main() {     io:println("Hello, World!"); }
@@ -10,7 +18,7 @@ import ballerina/io;  public function main() {     io:println("Hello, World!"); 
     
 <br>
 
-### Ballerina Syntax
+### 2. Ballerina Syntax
 
 1. **Variables**:
    - Variables are declared with the type followed by the variable name.

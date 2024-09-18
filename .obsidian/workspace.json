@@ -40,7 +40,7 @@
               "type": "markdown",
               "state": {
                 "file": "Ballerina/Basics of Ballerina.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -188,9 +188,9 @@
   },
   "active": "1885d2b7cbdb3843",
   "lastOpenFiles": [
-    "Ballerina/Untitled.md",
-    "Ballerina/Basics of Ballerina.md",
     "Ballerina/Getting Started.md",
+    "Ballerina/Basics of Ballerina.md",
+    "Ballerina/Untitled.md",
     "Images/Pasted image 20240917184851.png",
     "Ballerina",
     "SEM-3/CS3043-Database Systems/Study Notes/Relational Database Design.md",
