@@ -18,6 +18,22 @@
             }
           }
         ]
+      },
+      {
+        "id": "8bd8b1bbc57ef15a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "eaca49d1ca401a68",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "SEM-3/MA3014-Applied Statistics/Study Notes/stat_tables.pdf"
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -103,7 +119,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM-3/MA3014-Applied Statistics/Lecture Notes/Online_Statistics_Education.pdf"
+                "file": "SEM-3/MA3014-Applied Statistics/Study Notes/stat_tables.pdf"
               }
             }
           },
@@ -113,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM-3/MA3014-Applied Statistics/Lecture Notes/Online_Statistics_Education.pdf",
+                "file": "SEM-3/MA3014-Applied Statistics/Study Notes/stat_tables.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,26 +173,26 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5aa5e623af928063",
+  "active": "eaca49d1ca401a68",
   "lastOpenFiles": [
-    "SEM-3/MA3014-Applied Statistics/Study Notes/Statistical Tables.pdf",
-    "SEM-3/MA3014-Applied Statistics/Study Notes/Statistical Tables.pdf.crdownload",
-    "SEM-3/MA3014-Applied Statistics/Study Notes/sampling-distributions-study-note.md",
     "SEM-3/MA3014-Applied Statistics/Lecture Notes/Online_Statistics_Education.pdf",
-    "SEM-3/MA3014-Applied Statistics/Study Notes/discrete-distributions-note.md",
-    "SEM-3/MA3014-Applied Statistics/Test Questions/MA3014 Test Questions 01.md",
+    "SEM-3/MA3014-Applied Statistics/Study Notes/stat_tables.pdf",
     "SEM-3/MA3014-Applied Statistics/Lecture Notes/Week 2 Week 3.pdf",
     "SEM-3/MA3014-Applied Statistics/Lecture Notes/Week 1.pdf",
+    "SEM-3/MA3014-Applied Statistics/Study Notes/Statistical Tables.pdf",
+    "SEM-3/MA3014-Applied Statistics/Study Notes/stat_tables.pdf.crdownload",
+    "SEM-3/MA3014-Applied Statistics/Study Notes/Statistical Tables.pdf.crdownload",
+    "SEM-3/MA3014-Applied Statistics/Study Notes/sampling-distributions-study-note.md",
+    "SEM-3/MA3014-Applied Statistics/Study Notes/discrete-distributions-note.md",
+    "SEM-3/MA3014-Applied Statistics/Test Questions/MA3014 Test Questions 01.md",
     "SEM-3/MA3014-Applied Statistics/Lecture Notes",
     "SEM-3/MA3014-Applied Statistics/New folder",
     "SEM-3/MA3014-Applied Statistics/Study Notes/Unconfirmed 926166.crdownload",
     "SEM-3/MA3014-Applied Statistics/Applied Statistics.md",
     "SEM-3/MA3014-Applied Statistics/Study Notes/discrete-distributions-mcq (2).md",
     "SEM-3/MA3014-Applied Statistics/Study Notes",
-    "SEM-3/MA3014-Applied Statistics/Test Questions",
     "SEM-3/MA3014-Applied Statistics/discrete-distributions-mcq.md",
     "SEM-3/CS3043-Database Systems/Test Questions/CS3043 Test Questions 07.md",
-    "SEM-3/MA3014-Applied Statistics/Unconfirmed 234958.crdownload",
     "SEM-3/CS3043-Database Systems/Test Questions/CS3043 Test Questions 01.md",
     "Obsidian Tools/Callout List.md",
     "Obsidian Tools/Check Box List.md",
