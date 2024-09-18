@@ -91,7 +91,7 @@ Therefore:
 
 ## 5. Student's t-Distribution
 
-The t-distribution is used when the **population standard deviation** is **unknown** and must be estimated from the sample. It is determined by its degrees of freedom (df).
+The t-distribution is used when the `population standard deviation` is **unknown** and must be estimated from the sample. It is determined by its degrees of freedom (df).
 
 For a sample of size $n$ from a normal population with unknown mean $\mu$ and unknown standard deviation $\sigma$:
 ### $$t = \frac{\bar{x} - \mu}{s/\sqrt{n}}$$
@@ -118,10 +118,8 @@ This statistic follows a `t-distribution` with $n-1$ `degrees of freedom`.
 ## 6. Chi-square Distribution
 
 The chi-square statistic for a sample of size $n$ from a normal population with known variance $\sigma^2$ is:
-
-$\chi^2 = \frac{(n-1)s^2}{\sigma^2}$
-
-This statistic follows a chi-square distribution with $n-1$ degrees of freedom.
+### $$\chi^2 = \frac{(n-1)s^2}{\sigma^2}$$
+This statistic follows a `chi-square distribution` with $n-1$ `degrees of freedom`.
 
 Properties of the Chi-square Distribution:
 - Mean = $v$ (degrees of freedom)
