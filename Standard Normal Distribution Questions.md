@@ -207,68 +207,71 @@
 > - c. Proportion between 1.25 and 2.1 standard deviations above the mean: **8.77%**
 
 
+## Question 04
+- A test is normally distributed with a mean of 70 and a standard deviation of 8. 
+	- (a) What score would be needed to be in the 85th percentile? 
+	- (b) What score would be needed to be in the 22nd percentile?
 
+> [!math]- Answer
+> 
+> ### Given:
+> - Mean ($\mu$) = 70
+> - Standard deviation ($\sigma$) = 8
+> 
+> ### a. Score Needed to be in the 85th Percentile
+> 
+> To find the score corresponding to the 85th percentile, we first need to find the z-score that corresponds to the 85th percentile.
+> 
+> Using a z-table or calculator, we find:
+> 
+> $$
+> P(Z < z) = 0.85 \implies z \approx 1.036
+> $$
+> 
+> Now we can use the z-score formula to find the raw score ($X$):
+> 
+> $$
+> z = \frac{(X - \mu)}{\sigma}
+> $$
+> 
+> Rearranging gives:
+> 
+> $$
+> X = z \cdot \sigma + \mu
+> $$
+> 
+> Substituting the values:
+> 
+> $$
+> X = (1.036 \cdot 8) + 70 \approx 8.288 + 70 \approx 78.29
+> $$
+> 
+> Thus, the score needed to be in the **85th percentile** is approximately **78.29**.
+> 
+> ### b. Score Needed to be in the 22nd Percentile
+> 
+> Similarly, for the 22nd percentile, we find the z-score:
+> 
+> $$
+> P(Z < z) = 0.22 \implies z \approx -0.774
+> $$
+> 
+> Now we can use the z-score formula again:
+> 
+> $$
+> X = z \cdot \sigma + \mu
+> $$
+> 
+> Substituting the values:
+> 
+> $$
+> X = (-0.774 \cdot 8) + 70 \approx -6.192 + 70 \approx 63.81
+> $$
+> 
+> Thus, the score needed to be in the **22nd percentile** is approximately **63.81**.
+> 
+> ### Summary:
+> - a. Score for the 85th percentile: **78.29**
+> - b. Score for the 22nd percentile: **63.81**
+> 
 
-Here’s the answer to your question formatted in Markdown with MathJax for the equations:
-
-### Given:
-- Mean ($\mu$) = 70
-- Standard deviation ($\sigma$) = 8
-
-### a. Score Needed to be in the 85th Percentile
-
-To find the score corresponding to the 85th percentile, we first need to find the z-score that corresponds to the 85th percentile.
-
-Using a z-table or calculator, we find:
-
-$$
-P(Z < z) = 0.85 \implies z \approx 1.036
-$$
-
-Now we can use the z-score formula to find the raw score ($X$):
-
-$$
-z = \frac{(X - \mu)}{\sigma}
-$$
-
-Rearranging gives:
-
-$$
-X = z \cdot \sigma + \mu
-$$
-
-Substituting the values:
-
-$$
-X = (1.036 \cdot 8) + 70 \approx 8.288 + 70 \approx 78.29
-$$
-
-Thus, the score needed to be in the **85th percentile** is approximately **78.29**.
-
-### b. Score Needed to be in the 22nd Percentile
-
-Similarly, for the 22nd percentile, we find the z-score:
-
-$$
-P(Z < z) = 0.22 \implies z \approx -0.774
-$$
-
-Now we can use the z-score formula again:
-
-$$
-X = z \cdot \sigma + \mu
-$$
-
-Substituting the values:
-
-$$
-X = (-0.774 \cdot 8) + 70 \approx -6.192 + 70 \approx 63.81
-$$
-
-Thus, the score needed to be in the **22nd percentile** is approximately **63.81**.
-
-### Summary:
-- a. Score for the 85th percentile: **78.29**
-- b. Score for the 22nd percentile: **63.81**
-
-If you have any more questions or need further assistance, feel free to ask!
