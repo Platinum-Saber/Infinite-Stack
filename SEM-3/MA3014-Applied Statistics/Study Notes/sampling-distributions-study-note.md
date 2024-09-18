@@ -15,38 +15,36 @@ Note: If $N$ is much larger than $n$, the sampling distribution has roughly the 
 
 The CLT states that the probability distribution of any statistic will be normal or nearly normal if the sample size is "large enough."
 
-Rule of thumb: A sample size of 30 is often considered "large enough."
+**Rule of thumb**: A sample size of 30 is often considered "large enough."
 
-Other considerations for "large enough" sample size:
-- Population distribution is normal
-- Sampling distribution is symmetric, unimodal, without outliers, and sample size ≤ 15
-- Sampling distribution is moderately skewed, unimodal, without outliers, and 16 ≤ sample size ≤ 40
-- Sample size > 40, without outliers
+> [!summary]- Other considerations for "large enough" sample size:
+> - Population distribution is normal
+> - Sampling distribution is symmetric, unimodal, without outliers, and sample size ≤ 15
+> - Sampling distribution is moderately skewed, unimodal, without outliers, and 16 ≤ sample size ≤ 40
+> - Sample size > 40, without outliers
 
 ## 3. Sampling Distribution of the Mean
 
-For a sample mean $\bar{x}$ from a population with mean $\mu$ and standard deviation $\sigma$:
-
-$\bar{x} \sim N(\mu_{\bar{x}}, \sigma^2_{\bar{x}})$
+For a sample mean $\bar{x}$ from a population with mean $\mu$ and standard deviation $\sigma$ :
+- $\bar{x} \sim N(\mu_{\bar{x}}, \sigma^2_{\bar{x}})$
 
 Where:
-$\mu_{\bar{x}} = \mu$
-$\sigma_{\bar{x}} = \frac{\sigma}{\sqrt{n}}$
+- $\mu_{\bar{x}} = \mu$
+- $\sigma_{\bar{x}} = \frac{\sigma}{\sqrt{n}}$
 
 Therefore:
+- $\bar{x} \sim N(\mu, \frac{\sigma^2}{n})$
 
-$\bar{x} \sim N(\mu, \frac{\sigma^2}{n})$
+> [!summary]- Apply conditions:
+> 1. The population is normally distributed, or the sample size is sufficiently large
+> 2. The population standard deviation $\sigma$ is known
 
-This applies when:
-1. The population is normally distributed, or the sample size is sufficiently large
-2. The population standard deviation $\sigma$ is known
-
-Example:
-Let's say we have a population with $\mu = 50$ and $\sigma = 10$. If we take samples of size $n = 25$, the sampling distribution of the mean would be:
-
-$\bar{x} \sim N(50, \frac{10^2}{25}) = N(50, 4)$
-
-This means the sampling distribution of the mean has a mean of 50 and a standard deviation of 2.
+> [!equation]- Example:
+> Let's say we have a population with $\mu = 50$ and $\sigma = 10$. If we take samples of size $n = 25$, the sampling distribution of the mean would be:
+> 
+> $\bar{x} \sim N(50, \frac{10^2}{25}) = N(50, 4)$
+> 
+> This means the sampling distribution of the mean has a mean of 50 and a standard deviation of 2.
 
 ## 4. Sampling Distribution of the Proportion
 
@@ -64,19 +62,19 @@ $p \sim N(P, \frac{PQ}{n})$
 
 This applies when the sample size is sufficiently large and the population probability of success $(P)$ is known.
 
-Example:
-A biased coin has a probability $P = 0.4$ of heads. In 1000 tosses, what is the probability that the number of heads exceeds 410?
-
-Solution:
-Let $X$ be the number of heads in 1000 tosses.
-$X \sim B(1000, 0.4)$, which can be approximated by $N(400, 240)$
-
-We want $P(X > 410)$:
-
-$P(X > 410) = P(Z > \frac{410.5 - 400}{\sqrt{240}}) = P(Z > 0.68)$
-
-Using a standard normal table, we find:
-$P(Z > 0.68) \approx 0.2483$ or about 24.83%
+> [!equation]- Example:
+> A biased coin has a probability $P = 0.4$ of heads. In 1000 tosses, what is the probability that the number of heads exceeds 410?
+> 
+> Solution:
+> Let $X$ be the number of heads in 1000 tosses.
+> $X \sim B(1000, 0.4)$, which can be approximated by $N(400, 240)$
+> 
+> We want $P(X > 410)$:
+> 
+> $P(X > 410) = P(Z > \frac{410.5 - 400}{\sqrt{240}}) = P(Z > 0.68)$
+> 
+> Using a standard normal table, we find:
+> $P(Z > 0.68) \approx 0.2483$ or about 24.83%
 
 ## 5. Student's t-Distribution
 
