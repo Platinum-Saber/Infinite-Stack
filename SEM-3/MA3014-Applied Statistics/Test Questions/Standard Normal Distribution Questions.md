@@ -643,19 +643,19 @@
 > 
 > Using a calculator or statistical software:
 > 
-> - $P(X = 15) \approx 0.2023$
-> - $P(X = 16) \approx 0.1967$
-> - $P(X = 17) \approx 0.1460$
-> - $P(X = 18) \approx 0.0735$
+> - $P(X = 15) \approx 0.09741$
+> - $P(X = 16) \approx 0.06088$
+> - $P(X = 17) \approx 0.032233$
+> - $P(X = 18) \approx 0.014326$
 > 
 > ### Total Probability Using Binomial Distribution
 > 
 > $$
-> P(15 \leq X \leq 18) \approx 0.2023 + 0.1967 + 0.1460 + 0.0735 = 0.6185
+> P(15 \leq X \leq 18) \approx0.09741 + 0.06088 + 0.032233 + 0.014326 = 0.20485
 > $$
 > 
 > ### Summary
 > 
 > - **Probability using normal approximation**: **0.2037**
-> - **Probability using binomial distribution**: **0.6185**
+> - **Probability using binomial distribution**: **0.20485**
 

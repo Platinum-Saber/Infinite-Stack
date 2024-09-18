@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM-3/MA3014-Applied Statistics/Test Questions/Standard Normal Distribution Questions.md"
+                "file": "SEM-3/MA3014-Applied Statistics/Lecture Notes/Online_Statistics_Education.pdf"
               }
             }
           },
@@ -145,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM-3/MA3014-Applied Statistics/Test Questions/Standard Normal Distribution Questions.md",
+                "file": "SEM-3/MA3014-Applied Statistics/Lecture Notes/Online_Statistics_Education.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -189,11 +189,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "83213467ba0c46ea",
+  "active": "95553562d7c82059",
   "lastOpenFiles": [
+    "SEM-3/MA3014-Applied Statistics/Test Questions/Standard Normal Distribution Questions.md",
     "SEM-3/MA3014-Applied Statistics/Study Notes/stat_tables.pdf",
     "SEM-3/MA3014-Applied Statistics/Lecture Notes/Online_Statistics_Education.pdf",
-    "SEM-3/MA3014-Applied Statistics/Test Questions/Standard Normal Distribution Questions.md",
     "SEM-3/MA3014-Applied Statistics/Test Questions/MA3014 Test Questions 01.md",
     "SEM-3/MA3014-Applied Statistics/Study Notes/02. Sampling Distributions.md",
     "SEM-3/MA3014-Applied Statistics/Study Notes/01. Discrete Distributions.md",
