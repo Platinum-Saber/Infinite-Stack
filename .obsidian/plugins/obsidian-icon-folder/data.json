@@ -376,7 +376,10 @@
   "SEM-3/CS3043-Database Systems/Study Notes": "LiBookOpen",
   "SEM-3/CS3043-Database Systems/Test Questions": "FarCircleQuestion",
   "SEM-3/CS3043-Database Systems/Group Project": "FasPeopleGroup",
-  "Singularity": "FiLink",
+  "Singularity": {
+    "iconName": "FiLink",
+    "iconColor": "#5ddefe"
+  },
   "Singularity/Infinite Stack.md": {
     "iconName": "RiStackFill",
     "iconColor": "#d2ff70"
