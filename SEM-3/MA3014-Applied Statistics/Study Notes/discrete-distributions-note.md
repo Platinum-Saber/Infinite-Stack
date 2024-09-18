@@ -95,18 +95,18 @@ Where λ is the average number of events in the interval.
 
 **Mean and Variance:** Both equal to λ
 
-**Visualization:**
-
-```mermaid
-graph TD
-    A[Poisson Distribution] --> B[λ = 3]
-    B --> C[0 events: 0.0498]
-    B --> D[1 event: 0.1494]
-    B --> E[2 events: 0.2240]
-    B --> F[3 events: 0.2240]
-    B --> G[4 events: 0.1680]
-    B --> H[...]
-```
+> [!image]- Visualization:
+> 
+> ```mermaid
+> graph LR
+>     A[Poisson Distribution] --> B[λ = 3]
+>     B --> C[0 events: 0.0498]
+>     B --> D[1 event: 0.1494]
+>     B --> E[2 events: 0.2240]
+>     B --> F[3 events: 0.2240]
+>     B --> G[4 events: 0.1680]
+>     B --> H[...]
+> ```
 
 ## 5. Negative Binomial Distribution
 
