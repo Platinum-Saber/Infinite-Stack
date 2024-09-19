@@ -6,6 +6,7 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "FiFile",
       "FarCircleQuestion",
       "FiBookOpen",
       "SiBookstack",
@@ -14,8 +15,7 @@
       "SiFiles",
       "RiTableFill",
       "FarFilePdf",
-      "FasCloud",
-      "RiCloudy2Line"
+      "FasCloud"
     ],
     "recentlyUsedIconsSize": 10,
     "rules": [],
@@ -360,13 +360,14 @@
     "iconName": "FasCloud",
     "iconColor": "#67d8fe"
   },
-  "SEM-3/MA3014-Applied Statistics/Study Notes": "LiBookOpen",
-  "SEM-3/MA3014-Applied Statistics/Test Questions": "FarCircleQuestion",
-  "SEM-3/MA3014-Applied Statistics/Lecture Notes/Online_Statistics_Education.pdf": "FarFilePdf",
-  "SEM-3/MA3014-Applied Statistics/Lecture Notes/Week 1.pdf": "FarFilePdf",
-  "SEM-3/MA3014-Applied Statistics/Lecture Notes/Week 2 Week 3.pdf": "FarFilePdf",
-  "SEM-3/MA3014-Applied Statistics/Study Notes/stat_tables.pdf": "RiTableFill",
-  "SEM-3/MA3014-Applied Statistics/Lecture Notes": "SiBookstack",
+  "SEM-3/MA3014-Applied Statistics/Study Notes": {
+    "iconName": "LiBookOpen",
+    "iconColor": "#ba6cf9"
+  },
+  "SEM-3/MA3014-Applied Statistics/Test Questions": {
+    "iconName": "FarCircleQuestion",
+    "iconColor": "#bc6bff"
+  },
   "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Study Notes/1. The Zeroth Law of Thermodynamics.md": {
     "iconName": "FiFile",
     "iconColor": "#ff7b00"
@@ -406,5 +407,33 @@
   "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Source Material/Property Table.pdf": "FarFilePdf",
   "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Source Material": "SiBookstack",
   "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Study Notes": "FiBookOpen",
-  "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Test Questions": "FarCircleQuestion"
+  "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Test Questions": "FarCircleQuestion",
+  "SEM-3/MA3014-Applied Statistics/Study Notes/01. Discrete Distributions.md": {
+    "iconName": "FiFile",
+    "iconColor": "#bf72fd"
+  },
+  "SEM-3/MA3014-Applied Statistics/Study Notes/02. Sampling Distributions.md": {
+    "iconName": "FiFile",
+    "iconColor": "#bf70ff"
+  },
+  "SEM-3/MA3014-Applied Statistics/Source Material": {
+    "iconName": "SiBookstack",
+    "iconColor": "#bc6cfe"
+  },
+  "SEM-3/MA3014-Applied Statistics/Source Material/Online_Statistics_Education.pdf": {
+    "iconName": "FarFilePdf",
+    "iconColor": "#bf70ff"
+  },
+  "SEM-3/MA3014-Applied Statistics/Source Material/Week 1.pdf": {
+    "iconName": "FarFilePdf",
+    "iconColor": "#bf70ff"
+  },
+  "SEM-3/MA3014-Applied Statistics/Source Material/Week 2 Week 3.pdf": {
+    "iconName": "FarFilePdf",
+    "iconColor": "#bf70ff"
+  },
+  "SEM-3/MA3014-Applied Statistics/Source Material/stat_tables.pdf": {
+    "iconName": "RiTableFill",
+    "iconColor": "#bc6bff"
+  }
 }
