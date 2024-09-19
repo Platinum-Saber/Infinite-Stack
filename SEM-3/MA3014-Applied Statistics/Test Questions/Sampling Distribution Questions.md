@@ -182,3 +182,127 @@
 > ### Summary
 > 
 > The probability that the difference score $D = X_1 - X_2$ will be greater than 5 is approximately **0.3616** or **36.16%**.
+
+## Question 04
+- The mean GPA for students in School A is 3.0; the mean GPA for students in School B is 2.8. The standard deviation in both schools is 0.25. The GPAs of both schools are normally distributed. If 9 students are randomly sampled from each school, what is the probability that: 
+	- a. the sample mean for School A will exceed that of School B by 0.5 or more? 
+	- b. the sample mean for School B will be greater than the sample mean for School A?
+
+To find the probabilities for the given scenarios involving the GPAs of students from two schools, we can follow these steps:
+
+> [!math]- Answer
+> ### Given:
+> - Mean GPA for School A $\mu_A$ = 3.0
+> - Mean GPA for School B $\mu_B$  = 2.8
+> - Standard deviation for both schools $\sigma$ = 0.25
+> - Sample size for each school $N = 9$
+> 
+> ### Step 1: Mean and Standard Deviation of the Sampling Distribution
+> 
+> 1. **Mean of the Sampling Distribution**:
+>    - Mean for School A: \($\mu_{\bar{X}_A} = \mu_A = 3.0$\)
+>    - Mean for School B: \($\mu_{\bar{X}_B} = \mu_B = 2.8$)
+> 
+> 2. **Standard Deviation of the Sampling Distribution (Standard Error)**:
+>    - For both schools:
+>    $$
+>    \sigma_{\bar{X}} = \frac{\sigma}{\sqrt{N}} = \frac{0.25}{\sqrt{9}} = \frac{0.25}{3} \approx 0.0833
+>    $$
+> 
+> ### Step 2: Calculate the Difference in Sample Means
+> 
+> We are interested in the difference in sample means:
+> 
+> $$
+> D = \bar{X}_A - \bar{X}_B
+> $$
+> 
+> ### Step 3: Mean and Standard Deviation of the Difference
+> 
+> 1. **Mean of the Difference**:
+>    $$
+>    \mu_D = \mu_{\bar{X}_A} - \mu_{\bar{X}_B} = 3.0 - 2.8 = 0.2
+>    $$
+> 
+> 2. **Standard Deviation of the Difference**:
+>    Since the samples are independent:
+>    $$
+>    \sigma_D = \sqrt{\sigma_{\bar{X}_A}^2 + \sigma_{\bar{X}_B}^2} = \sqrt{(0.0833)^2 + (0.0833)^2} = \sqrt{2 \cdot (0.0833)^2} = \sqrt{2 \cdot 0.006944} \approx 0.116
+>    $$
+> 
+> ### a. Probability that the Sample Mean for School A Exceeds that of School B by 0.5 or More
+> 
+> We want to find:
+> 
+> $$
+> P(D > 0.5) = P\left(Z > \frac{0.5 - 0.2}{0.116}\right) = P\left(Z > \frac{0.3}{0.116}\right) \approx P(Z > 2.586)
+> $$
+> 
+> Using a z-table or calculator, we find:
+> 
+> $$
+> P(Z < 2.586) \approx 0.9952
+> $$
+> 
+> Thus,
+> 
+> $$
+> P(Z > 2.586) = 1 - 0.9952 = 0.0048
+> $$
+> 
+> ### b. Probability that the Sample Mean for School B is Greater than that of School A
+> 
+> We want to find:
+> 
+> $$
+> P(\bar{X}_B > \bar{X}_A) \Rightarrow P(D < 0) = P\left(Z < \frac{0 - 0.2}{0.116}\right) = P\left(Z < \frac{-0.2}{0.116}\right) \approx P(Z < -1.724)
+> $$
+> 
+> Using a z-table or calculator, we find:
+> 
+> $$
+> P(Z < -1.724) \approx 0.0427
+> $$
+> 
+> ### Summary
+> 
+> - a. The probability that the sample mean for School A will exceed that of School B by 0.5 or more is approximately **0.0048** or **0.48%**.
+> - b. The probability that the sample mean for School B will be greater than the sample mean for School A is approximately **0.0427** or **4.27%**.
+
+## Question 05
+-  In a city, 70% of the people prefer Candidate A. Suppose 30 people from this city were sampled. 
+	- a. What is the mean of the sampling distribution of p? 
+	- b. What is the standard error of p?
+
+> [!math]- Answer
+> ### Given:
+> - Proportion of people who prefer Candidate A $P= 0.70$
+> - Sample size (\(n\)) = 30
+> 
+> ### a. Mean of the Sampling Distribution of \(p\)
+> 
+> The mean of the sampling distribution of the sample proportion (\(\mu_p\)) is equal to the population proportion:
+> 
+> $$
+> \mu_p = P = 0.70
+> $$
+> 
+> ### b. Standard Error of \(p\)
+> 
+> The standard error (SE) of the sample proportion is calculated using the formula:
+> 
+> $$
+> SE_p = \sqrt{\frac{P(1 - P)}{n}}
+> $$
+> 
+> Substituting the values:
+> 
+> $$
+> SE_p = \sqrt{\frac{0.70 \times (1 - 0.70)}{30}} = \sqrt{\frac{0.70 \times 0.30}{30}} = \sqrt{\frac{0.21}{30}} \approx \sqrt{0.007} \approx 0.0837
+> $$
+> 
+> ### Summary
+> 
+> - **Mean of the sampling distribution of \(p\)**: **0.70**
+> - **Standard error of \(p\)**: **0.0837**
+
