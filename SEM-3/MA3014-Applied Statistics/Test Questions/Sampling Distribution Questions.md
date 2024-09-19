@@ -276,12 +276,12 @@ To find the probabilities for the given scenarios involving the GPAs of students
 
 > [!math]- Answer
 > ### Given:
-> - Proportion of people who prefer Candidate A $P= 0.70$
+> - Proportion of people who prefer Candidate A $P = 0.70$
 > - Sample size (\(n\)) = 30
 > 
 > ### a. Mean of the Sampling Distribution of \(p\)
 > 
-> The mean of the sampling distribution of the sample proportion (\(\mu_p\)) is equal to the population proportion:
+> The mean of the sampling distribution of the sample proportion $\mu_p$ is equal to the population proportion:
 > 
 > $$
 > \mu_p = P = 0.70
