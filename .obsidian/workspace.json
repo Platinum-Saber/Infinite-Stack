@@ -16,19 +16,8 @@
                 "file": "SEM-3/MA3014-Applied Statistics/Lecture Notes/Online_Statistics_Education.pdf"
               }
             }
-          },
-          {
-            "id": "4bd73157a8d0db65",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Source Material/Property Table.pdf"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "495f5b9329576125",
@@ -157,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Source Material/Property Table.pdf"
+                "file": "SEM-3/MA3014-Applied Statistics/Lecture Notes/Online_Statistics_Education.pdf"
               }
             }
           },
@@ -167,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Source Material/Property Table.pdf",
+                "file": "SEM-3/MA3014-Applied Statistics/Lecture Notes/Online_Statistics_Education.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -211,10 +200,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4bd73157a8d0db65",
+  "active": "d4c9c46ad3237f5f",
   "lastOpenFiles": [
-    "SEM-3/MA3014-Applied Statistics/Lecture Notes/Online_Statistics_Education.pdf",
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Source Material/Property Table.pdf",
+    "SEM-3/MA3014-Applied Statistics/Lecture Notes/Online_Statistics_Education.pdf",
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Source Material/Property Table.pdf.crdownload",
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Source Material",
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Test Questions",
