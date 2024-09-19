@@ -16,8 +16,17 @@
                 "file": "SEM-3/MA3014-Applied Statistics/Lecture Notes/Online_Statistics_Education.pdf"
               }
             }
+          },
+          {
+            "id": "4bd73157a8d0db65",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "495f5b9329576125",
@@ -110,8 +119,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "b2aa869acde22062",
@@ -145,9 +153,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "SEM-3/MA3014-Applied Statistics/Test Questions/Sampling Distribution Questions.md"
-              }
+              "state": {}
             }
           },
           {
@@ -156,7 +162,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM-3/MA3014-Applied Statistics/Test Questions/Sampling Distribution Questions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -200,11 +205,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3f26f172178f8da6",
+  "active": "4bd73157a8d0db65",
   "lastOpenFiles": [
+    "SEM-3/MA3014-Applied Statistics/Lecture Notes/Online_Statistics_Education.pdf",
+    "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Source Material/Property Table.pdf",
+    "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Source Material/Property Table.pdf.crdownload",
+    "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Source Material",
+    "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Test Questions",
+    "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Study Notes",
     "SEM-3/MA3014-Applied Statistics/Test Questions/Standard Normal Distribution Questions.md",
     "SEM-3/MA3014-Applied Statistics/Test Questions/Sampling Distribution Questions.md",
-    "SEM-3/MA3014-Applied Statistics/Lecture Notes/Online_Statistics_Education.pdf",
     "SEM-3/MA3014-Applied Statistics/Study Notes/stat_tables.pdf",
     "SEM-3/MA3014-Applied Statistics/Test Questions/MA3014 Test Questions 01.md",
     "SEM-3/MA3014-Applied Statistics/Study Notes/02. Sampling Distributions.md",
@@ -218,10 +228,6 @@
     "Full Stack Development/Backend Development/Backend Development.md",
     "SEM-3/MA3014-Applied Statistics/Study Notes/Statistical Tables.pdf",
     "SEM-3/MA3014-Applied Statistics/Study Notes/stat_tables.pdf.crdownload",
-    "SEM-3/MA3014-Applied Statistics/Study Notes/Statistical Tables.pdf.crdownload",
-    "SEM-3/MA3014-Applied Statistics/Lecture Notes",
-    "SEM-3/MA3014-Applied Statistics/New folder",
-    "SEM-3/MA3014-Applied Statistics/Study Notes/Unconfirmed 926166.crdownload",
     "SEM-3/MA3014-Applied Statistics/Applied Statistics.md",
     "SEM-3/MA3014-Applied Statistics/Study Notes/discrete-distributions-mcq (2).md",
     "SEM-3/MA3014-Applied Statistics/discrete-distributions-mcq.md",
