@@ -118,3 +118,67 @@
 > 
 > The probability that the mean score of the women will be more than 2 points higher than the mean score of the men is approximately **0.0516** or **5.16%**.
 > 
+
+## Question 03
+-  A normal distribution has a mean of 20 and a standard deviation of 10. Two scores are sampled randomly from the distribution and the second score is subtracted from the first. What is the probability that the difference score will be greater than 5?
+
+> [!math]- Answer
+> ### Given:
+> - Mean $\mu$ = 20
+> - Standard deviation (\(\sigma\)) = 10
+> 
+> ### Step 1: Define the Difference of Two Scores
+> 
+> Let $X_1$ and $X_2$ be the two scores sampled from the distribution. We are interested in the difference:
+> 
+> $$
+> D = X_1 - X_2
+> $$
+> 
+> ### Step 2: Calculate the Mean and Standard Deviation of the Difference
+> 
+> 1. **Mean of the Difference**:
+>    The mean of the difference \(D\) is given by:
+> 
+>    $$
+>    \mu_D = \mu_{X_1} - \mu_{X_2} = \mu - \mu = 20 - 20 = 0
+>    $$
+> 
+> 2. **Standard Deviation of the Difference**:
+>    The standard deviation of the difference is calculated using the formula for the standard deviation of the difference of two independent random variables:
+> 
+>    $$
+>    \sigma_D = \sqrt{\sigma_{X_1}^2 + \sigma_{X_2}^2} = \sqrt{10^2 + 10^2} = \sqrt{100 + 100} = \sqrt{200} = 10\sqrt{2} \approx 14.14
+>    $$
+> 
+> ### Step 3: Standardize the Difference
+> 
+> We want to find the probability that:
+> 
+> $$
+> D > 5
+> $$
+> 
+> We can standardize this using the z-score formula:
+> 
+> $$
+> P(D > 5) = P\left(Z > \frac{5 - \mu_D}{\sigma_D}\right) = P\left(Z > \frac{5 - 0}{10\sqrt{2}}\right) = P\left(Z > \frac{5}{14.14}\right) \approx P(Z > 0.3536)
+> $$
+> 
+> ### Step 4: Find the Probability from the Z-Table
+> 
+> Using a z-table or calculator, we find the cumulative probability for \(Z = 0.3536\):
+> 
+> $$
+> P(Z < 0.3536) \approx 0.6384
+> $$
+> 
+> Thus,
+> 
+> $$
+> P(Z > 0.3536) = 1 - P(Z < 0.3536) \approx 1 - 0.6384 = 0.3616
+> $$
+> 
+> ### Summary
+> 
+> The probability that the difference score $D = X_1 - X_2$ will be greater than 5 is approximately **0.3616** or **36.16%**.

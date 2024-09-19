@@ -165,7 +165,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM-3/MA3014-Applied Statistics/Test Questions/Sampling Distribution Questions.md"
+                "file": "SEM-3/MA3014-Applied Statistics/Source Material/Online_Statistics_Education.pdf"
               }
             }
           },
@@ -175,7 +175,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM-3/MA3014-Applied Statistics/Test Questions/Sampling Distribution Questions.md",
+                "file": "SEM-3/MA3014-Applied Statistics/Source Material/Online_Statistics_Education.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -219,10 +219,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3f26f172178f8da6",
+  "active": "d4c9c46ad3237f5f",
   "lastOpenFiles": [
-    "SEM-3/MA3014-Applied Statistics/Source Material/Online_Statistics_Education.pdf",
     "SEM-3/MA3014-Applied Statistics/Test Questions/Sampling Distribution Questions.md",
+    "SEM-3/MA3014-Applied Statistics/Source Material/Online_Statistics_Education.pdf",
     "SEM-3/MA3014-Applied Statistics/Source Material/Week 2 Week 3.pdf",
     "SEM-3/MA3014-Applied Statistics/Study Notes/02. Sampling Distributions.md",
     "SEM-3/MA3014-Applied Statistics/Study Notes/01. Discrete Distributions.md",
