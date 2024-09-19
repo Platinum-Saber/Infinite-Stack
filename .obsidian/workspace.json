@@ -21,8 +21,10 @@
             "id": "4bd73157a8d0db65",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "pdf",
+              "state": {
+                "file": "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Source Material/Property Table.pdf"
+              }
             }
           }
         ],
@@ -119,7 +121,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "b2aa869acde22062",
@@ -153,7 +156,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Source Material/Property Table.pdf"
+              }
             }
           },
           {
@@ -162,6 +167,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Source Material/Property Table.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
