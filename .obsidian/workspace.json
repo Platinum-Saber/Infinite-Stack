@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM-3/CS3043-Database Systems/Study Notes/Advanced SQL.md",
+                "file": "Hachathons/2024 IEEE/04. Holiday Struggle.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -118,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM-3/CS3043-Database Systems/Study Notes/Advanced SQL.md"
+                "file": "Hachathons/2024 IEEE/04. Holiday Struggle.md"
               }
             }
           },
@@ -128,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM-3/CS3043-Database Systems/Study Notes/Advanced SQL.md",
+                "file": "Hachathons/2024 IEEE/04. Holiday Struggle.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,8 +175,9 @@
   "active": "69368896619e2852",
   "lastOpenFiles": [
     "SEM-3/CS3043-Database Systems/Study Notes/Application Design & Development.md",
-    "Hachathons/2024 IEEE/04. Holiday Struggle.md",
+    "SEM-3/CS3043-Database Systems/Study Notes/Advanced SQL.md",
     "Hachathons/2024 IEEE/1. XOR Game.md",
+    "Hachathons/2024 IEEE/04. Holiday Struggle.md",
     "Hachathons/2024 IEEE/2. Radio Spying.md",
     "SEM-3/MA3014-Applied Statistics/Study Notes/01. Discrete Distributions.md",
     "SEM-3/MA3014-Applied Statistics/Study Notes/02. Sampling Distributions.md",
@@ -194,7 +195,6 @@
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Source Material",
     "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Test Questions",
     "SEM-3/MA3014-Applied Statistics/Test Questions/MA3014 Test Questions 01.md",
-    "SEM-3/CS3043-Database Systems/Study Notes/Advanced SQL.md",
     "SEM-3/CS3043-Database Systems/Study Notes/Database Design Using the E-R Model.md",
     "Full Stack Development/Backend Development/Setting Up .ENV.md",
     "Full Stack Development/Backend Development/Nodejs-SQL-Backend-Setup.md",
