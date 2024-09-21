@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hachathons/2024 IEEE/04. Holiday Struggle.md",
+                "file": "SEM-3/CS3043-Database Systems/Study Notes/Advanced SQL.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -118,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hachathons/2024 IEEE/04. Holiday Struggle.md"
+                "file": "SEM-3/CS3043-Database Systems/Study Notes/Advanced SQL.md"
               }
             }
           },
@@ -128,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Hachathons/2024 IEEE/04. Holiday Struggle.md",
+                "file": "SEM-3/CS3043-Database Systems/Study Notes/Advanced SQL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,8 +174,9 @@
   },
   "active": "69368896619e2852",
   "lastOpenFiles": [
-    "Hachathons/2024 IEEE/1. XOR Game.md",
+    "SEM-3/CS3043-Database Systems/Study Notes/Application Design & Development.md",
     "Hachathons/2024 IEEE/04. Holiday Struggle.md",
+    "Hachathons/2024 IEEE/1. XOR Game.md",
     "Hachathons/2024 IEEE/2. Radio Spying.md",
     "SEM-3/MA3014-Applied Statistics/Study Notes/01. Discrete Distributions.md",
     "SEM-3/MA3014-Applied Statistics/Study Notes/02. Sampling Distributions.md",
@@ -210,7 +211,6 @@
     "Ballerina/Basics of Ballerina.md",
     "Ballerina/Getting Started.md",
     "Images/Pasted image 20240917184851.png",
-    "SEM-3/CS3043-Database Systems/Study Notes/Relational Database Design.md",
     "Images/Pasted image 20240915003303.png",
     "Images/Pasted image 20240915003236.png",
     "Images/Pasted image 20240915003223.png",
