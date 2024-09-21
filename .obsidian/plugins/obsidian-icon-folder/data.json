@@ -6,16 +6,16 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiFileCode2",
+      "SiIeee",
+      "SiHackaday",
       "FiFile",
       "FarCircleQuestion",
       "FiBookOpen",
       "SiBookstack",
       "RaBook",
       "FiBookmark",
-      "SiFiles",
-      "RiTableFill",
-      "FarFilePdf",
-      "FasCloud"
+      "SiFiles"
     ],
     "recentlyUsedIconsSize": 10,
     "rules": [],
@@ -435,5 +435,21 @@
   "SEM-3/MA3014-Applied Statistics/Source Material/stat_tables.pdf": {
     "iconName": "RiTableFill",
     "iconColor": "#bc6bff"
-  }
+  },
+  "Hachathons": {
+    "iconName": "SiHackaday",
+    "iconColor": "#70ff66"
+  },
+  "Hachathons/2024 IEEE": {
+    "iconName": "SiIeee",
+    "iconColor": "#5cffec"
+  },
+  "Hachathons/2024 IEEE/1. XOR Game.md": "LiFileCode2",
+  "Hachathons/2024 IEEE/2. Radio Spying.md": "LiFileCode2",
+  "Hachathons/2024 IEEE/3. Numbers in a Matrix.md": "LiFileCode2",
+  "Hachathons/2024 IEEE/4. Holiday Struggle.md": "LiFileCode2",
+  "Hachathons/2024 IEEE/5. Fortress Walls.md": "LiFileCode2",
+  "Hachathons/2024 IEEE/6. Pizza Cutter.md": "LiFileCode2",
+  "Hachathons/2024 IEEE/7. Circular Table.md": "LiFileCode2",
+  "Hachathons/2024 IEEE/8. Board Game Scheduling.md": "LiFileCode2"
 }
