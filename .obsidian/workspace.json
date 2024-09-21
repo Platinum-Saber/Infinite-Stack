@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hachathons/2024 IEEE/6. Pizza Cutter.md",
+                "file": "Hachathons/2024 IEEE/7. Circular Table.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -118,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hachathons/2024 IEEE/6. Pizza Cutter.md"
+                "file": "Hachathons/2024 IEEE/7. Circular Table.md"
               }
             }
           },
@@ -128,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Hachathons/2024 IEEE/6. Pizza Cutter.md",
+                "file": "Hachathons/2024 IEEE/7. Circular Table.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,9 +174,13 @@
   },
   "active": "69368896619e2852",
   "lastOpenFiles": [
+    "Hachathons/2024 IEEE/5. Fortress Walls.md",
+    "Hachathons/2024 IEEE/7. Circular Table.md",
+    "Images/Pasted image 20240921182225.png",
+    "Hachathons/2024 IEEE/3. Numbers in a Matrix.md",
+    "Hachathons/2024 IEEE/6. Pizza Cutter.md",
     "Hachathons/2024 IEEE/2. Radio Spying.md",
     "Hachathons/2024 IEEE/4. Holiday Struggle.md",
-    "Hachathons/2024 IEEE/6. Pizza Cutter.md",
     "Hachathons/2024 IEEE/1. XOR Game.md",
     "SEM-3/CS3043-Database Systems/Study Notes/Application Design & Development.md",
     "SEM-3/CS3043-Database Systems/Study Notes/Advanced SQL.md",
@@ -207,9 +211,6 @@
     "SEM-3/CS3043-Database Systems/Test Questions/CS3043 Test Questions 01.md",
     "Obsidian Tools/Callout List.md",
     "Obsidian Tools/Check Box List.md",
-    "Obsidian Tools/Git Profile Draft.md",
-    "Ballerina/Untitled.md",
-    "Ballerina/Basics of Ballerina.md",
     "Images/Pasted image 20240917184851.png",
     "Images/Pasted image 20240915003303.png",
     "Images/Pasted image 20240915003236.png",
@@ -219,7 +220,6 @@
     "Images/Pasted image 20240915002604.png",
     "Images/Pasted image 20240915002542.png",
     "Images/Pasted image 20240915001627.png",
-    "Images/Pasted image 20240915001406.png",
     "Work Space.canvas",
     "Untitled.canvas"
   ]
