@@ -6,16 +6,16 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "SiDocker",
+      "SiLinuxprofessionalinstitute",
+      "LiFileQuestion",
+      "SiX",
       "LiFileCode2",
       "SiIeee",
       "SiHackaday",
       "FiFile",
       "FarCircleQuestion",
-      "FiBookOpen",
-      "SiBookstack",
-      "RaBook",
-      "FiBookmark",
-      "SiFiles"
+      "FiBookOpen"
     ],
     "recentlyUsedIconsSize": 10,
     "rules": [],
@@ -165,19 +165,6 @@
   "SEM-3/CS2053-Computer Architecture/Memory Hierarchy.md": {
     "iconName": "FiFile",
     "iconColor": "#00eeff"
-  },
-  "SEM-3/CS2043-Operating Systems/Notes/System Daemons.md": "FarNoteSticky",
-  "SEM-3/CS2043-Operating Systems/Notes/Synchronization Tools.md": {
-    "iconName": "FiFile",
-    "iconColor": "#80a6ff"
-  },
-  "SEM-3/CS2043-Operating Systems/Notes/OS Introduction.md": {
-    "iconName": "FiFile",
-    "iconColor": "#80aaff"
-  },
-  "SEM-3/CS2043-Operating Systems/Notes/Operating System Services.md": {
-    "iconName": "FiFile",
-    "iconColor": "#80aaff"
   },
   "SEM-3/CS2033-Data Communication and Networking/Communication Concepts.md": {
     "iconName": "FiFile",
@@ -451,5 +438,34 @@
   "Hachathons/2024 Pre-IEEE/3. Numbers in a Matrix.md": "LiFileCode2",
   "Hachathons/2024 Pre-IEEE/5. Fortress Walls.md": "LiFileCode2",
   "Hachathons/2024 Pre-IEEE/7. Circular Table.md": "LiFileCode2",
-  "Hachathons/2024 Pre-IEEE/8. Board Game Scheduling.md": "LiFileCode2"
+  "Hachathons/2024 Pre-IEEE/8. Board Game Scheduling.md": "LiFileCode2",
+  "Hachathons/2024 Japura_Xtreame": {
+    "iconName": "SiX",
+    "iconColor": "#fea858"
+  },
+  "SEM-3/MA3014-Applied Statistics/Test Questions/Estimations, t-Distribution Questions.md": "LiFileQuestion",
+  "SEM-3/MA3014-Applied Statistics/Test Questions/MA3014 Test Questions 01.md": "LiFileQuestion",
+  "SEM-3/MA3014-Applied Statistics/Test Questions/Sampling Distribution Questions.md": "LiFileQuestion",
+  "SEM-3/MA3014-Applied Statistics/Test Questions/Standard Normal Distribution Questions.md": "LiFileQuestion",
+  "SEM-3/CS2043-Operating Systems/Labs": {
+    "iconName": "SiDocker",
+    "iconColor": "#5ca3ff"
+  },
+  "SEM-3/CS2043-Operating Systems/Study Notes/Operating System Services.md": {
+    "iconName": "FiFile",
+    "iconColor": "#80aaff"
+  },
+  "SEM-3/CS2043-Operating Systems/Study Notes/OS Introduction.md": {
+    "iconName": "FiFile",
+    "iconColor": "#80aaff"
+  },
+  "SEM-3/CS2043-Operating Systems/Study Notes/System Daemons.md": "FarNoteSticky",
+  "SEM-3/CS2043-Operating Systems/Study Notes/Synchronization Tools.md": {
+    "iconName": "FiFile",
+    "iconColor": "#80a6ff"
+  },
+  "SEM-3/CS2043-Operating Systems/Study Notes": {
+    "iconName": "FiBookOpen",
+    "iconColor": "#62a6fe"
+  }
 }
