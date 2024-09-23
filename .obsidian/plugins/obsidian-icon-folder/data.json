@@ -440,16 +440,16 @@
     "iconName": "SiHackaday",
     "iconColor": "#70ff66"
   },
-  "Hachathons/2024 IEEE": {
+  "Hachathons/2024 Pre-IEEE": {
     "iconName": "SiIeee",
     "iconColor": "#5cffec"
   },
-  "Hachathons/2024 IEEE/1. XOR Game.md": "LiFileCode2",
-  "Hachathons/2024 IEEE/2. Radio Spying.md": "LiFileCode2",
-  "Hachathons/2024 IEEE/3. Numbers in a Matrix.md": "LiFileCode2",
-  "Hachathons/2024 IEEE/4. Holiday Struggle.md": "LiFileCode2",
-  "Hachathons/2024 IEEE/5. Fortress Walls.md": "LiFileCode2",
-  "Hachathons/2024 IEEE/6. Pizza Cutter.md": "LiFileCode2",
-  "Hachathons/2024 IEEE/7. Circular Table.md": "LiFileCode2",
-  "Hachathons/2024 IEEE/8. Board Game Scheduling.md": "LiFileCode2"
+  "Hachathons/2024 Pre-IEEE/1. XOR Game.md": "LiFileCode2",
+  "Hachathons/2024 Pre-IEEE/2. Radio Spying.md": "LiFileCode2",
+  "Hachathons/2024 Pre-IEEE/6. Pizza Cutter.md": "LiFileCode2",
+  "Hachathons/2024 Pre-IEEE/4. Holiday Struggle.md": "LiFileCode2",
+  "Hachathons/2024 Pre-IEEE/3. Numbers in a Matrix.md": "LiFileCode2",
+  "Hachathons/2024 Pre-IEEE/5. Fortress Walls.md": "LiFileCode2",
+  "Hachathons/2024 Pre-IEEE/7. Circular Table.md": "LiFileCode2",
+  "Hachathons/2024 Pre-IEEE/8. Board Game Scheduling.md": "LiFileCode2"
 }
