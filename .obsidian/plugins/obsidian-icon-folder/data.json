@@ -134,10 +134,6 @@
     "iconName": "SiHubspot",
     "iconColor": "#3656d9"
   },
-  "SEM-3/CS2033-Data Communication and Networking/Data Com. & Networking Introduction.md": {
-    "iconName": "FiFile",
-    "iconColor": "#2e51ff"
-  },
   "SEM-3/CS2953-Communication Skills": {
     "iconName": "FasCommentDots",
     "iconColor": "#81f3c7"
@@ -165,14 +161,6 @@
   "SEM-3/CS2053-Computer Architecture/Memory Hierarchy.md": {
     "iconName": "FiFile",
     "iconColor": "#00eeff"
-  },
-  "SEM-3/CS2033-Data Communication and Networking/Communication Concepts.md": {
-    "iconName": "FiFile",
-    "iconColor": "#2954ff"
-  },
-  "SEM-3/CS2033-Data Communication and Networking/Encoding & Modulation.md": {
-    "iconName": "FiFile",
-    "iconColor": "#3366ff"
   },
   "SEM-3/MA2014-Differential Equations/Differential Equations.md": {
     "iconName": "SiHubspot",
@@ -209,14 +197,6 @@
   "SEM-3/MA3014-Applied Statistics/Applied Statistics.md": {
     "iconName": "SiHubspot",
     "iconColor": "#a21efa"
-  },
-  "SEM-3/CS2033-Data Communication and Networking/Transmission Media.md": {
-    "iconName": "LiFile",
-    "iconColor": "#3845ff"
-  },
-  "SEM-3/CS2033-Data Communication and Networking/Data Transmission.md": {
-    "iconName": "LiFile",
-    "iconColor": "#2e6dff"
   },
   "SEM-3/CS2053-Computer Architecture/GPT_Memory Hierarchy note.md": "FarNoteSticky",
   "Full Stack Development": {
@@ -467,5 +447,33 @@
   "SEM-3/CS2043-Operating Systems/Study Notes": {
     "iconName": "FiBookOpen",
     "iconColor": "#62a6fe"
+  },
+  "SEM-3/CS2043-Operating Systems/Test Questions": {
+    "iconName": "FarCircleQuestion",
+    "iconColor": "#5ca3ff"
+  },
+  "SEM-3/CS2033-Data Communication and Networking/Study Notes/Communication Concepts.md": {
+    "iconName": "FiFile",
+    "iconColor": "#2954ff"
+  },
+  "SEM-3/CS2033-Data Communication and Networking/Study Notes/Data Com. & Networking Introduction.md": {
+    "iconName": "FiFile",
+    "iconColor": "#2e51ff"
+  },
+  "SEM-3/CS2033-Data Communication and Networking/Study Notes/Data Transmission.md": {
+    "iconName": "LiFile",
+    "iconColor": "#2e6dff"
+  },
+  "SEM-3/CS2033-Data Communication and Networking/Study Notes/Encoding & Modulation.md": {
+    "iconName": "FiFile",
+    "iconColor": "#3366ff"
+  },
+  "SEM-3/CS2033-Data Communication and Networking/Study Notes/Transmission Media.md": {
+    "iconName": "LiFile",
+    "iconColor": "#3845ff"
+  },
+  "SEM-3/CS2033-Data Communication and Networking/Study Notes": {
+    "iconName": "FiBookOpen",
+    "iconColor": "#675cff"
   }
 }
