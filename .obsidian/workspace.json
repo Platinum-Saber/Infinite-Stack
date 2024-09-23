@@ -8,46 +8,19 @@
         "type": "tabs",
         "children": [
           {
-            "id": "69368896619e2852",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Ballerina/Code Guide/Untitled.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2ca5cd55ec5e7620",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Ballerina/Projects/Project Ideas.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "bdd6742f89a64e20",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hachathons/2024 Pre-IEEE/1. XOR Game.md",
-                "mode": "source",
+                "file": "Full Stack Development/Backend Development/Backend Development.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -132,7 +105,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ballerina/Projects/Project Ideas.md"
+                "file": "Full Stack Development/Backend Development/Backend Development.md"
               }
             }
           },
@@ -142,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ballerina/Projects/Project Ideas.md",
+                "file": "Full Stack Development/Backend Development/Backend Development.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,12 +159,20 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2ca5cd55ec5e7620",
+  "active": "bdd6742f89a64e20",
   "lastOpenFiles": [
+    "Full Stack Development/Backend Development/Setting Up Password Hashing for Signups.md",
+    "Full Stack Development/Backend Development/Setting Up Nodemon.md",
+    "Full Stack Development/Backend Development/Setting Up .ENV.md",
+    "Full Stack Development/Backend Development/nodejs-sql-resources.md",
+    "Full Stack Development/Backend Development/Nodejs-SQL-Backend-Setup.md",
+    "Full Stack Development/Backend Development/Backend Development.md",
+    "Hachathons/2024 Pre-IEEE/1. XOR Game.md",
     "Ballerina/Code Guide/Untitled.md",
+    "Ballerina/Code Guide/Basics of Ballerina.md",
+    "Ballerina/Code Guide/Getting Started.md",
     "Ballerina/Projects/Project Ideas.md",
     "Ballerina/Projects",
-    "Ballerina/Code Guide/Basics of Ballerina.md",
     "Ballerina/Code Guide",
     "SEM-3/MA3014-Applied Statistics/Test Questions/Estimations, t-Distribution Questions.md",
     "SEM-3/CS2033-Data Communication and Networking/Study Notes",
@@ -211,15 +192,7 @@
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Artificial Intelligence.md",
     "Hachathons/2024 Pre-IEEE/6. Pizza Cutter.md",
     "Hachathons/2024 Japura_Xtreame",
-    "Hachathons/2024 Pre-IEEE/7. Circular Table.md",
-    "Hachathons/2024 Pre-IEEE/8. Board Game Scheduling.md",
-    "Hachathons/2024 Pre-IEEE/5. Fortress Walls.md",
-    "Hachathons/2024 Pre-IEEE/4. Holiday Struggle.md",
-    "Hachathons/2024 Pre-IEEE/3. Numbers in a Matrix.md",
-    "Hachathons/2024 Pre-IEEE/2. Radio Spying.md",
-    "Hachathons/2024 Pre-IEEE/1. XOR Game.md",
     "Images/Pasted image 20240921182225.png",
-    "SEM-3/MA3014-Applied Statistics/Study Notes/01. Discrete Distributions.md",
     "Hachathons/2024 Pre-IEEE",
     "Hachathons",
     "SEM-3/MA3014-Applied Statistics/Source Material/Week 2 Week 3.pdf",
