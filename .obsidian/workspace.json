@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM-3/MA2014-Differential Equations/Study Notes/Fourier Series.md",
+                "file": "SEM-3/MA2014-Differential Equations/Study Notes/Laplace Transformations.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -105,7 +105,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM-3/MA2014-Differential Equations/Study Notes/Fourier Series.md"
+                "file": "SEM-3/MA2014-Differential Equations/Study Notes/Laplace Transformations.md"
               }
             }
           },
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM-3/MA2014-Differential Equations/Study Notes/Fourier Series.md",
+                "file": "SEM-3/MA2014-Differential Equations/Study Notes/Laplace Transformations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,17 +161,17 @@
   },
   "active": "18c178d4a74b677d",
   "lastOpenFiles": [
+    "SEM-3/MA2014-Differential Equations/Study Notes/Partial Differential Equations.md",
+    "SEM-3/MA2014-Differential Equations/Study Notes/Laplace Transformations.md",
+    "SEM-3/MA2014-Differential Equations/Study Notes/Fourier Series.md",
+    "SEM-3/MA2014-Differential Equations/Source Material/MA2014 Chapter 2 (extended).pdf",
+    "SEM-3/MA2014-Differential Equations/Source Material/MA2014 Chapter 3 (updated).pdf",
     "SEM-3/CS2053-Computer Architecture/Lab & CA/CS2053 - Take Home Assignment 01.md",
     "SEM-3/CS2053-Computer Architecture/Study Notes/RISC-V ISA.md",
     "SEM-3/CS2053-Computer Architecture/Source Material",
     "SEM-3/CS2053-Computer Architecture/Test Questions",
-    "SEM-3/MA2014-Differential Equations/Study Notes/Fourier Series.md",
     "SEM-3/CS2053-Computer Architecture/Study Notes",
-    "SEM-3/MA2014-Differential Equations/Study Notes/Laplace Transformations.md",
-    "SEM-3/MA2014-Differential Equations/Study Notes/Partial Differential Equations.md",
-    "SEM-3/MA2014-Differential Equations/Source Material/MA2014 Chapter 3 (updated).pdf",
     "SEM-3/MA2014-Differential Equations/Source Material/MA2014 Chapter 4 (updated).pdf",
-    "SEM-3/MA2014-Differential Equations/Source Material/MA2014 Chapter 2 (extended).pdf",
     "SEM-3/MA2014-Differential Equations/Source Material/MA2014 Chapter 1 ( Laplace).pdf",
     "SEM-3/MA2014-Differential Equations/Source Material/MA2014 Chapter 3 (updated)_240901_151249.pdf",
     "SEM-3/MA2014-Differential Equations/Source Material/MA2014 Chapter 4 (updated)_240901_151253.pdf",
@@ -196,7 +196,6 @@
     "SEM-3/MA3014-Applied Statistics/Test Questions/Estimations, t-Distribution Questions.md",
     "SEM-3/MA3014-Applied Statistics/Test Questions/MA3014 Test Questions 01.md",
     "SEM-3/MA3014-Applied Statistics/Test Questions/Sampling Distribution Questions.md",
-    "SEM-3/MA3014-Applied Statistics/Test Questions/Standard Normal Distribution Questions.md",
     "Images/Pasted image 20240921182225.png",
     "Images/Pasted image 20240917184851.png",
     "Images/Pasted image 20240915003303.png",

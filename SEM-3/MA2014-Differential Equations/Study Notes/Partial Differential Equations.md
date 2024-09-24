@@ -2,13 +2,15 @@
 tags:
   - math
   - PartialDifferentialEquations
+  - DIfferentialEquations
 Reviewed: 
 Created: 2024-09-24T14:30:00
 About:
 ---
 Related : #PartialDifferentialEquations 
-Reference Notes :
-Reference Video :
+
+Reference Notes : [Chapter 3](file:///E:%5CAcademics%5CSEM%203%5CMA2014-Differential%20Equations%5CLecture%20Note%5CChapters%5CMA2014%20Chapter%203%20(updated).pdf)
+Reference Video : 
 
 ---
 # Content
