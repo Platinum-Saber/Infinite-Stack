@@ -6,6 +6,7 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "FiFile",
       "FarFilePdf",
       "LiQuestionMarkGlyph",
       "FiBookOpen",
@@ -14,8 +15,7 @@
       "SiLinuxprofessionalinstitute",
       "LiFileQuestion",
       "SiX",
-      "LiFileCode2",
-      "SiIeee"
+      "LiFileCode2"
     ],
     "recentlyUsedIconsSize": 10,
     "rules": [],
@@ -502,9 +502,14 @@
     "iconName": "FarLightbulb",
     "iconColor": "#5db6b5"
   },
-  "SEM-3/MA2014-Differential Equations/Study Notes/Fourier Series.md": "FiFile",
-  "SEM-3/MA2014-Differential Equations/Study Notes/Laplace Transformations.md": "FiFile",
-  "SEM-3/MA2014-Differential Equations/Study Notes/Partial Differential Equations.md": "FiFile",
+  "SEM-3/MA2014-Differential Equations/Study Notes/Fourier Series.md": {
+    "iconName": "FiFile",
+    "iconColor": "#ffbb5c"
+  },
+  "SEM-3/MA2014-Differential Equations/Study Notes/Partial Differential Equations.md": {
+    "iconName": "FiFile",
+    "iconColor": "#ffbb5c"
+  },
   "SEM-3/MA2014-Differential Equations/Source Material/MA2014 Chapter 1 ( Laplace).pdf": {
     "iconName": "FarFilePdf",
     "iconColor": "#feb44d"
@@ -520,5 +525,9 @@
   "SEM-3/MA2014-Differential Equations/Source Material/MA2014 Chapter 3 (updated).pdf": {
     "iconName": "FarFilePdf",
     "iconColor": "#ffb042"
+  },
+  "SEM-3/MA2014-Differential Equations/Study Notes/Laplace Transformations.md": {
+    "iconName": "FiFile",
+    "iconColor": "#ffbb5c"
   }
 }

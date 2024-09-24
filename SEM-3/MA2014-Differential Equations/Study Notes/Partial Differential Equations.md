@@ -35,11 +35,13 @@ Reference Video :
 
 A partial differential equation (PDE) is a differential equation that involves partial derivatives of one or more dependent variables with respect to one or more independent variables.
 
-General form of a PDE:
+> [!tip] General form of a PDE:
+> 
+> $f(x, y, u, u_x, u_y, u_{xx}, u_{xy}, u_{yy}, ...) = 0$
+> 
+> where $u = u(x, y)$ is the solution.
 
-$f(x, y, u, u_x, u_y, u_{xx}, u_{xy}, u_{yy}, ...) = 0$
-
-where $u = u(x, y)$ is the solution.
+<br>
 
 ## 2. Classification of PDEs
 
@@ -70,6 +72,8 @@ The classification is based on the discriminant $B^2 - 4AC$:
 2. **Hyperbolic**: If $B^2 - 4AC > 0$
 3. **Parabolic**: If $B^2 - 4AC = 0$
 
+<br>
+
 ## 3. Techniques for Solving PDEs
 
 ### 3.1 Direct Integration
@@ -80,50 +84,52 @@ Simple PDEs can be solved by direct partial integration.
 
 This method assumes a solution of the form $u(x, y) = X(x)Y(y)$ and transforms the PDE into two ordinary differential equations (ODEs).
 
-#### Steps:
-1. Assume $u(x, y) = X(x)Y(y)$
-2. Substitute into the PDE
-3. Separate variables
-4. Solve resulting ODEs
-5. Apply boundary conditions
+> [!info] Steps:
+> 1. Assume $u(x, y) = X(x)Y(y)$
+> 2. Substitute into the PDE
+> 3. Separate variables
+> 4. Solve resulting ODEs
+> 5. Apply boundary conditions
+
+<br>
 
 ## 4. Important PDEs and Their Solutions
 
 ### 4.1 Laplace Equation
 
-$\frac{\partial^2 u}{\partial x^2} + \frac{\partial^2 u}{\partial y^2} = 0$
+ $$\frac{\partial^2 u}{\partial x^2} + \frac{\partial^2 u}{\partial y^2} = 0$$
 
-#### Solution in Rectangular Coordinates:
+> [!equation] Solution in Rectangular Coordinates:
+> 
+> $u(x, y) = \sum_{n=1}^{\infty} A_n \sin(\frac{n\pi x}{a}) \sinh(\frac{n\pi y}{a})$
+> 
+> where $A_n$ are constants determined by boundary conditions.
 
-$u(x, y) = \sum_{n=1}^{\infty} A_n \sin(\frac{n\pi x}{a}) \sinh(\frac{n\pi y}{a})$
-
-where $A_n$ are constants determined by boundary conditions.
-
-#### Solution in Polar Coordinates:
-
-$T(r, \theta) = \sum_{n=1}^{\infty} A_n r^n \sin(n\theta)$
+> [!equation] Solution in Polar Coordinates:
+> 
+> $T(r, \theta) = \sum_{n=1}^{\infty} A_n r^n \sin(n\theta)$
 
 ### 4.2 Heat Equation (One-dimensional)
 
-$\frac{\partial^2 u}{\partial x^2} = \frac{1}{k}\frac{\partial u}{\partial t}$
+$$\frac{\partial^2 u}{\partial x^2} = \frac{1}{k}\frac{\partial u}{\partial t}$$
 
-#### Solution:
-
-$u(x, t) = \sum_{r=1}^{\infty} B_r \sin(\frac{r\pi x}{l}) e^{-\frac{r^2 \pi^2 kt}{l^2}}$
-
-where $B_r = \frac{2}{l} \int_0^l f(x) \sin(\frac{r\pi x}{l}) dx$
+> [!equation] Solution:
+> 
+> $u(x, t) = \sum_{r=1}^{\infty} B_r \sin(\frac{r\pi x}{l}) e^{-\frac{r^2 \pi^2 kt}{l^2}}$
+> 
+> where $B_r = \frac{2}{l} \int_0^l f(x) \sin(\frac{r\pi x}{l}) dx$
 
 ### 4.3 Wave Equation (One-dimensional)
 
-$\frac{\partial^2 y}{\partial t^2} = c^2 \frac{\partial^2 y}{\partial x^2}$
+$$\frac{\partial^2 y}{\partial t^2} = c^2 \frac{\partial^2 y}{\partial x^2}$$
 
-#### Solution:
+> [!equation] Solution:
+> 
+> $y(x, t) = \sum_{n=1}^{\infty} A_n \sin(\frac{n\pi x}{L}) \cos(\frac{n\pi ct}{L})$
+> 
+> where $A_n = \frac{2}{L} \int_0^L f(x) \sin(\frac{n\pi x}{L}) dx$
 
-$y(x, t) = \sum_{n=1}^{\infty} A_n \sin(\frac{n\pi x}{L}) \cos(\frac{n\pi ct}{L})$
-
-where $A_n = \frac{2}{L} \int_0^L f(x) \sin(\frac{n\pi x}{L}) dx$
-
-<br
+<br>
 
 ## 5. Example Problems
 

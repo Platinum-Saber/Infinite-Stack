@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM-3/MA2014-Differential Equations/Study Notes/Partial Differential Equations.md",
+                "file": "SEM-3/MA2014-Differential Equations/Study Notes/Laplace Transformations.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -105,7 +105,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM-3/MA2014-Differential Equations/Study Notes/Partial Differential Equations.md"
+                "file": "SEM-3/MA2014-Differential Equations/Study Notes/Laplace Transformations.md"
               }
             }
           },
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM-3/MA2014-Differential Equations/Study Notes/Partial Differential Equations.md",
+                "file": "SEM-3/MA2014-Differential Equations/Study Notes/Laplace Transformations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,9 +161,9 @@
   },
   "active": "18c178d4a74b677d",
   "lastOpenFiles": [
+    "SEM-3/MA2014-Differential Equations/Study Notes/Partial Differential Equations.md",
     "SEM-3/MA2014-Differential Equations/Study Notes/Laplace Transformations.md",
     "SEM-3/MA2014-Differential Equations/Study Notes/Fourier Series.md",
-    "SEM-3/MA2014-Differential Equations/Study Notes/Partial Differential Equations.md",
     "SEM-3/MA2014-Differential Equations/Source Material/MA2014 Chapter 3 (updated).pdf",
     "SEM-3/MA2014-Differential Equations/Source Material/MA2014 Chapter 4 (updated).pdf",
     "SEM-3/MA2014-Differential Equations/Source Material/MA2014 Chapter 2 (extended).pdf",

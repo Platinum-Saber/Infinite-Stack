@@ -26,19 +26,19 @@ Online Resources : [Khan Academy - Laplace Transformations](https://www.khanacad
 - [[#Inverse Laplace Transform]]
 
 
-# Laplace Transformations Study Note
+# Laplace Transformations
 
 ## Introduction
 
 The **Laplace Transform** is a powerful integral transform used to convert a function of time, $f(t)$, into a function of a complex variable, $s$, simplifying the analysis of linear time-invariant systems.
 
-The **Laplace Transform** of a function $f(t)$ is defined as:
-
-$$
-\mathcal{L}\{f(t)\} = F(s) = \int_0^{\infty} e^{-st} f(t) \, dt
-$$
-
-where $s$ is a complex variable, $s = \sigma + j\omega$.
+> [!equation] The **Laplace Transform** of a function $f(t)$ is defined as:
+> 
+> $$
+> \mathcal{L}\{f(t)\} = F(s) = \int_0^{\infty} e^{-st} f(t) \, dt
+> $$
+> 
+> where $s$ is a complex variable, $s = \sigma + j\omega$.
 
 <br>
 
@@ -51,22 +51,23 @@ $$
 \mathcal{L}\{af(t) + bg(t)\} = a\mathcal{L}\{f(t)\} + b\mathcal{L}\{g(t)\}
 $$
 
-#### Proof:
-The Laplace transform of a linear combination of two functions $f(t)$ and $g(t)$:
-
-$$
-\mathcal{L}\{af(t) + bg(t)\} = \int_0^{\infty} e^{-st} (af(t) + bg(t)) \, dt
-$$
-
-Using the properties of integrals:
-
-$$
-= a \int_0^{\infty} e^{-st} f(t) \, dt + b \int_0^{\infty} e^{-st} g(t) \, dt
-$$
-
-$$
-= a\mathcal{L}\{f(t)\} + b\mathcal{L}\{g(t)\}
-$$
+> [!math]- Proof:
+> The Laplace transform of a linear combination of two functions $f(t)$ and $g(t)$:
+> 
+> $$
+> \mathcal{L}\{af(t) + bg(t)\} = \int_0^{\infty} e^{-st} (af(t) + bg(t)) \, dt
+> $$
+> 
+> Using the properties of integrals:
+> 
+> $$
+> = a \int_0^{\infty} e^{-st} f(t) \, dt + b \int_0^{\infty} e^{-st} g(t) \, dt
+> $$
+> 
+> $$
+> = a\mathcal{L}\{f(t)\} + b\mathcal{L}\{g(t)\}
+> $$
+> 
 
 ### 2. First Shifting Theorem (Time Shifting)
 If $\mathcal{L}\{f(t)\} = F(s)$, then:
@@ -77,26 +78,27 @@ $$
 
 where $u(t - a)$ is the unit step function.
 
-#### Proof:
-By the definition of the Laplace transform:
-
-$$
-\mathcal{L}\{f(t - a) u(t - a)\} = \int_a^{\infty} e^{-st} f(t - a) \, dt
-$$
-
-Substitute $t' = t - a$ so that $dt = dt'$:
-
-$$
-= \int_0^{\infty} e^{-s(t' + a)} f(t') \, dt'
-$$
-
-$$
-= e^{-as} \int_0^{\infty} e^{-st'} f(t') \, dt'
-$$
-
-$$
-= e^{-as} F(s)
-$$
+> [!math]- Proof:
+> By the definition of the Laplace transform:
+> 
+> $$
+> \mathcal{L}\{f(t - a) u(t - a)\} = \int_a^{\infty} e^{-st} f(t - a) \, dt
+> $$
+> 
+> Substitute $t' = t - a$ so that $dt = dt'$:
+> 
+> $$
+> = \int_0^{\infty} e^{-s(t' + a)} f(t') \, dt'
+> $$
+> 
+> $$
+> = e^{-as} \int_0^{\infty} e^{-st'} f(t') \, dt'
+> $$
+> 
+> $$
+> = e^{-as} F(s)
+> $$
+> 
 
 ### 3. Second Shifting Theorem (Frequency Shifting)
 If $\mathcal{L}\{f(t)\} = F(s)$, then:
@@ -105,20 +107,21 @@ $$
 \mathcal{L}\{e^{at}f(t)\} = F(s - a)
 $$
 
-#### Proof:
-Consider the Laplace transform of $e^{at}f(t)$:
-
-$$
-\mathcal{L}\{e^{at}f(t)\} = \int_0^{\infty} e^{-st} e^{at} f(t) \, dt
-$$
-
-$$
-= \int_0^{\infty} e^{-(s - a)t} f(t) \, dt
-$$
-
-$$
-= F(s - a)
-$$
+> [!math]- Proof:
+> Consider the Laplace transform of $e^{at}f(t)$:
+> 
+> $$
+> \mathcal{L}\{e^{at}f(t)\} = \int_0^{\infty} e^{-st} e^{at} f(t) \, dt
+> $$
+> 
+> $$
+> = \int_0^{\infty} e^{-(s - a)t} f(t) \, dt
+> $$
+> 
+> $$
+> = F(s - a)
+> $$
+> 
 
 ### 4. Differentiation Theorem
 If $\mathcal{L}\{f(t)\} = F(s)$, then:
@@ -127,32 +130,32 @@ $$
 \mathcal{L}\left\{ \frac{d}{dt} f(t) \right\} = sF(s) - f(0)
 $$
 
-#### Proof:
-Start with the Laplace transform definition:
-
-$$
-\mathcal{L}\left\{ \frac{d}{dt} f(t) \right\} = \int_0^{\infty} e^{-st} \frac{d}{dt} f(t) \, dt
-$$
-
-Using integration by parts:
-
-$$
-= \left[ e^{-st} f(t) \right]_0^{\infty} + s \int_0^{\infty} e^{-st} f(t) \, dt
-$$
-
-The first term vanishes because $f(t)$ and $e^{-st}$ tend to zero as $t \to \infty$, so:
-
-$$
-= - f(0) + sF(s)
-$$
-
-Thus:
-
-$$
-\mathcal{L}\left\{ \frac{d}{dt} f(t) \right\} = sF(s) - f(0)
-$$
-
-<br>
+> [!math]- Proof:
+> Start with the Laplace transform definition:
+> 
+> $$
+> \mathcal{L}\left\{ \frac{d}{dt} f(t) \right\} = \int_0^{\infty} e^{-st} \frac{d}{dt} f(t) \, dt
+> $$
+> 
+> Using integration by parts:
+> 
+> $$
+> = \left[ e^{-st} f(t) \right]_0^{\infty} + s \int_0^{\infty} e^{-st} f(t) \, dt
+> $$
+> 
+> The first term vanishes because $f(t)$ and $e^{-st}$ tend to zero as $t \to \infty$, so:
+> 
+> $$
+> = - f(0) + sF(s)
+> $$
+> 
+> Thus:
+> 
+> $$
+> \mathcal{L}\left\{ \frac{d}{dt} f(t) \right\} = sF(s) - f(0)
+> $$
+> 
+> <br>
 
 ## Common Laplace Transforms
 
