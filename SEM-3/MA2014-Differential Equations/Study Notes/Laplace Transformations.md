@@ -1,3 +1,12 @@
+---
+tags:
+  - math
+  - Laplace
+Reviewed: 
+Created: 2024-09-24T14:27:00
+About:
+---
+
 Related : #math #DIfferentialEquations #Laplace
 
 Reference Note : [Chapter 1](file:///E:%5CAcademics%5CSEM%203%5CMA2014-Differential%20Equations%5CLecture%20Note%5CChapters%5CMA2014%20Chapter%201%20(updated).pdf)

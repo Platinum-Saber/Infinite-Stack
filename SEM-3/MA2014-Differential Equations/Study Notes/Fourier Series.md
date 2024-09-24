@@ -1,3 +1,12 @@
+---
+tags:
+  - math
+  - FourierSeries
+Reviewed: 
+Created: 2024-09-24T14:28:00
+About:
+---
+
 Related : #math #DIfferentialEquations #FourierSeries
 
 Reference Note : [Chapter 2](file:///E:%5CAcademics%5CSEM%203%5CMA2014-Differential%20Equations%5CLecture%20Note%5CChapters%5CMA2014%20Chapter%202%20(extended).pdf)
