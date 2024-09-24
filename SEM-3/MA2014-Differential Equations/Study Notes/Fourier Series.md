@@ -50,7 +50,7 @@ Online Resources : [Fourier Series(MIT OCW)](https://ocw.mit.edu/courses/18-03sc
 ### 3. Orthogonality in Fourier Series
 - **Key Concept:** Orthogonality, which means perpendicularity in the context of vectors, extends to functions. If the dot product (or inner product) of two vectors is zero, they are orthogonal.
 
-> [!math]- Orthogonality
+> [!equation]- Orthogonality
 > - For Fourier series, orthogonality refers to the integral of the product of two different basis functions being zero:
 >   $$\int_{-\pi}^{\pi} \cos(mx) \cos(nx) \, dx = 0 \quad \text{for} \, m \neq n$$
 >   Similarly, sine functions are orthogonal to cosine functions:
@@ -61,33 +61,36 @@ Online Resources : [Fourier Series(MIT OCW)](https://ocw.mit.edu/courses/18-03sc
 
 ### 4. Finding the Fourier Coefficients
 - To compute the Fourier coefficients, multiply the function $f(x)$ by a basis function (either cosine or sine), integrate from $-\pi$ to $\pi$, and apply orthogonality to eliminate other terms.
-  - **For cosine coefficients $a_n$**:
-    $$
-    a_n = \frac{1}{\pi} \int_{-\pi}^{\pi} f(x) \cos(nx) \, dx
-    $$
-  - **For sine coefficients $b_n$**:
-    $$
-    b_n = \frac{1}{\pi} \int_{-\pi}^{\pi} f(x) \sin(nx) \, dx
-    $$
-  - **For $a_0$** (the constant term):
-    $$
-    a_0 = \frac{1}{2\pi} \int_{-\pi}^{\pi} f(x) \, dx
-    $$
-    This represents the average value of $f(x)$ over the interval.
+
+> [!math]- Determining Coefficient 
+>   - **For cosine coefficients $a_n$**:
+>     $$
+>     a_n = \frac{1}{\pi} \int_{-\pi}^{\pi} f(x) \cos(nx) \, dx
+>     $$
+>   - **For sine coefficients $b_n$**:
+>     $$
+>     b_n = \frac{1}{\pi} \int_{-\pi}^{\pi} f(x) \sin(nx) \, dx
+>     $$
+>   - **For $a_0$** (the constant term):
+>     $$
+>     a_0 = \frac{1}{2\pi} \int_{-\pi}^{\pi} f(x) \, dx
+>     $$
+>     This represents the average value of $f(x)$ over the interval.
 
 ### 5. Example: Delta Function
 - The delta function $\delta(x)$ is a highly singular function that spikes at $x = 0$ and is zero elsewhere.
 - The delta function is an **even function**, meaning that all the sine coefficients $b_n$ are zero (since sine functions are odd).
-- **Fourier Series for the Delta Function**:
-  - All cosine coefficients $a_n$ for the delta function are constant:
-    $$
-    a_n = \frac{1}{\pi}
-    $$
-  - The series for the delta function between $-\pi$ and $\pi$ is:
-    $$
-    \delta(x) = \frac{1}{2\pi} + \frac{1}{\pi} \left( \cos(x) + \cos(2x) + \cos(3x) + \dots \right)
-    $$
-  - This result shows that the delta function contains all harmonics in equal amounts, without decay.
+
+> [!math]- Fourier Series for the Delta Function:
+>   - All cosine coefficients $a_n$ for the delta function are constant:
+>     $$
+>     a_n = \frac{1}{\pi}
+>     $$
+>   - The series for the delta function between $-\pi$ and $\pi$ is:
+>     $$
+>     \delta(x) = \frac{1}{2\pi} + \frac{1}{\pi} \left( \cos(x) + \cos(2x) + \cos(3x) + \dots \right)
+>     $$
+>   - This result shows that the delta function contains all harmonics in equal amounts, without decay.
 
 
 ## 2. Examples
@@ -163,12 +166,13 @@ This series contains only even harmonics, and the coefficients decay faster (pro
 
 ### 4. Derivatives and Fourier Series
 
-- **Derivative of a Fourier Series**: 
-  If $f(x)$ has a Fourier series $f(x) = \sum c_k e^{ikx}$, then the derivative of $f(x)$ has a Fourier series:
-
-  $$
-  \frac{df}{dx} = \sum ik c_k e^{ikx}
-  $$
+> [!equation] Derivative of a Fourier Series 
+>   If $f(x)$ has a Fourier series $f(x) = \sum c_k e^{ikx}$, then the derivative of $f(x)$ has a Fourier series:
+> 
+>   $$
+>   \frac{df}{dx} = \sum ik c_k e^{ikx}
+>   $$
+> 
 
   The derivative introduces a factor of $ik$, making the coefficients larger (indicating more high-frequency components, which correspond to "noisier" functions).
 

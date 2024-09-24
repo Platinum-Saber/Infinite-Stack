@@ -6,6 +6,7 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "SiRiscv",
       "FiFile",
       "FarFilePdf",
       "LiQuestionMarkGlyph",
@@ -14,8 +15,7 @@
       "SiDocker",
       "SiLinuxprofessionalinstitute",
       "LiFileQuestion",
-      "SiX",
-      "LiFileCode2"
+      "SiX"
     ],
     "recentlyUsedIconsSize": 10,
     "rules": [],
@@ -118,14 +118,6 @@
     "iconName": "SiHubspot",
     "iconColor": "#58b2d0"
   },
-  "SEM-3/CS2053-Computer Architecture/Computer Architecture Introduction.md": {
-    "iconName": "FiFile",
-    "iconColor": "#00eeff"
-  },
-  "SEM-3/CS2053-Computer Architecture/Instruction Set Architecture-RV.md": {
-    "iconName": "FiFile",
-    "iconColor": "#00eeff"
-  },
   "SEM-3/CS2043-Operating Systems/Operating Systems.md": {
     "iconName": "SiHubspot",
     "iconColor": "#7284df"
@@ -158,10 +150,6 @@
     "iconName": "LiFileCode",
     "iconColor": "#73e1f7"
   },
-  "SEM-3/CS2053-Computer Architecture/Memory Hierarchy.md": {
-    "iconName": "FiFile",
-    "iconColor": "#00eeff"
-  },
   "SEM-3/MA2014-Differential Equations/Differential Equations.md": {
     "iconName": "SiHubspot",
     "iconColor": "#e29740"
@@ -178,16 +166,11 @@
     "iconName": "FiFile",
     "iconColor": "#dcf971"
   },
-  "SEM-3/CS2053-Computer Architecture/RISC-V ISA.md": {
-    "iconName": "RiSlashCommands2",
-    "iconColor": "#73e1f7"
-  },
   "SEM-3/CS3043-Database Systems/Group Project/DB Project.md": "SiReact",
   "SEM-3/MA3014-Applied Statistics/Applied Statistics.md": {
     "iconName": "SiHubspot",
     "iconColor": "#a21efa"
   },
-  "SEM-3/CS2053-Computer Architecture/GPT_Memory Hierarchy note.md": "FarNoteSticky",
   "Full Stack Development": {
     "iconName": "FasLaptopCode",
     "iconColor": "#5274ff"
@@ -529,5 +512,35 @@
   "SEM-3/MA2014-Differential Equations/Study Notes/Laplace Transformations.md": {
     "iconName": "FiFile",
     "iconColor": "#ffbb5c"
-  }
+  },
+  "SEM-3/CS2053-Computer Architecture/Study Notes/Computer Architecture Introduction.md": {
+    "iconName": "FiFile",
+    "iconColor": "#00eeff"
+  },
+  "SEM-3/CS2053-Computer Architecture/Study Notes/GPT_Memory Hierarchy note.md": "FarNoteSticky",
+  "SEM-3/CS2053-Computer Architecture/Study Notes/Instruction Set Architecture-RV.md": {
+    "iconName": "FiFile",
+    "iconColor": "#00eeff"
+  },
+  "SEM-3/CS2053-Computer Architecture/Study Notes/Memory Hierarchy.md": {
+    "iconName": "FiFile",
+    "iconColor": "#00eeff"
+  },
+  "SEM-3/CS2053-Computer Architecture/Study Notes/RISC-V ISA.md": {
+    "iconName": "RiSlashCommands2",
+    "iconColor": "#73e1f7"
+  },
+  "SEM-3/CS2053-Computer Architecture/Source Material": {
+    "iconName": "SiBookstack",
+    "iconColor": "#52dcff"
+  },
+  "SEM-3/CS2053-Computer Architecture/Study Notes": {
+    "iconName": "FiBookOpen",
+    "iconColor": "#62dffe"
+  },
+  "SEM-3/CS2053-Computer Architecture/Test Questions": {
+    "iconName": "LiQuestionMarkGlyph",
+    "iconColor": "#5cdeff"
+  },
+  "SEM-3/CS2053-Computer Architecture/Lab & CA": "SiRiscv"
 }
