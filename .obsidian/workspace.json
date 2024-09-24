@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ballerina/Code Guide/Basics of Ballerina.md",
+                "file": "Ballerina/Projects/Untitled.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -105,7 +105,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ballerina/Code Guide/Basics of Ballerina.md"
+                "file": "Ballerina/Projects/Untitled.md"
               }
             }
           },
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ballerina/Code Guide/Basics of Ballerina.md",
+                "file": "Ballerina/Projects/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,6 +161,9 @@
   },
   "active": "18c178d4a74b677d",
   "lastOpenFiles": [
+    "Ballerina/Projects/Project Ideas.md",
+    "Ballerina/Projects/Untitled.md",
+    "Ballerina/Code Guide/Basics of Ballerina.md",
     "Ballerina/Code Guide/Getting Started.md",
     "SEM-3/MA2014-Differential Equations/Differential Equations.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Source Material",
@@ -192,11 +195,8 @@
     "Full Stack Development/Backend Development/Nodejs-SQL-Backend-Setup.md",
     "Hachathons/2024 Pre-IEEE/1. XOR Game.md",
     "Ballerina/Code Guide/Untitled.md",
-    "Ballerina/Code Guide/Basics of Ballerina.md",
-    "Ballerina/Projects/Project Ideas.md",
     "SEM-3/MA3014-Applied Statistics/Test Questions/Estimations, t-Distribution Questions.md",
     "SEM-3/MA3014-Applied Statistics/Test Questions/MA3014 Test Questions 01.md",
-    "SEM-3/MA3014-Applied Statistics/Test Questions/Sampling Distribution Questions.md",
     "Images/Pasted image 20240921182225.png",
     "Images/Pasted image 20240917184851.png",
     "Images/Pasted image 20240915003303.png",
