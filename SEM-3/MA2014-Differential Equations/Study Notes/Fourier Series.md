@@ -6,8 +6,21 @@ Online Resources : [Fourier Series(MIT OCW)](https://ocw.mit.edu/courses/18-03sc
 
 ---
 # Content
+- [[#1. Introduction]]
+	- [[#1. Introduction to Fourier Series]]
+	- [[#2. Complex Form of Fourier Series]]
+	- [[#3. Orthogonality in Fourier Series]]
+	- [[#4. Finding the Fourier Coefficients]]
+	- [[#5. Example Delta Function]]
+- [[#2. Examples]]
+	- [[#1. Odd Functions and Fourier Series]]
+	- [[#2. Even Functions and Fourier Series]]
+	- [[#3. Key Concepts and Observations]]
+	- [[#4. Derivatives and Fourier Series]]
+	- [[#5. Shifts and Fourier Series]]
+	- [[#6. Summary]]
 
-## Introduction
+## 1. Introduction
 
 > [!video]- Intro
 > <iframe width="680" height="385" src="https://www.youtube.com/embed/vA9dfINW4Rg?si=2issH-d6sBcEZxxj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
