@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM-3/MA2014-Differential Equations/Differential Equations.md",
+                "file": "Ballerina/Code Guide/Basics of Ballerina.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -105,7 +105,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM-3/MA2014-Differential Equations/Differential Equations.md"
+                "file": "Ballerina/Code Guide/Basics of Ballerina.md"
               }
             }
           },
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM-3/MA2014-Differential Equations/Differential Equations.md",
+                "file": "Ballerina/Code Guide/Basics of Ballerina.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,8 +159,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "671fcfcc9244e77e",
+  "active": "18c178d4a74b677d",
   "lastOpenFiles": [
+    "Ballerina/Code Guide/Getting Started.md",
+    "SEM-3/MA2014-Differential Equations/Differential Equations.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Source Material",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Test Questions",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes",
@@ -176,7 +178,6 @@
     "SEM-3/CS2053-Computer Architecture/Source Material",
     "SEM-3/CS2053-Computer Architecture/Test Questions",
     "SEM-3/CS2053-Computer Architecture/Study Notes",
-    "SEM-3/MA2014-Differential Equations/Source Material/MA2014 Chapter 4 (updated).pdf",
     "SEM-3/MA2014-Differential Equations/Test Questions/End Exam Prep.md",
     "SEM-3/MA2014-Differential Equations/Mid Exam Prep.md",
     "SEM-3/CS3043-Database Systems/Study Notes/Intermediate SQL.md",
@@ -192,7 +193,6 @@
     "Hachathons/2024 Pre-IEEE/1. XOR Game.md",
     "Ballerina/Code Guide/Untitled.md",
     "Ballerina/Code Guide/Basics of Ballerina.md",
-    "Ballerina/Code Guide/Getting Started.md",
     "Ballerina/Projects/Project Ideas.md",
     "SEM-3/MA3014-Applied Statistics/Test Questions/Estimations, t-Distribution Questions.md",
     "SEM-3/MA3014-Applied Statistics/Test Questions/MA3014 Test Questions 01.md",
