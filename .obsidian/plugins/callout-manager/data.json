@@ -8,7 +8,8 @@
       "equation",
       "table",
       "dbq",
-      "math"
+      "math",
+      "video"
     ],
     "settings": {
       "info": [
@@ -106,6 +107,14 @@
           "changes": {
             "icon": "math-function",
             "color": "173, 93, 253"
+          }
+        }
+      ],
+      "video": [
+        {
+          "changes": {
+            "icon": "lucide-video",
+            "color": "82, 255, 174"
           }
         }
       ]
