@@ -19,8 +19,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "4832b6cae92c219c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SEM-3/CS2953-Communication Skills/Literary Survey.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -105,7 +119,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ballerina/Projects/Untitled.md"
+                "file": "SEM-3/CS2953-Communication Skills/Literary Survey.md"
               }
             }
           },
@@ -115,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ballerina/Projects/Untitled.md",
+                "file": "SEM-3/CS2953-Communication Skills/Literary Survey.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,10 +173,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "18c178d4a74b677d",
+  "active": "4832b6cae92c219c",
   "lastOpenFiles": [
-    "Ballerina/Projects/Project Ideas.md",
     "Ballerina/Projects/Untitled.md",
+    "SEM-3/CS2953-Communication Skills/Literary Survey.md",
+    "SEM-3/CS2953-Communication Skills/Journals",
+    "Ballerina/Projects/Project Ideas.md",
     "Ballerina/Code Guide/Basics of Ballerina.md",
     "Ballerina/Code Guide/Getting Started.md",
     "SEM-3/MA2014-Differential Equations/Differential Equations.md",
@@ -180,7 +196,6 @@
     "SEM-3/CS2053-Computer Architecture/Study Notes/RISC-V ISA.md",
     "SEM-3/CS2053-Computer Architecture/Source Material",
     "SEM-3/CS2053-Computer Architecture/Test Questions",
-    "SEM-3/CS2053-Computer Architecture/Study Notes",
     "SEM-3/MA2014-Differential Equations/Test Questions/End Exam Prep.md",
     "SEM-3/MA2014-Differential Equations/Mid Exam Prep.md",
     "SEM-3/CS3043-Database Systems/Study Notes/Intermediate SQL.md",
@@ -196,7 +211,6 @@
     "Hachathons/2024 Pre-IEEE/1. XOR Game.md",
     "Ballerina/Code Guide/Untitled.md",
     "SEM-3/MA3014-Applied Statistics/Test Questions/Estimations, t-Distribution Questions.md",
-    "SEM-3/MA3014-Applied Statistics/Test Questions/MA3014 Test Questions 01.md",
     "Images/Pasted image 20240921182225.png",
     "Images/Pasted image 20240917184851.png",
     "Images/Pasted image 20240915003303.png",
