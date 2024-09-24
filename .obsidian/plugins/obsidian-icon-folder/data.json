@@ -265,7 +265,7 @@
   },
   "SEM-3/CS3043-Database Systems/Study Notes/Advanced SQL.md": {
     "iconName": "LiFile",
-    "iconColor": "#46fb52"
+    "iconColor": "#6eff6b"
   },
   "Obsidian Tools": {
     "iconName": "SiObsidian",
@@ -279,7 +279,10 @@
     "iconName": "LiFileQuestion",
     "iconColor": "#61ffd0"
   },
-  "SEM-3/CS3043-Database Systems/Study Notes/Relational Algebra.md": "FarNoteSticky",
+  "SEM-3/CS3043-Database Systems/Study Notes/Relational Algebra.md": {
+    "iconName": "FarNoteSticky",
+    "iconColor": "#58fea0"
+  },
   "SEM-3/CS3043-Database Systems/Test Questions/CS3043 Test Questions 04.md": {
     "iconName": "LiFileQuestion",
     "iconColor": "#6ef2ae"
@@ -304,9 +307,18 @@
     "iconName": "LiFileQuestion",
     "iconColor": "#58feb6"
   },
-  "SEM-3/CS3043-Database Systems/Study Notes": "LiBookOpen",
-  "SEM-3/CS3043-Database Systems/Test Questions": "FarCircleQuestion",
-  "SEM-3/CS3043-Database Systems/Group Project": "FasPeopleGroup",
+  "SEM-3/CS3043-Database Systems/Study Notes": {
+    "iconName": "LiBookOpen",
+    "iconColor": "#70ffa7"
+  },
+  "SEM-3/CS3043-Database Systems/Test Questions": {
+    "iconName": "FarCircleQuestion",
+    "iconColor": "#70ffa7"
+  },
+  "SEM-3/CS3043-Database Systems/Group Project": {
+    "iconName": "FasPeopleGroup",
+    "iconColor": "#67fea1"
+  },
   "Singularity": {
     "iconName": "FiLink",
     "iconColor": "#5ddefe"
@@ -372,9 +384,18 @@
     "iconColor": "#ff7300"
   },
   "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Source Material/Property Table.pdf": "FarFilePdf",
-  "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Source Material": "SiBookstack",
-  "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Study Notes": "FiBookOpen",
-  "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Test Questions": "FarCircleQuestion",
+  "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Source Material": {
+    "iconName": "SiBookstack",
+    "iconColor": "#ff5c5c"
+  },
+  "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Study Notes": {
+    "iconName": "FiBookOpen",
+    "iconColor": "#ff5c5c"
+  },
+  "SEM-3/ME1823-Fundamentals of Engineering Thermodynamics and Applications/Test Questions": {
+    "iconName": "FarCircleQuestion",
+    "iconColor": "#ff6666"
+  },
   "SEM-3/MA3014-Applied Statistics/Study Notes/01. Discrete Distributions.md": {
     "iconName": "FiFile",
     "iconColor": "#bf72fd"

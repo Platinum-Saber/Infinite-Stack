@@ -11,8 +11,13 @@
             "id": "18c178d4a74b677d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "SEM-3/CS3043-Database Systems/Study Notes/Relational Algebra.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ]
@@ -99,7 +104,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "SEM-3/CS3043-Database Systems/Study Notes/Relational Algebra.md"
+              }
             }
           },
           {
@@ -108,6 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "SEM-3/CS3043-Database Systems/Study Notes/Relational Algebra.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
