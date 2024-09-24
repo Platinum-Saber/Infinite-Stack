@@ -4,5 +4,4 @@
 3. [[Partial Differential Equations]]
 
 ## Exam
-1. [[Mid Exam Prep]]
-2. [[End Exam Prep]]
+1. [[End Exam Prep]]

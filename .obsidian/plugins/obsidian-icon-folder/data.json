@@ -6,6 +6,7 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "RiSignalTowerFill",
       "SiRiscv",
       "FiFile",
       "FarFilePdf",
@@ -14,8 +15,7 @@
       "SiBookstack",
       "SiDocker",
       "SiLinuxprofessionalinstitute",
-      "LiFileQuestion",
-      "SiX"
+      "LiFileQuestion"
     ],
     "recentlyUsedIconsSize": 10,
     "rules": [],
@@ -86,30 +86,6 @@
     "iconName": "SiHubspot",
     "iconColor": "#bbc760"
   },
-  "SEM-3/CS3613-Introduction to Artificial Intelligence/AI Introduction.md": {
-    "iconName": "FiFile",
-    "iconColor": "#daf96c"
-  },
-  "SEM-3/CS3613-Introduction to Artificial Intelligence/Breadth-first Search.md": {
-    "iconName": "LiFileCode",
-    "iconColor": "#74e4fb"
-  },
-  "SEM-3/CS3613-Introduction to Artificial Intelligence/Depth-first Search.md": {
-    "iconName": "LiFileCode",
-    "iconColor": "#7ce3fd"
-  },
-  "SEM-3/CS3613-Introduction to Artificial Intelligence/Intelligent Agents.md": {
-    "iconName": "FiFile",
-    "iconColor": "#dcfb6a"
-  },
-  "SEM-3/CS3613-Introduction to Artificial Intelligence/Solving Problems by Searching.md": {
-    "iconName": "FiFile",
-    "iconColor": "#dcf877"
-  },
-  "SEM-3/CS3613-Introduction to Artificial Intelligence/Uniform-cost Search.md": {
-    "iconName": "LiFileCode",
-    "iconColor": "#38e8ff"
-  },
   "SEM-3/CS3043-Database Systems/Database systems.md": {
     "iconName": "SiHubspot",
     "iconColor": "#59f366"
@@ -130,26 +106,6 @@
     "iconName": "FasCommentDots",
     "iconColor": "#81f3c7"
   },
-  "SEM-3/CS3613-Introduction to Artificial Intelligence/Local Search And Optimization Problems.md": {
-    "iconName": "FiFile",
-    "iconColor": "#ddfb6f"
-  },
-  "SEM-3/CS3613-Introduction to Artificial Intelligence/Generic Algorithms.md": {
-    "iconName": "LiFileCode",
-    "iconColor": "#6fe4fb"
-  },
-  "SEM-3/CS3613-Introduction to Artificial Intelligence/Local Beam Search.md": {
-    "iconName": "LiFileCode",
-    "iconColor": "#6fe4fb"
-  },
-  "SEM-3/CS3613-Introduction to Artificial Intelligence/Simulated Annealing Algorithm.md": {
-    "iconName": "LiFileCode",
-    "iconColor": "#69ebfc"
-  },
-  "SEM-3/CS3613-Introduction to Artificial Intelligence/Hill Climbing Algorithm.md": {
-    "iconName": "LiFileCode",
-    "iconColor": "#73e1f7"
-  },
   "SEM-3/MA2014-Differential Equations/Differential Equations.md": {
     "iconName": "SiHubspot",
     "iconColor": "#e29740"
@@ -157,14 +113,6 @@
   "Excalidraw": {
     "iconName": "SiExcalidraw",
     "iconColor": "#de6af6"
-  },
-  "SEM-3/CS3613-Introduction to Artificial Intelligence/Constraint Satisfaction Problem.md": {
-    "iconName": "FiFile",
-    "iconColor": "#dcfb6a"
-  },
-  "SEM-3/CS3613-Introduction to Artificial Intelligence/Logical Agents.md": {
-    "iconName": "FiFile",
-    "iconColor": "#dcf971"
   },
   "SEM-3/CS3043-Database Systems/Group Project/DB Project.md": "SiReact",
   "SEM-3/MA3014-Applied Statistics/Applied Statistics.md": {
@@ -542,8 +490,80 @@
     "iconName": "LiQuestionMarkGlyph",
     "iconColor": "#5cdeff"
   },
-  "SEM-3/CS2053-Computer Architecture/Lab & CA": {
+  "SEM-3/CS2033-Data Communication and Networking/Source Material": {
+    "iconName": "SiBookstack",
+    "iconColor": "#594dfe"
+  },
+  "SEM-3/CS2033-Data Communication and Networking/Labs": {
+    "iconName": "RiSignalTowerFill",
+    "iconColor": "#584dff"
+  },
+  "SEM-3/CS2053-Computer Architecture/Labs": {
     "iconName": "SiRiscv",
     "iconColor": "#58ddfe"
+  },
+  "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/AI Introduction.md": {
+    "iconName": "FiFile",
+    "iconColor": "#daf96c"
+  },
+  "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Breadth-first Search.md": {
+    "iconName": "LiFileCode",
+    "iconColor": "#74e4fb"
+  },
+  "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Constraint Satisfaction Problem.md": {
+    "iconName": "FiFile",
+    "iconColor": "#dcfb6a"
+  },
+  "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Depth-first Search.md": {
+    "iconName": "LiFileCode",
+    "iconColor": "#7ce3fd"
+  },
+  "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Generic Algorithms.md": {
+    "iconName": "LiFileCode",
+    "iconColor": "#6fe4fb"
+  },
+  "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Hill Climbing Algorithm.md": {
+    "iconName": "LiFileCode",
+    "iconColor": "#73e1f7"
+  },
+  "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Intelligent Agents.md": {
+    "iconName": "FiFile",
+    "iconColor": "#dcfb6a"
+  },
+  "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Local Beam Search.md": {
+    "iconName": "LiFileCode",
+    "iconColor": "#6fe4fb"
+  },
+  "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Local Search And Optimization Problems.md": {
+    "iconName": "FiFile",
+    "iconColor": "#ddfb6f"
+  },
+  "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Logical Agents.md": {
+    "iconName": "FiFile",
+    "iconColor": "#dcf971"
+  },
+  "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Simulated Annealing Algorithm.md": {
+    "iconName": "LiFileCode",
+    "iconColor": "#69ebfc"
+  },
+  "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Solving Problems by Searching.md": {
+    "iconName": "FiFile",
+    "iconColor": "#dcf877"
+  },
+  "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Uniform-cost Search.md": {
+    "iconName": "LiFileCode",
+    "iconColor": "#38e8ff"
+  },
+  "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes": {
+    "iconName": "FiBookOpen",
+    "iconColor": "#e0fe71"
+  },
+  "SEM-3/CS3613-Introduction to Artificial Intelligence/Source Material": {
+    "iconName": "SiBookstack",
+    "iconColor": "#dffd72"
+  },
+  "SEM-3/CS3613-Introduction to Artificial Intelligence/Test Questions": {
+    "iconName": "LiQuestionMarkGlyph",
+    "iconColor": "#dfff6b"
   }
 }

@@ -251,3 +251,6 @@ $$u_0 = \frac{1}{4}(u_E + u_W + u_N + u_S)$$
 where $u_0$ is the value at a grid point, and $u_E$, $u_W$, $u_N$, $u_S$ are the values at the adjacent east, west, north, and south points respectively.
 
 This discretization leads to a system of linear equations that can be solved to approximate the solution of Laplace's equation.
+
+---
+Up Next : [[Partial Differential Equations]]
