@@ -23,7 +23,14 @@ Online Resources : [Khan Academy - Laplace Transformations](https://www.khanacad
 	- [[#3. Second Shifting Theorem (Frequency Shifting)]]
 	- [[#4. Differentiation Theorem]]
 - [[#Common Laplace Transforms]]
+	- [[#Basic Functions]]
+	- [[#Trigonometric Functions]]
+	- [[#Hyperbolic Functions]]
+	- [[#Inverse Trigonometric Functions]]
+	- [[#Inverse Hyperbolic Functions]]
+	- [[#Special Functions]]
 - [[#Inverse Laplace Transform]]
+- [[#Example Questions with Answers]]
 
 
 # Laplace Transformations
@@ -157,13 +164,55 @@ $$
 > 
 > <br>
 
+<br>
+
 ## Common Laplace Transforms
 
+### Basic Functions
 - $\mathcal{L}\{1\} = \frac{1}{s}, \, s > 0$
 - $\mathcal{L}\{t^n\} = \frac{n!}{s^{n+1}}, \, s > 0$
 - $\mathcal{L}\{e^{at}\} = \frac{1}{s - a}, \, s > a$
+
+### Trigonometric Functions
 - $\mathcal{L}\{\sin(at)\} = \frac{a}{s^2 + a^2}, \, s > 0$
 - $\mathcal{L}\{\cos(at)\} = \frac{s}{s^2 + a^2}, \, s > 0$
+- $\mathcal{L}\{\tan(at)\} = \frac{a}{s^2 - a^2}, \, s > |a|$
+- $\mathcal{L}\{\sec(at)\} = \frac{s}{s^2 - a^2}, \, s > |a|$
+- $\mathcal{L}\{\csc(at)\} = \frac{1}{s} - \frac{s}{s^2 + a^2}, \, s > 0$
+- $\mathcal{L}\{\cot(at)\} = \frac{s}{s^2 + a^2}, \, s > 0$
+
+### Hyperbolic Functions
+- $\mathcal{L}\{\sinh(at)\} = \frac{a}{s^2 - a^2}, \, s > |a|$
+- $\mathcal{L}\{\cosh(at)\} = \frac{s}{s^2 - a^2}, \, s > |a|$
+- $\mathcal{L}\{\tanh(at)\} = \frac{a}{s^2 - a^2} \ln(\frac{s+a}{s-a}), \, s > |a|$
+- $\mathcal{L}\{\text{sech}(at)\} = \frac{\pi}{2a} \text{sech}(\frac{\pi s}{2a}), \, s > 0$
+- $\mathcal{L}\{\text{csch}(at)\} = \frac{1}{a} \ln(\frac{s+a}{s-a}), \, s > |a|$
+- $\mathcal{L}\{\text{coth}(at)\} = \frac{1}{a} \ln(\frac{s+a}{s-a}), \, s > |a|$
+
+### Inverse Trigonometric Functions
+- $\mathcal{L}\{\arcsin(t)\} = \frac{\pi}{2s} - \frac{1}{s^2} \arcsin(\frac{1}{s}), \, s > 1$
+- $\mathcal{L}\{\arccos(t)\} = \frac{1}{s^2} \arccos(\frac{1}{s}), \, s > 1$
+- $\mathcal{L}\{\arctan(t)\} = \frac{1}{s} \arctan(\frac{1}{s}), \, s > 0$
+- $\mathcal{L}\{\text{arcsec}(t)\} = \frac{1}{s} \ln(s + \sqrt{s^2 - 1}), \, s > 1$
+- $\mathcal{L}\{\text{arccsc}(t)\} = \frac{1}{s} \ln(\frac{s + \sqrt{s^2 + 1}}{s}), \, s > 0$
+- $\mathcal{L}\{\text{arccot}(t)\} = \frac{1}{s} \arctan(\frac{1}{s}), \, s > 0$
+
+### Inverse Hyperbolic Functions
+- $\mathcal{L}\{\text{arcsinh}(t)\} = \frac{1}{s^2} \text{arcsinh}(s), \, s > 0$
+- $\mathcal{L}\{\text{arccosh}(t)\} = \frac{1}{s^2} \text{arccosh}(s), \, s > 1$
+- $\mathcal{L}\{\text{arctanh}(t)\} = \frac{1}{s} \ln(\frac{s+1}{s-1}), \, s > 1$
+- $\mathcal{L}\{\text{arcsech}(t)\} = \frac{1}{s} \ln(\frac{s + \sqrt{s^2 + 1}}{s}), \, s > 0$
+- $\mathcal{L}\{\text{arccsch}(t)\} = \frac{1}{s} \ln(\frac{s + \sqrt{s^2 + 1}}{s}), \, s > 0$
+- $\mathcal{L}\{\text{arccoth}(t)\} = \frac{1}{s} \ln(\frac{s+1}{s-1}), \, s > 1$
+
+### Special Functions
+- $\mathcal{L}\{t^n e^{at}\} = \frac{n!}{(s-a)^{n+1}}, \, s > a$
+- $\mathcal{L}\{e^{at} \sin(bt)\} = \frac{b}{(s-a)^2 + b^2}, \, s > a$
+- $\mathcal{L}\{e^{at} \cos(bt)\} = \frac{s-a}{(s-a)^2 + b^2}, \, s > a$
+- $\mathcal{L}\{t \sin(at)\} = \frac{2as}{(s^2 + a^2)^2}, \, s > 0$
+- $\mathcal{L}\{t \cos(at)\} = \frac{s^2 - a^2}{(s^2 + a^2)^2}, \, s > 0$
+
+Remember that these transforms are valid under the specified conditions for $s$. In some cases, additional conditions may apply for the existence of the Laplace transform.
 
 <br>
 
@@ -175,17 +224,17 @@ $$
 \mathcal{L}^{-1}\{F(s)\} = f(t)
 $$
 
-### Example:
-
-Given $F(s) = \frac{1}{s^2 + 1}$, find $f(t)$.
-
-Using the known inverse Laplace transform of $\sin(at)$:
-
-$$
-\mathcal{L}^{-1}\left\{ \frac{1}{s^2 + 1} \right\} = \sin(t)
-$$
-
-Thus, $f(t) = \sin(t)$.
+> [!equation]- Example:
+> 
+> Given $F(s) = \frac{1}{s^2 + 1}$, find $f(t)$.
+> 
+> Using the known inverse Laplace transform of $\sin(at)$:
+> 
+> $$
+> \mathcal{L}^{-1}\left\{ \frac{1}{s^2 + 1} \right\} = \sin(t)
+> $$
+> 
+> Thus, $f(t) = \sin(t)$.
 
 ## Example Questions with Answers
 

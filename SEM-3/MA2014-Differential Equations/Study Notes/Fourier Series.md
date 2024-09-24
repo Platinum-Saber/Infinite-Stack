@@ -37,9 +37,10 @@ Online Resources : [Fourier Series(MIT OCW)](https://ocw.mit.edu/courses/18-03sc
 ### 1. Introduction to Fourier Series
 - The goal of Fourier series is to express a function as a sum of cosine and sine terms, which are called basis functions.
 - Each term in the Fourier series is multiplied by coefficients, $a_n$ for cosines and $b_n$ for sines, which determine how much of each sine or cosine contributes to the overall function.
-- The Fourier series of a function $f(x)$ is expressed as:
-  $$f(x) = \frac{a_0}{2} + \sum_{n=1}^{\infty} \left( a_n \cos(nx) + b_n \sin(nx) \right)$$
-- There is no $b_0$ term because $\sin(0) = 0$, making it irrelevant for $n = 0$.
+
+> [!equation]- The Fourier series of a function $f(x)$ is expressed as:
+>   $$f(x) = \frac{a_0}{2} + \sum_{n=1}^{\infty} \left( a_n \cos(nx) + b_n \sin(nx) \right)$$
+> - There is no $b_0$ term because $\sin(0) = 0$, making it irrelevant for $n = 0$.
 
 ### 2. Complex Form of Fourier Series
 - The more elegant form involves complex exponentials, using $e^{inx}$, with coefficients $c_n$.
@@ -48,13 +49,15 @@ Online Resources : [Fourier Series(MIT OCW)](https://ocw.mit.edu/courses/18-03sc
 
 ### 3. Orthogonality in Fourier Series
 - **Key Concept:** Orthogonality, which means perpendicularity in the context of vectors, extends to functions. If the dot product (or inner product) of two vectors is zero, they are orthogonal.
-- For Fourier series, orthogonality refers to the integral of the product of two different basis functions being zero:
-  $$\int_{-\pi}^{\pi} \cos(mx) \cos(nx) \, dx = 0 \quad \text{for} \, m \neq n$$
-  Similarly, sine functions are orthogonal to cosine functions:
-  $$
-  \int_{-\pi}^{\pi} \sin(mx) \cos(nx) \, dx = 0
-   $$
-- This orthogonality property allows us to isolate individual coefficients from the series.
+
+> [!math]- Orthogonality
+> - For Fourier series, orthogonality refers to the integral of the product of two different basis functions being zero:
+>   $$\int_{-\pi}^{\pi} \cos(mx) \cos(nx) \, dx = 0 \quad \text{for} \, m \neq n$$
+>   Similarly, sine functions are orthogonal to cosine functions:
+>   $$
+>   \int_{-\pi}^{\pi} \sin(mx) \cos(nx) \, dx = 0
+>    $$
+>- This orthogonality property allows us to isolate individual coefficients from the series.
 
 ### 4. Finding the Fourier Coefficients
 - To compute the Fourier coefficients, multiply the function $f(x)$ by a basis function (either cosine or sine), integrate from $-\pi$ to $\pi$, and apply orthogonality to eliminate other terms.
