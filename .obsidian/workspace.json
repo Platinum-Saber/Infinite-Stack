@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM-3/CS2053-Computer Architecture/Study Notes/RISC-V ISA.md",
+                "file": "SEM-3/MA2014-Differential Equations/Study Notes/Fourier Series.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -105,7 +105,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM-3/CS2053-Computer Architecture/Study Notes/RISC-V ISA.md"
+                "file": "SEM-3/MA2014-Differential Equations/Study Notes/Fourier Series.md"
               }
             }
           },
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM-3/CS2053-Computer Architecture/Study Notes/RISC-V ISA.md",
+                "file": "SEM-3/MA2014-Differential Equations/Study Notes/Fourier Series.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,8 +159,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "671fcfcc9244e77e",
+  "active": "18c178d4a74b677d",
   "lastOpenFiles": [
+    "SEM-3/CS2053-Computer Architecture/Lab & CA/CS2053 - Take Home Assignment 01.md",
+    "SEM-3/CS2053-Computer Architecture/Study Notes/RISC-V ISA.md",
     "SEM-3/CS2053-Computer Architecture/Source Material",
     "SEM-3/CS2053-Computer Architecture/Test Questions",
     "SEM-3/MA2014-Differential Equations/Study Notes/Fourier Series.md",
@@ -174,7 +176,6 @@
     "SEM-3/MA2014-Differential Equations/Source Material/MA2014 Chapter 3 (updated)_240901_151249.pdf",
     "SEM-3/MA2014-Differential Equations/Source Material/MA2014 Chapter 4 (updated)_240901_151253.pdf",
     "SEM-3/MA2014-Differential Equations/Source Material/MA2014 Chapter 2 (extended)_240901_151243.pdf",
-    "SEM-3/MA2014-Differential Equations/Source Material/MA2014 Chapter 1 ( Laplace)_240903_225718.pdf",
     "SEM-3/MA2014-Differential Equations/Test Questions/End Exam Prep.md",
     "SEM-3/MA2014-Differential Equations/Mid Exam Prep.md",
     "SEM-3/CS3043-Database Systems/Study Notes/Intermediate SQL.md",
@@ -196,7 +197,6 @@
     "SEM-3/MA3014-Applied Statistics/Test Questions/MA3014 Test Questions 01.md",
     "SEM-3/MA3014-Applied Statistics/Test Questions/Sampling Distribution Questions.md",
     "SEM-3/MA3014-Applied Statistics/Test Questions/Standard Normal Distribution Questions.md",
-    "SEM-3/CS3043-Database Systems/Study Notes/Relational Database Design.md",
     "Images/Pasted image 20240921182225.png",
     "Images/Pasted image 20240917184851.png",
     "Images/Pasted image 20240915003303.png",

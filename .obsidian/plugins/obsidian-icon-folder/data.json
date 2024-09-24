@@ -542,5 +542,8 @@
     "iconName": "LiQuestionMarkGlyph",
     "iconColor": "#5cdeff"
   },
-  "SEM-3/CS2053-Computer Architecture/Lab & CA": "SiRiscv"
+  "SEM-3/CS2053-Computer Architecture/Lab & CA": {
+    "iconName": "SiRiscv",
+    "iconColor": "#58ddfe"
+  }
 }

@@ -21,7 +21,7 @@ Online Resources : [Fourier Series(MIT OCW)](https://ocw.mit.edu/courses/18-03sc
 	- [[#3. Orthogonality in Fourier Series]]
 	- [[#4. Finding the Fourier Coefficients]]
 	- [[#5. Example Delta Function]]
-- [[#2. Examples]]
+- [[#2. Solving Questions Using Fourier Series]]
 	- [[#1. Odd Functions and Fourier Series]]
 	- [[#2. Even Functions and Fourier Series]]
 	- [[#3. Key Concepts and Observations]]
@@ -93,7 +93,7 @@ Online Resources : [Fourier Series(MIT OCW)](https://ocw.mit.edu/courses/18-03sc
 >   - This result shows that the delta function contains all harmonics in equal amounts, without decay.
 
 
-## 2. Examples
+## 2. Solving Questions Using Fourier Series
 
 > [!video]- Example Questions
 > <iframe width="680" height="385" src="https://www.youtube.com/embed/lL0oUZGMhXc?si=oMnike7bpEJKQntB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -197,4 +197,57 @@ This series contains only even harmonics, and the coefficients decay faster (pro
 - The **smoothness** of the function directly affects how fast the Fourier coefficients decay.
 - **Derivatives** and **shifts** in the function have simple rules in the Fourier domain, making Fourier series particularly useful for solving differential equations and other mathematical problems.
 
----
+<br>
+
+## 3. Solving Laplace's Equation using Fourier Series
+
+> [!video]- Solving Laplace's Eq. using Fourier
+> <iframe width="680" height="385" src="https://www.youtube.com/embed/WWphCZkdByA?si=dGjrMfmcbcVeABI4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+### Laplace's Equation
+Laplace's equation in Cartesian coordinates:
+
+$$\frac{\partial^2 u}{\partial x^2} + \frac{\partial^2 u}{\partial y^2} = 0$$
+
+This equation describes how temperature distributes itself in equilibrium.
+
+### Problem Setup
+- Domain: Inside a circle
+- Boundary condition: Point source (delta function) at one point, temperature 0 elsewhere
+- Goal: Solve Laplace's equation inside the circle
+
+### Solution Approach
+1. Use polar coordinates (r, θ) due to circular domain
+2. General solution form:
+   $$u(r,\theta) = \sum_{n=0}^{\infty} (a_n r^n \cos(n\theta) + b_n r^n \sin(n\theta))$$
+
+3. Apply boundary condition at r = 1:
+   $$u(1,\theta) = \sum_{n=0}^{\infty} (a_n \cos(n\theta) + b_n \sin(n\theta)) = \delta(\theta)$$
+
+4. Find coefficients using Fourier series properties:
+   - $a_0 = \frac{1}{2\pi}$ (average temperature)
+   - $a_n = \frac{1}{\pi}$ for n ≥ 1
+   - $b_n = 0$ (delta function is even)
+
+5. Final solution:
+   $$u(r,\theta) = \frac{1}{2\pi} + \frac{1}{\pi} \sum_{n=1}^{\infty} r^n \cos(n\theta)$$
+
+### Closed-form Solution
+The series can be summed to obtain a closed-form solution:
+
+$$u(r,\theta) = \frac{1}{2\pi} \frac{1-r^2}{1+r^2-2r\cos\theta}$$
+
+### Solution Properties
+1. On the boundary (r = 1, θ = 0): Solution approaches infinity
+2. At the center (r = 0): Temperature is 1/(2π), the average boundary value
+3. Temperature smooths out towards the center
+4. Solution always stays between the maximum and minimum boundary values
+
+### Numerical Approximation
+For complex domains, Laplace's equation is often solved numerically using the five-point scheme:
+
+$$u_0 = \frac{1}{4}(u_E + u_W + u_N + u_S)$$
+
+where $u_0$ is the value at a grid point, and $u_E$, $u_W$, $u_N$, $u_S$ are the values at the adjacent east, west, north, and south points respectively.
+
+This discretization leads to a system of linear equations that can be solved to approximate the solution of Laplace's equation.
