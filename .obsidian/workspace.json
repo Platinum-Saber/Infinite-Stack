@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hachathons/2024 Pre-IEEE/3. Numbers in a Matrix.md",
+                "file": "Full Stack Development/Backend Development/Setting Up .ENV.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -119,7 +119,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hachathons/2024 Pre-IEEE/3. Numbers in a Matrix.md"
+                "file": "Full Stack Development/Backend Development/Setting Up .ENV.md"
               }
             }
           },
@@ -129,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Hachathons/2024 Pre-IEEE/3. Numbers in a Matrix.md",
+                "file": "Full Stack Development/Backend Development/Setting Up .ENV.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -173,13 +173,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "671fcfcc9244e77e",
+  "active": "4832b6cae92c219c",
   "lastOpenFiles": [
+    "Ballerina/Projects/Untitled.md",
     "Git",
     "Hachathons/2024 Pre-IEEE/2. Radio Spying.md",
     "Hachathons/2024 Pre-IEEE/1. XOR Game.md",
     "SEM-3/CS2953-Communication Skills/Literary Survey.md",
-    "Ballerina/Projects/Untitled.md",
     "SEM-3/CS2953-Communication Skills/Journals",
     "Ballerina/Projects/Project Ideas.md",
     "Ballerina/Code Guide/Basics of Ballerina.md",
@@ -198,7 +198,6 @@
     "SEM-3/CS2053-Computer Architecture/Labs/CS2053 - Take Home Assignment 01.md",
     "SEM-3/CS2053-Computer Architecture/Study Notes/RISC-V ISA.md",
     "SEM-3/CS2053-Computer Architecture/Source Material",
-    "SEM-3/CS2053-Computer Architecture/Test Questions",
     "SEM-3/MA2014-Differential Equations/Test Questions/End Exam Prep.md",
     "SEM-3/MA2014-Differential Equations/Mid Exam Prep.md",
     "SEM-3/CS3043-Database Systems/Study Notes/Intermediate SQL.md",
