@@ -6,6 +6,7 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "SiGithub",
       "RiSignalTowerFill",
       "SiRiscv",
       "FiFile",
@@ -14,8 +15,7 @@
       "FiBookOpen",
       "SiBookstack",
       "SiDocker",
-      "SiLinuxprofessionalinstitute",
-      "LiFileQuestion"
+      "SiLinuxprofessionalinstitute"
     ],
     "recentlyUsedIconsSize": 10,
     "rules": [],
@@ -352,14 +352,38 @@
     "iconName": "SiIeee",
     "iconColor": "#5cffec"
   },
-  "Hachathons/2024 Pre-IEEE/1. XOR Game.md": "LiFileCode2",
-  "Hachathons/2024 Pre-IEEE/2. Radio Spying.md": "LiFileCode2",
-  "Hachathons/2024 Pre-IEEE/6. Pizza Cutter.md": "LiFileCode2",
-  "Hachathons/2024 Pre-IEEE/4. Holiday Struggle.md": "LiFileCode2",
-  "Hachathons/2024 Pre-IEEE/3. Numbers in a Matrix.md": "LiFileCode2",
-  "Hachathons/2024 Pre-IEEE/5. Fortress Walls.md": "LiFileCode2",
-  "Hachathons/2024 Pre-IEEE/7. Circular Table.md": "LiFileCode2",
-  "Hachathons/2024 Pre-IEEE/8. Board Game Scheduling.md": "LiFileCode2",
+  "Hachathons/2024 Pre-IEEE/1. XOR Game.md": {
+    "iconName": "LiFileCode2",
+    "iconColor": "#5cffec"
+  },
+  "Hachathons/2024 Pre-IEEE/2. Radio Spying.md": {
+    "iconName": "LiFileCode2",
+    "iconColor": "#5cffec"
+  },
+  "Hachathons/2024 Pre-IEEE/6. Pizza Cutter.md": {
+    "iconName": "LiFileCode2",
+    "iconColor": "#5cffec"
+  },
+  "Hachathons/2024 Pre-IEEE/4. Holiday Struggle.md": {
+    "iconName": "LiFileCode2",
+    "iconColor": "#5cffec"
+  },
+  "Hachathons/2024 Pre-IEEE/3. Numbers in a Matrix.md": {
+    "iconName": "LiFileCode2",
+    "iconColor": "#5cffec"
+  },
+  "Hachathons/2024 Pre-IEEE/5. Fortress Walls.md": {
+    "iconName": "LiFileCode2",
+    "iconColor": "#5cffec"
+  },
+  "Hachathons/2024 Pre-IEEE/7. Circular Table.md": {
+    "iconName": "LiFileCode2",
+    "iconColor": "#5cffec"
+  },
+  "Hachathons/2024 Pre-IEEE/8. Board Game Scheduling.md": {
+    "iconName": "LiFileCode2",
+    "iconColor": "#5cffec"
+  },
   "Hachathons/2024 Japura_Xtreame": {
     "iconName": "SiX",
     "iconColor": "#fea858"
@@ -565,5 +589,9 @@
   "SEM-3/CS3613-Introduction to Artificial Intelligence/Test Questions": {
     "iconName": "LiQuestionMarkGlyph",
     "iconColor": "#dfff6b"
+  },
+  "Git": {
+    "iconName": "SiGithub",
+    "iconColor": "#8838ff"
   }
 }
