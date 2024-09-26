@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Full Stack Development/Backend Development/Setting Up .ENV.md",
+                "file": "Git/Sebastian.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -119,7 +119,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Full Stack Development/Backend Development/Setting Up .ENV.md"
+                "file": "Git/Sebastian.md"
               }
             }
           },
@@ -129,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Full Stack Development/Backend Development/Setting Up .ENV.md",
+                "file": "Git/Sebastian.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,6 +175,8 @@
   },
   "active": "4832b6cae92c219c",
   "lastOpenFiles": [
+    "Full Stack Development/Backend Development/Setting Up .ENV.md",
+    "Git/Sebastian.md",
     "Ballerina/Projects/Untitled.md",
     "Git",
     "Hachathons/2024 Pre-IEEE/2. Radio Spying.md",
@@ -207,7 +209,6 @@
     "Full Stack Development/Backend Development/Backend Development.md",
     "Full Stack Development/Backend Development/Setting Up Password Hashing for Signups.md",
     "Full Stack Development/Backend Development/Setting Up Nodemon.md",
-    "Full Stack Development/Backend Development/Setting Up .ENV.md",
     "Full Stack Development/Backend Development/nodejs-sql-resources.md",
     "Full Stack Development/Backend Development/Nodejs-SQL-Backend-Setup.md",
     "Images/Pasted image 20240921182225.png",
