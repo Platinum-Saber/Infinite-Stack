@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Logical Agents.md",
+                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Test Questions/Untitled.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -105,7 +105,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Logical Agents.md"
+                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Test Questions/Untitled.md"
               }
             }
           },
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Logical Agents.md",
+                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Test Questions/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,7 +161,13 @@
   },
   "active": "18c178d4a74b677d",
   "lastOpenFiles": [
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Logical Agents.md",
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/Test Questions/Untitled.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Artificial Intelligence.md",
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Depth-first Search.md",
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Breadth-first Search.md",
+    "SEM-3/MA3014-Applied Statistics/Test Questions/MA3014 Test Questions 01.md",
+    "SEM-3/MA3014-Applied Statistics/Test Questions/Estimations, t-Distribution Questions.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/AI Introduction.md",
     "Obsidian Tools/Callout List.md",
     "Obsidian Tools/Git Profile Draft.md",
@@ -199,12 +205,6 @@
     "SEM-3/CS2033-Data Communication and Networking/Source Material",
     "SEM-3/MA2014-Differential Equations/Study Notes/Partial Differential Equations.md",
     "SEM-3/MA2014-Differential Equations/Study Notes/Fourier Series.md",
-    "SEM-3/MA2014-Differential Equations/Study Notes/Laplace Transformations.md",
-    "SEM-3/CS2053-Computer Architecture/Labs/CS2053 - Take Home Assignment 01.md",
-    "SEM-3/CS2053-Computer Architecture/Study Notes/RISC-V ISA.md",
-    "SEM-3/MA2014-Differential Equations/Test Questions/End Exam Prep.md",
-    "SEM-3/MA2014-Differential Equations/Mid Exam Prep.md",
-    "SEM-3/CS3043-Database Systems/Study Notes/Intermediate SQL.md",
     "Images/Pasted image 20240921182225.png",
     "Images/Pasted image 20240917184851.png",
     "Work Space.canvas",
