@@ -26,6 +26,12 @@ Reference Links : [Worlds web app](https://adam.math.hhu.de/#/g/trequetrum/lean4
 2. [[#Logic]]
 	- [[#Logical Languages]]
 	- [[#Logical Reasoning]]
+	- [[#Grounding]]
+3. [[#The Wumpus World]]
+	1. [[#Properties of the Wumpus World]]
+4. [[#Propositional Logic]]
+	1. [[#1. Propositional Logic - Syntax]]
+	2. [[#]]
 
 <br>
 <br>
@@ -193,7 +199,24 @@ Two sentences $\alpha$ and $\beta$ are **logically equivalent** if they are true
 
 Example:
 - $P \Rightarrow Q \equiv \neg P \lor Q$
-> [!summary]- Logical 
+ 
+
+> [!summary]- Basic Logical Equivalences
+> 1. `Commutativity of ∧ (AND)`: (α ∧ β) ≡ (β ∧ α)
+> 2. `Commutativity of ∨ (OR)`: (α ∨ β) ≡ (β ∨ α)
+> 3. `Associativity of ∧`:  ((α ∧ β) ∧ γ) ≡ (α ∧ (β ∧ γ))
+> 4. `Associativity of ∨`: ((α ∨ β) ∨ γ) ≡ (α ∨ (β ∨ γ))
+> 5. `Double-negation elimination`: ¬(¬α) ≡ α
+> 6. `Contraposition`: (α → β) ≡ (¬β → ¬α)
+> 7. `Implication elimination`: (α → β) ≡ (¬α ∨ β)
+> 8. `Biconditional elimination`: (α ↔ β) ≡ ((α → β) ∧ (β → α))
+> 9. `De Morgan's law (for ∧)`: ¬(α ∧ β) ≡ (¬α ∨ ¬β)
+> 10. `De Morgan's law (for ∨)`: ¬(α ∨ β) ≡ (¬α ∧ ¬β)
+> 11. `Distributivity of ∧ over ∨`: (α ∧ (β ∨ γ)) ≡ ((α ∧ β) ∨ (α ∧ γ))
+> 12. `Distributivity of ∨ over ∧`: (α ∨ (β ∧ γ)) ≡ ((α ∨ β) ∧ (α ∨ γ))
+> 13. `Definition of logical equivalence`: α ≡ β if and only if α ⊨ β and β ⊨ α
+> 14. `Reflexivity of logical equivalence`: α ≡ α
+> 15. `Transitivity of logical equivalence`: If α ≡ β and β ≡ γ, then α ≡ γ
 
 <br>
 
@@ -302,6 +325,3 @@ We start by negating $P$ (i.e., adding $\neg P$) and proceed with resolution:
 Thus, we have derived a contradiction, meaning $P$ is true.
 
 
-
-
-These equivalences form the foundation for logical reasoning and manipulation in propositional logic. They allow you to transform logical expressions, simplify complex statements, and prove the validity of arguments. Understanding and being able to apply these equivalences is crucial for working with logical formulas and proofs in various fields of mathematics, computer science, and formal logic.
