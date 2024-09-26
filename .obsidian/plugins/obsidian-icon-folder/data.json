@@ -6,6 +6,8 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "FabDiscord",
+      "RiNodejsLine",
       "SiAmazonaws",
       "FabBots",
       "LiBot",
@@ -13,9 +15,7 @@
       "RiSignalTowerFill",
       "SiRiscv",
       "FiFile",
-      "FarFilePdf",
-      "LiQuestionMarkGlyph",
-      "FiBookOpen"
+      "FarFilePdf"
     ],
     "recentlyUsedIconsSize": 10,
     "rules": [],
@@ -605,5 +605,13 @@
   "Git/Git Bots/Sebastian/Online Hosting.md": {
     "iconName": "SiAmazonaws",
     "iconColor": "#ffcb3d"
+  },
+  "Git/Git Bots/Sebastian/Coding The Bot.md": {
+    "iconName": "RiNodejsLine",
+    "iconColor": "#46e232"
+  },
+  "Git/Git Bots/Sebastian/Connecting Discord.md": {
+    "iconName": "FabDiscord",
+    "iconColor": "#6338ff"
   }
 }
