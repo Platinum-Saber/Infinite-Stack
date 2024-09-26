@@ -143,6 +143,7 @@ Complex sentences are formed using atomic sentences and logical connectives.
 - Example: $P \land Q$, $\neg P$, $P \Rightarrow Q$
 
 <br>
+
 ## 2. Propositional Logic - Semantics
 Semantics define the **truth** of sentences relative to possible models (interpretations).
 
@@ -162,11 +163,15 @@ A truth table helps in determining the truth value of complex sentences for all 
 | F   | T   | T        | F           | T          | T                 | F                     |
 | F   | F   | T        | F           | F          | T                 | T                     |
 
+<br>
+
 ## 3. Computing the Truth Value of Sentences
 To compute the truth value of a sentence in propositional logic, apply the truth values from the model to the propositional symbols and then use the truth table to determine the truth of the overall sentence.
 
 Example: For the sentence $P \Rightarrow Q$ and a model where $P = \text{True}$, $Q = \text{False}$:
 - Using the truth table, $P \Rightarrow Q = \text{False}$.
+
+<br>
 
 ## 4. Inferencing
 Inference in propositional logic involves deriving a new sentence from a set of known sentences (the **knowledge base, KB**) using logical entailment or other inference algorithms.
@@ -180,12 +185,17 @@ Model checking is an inference technique where all possible models are checked t
 ### Theorem Proving:
 Another approach to inference is to use rules of inference to construct a **proof** of the desired sentence directly from the knowledge base.
 
+<br>
+
 ## 5. Logical Equivalence
 Two sentences $\alpha$ and $\beta$ are **logically equivalent** if they are true in the same set of models. This is denoted by:
 - $\alpha \equiv \beta \iff (\alpha \models \beta \text{ and } \beta \models \alpha)$.
 
 Example:
 - $P \Rightarrow Q \equiv \neg P \lor Q$
+> [!summary]- Logical 
+
+<br>
 
 ## 6. Inference and Proofs
 In propositional logic, inference rules can be used to derive new sentences from existing ones.
@@ -204,6 +214,8 @@ In propositional logic, inference rules can be used to derive new sentences from
    From $P \Leftrightarrow Q$, we can infer both $P \Rightarrow Q$ and $Q \Rightarrow P$.
    - $P \Leftrightarrow Q \models (P \Rightarrow Q) \land (Q \Rightarrow P)$
 
+<br>
+
 ## 7. Proof by Resolution
 **Resolution** is a powerful inference rule used in conjunction with **Conjunctive Normal Form (CNF)**. It allows us to prove statements by refutation, i.e., showing that the negation of the goal leads to a contradiction.
 
@@ -216,6 +228,8 @@ If two clauses contain complementary literals (e.g., $P$ and $\neg P$), we can i
 
 ### Application:
 Proof by resolution involves converting all sentences into CNF, then iteratively applying the resolution rule until the desired conclusion is reached or a contradiction is found.
+
+<br>
 
 ### 1. Conjunctive Normal Form (CNF)
 
@@ -248,6 +262,8 @@ Consider the formula $(P \Rightarrow Q) \land \neg R$:
 - This is already in CNF: one clause is $(\neg P \lor Q)$, and the other is $(\neg R)$.
 
 ---
+
+<br>
 
 ### 2. Resolution in Propositional Logic
 
@@ -284,3 +300,8 @@ We start by negating $P$ (i.e., adding $\neg P$) and proceed with resolution:
 - Resolve $Q$ with $\neg Q$ to get the empty clause ($\square$).
 
 Thus, we have derived a contradiction, meaning $P$ is true.
+
+
+
+
+These equivalences form the foundation for logical reasoning and manipulation in propositional logic. They allow you to transform logical expressions, simplify complex statements, and prove the validity of arguments. Understanding and being able to apply these equivalences is crucial for working with logical formulas and proofs in various fields of mathematics, computer science, and formal logic.
