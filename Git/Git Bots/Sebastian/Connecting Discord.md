@@ -1,0 +1,8 @@
+## Set Up a Discord Bot:
+
+- **Create a Discord bot:**
+    1. Go to the Discord Developer Portal.
+    2. Create a new application and add a bot to it.
+    3. Copy the bot token (you'll need this later for authentication).
+
+### 1. Go to the Discord Developer Portal
