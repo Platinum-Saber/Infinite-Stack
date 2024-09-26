@@ -6,6 +6,7 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "FabGithubAlt",
       "FabDiscord",
       "RiNodejsLine",
       "SiAmazonaws",
@@ -14,8 +15,7 @@
       "SiGithub",
       "RiSignalTowerFill",
       "SiRiscv",
-      "FiFile",
-      "FarFilePdf"
+      "FiFile"
     ],
     "recentlyUsedIconsSize": 10,
     "rules": [],
@@ -613,5 +613,9 @@
   "Git/Git Bots/Sebastian/Connecting Discord.md": {
     "iconName": "FabDiscord",
     "iconColor": "#6338ff"
+  },
+  "Git/Git Utility": {
+    "iconName": "FabGithubAlt",
+    "iconColor": "#863bf7"
   }
 }

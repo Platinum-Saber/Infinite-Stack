@@ -30,7 +30,7 @@ Create a file named `index.js` to house your bot's logic.
 
 ### **3. Write Bot Logic:**
 
-#### 3.1 Basic Bot Setup (using `discord.js`):
+#### 3.1 Bot Setup (using `discord.js`):
 
 ```javascript
 require('dotenv').config();
@@ -60,169 +60,93 @@ const { initializeOctokit, fetchAndPostAuditLog, fetchAndPostCommits, fetchRepoC
     // Log in to Discord
     client.login(token);
     client.once('ready', () => {
-
         console.log(`Successfully connected to Discord as ${client.user.tag}.`);
-
     });
 
-  
-
     // Schedule tasks
-
     cron.schedule('0 */2 * * *', () => fetchAndPostAuditLog(client, auditLogChannelId));
-
     cron.schedule('0 */2 * * *', () => fetchAndPostCommits(client, commitsChannelId));
 
-  
-
     // Define commands
-
     const commands = {
-
         async prs(message, repoOwner, repoName) {
-
             try {
-
                 const { data: pulls } = await getOctokit().pulls.list({
-
                     owner: repoOwner,
-
                     repo: repoName,
-
                     state: 'open'
-
                 });
 
-  
-
                 if (pulls.length === 0) {
-
                     message.channel.send('No open pull requests.');
-
                 } else {
-
                     pulls.forEach(pr => {
-
                         message.channel.send(`PR: ${pr.title} - ${pr.html_url}`);
-
                     });
-
                 }
-
             } catch (error) {
-
                 console.error('Error fetching pull requests:', error);
-
                 message.channel.send('Error fetching pull requests.');
-
             }
-
         },
-
         async postissue(message, repoOwner, repoName) {
-
             const issuePattern = /!postissue\s+"(.+?)"\s+"(.+?)"/;
-
             const match = message.content.match(issuePattern);
-
-  
-
+            
             if (!match || match.length < 3) {
-
                 message.channel.send('Please provide a title and description like this: `!postissue "Title" "Description"`');
-
                 return;
-
             }
-
-  
 
             const [ , title, body ] = match;
-
-  
-
+            
             try {
-
                 const issue = await getOctokit().issues.create({
-
                     owner: repoOwner,
-
                     repo: repoName,
-
                     title: title,
-
                     body: body
-
                 });
 
                 message.channel.send(`Issue created: ${issue.data.html_url}`);
-
+                
             } catch (error) {
-
                 console.error('Error creating issue:', error);
-
                 message.channel.send('Error creating issue.');
-
             }
-
         },
 
         async issues(message, repoOwner, repoName) {
-
             try {
-
                 const { data: issues } = await getOctokit().issues.listForRepo({
-
                     owner: repoOwner,
-
                     repo: repoName,
-
                     state: 'open'
-
                 });
 
-  
-
                 if (issues.length === 0) {
-
                     message.channel.send('No open issues.');
-
                 } else {
-
                     issues.forEach(issue => {
-
                         message.channel.send(`Issue: ${issue.title} - ${issue.html_url}`);
-
                     });
-
                 }
-
             } catch (error) {
 
                 console.error('Error fetching issues:', error);
-
                 message.channel.send('Error fetching issues.');
-
             }
-
         },
 
         async repoContent(message, repoOwner, repoName) {
-
             await fetchRepoContent(client, repoOwner, repoName, message.channel);
-
         },
 
         async commits(message, repoOwner, repoName) {
-
             try {
-
                 const { data: commits } = await getOctokit().repos.listCommits({
-
                     owner: repoOwner,
-
                     repo: repoName
-
                 });
 
                 commits.forEach(commit => {
@@ -248,7 +172,7 @@ const { initializeOctokit, fetchAndPostAuditLog, fetchAndPostCommits, fetchRepoC
 })();
 ```
 
-### 4. **Bot Commands Breakdown:**
+### 4. Bot Commands Breakdown:
 
 #### **Command: `!prs` (List Pull Requests)**
 - When a user types `!prs`, the bot calls the GitHub API to list all open pull requests for the specified repository and posts the title and URL of each pull request in the Discord channel.
