@@ -6,6 +6,8 @@
 2. In the application settings, go to the "Bot" section and create a bot.
 3. Copy the bot token, as you'll need it for authentication later.
 
+For More info : [[Connecting Discord]]
+
 #### 1.2 Install Node.js and `discord.js`:
 - First, install Node.js if you haven't already from [here](https://nodejs.org/en/).
 - Then, in your project directory, run the following commands to set up your project and install `discord.js`:
