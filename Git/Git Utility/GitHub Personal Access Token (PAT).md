@@ -6,16 +6,19 @@ To get a GitHub Personal Access Token (PAT), follow these steps:
 ### 2. Navigate to Developer Settings
    - Click on your profile picture in the top-right corner.
    - From the dropdown menu, select **Settings**.
-> [!image]- Screen Shot
-> ![[Pasted image 20240926160230.png]]
-> ![[Pasted image 20240926160250.png]]
 
 ### 3. Go to "Developer Settings"
    - In the left-hand menu, scroll down and click on **Developer settings** at the bottom.
+> [!image]- Screen Shot
+> ![[Pasted image 20240926160230.png]]
+> ![[Pasted image 20240926160404.png]]
 
 ### 4. Select "Personal Access Tokens"
    - Under **Developer settings**, click on **Personal access tokens**.
    - Then, click on **Tokens (classic)** if prompted (GitHub is rolling out new token types but many bots and scripts still use classic tokens).
+
+> [!image]- Screen Shot
+> ![[Pasted image 20240926160610.png]]
 
 ### 5. Generate New Token
    - Click on **Generate new token** (or **Generate new token (classic)**).
@@ -38,7 +41,7 @@ To get a GitHub Personal Access Token (PAT), follow these steps:
    - Save the token in a secure place, such as in environment variables or a secure password manager.
    - Do **not** hard-code the token in your codebase, especially if you plan to share or host the code somewhere publicly.
 
-### 9. Use the Token in Your Code
+### 9. Use the Token in Your Code 
    - When using the GitHub API or libraries like `@octokit/rest`, you’ll need to pass this token for authentication.
    - Example (using `octokit` in Node.js):
      ```javascript
