@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ballerina/Code Guide/Basics of Ballerina.md",
+                "file": "Git/Git Bots/Sebastian/Coding The Bot.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -105,7 +105,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Ballerina/Code Guide/Basics of Ballerina.md"
+                "file": "Git/Git Bots/Sebastian/Coding The Bot.md"
               }
             }
           },
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Ballerina/Code Guide/Basics of Ballerina.md",
+                "file": "Git/Git Bots/Sebastian/Coding The Bot.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }

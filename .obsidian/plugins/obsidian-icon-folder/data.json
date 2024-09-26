@@ -6,16 +6,16 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "FasPeopleGroup",
+      "RiInstanceFill",
+      "FasBriefcaseMedical",
       "RiCodeBoxLine",
       "FasPersonCircleCheck",
       "FabGithubAlt",
       "FabDiscord",
       "RiNodejsLine",
       "SiAmazonaws",
-      "FabBots",
-      "LiBot",
-      "SiGithub",
-      "RiSignalTowerFill"
+      "FabBots"
     ],
     "recentlyUsedIconsSize": 10,
     "rules": [],
@@ -625,5 +625,17 @@
   "Ballerina/Code Guide": {
     "iconName": "RiCodeBoxLine",
     "iconColor": "#4dffd2"
+  },
+  "Ballerina/Code Guide/Basics of Ballerina.md": {
+    "iconName": "FasBriefcaseMedical",
+    "iconColor": "#34fe7b"
+  },
+  "Ballerina/Code Guide/Getting Started.md": {
+    "iconName": "RiInstanceFill",
+    "iconColor": "#acfe48"
+  },
+  "Ballerina/Projects": {
+    "iconName": "FasPeopleGroup",
+    "iconColor": "#4bfe3e"
   }
 }
