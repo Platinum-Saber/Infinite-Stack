@@ -6,6 +6,7 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiList",
       "FasPeopleGroup",
       "RiInstanceFill",
       "FasBriefcaseMedical",
@@ -14,8 +15,7 @@
       "FabGithubAlt",
       "FabDiscord",
       "RiNodejsLine",
-      "SiAmazonaws",
-      "FabBots"
+      "SiAmazonaws"
     ],
     "recentlyUsedIconsSize": 10,
     "rules": [],
@@ -637,5 +637,13 @@
   "Ballerina/Projects": {
     "iconName": "FasPeopleGroup",
     "iconColor": "#4bfe3e"
+  },
+  "Obsidian Tools/Callout List.md": {
+    "iconName": "LiList",
+    "iconColor": "#be5cff"
+  },
+  "Obsidian Tools/Check Box List.md": {
+    "iconName": "LiList",
+    "iconColor": "#b943f9"
   }
 }

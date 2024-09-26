@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git/Git Bots/Sebastian/Coding The Bot.md",
-                "mode": "preview",
+                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Logical Agents.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git/Git Bots/Sebastian/Coding The Bot.md"
+                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Logical Agents.md"
               }
             }
           },
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git/Git Bots/Sebastian/Coding The Bot.md",
+                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Logical Agents.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,13 +161,17 @@
   },
   "active": "18c178d4a74b677d",
   "lastOpenFiles": [
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/Artificial Intelligence.md",
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/AI Introduction.md",
+    "Obsidian Tools/Callout List.md",
+    "Obsidian Tools/Git Profile Draft.md",
+    "Git/Git Bots/Sebastian/Coding The Bot.md",
     "Ballerina/Code Guide/Getting Started.md",
     "Ballerina/Code Guide/Basics of Ballerina.md",
     "Ballerina/Code Guide/Untitled.md",
     "Ballerina/Projects/Ballerina-Project.md",
     "Git/Git Bots/Sebastian/Connecting Discord.md",
     "Images/Pasted image 20240926165218.png",
-    "Git/Git Bots/Sebastian/Coding The Bot.md",
     "Git/Git Bots/Sebastian/Online Hosting.md",
     "Images/Pasted image 20240926163611.png",
     "Images/Pasted image 20240926163158.png",
@@ -201,10 +205,6 @@
     "SEM-3/MA2014-Differential Equations/Test Questions/End Exam Prep.md",
     "SEM-3/MA2014-Differential Equations/Mid Exam Prep.md",
     "SEM-3/CS3043-Database Systems/Study Notes/Intermediate SQL.md",
-    "SEM-3/CS3043-Database Systems/Database systems.md",
-    "SEM-3/CS3043-Database Systems/Study Notes/Advanced SQL.md",
-    "SEM-3/CS3043-Database Systems/Study Notes/Relational Algebra.md",
-    "Full Stack Development/Backend Development/Backend Development.md",
     "Images/Pasted image 20240921182225.png",
     "Images/Pasted image 20240917184851.png",
     "Work Space.canvas",
