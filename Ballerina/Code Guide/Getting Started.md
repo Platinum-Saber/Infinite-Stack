@@ -28,3 +28,4 @@ Related : #Ballerina
     - Open VS Code and search for "Ballerina" in the Extensions tab.
     - Install the Ballerina extension.
 2. **Configure Path**: Ensure that the Ballerina installation path is correctly set up on your system's environment variables if needed.
+

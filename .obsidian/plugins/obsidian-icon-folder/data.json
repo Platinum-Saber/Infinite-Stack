@@ -6,6 +6,7 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "RiCodeBoxLine",
       "FasPersonCircleCheck",
       "FabGithubAlt",
       "FabDiscord",
@@ -14,8 +15,7 @@
       "FabBots",
       "LiBot",
       "SiGithub",
-      "RiSignalTowerFill",
-      "SiRiscv"
+      "RiSignalTowerFill"
     ],
     "recentlyUsedIconsSize": 10,
     "rules": [],
@@ -621,5 +621,9 @@
   "Git/Git Utility/GitHub Personal Access Token (PAT).md": {
     "iconName": "FasPersonCircleCheck",
     "iconColor": "#a1ff42"
+  },
+  "Ballerina/Code Guide": {
+    "iconName": "RiCodeBoxLine",
+    "iconColor": "#4dffd2"
   }
 }
