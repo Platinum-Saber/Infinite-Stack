@@ -166,5 +166,3 @@ Since you don't want the bot to stop running when you close your Git Bash sessio
 
 ---
 
-Now that you've gone through the process, you should have your Discord bot running on AWS EC2, and it will remain operational even if you disconnect from your SSH session.
-

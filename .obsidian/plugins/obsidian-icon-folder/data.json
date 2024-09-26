@@ -6,16 +6,16 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "SiAmazonaws",
+      "FabBots",
+      "LiBot",
       "SiGithub",
       "RiSignalTowerFill",
       "SiRiscv",
       "FiFile",
       "FarFilePdf",
       "LiQuestionMarkGlyph",
-      "FiBookOpen",
-      "SiBookstack",
-      "SiDocker",
-      "SiLinuxprofessionalinstitute"
+      "FiBookOpen"
     ],
     "recentlyUsedIconsSize": 10,
     "rules": [],
@@ -593,5 +593,17 @@
   "Git": {
     "iconName": "SiGithub",
     "iconColor": "#8838ff"
+  },
+  "Git/Git Bots": {
+    "iconName": "FabBots",
+    "iconColor": "#52b4ff"
+  },
+  "Git/Git Bots/Sebastian": {
+    "iconName": "LiBot",
+    "iconColor": "#58f3fe"
+  },
+  "Git/Git Bots/Sebastian/Online Hosting.md": {
+    "iconName": "SiAmazonaws",
+    "iconColor": "#ffcb3d"
   }
 }
