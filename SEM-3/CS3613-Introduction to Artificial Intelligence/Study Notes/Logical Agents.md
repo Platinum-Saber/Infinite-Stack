@@ -120,6 +120,7 @@ Reference Links : [Worlds web app](https://adam.math.hhu.de/#/g/trequetrum/lean4
 - **Discrete**: The surroundings are distinct. 
 - **One agent**: The environment is a single agent because we only have one agent, and Wumpus is not regarded as an agent.
 
+<br>
 
 # Propositional Logic 
 
@@ -141,6 +142,7 @@ An atomic sentence is a single propositional symbol:
 Complex sentences are formed using atomic sentences and logical connectives.
 - Example: $P \land Q$, $\neg P$, $P \Rightarrow Q$
 
+<br>
 ## 2. Propositional Logic - Semantics
 Semantics define the **truth** of sentences relative to possible models (interpretations).
 

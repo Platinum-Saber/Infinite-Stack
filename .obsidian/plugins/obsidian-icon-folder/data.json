@@ -6,6 +6,8 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "RiBookletLine",
+      "LiFileQuestion",
       "LiList",
       "FasPeopleGroup",
       "RiInstanceFill",
@@ -13,9 +15,7 @@
       "RiCodeBoxLine",
       "FasPersonCircleCheck",
       "FabGithubAlt",
-      "FabDiscord",
-      "RiNodejsLine",
-      "SiAmazonaws"
+      "FabDiscord"
     ],
     "recentlyUsedIconsSize": 10,
     "rules": [],
@@ -530,33 +530,13 @@
     "iconName": "FiFile",
     "iconColor": "#daf96c"
   },
-  "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Breadth-first Search.md": {
-    "iconName": "LiFileCode",
-    "iconColor": "#74e4fb"
-  },
   "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Constraint Satisfaction Problem.md": {
     "iconName": "FiFile",
     "iconColor": "#dcfb6a"
   },
-  "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Depth-first Search.md": {
-    "iconName": "LiFileCode",
-    "iconColor": "#7ce3fd"
-  },
-  "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Generic Algorithms.md": {
-    "iconName": "LiFileCode",
-    "iconColor": "#6fe4fb"
-  },
-  "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Hill Climbing Algorithm.md": {
-    "iconName": "LiFileCode",
-    "iconColor": "#73e1f7"
-  },
   "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Intelligent Agents.md": {
     "iconName": "FiFile",
     "iconColor": "#dcfb6a"
-  },
-  "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Local Beam Search.md": {
-    "iconName": "LiFileCode",
-    "iconColor": "#6fe4fb"
   },
   "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Local Search And Optimization Problems.md": {
     "iconName": "FiFile",
@@ -566,17 +546,9 @@
     "iconName": "FiFile",
     "iconColor": "#dcf971"
   },
-  "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Simulated Annealing Algorithm.md": {
-    "iconName": "LiFileCode",
-    "iconColor": "#69ebfc"
-  },
   "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Solving Problems by Searching.md": {
     "iconName": "FiFile",
     "iconColor": "#dcf877"
-  },
-  "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Uniform-cost Search.md": {
-    "iconName": "LiFileCode",
-    "iconColor": "#38e8ff"
   },
   "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes": {
     "iconName": "FiBookOpen",
@@ -645,5 +617,38 @@
   "Obsidian Tools/Check Box List.md": {
     "iconName": "LiList",
     "iconColor": "#b943f9"
+  },
+  "SEM-3/CS3613-Introduction to Artificial Intelligence/Test Questions/Logical Agents MCQs.md": "LiFileQuestion",
+  "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Side Notes/Breadth-first Search.md": {
+    "iconName": "LiFileCode",
+    "iconColor": "#74e4fb"
+  },
+  "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Side Notes/Depth-first Search.md": {
+    "iconName": "LiFileCode",
+    "iconColor": "#7ce3fd"
+  },
+  "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Side Notes/Generic Algorithms.md": {
+    "iconName": "LiFileCode",
+    "iconColor": "#6fe4fb"
+  },
+  "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Side Notes/Hill Climbing Algorithm.md": {
+    "iconName": "LiFileCode",
+    "iconColor": "#73e1f7"
+  },
+  "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Side Notes/Local Beam Search.md": {
+    "iconName": "LiFileCode",
+    "iconColor": "#6fe4fb"
+  },
+  "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Side Notes/Simulated Annealing Algorithm.md": {
+    "iconName": "LiFileCode",
+    "iconColor": "#69ebfc"
+  },
+  "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Side Notes/Uniform-cost Search.md": {
+    "iconName": "LiFileCode",
+    "iconColor": "#38e8ff"
+  },
+  "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Side Notes": {
+    "iconName": "RiBookletLine",
+    "iconColor": "#deff66"
   }
 }

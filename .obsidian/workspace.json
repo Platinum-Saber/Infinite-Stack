@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Test Questions/Untitled.md",
+                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Logical Agents.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -70,7 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 249.5086555480957
+    "width": 341.5026054382324
   },
   "right": {
     "id": "b2aa869acde22062",
@@ -105,7 +105,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Test Questions/Untitled.md"
+                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Logical Agents.md"
               }
             }
           },
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Test Questions/Untitled.md",
+                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Logical Agents.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,11 +161,12 @@
   },
   "active": "18c178d4a74b677d",
   "lastOpenFiles": [
-    "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Logical Agents.md",
-    "SEM-3/CS3613-Introduction to Artificial Intelligence/Test Questions/Untitled.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Artificial Intelligence.md",
-    "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Depth-first Search.md",
-    "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Breadth-first Search.md",
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/Test Questions/Logical Agents MCQs.md",
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Side Notes",
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Logical Agents.md",
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Side Notes/Depth-first Search.md",
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Side Notes/Breadth-first Search.md",
     "SEM-3/MA3014-Applied Statistics/Test Questions/MA3014 Test Questions 01.md",
     "SEM-3/MA3014-Applied Statistics/Test Questions/Estimations, t-Distribution Questions.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/AI Introduction.md",
@@ -202,9 +203,7 @@
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Test Questions",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes",
     "SEM-3/CS2033-Data Communication and Networking/Labs",
-    "SEM-3/CS2033-Data Communication and Networking/Source Material",
     "SEM-3/MA2014-Differential Equations/Study Notes/Partial Differential Equations.md",
-    "SEM-3/MA2014-Differential Equations/Study Notes/Fourier Series.md",
     "Images/Pasted image 20240921182225.png",
     "Images/Pasted image 20240917184851.png",
     "Work Space.canvas",
