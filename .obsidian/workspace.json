@@ -19,8 +19,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "1edf1c7f04dc2702",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Quiz 07 Execution.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -70,8 +84,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 341.5026054382324,
-    "collapsed": true
+    "width": 341.5026054382324
   },
   "right": {
     "id": "b2aa869acde22062",
@@ -106,7 +119,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM-3/CS3043-Database Systems/Test Questions/Quizzes/Quiz 07.md"
+                "file": "Quiz 07 Execution.md"
               }
             }
           },
@@ -116,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM-3/CS3043-Database Systems/Test Questions/Quizzes/Quiz 07.md",
+                "file": "Quiz 07 Execution.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,9 +173,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "75c81880d63240eb",
+  "active": "1edf1c7f04dc2702",
   "lastOpenFiles": [
     "SEM-3/CS3043-Database Systems/Test Questions/Quizzes/Quiz 07.md",
+    "Quiz 07 Execution.md",
     "SEM-3/CS3043-Database Systems/Test Questions/Quizzes",
     "SEM-3/MA2014-Differential Equations/Source Material/H. K. Dass - Higher Engineering Mathematics (2014, S Chand & Co Ltd).pdf",
     "SEM-3/MA2014-Differential Equations/Test Questions/End Exam Prep.md",
@@ -194,7 +208,6 @@
     "SEM-3/MA3014-Applied Statistics/Test Questions/MA3014 Test Questions 01.md",
     "SEM-3/MA3014-Applied Statistics/Test Questions/Estimations, t-Distribution Questions.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/AI Introduction.md",
-    "Obsidian Tools/Callout List.md",
     "Images/Pasted image 20240926165218.png",
     "Images/Pasted image 20240926163611.png",
     "Images/Pasted image 20240926163158.png",

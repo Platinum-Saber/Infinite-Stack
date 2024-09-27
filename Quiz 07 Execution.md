@@ -1,3 +1,7 @@
+1. Run the `movie_store_schema.sql` :- This creates the database and relevant tables.
+2. Run the `movie_store-data.sql` :- This populates the tables with relevant data.
+3. Run The Queries in `Quize 07.sql` one by one and see if it works.
+
 
 ---
 
