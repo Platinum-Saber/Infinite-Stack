@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "SEM-3/CS3043-Database Systems/Test Questions/Quizzes/Quiz 07.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -70,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 341.5026054382324
+    "width": 341.5026054382324,
+    "collapsed": true
   },
   "right": {
     "id": "b2aa869acde22062",
