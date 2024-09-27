@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM-3/CS2033-Data Communication and Networking/Study Notes/Communication Concepts.md",
+                "file": "Git/Git Bots/Sebastian/Online Hosting.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -105,7 +105,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM-3/CS2033-Data Communication and Networking/Study Notes/Communication Concepts.md"
+                "file": "Git/Git Bots/Sebastian/Online Hosting.md"
               }
             }
           },
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM-3/CS2033-Data Communication and Networking/Study Notes/Communication Concepts.md",
+                "file": "Git/Git Bots/Sebastian/Online Hosting.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,6 +161,7 @@
   },
   "active": "18c178d4a74b677d",
   "lastOpenFiles": [
+    "SEM-3/CS2033-Data Communication and Networking/Study Notes/Communication Concepts.md",
     "SEM-3/CS2033-Data Communication and Networking/Study Notes/Data Com. & Networking Introduction.md",
     "SEM-3/CS2033-Data Communication and Networking/Study Notes/Data Transmission.md",
     "SEM-3/CS2033-Data Communication and Networking/Study Notes/Transmission Media.md",
@@ -187,7 +188,6 @@
     "Ballerina/Code Guide/Basics of Ballerina.md",
     "Ballerina/Code Guide/Untitled.md",
     "Ballerina/Projects/Ballerina-Project.md",
-    "Git/Git Bots/Sebastian/Connecting Discord.md",
     "Images/Pasted image 20240926165218.png",
     "Images/Pasted image 20240926163611.png",
     "Images/Pasted image 20240926163158.png",
