@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Logical Agents.md",
+                "file": "SEM-3/CS2033-Data Communication and Networking/Study Notes/Communication Concepts.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -105,7 +105,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Logical Agents.md"
+                "file": "SEM-3/CS2033-Data Communication and Networking/Study Notes/Communication Concepts.md"
               }
             }
           },
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Logical Agents.md",
+                "file": "SEM-3/CS2033-Data Communication and Networking/Study Notes/Communication Concepts.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,10 +161,18 @@
   },
   "active": "18c178d4a74b677d",
   "lastOpenFiles": [
+    "SEM-3/CS2033-Data Communication and Networking/Study Notes/Data Com. & Networking Introduction.md",
+    "SEM-3/CS2033-Data Communication and Networking/Study Notes/Data Transmission.md",
+    "SEM-3/CS2033-Data Communication and Networking/Study Notes/Transmission Media.md",
+    "SEM-3/CS2033-Data Communication and Networking/Study Notes/Encoding & Modulation.md",
+    "SEM-3/CS2053-Computer Architecture/Study Notes/Memory Hierarchy.md",
+    "SEM-3/CS2053-Computer Architecture/Study Notes/Instruction Set Architecture-RV.md",
+    "SEM-3/CS2053-Computer Architecture/Study Notes/Computer Architecture Introduction.md",
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/Artificial Intelligence.md",
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Constraint Satisfaction Problem.md",
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Logical Agents.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Local Search And Optimization Problems.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Solving Problems by Searching.md",
-    "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Logical Agents.md",
-    "SEM-3/CS3613-Introduction to Artificial Intelligence/Artificial Intelligence.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Test Questions/Logical Agents MCQs.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Side Notes",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Side Notes/Depth-first Search.md",
@@ -181,10 +189,8 @@
     "Ballerina/Projects/Ballerina-Project.md",
     "Git/Git Bots/Sebastian/Connecting Discord.md",
     "Images/Pasted image 20240926165218.png",
-    "Git/Git Bots/Sebastian/Online Hosting.md",
     "Images/Pasted image 20240926163611.png",
     "Images/Pasted image 20240926163158.png",
-    "Git/Git Utility/GitHub Personal Access Token (PAT).md",
     "Images/Pasted image 20240926160610.png",
     "Images/Pasted image 20240926160404.png",
     "Images/Pasted image 20240926160250.png",
@@ -193,14 +199,8 @@
     "Git/Git Bots/Sebastian",
     "Git/Git Bots",
     "Images/Pasted image 20240926150520.png",
-    "Full Stack Development/Backend Development/Setting Up .ENV.md",
     "Git",
-    "Hachathons/2024 Pre-IEEE/2. Radio Spying.md",
-    "Hachathons/2024 Pre-IEEE/1. XOR Game.md",
-    "SEM-3/CS2953-Communication Skills/Literary Survey.md",
     "SEM-3/CS2953-Communication Skills/Journals",
-    "Ballerina/Projects/Project Ideas.md",
-    "SEM-3/MA2014-Differential Equations/Differential Equations.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Source Material",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Test Questions",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes",

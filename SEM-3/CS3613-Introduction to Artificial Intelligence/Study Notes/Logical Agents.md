@@ -10,11 +10,9 @@ About: Based on CS3613-Lecture 06 Logical Agents
 Related : #AI #AI/06 #Agents 
 
 ---
-Reference Note : [Logical Agents I](file:///E:%5CAcademics%5CSEM%203%5CCS3613-Introduction%20to%20Artificial%20Intelligence%5CLecture%20note%5C06%20Logical%20Agents%20I.pdf)
+Reference Note : [07 Logical Agents](file:///E:%5CAcademics%5CSEM%203%5CCS3613-Introduction%20to%20Artificial%20Intelligence%5CLecture%20note%5C07%20Logical%20Agents%20II.pdf)
 Reference Video : 
 Reference Links : [Worlds web app](https://adam.math.hhu.de/#/g/trequetrum/lean4game-logic/world/AndIntro/level/1) , [Logical Agents by Harvard](https://cs50.harvard.edu/ai/2024/notes/1/)
-
-
 
 ---
 
@@ -28,10 +26,15 @@ Reference Links : [Worlds web app](https://adam.math.hhu.de/#/g/trequetrum/lean4
 	- [[#Logical Reasoning]]
 	- [[#Grounding]]
 3. [[#The Wumpus World]]
-	1. [[#Properties of the Wumpus World]]
+	- [[#Properties of the Wumpus World]]
 4. [[#Propositional Logic]]
-	1. [[#1. Propositional Logic - Syntax]]
-	2. [[#]]
+	- [[#1. Propositional Logic - Syntax]]
+	- [[#2. Propositional Logic - Semantics]]
+	- [[#3. Computing the Truth Value of Sentences]]
+	- [[#4. Inferencing]]
+	- [[#5. Logical Equivalence]]
+	- [[#6. Inference and Proofs]]
+	- [[#7. Proof by Resolution]]
 
 <br>
 <br>
