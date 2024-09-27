@@ -4,16 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "04e7485df705c23e",
+        "id": "e298efe24d865753",
         "type": "tabs",
         "children": [
           {
-            "id": "18c178d4a74b677d",
+            "id": "75c81880d63240eb",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "SEM-3/MA2014-Differential Equations/Source Material/H. K. Dass - Higher Engineering Mathematics (2014, S Chand & Co Ltd).pdf"
+                "file": "SEM-3/CS3043-Database Systems/Test Questions/Quizzes/Quiz 07.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               }
             }
           }
@@ -67,8 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 341.5026054382324,
-    "collapsed": true
+    "width": 341.5026054382324
   },
   "right": {
     "id": "b2aa869acde22062",
@@ -103,7 +105,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM-3/MA2014-Differential Equations/Source Material/H. K. Dass - Higher Engineering Mathematics (2014, S Chand & Co Ltd).pdf"
+                "file": "SEM-3/CS3043-Database Systems/Test Questions/Quizzes/Quiz 07.md"
               }
             }
           },
@@ -113,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM-3/MA2014-Differential Equations/Source Material/H. K. Dass - Higher Engineering Mathematics (2014, S Chand & Co Ltd).pdf",
+                "file": "SEM-3/CS3043-Database Systems/Test Questions/Quizzes/Quiz 07.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,8 +159,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "18c178d4a74b677d",
+  "active": "75c81880d63240eb",
   "lastOpenFiles": [
+    "SEM-3/CS3043-Database Systems/Test Questions/Quizzes/Quiz 07.md",
+    "SEM-3/CS3043-Database Systems/Test Questions/Quizzes",
+    "SEM-3/MA2014-Differential Equations/Source Material/H. K. Dass - Higher Engineering Mathematics (2014, S Chand & Co Ltd).pdf",
     "SEM-3/MA2014-Differential Equations/Test Questions/End Exam Prep.md",
     "SEM-3/MA2014-Differential Equations/Study Notes/Fourier Series.md",
     "SEM-3/MA2014-Differential Equations/Study Notes/Laplace Transformations.md",
@@ -189,7 +194,6 @@
     "SEM-3/MA3014-Applied Statistics/Test Questions/Estimations, t-Distribution Questions.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/AI Introduction.md",
     "Obsidian Tools/Callout List.md",
-    "Obsidian Tools/Git Profile Draft.md",
     "Images/Pasted image 20240926165218.png",
     "Images/Pasted image 20240926163611.png",
     "Images/Pasted image 20240926163158.png",
@@ -201,8 +205,6 @@
     "Git/Git Bots/Sebastian",
     "Git/Git Bots",
     "Images/Pasted image 20240926150520.png",
-    "Git",
-    "SEM-3/CS2953-Communication Skills/Journals",
     "Images/Pasted image 20240921182225.png",
     "Images/Pasted image 20240917184851.png",
     "Work Space.canvas",
