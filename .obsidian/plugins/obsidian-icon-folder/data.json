@@ -6,6 +6,7 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "FarFilePdf",
       "RiBookletLine",
       "LiFileQuestion",
       "LiList",
@@ -14,8 +15,7 @@
       "FasBriefcaseMedical",
       "RiCodeBoxLine",
       "FasPersonCircleCheck",
-      "FabGithubAlt",
-      "FabDiscord"
+      "FabGithubAlt"
     ],
     "recentlyUsedIconsSize": 10,
     "rules": [],
@@ -650,5 +650,9 @@
   "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Side Notes": {
     "iconName": "RiBookletLine",
     "iconColor": "#deff66"
+  },
+  "SEM-3/MA2014-Differential Equations/Source Material/H. K. Dass - Higher Engineering Mathematics (2014, S Chand & Co Ltd).pdf": {
+    "iconName": "FarFilePdf",
+    "iconColor": "#ffbb5c"
   }
 }
