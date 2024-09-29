@@ -33,8 +33,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -120,7 +119,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM-3/MA2014-Differential Equations/Assignments/Application 01,02,03,04.md"
+                "file": "SEM-3/MA2014-Differential Equations/Study Notes/Laplace Transformations.md"
               }
             }
           },
@@ -130,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM-3/MA2014-Differential Equations/Assignments/Application 01,02,03,04.md",
+                "file": "SEM-3/MA2014-Differential Equations/Study Notes/Laplace Transformations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,10 +173,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "43c9eb15b9411a97",
+  "active": "490ae66f72370366",
   "lastOpenFiles": [
-    "SEM-3/MA2014-Differential Equations/Study Notes/Laplace Transformations.md",
     "SEM-3/MA2014-Differential Equations/Assignments/Application 01,02,03,04.md",
+    "SEM-3/MA2014-Differential Equations/Study Notes/Laplace Transformations.md",
     "Images/Pasted image 20240929094244.png",
     "Images/Pasted image 20240929094150.png",
     "Images/Pasted image 20240929094104.png",
