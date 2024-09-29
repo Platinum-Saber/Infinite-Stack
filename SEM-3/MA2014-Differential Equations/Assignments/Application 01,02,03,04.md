@@ -63,8 +63,7 @@ Thus, the **natural frequency** is $\omega_n \approx 53.83 \, \text{rad/s}$.
 
 ### Part B: Maximum Tension in the Cable
 
-> [!image]- Diagram
-> ![[Pasted image 20240929094244.png]]
+
 
 The maximum tension in the cable occurs at the point of **maximum displacement** of the vibrating mass. The restoring force is:
 
