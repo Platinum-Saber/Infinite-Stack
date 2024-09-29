@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM-3/MA2014-Differential Equations/Assignments/Application 01,02,03,04.md",
+                "file": "SEM-3/MA2014-Differential Equations/Study Notes/Laplace Transformations.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -70,8 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 341.5026054382324,
-    "collapsed": true
+    "width": 341.5026054382324
   },
   "right": {
     "id": "b2aa869acde22062",
@@ -106,7 +105,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM-3/MA2014-Differential Equations/Assignments/Application 01,02,03,04.md"
+                "file": "SEM-3/MA2014-Differential Equations/Study Notes/Laplace Transformations.md"
               }
             }
           },
@@ -116,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM-3/MA2014-Differential Equations/Assignments/Application 01,02,03,04.md",
+                "file": "SEM-3/MA2014-Differential Equations/Study Notes/Laplace Transformations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,10 +161,10 @@
   },
   "active": "490ae66f72370366",
   "lastOpenFiles": [
+    "SEM-3/MA2014-Differential Equations/Assignments/Application 01,02,03,04.md",
     "Images/Pasted image 20240929094244.png",
     "Images/Pasted image 20240929094150.png",
     "Images/Pasted image 20240929094104.png",
-    "SEM-3/MA2014-Differential Equations/Assignments/Application 01,02,03,04.md",
     "SEM-3/MA2014-Differential Equations/Assignments",
     "SEM-3/CS3043-Database Systems/Test Questions/MCQs/CS3043 Test Questions 07.md",
     "SEM-3/CS3043-Database Systems/Test Questions/MCQs/CS3043 Test Questions 05.md",
@@ -207,7 +206,6 @@
     "Images/Pasted image 20240926160250.png",
     "Images/Pasted image 20240926160230.png",
     "Git/Git Utility",
-    "Images/Pasted image 20240926150520.png",
     "Work Space.canvas",
     "Untitled.canvas"
   ]
