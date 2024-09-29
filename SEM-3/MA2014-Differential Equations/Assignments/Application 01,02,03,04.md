@@ -132,17 +132,17 @@ $$
 A = \pi \left( \frac{d}{2} \right)^2
 $$
 
-where $d = 0.5 \, \text{in} = 0.04167 \, \text{ft}$. Substituting into the formula:
+where $d = 0.5 \, \text{in}$. 
 
 $$
-A = \pi \left( \frac{0.04167}{2} \right)^2 \approx 0.001364 \, \text{ft}^2
+A = \pi \left( \frac{0.5}{2} \right)^2 \approx 0.1963 \, \text{in}^2
 $$
 
 Now, the stress is:
-$$\sigma = \frac{37}{0.001364} \approx 27,125 \, \text{psi}$$
+$$\sigma = \frac{1245.8}{0.01963} \approx 6346.41 \, \text{psi}$$
 
 
-Thus, the **maximum stress** is $\sigma \approx 27,125 \, \text{psi}$.
+Thus, the **maximum stress** is $\sigma \approx 6346.41  \, \text{psi}$.
 
 ---
 
