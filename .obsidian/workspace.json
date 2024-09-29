@@ -19,6 +19,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "43c9eb15b9411a97",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SEM-3/MA2014-Differential Equations/Assignments/Application 01,02,03,04.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ]
       }
@@ -70,7 +83,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 341.5026054382324
+    "width": 341.5026054382324,
+    "collapsed": true
   },
   "right": {
     "id": "b2aa869acde22062",
@@ -162,6 +176,7 @@
   "active": "490ae66f72370366",
   "lastOpenFiles": [
     "SEM-3/MA2014-Differential Equations/Assignments/Application 01,02,03,04.md",
+    "SEM-3/MA2014-Differential Equations/Study Notes/Laplace Transformations.md",
     "Images/Pasted image 20240929094244.png",
     "Images/Pasted image 20240929094150.png",
     "Images/Pasted image 20240929094104.png",
@@ -179,7 +194,6 @@
     "SEM-3/MA2014-Differential Equations/Source Material/H. K. Dass - Higher Engineering Mathematics (2014, S Chand & Co Ltd).pdf",
     "SEM-3/MA2014-Differential Equations/Test Questions/End Exam Prep.md",
     "SEM-3/MA2014-Differential Equations/Study Notes/Fourier Series.md",
-    "SEM-3/MA2014-Differential Equations/Study Notes/Laplace Transformations.md",
     "SEM-3/MA2014-Differential Equations/Source Material/MA2014 Chapter 4 (updated).pdf",
     "SEM-3/MA2014-Differential Equations/Source Material/MA2014 Chapter 3 (updated).pdf",
     "SEM-3/MA2014-Differential Equations/Source Material/MA2014 Chapter 2 (extended).pdf",
