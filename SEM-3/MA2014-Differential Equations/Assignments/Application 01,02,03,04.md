@@ -1,10 +1,11 @@
-Let's now walk through **Application 1** in detail, with proper math formatting using **MathJax**.
 
----
-
-### **Application 1: Mass-Spring System**
+## Application 1: Mass-Spring System
 
 We are tasked with analyzing the motion of a vibrating machine using the **mass-spring model**. The differential equation that models this system is derived using **Newton’s 2nd Law**.
+
+> [!image]- Diagram
+> ![[Pasted image 20240929094104.png]]
+
 
 Given:
 - Mass of the machine: $m = 800 \, \text{lbf}$
@@ -16,11 +17,14 @@ Given:
 
 ---
 
-### **Part A: Differential Equation and Frequency of Vibration**
+### Part A: Differential Equation and Frequency of Vibration
 
 We start by applying **Newton’s 2nd Law**. The forces acting on the mass are:
 - The **restoring force** due to the spring, given by **Hooke’s Law**: $F_{\text{spring}} = -ky(t)$.
 - The **gravitational force** acting downward: $F_{\text{gravity}} = mg$.
+
+> [!image]- Diagram
+> ![[Pasted image 20240929094150.png]]
 
 From Newton’s 2nd Law:
 $$m \frac{d^2 y(t)}{dt^2} = -ky(t) + mg$$
@@ -34,7 +38,7 @@ $$m \frac{d^2 y(t)}{dt^2} + ky(t) = 0$$
 
 This is the **second-order linear differential equation** that governs the system.
 
-#### **Natural Frequency of the System**
+#### Natural Frequency of the System
 
 The general form of the harmonic oscillator equation is:
 $$\frac{d^2 y(t)}{dt^2} + \omega_n^2 y(t) = 0$$
@@ -57,91 +61,92 @@ Thus, the **natural frequency** is $\omega_n \approx 4.49 \, \text{rad/s}$.
 
 ---
 
-### **Part B: Maximum Tension in the Cable**
+### Part B: Maximum Tension in the Cable
+
+> [!image]- Diagram
+> ![[Pasted image 20240929094244.png]]
 
 The maximum tension in the cable occurs at the point of **maximum displacement** of the vibrating mass. The restoring force is:
 
-\[
+$$
 T_{\text{max}} = k \cdot y_{\text{max}}
-\]
+$$
 
 We can estimate $y_{\text{max}}$ using energy conservation. The initial kinetic energy due to the velocity $v = 20 \, \text{ft/min}$ is:
 
-\[
+$$
 KE = \frac{1}{2} m v^2
-\]
+$$
 
 First, convert the velocity to $\text{ft/s}$:
 
-\[
+$$
 v = \frac{20 \, \text{ft/min}}{60} = \frac{1}{3} \, \text{ft/s}
-\]
+$$
 
 Now, the kinetic energy is:
 
-\[
+$$
 KE = \frac{1}{2} \cdot 24.84 \cdot \left( \frac{1}{3} \right)^2 \approx 1.38 \, \text{ft-lbf}
-\]
+$$
 
 This kinetic energy is converted into potential energy stored in the spring:
 
-\[
+$$
 PE = \frac{1}{2} k y_{\text{max}}^2
-\]
+$$
 
 Equating kinetic energy to potential energy:
 
-\[
+$$
 1.38 = \frac{1}{2} \cdot 500 \cdot y_{\text{max}}^2
-\]
+$$
 
 Solving for $y_{\text{max}}$:
 
-\[
+$$
 y_{\text{max}} = \sqrt{\frac{2 \times 1.38}{500}} \approx 0.074 \, \text{ft}
-\]
+$$
 
 Now, the maximum tension in the cable is:
 
-\[
+$$
 T_{\text{max}} = 500 \cdot 0.074 \approx 37 \, \text{lbf}
-\]
+$$
 
 Thus, the **maximum tension** is $T_{\text{max}} \approx 37 \, \text{lbf}$.
 
 ---
 
-### **Part C: Maximum Stress in the Cable**
+### Part C: Maximum Stress in the Cable
 
 The **stress** in the cable is defined as the force divided by the cross-sectional area $A$:
 
-\[
+$$
 \sigma = \frac{T_{\text{max}}}{A}
-\]
+$$
 
 The cross-sectional area of the cable is:
 
-\[
+$$
 A = \pi \left( \frac{d}{2} \right)^2
-\]
+$$
 
 where $d = 0.5 \, \text{in} = 0.04167 \, \text{ft}$. Substituting into the formula:
 
-\[
+$$
 A = \pi \left( \frac{0.04167}{2} \right)^2 \approx 0.001364 \, \text{ft}^2
-\]
+$$
 
 Now, the stress is:
+$$\sigma = \frac{37}{0.001364} \approx 27,125 \, \text{psi}$$
 
-\[
-\sigma = \frac{37}{0.001364} \approx 27,125 \, \text{psi}
-\]
 
 Thus, the **maximum stress** is $\sigma \approx 27,125 \, \text{psi}$.
 
 ---
 
-### **Part D: Will the Cable Break?**
+### Part D: Will the Cable Break?
 
 The **ultimate tensile strength** (UTS) of the cable material is given as $40,000 \, \text{psi}$. Since the maximum stress we calculated is $27,125 \, \text{psi}$, which is less than the UTS, the cable **will not break**.
 
@@ -156,6 +161,8 @@ The **ultimate tensile strength** (UTS) of the cable material is given as $40,00
 
 
 ---
+
+<br>
 
 ## Application 2: Heat Flow in Soil for Wine Cellar Design
 
@@ -246,6 +253,8 @@ Differentiate $E(h)$ with respect to $h$ and set $\frac{dE}{dh} = 0$ to find the
 $\frac{dE}{dh} = 0$
 
 ---
+
+<br>
 
 ## Application 4: Beam Deflection Under Uniform Load
 

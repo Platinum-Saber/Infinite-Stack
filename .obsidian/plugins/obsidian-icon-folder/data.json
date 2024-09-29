@@ -6,6 +6,7 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "RiAppsLine",
       "SiLibreofficemath",
       "RiFolderUnknowLine",
       "RaQuillInk",
@@ -14,8 +15,7 @@
       "LiFileQuestion",
       "LiList",
       "FasPeopleGroup",
-      "RiInstanceFill",
-      "FasBriefcaseMedical"
+      "RiInstanceFill"
     ],
     "recentlyUsedIconsSize": 10,
     "rules": [],
@@ -666,5 +666,9 @@
   "SEM-3/MA2014-Differential Equations/Assignments": {
     "iconName": "SiLibreofficemath",
     "iconColor": "#fdb958"
+  },
+  "SEM-3/MA2014-Differential Equations/Assignments/Application 01,02,03,04.md": {
+    "iconName": "RiAppsLine",
+    "iconColor": "#fdbb5d"
   }
 }
