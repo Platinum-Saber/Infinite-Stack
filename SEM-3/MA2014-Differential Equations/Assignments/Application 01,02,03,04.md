@@ -52,12 +52,12 @@ The machine weighs $800 \, \text{lbf}$, which corresponds to:
 
 $$m = \frac{800 \, \text{lbf}}{32.2 \, \text{ft/s}^2} \approx 24.84 \, \text{slugs}$$
 
-Assume the spring constant $k = 500 \, \text{lbf/ft}$ (as a reasonable assumption for this type of system).
+The spring constant $k = 6000*12 \, \text{lbf/ft}$ .
 
 Now, the natural frequency is:
-$$\omega_n = \sqrt{\frac{k}{m}} = \sqrt{\frac{500}{24.84}} \approx 4.49 \, \text{rad/s}$$
+$$\omega_n = \sqrt{\frac{k}{m}} = \sqrt{\frac{6000*12}{24.84}} \approx 53.83 \, \text{rad/s}$$
 
-Thus, the **natural frequency** is $\omega_n \approx 4.49 \, \text{rad/s}$.
+Thus, the **natural frequency** is $\omega_n \approx 53.83 \, \text{rad/s}$.
 
 ---
 
