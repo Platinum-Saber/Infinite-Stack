@@ -99,22 +99,22 @@ $$
 Equating kinetic energy to potential energy:
 
 $$
-1.38 = \frac{1}{2} \cdot 500 \cdot y_{\text{max}}^2
+1.38 = \frac{1}{2} \cdot 72000 \cdot y_{\text{max}}^2
 $$
 
 Solving for $y_{\text{max}}$:
 
 $$
-y_{\text{max}} = \sqrt{\frac{2 \times 1.38}{500}} \approx 0.074 \, \text{ft}
+y_{\text{max}} = \sqrt{\frac{2 \times 1.38}{72000}} \approx 0.0062 \, \text{ft}
 $$
 
 Now, the maximum tension in the cable is:
 
 $$
-T_{\text{max}} = 500 \cdot 0.074 \approx 37 \, \text{lbf}
+T_{\text{max}} = 72000 \cdot 0.062 \ + \ 800\ \approx 1245.8 \, \text{lbf}
 $$
 
-Thus, the **maximum tension** is $T_{\text{max}} \approx 37 \, \text{lbf}$.
+Thus, the **maximum tension** is $T_{\text{max}} \approx 1245.8 \, \text{lbf}$.
 
 ---
 
