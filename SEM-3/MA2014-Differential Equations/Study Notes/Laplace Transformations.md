@@ -236,6 +236,51 @@ $$
 > 
 > Thus, $f(t) = \sin(t)$.
 
+Here’s a list of common **inverse Laplace transforms** related to **trigonometric functions** and their combinations, including expressions like $t \sin(at)$.
+
+### **1. Basic Trigonometric Inverse Laplace Transforms**
+
+- $\mathcal{L}^{-1} \left( \frac{s}{s^2 + a^2} \right) = \cos(at)$
+  
+- $\mathcal{L}^{-1} \left( \frac{a}{s^2 + a^2} \right) = \sin(at)$
+
+### **2. Inverse Laplace Transforms Involving $t \sin(at)$ and $t \cos(at)$**
+
+- $\mathcal{L}^{-1} \left( \frac{a}{(s^2 + a^2)^2} \right) = t \sin(at)$
+
+- $\mathcal{L}^{-1} \left( \frac{s}{(s^2 + a^2)^2} \right) = t \cos(at)$
+
+### **3. Inverse Laplace Transforms Involving Higher Powers of $t$**
+
+- $\mathcal{L}^{-1} \left( \frac{2a}{(s^2 + a^2)^3} \right) = t^2 \sin(at)$
+
+- $\mathcal{L}^{-1} \left( \frac{2s}{(s^2 + a^2)^3} \right) = t^2 \cos(at)$
+
+### **4. Exponential and Trigonometric Functions**
+
+- $\mathcal{L}^{-1} \left( \frac{s}{(s - b)^2 + a^2} \right) = e^{bt} \cos(at)$
+  
+- $\mathcal{L}^{-1} \left( \frac{a}{(s - b)^2 + a^2} \right) = e^{bt} \sin(at)$
+
+### **5. Damped Sine and Cosine Functions**
+
+- $\mathcal{L}^{-1} \left( \frac{s - b}{(s - b)^2 + a^2} \right) = e^{bt} \cos(at)$
+  
+- $\mathcal{L^{\text{-1}}} \left( \frac{a}{(s - b)^2 + a^2} \right) = e^{bt} \sin(at)$
+
+### **6. Inverse Laplace Transforms of Hyperbolic Functions**
+
+- $\mathcal{L}^{-1} \left( \frac{s}{s^2 - a^2} \right) = \cosh(at)$
+  
+- $\mathcal{L}^{-1} \left( \frac{a}{s^2 - a^2} \right) = \sinh(at)$
+
+---
+
+These transformations are widely used to solve **second-order differential equations** or analyze systems with periodic behavior, especially in **mechanics**, **electrical circuits**, and **control theory**. If you need more specific transformations or further clarification on how to apply them, feel free to ask!
+
+
+
+
 ## Example Questions with Answers
 
 ### Question 1:
