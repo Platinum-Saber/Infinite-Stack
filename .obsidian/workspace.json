@@ -11,8 +11,13 @@
             "id": "490ae66f72370366",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "SEM-3/MA2014-Differential Equations/Assignments/Application 01.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ]
@@ -100,7 +105,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM-3/CS3043-Database Systems/Test Questions/Quizzes/Quiz 07 Execution.md"
+                "file": "SEM-3/MA2014-Differential Equations/Assignments/Application 01.md"
               }
             }
           },
@@ -110,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM-3/CS3043-Database Systems/Test Questions/Quizzes/Quiz 07 Execution.md",
+                "file": "SEM-3/MA2014-Differential Equations/Assignments/Application 01.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,8 +159,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "671fcfcc9244e77e",
+  "active": "490ae66f72370366",
   "lastOpenFiles": [
+    "SEM-3/MA2014-Differential Equations/Assignments/Application 01.md",
+    "SEM-3/MA2014-Differential Equations/Assignments",
     "SEM-3/CS3043-Database Systems/Test Questions/MCQs/CS3043 Test Questions 07.md",
     "SEM-3/CS3043-Database Systems/Test Questions/MCQs/CS3043 Test Questions 05.md",
     "SEM-3/CS3043-Database Systems/Test Questions/MCQs/CS3043 Test Questions 04.md",
@@ -188,7 +195,6 @@
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Constraint Satisfaction Problem.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Logical Agents.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Local Search And Optimization Problems.md",
-    "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Solving Problems by Searching.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Side Notes",
     "Images/Pasted image 20240926165218.png",
     "Images/Pasted image 20240926163611.png",
@@ -198,7 +204,6 @@
     "Images/Pasted image 20240926160250.png",
     "Images/Pasted image 20240926160230.png",
     "Git/Git Utility",
-    "Git/Git Bots/Sebastian",
     "Images/Pasted image 20240926150520.png",
     "Images/Pasted image 20240921182225.png",
     "Images/Pasted image 20240917184851.png",
