@@ -65,7 +65,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM-3/CS2043-Operating Systems/Study Notes/Processes.md",
+                "file": "SEM-3/CS2043-Operating Systems/Study Notes/Untitled.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM-3/CS2043-Operating Systems/Study Notes/Processes.md"
+                "file": "SEM-3/CS2043-Operating Systems/Study Notes/Untitled.md"
               }
             }
           },
@@ -168,7 +168,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM-3/CS2043-Operating Systems/Study Notes/Processes.md",
+                "file": "SEM-3/CS2043-Operating Systems/Study Notes/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -214,12 +214,14 @@
   },
   "active": "f1585ef3806df328",
   "lastOpenFiles": [
-    "SEM-3/CS2043-Operating Systems/Study Notes/OS Introduction.md",
-    "SEM-3/CS2043-Operating Systems/Study Notes/Operating System Services.md",
-    "OS 04.md",
-    "SEM-3/CS2043-Operating Systems/Study Notes/Processes.md",
-    "OS 03.md",
     "SEM-3/CS2043-Operating Systems/Study Notes/Synchronization Tools.md",
+    "SEM-3/CS2043-Operating Systems/Study Notes/Processes.md",
+    "SEM-3/CS2043-Operating Systems/Study Notes/Operating System Services.md",
+    "SEM-3/CS2043-Operating Systems/Study Notes/OS Introduction.md",
+    "SEM-3/CS2043-Operating Systems/Study Notes/Untitled.md",
+    "SEM-3/CS2043-Operating Systems/Study Notes/System Daemons.md",
+    "OS 04.md",
+    "OS 03.md",
     "OS 02.md",
     "OS 01.md",
     "SEM-3/MA2014-Differential Equations/Assignments/Application 01,02,03,04.md",
@@ -242,9 +244,7 @@
     "SEM-3/CS3043-Database Systems/Test Questions/MCQs/CS3043 Test Questions 02.md",
     "SEM-3/CS3043-Database Systems/Test Questions/MCQs/CS3043 Test Questions 03.md",
     "SEM-3/CS3043-Database Systems/Test Questions/MCQs/CS3043 Test Questions 01.md",
-    "SEM-3/CS3043-Database Systems/Test Questions/Quizzes/Quiz 07 Execution.md",
     "SEM-3/CS3043-Database Systems/Test Questions/MCQs",
-    "SEM-3/CS3043-Database Systems/Test Questions/Quizzes/Quiz 07.md",
     "SEM-3/CS3043-Database Systems/Test Questions/Quizzes",
     "SEM-3/MA2014-Differential Equations/Source Material/H. K. Dass - Higher Engineering Mathematics (2014, S Chand & Co Ltd).pdf",
     "SEM-3/MA2014-Differential Equations/Source Material/MA2014 Chapter 4 (updated).pdf",
