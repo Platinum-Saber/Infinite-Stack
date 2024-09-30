@@ -19,8 +19,35 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "4e5b05e32f273bd3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OS 01.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0a4db16e7bb6251c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "OS 02.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -105,7 +132,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM-3/CS2043-Operating Systems/Study Notes/OS Introduction.md"
+                "file": "OS 02.md"
               }
             }
           },
@@ -115,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM-3/CS2043-Operating Systems/Study Notes/OS Introduction.md",
+                "file": "OS 02.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,10 +186,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "490ae66f72370366",
+  "active": "0a4db16e7bb6251c",
   "lastOpenFiles": [
-    "SEM-3/MA2014-Differential Equations/Assignments/Application 01,02,03,04.md",
+    "OS 01.md",
+    "OS 02.md",
     "SEM-3/CS2043-Operating Systems/Study Notes/OS Introduction.md",
+    "SEM-3/MA2014-Differential Equations/Assignments/Application 01,02,03,04.md",
     "SEM-3/CS2043-Operating Systems/Study Notes/Synchronization Tools.md",
     "SEM-3/CS2043-Operating Systems/Study Notes/Operating System Services.md",
     "Hachathons/2024 Pre-IEEE/8. Board Game Scheduling.md",
@@ -196,8 +225,6 @@
     "SEM-3/MA2014-Differential Equations/Source Material/MA2014 Chapter 2 (extended).pdf",
     "SEM-3/MA2014-Differential Equations/Source Material/MA2014 Chapter 1 ( Laplace).pdf",
     "Git/Git Bots/Sebastian/Online Hosting.md",
-    "Git/Git Bots/Sebastian/Coding The Bot.md",
-    "SEM-3/CS2033-Data Communication and Networking/Study Notes/Communication Concepts.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Side Notes",
     "Images/Pasted image 20240926165218.png",
     "Images/Pasted image 20240926163611.png",
