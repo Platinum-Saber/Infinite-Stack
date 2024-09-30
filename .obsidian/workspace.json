@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "OS 02.md",
+                "file": "SEM-3/CS2043-Operating Systems/Study Notes/Operating System Services.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -132,7 +132,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "OS 02.md"
+                "file": "SEM-3/CS2043-Operating Systems/Study Notes/Operating System Services.md"
               }
             }
           },
@@ -142,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "OS 02.md",
+                "file": "SEM-3/CS2043-Operating Systems/Study Notes/Operating System Services.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -188,8 +188,8 @@
   },
   "active": "0a4db16e7bb6251c",
   "lastOpenFiles": [
-    "OS 01.md",
     "OS 02.md",
+    "OS 01.md",
     "SEM-3/CS2043-Operating Systems/Study Notes/OS Introduction.md",
     "SEM-3/MA2014-Differential Equations/Assignments/Application 01,02,03,04.md",
     "SEM-3/CS2043-Operating Systems/Study Notes/Synchronization Tools.md",
