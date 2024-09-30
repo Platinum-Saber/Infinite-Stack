@@ -1,9 +1,3 @@
-### Study Notes: **Processes and Interprocess Communication**
-
-This comprehensive study guide will cover key concepts of **process management** and **interprocess communication (IPC)**, including examples and explanations to solidify understanding.
-
----
-
 ## **1. Process Concept**
 
 A **process** is a program in execution, and it goes through multiple stages during its lifecycle. Processes are fundamental to multitasking operating systems and require careful management.
