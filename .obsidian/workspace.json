@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM-3/MA2014-Differential Equations/Study Notes/Laplace Transformations.md",
+                "file": "SEM-3/CS2043-Operating Systems/Study Notes/OS Introduction.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -118,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM-3/MA2014-Differential Equations/Study Notes/Laplace Transformations.md"
+                "file": "SEM-3/CS2043-Operating Systems/Study Notes/OS Introduction.md"
               }
             }
           },
@@ -128,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM-3/MA2014-Differential Equations/Study Notes/Laplace Transformations.md",
+                "file": "SEM-3/CS2043-Operating Systems/Study Notes/OS Introduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,8 +174,19 @@
   },
   "active": "490ae66f72370366",
   "lastOpenFiles": [
-    "SEM-3/MA2014-Differential Equations/Assignments/Application 01,02,03,04.md",
+    "SEM-3/CS2043-Operating Systems/Study Notes/Synchronization Tools.md",
+    "SEM-3/CS2043-Operating Systems/Study Notes/OS Introduction.md",
+    "SEM-3/CS2043-Operating Systems/Study Notes/Operating System Services.md",
+    "Hachathons/2024 Pre-IEEE/8. Board Game Scheduling.md",
+    "Hachathons/2024 Pre-IEEE/7. Circular Table.md",
+    "Hachathons/2024 Pre-IEEE/6. Pizza Cutter.md",
+    "Hachathons/2024 Pre-IEEE/5. Fortress Walls.md",
+    "Hachathons/2024 Pre-IEEE/4. Holiday Struggle.md",
+    "Hachathons/2024 Pre-IEEE/3. Numbers in a Matrix.md",
+    "Hachathons/2024 Pre-IEEE/2. Radio Spying.md",
+    "Hachathons/2024 Pre-IEEE/1. XOR Game.md",
     "SEM-3/MA2014-Differential Equations/Study Notes/Laplace Transformations.md",
+    "SEM-3/MA2014-Differential Equations/Assignments/Application 01,02,03,04.md",
     "Images/Pasted image 20240929094244.png",
     "Images/Pasted image 20240929094150.png",
     "Images/Pasted image 20240929094104.png",
@@ -200,16 +211,6 @@
     "Git/Git Bots/Sebastian/Online Hosting.md",
     "Git/Git Bots/Sebastian/Coding The Bot.md",
     "SEM-3/CS2033-Data Communication and Networking/Study Notes/Communication Concepts.md",
-    "SEM-3/CS2033-Data Communication and Networking/Study Notes/Data Com. & Networking Introduction.md",
-    "SEM-3/CS2033-Data Communication and Networking/Study Notes/Data Transmission.md",
-    "SEM-3/CS2033-Data Communication and Networking/Study Notes/Transmission Media.md",
-    "SEM-3/CS2033-Data Communication and Networking/Study Notes/Encoding & Modulation.md",
-    "SEM-3/CS2053-Computer Architecture/Study Notes/Memory Hierarchy.md",
-    "SEM-3/CS2053-Computer Architecture/Study Notes/Instruction Set Architecture-RV.md",
-    "SEM-3/CS2053-Computer Architecture/Study Notes/Computer Architecture Introduction.md",
-    "SEM-3/CS3613-Introduction to Artificial Intelligence/Artificial Intelligence.md",
-    "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Constraint Satisfaction Problem.md",
-    "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Logical Agents.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Side Notes",
     "Images/Pasted image 20240926165218.png",
     "Images/Pasted image 20240926163611.png",
