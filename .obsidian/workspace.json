@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM-3/CS2043-Operating Systems/Study Notes/Operating System Services.md",
+                "file": "SEM-3/CS2043-Operating Systems/Study Notes/Processes.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -132,7 +132,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM-3/CS2043-Operating Systems/Study Notes/Operating System Services.md"
+                "file": "SEM-3/CS2043-Operating Systems/Study Notes/Processes.md"
               }
             }
           },
@@ -142,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM-3/CS2043-Operating Systems/Study Notes/Operating System Services.md",
+                "file": "SEM-3/CS2043-Operating Systems/Study Notes/Processes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -188,12 +188,13 @@
   },
   "active": "0a4db16e7bb6251c",
   "lastOpenFiles": [
+    "SEM-3/CS2043-Operating Systems/Study Notes/Synchronization Tools.md",
+    "SEM-3/CS2043-Operating Systems/Study Notes/Processes.md",
+    "SEM-3/CS2043-Operating Systems/Study Notes/Operating System Services.md",
     "OS 02.md",
     "OS 01.md",
     "SEM-3/CS2043-Operating Systems/Study Notes/OS Introduction.md",
     "SEM-3/MA2014-Differential Equations/Assignments/Application 01,02,03,04.md",
-    "SEM-3/CS2043-Operating Systems/Study Notes/Synchronization Tools.md",
-    "SEM-3/CS2043-Operating Systems/Study Notes/Operating System Services.md",
     "Hachathons/2024 Pre-IEEE/8. Board Game Scheduling.md",
     "Hachathons/2024 Pre-IEEE/7. Circular Table.md",
     "Hachathons/2024 Pre-IEEE/6. Pizza Cutter.md",
@@ -224,7 +225,6 @@
     "SEM-3/MA2014-Differential Equations/Source Material/MA2014 Chapter 3 (updated).pdf",
     "SEM-3/MA2014-Differential Equations/Source Material/MA2014 Chapter 2 (extended).pdf",
     "SEM-3/MA2014-Differential Equations/Source Material/MA2014 Chapter 1 ( Laplace).pdf",
-    "Git/Git Bots/Sebastian/Online Hosting.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Side Notes",
     "Images/Pasted image 20240926165218.png",
     "Images/Pasted image 20240926163611.png",
