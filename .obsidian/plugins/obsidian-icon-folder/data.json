@@ -674,5 +674,9 @@
   "SEM-3/CS2043-Operating Systems/Study Notes/Processes.md": {
     "iconName": "LiFile",
     "iconColor": "#71a0fe"
+  },
+  "SEM-3/CS2043-Operating Systems/Study Notes/Threads and Concurrency.md": {
+    "iconName": "LiFile",
+    "iconColor": "#5ca3ff"
   }
 }
