@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM-3/CS3043-Database Systems/Study Notes/Relational Algebra.md",
+                "file": "SEM-3/CS2043-Operating Systems/Study Notes/Synchronization Tools.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -119,7 +119,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM-3/CS3043-Database Systems/Study Notes/Relational Algebra.md"
+                "file": "SEM-3/CS2043-Operating Systems/Study Notes/Synchronization Tools.md"
               }
             }
           },
@@ -129,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM-3/CS3043-Database Systems/Study Notes/Relational Algebra.md",
+                "file": "SEM-3/CS2043-Operating Systems/Study Notes/Synchronization Tools.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,8 +175,11 @@
   },
   "active": "f06a3f00f7577371",
   "lastOpenFiles": [
-    "SEM-3/CS3043-Database Systems/Study Notes/Application Design & Development.md",
+    "SEM-3/CS2043-Operating Systems/Study Notes/Processes.md",
+    "SEM-3/CS2043-Operating Systems/Study Notes/OS Introduction.md",
+    "SEM-3/CS2043-Operating Systems/Study Notes/Operating System Services.md",
     "SEM-3/CS3043-Database Systems/Study Notes/Relational Algebra.md",
+    "SEM-3/CS3043-Database Systems/Study Notes/Application Design & Development.md",
     "SEM-3/CS3043-Database Systems/Study Notes/Database Design Using the E-R Model.md",
     "SEM-3/CS3043-Database Systems/Study Notes/Database Systems Introduction.md",
     "SEM-3/CS3043-Database Systems/Study Notes/Relational Database Design.md",
@@ -185,12 +188,9 @@
     "SEM-3/CS3043-Database Systems/Study Notes/Intermediate SQL.md",
     "OS 06.md",
     "OS 01.md",
-    "SEM-3/CS2043-Operating Systems/Study Notes/OS Introduction.md",
-    "SEM-3/CS2043-Operating Systems/Study Notes/Processes.md",
     "SEM-3/CS2043-Operating Systems/Study Notes/Threads and Concurrency.md",
     "OS 05.md",
     "SEM-3/CS2043-Operating Systems/Study Notes/Synchronization Tools.md",
-    "SEM-3/CS2043-Operating Systems/Study Notes/Operating System Services.md",
     "SEM-3/CS2043-Operating Systems/Study Notes/System Daemons.md",
     "OS 03.md",
     "OS 02.md",
