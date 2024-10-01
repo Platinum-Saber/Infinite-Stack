@@ -162,20 +162,27 @@ Informed search algorithms leverage domain-specific knowledge in the form of a *
 
 > [!NOTE]
 > **Heuristic Example**: 
-> In route-finding problems, $h(n)$ could be the straight-line distance from the current location to the goal.
+>- In route-finding problems, $h(n)$ could be the straight-line distance from the current location to the goal.
+> 
 > **Strategy**: 
-> Greedy Best-First Search expands the node that appears to be closest to the goal, i.e., the node with the smallest $h(n)$.
+>- Greedy Best-First Search expands the node that appears to be closest to the goal, i.e., the node with the smallest $h(n)$.
+> 
 > **Example Path**: 
-> Consider a pathfinding problem with cities connected by roads, and the goal is to reach Bucharest. The algorithm would expand nodes in a way that seems closest to Bucharest based on straight-line distances (even if the actual road cost is higher).
+>- Consider a pathfinding problem with cities connected by roads, and the goal is to reach Bucharest. The algorithm would expand nodes in a way that seems closest to Bucharest based on straight-line distances (even if the actual road cost is higher).
 
-**Efficiency**: 
-It is not optimal and can lead to suboptimal solutions, as shown in your example. For instance, a path might appear shorter based on the heuristic but could end up costing more in reality.
-    Example path: $Arad→Sibiu→Fagaras→Bucharest\text{Arad} \rightarrow \text{Sibiu} \rightarrow \text{Fagaras} \rightarrow \text{Bucharest}Arad→Sibiu→Fagaras→Bucharest$ with a cost of 450, while another path $(Arad→Sibiu→Rimnicu→Pitesti→Bucharest\text{Arad} \rightarrow \text{Sibiu} \rightarrow \text{Rimnicu} \rightarrow \text{Pitesti} \rightarrow \text{Bucharest}Arad→Sibiu→Rimnicu→Pitesti→Bucharest)$ would have been shorter with a cost of 418.
-**Evaluation**:
-    **Completeness**: Not complete, as it can get stuck in loops or dead ends in the tree search version.
-    **Time Complexity**: Worst-case time is $O(b^m)$, where $b$ is the branching factor and mmm is the depth of the search tree.
-    **Space Complexity**: Worst-case space complexity is also $O(b^m)$ due to storing all nodes at the frontier.
-    **Optimality**: Not optimal, as it doesn't consider the cost already incurred to reach the current node.
+> [!tip] Efficiency: 
+>- It is not optimal and can lead to suboptimal solutions, as shown in your example. For instance, a path might appear shorter based on the heuristic but could end up costing more in reality.
+>     - Example path: $Arad→Sibiu→Fagaras→Bucharest\text{Arad} \rightarrow \text{Sibiu} \rightarrow \text{Fagaras} \rightarrow \text{Bucharest}Arad→Sibiu→Fagaras→Bucharest$ with a cost of 450.
+>     - while another path $(Arad→Sibiu→Rimnicu→Pitesti→Bucharest\text{Arad} \rightarrow \text{Sibiu} \rightarrow \text{Rimnicu} \rightarrow \text{Pitesti} \rightarrow \text{Bucharest}Arad→Sibiu→Rimnicu→Pitesti→Bucharest)$ would have been shorter with a cost of 418.
+
+> [!abstract] Evaluation:
+> **Completeness**: Not complete, as it can get stuck in loops or dead ends in the tree search version.
+> 
+> **Time Complexity**: Worst-case time is $O(b^m)$, where $b$ is the branching factor and mmm is the depth of the search tree.
+> 
+> **Space Complexity**: Worst-case space complexity is also $O(b^m)$ due to storing all nodes at the frontier.
+> 
+> **Optimality**: Not optimal, as it doesn't consider the cost already incurred to reach the current node.
 
 #### 2. A* Search
 
