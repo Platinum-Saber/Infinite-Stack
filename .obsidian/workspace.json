@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM-3/CS2043-Operating Systems/Study Notes/Synchronization Tools.md",
+                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/First Order Logic.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -84,7 +84,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 341.5026054382324
+    "width": 341.5026054382324,
+    "collapsed": true
   },
   "right": {
     "id": "b2aa869acde22062",
@@ -119,7 +120,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM-3/CS2043-Operating Systems/Study Notes/Synchronization Tools.md"
+                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/First Order Logic.md"
               }
             }
           },
@@ -129,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM-3/CS2043-Operating Systems/Study Notes/Synchronization Tools.md",
+                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/First Order Logic.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,6 +176,9 @@
   },
   "active": "f06a3f00f7577371",
   "lastOpenFiles": [
+    "Images/Pasted image 20241001133920.png",
+    "SEM-3/CS2043-Operating Systems/Study Notes/Synchronization Tools.md",
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/First Order Logic.md",
     "SEM-3/CS2043-Operating Systems/Study Notes/Processes.md",
     "SEM-3/CS2043-Operating Systems/Study Notes/OS Introduction.md",
     "SEM-3/CS2043-Operating Systems/Study Notes/Operating System Services.md",
@@ -190,7 +194,6 @@
     "OS 01.md",
     "SEM-3/CS2043-Operating Systems/Study Notes/Threads and Concurrency.md",
     "OS 05.md",
-    "SEM-3/CS2043-Operating Systems/Study Notes/Synchronization Tools.md",
     "SEM-3/CS2043-Operating Systems/Study Notes/System Daemons.md",
     "OS 03.md",
     "OS 02.md",
@@ -199,8 +202,6 @@
     "Hachathons/2024 Pre-IEEE/7. Circular Table.md",
     "Hachathons/2024 Pre-IEEE/6. Pizza Cutter.md",
     "Hachathons/2024 Pre-IEEE/5. Fortress Walls.md",
-    "Hachathons/2024 Pre-IEEE/4. Holiday Struggle.md",
-    "Hachathons/2024 Pre-IEEE/3. Numbers in a Matrix.md",
     "Images/Pasted image 20240929094244.png",
     "Images/Pasted image 20240929094150.png",
     "Images/Pasted image 20240929094104.png",
