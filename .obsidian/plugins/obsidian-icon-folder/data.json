@@ -6,6 +6,7 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "LiFileCode",
       "RiStickyNoteLine",
       "RaLanternFlame",
       "LiFile",
@@ -14,8 +15,7 @@
       "RiFolderUnknowLine",
       "RaQuillInk",
       "FarFilePdf",
-      "RiBookletLine",
-      "LiFileQuestion"
+      "RiBookletLine"
     ],
     "recentlyUsedIconsSize": 10,
     "rules": [],
@@ -690,5 +690,17 @@
   "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Side Notes/Heuristic Functions.md": {
     "iconName": "RiStickyNoteLine",
     "iconColor": "#67e5fe"
+  },
+  "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Side Notes/Greedy Best-First Search.md": {
+    "iconName": "LiFileCode",
+    "iconColor": "#5ce4ff"
+  },
+  "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Side Notes/Other Variants.md": {
+    "iconName": "LiFileCode",
+    "iconColor": "#5ce4ff"
+  },
+  "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Side Notes/A(asterisk) Search.md": {
+    "iconName": "LiFileCode",
+    "iconColor": "#52ebff"
   }
 }

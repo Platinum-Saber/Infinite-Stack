@@ -4,37 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "3e604bfa7cd65fb0",
+        "id": "f42a877d07a9792e",
         "type": "tabs",
         "children": [
           {
-            "id": "54bc25aba85bfb07",
+            "id": "1b01cfcbe0e3cc1d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM-3/CS3043-Database Systems/Study Notes/Relational Database Design.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f06a3f00f7577371",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Solving Problems by Searching.md",
+                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Side Notes/Hill Climbing Algorithm.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -119,7 +105,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Solving Problems by Searching.md"
+                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Side Notes/Hill Climbing Algorithm.md"
               }
             }
           },
@@ -129,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Solving Problems by Searching.md",
+                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Side Notes/Hill Climbing Algorithm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -173,17 +159,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f06a3f00f7577371",
+  "active": "1b01cfcbe0e3cc1d",
   "lastOpenFiles": [
-    "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Side Notes/A(asterisk) Search.md",
-    "Untitled.md",
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Local Search And Optimization Problems.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Solving Problems by Searching.md",
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Side Notes/Other Variants.md",
+    "Untitled.md",
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Side Notes/A(asterisk) Search.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Side Notes/Greedy Best-First Search.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Side Notes/Uniform-cost Search.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Side Notes/Heuristic Functions.md",
     "SEM-3/CS3043-Database Systems/Study Notes/Relational Database Design.md",
     "Kuppi",
-    "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Local Search And Optimization Problems.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Logical Agents.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Side Notes/Breadth-first Search.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Side Notes/Depth-first Search.md",
@@ -203,7 +190,6 @@
     "SEM-3/CS3043-Database Systems/Study Notes/Introduction to SQL.md",
     "SEM-3/CS3043-Database Systems/Study Notes/Advanced SQL.md",
     "SEM-3/CS3043-Database Systems/Study Notes/Intermediate SQL.md",
-    "Kuppi/OS 06.md",
     "Images/Pasted image 20240929094244.png",
     "Images/Pasted image 20240929094150.png",
     "Images/Pasted image 20240929094104.png",

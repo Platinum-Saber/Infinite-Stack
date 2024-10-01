@@ -14,7 +14,18 @@ Reference Note : [Searching](file:///E:%5CAcademics%5CSEM%203%5CCS3613-Introduct
 
 > [!file]- Lecture Note : chapter 3
 > ![[03 Searching.pdf]]
+
+---
 <br>
+
+# Content
+- [[#Problem Solving Agents]]
+	- [[#Problem Solving Process]]
+	- [[#Search Problems and Solutions]]
+- [[#Search Algorithms]]
+	- [[#Measuring Problem-Solving Performance]]
+	- [[#Uninformed Search Algorithms]]
+	- [[#Informed Search algorithms]]
 
 ## Problem Solving Agents
 >[!abstract] Functionality of a **Problem-Solving Agent** 👨‍💼
@@ -203,7 +214,7 @@ Informed search algorithms leverage domain-specific knowledge in the form of a [
 > [!example] Example: 
 > In the same route-finding problem, A* would expand nodes considering both the actual cost to reach them and the estimated cost to reach Bucharest, ensuring it finds the optimal path.
 
-#### 3. Other Variants
+#### 3. [[Other Variants]]
 
 ##### 1. Bidirectional A_ Search:
 	
