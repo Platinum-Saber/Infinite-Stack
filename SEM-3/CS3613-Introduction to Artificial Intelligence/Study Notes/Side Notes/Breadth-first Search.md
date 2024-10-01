@@ -8,7 +8,8 @@ About: Note generated using GPT on breadth-first Search algorithm
 ---
 
 
-Breadth-First Search (BFS) is one of the simplest and most fundamental **uninformed search algorithms**. BFS explores all nodes at the present depth level before moving on to nodes at the next depth level. It is particularly effective for finding the shortest path in an unweighted graph, where all edges have the same cost.
+> [!NOTE]
+> Breadth-First Search (BFS) is one of the simplest and most fundamental **uninformed search algorithms**. BFS explores all nodes at the present depth level before moving on to nodes at the next depth level. It is particularly effective for finding the shortest path in an unweighted graph, where all edges have the same cost.
 
 ### Key Characteristics of BFS:
 

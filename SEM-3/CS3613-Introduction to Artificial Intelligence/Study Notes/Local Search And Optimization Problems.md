@@ -10,7 +10,7 @@ About: Based on CS3613-Lecture 05 Local Search & Optimization Problems
 ---
 ---
 Related : #AI #AI/04 #SearchAlgorithms #LocalSearch
-
+Previously : [[Solving Problems by Searching]]
 Reference Lecture : 
 Reference Note : [Local Search](file:///E:%5CAcademics%5CSEM%203%5CCS3613-Introduction%20to%20Artificial%20Intelligence%5CLecture%20note%5C04%20Local_Search.pdf)
 
