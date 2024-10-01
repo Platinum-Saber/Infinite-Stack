@@ -186,26 +186,37 @@ Informed search algorithms leverage domain-specific knowledge in the form of a *
 
 #### 2. A* Search
 
-- **Idea**: A* improves upon Greedy Best-First Search by considering both the cost to reach a node and the estimated cost to reach the goal from that node.
-- **Evaluation Function**: The evaluation function is f(n)=g(n)+h(n)f(n) = g(n) + h(n)f(n)=g(n)+h(n), where:
-    - g(n)g(n)g(n): The actual cost to reach node nnn from the start node.
-    - h(n)h(n)h(n): The heuristic estimate of the cost from node nnn to the goal.
-- **Optimality**: If the heuristic h(n)h(n)h(n) is **admissible** (i.e., it never overestimates the cost to reach the goal), A* is guaranteed to be optimal. This is because A* prioritizes nodes that have the lowest total cost, combining the actual cost incurred so far g(n)g(n)g(n) and the estimated remaining cost h(n)h(n)h(n).
-- **Efficiency**: A* is both **complete** (will always find a solution if one exists) and **optimal** when h(n)h(n)h(n) is admissible. However, it suffers from **bad space complexity** because it stores all generated nodes in memory, which can become a problem for large search spaces.
-- **Example**: In the same route-finding problem, A* would expand nodes considering both the actual cost to reach them and the estimated cost to reach Bucharest, ensuring it finds the optimal path.
+> [!NOTE] Idea:
+> A* improves upon Greedy Best-First Search by considering both the cost to reach a node and the estimated cost to reach the goal from that node.
+
+> [!equation] Evaluation Function: 
+> The evaluation function is $f(n)=g(n)+h(n)$, where:
+> - $g(n)$: The actual cost to reach node $n$ from the start node.
+> - $h(n$): The heuristic estimate of the cost from node $n$ to the goal.
+
+> [!info] Optimality: 
+> If the heuristic $h(n)$ is **admissible** (i.e., it never overestimates the cost to reach the goal), A* is guaranteed to be optimal. This is because A* prioritizes nodes that have the lowest total cost, combining the actual cost incurred so far $g(n)$ and the estimated remaining cost $h(n).$
+
+> [!tip] Efficiency: 
+> A* is both **complete** (will always find a solution if one exists) and **optimal** when $h(n)$ is admissible. However, it suffers from **bad space complexity** because it stores all generated nodes in memory, which can become a problem for large search spaces.
+
+> [!example] Example: 
+> In the same route-finding problem, A* would expand nodes considering both the actual cost to reach them and the estimated cost to reach Bucharest, ensuring it finds the optimal path.
 
 #### 3. Other Variants
 
-1. __Bidirectional A_ Search_*:
+##### 1. Bidirectional A_ Search:
+	    
+- Instead of searching from the start node to the goal, Bidirectional A* searches from both the start and the goal simultaneously, meeting somewhere in between.
+- **Efficiency**: It can be more efficient than A* as it reduces the number of nodes expanded by halving the search space.
+
+##### 2. Iterative Deepening A_ (IDA_):
     
-    - Instead of searching from the start node to the goal, Bidirectional A* searches from both the start and the goal simultaneously, meeting somewhere in between.
-    - **Efficiency**: It can be more efficient than A* as it reduces the number of nodes expanded by halving the search space.
-2. __Iterative Deepening A_ (IDA_)**:
-    
-    - **Goal**: It addresses A*’s high space complexity by combining the ideas of **iterative deepening** and A*.
-    - **How it Works**: It performs a depth-first search up to a certain cost limit and increases this limit iteratively, similar to how iterative deepening search works but with A*'s evaluation function.
-    - **Efficiency**: Solves the space complexity problem while still being complete and optimal.
-3. **Beam Search**:
+- **Goal**: It addresses A*’s high space complexity by combining the ideas of **iterative deepening** and A*.
+- **How it Works**: It performs a depth-first search up to a certain cost limit and increases this limit iteratively, similar to how iterative deepening search works but with A*'s evaluation function.
+- **Efficiency**: Solves the space complexity problem while still being complete and optimal.
+
+1. **Beam Search**:
     
     - **Idea**: It limits the size of the frontier (the set of nodes under consideration) to a fixed number of nodes.
     - **Efficiency**: Beam Search is efficient in terms of time and space, but it is **incomplete** and **suboptimal** because it may discard good paths due to the size limit on the frontier.
