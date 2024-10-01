@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Side Notes/Hill Climbing Algorithm.md",
+                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Side Notes/Local Beam Search.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -105,7 +105,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Side Notes/Hill Climbing Algorithm.md"
+                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Side Notes/Local Beam Search.md"
               }
             }
           },
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Side Notes/Hill Climbing Algorithm.md",
+                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Side Notes/Local Beam Search.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,14 +161,18 @@
   },
   "active": "1b01cfcbe0e3cc1d",
   "lastOpenFiles": [
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Side Notes/Hill Climbing Algorithm.md",
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Side Notes/Heuristic Functions.md",
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Side Notes/Greedy Best-First Search.md",
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Side Notes/Genetic Algorithms.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Local Search And Optimization Problems.md",
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Side Notes/Local Beam Search.md",
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Side Notes/Simulated Annealing Algorithm.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Solving Problems by Searching.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Side Notes/Other Variants.md",
     "Untitled.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Side Notes/A(asterisk) Search.md",
-    "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Side Notes/Greedy Best-First Search.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Side Notes/Uniform-cost Search.md",
-    "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Side Notes/Heuristic Functions.md",
     "SEM-3/CS3043-Database Systems/Study Notes/Relational Database Design.md",
     "Kuppi",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Logical Agents.md",
@@ -186,10 +190,6 @@
     "SEM-3/CS3043-Database Systems/Study Notes/Relational Algebra.md",
     "SEM-3/CS3043-Database Systems/Study Notes/Application Design & Development.md",
     "SEM-3/CS3043-Database Systems/Study Notes/Database Design Using the E-R Model.md",
-    "SEM-3/CS3043-Database Systems/Study Notes/Database Systems Introduction.md",
-    "SEM-3/CS3043-Database Systems/Study Notes/Introduction to SQL.md",
-    "SEM-3/CS3043-Database Systems/Study Notes/Advanced SQL.md",
-    "SEM-3/CS3043-Database Systems/Study Notes/Intermediate SQL.md",
     "Images/Pasted image 20240929094244.png",
     "Images/Pasted image 20240929094150.png",
     "Images/Pasted image 20240929094104.png",

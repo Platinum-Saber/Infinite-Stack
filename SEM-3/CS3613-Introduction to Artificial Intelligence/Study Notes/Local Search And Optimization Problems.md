@@ -100,7 +100,7 @@ Reference Note : [Local Search](file:///E:%5CAcademics%5CSEM%203%5CCS3613-Introd
 - Combines hill climbing with random moves to avoid local maxima by *occasionally* **allowing worse moves**, with a probability that decreases over time.
 #### [[Local Beam Search]]
 - Keeps track of **multiple states** (k states) and explores their neighbors, selecting the best k successors.
-#### [[Generic Algorithms]]
+#### [[Genetic Algorithms]]
 - Inspired by natural evolution, this method generates successors by **combining** *two parent states* using operations like **crossover** and **mutation**.
 
 

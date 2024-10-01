@@ -603,10 +603,6 @@
     "iconName": "LiFileCode",
     "iconColor": "#7ce3fd"
   },
-  "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Side Notes/Generic Algorithms.md": {
-    "iconName": "LiFileCode",
-    "iconColor": "#6fe4fb"
-  },
   "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Side Notes/Hill Climbing Algorithm.md": {
     "iconName": "LiFileCode",
     "iconColor": "#73e1f7"
@@ -702,5 +698,9 @@
   "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Side Notes/A(asterisk) Search.md": {
     "iconName": "LiFileCode",
     "iconColor": "#52ebff"
+  },
+  "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Side Notes/Genetic Algorithms.md": {
+    "iconName": "LiFileCode",
+    "iconColor": "#6fe4fb"
   }
 }
