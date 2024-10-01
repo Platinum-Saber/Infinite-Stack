@@ -153,9 +153,9 @@ Reference Note : [Searching](file:///E:%5CAcademics%5CSEM%203%5CCS3613-Introduct
 
 ### Informed Search algorithms
 
-Informed search algorithms leverage domain-specific knowledge in the form of a **heuristic function** to make the search process more efficient compared to uninformed search methods. This heuristic function h(n)h(n)h(n) estimates the cost of the cheapest path from a given node nnn to a goal state. Let's dive into some of the key algorithms that fall under this category.
+Informed search algorithms leverage domain-specific knowledge in the form of a [[Heuristic Functions]] to make the search process more efficient compared to uninformed search methods. This heuristic function $h(n)$ estimates the cost of the cheapest path from a given node $n$ to a goal state. Let's dive into some of the key algorithms that fall under this category.
 
-#### 1. Greedy Best-First Search
+#### 1. [[Greedy Best-First Search]]
 
 > [!info] Idea: 
 > It uses a simple evaluation function $f(n)=h(n)$, where $h(n)$ is the heuristic estimate of the cost from the current node $n$ to the goal.
@@ -184,7 +184,7 @@ Informed search algorithms leverage domain-specific knowledge in the form of a *
 > 
 > **Optimality**: Not optimal, as it doesn't consider the cost already incurred to reach the current node.
 
-#### 2. A* Search
+#### 2. [[A(asterisk) Search]]
 
 > [!NOTE] Idea:
 > A* improves upon Greedy Best-First Search by considering both the cost to reach a node and the estimated cost to reach the goal from that node.
@@ -206,7 +206,7 @@ Informed search algorithms leverage domain-specific knowledge in the form of a *
 #### 3. Other Variants
 
 ##### 1. Bidirectional A_ Search:
-	    
+	
 - Instead of searching from the start node to the goal, Bidirectional A* searches from both the start and the goal simultaneously, meeting somewhere in between.
 - **Efficiency**: It can be more efficient than A* as it reduces the number of nodes expanded by halving the search space.
 
@@ -216,11 +216,11 @@ Informed search algorithms leverage domain-specific knowledge in the form of a *
 - **How it Works**: It performs a depth-first search up to a certain cost limit and increases this limit iteratively, similar to how iterative deepening search works but with A*'s evaluation function.
 - **Efficiency**: Solves the space complexity problem while still being complete and optimal.
 
-1. **Beam Search**:
+##### 3. Beam Search:
     
-    - **Idea**: It limits the size of the frontier (the set of nodes under consideration) to a fixed number of nodes.
-    - **Efficiency**: Beam Search is efficient in terms of time and space, but it is **incomplete** and **suboptimal** because it may discard good paths due to the size limit on the frontier.
-    - **Use**: It’s often used when finding an approximate solution quickly is more important than finding the optimal solution.
+- **Idea**: It limits the size of the frontier (the set of nodes under consideration) to a fixed number of nodes.
+- **Efficiency**: Beam Search is efficient in terms of time and space, but it is **incomplete** and **suboptimal** because it may discard good paths due to the size limit on the frontier.
+- **Use**: It’s often used when finding an approximate solution quickly is more important than finding the optimal solution.
 
 ****
 

@@ -6,6 +6,7 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "RiStickyNoteLine",
       "RaLanternFlame",
       "LiFile",
       "RiAppsLine",
@@ -14,8 +15,7 @@
       "RaQuillInk",
       "FarFilePdf",
       "RiBookletLine",
-      "LiFileQuestion",
-      "LiList"
+      "LiFileQuestion"
     ],
     "recentlyUsedIconsSize": 10,
     "rules": [],
@@ -686,5 +686,9 @@
   "Kuppi": {
     "iconName": "RaLanternFlame",
     "iconColor": "#ffaa33"
+  },
+  "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Side Notes/Heuristic Functions.md": {
+    "iconName": "RiStickyNoteLine",
+    "iconColor": "#67e5fe"
   }
 }

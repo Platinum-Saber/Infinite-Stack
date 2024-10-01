@@ -32,19 +32,6 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "184a9b92e81a7bda",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Heuristics.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
           }
         ],
         "currentTab": 1
@@ -188,15 +175,18 @@
   },
   "active": "f06a3f00f7577371",
   "lastOpenFiles": [
-    "Heuristics.md",
-    "SEM-3/CS3043-Database Systems/Study Notes/Relational Database Design.md",
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Side Notes/A(asterisk) Search.md",
+    "Untitled.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Solving Problems by Searching.md",
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Side Notes/Greedy Best-First Search.md",
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Side Notes/Uniform-cost Search.md",
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Side Notes/Heuristic Functions.md",
+    "SEM-3/CS3043-Database Systems/Study Notes/Relational Database Design.md",
     "Kuppi",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Local Search And Optimization Problems.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Logical Agents.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Side Notes/Breadth-first Search.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Side Notes/Depth-first Search.md",
-    "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Side Notes/Uniform-cost Search.md",
     "Full Stack Development/Backend Development/Setting Up .ENV 1.md",
     "Full Stack Development/Backend Development/Setting Up .ENV.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/First Order Logic.md",
@@ -214,8 +204,6 @@
     "SEM-3/CS3043-Database Systems/Study Notes/Advanced SQL.md",
     "SEM-3/CS3043-Database Systems/Study Notes/Intermediate SQL.md",
     "Kuppi/OS 06.md",
-    "Kuppi/OS 01.md",
-    "SEM-3/CS2043-Operating Systems/Study Notes/Threads and Concurrency.md",
     "Images/Pasted image 20240929094244.png",
     "Images/Pasted image 20240929094150.png",
     "Images/Pasted image 20240929094104.png",

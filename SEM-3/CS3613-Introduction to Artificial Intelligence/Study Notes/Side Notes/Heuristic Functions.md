@@ -1,4 +1,4 @@
-## Heuristic Function
+## Heuristics
 
 > [!NOTE] Definition
 > A **heuristic function** is a key component in informed search algorithms. It estimates the cost or distance from a given state to the goal state, guiding the search to find a solution efficiently. A good heuristic provides "hints" to steer the algorithm in the right direction, reducing the number of nodes that need to be expanded. Heuristic functions are denoted as $h(n)$, where $n$ is the current node or state.
