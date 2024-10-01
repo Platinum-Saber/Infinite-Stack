@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM-3/CS3043-Database Systems/Study Notes/Relational Algebra.md",
+                "file": "SEM-3/CS3043-Database Systems/Study Notes/Relational Database Design.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -105,7 +105,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM-3/CS3043-Database Systems/Study Notes/Relational Algebra.md"
+                "file": "SEM-3/CS3043-Database Systems/Study Notes/Relational Database Design.md"
               }
             }
           },
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM-3/CS3043-Database Systems/Study Notes/Relational Algebra.md",
+                "file": "SEM-3/CS3043-Database Systems/Study Notes/Relational Database Design.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,6 +161,7 @@
   },
   "active": "54bc25aba85bfb07",
   "lastOpenFiles": [
+    "SEM-3/CS3043-Database Systems/Study Notes/Relational Algebra.md",
     "SEM-3/CS3043-Database Systems/Study Notes/Database Systems Introduction.md",
     "SEM-3/CS3043-Database Systems/Study Notes/Database Design Using the E-R Model.md",
     "SEM-3/CS3043-Database Systems/Study Notes/Application Design & Development.md",
@@ -186,7 +187,6 @@
     "Hachathons/2024 Pre-IEEE/4. Holiday Struggle.md",
     "Hachathons/2024 Pre-IEEE/3. Numbers in a Matrix.md",
     "Hachathons/2024 Pre-IEEE/2. Radio Spying.md",
-    "Hachathons/2024 Pre-IEEE/1. XOR Game.md",
     "Images/Pasted image 20240929094244.png",
     "Images/Pasted image 20240929094150.png",
     "Images/Pasted image 20240929094104.png",
