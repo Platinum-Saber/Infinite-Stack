@@ -6,6 +6,7 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "RaLanternFlame",
       "LiFile",
       "RiAppsLine",
       "SiLibreofficemath",
@@ -14,8 +15,7 @@
       "FarFilePdf",
       "RiBookletLine",
       "LiFileQuestion",
-      "LiList",
-      "FasPeopleGroup"
+      "LiList"
     ],
     "recentlyUsedIconsSize": 10,
     "rules": [],
@@ -682,5 +682,9 @@
   "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/First Order Logic.md": {
     "iconName": "LiFile",
     "iconColor": "#e0ff70"
+  },
+  "Kuppi": {
+    "iconName": "RaLanternFlame",
+    "iconColor": "#ffaa33"
   }
 }
