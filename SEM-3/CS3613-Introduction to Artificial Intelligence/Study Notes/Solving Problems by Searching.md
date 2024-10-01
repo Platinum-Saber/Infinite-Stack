@@ -151,6 +151,51 @@ Reference Note : [Searching](file:///E:%5CAcademics%5CSEM%203%5CCS3613-Introduct
 
 <br>
 
+### Informed Search algorithms
+
+Informed search algorithms leverage domain-specific knowledge in the form of a **heuristic function** to make the search process more efficient compared to uninformed search methods. This heuristic function h(n)h(n)h(n) estimates the cost of the cheapest path from a given node nnn to a goal state. Let's dive into some of the key algorithms that fall under this category.
+
+#### 1. Greedy Best-First Search
+
+- **Idea**: It uses a simple evaluation function $f(n)=h(n)$, where $h(n)$ is the heuristic estimate of the cost from the current node $n$ to the goal.
+- **Heuristic Example**: In route-finding problems, $h(n)$ could be the straight-line distance from the current location to the goal.
+- **Strategy**: Greedy Best-First Search expands the node that appears to be closest to the goal, i.e., the node with the smallest $h(n)$.
+- **Example Path**: Consider a pathfinding problem with cities connected by roads, and the goal is to reach Bucharest. The algorithm would expand nodes in a way that seems closest to Bucharest based on straight-line distances (even if the actual road cost is higher).
+- **Efficiency**: It is not optimal and can lead to suboptimal solutions, as shown in your example. For instance, a path might appear shorter based on the heuristic but could end up costing more in reality.
+    - Example path: $Arad→Sibiu→Fagaras→Bucharest\text{Arad} \rightarrow \text{Sibiu} \rightarrow \text{Fagaras} \rightarrow \text{Bucharest}Arad→Sibiu→Fagaras→Bucharest$ with a cost of 450, while another path $(Arad→Sibiu→Rimnicu→Pitesti→Bucharest\text{Arad} \rightarrow \text{Sibiu} \rightarrow \text{Rimnicu} \rightarrow \text{Pitesti} \rightarrow \text{Bucharest}Arad→Sibiu→Rimnicu→Pitesti→Bucharest)$ would have been shorter with a cost of 418.
+- **Evaluation**:
+    - **Completeness**: Not complete, as it can get stuck in loops or dead ends in the tree search version.
+    - **Time Complexity**: Worst-case time is O(bm)O(b^m)O(bm), where bbb is the branching factor and mmm is the depth of the search tree.
+    - **Space Complexity**: Worst-case space complexity is also O(bm)O(b^m)O(bm) due to storing all nodes at the frontier.
+    - **Optimality**: Not optimal, as it doesn't consider the cost already incurred to reach the current node.
+
+#### 2. A* Search
+
+- **Idea**: A* improves upon Greedy Best-First Search by considering both the cost to reach a node and the estimated cost to reach the goal from that node.
+- **Evaluation Function**: The evaluation function is f(n)=g(n)+h(n)f(n) = g(n) + h(n)f(n)=g(n)+h(n), where:
+    - g(n)g(n)g(n): The actual cost to reach node nnn from the start node.
+    - h(n)h(n)h(n): The heuristic estimate of the cost from node nnn to the goal.
+- **Optimality**: If the heuristic h(n)h(n)h(n) is **admissible** (i.e., it never overestimates the cost to reach the goal), A* is guaranteed to be optimal. This is because A* prioritizes nodes that have the lowest total cost, combining the actual cost incurred so far g(n)g(n)g(n) and the estimated remaining cost h(n)h(n)h(n).
+- **Efficiency**: A* is both **complete** (will always find a solution if one exists) and **optimal** when h(n)h(n)h(n) is admissible. However, it suffers from **bad space complexity** because it stores all generated nodes in memory, which can become a problem for large search spaces.
+- **Example**: In the same route-finding problem, A* would expand nodes considering both the actual cost to reach them and the estimated cost to reach Bucharest, ensuring it finds the optimal path.
+
+#### 3. Other Variants
+
+1. __Bidirectional A_ Search_*:
+    
+    - Instead of searching from the start node to the goal, Bidirectional A* searches from both the start and the goal simultaneously, meeting somewhere in between.
+    - **Efficiency**: It can be more efficient than A* as it reduces the number of nodes expanded by halving the search space.
+2. __Iterative Deepening A_ (IDA_)**:
+    
+    - **Goal**: It addresses A*’s high space complexity by combining the ideas of **iterative deepening** and A*.
+    - **How it Works**: It performs a depth-first search up to a certain cost limit and increases this limit iteratively, similar to how iterative deepening search works but with A*'s evaluation function.
+    - **Efficiency**: Solves the space complexity problem while still being complete and optimal.
+3. **Beam Search**:
+    
+    - **Idea**: It limits the size of the frontier (the set of nodes under consideration) to a fixed number of nodes.
+    - **Efficiency**: Beam Search is efficient in terms of time and space, but it is **incomplete** and **suboptimal** because it may discard good paths due to the size limit on the frontier.
+    - **Use**: It’s often used when finding an approximate solution quickly is more important than finding the optimal solution.
+
 ****
 
 <br>
