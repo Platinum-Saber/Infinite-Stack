@@ -64,6 +64,10 @@ Here is a comprehensive study note in markdown format based on the **First Order
 - **Relations**: Set of tuples representing relations between objects.
 - **Functions**: Must be total functions, providing output for all possible inputs.
 
+> [!image]- Diagram 
+> ![[Pasted image 20241001134425.png]]
+
+
 ---
 
 ## 5. Symbols and Interpretations
