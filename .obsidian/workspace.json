@@ -21,6 +21,19 @@
             }
           },
           {
+            "id": "de34a61038d25a32",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SEM-3/CS3043-Database Systems/Study Notes/Introduction to SQL.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "a92d171b492a0668",
             "type": "leaf",
             "state": {
@@ -174,8 +187,9 @@
   },
   "active": "1b01cfcbe0e3cc1d",
   "lastOpenFiles": [
-    "SEM-3/CS3043-Database Systems/Study Notes/Intermediate SQL.md",
+    "SEM-3/CS3043-Database Systems/Study Notes/Introduction to SQL.md",
     "SEM-3/CS3043-Database Systems/Study Notes/Advanced SQL.md",
+    "SEM-3/CS3043-Database Systems/Study Notes/Intermediate SQL.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/First Order Logic.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Logical Agents.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Constraint Satisfaction Problem.md",
@@ -202,7 +216,6 @@
     "SEM-3/CS2043-Operating Systems/Study Notes/Synchronization Tools.md",
     "SEM-3/CS2043-Operating Systems/Study Notes/Processes.md",
     "SEM-3/CS2043-Operating Systems/Study Notes/OS Introduction.md",
-    "SEM-3/CS2043-Operating Systems/Study Notes/Operating System Services.md",
     "Images/Pasted image 20240929094244.png",
     "Images/Pasted image 20240929094150.png",
     "Images/Pasted image 20240929094104.png",
