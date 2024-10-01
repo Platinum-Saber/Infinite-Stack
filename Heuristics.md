@@ -6,18 +6,20 @@
 ### 1. Properties of Heuristic Functions
 
 > [!info]  Admissibility: 
->    A heuristic is **admissible** if it never overestimates the cost to reach the goal from any node. In other words:
->    $$
->    h(n) \leq h^*(n)
->    $$
->    Where $h^*(n)$ is the true cost from node $ n $ to the goal. Admissibility ensures that algorithms like **A\*** find the optimal solution because the search is not "fooled" by overestimated costs.
+>    A heuristic is **admissible** if it never overestimates the cost to reach the goal from any node. 
+> >[!equation] In other words:
+> >    $$
+> >    h(n) \leq h^*(n)
+> >$$
+>    Where $h^*(n)$ is the true cost from node $n$ to the goal. Admissibility ensures that algorithms like **A\*** find the optimal solution because the search is not "fooled" by overestimated costs.
 
 
 > [!info] Consistency (or Monotonicity):
->    A heuristic is **consistent** if for every node $n$ and its neighbor $n'$, the following condition holds:
->    $$
->    h(n) \leq c(n, n') + h(n')
->    $$
+>    A heuristic is **consistent** if for every node $n$ and its neighbor $n'$, 
+> >[!equation] the following condition holds:
+> >    $$
+> >    h(n) \leq c(n, n') + h(n')
+> >    $$
 >    Where $c(n, n')$ is the cost of transitioning from node $n$ to node $n'$. Consistency implies that as you move closer to the goal, the estimated cost $h(n)$ gets smaller or stays the same, ensuring optimality in A* search.
 
 > [!info] Informedness:
@@ -30,17 +32,17 @@
 #### 1. Straight-Line Distance (Euclidean Distance)
 In route-finding problems, the **straight-line distance** (SLD) between two points is a common heuristic. It gives an optimistic estimate of the actual travel distance, assuming no obstacles.
 
-Example:
-- In the context of the Romania route-finding problem (finding the shortest path between cities), the straight-line distance between two cities (e.g., from Arad to Bucharest) is a common heuristic.
+> [!example]-  Example:
+> - In the context of the Romania route-finding problem (finding the shortest path between cities), the straight-line distance between two cities (e.g., from Arad to Bucharest) is a common heuristic.
 
 #### 2. Manhattan Distance
 In grid-based pathfinding, **Manhattan distance** is the sum of the absolute differences in the x and y coordinates between two points. It assumes movement is restricted to a grid, like a city with perpendicular streets.
 
-Formula:
-$$
-h(n) = |x_1 - x_2| + |y_1 - y_2|
-$$
-Where $(x_1, y_1)$ and $(x_2, y_2)$ are the coordinates of two points.
+> [!equation] Formula:
+> $$
+> h(n) = |x_1 - x_2| + |y_1 - y_2|
+> $$
+>Where $(x_1, y_1)$ and $(x_2, y_2)$ are the coordinates of two points.
 
 #### 3. Hamming Distance
 In problems like the **8-puzzle** or string matching, the **Hamming distance** counts the number of misplaced tiles (or characters) compared to the goal state. It's a simple heuristic that estimates how far you are from the solution based on the number of wrong placements.
@@ -60,42 +62,47 @@ In problems like the **8-puzzle** or string matching, the **Hamming distance** c
 > ```
 > The Hamming distance is 2, because 5 and 6 are misplaced.
 
-#### 4. **Misplaced Tiles Heuristic** (For Puzzle Problems)
+#### 4. Misplaced Tiles Heuristic (For Puzzle Problems)
 This heuristic counts how many tiles are in the wrong position in a sliding tile puzzle like the 8-puzzle. It’s simple and admissible but not always very informed.
 
-#### 5. **Manhattan Distance for Puzzle Problems**
+#### 5. Manhattan Distance for Puzzle Problems
 The **Manhattan distance** heuristic can also be used for sliding tile puzzles. It computes the sum of the horizontal and vertical distances each tile is from its goal position. This tends to be more informed than counting misplaced tiles.
 
-Example for an 8-puzzle:
-If the goal state is:
-```
-1 2 3
-4 5 6
-7 8 0
-```
-and the current state is:
-```
-1 2 3
-4 6 5
-7 8 0
-```
-The Manhattan distance would be 2 (as tile 6 and tile 5 each need to move one step).
+> [!example]- Example for an 8-puzzle:
+> If the goal state is:
+> ```
+> 1 2 3
+> 4 5 6
+> 7 8 0
+> ```
+> and the current state is:
+> ```
+> 1 2 3
+> 4 6 5
+> 7 8 0
+> ```
+> The Manhattan distance would be 2 (as tile 6 and tile 5 each need to move one step).
+> 
 
-#### 6. **Chebyshev Distance**
+#### 6. Chebyshev Distance
 In chess or grid-based pathfinding where diagonal movements are allowed, the **Chebyshev distance** is a suitable heuristic. It is the maximum of the absolute differences between the x and y coordinates.
 
-Formula:
-$$
-h(n) = \max(|x_1 - x_2|, |y_1 - y_2|)
-$$
+> [!equation] Formula:
+> $$
+> h(n) = \max(|x_1 - x_2|, |y_1 - y_2|)
+> $$
+> 
 
 ---
 
 ### How Heuristics Influence Search Algorithms
 
-- **Greedy Best-First Search**: This algorithm uses the heuristic $h(n)$ to select the next node that appears closest to the goal. However, since it only considers the heuristic and ignores the cost so far, it may find suboptimal solutions.
-  
-- **A* Search**: A* combines the actual cost $g(n)$ and the heuristic estimate $h(n)$ in the evaluation function $f(n) = g(n) + h(n)$. This allows A* to find the optimal solution, provided the heuristic is admissible.
+> [!math] Greedy Best-First Search: 
+> This algorithm uses the heuristic $h(n)$ to select the next node that appears closest to the goal. However, since it only considers the heuristic and ignores the cost so far, it may find suboptimal solutions.
+
+> [!math] A* Search: 
+> A* combines the actual cost $g(n)$ and the heuristic estimate $h(n)$ in the evaluation function $f(n) = g(n) + h(n)$. This allows A* to find the optimal solution, provided the heuristic is admissible.
+> 
 
 ---
 

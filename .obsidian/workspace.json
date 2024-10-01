@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled.md",
+                "file": "Heuristics.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -47,7 +47,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -132,7 +132,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled.md"
+                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Solving Problems by Searching.md"
               }
             }
           },
@@ -142,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled.md",
+                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Solving Problems by Searching.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,11 +186,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "671fcfcc9244e77e",
+  "active": "f06a3f00f7577371",
   "lastOpenFiles": [
+    "Heuristics.md",
     "Kuppi",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Solving Problems by Searching.md",
-    "Untitled.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Local Search And Optimization Problems.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Logical Agents.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Side Notes/Breadth-first Search.md",
@@ -233,7 +233,6 @@
     "Images/Pasted image 20240926163158.png",
     "Images/Pasted image 20240926160610.png",
     "Images/Pasted image 20240926160404.png",
-    "Git/Git Utility",
     "Work Space.canvas",
     "Untitled.canvas"
   ]
