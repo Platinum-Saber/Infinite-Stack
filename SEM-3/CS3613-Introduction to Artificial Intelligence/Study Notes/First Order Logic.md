@@ -184,3 +184,4 @@ Here is a comprehensive study note in markdown format based on the **First Order
 - **First Order Logic** is more expressive than propositional logic, allowing objects, relations, and quantifiers to describe facts about the world.
 
 ---
+
