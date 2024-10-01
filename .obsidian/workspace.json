@@ -11,13 +11,8 @@
             "id": "1b01cfcbe0e3cc1d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Side Notes/Local Beam Search.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -104,9 +99,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Side Notes/Local Beam Search.md"
-              }
+              "state": {}
             }
           },
           {
@@ -115,7 +108,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Side Notes/Local Beam Search.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -161,26 +153,27 @@
   },
   "active": "1b01cfcbe0e3cc1d",
   "lastOpenFiles": [
-    "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Side Notes/Hill Climbing Algorithm.md",
-    "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Side Notes/Heuristic Functions.md",
-    "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Side Notes/Greedy Best-First Search.md",
-    "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Side Notes/Genetic Algorithms.md",
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/First Order Logic.md",
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Logical Agents.md",
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Constraint Satisfaction Problem.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Local Search And Optimization Problems.md",
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Side Notes/Genetic Algorithms.md",
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Side Notes/Greedy Best-First Search.md",
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Side Notes/Heuristic Functions.md",
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Side Notes/Hill Climbing Algorithm.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Side Notes/Local Beam Search.md",
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Side Notes/Other Variants.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Side Notes/Simulated Annealing Algorithm.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Solving Problems by Searching.md",
-    "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Side Notes/Other Variants.md",
     "Untitled.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Side Notes/A(asterisk) Search.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Side Notes/Uniform-cost Search.md",
     "SEM-3/CS3043-Database Systems/Study Notes/Relational Database Design.md",
     "Kuppi",
-    "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Logical Agents.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Side Notes/Breadth-first Search.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Side Notes/Depth-first Search.md",
     "Full Stack Development/Backend Development/Setting Up .ENV 1.md",
     "Full Stack Development/Backend Development/Setting Up .ENV.md",
-    "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/First Order Logic.md",
     "Images/Pasted image 20241001134425.png",
     "Images/Pasted image 20241001133920.png",
     "SEM-3/CS2043-Operating Systems/Study Notes/Synchronization Tools.md",
@@ -189,7 +182,6 @@
     "SEM-3/CS2043-Operating Systems/Study Notes/Operating System Services.md",
     "SEM-3/CS3043-Database Systems/Study Notes/Relational Algebra.md",
     "SEM-3/CS3043-Database Systems/Study Notes/Application Design & Development.md",
-    "SEM-3/CS3043-Database Systems/Study Notes/Database Design Using the E-R Model.md",
     "Images/Pasted image 20240929094244.png",
     "Images/Pasted image 20240929094150.png",
     "Images/Pasted image 20240929094104.png",

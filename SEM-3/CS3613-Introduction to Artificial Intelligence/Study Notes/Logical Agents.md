@@ -328,3 +328,5 @@ We start by negating $P$ (i.e., adding $\neg P$) and proceed with resolution:
 Thus, we have derived a contradiction, meaning $P$ is true.
 
 
+---
+Up Next : [[First Order Logic]]
