@@ -65,7 +65,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kuppi/OS 01.md",
+                "file": "SEM-3/CS3043-Database Systems/Study Notes/Intermediate SQL.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Kuppi/OS 01.md"
+                "file": "SEM-3/CS3043-Database Systems/Study Notes/Intermediate SQL.md"
               }
             }
           },
@@ -168,7 +168,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Kuppi/OS 01.md",
+                "file": "SEM-3/CS3043-Database Systems/Study Notes/Intermediate SQL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -213,6 +213,9 @@
   },
   "active": "c9a063bd318c5b04",
   "lastOpenFiles": [
+    "SEM-3/CS3043-Database Systems/Study Notes/Advanced SQL.md",
+    "SEM-3/CS3043-Database Systems/Study Notes/Introduction to SQL.md",
+    "Kuppi/OS 01.md",
     "SEM-3/CS2043-Operating Systems/Study Notes/OS Introduction.md",
     "SEM-3/CS2043-Operating Systems/Study Notes/Operating System Services.md",
     "SEM-3/CS2043-Operating Systems/Study Notes/System Daemons.md",
@@ -225,11 +228,8 @@
     "Kuppi/OS 05.md",
     "Kuppi/OS 03.md",
     "Kuppi/OS 02.md",
-    "Kuppi/OS 01.md",
     "Git/Git Bots/Sebastian/Online Hosting.md",
     "SEM-3/CS3043-Database Systems/Study Notes/Intermediate SQL.md",
-    "SEM-3/CS3043-Database Systems/Study Notes/Advanced SQL.md",
-    "SEM-3/CS3043-Database Systems/Study Notes/Introduction to SQL.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/First Order Logic.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Logical Agents.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Constraint Satisfaction Problem.md",
