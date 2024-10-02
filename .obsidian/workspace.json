@@ -39,7 +39,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled.md",
+                "file": "Kuppi/OS 06.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3de0a2fbe254795d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SEM-3/CS2043-Operating Systems/Operating Systems.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -47,7 +60,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -132,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled.md"
+                "file": "SEM-3/CS2043-Operating Systems/Operating Systems.md"
               }
             }
           },
@@ -142,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled.md",
+                "file": "SEM-3/CS2043-Operating Systems/Operating Systems.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,10 +199,19 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a92d171b492a0668",
+  "active": "3de0a2fbe254795d",
   "lastOpenFiles": [
+    "SEM-3/CS2043-Operating Systems/Study Notes/Synchronization Tools.md",
+    "SEM-3/CS2043-Operating Systems/Operating Systems.md",
+    "SEM-3/CS2043-Operating Systems/Study Notes/OS Introduction.md",
+    "SEM-3/CS2043-Operating Systems/Study Notes/Operating System Services.md",
+    "Synchronization.md",
+    "CPU Scheduling.md",
     "Kuppi/OS 06.md",
-    "Untitled.md",
+    "Kuppi/OS 05.md",
+    "Kuppi/OS 03.md",
+    "Kuppi/OS 02.md",
+    "Kuppi/OS 01.md",
     "Git/Git Bots/Sebastian/Online Hosting.md",
     "SEM-3/CS3043-Database Systems/Study Notes/Intermediate SQL.md",
     "SEM-3/CS3043-Database Systems/Study Notes/Advanced SQL.md",
@@ -205,18 +227,9 @@
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Side Notes/Local Beam Search.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Side Notes/Other Variants.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Side Notes/Simulated Annealing Algorithm.md",
-    "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Solving Problems by Searching.md",
-    "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Side Notes/A(asterisk) Search.md",
-    "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Side Notes/Uniform-cost Search.md",
-    "SEM-3/CS3043-Database Systems/Study Notes/Relational Database Design.md",
     "Kuppi",
-    "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Side Notes/Breadth-first Search.md",
-    "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Side Notes/Depth-first Search.md",
-    "Full Stack Development/Backend Development/Setting Up .ENV 1.md",
-    "Full Stack Development/Backend Development/Setting Up .ENV.md",
     "Images/Pasted image 20241001134425.png",
     "Images/Pasted image 20241001133920.png",
-    "SEM-3/CS2043-Operating Systems/Study Notes/Synchronization Tools.md",
     "Images/Pasted image 20240929094244.png",
     "Images/Pasted image 20240929094150.png",
     "Images/Pasted image 20240929094104.png",

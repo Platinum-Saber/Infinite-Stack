@@ -1,4 +1,4 @@
-# Operating System Services: Comprehensive Study Notes
+
 
 ## 1. **Introduction to Operating System Services**
 Operating systems (OS) provide an essential environment for programs and users to execute tasks. These services are crucial for ensuring smooth execution, managing resources, and enhancing user experience.
