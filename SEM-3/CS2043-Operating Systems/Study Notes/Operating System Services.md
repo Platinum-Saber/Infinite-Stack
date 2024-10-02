@@ -1,30 +1,33 @@
+Related : #OS #OS/02 #SystemServices
+Reference Note :
 
-
-## 1. **Introduction to Operating System Services**
+## 1. Introduction to Operating System Services
 Operating systems (OS) provide an essential environment for programs and users to execute tasks. These services are crucial for ensuring smooth execution, managing resources, and enhancing user experience.
 
-### **Key Services Provided by an Operating System:**
-- **User Interface (UI)**: The system provides a UI that can be:
-  - **Command-Line Interface (CLI)**: Users input commands directly.
-  - **Graphical User Interface (GUI)**: Users interact with icons, windows, and menus.
-  - **Touch Interface**: Common in mobile devices, using gestures for interaction.
+### Key Services Provided by an Operating System:
+
+> [!NOTE] User Interface (UI)
+> The system provides a UI that can be:
+>-  **Command-Line Interface (CLI)**: Users input commands directly.
+>-   **Graphical User Interface (GUI)**: Users interact with icons, windows, and menus.
+>-  **Touch Interface**: Common in mobile devices, using gestures for interaction.
 
 ---
 
-## 2. **Operating System Functions**
+## 2. Operating System Functions
 
-### 2.1. **Program Execution**
+### 2.1. Program Execution
 The OS is responsible for loading programs into memory and executing them. It manages program execution from start to finish, including normal and abnormal (error) terminations.
 
-### 2.2. **I/O Operations**
+### 2.2. I/O Operations
 Programs often require input/output (I/O) operations. The OS provides mechanisms to perform I/O with files and devices efficiently.
 
-### 2.3. **File-System Manipulation**
+### 2.3. File-System Manipulation
 The OS manages files and directories by allowing operations such as creating, deleting, reading, and writing files. It also controls file permissions and access.
 
 **Example**: Windows Explorer for file manipulation through the GUI or `cp`, `mv` commands in UNIX for CLI-based file operations.
 
-### 2.4. **Communications**
+### 2.4. Communications
 - **Purpose**: Facilitates communication between processes either on the same computer or across networks.
 - **Methods**:
   - **Shared Memory**: Multiple processes share a portion of memory.
@@ -32,20 +35,20 @@ The OS manages files and directories by allowing operations such as creating, de
 
 **Example**: Socket programming in networking allows two systems to communicate over a network.
 
-### 2.5. **Error Detection**
+### 2.5. Error Detection
 The OS must constantly monitor the system for possible errors in hardware, I/O devices, or software programs. When an error is detected, it takes appropriate action to ensure the system remains stable.
 
 **Example**: Disk read errors can result in log entries that the OS can use for diagnostics.
 
-### 2.6. **Resource Allocation**
+### 2.6. Resource Allocation
 When multiple processes or users are running concurrently, the OS must allocate resources efficiently, including CPU time, memory, and I/O devices.
 
 **Example**: A multi-user environment where each user needs CPU time and memory for their tasks.
 
-### 2.7. **Logging and Accounting**
+### 2.7. Logging and Accounting
 The OS logs resource usage to track how much of each resource (CPU, memory, I/O) is used by each process or user. This can be used for auditing or billing in environments where resources are billed.
 
-### 2.8. **Protection and Security**
+### 2.8. Protection and Security
 Protection and security services ensure that unauthorized users or processes do not access the system’s resources. This is especially important in multi-user systems where data confidentiality is key.
 
 **Example**: User authentication through passwords or biometric data.

@@ -65,8 +65,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM-3/CS3043-Database Systems/Study Notes/Intermediate SQL.md",
-                "mode": "preview",
+                "file": "SEM-3/CS2043-Operating Systems/Study Notes/Operating System Services.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM-3/CS3043-Database Systems/Study Notes/Intermediate SQL.md"
+                "file": "SEM-3/CS2043-Operating Systems/Study Notes/Operating System Services.md"
               }
             }
           },
@@ -168,7 +168,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM-3/CS3043-Database Systems/Study Notes/Intermediate SQL.md",
+                "file": "SEM-3/CS2043-Operating Systems/Study Notes/Operating System Services.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -213,23 +213,24 @@
   },
   "active": "c9a063bd318c5b04",
   "lastOpenFiles": [
+    "SEM-3/CS2043-Operating Systems/Study Notes/OS Introduction.md",
+    "SEM-3/CS2043-Operating Systems/Study Notes/Synchronization Tools.md",
+    "SEM-3/CS2043-Operating Systems/Study Notes/Processes.md",
+    "SEM-3/CS2043-Operating Systems/Study Notes/Operating System Services.md",
+    "SEM-3/CS3043-Database Systems/Study Notes/Intermediate SQL.md",
     "SEM-3/CS3043-Database Systems/Study Notes/Advanced SQL.md",
     "SEM-3/CS3043-Database Systems/Study Notes/Introduction to SQL.md",
     "Kuppi/OS 01.md",
-    "SEM-3/CS2043-Operating Systems/Study Notes/OS Introduction.md",
-    "SEM-3/CS2043-Operating Systems/Study Notes/Operating System Services.md",
     "SEM-3/CS2043-Operating Systems/Study Notes/System Daemons.md",
     "SEM-3/CS2043-Operating Systems/Operating Systems.md",
     "SEM-3/CS2043-Operating Systems/Study Notes/CPU Scheduling.md",
     "SEM-3/CS2043-Operating Systems/Study Notes/Synchronization.md",
     "SEM-3/CS2043-Operating Systems/Study Notes/Deadlocks.md",
-    "SEM-3/CS2043-Operating Systems/Study Notes/Synchronization Tools.md",
     "Kuppi/OS 06.md",
     "Kuppi/OS 05.md",
     "Kuppi/OS 03.md",
     "Kuppi/OS 02.md",
     "Git/Git Bots/Sebastian/Online Hosting.md",
-    "SEM-3/CS3043-Database Systems/Study Notes/Intermediate SQL.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/First Order Logic.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Logical Agents.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Constraint Satisfaction Problem.md",
@@ -238,7 +239,6 @@
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Side Notes/Greedy Best-First Search.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Side Notes/Heuristic Functions.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Side Notes/Hill Climbing Algorithm.md",
-    "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Side Notes/Local Beam Search.md",
     "Kuppi",
     "Images/Pasted image 20241001134425.png",
     "Images/Pasted image 20241001133920.png",
