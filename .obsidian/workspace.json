@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git/Git Bots/Sebastian/Online Hosting.md",
+                "file": "Untitled.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -132,7 +132,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git/Git Bots/Sebastian/Online Hosting.md"
+                "file": "Untitled.md"
               }
             }
           },
@@ -142,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git/Git Bots/Sebastian/Online Hosting.md",
+                "file": "Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -188,6 +188,9 @@
   },
   "active": "a92d171b492a0668",
   "lastOpenFiles": [
+    "Kuppi/OS 06.md",
+    "Untitled.md",
+    "Git/Git Bots/Sebastian/Online Hosting.md",
     "SEM-3/CS3043-Database Systems/Study Notes/Intermediate SQL.md",
     "SEM-3/CS3043-Database Systems/Study Notes/Advanced SQL.md",
     "SEM-3/CS3043-Database Systems/Study Notes/Introduction to SQL.md",
@@ -203,7 +206,6 @@
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Side Notes/Other Variants.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Side Notes/Simulated Annealing Algorithm.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Solving Problems by Searching.md",
-    "Untitled.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Side Notes/A(asterisk) Search.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Side Notes/Uniform-cost Search.md",
     "SEM-3/CS3043-Database Systems/Study Notes/Relational Database Design.md",
@@ -215,8 +217,6 @@
     "Images/Pasted image 20241001134425.png",
     "Images/Pasted image 20241001133920.png",
     "SEM-3/CS2043-Operating Systems/Study Notes/Synchronization Tools.md",
-    "SEM-3/CS2043-Operating Systems/Study Notes/Processes.md",
-    "SEM-3/CS2043-Operating Systems/Study Notes/OS Introduction.md",
     "Images/Pasted image 20240929094244.png",
     "Images/Pasted image 20240929094150.png",
     "Images/Pasted image 20240929094104.png",
