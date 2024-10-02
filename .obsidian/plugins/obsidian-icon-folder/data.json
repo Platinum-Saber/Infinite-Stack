@@ -702,5 +702,8 @@
   "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Side Notes/Genetic Algorithms.md": {
     "iconName": "LiFileCode",
     "iconColor": "#6fe4fb"
-  }
+  },
+  "SEM-3/CS2043-Operating Systems/Study Notes/Synchronization.md": "LiFile",
+  "SEM-3/CS2043-Operating Systems/Study Notes/Deadlocks.md": "LiFile",
+  "SEM-3/CS2043-Operating Systems/Study Notes/CPU Scheduling.md": "LiFile"
 }

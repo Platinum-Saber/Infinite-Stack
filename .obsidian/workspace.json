@@ -65,7 +65,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CPU Scheduling.md",
+                "file": "SEM-3/CS2043-Operating Systems/Study Notes/OS Introduction.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CPU Scheduling.md"
+                "file": "SEM-3/CS2043-Operating Systems/Study Notes/OS Introduction.md"
               }
             }
           },
@@ -168,7 +168,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CPU Scheduling.md",
+                "file": "SEM-3/CS2043-Operating Systems/Study Notes/OS Introduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -191,12 +191,11 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 254.5,
-    "collapsed": true
+    "width": 254.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -214,13 +213,14 @@
   },
   "active": "c9a063bd318c5b04",
   "lastOpenFiles": [
-    "Synchronization.md",
-    "Deadlocks.md",
+    "SEM-3/CS2043-Operating Systems/Study Notes/Operating System Services.md",
+    "SEM-3/CS2043-Operating Systems/Study Notes/System Daemons.md",
     "SEM-3/CS2043-Operating Systems/Operating Systems.md",
+    "SEM-3/CS2043-Operating Systems/Study Notes/CPU Scheduling.md",
+    "SEM-3/CS2043-Operating Systems/Study Notes/Synchronization.md",
+    "SEM-3/CS2043-Operating Systems/Study Notes/Deadlocks.md",
     "SEM-3/CS2043-Operating Systems/Study Notes/Synchronization Tools.md",
     "SEM-3/CS2043-Operating Systems/Study Notes/OS Introduction.md",
-    "SEM-3/CS2043-Operating Systems/Study Notes/Operating System Services.md",
-    "CPU Scheduling.md",
     "Kuppi/OS 06.md",
     "Kuppi/OS 05.md",
     "Kuppi/OS 03.md",
@@ -239,7 +239,6 @@
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Side Notes/Heuristic Functions.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Side Notes/Hill Climbing Algorithm.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Side Notes/Local Beam Search.md",
-    "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Side Notes/Other Variants.md",
     "Kuppi",
     "Images/Pasted image 20241001134425.png",
     "Images/Pasted image 20241001133920.png",
