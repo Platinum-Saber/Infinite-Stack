@@ -123,7 +123,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 275.51103591918945
+    "width": 275.51103591918945,
+    "collapsed": true
   },
   "right": {
     "id": "b2aa869acde22062",
@@ -195,7 +196,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 254.5
+    "width": 254.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -213,6 +215,7 @@
   },
   "active": "c9a063bd318c5b04",
   "lastOpenFiles": [
+    "Images/Pasted image 20241002234720.png",
     "SEM-3/CS2043-Operating Systems/Study Notes/OS Introduction.md",
     "SEM-3/CS2043-Operating Systems/Study Notes/Synchronization Tools.md",
     "SEM-3/CS2043-Operating Systems/Study Notes/Processes.md",
@@ -238,7 +241,6 @@
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Side Notes/Genetic Algorithms.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Side Notes/Greedy Best-First Search.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Side Notes/Heuristic Functions.md",
-    "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Side Notes/Hill Climbing Algorithm.md",
     "Kuppi",
     "Images/Pasted image 20241001134425.png",
     "Images/Pasted image 20241001133920.png",
