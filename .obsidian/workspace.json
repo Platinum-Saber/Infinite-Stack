@@ -191,7 +191,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -211,7 +211,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c9a063bd318c5b04",
+  "active": "c8f82ee658583365",
   "lastOpenFiles": [
     "SEM-3/CS2043-Operating Systems/Study Notes/Operating System Services.md",
     "SEM-3/CS2043-Operating Systems/Study Notes/System Daemons.md",
