@@ -52,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM-3/CS2043-Operating Systems/Study Notes/Operating System Services.md",
+                "file": "SEM-3/CS3043-Database Systems/Study Notes/Advanced SQL.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -110,8 +110,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 275.51103591918945,
-    "collapsed": true
+    "width": 275.51103591918945
   },
   "right": {
     "id": "b2aa869acde22062",
@@ -146,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM-3/CS2043-Operating Systems/Study Notes/Operating System Services.md"
+                "file": "SEM-3/CS3043-Database Systems/Study Notes/Advanced SQL.md"
               }
             }
           },
@@ -156,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM-3/CS2043-Operating Systems/Study Notes/Operating System Services.md",
+                "file": "SEM-3/CS3043-Database Systems/Study Notes/Advanced SQL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -202,8 +201,8 @@
   },
   "active": "c9a063bd318c5b04",
   "lastOpenFiles": [
-    "Kuppi/OS 06.md",
     "SEM-3/CS2043-Operating Systems/Study Notes/Operating System Services.md",
+    "Kuppi/OS 06.md",
     "SEM-3/CS2043-Operating Systems/Operating Systems.md",
     "SEM-3/CS2043-Operating Systems/Study Notes/Processes.md",
     "SEM-3/CS2043-Operating Systems/Study Notes/Threads and Concurrency.md",
