@@ -31,7 +31,8 @@ If a series of questions are answered by a human and a machine, when the interro
 >- Computer vision (to perceive the world)
 >- Robotics (for mobility)
 
-<br>
+<div class="page-break" style="page-break-before: always;"></div>
+
 <br>
 
 ### Thinking humanly (The cognitive modeling approach)
