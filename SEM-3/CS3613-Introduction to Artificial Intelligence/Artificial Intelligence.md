@@ -5,4 +5,5 @@
 4. [[Local Search And Optimization Problems]]
 5. [[Constraint Satisfaction Problem]]
 6. [[Logical Agents]]
-7. 
+7. [[Knowledge Representation]]
+8. 

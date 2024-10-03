@@ -705,5 +705,9 @@
   },
   "SEM-3/CS2043-Operating Systems/Study Notes/Synchronization.md": "LiFile",
   "SEM-3/CS2043-Operating Systems/Study Notes/Deadlocks.md": "LiFile",
-  "SEM-3/CS2043-Operating Systems/Study Notes/CPU Scheduling.md": "LiFile"
+  "SEM-3/CS2043-Operating Systems/Study Notes/CPU Scheduling.md": "LiFile",
+  "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Knowledge Representation.md": {
+    "iconName": "LiFile",
+    "iconColor": "#dcff5c"
+  }
 }
