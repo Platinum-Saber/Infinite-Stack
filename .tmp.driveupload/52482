@@ -1,0 +1,251 @@
+
+---
+# Matrix Manipulation Problem
+
+Alice has $N$ integer numbers between $0$ and $2^M - 1$. She decided to build a matrix $A$ of size $N \times M$, where the $i_th$ row is equal to the binary representation of the $i_th$ number. Given the matrix $A$, Alice can perform an unlimited number of operations of the type:
+
+* Pick any row or column, and change the value of all the elements from $0$ to $1$, and from $1$ to $0$.
+
+After performing the operations, Alice takes each row $i$ of $A$ and reinterprets it as an integer value $V_i$ (the first column corresponds to the most significant bit). The goal of Alice is to maximize the sum of all the $N$ numbers she gets in the end. Formally, she wants to maximize the value of $\sum_{i=1}^N V_i$.
+
+## Standard input
+
+The first line contains the two integers $N$ and $M$, the dimensions of $A$.
+
+Each of the following $N$ lines contains an array of $M$ integers, representing the matrix $A$. Each integer is either $0$ or $1$.
+
+## Standard output
+
+Print a single number representing the maximum sum $\sum_{i=1}^N V_i$ you can get after performing any number of operations.
+
+## Constraints and notes
+
+* $1 \leq N, M \leq 50$
+
+
+> [!code]- Sample Inputs, Outputs
+> 
+> #### Input 1
+> ```
+> 3 3
+> 1 0 0
+> 1 0 0
+> 0 1 1
+> ```
+> 
+> #### Output 1
+> ```
+> 21
+> ```
+> 
+> #### Explanation 1
+> Flip the first column:
+> ```
+> 0 0 0
+> 0 0 0
+> 1 1 1
+> ```
+> 
+> Flip the first and second row:
+> ```
+> 1 1 1
+> 1 1 1
+> 1 1 1
+> ```
+> 
+> We get a sum of $3 \times (4 + 2 + 1) = 21$
+> 
+> #### Input 2
+> ```
+> 3 3
+> 1 1 0
+> 0 1 1
+> 1 0 1
+> ```
+> 
+> #### Output 2
+> ```
+> 18
+> ```
+> 
+> #### Explanation 2
+> Flip the second column:
+> ```
+> 1 0 0
+> 0 0 1
+> 1 1 1
+> ```
+> 
+> Flip the third column:
+> ```
+> 1 0 1
+> 0 0 0
+> 1 1 0
+> ```
+> 
+> Flip the second row:
+> ```
+> 1 0 1
+> 1 1 1
+> 1 1 0
+> ```
+> 
+> We get a sum of $(4 + 1) + (4 + 2 + 1) + (4 + 2) = 18$
+> 
+> #### Input 3
+> ```
+> 4 2
+> 0 1
+> 0 0
+> 0 1
+> 0 0
+> ```
+> 
+> #### Output 3
+> ```
+> 10
+> ```
+> 
+> #### Explanation 3
+> Just flip the first column:
+> ```
+> 1 1
+> 1 0
+> 1 1
+> 1 0
+> ```
+> 
+> We get $(2 + 1) + (2) + (2 + 1) + (2) = 10$
+> 
+> #### Input 4
+> ```
+> 3 4
+> 0 1 1 1 
+> 1 1 0 0 
+> 0 1 1 1 
+> ```
+> 
+> #### Output 4
+> ```
+> 41
+> ```
+> 
+> #### Explanation 4
+> Flip the first column:
+> ```
+> 1 1 1 1
+> 0 1 0 0
+> 1 1 1 1
+> ```
+> 
+> Flip the second row:
+> ```
+> 1 1 1 1
+> 1 0 1 1
+> 1 1 1 1
+> ```
+> 
+> We get $(8 + 4 + 2 + 1) + (8 + 2 + 1) + (8 + 4 + 2 + 1) = 41$
+> 
+> 
+
+## Partial Solution by **Charismatic Chars**
+```cpp
+#include <iostream>
+#include <vector>
+
+using namespace std;
+
+// Function to ensure the MSB is 1 for all rows
+void MSB_rectifier(vector<vector<int>> &matrix, int N, int M)
+{
+    // Optimize the first column
+    for (int i = 0; i < N; i++)
+    {
+        if (matrix[i][0] == 0)
+        {
+            // Flip the entire row
+            for (int j = 0; j < M; j++)
+            {
+                matrix[i][j] = 1 - matrix[i][j];
+            }
+        }
+    }
+}
+
+// Function to optimize the remaining columns
+void column_rectifier(vector<vector<int>> &matrix, int N, int M)
+{
+    for (int j = 1; j < M; j++)
+    {
+        int ones = 0;
+        int zeros = 0;
+        for (int i = 0; i < N; i++)
+        {
+            if (matrix[i][j] == 1)
+            {
+                ones++;
+            }
+            else
+            {
+                zeros++;
+            }
+        }
+
+        // If more zeros than ones, flip the entire column
+        if (zeros > ones)
+        {
+            for (int i = 0; i < N; i++)
+            {
+                matrix[i][j] = 1 - matrix[i][j];
+            }
+        }
+    }
+}
+
+// Function to maximize the sum
+int maximizeSum(vector<vector<int>> &matrix, int N, int M)
+{
+    MSB_rectifier(matrix, N, M);
+    column_rectifier(matrix, N, M);
+
+    // Calculate the maximum sum
+    int totalSum = 0;
+    for (int i = 0; i < N; i++)
+    {
+        int rowValue = 0;
+        for (int j = 0; j < M; j++)
+        {
+            rowValue = rowValue * 2 + matrix[i][j]; // Binary to decimal conversion
+        }
+        totalSum += rowValue;
+    }
+
+    return totalSum;
+}
+
+int main()
+{
+    int N, M;
+
+    // Input dimensions of the matrix
+    cin >> N >> M;
+
+    // Initialize the matrix with the given dimensions
+    vector<vector<int>> matrix(N, vector<int>(M));
+
+    // Input the matrix
+    for (int i = 0; i < N; i++)
+    {
+        for (int j = 0; j < M; j++)
+        {
+            cin >> matrix[i][j];
+        }
+    }
+
+    // Output the maximum sum
+    cout << maximizeSum(matrix, N, M) << endl;
+
+    return 0;
+}
+```

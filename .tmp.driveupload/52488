@@ -1,0 +1,76 @@
+
+---
+You are given an integer sequence **A** of length **N**. You are requested to answer to **Q** queries of the following type:
+
+- Given **a** and **b**, compute the [Bitwise XOR](https://en.wikipedia.org/wiki/Bitwise_operation#:~:text=A%20bitwise%20XOR%20is%20a,0%20or%20both%20are%201.) of all the elements of **A** in the range of positions $[a,b]$.
+
+Can you compute them efficiently?
+
+## Standard input
+
+- The first line of input contains two integers N and Q, the number of integers in the sequence and queries, respectively.
+- The second line of input contains N integers $A_i​$, the $i^{th}$ integer is the $i^{th}$ element of the sequence.
+- The following Q lines contain two integers a and b, that describe the range of positions for the corresponding query.
+
+## Standard output
+
+- For each query, print the Bitwise XOR of all the elements of A in the range of positions given.
+
+## Constraints and notes
+
+- $1≤N,Q≤10^5$.
+- $0≤Ai≤10^5$.
+- $1≤a≤b≤N$for each query.
+
+> [!code]- Input
+> ```
+> 8 3
+>2 5 1 5 6 1 2 9
+>3 4
+>1 6
+>3 6
+>```
+
+> [!code]- Output
+> ```
+> 4
+> 4
+> 3
+> ```
+
+## Solution by **Charismatic Chars**
+```cpp
+#include <iostream>
+#include <vector>
+using namespace std;
+int main()
+{
+    int N, Q;
+    vector<int> result;
+    cin >> N >> Q;
+    vector<int> arr(N + 1), prefix_xor(N + 1, 0);
+
+    // Reading the array A
+    for (int i = 1; i <= N; i++)
+    {
+        cin >> arr[i];
+        prefix_xor[i] = prefix_xor[i - 1] ^ arr[i];
+    }
+
+    // Processing each query
+    while (Q--)
+    {
+        int a, b;
+        cin >> a >> b;
+        // Answer XOR for the range [a, b]
+        result.push_back(prefix_xor[b] ^ prefix_xor[a - 1]);
+    }
+
+    for (size_t i = 0; i < result.size(); i++)
+    {
+        cout << result[i] << endl;
+    }
+    return 0;
+}
+```
+
