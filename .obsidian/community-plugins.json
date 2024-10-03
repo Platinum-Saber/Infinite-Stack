@@ -16,5 +16,6 @@
   "obsidian-git",
   "obsidian-plugin-toc",
   "obsidian-latex-suite",
-  "obsidian-annotator"
+  "obsidian-annotator",
+  "better-export-pdf"
 ]
