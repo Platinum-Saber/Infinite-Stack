@@ -23,6 +23,8 @@ If a series of questions are answered by a human and a machine, when the interro
 >- Human intelligence isn't the only form of intelligence.
 >![[Pasted image 20240624105841.png]]
 
+<div class="page-break" style="page-break-before: always;"></div>
+
 >[!example]- Major components of AI
 >- Natural language processing (to communicate)
 >- Knowledge representation (to store what it learns)
@@ -30,8 +32,6 @@ If a series of questions are answered by a human and a machine, when the interro
 >- Machine learning (to adapt to new circumstances and to detect and extrapolate patterns)
 >- Computer vision (to perceive the world)
 >- Robotics (for mobility)
-
-<div class="page-break" style="page-break-before: always;"></div>
 
 <br>
 
@@ -60,7 +60,8 @@ If a series of questions are answered by a human and a machine, when the interro
 > - Computationally intensive (Even a problem with a few dozen facts can exhaust any computer unless it’s guided as to which reasoning steps to try first.)
 
 <br>
-<br>
+
+<div class="page-break" style="page-break-before: always;"></div>
 
 ### Acting Rationally (The rational agent approach)
 >[!FAQ]- What is an Agent 
@@ -94,7 +95,9 @@ If a series of questions are answered by a human and a machine, when the interro
 >Hence partial rationality is used for ease of implementation
 
 <br>
-<br>
+
+<div class="page-break" style="page-break-before: always;"></div>
+
 
 #### Foundations of AI
 >[!check]-  philosophy 

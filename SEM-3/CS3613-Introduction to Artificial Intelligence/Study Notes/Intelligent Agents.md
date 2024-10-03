@@ -27,7 +27,8 @@ Related : #AI #AI/02 #Agents
 >[!tip] The effectiveness of the agent program is measured through a **performance measure**
 
 <br>
-<br>
+
+<div class="page-break" style="page-break-before: always;"></div>
 
 ### Performance Measures
 >[!FAQ]- What is a **Performance Measure**
@@ -59,7 +60,8 @@ Related : #AI #AI/02 #Agents
 >[!tip] A rational agent always does the *right thing*
 
 <br>
-<br>
+
+<div class="page-break" style="page-break-before: always;"></div>
 
 ### Omniscience, Learning, and Autonomy
 >[!info]- Omniscience
@@ -77,7 +79,8 @@ Related : #AI #AI/02 #Agents
 >[!tip] If an agents actions depend more on knowledge of the environment that has been built in by the designer is **Less autonomous **
 
 <br>
-<br>
+
+<div class="page-break" style="page-break-before: always;"></div>
 
 ### Task Environment
 >[!FAQ]- What is a **Task Environment**
@@ -95,6 +98,8 @@ Related : #AI #AI/02 #Agents
 >[!tip] The first step of designing an agent must always be to specify the task environment as fully as possible.
 
 <br>
+
+<div class="page-break" style="page-break-before: always;"></div>
 
 #### Properties of Task Environments
 1. >[!note]- Single Agent 🆚 Multi Agent
@@ -132,6 +137,8 @@ Related : #AI #AI/02 #Agents
 <br>
 <br>
 
+<div class="page-break" style="page-break-before: always;"></div>
+
 # The Structure of Agents
 >[!FAQ]- What is an **Agent Program**
 >The mapping of the percepts to action.
@@ -150,7 +157,7 @@ Related : #AI #AI/02 #Agents
 >- Goal - based agents
 >- Utility - based agents
 
-<br>
+<div class="page-break" style="page-break-before: always;"></div>
 
 >[!note]- **Simple Reflex Agent**
 >- Simplest kind of agent.
@@ -170,6 +177,8 @@ Related : #AI #AI/02 #Agents
 >
 >![[Pasted image 20240708110207.png]]
 
+<div class="page-break" style="page-break-before: always;"></div>
+
 >[!note]- **Goal-based Agents**
 >- Combines **prior knowledge** and **perceptions** and takes actions to **achieve a goal** 🥅 
 >- More flexible than reflex agents. (Changing the goal will change the actions appropriately)
@@ -186,7 +195,7 @@ Related : #AI #AI/02 #Agents
 >
 >![[Pasted image 20240708111359.png]]
 
-<br>
+<div class="page-break" style="page-break-before: always;"></div>
 
 #### Learning Agents
 >[!abstract]- Components  of **Learning Agents**
@@ -204,7 +213,7 @@ Related : #AI #AI/02 #Agents
 >
 >![[Pasted image 20240708112427.png]]
 
-<br>
+<div class="page-break" style="page-break-before: always;"></div>
 
 #### How does the components of an **agent program** work
 >[!tip]- The representation in the order of increasing complexity and expressive power are *atomic < factored < structured*

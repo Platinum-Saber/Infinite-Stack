@@ -52,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/AI Introduction.md",
+                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Intelligent Agents.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/AI Introduction.md"
+                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Intelligent Agents.md"
               }
             }
           },
@@ -155,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/AI Introduction.md",
+                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Intelligent Agents.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -202,9 +202,9 @@
   },
   "active": "c9a063bd318c5b04",
   "lastOpenFiles": [
-    "SEM-3/CS3613-Introduction to Artificial Intelligence/Test Questions/Logical Agents MCQs.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Artificial Intelligence.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/AI Introduction.md",
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/Test Questions/Logical Agents MCQs.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Knowledge Representation.md",
     "SEM-3/CS3043-Database Systems/Study Notes/Advanced SQL.md",
     "SEM-3/CS3043-Database Systems/Study Notes/Intermediate SQL.md",
