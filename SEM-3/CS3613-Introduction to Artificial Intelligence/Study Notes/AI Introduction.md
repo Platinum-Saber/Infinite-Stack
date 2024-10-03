@@ -97,7 +97,7 @@ If a series of questions are answered by a human and a machine, when the interro
 
 #### Foundations of AI
 >[!check]-  philosophy 
->-Logic, methods of reasoning, mind as physical system foundations of learning, language, rationality
+>- Logic, methods of reasoning, mind as physical system foundations of learning, language, rationality
 
 >[!check]- Mathematics
 >- Formal representation and proof algorithms, computation, (un)decidability, (in)tractability, probability

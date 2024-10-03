@@ -52,8 +52,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Knowledge Representation.md",
-                "mode": "source",
+                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/AI Introduction.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Knowledge Representation.md"
+                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/AI Introduction.md"
               }
             }
           },
@@ -155,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Knowledge Representation.md",
+                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/AI Introduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -199,10 +199,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "671fcfcc9244e77e",
+  "active": "c9a063bd318c5b04",
   "lastOpenFiles": [
-    "SEM-3/CS3613-Introduction to Artificial Intelligence/Artificial Intelligence.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Knowledge Representation.md",
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/Artificial Intelligence.md",
     "SEM-3/CS3043-Database Systems/Study Notes/Advanced SQL.md",
     "SEM-3/CS3043-Database Systems/Study Notes/Intermediate SQL.md",
     "SEM-3/CS2043-Operating Systems/Study Notes/Operating System Services.md",
