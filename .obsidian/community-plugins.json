@@ -17,5 +17,7 @@
   "obsidian-plugin-toc",
   "obsidian-latex-suite",
   "obsidian-annotator",
-  "better-export-pdf"
+  "better-export-pdf",
+  "table-editor-obsidian",
+  "obsidian-pandoc"
 ]
