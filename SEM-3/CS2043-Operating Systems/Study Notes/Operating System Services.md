@@ -207,8 +207,7 @@ These programs allow users to communicate between systems through mechanisms lik
 ## 8. Operating System Debugging
 Debugging is the process of identifying and fixing errors in software.
 
-> [!tip]
-> ### 8.1. Tools for Debugging
+> [!tip] Tools for Debugging
 > - **strace**: Tracks system calls made by processes.
 > - **gdb**: A source-level debugger for programs.
 > - **perf**: Performance analysis tool for Linux.
