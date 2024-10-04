@@ -4,50 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "f42a877d07a9792e",
+        "id": "5e0959cd90de2b33",
         "type": "tabs",
         "children": [
           {
-            "id": "1b01cfcbe0e3cc1d",
+            "id": "b99e2cf22d314724",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SEM-3/CS3043-Database Systems/Study Notes/Advanced SQL.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "366383011cd3a394",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SEM-3/CS3043-Database Systems/Study Notes/Introduction to SQL.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c9a063bd318c5b04",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Solving Problems by Searching.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -97,7 +65,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 275.51103591918945
+    "width": 275.51103591918945,
+    "collapsed": true
   },
   "right": {
     "id": "b2aa869acde22062",
@@ -131,9 +100,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Solving Problems by Searching.md"
-              }
+              "state": {}
             }
           },
           {
@@ -142,7 +109,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Solving Problems by Searching.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -187,9 +153,16 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "c9a063bd318c5b04",
+  "active": "b99e2cf22d314724",
   "lastOpenFiles": [
+    "SEM-3/CS3043-Database Systems/Study Notes/Advanced SQL.md",
+    "SEM-3/CS3043-Database Systems/Study Notes/Introduction to SQL.md",
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Solving Problems by Searching.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Side Notes/desktop.ini",
+    "SEM-3/CS2033-Data Communication and Networking/Study Notes/desktop.ini",
+    "SEM-3/CS2053-Computer Architecture/Labs/desktop.ini",
+    "SEM-3/CS2043-Operating Systems/Study Notes/desktop.ini",
+    "SEM-3/MA2014-Differential Equations/Study Notes/desktop.ini",
     "Excalidraw/Icon Library/desktop.ini",
     "SEM-3/CS2043-Operating Systems/desktop.ini",
     "SEM-3/CS3043-Database Systems/Group Project/desktop.ini",
@@ -199,7 +172,6 @@
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/AI Introduction.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Test Questions/Logical Agents MCQs.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Knowledge Representation.md",
-    "SEM-3/CS3043-Database Systems/Study Notes/Advanced SQL.md",
     "SEM-3/CS3043-Database Systems/Study Notes/Intermediate SQL.md",
     "SEM-3/CS2043-Operating Systems/Study Notes/Operating System Services.md",
     "Kuppi/OS 06.md",
@@ -209,7 +181,6 @@
     "SEM-3/CS2043-Operating Systems/Study Notes/Synchronization Tools.md",
     "Images/Pasted image 20241002234720.png",
     "SEM-3/CS2043-Operating Systems/Study Notes/OS Introduction.md",
-    "SEM-3/CS3043-Database Systems/Study Notes/Introduction to SQL.md",
     "Kuppi/OS 01.md",
     "SEM-3/CS2043-Operating Systems/Study Notes/System Daemons.md",
     "SEM-3/CS2043-Operating Systems/Study Notes/CPU Scheduling.md",
@@ -226,11 +197,6 @@
     "Images/Pasted image 20240929094244.png",
     "Images/Pasted image 20240929094150.png",
     "Images/Pasted image 20240929094104.png",
-    "SEM-3/MA2014-Differential Equations/Assignments",
-    "SEM-3/CS3043-Database Systems/Test Questions/MCQs",
-    "SEM-3/CS3043-Database Systems/Test Questions/Quizzes",
-    "SEM-3/MA2014-Differential Equations/Source Material/H. K. Dass - Higher Engineering Mathematics (2014, S Chand & Co Ltd).pdf",
-    "SEM-3/MA2014-Differential Equations/Source Material/MA2014 Chapter 4 (updated).pdf",
     "Images/Pasted image 20240926165218.png",
     "Images/Pasted image 20240926163611.png",
     "Images/Pasted image 20240926163158.png",
