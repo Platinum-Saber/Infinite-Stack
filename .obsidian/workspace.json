@@ -11,8 +11,13 @@
             "id": "b99e2cf22d314724",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "SEM-3/CS2043-Operating Systems/Study Notes/CPU Scheduling.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ]
@@ -65,8 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 275.51103591918945,
-    "collapsed": true
+    "width": 275.51103591918945
   },
   "right": {
     "id": "b2aa869acde22062",
@@ -100,7 +104,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "SEM-3/CS2043-Operating Systems/Study Notes/CPU Scheduling.md"
+              }
             }
           },
           {
@@ -109,6 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "SEM-3/CS2043-Operating Systems/Study Notes/CPU Scheduling.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
