@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM-3/CS2043-Operating Systems/Study Notes/CPU Scheduling.md",
+                "file": "SEM-3/CS2043-Operating Systems/Study Notes/OS Introduction.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -105,7 +105,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM-3/CS2043-Operating Systems/Study Notes/CPU Scheduling.md"
+                "file": "SEM-3/CS2043-Operating Systems/Study Notes/OS Introduction.md"
               }
             }
           },
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM-3/CS2043-Operating Systems/Study Notes/CPU Scheduling.md",
+                "file": "SEM-3/CS2043-Operating Systems/Study Notes/OS Introduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,6 +162,9 @@
   },
   "active": "b99e2cf22d314724",
   "lastOpenFiles": [
+    "SEM-3/CS2043-Operating Systems/Study Notes/Operating System Services.md",
+    "SEM-3/CS2043-Operating Systems/Study Notes/Deadlocks.md",
+    "SEM-3/CS2043-Operating Systems/Study Notes/CPU Scheduling.md",
     "SEM-3/CS3043-Database Systems/Study Notes/Advanced SQL.md",
     "SEM-3/CS3043-Database Systems/Study Notes/Introduction to SQL.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Solving Problems by Searching.md",
@@ -180,7 +183,6 @@
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Test Questions/Logical Agents MCQs.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Knowledge Representation.md",
     "SEM-3/CS3043-Database Systems/Study Notes/Intermediate SQL.md",
-    "SEM-3/CS2043-Operating Systems/Study Notes/Operating System Services.md",
     "Kuppi/OS 06.md",
     "SEM-3/CS2043-Operating Systems/Operating Systems.md",
     "SEM-3/CS2043-Operating Systems/Study Notes/Processes.md",
@@ -190,9 +192,7 @@
     "SEM-3/CS2043-Operating Systems/Study Notes/OS Introduction.md",
     "Kuppi/OS 01.md",
     "SEM-3/CS2043-Operating Systems/Study Notes/System Daemons.md",
-    "SEM-3/CS2043-Operating Systems/Study Notes/CPU Scheduling.md",
     "SEM-3/CS2043-Operating Systems/Study Notes/Synchronization.md",
-    "SEM-3/CS2043-Operating Systems/Study Notes/Deadlocks.md",
     "Kuppi/OS 05.md",
     "Kuppi/OS 03.md",
     "Kuppi/OS 02.md",
