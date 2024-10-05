@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM-3/CS2043-Operating Systems/Study Notes/Threads and Concurrency.md",
-                "mode": "preview",
+                "file": "SEM-3/CS2043-Operating Systems/Operating Systems.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM-3/CS2043-Operating Systems/Study Notes/Threads and Concurrency.md"
+                "file": "SEM-3/CS2043-Operating Systems/Operating Systems.md"
               }
             }
           },
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM-3/CS2043-Operating Systems/Study Notes/Threads and Concurrency.md",
+                "file": "SEM-3/CS2043-Operating Systems/Operating Systems.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,6 +162,7 @@
   },
   "active": "b99e2cf22d314724",
   "lastOpenFiles": [
+    "SEM-3/CS2043-Operating Systems/Study Notes/Threads and Concurrency.md",
     "SEM-3/CS2043-Operating Systems/Study Notes/Processes.md",
     "SEM-3/CS2043-Operating Systems/Study Notes/OS Introduction.md",
     "SEM-3/CS2043-Operating Systems/Study Notes/Operating System Services.md",
@@ -187,7 +188,6 @@
     "SEM-3/CS3043-Database Systems/Study Notes/Intermediate SQL.md",
     "Kuppi/OS 06.md",
     "SEM-3/CS2043-Operating Systems/Operating Systems.md",
-    "SEM-3/CS2043-Operating Systems/Study Notes/Threads and Concurrency.md",
     "SEM-3/CS2043-Operating Systems/Study Notes/Synchronization Tools.md",
     "Images/Pasted image 20241002234720.png",
     "Kuppi/OS 01.md",
