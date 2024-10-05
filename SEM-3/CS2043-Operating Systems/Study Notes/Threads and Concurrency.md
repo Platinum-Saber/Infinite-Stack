@@ -1,4 +1,7 @@
-Related : #OS #OS?
+Related : #OS #OS/04
+
+> [!file]- Reference Note : 
+> ![[L04.pdf]]
 # Content 
 
 1. [[#Threads and Concurrency|Threads and Concurrency]]
