@@ -480,7 +480,7 @@ import java.util.concurrent.ForkJoinPool;
 public class ForkJoinExample {
     public static void main(String[] args) {
         ForkJoinPool forkJoinPool = new ForkJoinPool();
-        FibonacciTask fibonacciTask = new FibonacciTask(6);
+        FibonacciTask fibonacciTask = new FibonacciTask(10);
         
         // Start the Fibonacci calculation
         int result = forkJoinPool.invoke(fibonacciTask);
@@ -496,7 +496,7 @@ class FibonacciTask extends RecursiveTask<Integer> {
 
     @Override
     protected Integer compute() {
-        if (n == 1 || n == 2) {
+        if (n <= 1) {
             return n;
         }
         // Forking two smaller tasks
@@ -611,10 +611,6 @@ class WorkerThread implements Runnable {
 
 ---
 
-Here's an in-depth explanation of each concept related to multithreading and parallelism, covering **Fork-Join Parallelism in Java**, **OpenMP**, **Grand Central Dispatch**, **Intel Threading Building Blocks**, and more. These topics are critical for understanding how modern operating systems and programming environments handle multithreading and concurrency.
-
----
-
 ## Fork-Join Parallelism in Java
 
 Fork-Join is a powerful parallel programming model introduced in Java 7 as part of the `java.util.concurrent` package. It is particularly well-suited for divide-and-conquer tasks, where problems can be recursively split into smaller, independent tasks that are processed in parallel and later joined to produce the final result.
@@ -629,6 +625,16 @@ Fork-Join is a powerful parallel programming model introduced in Java 7 as part 
 import java.util.concurrent.RecursiveTask;
 import java.util.concurrent.ForkJoinPool;
 
+public class ForkJoinExample {
+    public static void main(String[] args) {
+        ForkJoinPool forkJoinPool = new ForkJoinPool();
+        FibonacciTask fibonacciTask = new FibonacciTask(10);
+        
+        // Start the Fibonacci calculation
+        int result = forkJoinPool.invoke(fibonacciTask);
+        System.out.println("Fibonacci(10) = " + result);
+    }
+}
 class FibonacciTask extends RecursiveTask<Integer> {
     private final int n;
 
@@ -649,16 +655,7 @@ class FibonacciTask extends RecursiveTask<Integer> {
     }
 }
 
-public class ForkJoinExample {
-    public static void main(String[] args) {
-        ForkJoinPool forkJoinPool = new ForkJoinPool();
-        FibonacciTask fibonacciTask = new FibonacciTask(10);
-        
-        // Start the Fibonacci calculation
-        int result = forkJoinPool.invoke(fibonacciTask);
-        System.out.println("Fibonacci(10) = " + result);
-    }
-}
+
 ```
 
 ### Explanation:
