@@ -521,9 +521,13 @@ class FibonacciTask extends RecursiveTask<Integer> {
 ```
 
 ### Explanation:
-- **RecursiveTask**: An abstract class representing a task that returns a result.
-- **Fork**: We split the problem into smaller tasks (recursive calls to compute Fibonacci numbers).
-- **Join**: After computing the smaller tasks, the results are combined.
+- **ForkJoinPool**: The `ForkJoinPool` is an implementation of the **ExecutorService** designed to work with tasks that can be broken down into smaller tasks.
+  
+- **RecursiveTask**: This abstract class represents a task that returns a result. In this case, the task is calculating the Fibonacci number recursively.
+
+- **fork() and join()**: The `fork()` method splits the task into smaller tasks that can be run in parallel, while the `join()` method waits for the result of the forked task.
+
+- **Efficiency**: The **Fork-Join Framework** excels in scenarios where tasks can be recursively broken down into smaller units and then combined (e.g., parallel sorting algorithms).
 
 ---
 
@@ -617,47 +621,6 @@ int main() {
 ### Explanation:
 - **parallel_for**: TBB divides the iteration space into chunks and assigns them to available threads, optimizing parallel execution.
 
-### Fork-Join Parallelism in Java
-
-Java’s **Fork-Join Framework** is a key part of implicit threading, primarily designed for tasks that can be recursively split into smaller tasks and then combined to produce a result (e.g., divide-and-conquer algorithms).
-
-### Java Example: Fork-Join Framework
-
-```java
-import java.util.concurrent.RecursiveTask;
-import java.util.concurrent.ForkJoinPool;
-
-public class ForkJoinExample {
-    public static void main(String[] args) {
-        ForkJoinPool forkJoinPool = new ForkJoinPool();
-        FibonacciTask fibonacciTask = new FibonacciTask(10);
-        
-        // Start the Fibonacci calculation
-        int result = forkJoinPool.invoke(fibonacciTask);
-        System.out.println("Fibonacci(10) = " + result);
-    }
-}
-class FibonacciTask extends RecursiveTask<Integer> {
-    private final int n;
-
-    FibonacciTask(int n) {
-        this.n = n;
-    }
-
-    @Override
-    protected Integer compute() {
-        if (n <= 1) {
-            return n;
-        }
-        // Forking two smaller tasks
-        FibonacciTask task1 = new FibonacciTask(n - 1);
-        FibonacciTask task2 = new FibonacciTask(n - 2);
-        task1.fork(); // Fork task1 to be executed asynchronously
-        return task2.compute() + task1.join(); // Join the result of task1
-    }
-}
-
-```
 
 
 
