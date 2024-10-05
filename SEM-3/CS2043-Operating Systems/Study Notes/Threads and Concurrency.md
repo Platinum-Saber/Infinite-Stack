@@ -1,7 +1,5 @@
 Related : #OS #OS/04 #ThreadsAndConcurrency 
 
-> [!file]- Reference Note : 
-> ![[L04.pdf]]
 # Content 
 Content
 
