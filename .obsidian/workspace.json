@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM-3/CS2043-Operating Systems/Operating Systems.md",
+                "file": "SEM-3/CS2043-Operating Systems/Study Notes/OS Introduction.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -70,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 275.51103591918945
+    "width": 275.51103591918945,
+    "collapsed": true
   },
   "right": {
     "id": "b2aa869acde22062",
@@ -105,7 +106,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM-3/CS2043-Operating Systems/Operating Systems.md"
+                "file": "SEM-3/CS2043-Operating Systems/Study Notes/OS Introduction.md"
               }
             }
           },
@@ -115,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM-3/CS2043-Operating Systems/Operating Systems.md",
+                "file": "SEM-3/CS2043-Operating Systems/Study Notes/OS Introduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,9 +163,9 @@
   },
   "active": "b99e2cf22d314724",
   "lastOpenFiles": [
-    "SEM-3/CS2043-Operating Systems/Study Notes/OS Introduction.md",
     "SEM-3/CS2043-Operating Systems/Operating Systems.md",
     "SEM-3/CS2043-Operating Systems/Study Notes/Threads and Concurrency.md",
+    "SEM-3/CS2043-Operating Systems/Study Notes/OS Introduction.md",
     "SEM-3/CS2043-Operating Systems/Study Notes/Synchronization Tools.md",
     "SEM-3/CS2043-Operating Systems/Study Notes/Synchronization.md",
     "Images/L04.pdf",
