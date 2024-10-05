@@ -338,6 +338,27 @@ class MyThread implements Runnable {
 Here’s another approach in Java where the `Thread` class is extended directly:
 
 ```java
+public class TestThread {
+    public static void main(String[] args) {
+        // Creating two threads
+        MyThread t1 = new MyThread("Thread 1");
+        MyThread t2 = new MyThread("Thread 2");
+
+        // Starting the threads
+        t1.start();
+        t2.start();
+
+        // Ensure both threads finish before proceeding
+        try {
+            t1.join();
+            t2.join();
+        } catch (InterruptedException e) {
+            System.out.println("Main thread interrupted.");
+        }
+
+        System.out.println("Main thread exiting.");
+    }
+}
 class MyThread extends Thread {
     private String threadName;
 
@@ -360,27 +381,6 @@ class MyThread extends Thread {
     }
 }
 
-public class TestThread {
-    public static void main(String[] args) {
-        // Creating two threads
-        MyThread t1 = new MyThread("Thread 1");
-        MyThread t2 = new MyThread("Thread 2");
-
-        // Starting the threads
-        t1.start();
-        t2.start();
-
-        // Ensure both threads finish before proceeding
-        try {
-            t1.join();
-            t2.join();
-        } catch (InterruptedException e) {
-            System.out.println("Main thread interrupted.");
-        }
-
-        System.out.println("Main thread exiting.");
-    }
-}
 ```
 
 ### Explanation:
