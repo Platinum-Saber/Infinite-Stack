@@ -10,9 +10,7 @@ Reference Notes :  [chapter 06](file:///E:%5CAcademics%5CSEM%203%5CCS2043-Operat
 
 ---
 # Content
-1. [[#Synchronization]]
-	- [[#Shared Resources]]
-	- 
+
 
 ---
 
@@ -49,9 +47,6 @@ Reference Notes :  [chapter 06](file:///E:%5CAcademics%5CSEM%203%5CCS2043-Operat
  > - Producer-Consumer
 
 <br>
-### 
-
----
 
 ## **1. Introduction to Synchronization**
 - Synchronization is essential in multitasking systems where processes or threads share resources or data.
@@ -175,5 +170,3 @@ A **monitor** is a high-level synchronization mechanism that bundles shared data
 Synchronization is essential for ensuring **correctness** in concurrent programming. Critical sections must be protected using synchronization tools like **Dekker's Algorithm**, **Peterson's Algorithm**, **semaphores**, **mutexes**, and **monitors**. Proper synchronization prevents race conditions, ensures mutual exclusion, and resolves issues like deadlock and starvation. Understanding and applying these tools is fundamental to building reliable and efficient concurrent systems.
 
 --- 
-
-These notes provide a detailed overview of synchronization techniques, critical-section solutions, and examples of how synchronization tools can be applied to real-world problems.

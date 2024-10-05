@@ -1,5 +1,77 @@
-
+Related : #OS #OS?
 # Content 
+
+1. [[#Threads and Concurrency|Threads and Concurrency]]
+	1. [[#Threads and Concurrency#1. Overview|1. Overview]]
+	1. [[#Threads and Concurrency#2. Single vs. Multithreaded Processes|2. Single vs. Multithreaded Processes]]
+	1. [[#Threads and Concurrency#3. Benefits of Multithreading|3. Benefits of Multithreading]]
+	1. [[#Threads and Concurrency#4. Concurrency vs. Parallelism|4. Concurrency vs. Parallelism]]
+	1. [[#Threads and Concurrency#5. Multicore Programming Challenges|5. Multicore Programming Challenges]]
+	1. [[#Threads and Concurrency#6. Types of Parallelism|6. Types of Parallelism]]
+	1. [[#Threads and Concurrency#7. Threading Models|7. Threading Models]]
+	1. [[#Threads and Concurrency#8. Thread Libraries|8. Thread Libraries]]
+	1. [[#Threads and Concurrency#9. Fork-Join Parallelism|9. Fork-Join Parallelism]]
+		1. [[#9. Fork-Join Parallelism#3. Handling Data Dependency: Synchronization|3. Handling Data Dependency: Synchronization]]
+1. [[#Multithreading in C|Multithreading in C]]
+	1. [[#Multithreading in C#C Example: Multithreaded Program Using Pthreads|C Example: Multithreaded Program Using Pthreads]]
+	1. [[#Multithreading in C#Explanation:|Explanation:]]
+1. [[#Multithreading in Java|Multithreading in Java]]
+	1. [[#Multithreading in Java#Java Example: Creating Threads by Implementing Runnable Interface|Java Example: Creating Threads by Implementing Runnable Interface]]
+	1. [[#Multithreading in Java#Explanation:|Explanation:]]
+	1. [[#Multithreading in Java#Java Example: Creating Threads by Extending the Thread Class|Java Example: Creating Threads by Extending the Thread Class]]
+	1. [[#Multithreading in Java#Explanation:|Explanation:]]
+	1. [[#Multithreading in Java#Advantages of Multithreading|Advantages of Multithreading]]
+1. [[#Java Executor Framework|Java Executor Framework]]
+	1. [[#Java Executor Framework#Java Example: Executor Framework|Java Example: Executor Framework]]
+	1. [[#Java Executor Framework#Explanation:|Explanation:]]
+1. [[#Implicit Threading|Implicit Threading]]
+	1. [[#Implicit Threading#Fork-Join Parallelism in Java|Fork-Join Parallelism in Java]]
+	1. [[#Implicit Threading#Java Example: Fork-Join Framework|Java Example: Fork-Join Framework]]
+	1. [[#Implicit Threading#Explanation:|Explanation:]]
+1. [[#Thread Pools|Thread Pools]]
+	1. [[#Thread Pools#Advantages of Thread Pools:|Advantages of Thread Pools:]]
+	1. [[#Thread Pools#Java Example: Thread Pools with Executors|Java Example: Thread Pools with Executors]]
+		1. [[#Java Example: Thread Pools with Executors#Fixed Thread Pool Example|Fixed Thread Pool Example]]
+	1. [[#Thread Pools#Explanation:|Explanation:]]
+	1. [[#Thread Pools#Java Thread Pools Summary:|Java Thread Pools Summary:]]
+	1. [[#Thread Pools#Implicit Threading Techniques|Implicit Threading Techniques]]
+1. [[#Fork-Join Parallelism in Java|Fork-Join Parallelism in Java]]
+	1. [[#Fork-Join Parallelism in Java#Key Concepts:|Key Concepts:]]
+	1. [[#Fork-Join Parallelism in Java#Example: Fork-Join Framework|Example: Fork-Join Framework]]
+	1. [[#Fork-Join Parallelism in Java#Explanation:|Explanation:]]
+1. [[#OpenMP|OpenMP]]
+	1. [[#OpenMP#Key Features:|Key Features:]]
+	1. [[#OpenMP#Example: Parallel Loop Using OpenMP in C|Example: Parallel Loop Using OpenMP in C]]
+	1. [[#OpenMP#Explanation:|Explanation:]]
+1. [[#Grand Central Dispatch (GCD)|Grand Central Dispatch (GCD)]]
+	1. [[#Grand Central Dispatch (GCD)#Key Concepts:|Key Concepts:]]
+	1. [[#Grand Central Dispatch (GCD)#Example: Using GCD in Swift|Example: Using GCD in Swift]]
+	1. [[#Grand Central Dispatch (GCD)#Explanation:|Explanation:]]
+1. [[#Intel Threading Building Blocks (TBB)|Intel Threading Building Blocks (TBB)]]
+	1. [[#Intel Threading Building Blocks (TBB)#Example: Parallel For in TBB|Example: Parallel For in TBB]]
+	1. [[#Intel Threading Building Blocks (TBB)#Explanation:|Explanation:]]
+1. [[#Semantics of `fork()` and `exec()`|Semantics of `fork()` and `exec()`]]
+	1. [[#Semantics of `fork()` and `exec()`#`fork()`:|`fork()`:]]
+	1. [[#Semantics of `fork()` and `exec()`#`exec()`:|`exec()`:]]
+	1. [[#Semantics of `fork()` and `exec()`#Example of `fork()` and `exec()` in C:|Example of `fork()` and `exec()` in C:]]
+	1. [[#Semantics of `fork()` and `exec()`#Explanation:|Explanation:]]
+1. [[#Signal Handling|Signal Handling]]
+	1. [[#Signal Handling#Example: Handling Signals in C|Example: Handling Signals in C]]
+	1. [[#Signal Handling#Explanation:|Explanation:]]
+1. [[#Thread Cancellation|Thread Cancellation]]
+	1. [[#Thread Cancellation#Example of Thread Cancellation in C (Pthreads):|Example of Thread Cancellation in C (Pthreads):]]
+	1. [[#Thread Cancellation#Explanation:|Explanation:]]
+1. [[#Thread-Local Storage (TLS)|Thread-Local Storage (TLS)]]
+	1. [[#Thread-Local Storage (TLS)#Example of TLS in C (Pthreads):|Example of TLS in C (Pthreads):]]
+	1. [[#Thread-Local Storage (TLS)#Explanation:|Explanation:]]
+1. [[#Scheduler Activations|Scheduler Activations]]
+1. [[#Windows Threads|Windows Threads]]
+	1. [[#Windows Threads#Key Concepts:|Key Concepts:]]
+	1. [[#Windows Threads#Windows Example: Creating a Thread in C:|Windows Example: Creating a Thread in C:]]
+	1. [[#Windows Threads#Explanation:|Explanation:]]
+1. [[#Windows Thread Data Structures|Windows Thread Data Structures]]
+1. [[#Linux Threads|Linux Threads]]
+
 
 
 ## Threads and Concurrency
@@ -369,7 +441,7 @@ class Task implements Runnable {
 
 ---
 
-## **Implicit Threading**
+## Implicit Threading
 
 As the number of threads increases, explicitly managing them becomes challenging. To ease this, **implicit threading** involves allowing compilers or runtime libraries to manage thread creation, synchronization, and scheduling.
 
@@ -669,12 +741,12 @@ int main() {
 
 ---
 
-## **Semantics of `fork()` and `exec()`**
+## Semantics of `fork()` and `exec()`
 
-### **`fork()`**:
+### `fork()`:
 The `fork()` system call creates a new process by duplicating the calling process. The new process is referred to as the **child process**.
 
-### **`exec()`**:
+### `exec()`:
 The `exec()` family of functions replaces the current process image with a new program image. It doesn’t create a new process but changes the memory space of the calling process.
 
 ### Example of `fork()` and `exec()` in C:
@@ -867,3 +939,4 @@ int main() {
 Linux refers to threads as **tasks**, and thread creation is handled using the `clone()` system call. The `pthread` library is used for POSIX-compliant thread management.
 
 ---
+Up Next : [[Synchronization Tools]]
