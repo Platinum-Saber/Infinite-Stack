@@ -277,6 +277,27 @@ Java provides built-in support for multithreading using the `Thread` class and t
 Here’s an example of how to create multiple threads using Java’s `Runnable` interface:
 
 ```java
+public class TestThread {
+    public static void main(String[] args) {
+        // Creating two threads
+        Thread t1 = new Thread(new MyThread("Thread 1"));
+        Thread t2 = new Thread(new MyThread("Thread 2"));
+
+        // Starting the threads
+        t1.start();
+        t2.start();
+        
+        // Ensure both threads finish before proceeding
+        try {
+            t1.join();
+            t2.join();
+        } catch (InterruptedException e) {
+            System.out.println("Main thread interrupted.");
+        }
+
+        System.out.println("Main thread exiting.");
+    }
+}
 class MyThread implements Runnable {
     private String threadName;
 
@@ -299,27 +320,7 @@ class MyThread implements Runnable {
     }
 }
 
-public class TestThread {
-    public static void main(String[] args) {
-        // Creating two threads
-        Thread t1 = new Thread(new MyThread("Thread 1"));
-        Thread t2 = new Thread(new MyThread("Thread 2"));
 
-        // Starting the threads
-        t1.start();
-        t2.start();
-        
-        // Ensure both threads finish before proceeding
-        try {
-            t1.join();
-            t2.join();
-        } catch (InterruptedException e) {
-            System.out.println("Main thread interrupted.");
-        }
-
-        System.out.println("Main thread exiting.");
-    }
-}
 ```
 
 ### Explanation:
@@ -543,6 +544,23 @@ Java provides three main types of thread pools via the **Executors** class:
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
+public class ThreadPoolExample {
+    public static void main(String[] args) {
+        // Create a thread pool with 3 threads
+        ExecutorService executor = Executors.newFixedThreadPool(3);
+
+        for (int i = 1; i <= 5; i++) {
+            Runnable worker = new WorkerThread("Task " + i);
+            executor.execute(worker);  // Submit each task to the executor
+        }
+
+        executor.shutdown();  // Initiates an orderly shutdown
+        while (!executor.isTerminated()) {
+        }
+
+        System.out.println("All tasks are finished.");
+    }
+}
 class WorkerThread implements Runnable {
     private String message;
 
@@ -565,23 +583,7 @@ class WorkerThread implements Runnable {
     }
 }
 
-public class ThreadPoolExample {
-    public static void main(String[] args) {
-        // Create a thread pool with 3 threads
-        ExecutorService executor = Executors.newFixedThreadPool(3);
 
-        for (int i = 1; i <= 5; i++) {
-            Runnable worker = new WorkerThread("Task " + i);
-            executor.execute(worker);  // Submit each task to the executor
-        }
-
-        executor.shutdown();  // Initiates an orderly shutdown
-        while (!executor.isTerminated()) {
-        }
-
-        System.out.println("All tasks are finished.");
-    }
-}
 ```
 
 ### Explanation:
