@@ -477,6 +477,16 @@ Java’s **Fork-Join Framework** is a key part of implicit threading, primarily 
 import java.util.concurrent.RecursiveTask;
 import java.util.concurrent.ForkJoinPool;
 
+public class ForkJoinExample {
+    public static void main(String[] args) {
+        ForkJoinPool forkJoinPool = new ForkJoinPool();
+        FibonacciTask fibonacciTask = new FibonacciTask(6);
+        
+        // Start the Fibonacci calculation
+        int result = forkJoinPool.invoke(fibonacciTask);
+        System.out.println("Fibonacci(10) = " + result);
+    }
+}
 class FibonacciTask extends RecursiveTask<Integer> {
     private final int n;
 
@@ -486,7 +496,7 @@ class FibonacciTask extends RecursiveTask<Integer> {
 
     @Override
     protected Integer compute() {
-        if (n <= 1) {
+        if (n == 1 || n == 2) {
             return n;
         }
         // Forking two smaller tasks
@@ -497,16 +507,6 @@ class FibonacciTask extends RecursiveTask<Integer> {
     }
 }
 
-public class ForkJoinExample {
-    public static void main(String[] args) {
-        ForkJoinPool forkJoinPool = new ForkJoinPool();
-        FibonacciTask fibonacciTask = new FibonacciTask(10);
-        
-        // Start the Fibonacci calculation
-        int result = forkJoinPool.invoke(fibonacciTask);
-        System.out.println("Fibonacci(10) = " + result);
-    }
-}
 ```
 
 ### Explanation:
