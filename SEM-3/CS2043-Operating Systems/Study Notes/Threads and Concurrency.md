@@ -466,144 +466,6 @@ As the number of threads increases, explicitly managing them becomes challenging
 In implicit threading, several methods handle thread management without the developer explicitly controlling thread creation. The **Fork-Join Framework**, **Thread Pools**, and **OpenMP** (for C/C++) are examples of implicit threading.
 
 ---
-
-### Fork-Join Parallelism in Java
-
-Java’s **Fork-Join Framework** is a key part of implicit threading, primarily designed for tasks that can be recursively split into smaller tasks and then combined to produce a result (e.g., divide-and-conquer algorithms).
-
-### Java Example: Fork-Join Framework
-
-```java
-import java.util.concurrent.RecursiveTask;
-import java.util.concurrent.ForkJoinPool;
-
-public class ForkJoinExample {
-    public static void main(String[] args) {
-        ForkJoinPool forkJoinPool = new ForkJoinPool();
-        FibonacciTask fibonacciTask = new FibonacciTask(10);
-        
-        // Start the Fibonacci calculation
-        int result = forkJoinPool.invoke(fibonacciTask);
-        System.out.println("Fibonacci(10) = " + result);
-    }
-}
-class FibonacciTask extends RecursiveTask<Integer> {
-    private final int n;
-
-    FibonacciTask(int n) {
-        this.n = n;
-    }
-
-    @Override
-    protected Integer compute() {
-        if (n <= 1) {
-            return n;
-        }
-        // Forking two smaller tasks
-        FibonacciTask task1 = new FibonacciTask(n - 1);
-        FibonacciTask task2 = new FibonacciTask(n - 2);
-        task1.fork(); // Fork task1 to be executed asynchronously
-        return task2.compute() + task1.join(); // Join the result of task1
-    }
-}
-
-```
-
-### Explanation:
-- **ForkJoinPool**: The `ForkJoinPool` is an implementation of the **ExecutorService** designed to work with tasks that can be broken down into smaller tasks.
-  
-- **RecursiveTask**: This abstract class represents a task that returns a result. In this case, the task is calculating the Fibonacci number recursively.
-
-- **fork() and join()**: The `fork()` method splits the task into smaller tasks that can be run in parallel, while the `join()` method waits for the result of the forked task.
-
-- **Efficiency**: The **Fork-Join Framework** excels in scenarios where tasks can be recursively broken down into smaller units and then combined (e.g., parallel sorting algorithms).
-
----
-
-## Thread Pools
-
-A **Thread Pool** is a collection of pre-created threads that can be reused to execute tasks. Thread pools improve performance by reducing the overhead of creating and destroying threads for each task. They also allow developers to limit the number of threads running concurrently, avoiding overloading the system.
-
-### Advantages of Thread Pools:
-- **Efficiency**: Reusing threads saves the time and overhead involved in creating and destroying threads for each task.
-- **Resource Management**: Limits the number of active threads, which is important in systems with constrained resources.
-- **Simplified Task Management**: Tasks can be submitted to the pool without manually handling thread creation.
-
----
-
-### Java Example: Thread Pools with Executors
-
-Java provides three main types of thread pools via the **Executors** class:
-1. **Fixed Thread Pool**: A pool with a fixed number of threads.
-2. **Cached Thread Pool**: A pool that creates new threads as needed but reuses previously created threads when available.
-3. **Scheduled Thread Pool**: A pool that supports scheduling of tasks to run after a delay or periodically.
-
-#### Fixed Thread Pool Example
-
-```java
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
-
-public class ThreadPoolExample {
-    public static void main(String[] args) {
-        // Create a thread pool with 3 threads
-        ExecutorService executor = Executors.newFixedThreadPool(3);
-
-        for (int i = 1; i <= 5; i++) {
-            Runnable worker = new WorkerThread("Task " + i);
-            executor.execute(worker);  // Submit each task to the executor
-        }
-
-        executor.shutdown();  // Initiates an orderly shutdown
-        while (!executor.isTerminated()) {
-        }
-
-        System.out.println("All tasks are finished.");
-    }
-}
-class WorkerThread implements Runnable {
-    private String message;
-
-    public WorkerThread(String message) {
-        this.message = message;
-    }
-
-    public void run() {
-        System.out.println(Thread.currentThread().getName() + " (Start) message = " + message);
-        processMessage();  // Simulate task processing
-        System.out.println(Thread.currentThread().getName() + " (End)");
-    }
-
-    private void processMessage() {
-        try {
-            Thread.sleep(2000);  // Simulate processing time
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-    }
-}
-
-
-```
-
-### Explanation:
-- **WorkerThread Class**: Implements the `Runnable` interface and simulates processing a task by sleeping for 2 seconds.
-  
-- **Fixed Thread Pool**: A fixed pool with 3 threads is created using `Executors.newFixedThreadPool(3)`. Even though we submit 5 tasks, only 3 will execute simultaneously. The remaining tasks will be queued until threads are available.
-
-- **Task Execution**: Each task is executed by calling `executor.execute(worker)`.
-
-- **Shutdown**: After submitting all tasks, `executor.shutdown()` is called, ensuring no new tasks are accepted. The program waits until all threads complete their work.
-
----
-
-### Java Thread Pools Summary:
-- **Fixed Thread Pool**: Limits the number of concurrent threads. Useful when the number of threads can be determined beforehand.
-- **Cached Thread Pool**: Dynamically adjusts the number of threads depending on the number of tasks. Good for tasks that execute for short durations.
-- **Scheduled Thread Pool**: Used for scheduling tasks to execute after a delay or periodically.
-
----
-
 ### Implicit Threading Techniques
 1. **Thread Pools**: Automatically manage and reuse threads.
 2. **Fork-Join Framework**: Splits tasks into smaller, independent tasks that can be executed in parallel.
@@ -754,6 +616,137 @@ int main() {
 
 ### Explanation:
 - **parallel_for**: TBB divides the iteration space into chunks and assigns them to available threads, optimizing parallel execution.
+
+### Fork-Join Parallelism in Java
+
+Java’s **Fork-Join Framework** is a key part of implicit threading, primarily designed for tasks that can be recursively split into smaller tasks and then combined to produce a result (e.g., divide-and-conquer algorithms).
+
+### Java Example: Fork-Join Framework
+
+```java
+import java.util.concurrent.RecursiveTask;
+import java.util.concurrent.ForkJoinPool;
+
+public class ForkJoinExample {
+    public static void main(String[] args) {
+        ForkJoinPool forkJoinPool = new ForkJoinPool();
+        FibonacciTask fibonacciTask = new FibonacciTask(10);
+        
+        // Start the Fibonacci calculation
+        int result = forkJoinPool.invoke(fibonacciTask);
+        System.out.println("Fibonacci(10) = " + result);
+    }
+}
+class FibonacciTask extends RecursiveTask<Integer> {
+    private final int n;
+
+    FibonacciTask(int n) {
+        this.n = n;
+    }
+
+    @Override
+    protected Integer compute() {
+        if (n <= 1) {
+            return n;
+        }
+        // Forking two smaller tasks
+        FibonacciTask task1 = new FibonacciTask(n - 1);
+        FibonacciTask task2 = new FibonacciTask(n - 2);
+        task1.fork(); // Fork task1 to be executed asynchronously
+        return task2.compute() + task1.join(); // Join the result of task1
+    }
+}
+
+```
+
+
+
+---
+
+## Thread Pools
+
+A **Thread Pool** is a collection of pre-created threads that can be reused to execute tasks. Thread pools improve performance by reducing the overhead of creating and destroying threads for each task. They also allow developers to limit the number of threads running concurrently, avoiding overloading the system.
+
+### Advantages of Thread Pools:
+- **Efficiency**: Reusing threads saves the time and overhead involved in creating and destroying threads for each task.
+- **Resource Management**: Limits the number of active threads, which is important in systems with constrained resources.
+- **Simplified Task Management**: Tasks can be submitted to the pool without manually handling thread creation.
+
+---
+
+### Java Example: Thread Pools with Executors
+
+Java provides three main types of thread pools via the **Executors** class:
+1. **Fixed Thread Pool**: A pool with a fixed number of threads.
+2. **Cached Thread Pool**: A pool that creates new threads as needed but reuses previously created threads when available.
+3. **Scheduled Thread Pool**: A pool that supports scheduling of tasks to run after a delay or periodically.
+
+#### Fixed Thread Pool Example
+
+```java
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+
+public class ThreadPoolExample {
+    public static void main(String[] args) {
+        // Create a thread pool with 3 threads
+        ExecutorService executor = Executors.newFixedThreadPool(3);
+
+        for (int i = 1; i <= 5; i++) {
+            Runnable worker = new WorkerThread("Task " + i);
+            executor.execute(worker);  // Submit each task to the executor
+        }
+
+        executor.shutdown();  // Initiates an orderly shutdown
+        while (!executor.isTerminated()) {
+        }
+
+        System.out.println("All tasks are finished.");
+    }
+}
+class WorkerThread implements Runnable {
+    private String message;
+
+    public WorkerThread(String message) {
+        this.message = message;
+    }
+
+    public void run() {
+        System.out.println(Thread.currentThread().getName() + " (Start) message = " + message);
+        processMessage();  // Simulate task processing
+        System.out.println(Thread.currentThread().getName() + " (End)");
+    }
+
+    private void processMessage() {
+        try {
+            Thread.sleep(2000);  // Simulate processing time
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
+}
+
+
+```
+
+### Explanation:
+- **WorkerThread Class**: Implements the `Runnable` interface and simulates processing a task by sleeping for 2 seconds.
+  
+- **Fixed Thread Pool**: A fixed pool with 3 threads is created using `Executors.newFixedThreadPool(3)`. Even though we submit 5 tasks, only 3 will execute simultaneously. The remaining tasks will be queued until threads are available.
+
+- **Task Execution**: Each task is executed by calling `executor.execute(worker)`.
+
+- **Shutdown**: After submitting all tasks, `executor.shutdown()` is called, ensuring no new tasks are accepted. The program waits until all threads complete their work.
+
+---
+
+### Java Thread Pools Summary:
+- **Fixed Thread Pool**: Limits the number of concurrent threads. Useful when the number of threads can be determined beforehand.
+- **Cached Thread Pool**: Dynamically adjusts the number of threads depending on the number of tasks. Good for tasks that execute for short durations.
+- **Scheduled Thread Pool**: Used for scheduling tasks to execute after a delay or periodically.
+
+---
+
 
 ---
 
