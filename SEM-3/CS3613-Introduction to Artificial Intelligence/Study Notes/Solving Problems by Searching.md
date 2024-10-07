@@ -208,7 +208,7 @@ Informed search algorithms leverage domain-specific knowledge in the form of a [
 > [!info] Optimality: 
 > If the heuristic $h(n)$ is **admissible** (i.e., it never overestimates the cost to reach the goal), A* is guaranteed to be optimal. This is because A* prioritizes nodes that have the lowest total cost, combining the actual cost incurred so far $g(n)$ and the estimated remaining cost $h(n).$
 
-> [!tip] Efficiency: 
+> [!tip]- Efficiency: 
 > A* is both **complete** (will always find a solution if one exists) and **optimal** when $h(n)$ is admissible. However, it suffers from **bad space complexity** because it stores all generated nodes in memory, which can become a problem for large search spaces.
 
 > [!example] Example: 
