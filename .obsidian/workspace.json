@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Constraint Satisfaction Problem.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": false
               }
@@ -33,8 +33,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -119,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Side Notes/Genetic Algorithms.md"
+                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Constraint Satisfaction Problem.md"
               }
             }
           },
@@ -129,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Side Notes/Genetic Algorithms.md",
+                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Constraint Satisfaction Problem.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,8 +173,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "c91815f69489dc92",
+  "active": "b99e2cf22d314724",
   "lastOpenFiles": [
+    "Images/05 CSP.pdf",
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Side Notes/Genetic Algorithms.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Local Search And Optimization Problems.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Artificial Intelligence.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Constraint Satisfaction Problem.md",
@@ -210,8 +211,6 @@
     "SEM-3/CS2953-Communication Skills/desktop.ini",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Intelligent Agents.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Test Questions/Logical Agents MCQs.md",
-    "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Knowledge Representation.md",
-    "SEM-3/CS3043-Database Systems/Study Notes/Intermediate SQL.md",
     "Images/Pasted image 20241002234720.png",
     "Images/Pasted image 20241001134425.png",
     "Images/Pasted image 20241001133920.png",

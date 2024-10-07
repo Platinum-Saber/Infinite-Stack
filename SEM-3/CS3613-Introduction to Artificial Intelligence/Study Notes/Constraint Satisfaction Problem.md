@@ -5,5 +5,8 @@ tags:
   - CSP
 ---
 
+> [!file]- Reference Note
+> ![[05 CSP.pdf]]
+
 ---
 Up Next : [[Logical Agents]]
