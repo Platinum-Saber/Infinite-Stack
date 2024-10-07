@@ -13,7 +13,6 @@
   "obsidian-meta-bind-plugin",
   "obsidian-icon-folder",
   "obsidian-icons-plugin",
-  "obsidian-git",
   "obsidian-plugin-toc",
   "obsidian-latex-suite",
   "obsidian-annotator",
@@ -21,5 +20,6 @@
   "obsidian-pandoc",
   "break-page",
   "obsidian-enhancing-export",
-  "better-export-pdf"
+  "better-export-pdf",
+  "execute-code"
 ]
