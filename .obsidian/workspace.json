@@ -13,14 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Solving Problems by Searching.md",
+                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Constraint Satisfaction Problem.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c91815f69489dc92",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Side Notes/Genetic Algorithms.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -105,7 +119,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Solving Problems by Searching.md"
+                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Side Notes/Genetic Algorithms.md"
               }
             }
           },
@@ -115,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Solving Problems by Searching.md",
+                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Side Notes/Genetic Algorithms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,10 +174,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "b99e2cf22d314724",
+  "active": "c91815f69489dc92",
   "lastOpenFiles": [
-    "SEM-3/CS3613-Introduction to Artificial Intelligence/Artificial Intelligence.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Local Search And Optimization Problems.md",
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/Artificial Intelligence.md",
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Constraint Satisfaction Problem.md",
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Solving Problems by Searching.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/AI Introduction.md",
     "SEM-3/CS2043-Operating Systems/Study Notes/Threads and Concurrency.md",
     "SEM-3/CS2043-Operating Systems/Operating Systems.md",
@@ -183,7 +199,6 @@
     "SEM-3/CS2043-Operating Systems/Study Notes/CPU Scheduling.md",
     "SEM-3/CS3043-Database Systems/Study Notes/Advanced SQL.md",
     "SEM-3/CS3043-Database Systems/Study Notes/Introduction to SQL.md",
-    "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Solving Problems by Searching.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Side Notes/desktop.ini",
     "SEM-3/CS2033-Data Communication and Networking/Study Notes/desktop.ini",
     "SEM-3/CS2053-Computer Architecture/Labs/desktop.ini",
@@ -197,7 +212,6 @@
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Test Questions/Logical Agents MCQs.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Knowledge Representation.md",
     "SEM-3/CS3043-Database Systems/Study Notes/Intermediate SQL.md",
-    "Kuppi/OS 06.md",
     "Images/Pasted image 20241002234720.png",
     "Images/Pasted image 20241001134425.png",
     "Images/Pasted image 20241001133920.png",
