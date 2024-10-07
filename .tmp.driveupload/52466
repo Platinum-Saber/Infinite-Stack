@@ -1,12 +1,3 @@
-div.page-break::after {
-	content: "Break page. Need at least 1 blank line after.";
-	display: block;
-	font-style: italic;
-	color: gray;
-}
-
-@media print {
-	div.page-break::after {
-		display: none;
-	}
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:b8a50c06b7baf67dbd0ea2d932ec78ea89abab7c0e9f81fc31347e93b1d25fed
+size 210

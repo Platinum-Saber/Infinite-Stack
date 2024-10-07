@@ -1,29 +1,3 @@
-{
-  "showTitle": true,
-  "maxLevel": "6",
-  "displayHeader": true,
-  "displayFooter": true,
-  "headerTemplate": "<div style=\"width: 100vw;font-size:10px;text-align:center;\"><span class=\"title\"></span></div>",
-  "footerTemplate": "<div style=\"width: 100vw;font-size:10px;text-align:center;\"><span class=\"pageNumber\"></span> / <span class=\"totalPages\"></span></div>",
-  "printBackground": false,
-  "generateTaggedPDF": false,
-  "displayMetadata": false,
-  "debug": false,
-  "isTimestamp": false,
-  "enabledCss": false,
-  "prevConfig": {
-    "pageSize": "A4",
-    "marginType": "1",
-    "showTitle": true,
-    "open": true,
-    "scale": 68,
-    "landscape": false,
-    "marginTop": "10",
-    "marginBottom": "10",
-    "marginLeft": "10",
-    "marginRight": "10",
-    "displayHeader": true,
-    "displayFooter": true,
-    "cssSnippet": "0"
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:a98d6b7fac831c9cac24a7b604638d8eb33d62f3fd7baab4d6f836d93f1e2980
+size 851

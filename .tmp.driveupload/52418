@@ -1,11 +1,3 @@
-{
-  "id": "better-export-pdf",
-  "name": "Better Export PDF",
-  "version": "1.9.2",
-  "minAppVersion": "0.15.0",
-  "description": "Export your notes to PDF, support export preview, add bookmarks outline and header/footer.",
-  "author": "l1xnan",
-  "authorUrl": "https://github.com/l1xnan",
-  "fundingUrl": "https://www.buymeacoffee.com/l1xnan",
-  "isDesktopOnly": true
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:5cb315287aa59a1836afa015a2f0a3ef70d1fd7c3309127202282b15e13e7b87
+size 371

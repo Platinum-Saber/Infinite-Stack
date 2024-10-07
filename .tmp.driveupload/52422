@@ -1,11 +1,3 @@
-{
-	"id": "obsidian-latex-suite",
-	"name": "Latex Suite",
-	"version": "1.9.5",
-	"minAppVersion": "1.0.0",
-	"description": "Make typesetting LaTeX math as fast as handwriting through snippets, text expansion, and editor enhancements",
-	"author": "artisticat",
-	"authorUrl": "https://github.com/artisticat1",
-	"fundingUrl": "https://ko-fi.com/artisticat",
-	"isDesktopOnly": false
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:d45dd41670a274ca685e55cac362f25157a577ac244a86bf9025636d1b67fc07
+size 379

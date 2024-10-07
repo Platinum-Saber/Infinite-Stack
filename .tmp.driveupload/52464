@@ -1,9 +1,3 @@
-{
-	"id": "break-page",
-	"name": "PDF break page",
-	"version": "1.0.0",
-	"description": "Add shortkey and command to insert a break page formating for pdf exports.",
-	"author": "CG",
-	"authorUrl": "https://github.com/corentin-godefroy",
-	"isDesktopOnly": false
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:62dcadc36900ad9f4e5362a110f6cba4cc786d98eb24343f9bdd4db8cadce236
+size 271
