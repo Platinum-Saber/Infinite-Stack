@@ -1,7 +1,4 @@
 # Auto detect text files and perform LF normalization
 * text=auto
 .tmp.driveupload/* filter=lfs diff=lfs merge=lfs -text
-.tmp.driveupload/51012 filter=lfs diff=lfs merge=lfs -text
-.tmp.driveupload/51772 filter=lfs diff=lfs merge=lfs -text
-.tmp.driveupload/57968 filter=lfs diff=lfs merge=lfs -text
-.tmp.driveupload/58728 filter=lfs diff=lfs merge=lfs -text
+
