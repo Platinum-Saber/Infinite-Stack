@@ -11,8 +11,13 @@
             "id": "b99e2cf22d314724",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Solving Problems by Searching.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ]
@@ -65,8 +70,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 275.51103591918945,
-    "collapsed": true
+    "width": 275.51103591918945
   },
   "right": {
     "id": "b2aa869acde22062",
@@ -100,7 +104,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Solving Problems by Searching.md"
+              }
             }
           },
           {
@@ -109,6 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Solving Problems by Searching.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,6 +162,25 @@
   },
   "active": "b99e2cf22d314724",
   "lastOpenFiles": [
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/Artificial Intelligence.md",
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Local Search And Optimization Problems.md",
+    "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/AI Introduction.md",
+    "SEM-3/CS2043-Operating Systems/Study Notes/Threads and Concurrency.md",
+    "SEM-3/CS2043-Operating Systems/Operating Systems.md",
+    "SEM-3/CS2043-Operating Systems/Study Notes/Processes.md",
+    "SEM-3/CS2043-Operating Systems/Study Notes/Operating System Services.md",
+    "SEM-3/CS2043-Operating Systems/Study Notes/OS Introduction.md",
+    "SEM-3/CS2043-Operating Systems/Labs/Pintos Questions.md",
+    "SEM-3/CS2043-Operating Systems/Study Notes/Synchronization Tools.md",
+    "Kuppi/OS 01.md",
+    "Kuppi/OS 05.md",
+    "Kuppi/OS 03.md",
+    "Kuppi/OS 02.md",
+    "SEM-3/CS2043-Operating Systems/Study Notes/System Daemons.md",
+    "SEM-3/CS2043-Operating Systems/Study Notes/Synchronization.md",
+    "Images/L04.pdf",
+    "SEM-3/CS2043-Operating Systems/Study Notes/Deadlocks.md",
+    "SEM-3/CS2043-Operating Systems/Study Notes/CPU Scheduling.md",
     "SEM-3/CS3043-Database Systems/Study Notes/Advanced SQL.md",
     "SEM-3/CS3043-Database Systems/Study Notes/Introduction to SQL.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Solving Problems by Searching.md",
@@ -167,31 +193,12 @@
     "SEM-3/CS2043-Operating Systems/desktop.ini",
     "SEM-3/CS3043-Database Systems/Group Project/desktop.ini",
     "SEM-3/CS2953-Communication Skills/desktop.ini",
-    "SEM-3/CS3613-Introduction to Artificial Intelligence/Artificial Intelligence.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Intelligent Agents.md",
-    "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/AI Introduction.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Test Questions/Logical Agents MCQs.md",
     "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Knowledge Representation.md",
     "SEM-3/CS3043-Database Systems/Study Notes/Intermediate SQL.md",
-    "SEM-3/CS2043-Operating Systems/Study Notes/Operating System Services.md",
     "Kuppi/OS 06.md",
-    "SEM-3/CS2043-Operating Systems/Operating Systems.md",
-    "SEM-3/CS2043-Operating Systems/Study Notes/Processes.md",
-    "SEM-3/CS2043-Operating Systems/Study Notes/Threads and Concurrency.md",
-    "SEM-3/CS2043-Operating Systems/Study Notes/Synchronization Tools.md",
     "Images/Pasted image 20241002234720.png",
-    "SEM-3/CS2043-Operating Systems/Study Notes/OS Introduction.md",
-    "Kuppi/OS 01.md",
-    "SEM-3/CS2043-Operating Systems/Study Notes/System Daemons.md",
-    "SEM-3/CS2043-Operating Systems/Study Notes/CPU Scheduling.md",
-    "SEM-3/CS2043-Operating Systems/Study Notes/Synchronization.md",
-    "SEM-3/CS2043-Operating Systems/Study Notes/Deadlocks.md",
-    "Kuppi/OS 05.md",
-    "Kuppi/OS 03.md",
-    "Kuppi/OS 02.md",
-    "Git/Git Bots/Sebastian/Online Hosting.md",
-    "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/First Order Logic.md",
-    "Kuppi",
     "Images/Pasted image 20241001134425.png",
     "Images/Pasted image 20241001133920.png",
     "Images/Pasted image 20240929094244.png",
