@@ -1,5 +1,3 @@
-## Overview
-Deadlock is a critical issue in operating systems that occurs when a set of processes is stuck waiting for each other to release resources, making it impossible for any of them to proceed. This chapter covers deadlock conditions, detection, prevention, and recovery strategies, and introduces algorithms like the Banker's algorithm for deadlock avoidance.
 
 ## Key Concepts of Deadlocks
 

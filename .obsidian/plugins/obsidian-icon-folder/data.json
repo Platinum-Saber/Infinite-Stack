@@ -6,16 +6,16 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "LiFileCode",
-      "RiStickyNoteLine",
-      "RaLanternFlame",
-      "LiFile",
-      "RiAppsLine",
-      "SiLibreofficemath",
-      "RiFolderUnknowLine",
-      "RaQuillInk",
-      "FarFilePdf",
-      "RiBookletLine"
+      "LiLanguages",
+      "LiJapaneseYen",
+      "RiRobot3Fill",
+      "LiLayoutTemplate",
+      "FabJs",
+      "FiBookOpen",
+      "SiReact",
+      "LiFileWarning",
+      "FasGear",
+      "LiNetwork"
     ],
     "recentlyUsedIconsSize": 10,
     "rules": [],
@@ -58,10 +58,6 @@
     "iconName": "LiCircuitBoard",
     "iconColor": "#61dfff"
   },
-  "SEM-3/CS3043-Database Systems": {
-    "iconName": "FiDatabase",
-    "iconColor": "#66ffa1"
-  },
   "SEM-3/CS3613-Introduction to Artificial Intelligence": {
     "iconName": "RiRobot2Line",
     "iconColor": "#e0ff70"
@@ -85,10 +81,6 @@
   "SEM-3/CS3613-Introduction to Artificial Intelligence/Artificial Intelligence.md": {
     "iconName": "SiHubspot",
     "iconColor": "#bbc760"
-  },
-  "SEM-3/CS3043-Database Systems/Database systems.md": {
-    "iconName": "SiHubspot",
-    "iconColor": "#59f366"
   },
   "SEM-3/CS2053-Computer Architecture/Computer Architecture.md": {
     "iconName": "SiHubspot",
@@ -114,7 +106,6 @@
     "iconName": "SiExcalidraw",
     "iconColor": "#de6af6"
   },
-  "SEM-3/CS3043-Database Systems/Group Project/DB Project.md": "SiReact",
   "SEM-3/MA3014-Applied Statistics/Applied Statistics.md": {
     "iconName": "SiHubspot",
     "iconColor": "#a21efa"
@@ -163,57 +154,9 @@
     "iconName": "FabReact",
     "iconColor": "#3768fb"
   },
-  "SEM-3/CS3043-Database Systems/Study Notes/Relational Database Design.md": {
-    "iconName": "FiFile",
-    "iconColor": "#80fe5d"
-  },
-  "SEM-3/CS3043-Database Systems/Study Notes/Introduction to SQL.md": {
-    "iconName": "FiFile",
-    "iconColor": "#60fb4b"
-  },
-  "SEM-3/CS3043-Database Systems/Study Notes/Intermediate SQL.md": {
-    "iconName": "FiFile",
-    "iconColor": "#3ffd42"
-  },
-  "SEM-3/CS3043-Database Systems/Study Notes/Database Systems Introduction.md": {
-    "iconName": "FiFile",
-    "iconColor": "#68fe3e"
-  },
-  "SEM-3/CS3043-Database Systems/Study Notes/Database Design Using the E-R Model.md": {
-    "iconName": "FiFile",
-    "iconColor": "#3af83d"
-  },
-  "SEM-3/CS3043-Database Systems/Study Notes/Advanced SQL.md": {
-    "iconName": "LiFile",
-    "iconColor": "#6eff6b"
-  },
   "Obsidian Tools": {
     "iconName": "SiObsidian",
     "iconColor": "#a600ff"
-  },
-  "SEM-3/CS3043-Database Systems/Group Project/SRS.md": {
-    "iconName": "SiProtondb",
-    "iconColor": "#a22f9e"
-  },
-  "SEM-3/CS3043-Database Systems/Study Notes/Relational Algebra.md": {
-    "iconName": "FarNoteSticky",
-    "iconColor": "#58fea0"
-  },
-  "SEM-3/CS3043-Database Systems/Study Notes/Application Design & Development.md": {
-    "iconName": "LiFile",
-    "iconColor": "#52ff5d"
-  },
-  "SEM-3/CS3043-Database Systems/Study Notes": {
-    "iconName": "LiBookOpen",
-    "iconColor": "#70ffa7"
-  },
-  "SEM-3/CS3043-Database Systems/Test Questions": {
-    "iconName": "FarCircleQuestion",
-    "iconColor": "#70ffa7"
-  },
-  "SEM-3/CS3043-Database Systems/Group Project": {
-    "iconName": "FasPeopleGroup",
-    "iconColor": "#67fea1"
   },
   "Singularity": {
     "iconName": "FiLink",
@@ -222,10 +165,6 @@
   "Singularity/Infinite Stack.md": {
     "iconName": "RiStackFill",
     "iconColor": "#d2ff70"
-  },
-  "Singularity/SEM-3 INDEX.md": {
-    "iconName": "FiHome",
-    "iconColor": "#fcb069"
   },
   "Singularity/Study Tracker.md": {
     "iconName": "RiBookOpenFill",
@@ -627,38 +566,6 @@
     "iconName": "FarFilePdf",
     "iconColor": "#ffbb5c"
   },
-  "SEM-3/CS3043-Database Systems/Test Questions/Quizzes": {
-    "iconName": "RaQuillInk",
-    "iconColor": "#57ffcd"
-  },
-  "SEM-3/CS3043-Database Systems/Test Questions/MCQs/CS3043 Test Questions 01.md": {
-    "iconName": "LiFileQuestion",
-    "iconColor": "#61ffd0"
-  },
-  "SEM-3/CS3043-Database Systems/Test Questions/MCQs/CS3043 Test Questions 02.md": {
-    "iconName": "LiFileQuestion",
-    "iconColor": "#6afbc3"
-  },
-  "SEM-3/CS3043-Database Systems/Test Questions/MCQs/CS3043 Test Questions 03.md": {
-    "iconName": "LiFileQuestion",
-    "iconColor": "#66ffbd"
-  },
-  "SEM-3/CS3043-Database Systems/Test Questions/MCQs/CS3043 Test Questions 04.md": {
-    "iconName": "LiFileQuestion",
-    "iconColor": "#6ef2ae"
-  },
-  "SEM-3/CS3043-Database Systems/Test Questions/MCQs/CS3043 Test Questions 05.md": {
-    "iconName": "LiFileQuestion",
-    "iconColor": "#5cffb8"
-  },
-  "SEM-3/CS3043-Database Systems/Test Questions/MCQs/CS3043 Test Questions 07.md": {
-    "iconName": "LiFileQuestion",
-    "iconColor": "#58feb6"
-  },
-  "SEM-3/CS3043-Database Systems/Test Questions/MCQs": {
-    "iconName": "RiFolderUnknowLine",
-    "iconColor": "#52ffcb"
-  },
   "SEM-3/MA2014-Differential Equations/Assignments": {
     "iconName": "SiLibreofficemath",
     "iconColor": "#fdb958"
@@ -678,10 +585,6 @@
   "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/First Order Logic.md": {
     "iconName": "LiFile",
     "iconColor": "#e0ff70"
-  },
-  "Kuppi": {
-    "iconName": "RaLanternFlame",
-    "iconColor": "#ffaa33"
   },
   "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Side Notes/Heuristic Functions.md": {
     "iconName": "RiStickyNoteLine",
@@ -709,5 +612,176 @@
   "SEM-3/CS3613-Introduction to Artificial Intelligence/Study Notes/Knowledge Representation.md": {
     "iconName": "LiFile",
     "iconColor": "#dcff5c"
+  },
+  "SEM-3/CS2043-Operating Systems/Labs/Lab 01": {
+    "iconName": "FasFlask",
+    "iconColor": "#58a0fe"
+  },
+  "SEM-3/CS2043-Operating Systems/Labs/Lab 02": {
+    "iconName": "FasFlask",
+    "iconColor": "#67a8fe"
+  },
+  "SEM-3/CS2043-Operating Systems/Labs/Assignments": {
+    "iconName": "RaQuillInk",
+    "iconColor": "#70aeff"
+  },
+  "SEM-3/CS3043-Database Systems": {
+    "iconName": "FiDatabase",
+    "iconColor": "#66ffa1"
+  },
+  "SEM-3/CS3043-Database Systems/Database systems.md": {
+    "iconName": "SiHubspot",
+    "iconColor": "#59f366"
+  },
+  "SEM-3/CS3043-Database Systems/Study Notes": {
+    "iconName": "LiBookOpen",
+    "iconColor": "#70ffa7"
+  },
+  "SEM-3/CS3043-Database Systems/Test Questions": {
+    "iconName": "FarCircleQuestion",
+    "iconColor": "#70ffa7"
+  },
+  "SEM-3/CS3043-Database Systems/Group Project": {
+    "iconName": "FasPeopleGroup",
+    "iconColor": "#67fea1"
+  },
+  "SEM-3/CS3043-Database Systems/Study Notes/Database Design Using the E-R Model.md": {
+    "iconName": "FiFile",
+    "iconColor": "#3af83d"
+  },
+  "SEM-3/CS3043-Database Systems/Study Notes/Application Design & Development.md": {
+    "iconName": "LiFile",
+    "iconColor": "#52ff5d"
+  },
+  "SEM-3/CS3043-Database Systems/Study Notes/Advanced SQL.md": {
+    "iconName": "LiFile",
+    "iconColor": "#6eff6b"
+  },
+  "SEM-3/CS3043-Database Systems/Study Notes/Intermediate SQL.md": {
+    "iconName": "FiFile",
+    "iconColor": "#3ffd42"
+  },
+  "SEM-3/CS3043-Database Systems/Study Notes/Database Systems Introduction.md": {
+    "iconName": "FiFile",
+    "iconColor": "#68fe3e"
+  },
+  "SEM-3/CS3043-Database Systems/Study Notes/Relational Database Design.md": {
+    "iconName": "FiFile",
+    "iconColor": "#80fe5d"
+  },
+  "SEM-3/CS3043-Database Systems/Study Notes/Relational Algebra.md": {
+    "iconName": "FarNoteSticky",
+    "iconColor": "#58fea0"
+  },
+  "SEM-3/CS3043-Database Systems/Study Notes/Introduction to SQL.md": {
+    "iconName": "FiFile",
+    "iconColor": "#60fb4b"
+  },
+  "SEM-3/CS3043-Database Systems/Test Questions/MCQs": {
+    "iconName": "RiFolderUnknowLine",
+    "iconColor": "#52ffcb"
+  },
+  "SEM-3/CS3043-Database Systems/Test Questions/Quizzes": {
+    "iconName": "RaQuillInk",
+    "iconColor": "#57ffcd"
+  },
+  "SEM-3/CS3043-Database Systems/Group Project/DB Project.md": "SiReact",
+  "SEM-3/CS3043-Database Systems/Group Project/SRS.md": {
+    "iconName": "SiProtondb",
+    "iconColor": "#a22f9e"
+  },
+  "SEM-3/CS3043-Database Systems/Test Questions/MCQs/CS3043 Test Questions 02.md": {
+    "iconName": "LiFileQuestion",
+    "iconColor": "#6afbc3"
+  },
+  "SEM-3/CS3043-Database Systems/Test Questions/MCQs/CS3043 Test Questions 03.md": {
+    "iconName": "LiFileQuestion",
+    "iconColor": "#66ffbd"
+  },
+  "SEM-3/CS3043-Database Systems/Test Questions/MCQs/CS3043 Test Questions 04.md": {
+    "iconName": "LiFileQuestion",
+    "iconColor": "#6ef2ae"
+  },
+  "SEM-3/CS3043-Database Systems/Test Questions/MCQs/CS3043 Test Questions 05.md": {
+    "iconName": "LiFileQuestion",
+    "iconColor": "#5cffb8"
+  },
+  "SEM-3/CS3043-Database Systems/Test Questions/MCQs/CS3043 Test Questions 07.md": {
+    "iconName": "LiFileQuestion",
+    "iconColor": "#58feb6"
+  },
+  "SEM-3/CS3043-Database Systems/Test Questions/MCQs/CS3043 Test Questions 01.md": {
+    "iconName": "LiFileQuestion",
+    "iconColor": "#61ffd0"
+  },
+  "SEM-3/CS2033-Data Communication and Networking/Test Questions & Answers": {
+    "iconName": "RiQuestionLine",
+    "iconColor": "#584dff"
+  },
+  "SEM-4": {
+    "iconName": "LiLibraryBig",
+    "iconColor": "#8decd5"
+  },
+  "Singularity/INDEX.md": {
+    "iconName": "FiHome",
+    "iconColor": "#fcb069"
+  },
+  "SEM-4/MA2034-Linear Algebra": {
+    "iconName": "FasSquareRootVariable",
+    "iconColor": "#cbff6b"
+  },
+  "SEM-4/MA2054-Graph Theory": {
+    "iconName": "IbGraphLineUp",
+    "iconColor": "#ffd952"
+  },
+  "SEM-4/CS3243-IoT Devices and Applications": {
+    "iconName": "SiGraphql",
+    "iconColor": "#61edff"
+  },
+  "SEM-4/CS3063-Theory of Computing": {
+    "iconName": "FasComputer",
+    "iconColor": "#4db2fe"
+  },
+  "SEM-4/CS3023-Software Engineering": {
+    "iconName": "FasGear",
+    "iconColor": "#9d5cff"
+  },
+  "SEM-4/MA2034-Linear Algebra/Module Details.md": "LiFileWarning",
+  "SEM-4/MA2054-Graph Theory/Module Details.md": "LiFileWarning",
+  "SEM-4/CS3023-Software Engineering/Module Details.md": "LiFileWarning",
+  "SEM-4/CS3063-Theory of Computing/Module Details.md": "LiFileWarning",
+  "SEM-4/CS3243-IoT Devices and Applications/Module Details.md": "LiFileWarning",
+  "React": {
+    "iconName": "SiReact",
+    "iconColor": "#4358f9"
+  },
+  "SEM-4/CS3023-Software Engineering/Study Notes": "FiBookOpen",
+  "SEM-4/CS3243-IoT Devices and Applications/Study Notes": "FiBookOpen",
+  "SEM-4/MA2034-Linear Algebra/Study Notes": "FiBookOpen",
+  "SEM-4/MA2054-Graph Theory/Study Notes": "FiBookOpen",
+  "SEM-4/CS3063-Theory of Computing/Study Notes": "FiBookOpen",
+  "SEM-4/CS3263-Embedded Computer Networks": {
+    "iconName": "LiNetwork",
+    "iconColor": "#5d47ff"
+  },
+  "SEM-4/CS3263-Embedded Computer Networks/Module Details.md": "LiFileWarning",
+  "SEM-4/CS3263-Embedded Computer Networks/Study Notes": "FiBookOpen",
+  "SEM-4/CS3340-Robotics and Automation": {
+    "iconName": "RiRobot3Fill",
+    "iconColor": "#5cffb3"
+  },
+  "SEM-4/CS3340-Robotics and Automation/Module Details.md": "LiFileWarning",
+  "SEM-4/CS3340-Robotics and Automation/Study Notes": "FiBookOpen",
+  "TemplaterJS": {
+    "iconName": "FabJs",
+    "iconColor": "#f3f556"
+  },
+  "Templates": {
+    "iconName": "LiLayoutTemplate",
+    "iconColor": "#fd9b3f"
+  },
+  "SEM-4/Japanese": {
+    "iconName": "LiLanguages",
+    "iconColor": "#64f781"
   }
 }

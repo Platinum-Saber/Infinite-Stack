@@ -5,7 +5,7 @@ Related : #DatabaseSystems #DB #ERD #MCQ
 >>[!faq]- What is the primary purpose of the Entity-Relationship (ER) model?
 >> - [ ] a) To implement the database
 >> - [ ] b) To normalize relations
->> - [ ] c) To facilitate database design by allowing specification of an enterprise schema
+>> - [x] c) To facilitate database design by allowing specification of an enterprise schema
 >> - [ ] d) To query the database
 >
 >>[!success]- Answer
@@ -16,7 +16,7 @@ Related : #DatabaseSystems #DB #ERD #MCQ
 >> - [ ] a) Entity sets
 >> - [ ] b) Relationship sets
 >> - [ ] c) Attributes
->> - [ ] d) Tuples
+>> - [x] d) Tuples
 >
 >>[!success]- Answer
 >>- d) Tuples
@@ -25,7 +25,7 @@ Related : #DatabaseSystems #DB #ERD #MCQ
 >>[!faq]- In an ER diagram, how are entity sets represented?
 >> - [ ] a) Circles
 >> - [ ] b) Diamonds
->> - [ ] c) Rectangles
+>> - [x] c) Rectangles
 >> - [ ] d) Triangles
 >
 >>[!success]- Answer

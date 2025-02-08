@@ -1,4 +1,4 @@
-## Index
+## SEM - 3
 1. [[Data Communication & Networking]]
 2. [[Operating Systems]]
 3. [[Computer Architecture]]
@@ -8,3 +8,4 @@
 7. [[Applied Statistics]]
 8. [[Thermodynamics]]
  
+## SEM - 4

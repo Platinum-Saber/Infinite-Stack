@@ -1,5 +1,5 @@
 {
-  "defaultViewMode": "source",
+  "defaultViewMode": "preview",
   "alwaysUpdateLinks": true,
   "strictLineBreaks": false,
   "attachmentFolderPath": "Images",
@@ -8,7 +8,11 @@
     "pageSize": "A4",
     "landscape": false,
     "margin": "0",
-    "downscalePercent": 76
+    "downscalePercent": 66
   },
-  "showLineNumber": false
+  "showLineNumber": false,
+  "userIgnoreFilters": [
+    "Singularity/"
+  ],
+  "livePreview": true
 }

@@ -1,5 +1,3 @@
-## Overview
-This chapter focuses on synchronization in operating systems, particularly how processes manage shared resources concurrently without conflict or deadlock. It addresses classical synchronization problems, solutions in different operating systems, and specific APIs used for synchronization, including POSIX and Java.
 
 ## Classical Problems of Synchronization
 

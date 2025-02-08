@@ -5,18 +5,43 @@ Reference Notes :  [chapter 06](file:///E:%5CAcademics%5CSEM%203%5CCS2043-Operat
 
 <br>
 
-> [!file]- Lecture Note : Chapter 06
-> ![[L06_mod.pdf]]
-
 ---
 # Content
+
+- [[#Synchronization|Synchronization]]
+- [[#Shared Resources|Shared Resources]]
+- [[#**1. Introduction to Synchronization**|**1. Introduction to Synchronization**]]
+- [[#**2. Synchronization Motivation**|**2. Synchronization Motivation**]]
+- [[#**3. Race Condition**|**3. Race Condition**]]
+- [[#**4. The Critical-Section Problem**|**4. The Critical-Section Problem**]]
+	- [[#**4. The Critical-Section Problem**#**Requirements for Solutions**:|**Requirements for Solutions**:]]
+- [[#**5. Solutions to the Mutual Exclusion Problem**|**5. Solutions to the Mutual Exclusion Problem**]]
+	- [[#**5. Solutions to the Mutual Exclusion Problem**#**5.1. The Turn Variable Approach (First Attempt)**|**5.1. The Turn Variable Approach (First Attempt)**]]
+	- [[#**5. Solutions to the Mutual Exclusion Problem**#**6. Dekker’s Algorithm**|**6. Dekker’s Algorithm**]]
+	- [[#**5. Solutions to the Mutual Exclusion Problem**#**Key Features**:|**Key Features**:]]
+	- [[#**5. Solutions to the Mutual Exclusion Problem**#**7. Peterson’s Algorithm**|**7. Peterson’s Algorithm**]]
+- [[#**8. Hardware-Assisted Mutual Exclusion**|**8. Hardware-Assisted Mutual Exclusion**]]
+	- [[#**8. Hardware-Assisted Mutual Exclusion**#**8.1. Test-and-Set**|**8.1. Test-and-Set**]]
+	- [[#**8. Hardware-Assisted Mutual Exclusion**#**8.2. Exchange**|**8.2. Exchange**]]
+- [[#**9. Liveness**|**9. Liveness**]]
+	- [[#**9. Liveness**#**Types of Liveness Failures**:|**Types of Liveness Failures**:]]
+- [[#**10. Semaphores and Mutexes**|**10. Semaphores and Mutexes**]]
+	- [[#**10. Semaphores and Mutexes**#**10.1. Semaphores**|**10.1. Semaphores**]]
+	- [[#**10. Semaphores and Mutexes**#**10.2. Mutex Locks**|**10.2. Mutex Locks**]]
+- [[#**11. Monitors**|**11. Monitors**]]
+- [[#**12. Evaluation of Synchronization Tools**|**12. Evaluation of Synchronization Tools**]]
+	- [[#**12. Evaluation of Synchronization Tools**#**12.1. Low Contention**:|**12.1. Low Contention**:]]
+	- [[#**12. Evaluation of Synchronization Tools**#**12.2. Moderate to High Contention**:|**12.2. Moderate to High Contention**:]]
+	- [[#**12. Evaluation of Synchronization Tools**#**Conclusion**|**Conclusion**]]
+
+
 
 
 ---
 
 <br>
 
-# Synchronization
+## Synchronization
 > [!note] Multi-threaded programs
 > Threads **cooperate** in multithreaded programs.
 > - To **share resources**, access shared data structures.
@@ -165,8 +190,3 @@ A **monitor** is a high-level synchronization mechanism that bundles shared data
 
 ---
 
-### **Conclusion**
-
-Synchronization is essential for ensuring **correctness** in concurrent programming. Critical sections must be protected using synchronization tools like **Dekker's Algorithm**, **Peterson's Algorithm**, **semaphores**, **mutexes**, and **monitors**. Proper synchronization prevents race conditions, ensures mutual exclusion, and resolves issues like deadlock and starvation. Understanding and applying these tools is fundamental to building reliable and efficient concurrent systems.
-
---- 

@@ -107,4 +107,8 @@ More info on [Phase Diagrams](https://www.youtube.com/watch?v=-5oq5CZlY8k).
 
 <br>
 
+--- 
+Up Next : [[Steam Power Cycle]]
+
+
 
