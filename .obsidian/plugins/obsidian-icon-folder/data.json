@@ -755,11 +755,8 @@
     "iconName": "SiReact",
     "iconColor": "#4358f9"
   },
-  "SEM-4/CS3023-Software Engineering/Study Notes": "FiBookOpen",
-  "SEM-4/CS3243-IoT Devices and Applications/Study Notes": "FiBookOpen",
   "SEM-4/MA2034-Linear Algebra/Study Notes": "FiBookOpen",
   "SEM-4/MA2054-Graph Theory/Study Notes": "FiBookOpen",
-  "SEM-4/CS3063-Theory of Computing/Study Notes": "FiBookOpen",
   "SEM-4/CS3263-Embedded Computer Networks": {
     "iconName": "LiNetwork",
     "iconColor": "#5d47ff"
@@ -771,7 +768,6 @@
     "iconColor": "#5cffb3"
   },
   "SEM-4/CS3340-Robotics and Automation/Module Details.md": "LiFileWarning",
-  "SEM-4/CS3340-Robotics and Automation/Study Notes": "FiBookOpen",
   "TemplaterJS": {
     "iconName": "FabJs",
     "iconColor": "#f3f556"
@@ -780,31 +776,12 @@
     "iconName": "LiLayoutTemplate",
     "iconColor": "#fd9b3f"
   },
-  "SEM-4/CS3340-Robotics and Automation/Study Notes/Introduction.md": "FiFile",
-  "Projects": {
-    "iconName": "FabDev",
-    "iconColor": "#ffc157"
-  },
-  "Projects/Devthon": {
-    "iconName": "RiNextjsLine",
-    "iconColor": "#ff6666"
-  },
   "SEM-4/EN2853-Embedded Systems": {
     "iconName": "FiCpu",
     "iconColor": "#4dfe6b"
   },
-  "SEM-4/CS3263-Embedded Computer Networks/Labs": "FasFlask",
-  "SEM-4/CS3023-Software Engineering/Labs": "FasFlask",
   "SEM-4/HM2030-Japanese": {
     "iconName": "LiLanguages",
     "iconColor": "#c0ff66"
-  },
-  "Projects/SLRC": {
-    "iconName": "RaRobotArm",
-    "iconColor": "#d561ff"
-  },
-  "Projects/SLRC/LYSIA-Prime": {
-    "iconName": "RiRobot3Fill",
-    "iconColor": "#66d1ff"
   }
 }
