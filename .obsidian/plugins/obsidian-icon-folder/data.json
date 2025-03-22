@@ -6,16 +6,16 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
+      "RaRobotArm",
+      "FasFlask",
+      "FiCpu",
+      "RiNextjsLine",
+      "FabDev",
+      "FiFile",
       "LiLanguages",
       "LiJapaneseYen",
       "RiRobot3Fill",
-      "LiLayoutTemplate",
-      "FabJs",
-      "FiBookOpen",
-      "SiReact",
-      "LiFileWarning",
-      "FasGear",
-      "LiNetwork"
+      "LiLayoutTemplate"
     ],
     "recentlyUsedIconsSize": 10,
     "rules": [],
@@ -728,11 +728,11 @@
   },
   "SEM-4/MA2034-Linear Algebra": {
     "iconName": "FasSquareRootVariable",
-    "iconColor": "#cbff6b"
+    "iconColor": "#fee14d"
   },
   "SEM-4/MA2054-Graph Theory": {
     "iconName": "IbGraphLineUp",
-    "iconColor": "#ffd952"
+    "iconColor": "#ffa052"
   },
   "SEM-4/CS3243-IoT Devices and Applications": {
     "iconName": "SiGraphql",
@@ -780,8 +780,31 @@
     "iconName": "LiLayoutTemplate",
     "iconColor": "#fd9b3f"
   },
-  "SEM-4/Japanese": {
+  "SEM-4/CS3340-Robotics and Automation/Study Notes/Introduction.md": "FiFile",
+  "Projects": {
+    "iconName": "FabDev",
+    "iconColor": "#ffc157"
+  },
+  "Projects/Devthon": {
+    "iconName": "RiNextjsLine",
+    "iconColor": "#ff6666"
+  },
+  "SEM-4/EN2853-Embedded Systems": {
+    "iconName": "FiCpu",
+    "iconColor": "#4dfe6b"
+  },
+  "SEM-4/CS3263-Embedded Computer Networks/Labs": "FasFlask",
+  "SEM-4/CS3023-Software Engineering/Labs": "FasFlask",
+  "SEM-4/HM2030-Japanese": {
     "iconName": "LiLanguages",
-    "iconColor": "#64f781"
+    "iconColor": "#c0ff66"
+  },
+  "Projects/SLRC": {
+    "iconName": "RaRobotArm",
+    "iconColor": "#d561ff"
+  },
+  "Projects/SLRC/LYSIA-Prime": {
+    "iconName": "RiRobot3Fill",
+    "iconColor": "#66d1ff"
   }
 }
