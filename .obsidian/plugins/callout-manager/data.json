@@ -9,7 +9,8 @@
       "table",
       "dbq",
       "math",
-      "video"
+      "video",
+      "ic"
     ],
     "settings": {
       "info": [
@@ -115,6 +116,29 @@
           "changes": {
             "icon": "lucide-video",
             "color": "82, 255, 174"
+          }
+        }
+      ],
+      "ic": [
+        {
+          "changes": {
+            "icon": "lucide-microchip"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "light"
+          },
+          "changes": {
+            "color": "19, 170, 112"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "dark"
+          },
+          "changes": {
+            "color": "86, 225, 172"
           }
         }
       ]
