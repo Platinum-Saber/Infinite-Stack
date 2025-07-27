@@ -6,16 +6,16 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "RaRobotArm",
-      "FasFlask",
-      "FiCpu",
-      "RiNextjsLine",
-      "FabDev",
-      "FiFile",
-      "LiLanguages",
-      "LiJapaneseYen",
-      "RiRobot3Fill",
-      "LiLayoutTemplate"
+      "LiChartSpline",
+      "FiDollarSign",
+      "FarChartBar",
+      "RiSortNumberDesc",
+      "IbNumbers",
+      "RiNumbersFill",
+      "SiGraphql",
+      "RiImageEditFill",
+      "FasShieldHalved",
+      "LiLibraryBig"
     ],
     "recentlyUsedIconsSize": 10,
     "rules": [],
@@ -783,5 +783,51 @@
   "SEM-4/HM2030-Japanese": {
     "iconName": "LiLanguages",
     "iconColor": "#c0ff66"
+  },
+  "SEM-4/CS3263-Embedded Computer Networks/Labs": "FasFlask",
+  "SEM-4/CS3263-Embedded Computer Networks/Project": "SiZigbee",
+  "Projects": {
+    "iconName": "SiCodeproject",
+    "iconColor": "#ff943d"
+  },
+  "SEM-5": {
+    "iconName": "LiLibraryBig",
+    "iconColor": "#6ffbdf"
+  },
+  "SEM-5/CS3053 Computer Security": {
+    "iconName": "FasShieldHalved",
+    "iconColor": "#4262ff"
+  },
+  "SEM-5/CS3283 Embedded Systems Project": {
+    "iconName": "FiCpu",
+    "iconColor": "#4dbbff"
+  },
+  "SEM-5/CS3350 Embedded Software Engineering": {
+    "iconName": "FabDev",
+    "iconColor": "#38f2ff"
+  },
+  "SEM-5/CS3713 Image Processing": {
+    "iconName": "RiImageEditFill",
+    "iconColor": "#2ffe63"
+  },
+  "SEM-5/EN3150 Pattern Recognition": {
+    "iconName": "SiGraphql",
+    "iconColor": "#d6fe67"
+  },
+  "SEM-5/MA2024 Calculus": {
+    "iconName": "RiNumbersFill",
+    "iconColor": "#fff152"
+  },
+  "SEM-5/MA3024 Numerical Methods": {
+    "iconName": "RiSortNumberDesc",
+    "iconColor": "#ffc038"
+  },
+  "SEM-5/MA3030 Operational Research": {
+    "iconName": "LiChartSpline",
+    "iconColor": "#ff9238"
+  },
+  "SEM-5/MN3043 Business Econ & Financial Acc": {
+    "iconName": "FiDollarSign",
+    "iconColor": "#ff4242"
   }
 }
