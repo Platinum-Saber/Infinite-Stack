@@ -7,19 +7,6 @@ About: Important stuff to know about esp32 boards
 Reviewed: true
 Completion: 100
 ---
-
-### Status
-Reviewed : `INPUT[toggle:Reviewed]`
-
-Progress :  
-```meta-bind
-INPUT[progressBar:Completion]
-```
-
----
-
-
-
 ## 1. Overview
 
 > [!NOTE] About ESP32

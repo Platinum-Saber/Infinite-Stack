@@ -31,7 +31,7 @@ Completion: 0
 
 ### 1. MOSI (Master out Slave in)
 
-- When the master device initiates communication, the data intended to be sent to the slave is first loaded into the SPDR. Upon transmission, the data is shifted out bit-by-bit from the SPDR via the MOSI line.
+- When the master device initiates communication, the data intended to be sent to the slave is first loaded into the SPDR (SPI data register). Upon transmission, the data is shifted out bit-by-bit from the SPDR via the MOSI line.
 - Active only when **SS (Slave Select) is LOW**.
 - Data is sent in synchronization with the **SCK (clock) signal**.
 #### Master Code
@@ -132,14 +132,14 @@ void loop() {
 
 ## 2. Comparison of I2C and SPI
 
-|Feature|SPI (Serial Peripheral Interface)|I2C (Inter-Integrated Circuit)|
-|---|---|---|
-|**Number of Wires**|4 (MISO, MOSI, SCK, SS)|2 (SDA, SCL)|
-|**Speed**|Faster (up to MHz range)|Slower (100 kHz, 400 kHz, 1 MHz)|
-|**Communication Type**|Full-duplex (simultaneous TX & RX)|Half-duplex (one direction at a time)|
-|**Addressing**|No addressing, each device needs separate SS pin|Uses addressing, multiple slaves on same bus|
-|**Complexity**|Simple but requires more wires|More complex but fewer wires|
-|**Multi-Master Support**|Not easily supported|Fully supports multi-master|
+| Feature                  | SPI (Serial Peripheral Interface)                | I2C (Inter-Integrated Circuit)               |
+| ------------------------ | ------------------------------------------------ | -------------------------------------------- |
+| **Number of Wires**      | 4 (MISO, MOSI, SCK, SS)                          | 2 (SDA, SCL)                                 |
+| **Speed**                | Faster (up to MHz range)                         | Slower (100 kHz, 400 kHz, 1 MHz)             |
+| **Communication Type**   | Full-duplex (simultaneous TX & RX)               | Half-duplex (one direction at a time)        |
+| **Addressing**           | No addressing, each device needs separate SS pin | Uses addressing, multiple slaves on same bus |
+| **Complexity**           | Simple but requires more wires                   | More complex but fewer wires                 |
+| **Multi-Master Support** | Not easily supported                             | Fully supports multi-master                  |
 
 
 

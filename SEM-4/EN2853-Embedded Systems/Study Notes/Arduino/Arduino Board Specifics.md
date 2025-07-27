@@ -8,23 +8,6 @@ Reviewed: true
 Completion: 100
 ---
 
-## Status
-Reviewed : `INPUT[toggle:Reviewed]`
-
-Progress :  
-```meta-bind
-INPUT[progressBar:Completion]
-```
-
-
-
----
-
-<br>
-
-
-<br>
-
 ## Arduino Board Overview
 
 Arduino is an open-source electronics platform that consists of microcontroller boards and an easy-to-use development environment (Arduino IDE). It is widely used for embedded systems, robotics, automation, and IoT projects.

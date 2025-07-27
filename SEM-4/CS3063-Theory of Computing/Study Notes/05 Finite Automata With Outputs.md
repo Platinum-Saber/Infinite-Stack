@@ -90,7 +90,7 @@ Used to **prove that a language is not regular**.
 
 ### Statement:
 
-For a regular language $L$, there exists a constant $n$ such that for any string $x \in L$ with $|x| \geq n$, we can split $x$ into three parts: x=uvwx = uvw Such that:
+For a regular language $L$, there exists a constant $n$ such that for any string $x \in L$ with $|x| \geq n$, we can split $x$ into three parts: x = uvw Such that:
 
 - $|uv| \leq n$
 - $|v| > 0$

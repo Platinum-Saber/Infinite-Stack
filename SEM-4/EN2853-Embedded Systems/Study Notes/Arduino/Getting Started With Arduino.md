@@ -7,16 +7,6 @@ About:
 Reviewed: true
 Completion: 100
 ---
-
-### Status
-Reviewed : `INPUT[toggle:Reviewed]`
-
-Progress :  
-```meta-bind
-INPUT[progressBar:Completion]
-```
-
-
 ## Content
 
 1. [[#1. Understanding the Arduino Board|1. Understanding the Arduino Board]]
@@ -37,13 +27,9 @@ INPUT[progressBar:Completion]
 		8. [[#6.1 Controlling an LED with a Button|6.1 Controlling an LED with a Button]]
 			3. [[#6.1 Controlling an LED with a Button#Code:|Code:]]
 7. [[#7. Troubleshooting Common Issues|7. Troubleshooting Common Issues]]
-8. [[#8. Next Steps|8. Next Steps]]
 
 
-
-
-
-
+---
 
 
 # 1. Understanding the Arduino Board
@@ -88,6 +74,8 @@ The Arduino IDE (Integrated Development Environment) is used to write and upload
 If you don’t want to install the IDE, you can use the **Arduino Web Editor** from [create.arduino.cc](https://create.arduino.cc/editor).
 
 ---
+
+<div style="page-break-before: always;"></div>
 
 # 3. Connecting Arduino to Your Computer
 
@@ -134,6 +122,8 @@ void loop() {
 3. If successful, the onboard **LED at pin 13** should blink.
 
 ---
+
+<div style="page-break-before: always;"></div>
 
 # 5. Understanding the Basics of Arduino Programming
 
@@ -204,13 +194,4 @@ void loop() {
 |**Board Not Responding**|Try a different USB cable or reinstall drivers.|
 |**Sketch Too Large**|Optimize the code, remove unnecessary libraries.|
 
----
 
-# 8. Next Steps
-
-Now that you have mastered the basics, explore more projects:
-
-- **Reading Sensor Data** (Temperature, Light, Ultrasonic)
-- **Controlling Motors** (DC, Servo, Stepper)
-- **Building IoT Applications** (WiFi & Bluetooth with ESP8266, ESP32)
-- **Interfacing with Displays** (LCD, OLED)

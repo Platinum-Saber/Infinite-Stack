@@ -1,7 +1,6 @@
 ---
-tags:
-  - iot
-Created: 2025-03-03 09:33
+tags: 
+Created: 2025-05-07 16:35
 About: 
 Reviewed: false
 Completion: 0

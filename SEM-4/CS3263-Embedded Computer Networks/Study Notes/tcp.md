@@ -1,48 +1,45 @@
 ---
-tags:
-  - Networking
-  - EmbeddedNetworking
-  - TCP
-Created: 2025-02-05 05:38
+tags: 
+Created: 2025-06-13 14:37
 About: 
 Reviewed: false
-Completion: 30
+Completion: 0
 ---
-
+# TCP Study Note
 
 ## TCP Introduction
 
-Transmission Control Protocol (TCP) is a fundamental protocol in the Internet Protocol Suite, functioning at the transport layer of the OSI model. It provides reliable, connection-oriented, and stream-based communication between devices in a network. TCP guarantees accurate and ordered delivery of data, making it essential for applications requiring high reliability, such as web browsing (HTTP/HTTPS), email (SMTP), and file transfers (FTP). It complements the Internet Protocol (IP), which handles packet routing and addressing.
+Transmission Control Protocol (TCP) is a core protocol in the Internet Protocol Suite, functioning at the transport layer of the OSI model. It provides reliable, connection-oriented, and stream-based communication between devices over a network. TCP guarantees accurate and ordered data delivery, making it essential for applications like web browsing (HTTP/HTTPS), email (SMTP), and file transfers (FTP). It works with IP, which handles packet routing and addressing.
 
 > [!info] Key Fact  
-> Defined in RFC 793 (1981), TCP remains a cornerstone of modern networking due to its robustness and adaptability.
+> Standardized in RFC 793 (1981), TCP remains a cornerstone of modern networking due to its reliability and adaptability.
 
 ## TCP Features
 
-TCP’s key features ensure reliable and efficient data transfer:
+TCP’s key features ensure robust data transfer:
 
-- **Connection-Oriented**: Establishes a session via a handshake before data exchange.
-- **Reliable Delivery**: Uses acknowledgments, retransmissions, and checksums to ensure error-free delivery.
-- **Ordered Data Transfer**: Reassembles data in the correct sequence using sequence numbers.
+- **Connection-Oriented**: Establishes a session via a three-way handshake before data exchange.
+- **Reliable Delivery**: Uses acknowledgments, retransmissions, and checksums for error-free delivery.
+- **Ordered Data Delivery**: Ensures data arrives in the correct sequence using sequence numbers.
 - **Flow Control**: Prevents buffer overflow using a sliding window mechanism.
-- **Congestion Control**: Mitigates network overload by adjusting transmission rates.
-- **Multiplexing**: Allows multiple applications to share a connection using port numbers.
+- **Congestion Control**: Manages network overload by adjusting transmission rates.
+- **Multiplexing**: Supports multiple applications to share a connection using ports.
 
 > [!important] Highlight  
-> TCP’s comprehensive feature set makes it ideal for applications prioritizing data integrity over speed, unlike UDP.
+> TCP prioritizes data integrity, making it ideal for applications requiring high reliability, unlike UDP.
 
 ## TCP Format
 
-The TCP header encapsulates data for control and delivery. Typically 20 bytes (excluding options), it includes fields to manage connections and ensure reliability.
+The TCP header encapsulates data for control and delivery. Typically 20 bytes (excluding options), it includes fields for connection management and reliability.
 
 ### TCP Header Fields
 
 - **Source Port (16 bits)**: Identifies the sender’s application port.
 - **Destination Port (16 bits)**: Identifies the receiver’s application port.
 - **Sequence Number (32 bits)**: Tracks the byte position in the data stream.
-- **Acknowledgment Number (32 bits)**: Specifies the next expected byte from the sender.
+- **Acknowledgment Number (32 bits)**: Specifies the next expected byte.
 - **Data Offset (4 bits)**: Indicates header length in 32-bit words.
-- **Reserved (3 bits)**: Zeroed for future use.
+- **Reserved (3 bits)**: Set to zero for future use.
 - **Flags (9 bits)**: Includes URG, ACK, PSH, RST, SYN, FIN for control.
 - **Window Size (16 bits)**: Advertises receiver’s buffer capacity.
 - **Checksum (16 bits)**: Verifies header and data integrity.
@@ -63,27 +60,26 @@ packet-beta
 112-127: "Window Size"
 128-143: "Checksum"
 144-159: "Urgent Pointer"
-160-223: "Options (Variable)"
+160-*: "Options (Variable)"
 ```
 
 > [!note] Header Insight  
-> The optional fields in the TCP header enable customization for diverse network scenarios, enhancing flexibility.
+> Optional fields in the TCP header enable customization for diverse network scenarios.
 
 ## TCP Operations
 
 ### Basic Data Transfer
 
-TCP treats data as a continuous byte stream, dividing it into segments for transmission. Each segment carries a sequence number to ensure correct reassembly at the receiver. The sender transmits segments, and the receiver acknowledges them, allowing efficient data exchange.
+TCP treats data as a continuous byte stream, dividing it into segments. Each segment carries a sequence number for correct reassembly at the receiver. The sender transmits segments, and the receiver acknowledges them.
 
-- **Segmentation**: Application data is split into manageable segments, typically limited by the Maximum Segment Size (MSS).
-- **Sliding Window Protocol**: Enables sending multiple segments before waiting for acknowledgments, improving throughput.
-- **Buffering**: Both sender and receiver maintain buffers to handle data flow and reordering.
+- **Segmentation**: Data is split into segments, limited by the Maximum Segment Size (MSS).
+- **Sliding Window Protocol**: Allows sending multiple segments before waiting for ACKs, improving throughput.
+- **Buffering**: Sender and receiver use buffers to manage data flow and reordering.
 
-**Example**: When downloading a file, TCP breaks the file into segments, sends them, and reassembles them at the destination, ensuring no data is lost or misordered.
+**Example**: During a file download, TCP segments the file, sends segments, and reassembles them at the destination.
 
 > [!tip] Efficiency  
-> The sliding window optimizes bandwidth usage by allowing parallel transmission of segments, reducing idle time.
-
+> The sliding window reduces idle time by enabling parallel segment transmission.
 
 ### Reliability
 
@@ -121,24 +117,22 @@ sequenceDiagram
     Sender->>Receiver: Segment (Seq=2000, Data)
     Receiver->>Sender: ACK (Ack=1000)
     Receiver->>Sender: ACK (Ack=1000, Duplicate)
-    Note over Sender: Detects loss via duplicate ACKs
+    Note over Sender: Fast retransmit triggered
     Sender->>Receiver: Retransmit (Seq=1000, Data)
     Receiver->>Sender: ACK (Ack=3000)
 ```
 
 > [!warning] Reliability Overhead  
-> Mechanisms like retransmissions and ACKs increase latency and bandwidth usage, making TCP slower than UDP for time-sensitive applications.
+> Retransmissions, ACKs, and timeout calculations increase latency and bandwidth usage compared to UDP.
 
 ### Flow Control
 
-Flow control prevents the sender from overwhelming the receiver’s buffer. TCP uses a sliding window protocol, where the receiver advertises its available buffer space (window size) in each ACK. The sender adjusts its transmission rate based on this window.
+Flow control prevents buffer overflow at the receiver using a sliding window protocol. The receiver advertises its window size (buffer capacity) in each ACK, and the sender adjusts its transmission rate.
 
-- **Window Size**: Represents the number of bytes the receiver can accept. It varies dynamically based on buffer availability.
-- **Sliding Window**: The sender maintains a window of unacknowledged segments, sliding forward as ACKs are received.
-- **Zero Window**: If the receiver’s buffer is full, it advertises a zero window, halting sender transmission until a non-zero window is advertised.
-- **Window Probing**: The sender periodically sends small segments to check if the receiver’s window has reopened.
-
-**Example**: If the receiver’s buffer can hold 4000 bytes, it advertises a window size of 4000. If it receives 2000 bytes, it updates the window to 2000.
+- **Window Size**: Number of bytes the receiver can accept. Dynamically updated based on buffer availability.
+- **Sliding Window**: Sender tracks unacknowledged segments, sliding the window as ACKs arrive.
+- **Zero Window**: Receiver advertises a zero window when its buffer is full, pausing sender transmission.
+- **Window Probing**: Sender sends small segments to check if the receiver’s window has reopened.
 
 #### Effect of Window Size on Data Flow
 
@@ -163,43 +157,41 @@ sequenceDiagram
     Receiver->>Sender: ACK (Ack=4000, Window=1000)
     Note over Receiver: Buffer nearly full
     Receiver->>Sender: ACK (Window=0)
-    Note over Sender: Stops sending
+    Note over Sender: Pauses transmission
     Receiver->>Sender: ACK (Window=2000)
     Note over Sender: Resumes sending
 ```
 
 > [!info] Flow Control Benefit  
-> Flow control ensures no data is lost due to buffer overflow, maintaining smooth communication.
+> Dynamic window sizing ensures efficient data transfer without overwhelming the receiver.
 
 ### Multiplexing
 
-Multiplexing allows multiple applications on a single host to share a TCP connection. This is achieved using port numbers, which identify specific applications or services.
+Multiplexing enables multiple applications on a host to share a TCP connection using port numbers.
 
-- **Ports**: 16-bit numbers (0–65535) assigned to applications (e.g., 80 for HTTP, 22 for SSH). Well-known ports (0–1023), registered ports (1024–49151), and ephemeral ports (49152–65535) categorize usage.
-- **Socket**: A unique combination of source IP, source port, destination IP, and destination port identifies a connection.
-- **Demultiplexing**: The receiver uses port numbers to deliver segments to the correct application.
+- **Ports**: 16-bit identifiers (0–65535) for applications (e.g., 80 for HTTP, 443 for HTTPS). Categorized as well-known (0–1023), registered (1024–49151), and ephemeral (49152–65535).
+- **Socket**: Combines source IP, source port, destination IP, and destination port to uniquely identify a connection.
+- **Demultiplexing**: Receiver uses ports to route segments to the correct application.
 
-**Example**: A device can simultaneously browse a website (port 443) and check email (port 993) using distinct sockets.
+**Example**: A device can browse a website (port 443) and stream video (port 554) concurrently using distinct sockets.
 
 > [!note] Multiplexing Advantage  
-> Multiplexing maximizes resource utilization, enabling concurrent network activities on a single device.
+> Multiplexing optimizes resource usage for concurrent network activities.
 
 ### Connections
 
-TCP’s connection-oriented nature requires explicit setup and teardown phases to ensure reliable communication.
+TCP’s connection-oriented nature involves explicit setup, data transfer, and teardown phases.
 
 - **Three-Way Handshake** (Connection Setup):
-    1. Sender sends SYN (Synchronize) with an initial sequence number (ISN).
-    2. Receiver responds with SYN-ACK, acknowledging the sender’s ISN and sending its own ISN.
-    3. Sender sends ACK, acknowledging the receiver’s ISN, completing the handshake.
-- **Data Transfer**: Occurs bidirectionally after the handshake, using sequence numbers and ACKs.
+    1. Sender sends SYN with an initial sequence number (ISN).
+    2. Receiver responds with SYN-ACK, acknowledging the sender’s ISN and sending its ISN.
+    3. Sender sends ACK, acknowledging the receiver’s ISN.
+- **Data Transfer**: Bidirectional exchange using sequence numbers and ACKs.
 - **Four-Way Handshake** (Connection Termination):
-    1. One side sends FIN (Finish) to close its sending direction.
-    2. The other side sends ACK, confirming receipt of FIN.
-    3. The other side sends its own FIN to close its direction.
-    4. The first side sends ACK, finalizing termination.
-
-**Example**: When closing a web connection, each side sends FIN and ACK to gracefully terminate the session.
+    1. One side sends FIN to close its sending direction.
+    2. Other side sends ACK.
+    3. Other side sends FIN to close its direction.
+    4. First side sends ACK.
 
 #### Connection States
 
@@ -234,9 +226,4 @@ TCP connections transition through states during their lifecycle:
 **Example**: A client in SYN-SENT receives SYN-ACK, moves to ESTABLISHED, and begins data transfer. After transfer, it sends FIN, entering FIN-WAIT-1.
 
 > [!important] Connection Robustness  
-> The handshake processes ensure synchronized state and prevent data loss at session start or end.
-
-
-
-
-
+> State transitions and handshakes ensure synchronized communication and graceful session management.
