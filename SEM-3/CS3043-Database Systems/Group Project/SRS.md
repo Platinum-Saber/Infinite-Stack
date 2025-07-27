@@ -7,7 +7,7 @@ Sample : [SRS Example](file:///E:%5CAcademics%5CSEM%203%5CCS3043-Database%20Syst
 
 - Web app
 - Using React, node.js
-### 1. [[Introduction]] :- Suraja
+### 1. [[SEM-4/CS3340-Robotics and Automation/Study Notes/Introduction]] :- Suraja
 ### 2. [[Overall Description]] :- Semini
 ### 3. [[External Interface Requirements]] :- Suhan
 ### 4. [[System Features]] :- Denuwan
