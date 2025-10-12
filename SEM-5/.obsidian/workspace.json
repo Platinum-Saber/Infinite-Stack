@@ -1,0 +1,180 @@
+{
+  "main": {
+    "id": "ea1a10b10822c3fc",
+    "type": "split",
+    "children": [
+      {
+        "id": "4184bf1aefa5e2e9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e0301a3e97634647",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CS3713 Image Processing/Study Notes/06 Gradients and Edges.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "06 Gradients and Edges"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "3b698afddbb04776",
+    "type": "split",
+    "children": [
+      {
+        "id": "d92be688d8af334f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7bbb8522b0a603e1",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "577642e8a0bdae9d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "ce849b35b71c0d02",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "e4d0dae8f7dabf8b",
+    "type": "split",
+    "children": [
+      {
+        "id": "fa23e2cdf30672b1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9c55f5470049c58b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "CS3713 Image Processing/Study Notes/02 Image Formation & Acquisition.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 02 Image Formation & Acquisition"
+            }
+          },
+          {
+            "id": "09142ce79c463b97",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "CS3713 Image Processing/Study Notes/02 Image Formation & Acquisition.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 02 Image Formation & Acquisition"
+            }
+          },
+          {
+            "id": "02172c5ff2027d7d",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "711ad7b33ede2b94",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "CS3713 Image Processing/Study Notes/02 Image Formation & Acquisition.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 02 Image Formation & Acquisition"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "e0301a3e97634647",
+  "lastOpenFiles": [
+    "CS3713 Image Processing/Study Notes/05 Noise and Noise Filters.md",
+    "CS3713 Image Processing/Study Notes/04 Point Operations.md",
+    "CS3713 Image Processing/Study Notes/03 Pixels, Scale, and Image Quality.md",
+    "CS3713 Image Processing/Study Notes/02 Image Formation & Acquisition.md",
+    "CS3713 Image Processing/Study Notes/01 Introduction.md"
+  ]
+}

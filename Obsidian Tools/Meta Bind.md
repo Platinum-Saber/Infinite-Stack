@@ -5,7 +5,7 @@ The `text` input field allows you to input and edit single-line text values.
 
 **Syntax:**
 
- `INPUT[text:propertyName]`
+ `INPUT[text:propertyName] 
 
 **Example:**
 
@@ -22,7 +22,7 @@ The `number` input field is designed for numerical values.
 **Syntax:**
 
 
-`INPUT[number:propertyName]`
+`INPUT[number:propertyName] `
 
 
 **Example:**
@@ -42,7 +42,7 @@ This sets up a number input linked to the `projectDuration` property.
 **Syntax:**
 
 
-`INPUT[toggle:propertyName]`
+`INPUT[toggle:propertyName] `
 
 
 **Example:**
@@ -197,7 +197,7 @@ This adds a time picker linked to the `meetingTime` property.
 
 
 
-For more detailed information and advanced configurations, refer to the [Meta Bind Documentation](https://www.moritzjung.dev/obsidian-meta-bind-plugin-docs/).
+For more detailed information and advanced configurations, refer to the [Meta Bind Documentation](https://www.moritzjung.dev/obsidian-meta-bind-plugin-docs/)
 
 ---
 

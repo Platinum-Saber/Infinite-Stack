@@ -6,16 +6,16 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "LiChartSpline",
-      "FiDollarSign",
-      "FarChartBar",
-      "RiSortNumberDesc",
-      "IbNumbers",
-      "RiNumbersFill",
-      "SiGraphql",
-      "RiImageEditFill",
-      "FasShieldHalved",
-      "LiLibraryBig"
+      "FasZ",
+      "LiNotebookTabs",
+      "SiBookstack",
+      "LiLibrary",
+      "FasFlask",
+      "FabJava",
+      "SiFlutter",
+      "SiDart",
+      "SiJupyter",
+      "LiChartSpline"
     ],
     "recentlyUsedIconsSize": 10,
     "rules": [],
@@ -36,7 +36,8 @@
     "iconsInLinksEnabled": true,
     "iconIdentifier": ":",
     "debugMode": false,
-    "lucideIconPackType": "native"
+    "lucideIconPackType": "native",
+    "useInternalPlugins": false
   },
   "Images": {
     "iconName": "FarImages",
@@ -829,5 +830,42 @@
   "SEM-5/MN3043 Business Econ & Financial Acc": {
     "iconName": "FiDollarSign",
     "iconColor": "#ff4242"
-  }
+  },
+  "Jupyter_notes": {
+    "iconName": "SiJupyter",
+    "iconColor": "#ffb22e"
+  },
+  "Flutter": {
+    "iconName": "SiFlutter",
+    "iconColor": "#3dcfff"
+  },
+  "Interview": {
+    "iconName": "FabJava",
+    "iconColor": "#ff401f"
+  },
+  "SEM-5/CS3350 Embedded Software Engineering/Assignments": "FasFlask",
+  "SEM-5/CS3053 Computer Security/Assignments": "FasFlask",
+  "SEM-5/CS3713 Image Processing/Assignments": "FasFlask",
+  "SEM-5/EN3150 Pattern Recognition/Assignments": "FasFlask",
+  "SEM-5/MA2024 Calculus/Assignemnts": "FasFlask",
+  "SEM-5/MA3024 Numerical Methods/Assignemnts": "FasFlask",
+  "SEM-5/MA3030 Operational Research/Assignments": "FasFlask",
+  "SEM-5/MN3043 Business Econ & Financial Acc/Assignments": "FasFlask",
+  "SEM-5/CS3053 Computer Security/Resources": "SiBookstack",
+  "SEM-5/CS3350 Embedded Software Engineering/Resources": "SiBookstack",
+  "SEM-5/CS3713 Image Processing/Resources": "SiBookstack",
+  "SEM-5/EN3150 Pattern Recognition/Resources": "SiBookstack",
+  "SEM-5/MA2024 Calculus/Resources": "SiBookstack",
+  "SEM-5/MA3024 Numerical Methods/Resources": "SiBookstack",
+  "SEM-5/MA3030 Operational Research/Resources": "SiBookstack",
+  "SEM-5/MN3043 Business Econ & Financial Acc/Resources": "SiBookstack",
+  "SEM-5/MN3043 Business Econ & Financial Acc/Study Notes": "LiNotebookTabs",
+  "SEM-5/MA3030 Operational Research/Study Notes": "LiNotebookTabs",
+  "SEM-5/MA3024 Numerical Methods/Study Notes": "LiNotebookTabs",
+  "SEM-5/MA2024 Calculus/Study Notes": "LiNotebookTabs",
+  "SEM-5/EN3150 Pattern Recognition/Study Notes": "LiNotebookTabs",
+  "SEM-5/CS3713 Image Processing/Study Notes": "LiNotebookTabs",
+  "SEM-5/CS3350 Embedded Software Engineering/Study Note": "LiNotebookTabs",
+  "SEM-5/CS3053 Computer Security/Study Notes": "LiNotebookTabs",
+  "SEM-5/CS3350 Embedded Software Engineering/Z notation": "FasZ"
 }

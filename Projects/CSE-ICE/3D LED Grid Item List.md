@@ -1,0 +1,34 @@
+- [ ] 512x  LEDs (plus some extra for making mistakes!)
+- [ ] 64x resistors. (see separate step for ohm value)
+- 1x or 2x large prototype PCBs. The type with copper "eyes", see image.
+- 1x ATmega32 microcontroller (you can also use the pin-compatible ATmega16)
+- 3x status LEDs. You choose color and size.
+- 3x resistors for the status LEDs.
+- 8x 74HC574 ICs
+- 16x PN2222 transistors
+- 16x 1k resistors
+- 1x 74HC138 IC
+- 1x Maxim MAX232 IC
+- 1x 14.7456 MHz crustal
+- 2x 22pF ceramic capacitors
+- 16x 0.1uF ceramic capacitors
+- 3x 1000uF electrolytic capacitor
+- 3x 10uF electrolytic capacitor
+- 1x 100uF electrolytic capacitors
+- 8x 20 pin IC sockets
+- 1x 40 pin IC socket
+- 2x 16 pin IC socket
+- 1x 2-pin screw terminal
+- 1x 2wire cable with plugs
+- 9x 8-pin terminal pins
+- 1x 4-pin terminal pins, right angle
+- 2x 16-pin ribbon cable connector
+- 1x 10-pin ribbon cable connector
+- Ribbon cable
+- 2x pushbuttons
+- 2x ribbon cable plugs
+- 9x 8-pin female header plugs
+- Serial cable and 4pin female pin header
+- Piece of wood for template and base
+- 8x optional pull-up resistors for layers
+- 5v power supply (see separate step for power supply)

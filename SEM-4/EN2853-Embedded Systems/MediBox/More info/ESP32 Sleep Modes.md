@@ -19,12 +19,12 @@ The ESP32 supports multiple operating modes to balance performance and power eff
 
 Based on the provided document (noting that it references ESP8266 but applies similarly to ESP32 with minor differences), here’s a comparison of sleep modes tailored for ESP32:
 
-|Mode|CPU|System Clock|Wi-Fi|RTC|Power Consumption|Wake-Up Time|
-|---|---|---|---|---|---|---|
-|Active|ON|ON|ON|ON|~100–240 mA|N/A|
-|Modem-Sleep|ON|ON|OFF|ON|~15–20 mA|< 1 ms|
-|Light-Sleep|Paused|OFF|OFF|ON|~0.8–1 mA|~3–5 ms|
-|Deep-Sleep|OFF|OFF|OFF|ON|~10–20 µA|~100–200 ms|
+| Mode        | CPU    | System Clock | Wi-Fi | RTC | Power Consumption | Wake-Up Time |
+| ----------- | ------ | ------------ | ----- | --- | ----------------- | ------------ |
+| Active      | ON     | ON           | ON    | ON  | ~100–240 mA       | N/A          |
+| Modem-Sleep | ON     | ON           | OFF   | ON  | ~15–20 mA         | < 1 ms       |
+| Light-Sleep | Paused | OFF          | OFF   | ON  | ~0.8–1 mA         | ~3–5 ms      |
+| Deep-Sleep  | OFF    | OFF          | OFF   | ON  | ~10–20 µA         | ~100–200 ms  |
 
 > **Note**: Power consumption varies based on ESP32 model (e.g., ESP32-WROOM-32 vs. ESP32-S2) and peripherals used. Always measure power usage in your specific setup.
 

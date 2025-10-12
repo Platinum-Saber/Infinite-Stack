@@ -55,5 +55,29 @@
       ],
       "key": "I"
     }
+  ],
+  "jupymd:restart-python-kernel": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "K"
+    }
+  ],
+  "jupymd:open-jupyter-notebook-editor": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "J"
+    }
+  ],
+  "jupymd:create-jupyter-notebook": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "C"
+    }
   ]
 }

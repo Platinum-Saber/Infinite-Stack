@@ -5,18 +5,16 @@
   "callout-manager",
   "obsidian-admonition",
   "mermaid-tools",
-  "obsidian-icon-shortcodes",
   "tag-wrangler",
-  "obsidian-icon-folder",
-  "obsidian-icons-plugin",
   "obsidian-plugin-toc",
   "table-editor-obsidian",
   "break-page",
   "templater-obsidian",
-  "obsidian-outliner",
   "note-refactor-obsidian",
   "obsidian-meta-bind-plugin",
-  "obsidian-latex-suite",
   "obsidian-annotator",
-  "markdown-table-editor"
+  "obsidian-latex-suite",
+  "obsidian-icons-plugin",
+  "obsidian-icon-shortcodes",
+  "obsidian-git"
 ]

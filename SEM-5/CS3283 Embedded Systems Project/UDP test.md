@@ -88,3 +88,5 @@ Let me know if you'd like:
 * Or integrate this into your ROS 2 pipeline directly next
 
 You’re on the right track 🔧🛰️
+
+ros2 topic pub -1 /robot2/goal_pose geometry_msgs/msg/PoseStamped '{ header: {frame_id: "map"}, pose: { position: {x: 0.5, y: 1.0, z: 0.0}, orientation: {w: 1.0} } }'
